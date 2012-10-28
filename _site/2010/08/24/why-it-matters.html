@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+　　<html>
+　　<head>
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+　　　　<title>Why it matters ?</title>
+　　</head>
+　　<body>
+	<h1>Welcome to my post</h1>
+　　　　这个两个星期在项目的开发过程中，遇到了不少的问题，使我认识到自己某些方面的意识还不是很强烈，思维的方式还需要加强，为什么这么说了？ 我记得以前看书的时候，记得说需要创建一个对象是loo<span>se</span>ly coupled,high cohe<span>s</span>ion ,remove redundancy等等，说到底还是强调说你在思考的时候，多多从OO的角度出发去思考，尽管我觉得自己看过好几次，但是每当自己编程的时候看过自己的代码我都觉得当时的自己思考的仍然不到位。我记得上周编程的过程中，在<span>Se</span>rvice层，我记得当时采用te<span>s</span>t-fir<span>s</span>t model，然后我开始blablabla的写完测试，然后开始写实现，让测试能通过，当然这个测试是针对某一个feature。它会首先获取所有的publi<span>s</span>hedVer<span>s</span>ion<span>s</span>返回的是一个li<span>s</span>t类型，然后判断是否这个li<span>s</span>t为空，如果为空，那么直接返回；如果不是，那么取出li<span>s</span>t中的第一个，然后检查是否u<span>se</span>r拥有MarkA<span>s</span>Depreated的权限，如果有那么就执行这个动作，当时写完后，测试都有通过，bingo! ,我觉得ah,it pa<span>s</span><span>se</span>d,not bad at lea<span>s</span>t，
+<h3>Code Li<span>s</span>t 1</h3>
+<pre class="brush:csharp;">private void HandleSourceDeprecationOn(..){
+List&lt;FormulaVersion&gt; publishedVersions = formulaVersionsDao.GetAll(queryPublishedBySourceId);
+if(pubshedVersions.Count == 0)
+{
+return;
+}
+
+FormulaVersion currentPublishedFormulaVersion = publishedVersions[0];
+currentPublishedFormulaVersion.HasPermission(user, FormulaAction.MarkAsDeprecated);
+currentPublishedFormulaVersion.MarkAsDeprecated();
+}
+</pre>
+但是后来凯哥review到这段代码时，显然他被pi<span>s</span><span>se</span>d off，因为这段代码它的很多操作都是在集中在FormulaVer<span>s</span>ion这个Domain对象上，而且它的加入使得<span>Se</span>rvice层显得有点bloat膨胀，而且<span>Se</span>rvice层应该说对于domain这个对象为什么需要如此low-level或者说detail-level的了解，所以第一眼可以很简单看到说我会将最后两句移到FormulaVer<span>s</span>ion中来,很简单从re<span>s</span>pon<span>s</span>ibility来考虑的话，这个移动是非常直白的，然后就剩下FormulaVer<span>s</span>ion这个li<span>s</span>t啦，这个很low-level是因为它没有反射出<span>Se</span>rvice希望它完成的任务(也就是<span style="background-color: #ffd700;"><strong>self-explanatory</strong></span>))，所以你必须看了这几行然后说,en,这个原来是这目的，所以我把前几句都抽出来成为一个方法会下一步改成如下样子：
+<h3>Code Li<span>s</span>t 2</h3>
+<pre class="brush:csharp;"> private void HandleSourceDeprecationOn(..){
+     FormulaVersion currentPublishedFormulaVersion =GetLatestPublishedCurveBy(queryPublishedBySourceId);
+     currentPublishedFormulaVersion.CheckPermissionAndMarkAsDeprecated()
+         }
+</pre>
+这次经过整理，首先，可以看到整个代码这一段会有比较高的一个抽象层次，现在可以说它是<span style="background-color: #ffd700;"><strong>self-explanatory</strong></span>--很棒的词，我都找不到更适合的词,to <span>s</span>ome extent,有点接近programming by intention，我觉得当时就没有根据intuition来写代码，所以导致代码过于detail，Matin Fowler在他的一本书&lt;&gt;中提到过三种Level of Per<span>s</span>pective(有必要解释这三种per<span>s</span>pective它不局限在UML，它更多是反映在De<span>s</span>igning Object <span>S</span>y<span>s</span>tem<span>s</span>--这是一本<span>S</span>teve Cook和John Daniel<span>s</span>写的书),第一种Conceptual--deal<span>s</span> with the <span>s</span>y<span>s</span>tem object<span>s</span>,like identify the domain model,entitie<span>s</span>；第二种<span>S</span>pecification--mean<span>s</span> public method<span>s</span> that form the interface of each object,but al<span>s</span>o the private method<span>s</span> to which they delegated；第三种:Implementation ---only concerned with the code that doe<span>s</span>t the actual dirty work.
+所以以这里我第一次万恶的代码<strong>Code Li<span>s</span>t 1</strong>为例，你可以看到它明显属于Implementation Per<span>s</span>pective,And Why ?因为它的实现都是非常底层的，非常细节的，就比如上面我们使用的是Li<span>s</span>t，如果后来DAO层签名返回类型改为了一个不是采用Count作为统计的字段，包括我还有可能使用的不是 GetAll或者是等等这些细节的变化并不会影响它carry out的功能，但是它的底层dirty job的性质使得它非常容易变化，所以你每一次的变化定位<span>s</span>pot会带来很大的麻烦，因为你那个时候都你底层改变涉及到非常的引用时，所以你会运行测试看看是否broke anything,这个时候测试失败你只会关注这个测试是测试什么功能，所以这个时候你的思维是从抽象到具体，你想通过它需要完成功能再去定位你错误的地方，如果你采用的Code Li<span>s</span>t 1这种方式，当然我的代码很短，有可能很容易，但是这个时候你必须迫使你重新将底层联合起来想它完成什么功能，如果稍微长一点，那么会非常不利于你快速定位你那个地方实现有问题。 所以总的来说它的缺陷是它逼迫你从代码实现细节来推理它真正carry out 的功能，而这种方式取决它本身功能是否容易明了同时取决于你的实现细节。 Ok,enough，对于第一段代码，我想说自己当时没有从高一点的层次来思考问题，而问题是我是先写测试的，那么它应该是有迫使你从<span>S</span>pecification这个层次上去思考的，比如第一步我应该 blablabla..第二步我应该blablabla....，为什么会这样？ 首先我觉得当时自己当时应该有想清楚这些步骤，但是当然抱的想法是先让它过再说，这当然没错，但是....eh ....过了之后，居然无法从Implementation这个Per<span>s</span>pective回到<span>S</span>pecification这个层次，直接导致di<span>s</span>a<span>s</span>ter，同时自己在重构的时候没有花太多时间就是赶下一个feature，这是个问题。对于第二个，更是没有从<span>S</span>RP(<!--more--><a href="http://www.objectmentor.com/resources/articles/srp.pdf " target="_blank"><span>S</span>ingle Re<span>s</span>pon<span>s</span>ibility Principle</a>)的角度出发，实际上也是当时我在写的时候处于Implementation的角度，怎么可能当时反应出来这些东西应该从Re<span>s</span>pon<span>s</span>ibility的角度来考虑，当时自己完全在树木里挣扎，怎么可能jump out of box而看到森林，或者说整个的big picture,而且自己后期写完测试之后的重构明显不到位，<span>s</span>hame on u! 我觉得这个问题的发生第一个自己习惯不好，写测试的时候这个hat转换不过来，戴了Implementation的hat后，无法抽出来再去即是戴上<span>S</span>pecification的hat ,第二个写测试的习惯不好，特别是实现，我们强调说按那个red-refactoring-green的rhyme来，一步一步incremental的使之更完善，但是在实现的时候如何保持脑袋里有这个big picture----那就是Programming by Intention--<span>s</span>o FWORDing important ，这两个并不矛盾，比如上面，我写了测试案例，我第一步可能会在实现中先写上 第一步 GetLate<span>s</span>tCuver() 第二步 CheckPermi<span>s</span><span>s</span>ionAndMarkA<span>s</span>Deprecate()的，一开始它们可能都是<span>s</span>tub，但是有个好处它时刻提醒你你脑袋中需要有这么一个整体的思路，也许它们的不一定严格是这样，但是它帮助你按照你写测试和将来读测试的思路保持一致，这其实就是一个很好的从<span>S</span>pecification Per<span>s</span>pective思考的例子 。这个时候你在看<strong>Code Li<span>s</span>t 2</strong>，相对<strong>Code Li<span>s</span>t 1</strong> 不同在于Handle<span>S</span>ourceDeprecationOn()这个方法它的抽象层次是相同的，我只需要的是看到,哦，两个步骤，第一步是干什么GetLate<span>s</span>tPubli<span>s</span>hedCurveBy()；第二步是干什么CheckPermi<span>s</span><span>s</span>ionAndMarkA<span>s</span>Deprecated，没有任何实现细节被包含，所以这个方法Handle<span>S</span>ourceDeprecationOn()是一个完完全全的<span>S</span>pecification Level的方法，具有非常高的<span style="background-color: #ffd700;"><em>self-explanatory</em></span> ，因为为什么？
+<blockquote><strong>Handle<span>S</span>ourceDeprecationOn() 这个方法i<span>s</span> only concerned with What they(GetLate<span>s</span>tPubli<span>s</span>hedCurveBy and CheckPermi<span>s</span><span>s</span>ionAndMarkA<span>s</span>Deprecated) do ,how they are called and what they returned, but not how they do it . </strong></blockquote>
+这两个方法如何实现 i<span>s</span> totally not the bizne<span>s</span><span>s</span> of Handle<span>S</span>ourceDeprecationOn() method----that '<span>s</span> what Implementation Level doe<span>s</span>.
+然后come<span>s</span> the third <span>s</span>tep.这是关于Li<span>s</span>t 和OO<span>s</span>的一个关系，我听过凯歌讲过这个实例不下三遍，但有些时候自己还是没有想到，真是....... 这个经典的列子是你如果在DAO层返回一个Li<span>s</span>t
+，然后你可能会后来在<span>Se</span>rvice层或者什么地方对于Li<span>s</span>t
+做一个操作，比如说是遍历这个li<span>s</span>t找出所有年纪大于什么什么的，ok,很简单我们只要来个foreach在来个过滤(如何你hate linq的话)，但是随着你需要的增多，比如找出一群人中所有买不起房的人等等，比如对于这群人他们的behavior有需要慢慢增多，而后对于这群Li<span>s</span>t上面的操作也越来越多，而且每次你都必须显示遍历li<span>s</span>t。然后你会发现每一次需要这群人上面的某个操作，你需要重复，有可能你会抽取一个utility方法，专门来处理 Li<span>s</span>t
+。所以这个时候就是因为你没有从OO的角度去思考这个问题,in my humble opinon ，首先一群人也许应该抽出成为一个独立对象，这个对象上有着人群的一些behavior，这里比如说是People ,然后我说People.findCannotBuyHou<span>se</span>() ，这个远远对于一个Li<span>s</span>t
+对遍历来得快，来的更加的<strong><span style="background-color: #ffd700;">self-explanatory</span></strong>，更直白，所以我有一个对象它记录着一些群体的behavior，而不需要离散得放在utility helper中，你可能说people不是一个li<span>s</span>t ,wow ,that'<span>s</span> true ,don't <span>s</span>imply ju<span>s</span>t apply <strong><em>I<span>S</span>-A</em></strong> ,how about thinking in "behavior"? check out thi<span>s</span><a href="http://www.objectmentor.com/resources/articles/lsp.pdf" target="_blank"> The Li<span>s</span>kov <span>S</span>ub<span>s</span>titution Principle</a>；其次，这个其实也反应前面提到的Level of Per<span>s</span>pective 的划分，对于Li<span>s</span>t
+，首先我们强迫了用户去知道在know how it doe<span>s</span>,很明显用户不care这么底层实现的信息，它如何实现细节我不管；最后，对于Li<span>s</span>t
+它暴露的只是一个数据类型，用户care难道是li<span>s</span>t形式的单个per<span>s</span>on还是群体? it depend<span>s</span>. 现在将代码贴上:
+<h3>Code Li<span>s</span>t 3</h3>
+<pre class="brush:csharp;">
+ private void HandleSourceDeprecationOn(..){
+     FormulaVersions publishedVersions = formulaVersionsDao.GetAll(queryPublishedBySourceId);
+     var currentPublishedFormulaVersion = publishedVersions.DeprecateLatestVersion(user);
+  }
+</pre>
+可以看到这里GetAll返回的是一个FormulaVer<span>s</span>ion<span>s</span>对象，而非Li<span>s</span>t,这里可以看到DAO中GetAll返回便是FormulaVer<span>s</span>ion<span>s</span>对象，而非Li<span>s</span>t
+，这样做的原因是迫使任何使用DAO的方法或者逻辑使用FormulaVer<span>s</span>ion<span>s</span>对象，而非Li<span>s</span>t，使它们脱离出实现细节，这样做的另外的原因是在FormulaVer<span>s</span>ion<span>s</span>上确实是有很多关于群一级的behavior，避免了foreach Li<span>s</span>t的泛滥，同时也因为这些behavior的存在要求使得它从Li<span>s</span>t“升级”出来。这是不是一个"Be<span>s</span>t Practice"了？有可能。 那要不要每一个都得这么做了？ 当然不是，这取决于它的context.
+Check out Ted Neward'<span>s</span> blog "<a href="http://blogs.tedneward.com/2010/08/10/Death+To+Best+Practices.aspx" target="_blank">Death to Be<span>s</span>t Practice<span>s</span></a>"  里面提到了非常重要的一个概念context ,当然这个如果看过设计模式，这个context定会相当有感触，  引用<span>S</span>cott L.Bain在&lt;&lt;<a href="http://www.amazon.com/Emergent-Design-Evolutionary-Professional-Development/dp/0321509366" target="_blank">Emergent De<span>s</span>ign</a>&gt;&gt;的一段描述
+<blockquote>Under<span>s</span>tanding what pattern<span>s</span> are not i<span>s</span> almo<span>s</span>t a<span>s</span> important a<span>s</span> under<span>s</span>tanding what they are,becau<span>se</span> mi<span>s</span>under<span>s</span>tanding their e<span>s</span><span>se</span>ntial nature tend<span>s</span> to cau<span>se</span> them to be mi<span>s</span>u<span>se</span>d,overu<span>se</span>d,and finally abandoned by tho<span>se</span> who become fru<span>s</span>trated with them.</blockquote>
+还有一句
+<blockquote><strong>Very few people con<span>s</span>ider pattern<span>s</span> a<span>s</span> collection<span>s</span> of force<span>s</span>.</strong></blockquote>
+我觉得这就非常明显回答了这个问题，要不要把每一个Li<span>s</span>t换成一个相对应的OO<span>s</span>了？ 答案是it depend<span>s</span>. 如果返回的Li<span>s</span>t对象仅仅就是做一些关于li<span>s</span>t的一些东西，比如count，或者说它对象的OO<span>s</span>对象在整个程序中没有要求behavior，我觉得是可以直接用li<span>s</span>t,因为盲目的去替换所有的li<span>s</span>t为OO<span>s</span>，正是忽略了它使用的context.我们需要考虑它所有的force<span>s</span>，然后做出mo<span>s</span>t outweighed的选择.
+<span>S</span>o,why it matter<span>s</span>? and it matter<span>s</span> what ? --Gotta <span>s</span>ome clue<span>s</span>?
+
+
+</body>　
+</html>
