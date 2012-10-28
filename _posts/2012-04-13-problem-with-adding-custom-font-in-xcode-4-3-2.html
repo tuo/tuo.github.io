@@ -13,7 +13,9 @@ meta:
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;Well, I guess John Muchow's blog <a href="http://iphonedevelopertips.com/user-interface/load-and-access-custom-fonts.html" target="_blank">Load and Access Custom Fonts" </a> pretty much said everything about adding custom font before xcode 4.3.2. Before Xcode 4.3.2, when you add custom font, you need to make sure name of font you use in following code snippet:
 
-<pre lang="c">[label2 setFont: [UIFont fontWithName: @"BlackBoard" size:18]];</pre>
+{% highlight objectivec %}
+[label2 setFont: [UIFont fontWithName: @"BlackBoard" size:18]];
+{% endhighlight %}
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3>Where is my font ?</h3>
 &nbsp;&nbsp;&nbsp;&nbsp;the "BlarkBoard" is the real name when you install it on mac. So the file name you just add to Resource and plist file , like "BlackBoard.ttf" is always the same the name of font that installed on mac.So you need to open that font file in FontBook, and write the name showing up down, like "Black BoardSb".
