@@ -4,7 +4,7 @@
   <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <meta name="msvalidate.01" content="D44891873E3206AEFB1E30BD563E5E4B" />
-   <title>Hi,guys</title>
+   <title>problem with adding custom font in Xcode 4.3.2</title>
    <meta name="author" content="Tuo 拓" />
    <link href="http://feeds.feedburner.com/dyashkir.github.com" rel="alternate" title="Tuo 拓" type="application/atom+xml" />
 
@@ -40,11 +40,31 @@
   </div>
   
   <div id="post">
-终于有了自己的一个域名，<a href="http://www.tuohuang.info">www.tuohuang.info</a>，得非常感谢凯哥和gigix的帮助，得以有自己一个可以workable的东西，再次感谢杰哥帮我在他的dreamhost上给了一个空间，同时这个月跟他的pair过程中，我学习到了很多东西，他强调跟我说对于技术人员保持写日志的习惯有多么重要，事实上我非常地赞同，写日志事情都没有理由不去坚持，如果这不能克服阻力坚持下去，没有理由你能办好其他的事情，听杰哥说他写日志有很多年的习惯，而且原来周末一写便是一下午，五六千字，我非常佩服。一个好的习惯是非常重要的，所以这里再次表示感谢，so appreciate。
-我之前的日志一部分是放在了新浪上,一部分是放在了<a href="http://clarkht.iteye.com/" target="_blank">http://clarkht.iteye.com/</a>上.
+&nbsp;&nbsp;&nbsp;&nbsp;Well, I guess John Muchow's blog <a href="http://iphonedevelopertips.com/user-interface/load-and-access-custom-fonts.html" target="_blank">Load and Access Custom Fonts" </a> pretty much said everything about adding custom font before xcode 4.3.2. Before Xcode 4.3.2, when you add custom font, you need to make sure name of font you use in following code snippet:
 
-我最近偶然看到一句话（从某位童鞋的分享的日志瞥见的）:
-<blockquote>      What really distinguish u is that when they're on current step,they already have figure out what should do for next step,and ,esp,they know how every step are gonna fit to a big plan,and before all of these,they knew at the very beginning who they are and what the big plan is. So, only u know what u want ,then follow your soul,and that will lead u there undoubtfully. Remember what make u happy, and enjoy it , it's just so simple.</blockquote>
+<pre lang="c">[label2 setFont: [UIFont fontWithName: @"BlackBoard" size:18]];</pre>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3>Where is my font ?</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;the "BlarkBoard" is the real name when you install it on mac. So the file name you just add to Resource and plist file , like "BlackBoard.ttf" is always the same the name of font that installed on mac.So you need to open that font file in FontBook, and write the name showing up down, like "Black BoardSb".
+&nbsp;&nbsp;&nbsp;&nbsp;Then when you want to refer to font in the code:
+<pre lang="c">[label2 setFont: [UIFont fontWithName: @"Black BoardSb" size:18]];</pre>
+
+&nbsp;&nbsp;&nbsp;&nbsp;That is so important and it is always easy to forget about. Actually there is one way to debug it when the fonts doesn't show up as you expected by using:
+<pre lang="c">NSLog(@"Available fonts: %@", [UIFont familyNames]);</pre>
+
+&nbsp;&nbsp;&nbsp;&nbsp;So far, all is good. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3>But if you use Xcode 4.3.2......</h3>
+&nbsp;&nbsp;&nbsp;But if you use Xcode 4.3.2, although you are very sure that every steps above are done properly, you still can't find the font you expected in
+the log message of [UIFont familyNames].
+Here is the reason:
+<em><strong>          You have to go to "Copy Bundle Resources" in "Build Phases" of your project, and add font file to that list.</strong></em>
+
+
+<a href="http://www.flickr.com/photos/54952827@N02/6927232622/" title="Screen Shot 2012-04-13 at 6.24.59 PM by Tuo Huang, on Flickr"><img src="http://farm6.staticflickr.com/5197/6927232622_a5fefae380_z.jpg" width="640" height="114" alt="Screen Shot 2012-04-13 at 6.24.59 PM"></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Then run the project. Bang! It works now.
+&nbsp;&nbsp;&nbsp;&nbsp;I've no freaking idea what's going on.It seems there is a bug relating to custom font in Xcode 4.3.2.
+
 
 </div>
 

@@ -4,7 +4,7 @@
   <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <meta name="msvalidate.01" content="D44891873E3206AEFB1E30BD563E5E4B" />
-   <title>Hi,guys</title>
+   <title>chronicèªç¶è¯­è¨æ¥è¡¨è¾¾æ¶é´</title>
    <meta name="author" content="Tuo 拓" />
    <link href="http://feeds.feedburner.com/dyashkir.github.com" rel="alternate" title="Tuo 拓" type="application/atom+xml" />
 
@@ -40,11 +40,50 @@
   </div>
   
   <div id="post">
-终于有了自己的一个域名，<a href="http://www.tuohuang.info">www.tuohuang.info</a>，得非常感谢凯哥和gigix的帮助，得以有自己一个可以workable的东西，再次感谢杰哥帮我在他的dreamhost上给了一个空间，同时这个月跟他的pair过程中，我学习到了很多东西，他强调跟我说对于技术人员保持写日志的习惯有多么重要，事实上我非常地赞同，写日志事情都没有理由不去坚持，如果这不能克服阻力坚持下去，没有理由你能办好其他的事情，听杰哥说他写日志有很多年的习惯，而且原来周末一写便是一下午，五六千字，我非常佩服。一个好的习惯是非常重要的，所以这里再次表示感谢，so appreciate。
-我之前的日志一部分是放在了新浪上,一部分是放在了<a href="http://clarkht.iteye.com/" target="_blank">http://clarkht.iteye.com/</a>上.
+<p style="font-family: Verdana,menlo,monaco">
+最近的Rails项目的cucumber测试中，经常会碰到需要处理时间。有意思的是，我们在cucumber测试中需要尽量用自然语言来表达时间，而在其对应的step definition中需要解析成为对应的时间。 比如我们需要在feature表达<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">“3个月以前”</span>这个概念，原有的做法是 直接在feature中写成<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">"3.months.ago"</span> ,而对应的步定义中则是用到eval()来解析成为对应的时间：<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">eval(time_literal || "1.month.ago")</span>.  也许这个<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">"3.months.ago"</span>还不是非常接近自然语言，为什么中间有"."了？ 所以我们可以进一步改进一下， 在feature中写成"3 months ago" ,然后在调用eval函数之前，先将空格替换成点。 嗯， 还不错，至少Rails自带支持的时间处理是够用的。 但是后来我们需要处理<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">“上个星期的周二”</span>， 那这个Rails自带的时间支持无法很好的完成任务了。
+</p>
+所以也就出现了chronic这个gem.
+<blockquote style="  font-size: 1.3em;
+    font-style: normal;
+    line-height: 1.6em;
+    word-spacing: 0.15em;padding:15px"><a href="http://chronic.rubyforge.org/classes/Chronic.html">Chronic</a> is a natural language date/time parser written in pure Ruby. See below for the wide variety of formats <a href="http://chronic.rubyforge.org/classes/Chronic.html">Chronic</a> will parse.</blockquote>
+Chronic能非常的适用于上述的情景。
 
-我最近偶然看到一句话（从某位童鞋的分享的日志瞥见的）:
-<blockquote>      What really distinguish u is that when they're on current step,they already have figure out what should do for next step,and ,esp,they know how every step are gonna fit to a big plan,and before all of these,they knew at the very beginning who they are and what the big plan is. So, only u know what u want ,then follow your soul,and that will lead u there undoubtfully. Remember what make u happy, and enjoy it , it's just so simple.</blockquote>
+下面摘抄了chronic上的一些例子：
+<pre style="background-color:#FFFFAA; -moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius:10px; 
+    background-color: #FFFFAA;
+    border: 4px solid #DDDDBB;
+    color: #444400;
+    padding: 10px;font-family: consolas,menlo,monaco;
+    font-size: 0.95em;
+    font-style: normal;
+    line-height: 1.4em;
+    word-spacing: 0.15em;">  
+  3 years ago
+  5 months before now
+  7 hours ago
+  7 days from now
+  1 week hence
+  in 3 hours
+  1 year ago tomorrow
+  3 months ago saturday at 5:00 pm
+  7 hours before tomorrow at noon
+  3rd wednesday in november
+  3rd month next year
+  3rd thursday this september
+  4th day last week
+</pre>
+<p style="font-family: Verdana,menlo,monaco">我们可以直接在feature中写<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">“last week tuesday"</span> ，然后在步定义中直接调用 Chronic.parse(time_literal)就可以很方便的得到我们需要的时间。
+
+参考：
+<a href="http://www.rubyinside.com/chronic-0-3-0-released-improved-natural-language-datetime-parsing-3938.html" target="_blank">Chronic 0.3.0 Released: Improved Natural Language Date/Time Parsing</a>
+</p>
+
+更新: 2010/06/19
+ Chronic之前用的是2.0.3版本,存在一个问题, 比如说今天是2011/05/30,
+使用Chronic.parse("3 months ago") 会得到2011/03/02( 简单的就是减去90天), 而不是像Rails内制的 3.months.ago得到2011/02/28. 我有在github isssue发过一个贴子<a href="https://github.com/mojombo/chronic/issues/47" target="_blank">Parse n months ago problem</a>,得到作者的回复是,在Chronic 0.4.0版本以后都统一使用了ruby自制的时间处理. Ruby 5也贴出了关于chronic更新的消息 <a href="http://feedproxy.google.com/~r/Ruby5/~3/feD4n14B20I/185-episode-182-june-10-2011" target="_blank">chronic update</a>
 
 </div>
 
