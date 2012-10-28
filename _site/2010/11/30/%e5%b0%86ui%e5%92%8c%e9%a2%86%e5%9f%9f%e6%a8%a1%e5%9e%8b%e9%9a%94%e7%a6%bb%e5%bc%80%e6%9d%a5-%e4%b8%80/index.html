@@ -43,7 +43,8 @@
   <section id="main"><!-- #main content and sidebar area -->  
       <div id="content">
         <article class="articlecontent">
-          <div id="post">
+          <h1 style="color: #AA0000;">将UI和领域模型隔离开来 (一)</h1>
+<div id="post">
 有将近一个月没有更新博客了,这阵子确实比较忙,必须淡定,克己轩. 不过这期间我有在Evernote中记录了一些零星的想法和感触,今天刚好有时间,于是拿出来仔细瞧了瞧.其中有一篇是关于我在TWU即将结束的时候记下来的日记,记得当时有一个故事,需要将浏览器端的javascript验证逻辑移植到服务器端.在完成这个故事的过程中给我留下了很深的印象,遇到了很多有意思的问题,我觉得我有必要写出来,否则时间过久了就会忘了.TWU这个项目比较有意思,它历经了几届TWU学员的蹂躏,很好的完成了试验品这个角色赋予的任务,你可以猜到当我们拿到这个项目时,并不是推到原有的而从新开始开发,而是在既有的代码库上进行开发.
 我会选取我在完成这个故事中的一个情景入手,这个情景是用户可以跳到"创建新故事"页面,然后可以输入title(文本框,必须填写),city(文本框,必须填写),content(文本框,必须填写),month(下拉框,非必须选择)和year(文本框,必须填写)这几个选项,然后单击"Publish"按钮进行发布,发布之后会跳到 显示故事的页面,它会显示刚刚创建的故事的一些信息. 其中值得注意的是 用户在"创建新故事" 页面的表格中,如果用户跳过month字段,因为它是非必须的,那么在显示故事的页面的"Event Date: "后面只会显示年份,而没有月份.
 
@@ -229,7 +230,7 @@ public Boolean save(Story story, User currentUser,String contextPath) {
   <h2>Related Posts</h2>
   <ul class="posts">
     
-      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/test-jekyll-integration">Test Jekyll Integration</a></li>
+      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/android-listview-remember-selection-and-set-default-selection">Android listview remember selection and set default selection</a></li>
     
       <li><span>09 Oct 2012</span> &raquo; <a href="/2012/10/09/%25e8%25bd%25ac%25ef%25bc%259a-e%25e7%25bb%259c%25e7%259b%259f-2012%25e6%25a0%2591%25e8%258e%2593%25e6%25b4%25be-raspberry-pi%25e5%258f%2591%25e7%2583%25a7%25e5%258f%258b%25e8%25a7%2581%25e9%259d%25a2%25e4%25bc%259a">转： e络盟-2012树莓派-raspberry-pi发烧友见面会</a></li>
     
@@ -274,7 +275,7 @@ I like mobile development and agile.<br/>
 	  <h3>Categories</h3>
 <ul>
   
-  <li><a href="/ios.html">ios (1)</a></li>
+  <li><a href="/android.html">android (1)</a></li>
   
 </ul>
 

@@ -43,7 +43,8 @@
   <section id="main"><!-- #main content and sidebar area -->  
       <div id="content">
         <article class="articlecontent">
-          <div id="post">
+          <h1 style="color: #AA0000;">实践中的Codinng Convention and Incremental Development一点体会</h1>
+<div id="post">
 这一周的工作印象很深的第一件事是<a href="http://www.iamhukai.com/" target="_blank">凯哥</a>需要去添加页面，然后发现那个样式并没有应用上，在firebug上一看，原来是简单标记使用css的元素id不一致，在一个页面中你可以看到一部分是以hyphen - 连字符，另一部分却是underline _ 下划线，而且确是有混在一起使用，看起来怪怪的。早些的时候我原来有接触过这个页面，但当时我有看到这个问题，却并没有一下子潜进去去替换或怎么样，因为当时感觉虽然也有问题，但是还不是一个很大的deficiency缺点，直至到现在它已经不能work,而且非常的counter-intuitive. ps:尽管凯哥一直强调我写日志的时候需要考虑对象，但是从我的手指间不自觉的会流出这种风格. 已经是到了不得不改的时候了，so,which style u're gotta pick up , hyphen ,camelCase or underscore ? 凯哥在检查的时候使用的是连字符，那有没有说一种naming convention 或者 'best practice' 或者说无论哪种只是一个personal preference了?    W3C css 规范并没有提出太多的指示，而在StackOverflow上的一篇帖子<a href="http://stackoverflow.com/questions/1686337/hyphens-or-underscores-in-css-and-html-identifiers" target="_blank">Hyphens or underscores in CSS and HTML identifiers?</a> 和CSS-Tricks的问卷调查<a href="http://css-tricks.com/new-poll-hyphens-or-dashes/" target="_blank">New Poll: Hyphens, Underscores, or camelCase</a>? 大家都有提出自己的看法，连字符、下划线和camelcase都是可以的，仅仅是一个个人喜欢的问题，选择权is totally up to u. 当我们bla bla bla的将很多页面的涉及到的不符合命名规范的id都换成统一的风格时，我们发现这个改动实在是太痛苦了,手工的copy/paste，而且你还没办法去automate它，很多东西是如此的insidious，那可是花了一周折。这种机械的却又无法交给机器去自动化的东西，解决办法有一个，那就是从源头上截断它的产生。所以凯哥说这不是某一个coder的错误，而是当初项目的一个错误。因为当初并没有指定Code Standards，并且因为大家是如此有个性的coder,所以大家的风格没有办法去align，却要找不到一个guideline来balance，不同的风格并没有错，但是需要一个大家可以参考的baseline,你不能越过它，否则各种不同风格的代码的这种pile up，慢慢的这种维护或者修改就变得越来越难。这也就是XP一个practice  "Coding Standards" ,这个是一个非常重要的东东，在项目开始大家一起定制一个统一的guideline或者standards，并且在这个standards内能让coder的风格能发挥很大的自由却不会造成team mates中间的disagreement，因为这些都有在前面讨论过。引用James Shore的<a href="http://books.google.com/books?id=g_ji7cRb--UC&amp;printsec=frontcover&amp;dq=art+of+agile&amp;source=bl&amp;ots=vlPvwuVzbB&amp;sig=3Wg3MGDR-H8kKOmom89CiWEWzu0&amp;hl=en&amp;ei=bSV6TO20GI_6cPij4eIF&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=5&amp;ved=0CCsQ6AEwBA#v=onepage&amp;q&amp;f=false" target="_blank">The Art of Agile Development</a> 关于Code Standards的99字总结:
 
 
@@ -142,7 +143,7 @@ return new DateTime(dataTimeInDb.Year, dataTimeInDb.Month, dataTimeInDb.Day, dat
   <h2>Related Posts</h2>
   <ul class="posts">
     
-      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/test-jekyll-integration">Test Jekyll Integration</a></li>
+      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/android-listview-remember-selection-and-set-default-selection">Android listview remember selection and set default selection</a></li>
     
       <li><span>09 Oct 2012</span> &raquo; <a href="/2012/10/09/%25e8%25bd%25ac%25ef%25bc%259a-e%25e7%25bb%259c%25e7%259b%259f-2012%25e6%25a0%2591%25e8%258e%2593%25e6%25b4%25be-raspberry-pi%25e5%258f%2591%25e7%2583%25a7%25e5%258f%258b%25e8%25a7%2581%25e9%259d%25a2%25e4%25bc%259a">转： e络盟-2012树莓派-raspberry-pi发烧友见面会</a></li>
     
@@ -187,7 +188,7 @@ I like mobile development and agile.<br/>
 	  <h3>Categories</h3>
 <ul>
   
-  <li><a href="/ios.html">ios (1)</a></li>
+  <li><a href="/android.html">android (1)</a></li>
   
 </ul>
 

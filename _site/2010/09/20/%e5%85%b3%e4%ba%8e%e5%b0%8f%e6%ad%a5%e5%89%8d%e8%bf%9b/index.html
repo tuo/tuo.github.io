@@ -43,7 +43,8 @@
   <section id="main"><!-- #main content and sidebar area -->  
       <div id="content">
         <article class="articlecontent">
-          <div id="post">
+          <h1 style="color: #AA0000;">关于小步前进</h1>
+<div id="post">
 在过去的一周中,主要是跟凯哥一起做CurveBuilder这边的性能测试,同时修复已经测试出来的bug和不完善的地方.对于性能测试这一块,测试的计划是这样子,首先准备好数据(后面会讲到测试数据的这样一个台阶或者说分水岭),然后对于几个主要页面,使用Apache Benchmark来测试这几个页面的响应的时间.首先需要面对的问题是如何比较合理的划分前提准备数据的层次,在项目中我们有表EventSource它的数据量是比较稳定同时也比较接近用户真实环境中情况,同时也有Favorites,Alarms和FormulaVersions这三个表,他们的数据的层次就显得很有必要, 势必要按照这样一个基本阶梯来 : 一开始是数据量基本符合用户的正常使用的通常情况;第二是数据量是用户可能会达到,但是相对所占比列不是很大 ;最后便是认为用户基本上不会达到,或者很少很少的情况下达到,可以认为这是极限测试. 通过凯哥跟客户的交流 ,进一步确定了测试数据阶梯的这样一个划分,分别是500,1000和2000. 然后使用Apache Benchmark进行对服务器能处理请求容量或者速度的一个测试,分别有三个类似的阶梯划分,一个是50个用户30个并发程度,100个请求50个并发程度和500个请求100个并发程度.那使用ab的话,因为我们使用的是本地认证,所以我们必须绕过它的限制,所以需要有针对性的进行配置. 紧接着写了一个Ruby脚本来请求每一个页面,并对返回的结果做一个简单的处理.
 
 一开始的时候我们并没有直接上ab ,而是现在本地上跑看看速度处理怎么样, 在Firefox下速度显示超快，但是在IE8发现显示Favorite 的页面速度超慢,不知道为什么,然后凯哥就开始一步步检查这个瓶颈在哪里出现的(你可以能会问题为什么用什么IE，不以MOSe为标准或者怎么样，我得提示说这个是客户的要求，人家就是要求说IE8，所以客户是G .O .D).首先想到的是在"" 层下的从数据库取出数据的速度很慢,然后写了测试发现速度还是可以的,证明取出数据是非常快,然后我们想说那应该就是View层render的非常慢,然后我们一点一点将显示的东西去掉，看看速度有没有提.果然我们发现这一段代码
@@ -136,7 +137,7 @@ return false;
   <h2>Related Posts</h2>
   <ul class="posts">
     
-      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/test-jekyll-integration">Test Jekyll Integration</a></li>
+      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/android-listview-remember-selection-and-set-default-selection">Android listview remember selection and set default selection</a></li>
     
       <li><span>09 Oct 2012</span> &raquo; <a href="/2012/10/09/%25e8%25bd%25ac%25ef%25bc%259a-e%25e7%25bb%259c%25e7%259b%259f-2012%25e6%25a0%2591%25e8%258e%2593%25e6%25b4%25be-raspberry-pi%25e5%258f%2591%25e7%2583%25a7%25e5%258f%258b%25e8%25a7%2581%25e9%259d%25a2%25e4%25bc%259a">转： e络盟-2012树莓派-raspberry-pi发烧友见面会</a></li>
     
@@ -181,7 +182,7 @@ I like mobile development and agile.<br/>
 	  <h3>Categories</h3>
 <ul>
   
-  <li><a href="/ios.html">ios (1)</a></li>
+  <li><a href="/android.html">android (1)</a></li>
   
 </ul>
 

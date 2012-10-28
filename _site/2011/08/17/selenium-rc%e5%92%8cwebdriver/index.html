@@ -43,7 +43,8 @@
   <section id="main"><!-- #main content and sidebar area -->  
       <div id="content">
         <article class="articlecontent">
-          <div id="post">
+          <h1 style="color: #AA0000;">selenium rc和webdriver</h1>
+<div id="post">
 前两天在跟结对的同事查看一段我之前写的自动化搭建初始数据的代码时,同事问我为什么需要起一个selenium server才能跑起来,而我们的本地跑的cucumber测试却没有需要你显示的跑一个selenium server.我一时其实也回答不上来,下班后仔细查了查selenium的文档,才豁然开朗.我之前用的是<a href="http://selenium-client.rubyforge.org/" target="_blank">selenium-client</a>, 因为我之前想用它来截取每个浏览器的屏幕, 而selenium-client提供了很好API来跟浏览器打交道(甚至内置的截图方法),  它是基于Selenium RC的.讲到这个先简要介绍一下selenium,它主要用来驱动和跟浏览器做交互,实现web应用程序的自动化测试. 所以意味着selenium必须有一套自己跟浏览器交互的API.
 
 selenium根据实现形式的不同分为两种: selenium rc 和 webdriver.
@@ -163,7 +164,7 @@ Official Blog:<a href="http://seleniumhq.wordpress.com/">http://seleniumhq.wordp
   <h2>Related Posts</h2>
   <ul class="posts">
     
-      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/test-jekyll-integration">Test Jekyll Integration</a></li>
+      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/android-listview-remember-selection-and-set-default-selection">Android listview remember selection and set default selection</a></li>
     
       <li><span>09 Oct 2012</span> &raquo; <a href="/2012/10/09/%25e8%25bd%25ac%25ef%25bc%259a-e%25e7%25bb%259c%25e7%259b%259f-2012%25e6%25a0%2591%25e8%258e%2593%25e6%25b4%25be-raspberry-pi%25e5%258f%2591%25e7%2583%25a7%25e5%258f%258b%25e8%25a7%2581%25e9%259d%25a2%25e4%25bc%259a">转： e络盟-2012树莓派-raspberry-pi发烧友见面会</a></li>
     
@@ -208,7 +209,7 @@ I like mobile development and agile.<br/>
 	  <h3>Categories</h3>
 <ul>
   
-  <li><a href="/ios.html">ios (1)</a></li>
+  <li><a href="/android.html">android (1)</a></li>
   
 </ul>
 

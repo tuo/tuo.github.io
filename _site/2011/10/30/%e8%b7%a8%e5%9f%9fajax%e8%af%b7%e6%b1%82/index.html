@@ -43,7 +43,8 @@
   <section id="main"><!-- #main content and sidebar area -->  
       <div id="content">
         <article class="articlecontent">
-          <div id="post">
+          <h1 style="color: #AA0000;">跨域ajax请求</h1>
+<div id="post">
 &nbsp;&nbsp;&nbsp;&nbsp;之前写的<a href="https://github.com/tuo/jenkins-dashboard" target="_blank">jenkins-dashboard</a>在几个团队中都在用,效果不错, 但是就是搭建起来有点麻烦. 因为它目前工作原理是起一个ruby进程然后每次去轮训jenkins ci上的每个build的状态(通过jenkins暴露的api),然后写到本地的一个html中.接着在写一个主文件比如dashboard.html,它每隔几秒钟去装载刚才ruby生成的html文件,这样就可以在dashboard上及时显示和更新ci的状态.但是问题是这个太重量级了,你还得装ruby环境和几个gem包甚至可能需要rvm,WTF.于是同事准备只用一个html就搞定,就是说每个几秒钟去发ajax请求到jenkins上拿到最新的构建状态,并更新dom结构或者样式, 这样一来用户就可以主需要下个html文件,并配置下ci的地址和想监控的构建就好了.几天后,我问同事怎么样了,他说ajax请求其他域名出错了. 回头我想了想我是忘记这个事情了, 因为浏览器有<a href="http://en.wikipedia.org/wiki/Same_origin_policy" target="_blank">Same Origin Policy</a>的安全限制. 好比现在:
 
 localhost ----ajax request ---&gt; http://ci.jruby.org/view/Ruboto/api/json
@@ -162,7 +163,7 @@ window对象上. 然后当请求完成,那么它会自动将其删除. 如果你
   <h2>Related Posts</h2>
   <ul class="posts">
     
-      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/test-jekyll-integration">Test Jekyll Integration</a></li>
+      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/android-listview-remember-selection-and-set-default-selection">Android listview remember selection and set default selection</a></li>
     
       <li><span>09 Oct 2012</span> &raquo; <a href="/2012/10/09/%25e8%25bd%25ac%25ef%25bc%259a-e%25e7%25bb%259c%25e7%259b%259f-2012%25e6%25a0%2591%25e8%258e%2593%25e6%25b4%25be-raspberry-pi%25e5%258f%2591%25e7%2583%25a7%25e5%258f%258b%25e8%25a7%2581%25e9%259d%25a2%25e4%25bc%259a">转： e络盟-2012树莓派-raspberry-pi发烧友见面会</a></li>
     
@@ -207,7 +208,7 @@ I like mobile development and agile.<br/>
 	  <h3>Categories</h3>
 <ul>
   
-  <li><a href="/ios.html">ios (1)</a></li>
+  <li><a href="/android.html">android (1)</a></li>
   
 </ul>
 

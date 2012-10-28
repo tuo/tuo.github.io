@@ -43,7 +43,8 @@
   <section id="main"><!-- #main content and sidebar area -->  
       <div id="content">
         <article class="articlecontent">
-          <div id="post">
+          <h1 style="color: #AA0000;">粗心和学习</h1>
+<div id="post">
 &nbsp;&nbsp;&nbsp;&nbsp;下午快下班时结果CruiseControll上显示Installer的测试没有通过，这一看原来是我提交的东东出现了问题，但是我并没有改Installer的东西，只是另一个项目做了一些修改，看起来关系比较奇怪，看起来好像没有关联。但是无可否认问题是出现我提交的那个changeset上面，然后张姐在去产看问题的时候发现其中一个领域对象居然有引用到测试的一个帮助类，然后Installer是不会包含测试项目的引用的，ah......~~~~  超尴尬，我仔细一看确实啊，这个看起来不可思议啊，我想了想当时确实有好像在测试有多处地方需要实例后，然后我说好，那我将这些东东给塞到一个测试帮助类中，这样原来测试看起来会相对明了点，下面抽取之前的代码：
 <pre class="brush: csharp; ">
 [Test]
@@ -125,7 +126,7 @@ Assert.IsTrue(CurveActionPanelPresenterTestHelper.Contains(actions, CurveActionP
   <h2>Related Posts</h2>
   <ul class="posts">
     
-      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/test-jekyll-integration">Test Jekyll Integration</a></li>
+      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/android-listview-remember-selection-and-set-default-selection">Android listview remember selection and set default selection</a></li>
     
       <li><span>09 Oct 2012</span> &raquo; <a href="/2012/10/09/%25e8%25bd%25ac%25ef%25bc%259a-e%25e7%25bb%259c%25e7%259b%259f-2012%25e6%25a0%2591%25e8%258e%2593%25e6%25b4%25be-raspberry-pi%25e5%258f%2591%25e7%2583%25a7%25e5%258f%258b%25e8%25a7%2581%25e9%259d%25a2%25e4%25bc%259a">转： e络盟-2012树莓派-raspberry-pi发烧友见面会</a></li>
     
@@ -170,7 +171,7 @@ I like mobile development and agile.<br/>
 	  <h3>Categories</h3>
 <ul>
   
-  <li><a href="/ios.html">ios (1)</a></li>
+  <li><a href="/android.html">android (1)</a></li>
   
 </ul>
 

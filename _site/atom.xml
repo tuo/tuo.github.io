@@ -3,7 +3,7 @@
   <title>tuo的博客</title>
   <link href="http://tuohuang.info/atom.xml" rel="self"/>
   <link href="http://tuohuang.info/"/>
-  <updated>2012-10-28T21:16:28+08:00</updated>
+  <updated>2012-10-28T21:24:29+08:00</updated>
   <id>http://tuohuang.info/</id>
   <author>
     <name>tuo</name>
@@ -11,11 +11,152 @@
   </author>
   
     <entry>
-      <title>Test Jekyll Integration</title>
-      <link href="http://tuohuang.info/2012/10/28/test-jekyll-integration"/>
+      <title>Android listview remember selection and set default selection</title>
+      <link href="http://tuohuang.info/2012/10/28/android-listview-remember-selection-and-set-default-selection"/>
       <updated>2012-10-28T00:00:00+08:00</updated>
-      <id>http://tuohuang.info/2012/10/28/test-jekyll-integration</id>
-      <content type="html">
+      <id>http://tuohuang.info/2012/10/28/android-listview-remember-selection-and-set-default-selection</id>
+      <content type="html">&lt;p&gt;From an iOS developer's perspective, I find that it is extremely hard to apply features like &quot;&lt;strong&gt;set default selection when starting&lt;/strong&gt;&quot; and &quot;&lt;strong&gt;remember selection status after user clicked row&lt;/strong&gt;&quot; to ListView.&lt;/p&gt;
+
+&lt;p&gt;  So let's start with &lt;strong&gt;&quot;remember selection&quot;&lt;/strong&gt; first.The problem is that even if you know that
+you can use selector xml to define highlight/pressed/focus style.But that style will not
+be kept after user clicked that row. For instance, I have a highlighting selector xml (list_selector.xml under res/drawable folder) like this (but you may have other fields need to highlight like text color of textview in row):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;
+&amp;lt;selector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&amp;gt;
+    &amp;lt;item android:drawable=&quot;@drawable/list_selector_pressed&quot; 
+        android:state_pressed=&quot;true&quot; /&amp;gt;
+    &amp;lt;item android:drawable=&quot;@drawable/list_selector_pressed&quot; 
+        android:state_selected=&quot;true&quot; /&amp;gt;
+&amp;lt;/selector&amp;gt;    
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and list_selector_pressed.xml which defined the highlighting style--set the background color
+to a gray color :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;
+&amp;lt;layer-list xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&amp;gt;
+    &amp;lt;item&amp;gt;
+        &amp;lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&amp;gt;
+            &amp;lt;solid android:color=&quot;@color/dark_gray&quot; /&amp;gt;
+        &amp;lt;/shape&amp;gt;
+    &amp;lt;/item&amp;gt;
+&amp;lt;/layer-list&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So as @David Hedlund suggested:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Rather, assign an OnItemClickListener, and have it store away the id of the selected item into some variable.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;you need to create a instance variable on top of your class:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    private View currentSelectedView;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;then go to&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Override
+public void onListItemClick(ListView l, View v, int position, long id) {
+    if (currentSelectedView != null &amp;amp;&amp;amp; currentSelectedView != v) {
+        unhighlightCurrentRow(currentSelectedView);
+    }
+
+    currentSelectedView = v;
+    highlightCurrentRow(currentSelectedView);
+    //other codes 
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Pretty simple: we check if currentSelectedView is null or current clicked view or not. we first to unhighlight any style by calling method unhighlightCurrentRow(currentSelectedView)---you may wonder why we pass instant variable currentSelectedView as parameter, I will explain it later.  Then we assign view to currentSelectedView and highlight current row; so that the style will persist after user's clicking is done.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private void unhighlightCurrentRow(View rowView) {
+    rowView.setBackgroundColor(Color.TRANSPARENT);
+    TextView textView = (TextView) rowView.findViewById(R.id.menuTitle);
+    textView.setTextColor(getResources().getColor(R.color.white));
+}
+
+private void highlightCurrentRow(View rowView) {
+    rowView.setBackgroundColor(getResources().getColor(
+            R.color.dark_gray));
+    TextView textView = (TextView) rowView.findViewById(R.id.menuTitle);
+    textView.setTextColor(getResources().getColor(R.color.yellow));
+
+} 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt; Aha, that's it. That is how we implement &quot;remember selection&quot; for list view. As you see,
+we have to duplicate the codes for styling both in xml and java code--pretty stupid :(&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next about &quot;set default selection&quot;&lt;/strong&gt;. You may think that you can do this&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;listView.setAdapter(adatper)
+listView.setSelection(0);
+currentSelectedView = listView.getChildAt(0);
+highlightCurrentRow(currentSelectedView);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;in onCreate() in activity or onActivityCreated() in fragment.   &lt;br/&gt;
+But if you run it , you will get NullPointer exception and why ?
+because at this time, the listview is not rendered yet and Android doesn't like iOS which have viewWillAppear. SO you have to create an instant variable to remember whether it is first time to render listview cell and in onListItemClick to unset that variable:&lt;/p&gt;
+
+&lt;p&gt;So under currentSelectedView declaration:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private Boolean firstTimeStartup = true;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;then add methods : suppose we want to highlight the first row in list view:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public class HomeAdapter extends ArrayAdapter&amp;lt;String&amp;gt; {
+    int layoutResourceId;
+
+    public HomeAdapter(Context context, int textViewResourceId,
+            ArrayList&amp;lt;String&amp;gt; objects) {
+        super(context, textViewResourceId, objects);
+        layoutResourceId = textViewResourceId;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
+                    layoutResourceId, null);
+        }
+
+        if (firstTimeStartup &amp;amp;&amp;amp; postion == 0) {
+            highlightCurrentRow(convertView);
+        } else {
+            unhighlightCurrentRow(convertView);
+        }
+
+        TextView title = (TextView) convertView
+                .findViewById(R.id.menuTitle);
+        title.setText(getItem(position));
+        return convertView;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Pretty simple.
+But you need to make some changes in onListItemClick method:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Override
+public void onListItemClick(ListView l, View v, int position, long id) {
+
+    if (firstTimeStartup) {// first time  highlight first row
+        currentSelectedView = l.getChildAt(0);
+    }
+    firstTimeStartup = false; 
+    if (currentSelectedView != null &amp;amp;&amp;amp; currentSelectedView != v) {
+        unhighlightCurrentRow(currentSelectedView);
+    }
+
+    currentSelectedView = v;
+    highlightCurrentRow(currentSelectedView);
+
+     //other codes
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There you go! Enjoy Android :)&lt;/p&gt;
 </content>
     </entry>
   
