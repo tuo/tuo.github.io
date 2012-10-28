@@ -1,13 +1,14 @@
 ---
 layout: default
-title: my blog
+title: Dmytro Yashkir blog
 ---
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
-<h2>{{ page.title }}</h2>
-<p>new blog</p>
-<ul>
-	{% for post in site.posts %}
-	<li>{{ post.date | date_to_string }} <a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a><li>
-		{% endfor %}
-</ul>
+</div>
 
