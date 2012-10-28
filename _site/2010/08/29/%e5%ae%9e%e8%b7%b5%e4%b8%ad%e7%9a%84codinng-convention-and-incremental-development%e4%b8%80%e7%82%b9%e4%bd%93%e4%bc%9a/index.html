@@ -35,11 +35,15 @@
 <div class="site">
   <div class="title">
     <a href="/">Tuo 拓</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
   </div>
   
-  <div id="post">
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <div id="post">
 这一周的工作印象很深的第一件事是<a href="http://www.iamhukai.com/" target="_blank">凯哥</a>需要去添加页面，然后发现那个样式并没有应用上，在firebug上一看，原来是简单标记使用css的元素id不一致，在一个页面中你可以看到一部分是以hyphen - 连字符，另一部分却是underline _ 下划线，而且确是有混在一起使用，看起来怪怪的。早些的时候我原来有接触过这个页面，但当时我有看到这个问题，却并没有一下子潜进去去替换或怎么样，因为当时感觉虽然也有问题，但是还不是一个很大的deficiency缺点，直至到现在它已经不能work,而且非常的counter-intuitive. ps:尽管凯哥一直强调我写日志的时候需要考虑对象，但是从我的手指间不自觉的会流出这种风格. 已经是到了不得不改的时候了，so,which style u're gotta pick up , hyphen ,camelCase or underscore ? 凯哥在检查的时候使用的是连字符，那有没有说一种naming convention 或者 'best practice' 或者说无论哪种只是一个personal preference了?    W3C css 规范并没有提出太多的指示，而在StackOverflow上的一篇帖子<a href="http://stackoverflow.com/questions/1686337/hyphens-or-underscores-in-css-and-html-identifiers" target="_blank">Hyphens or underscores in CSS and HTML identifiers?</a> 和CSS-Tricks的问卷调查<a href="http://css-tricks.com/new-poll-hyphens-or-dashes/" target="_blank">New Poll: Hyphens, Underscores, or camelCase</a>? 大家都有提出自己的看法，连字符、下划线和camelcase都是可以的，仅仅是一个个人喜欢的问题，选择权is totally up to u. 当我们bla bla bla的将很多页面的涉及到的不符合命名规范的id都换成统一的风格时，我们发现这个改动实在是太痛苦了,手工的copy/paste，而且你还没办法去automate它，很多东西是如此的insidious，那可是花了一周折。这种机械的却又无法交给机器去自动化的东西，解决办法有一个，那就是从源头上截断它的产生。所以凯哥说这不是某一个coder的错误，而是当初项目的一个错误。因为当初并没有指定Code Standards，并且因为大家是如此有个性的coder,所以大家的风格没有办法去align，却要找不到一个guideline来balance，不同的风格并没有错，但是需要一个大家可以参考的baseline,你不能越过它，否则各种不同风格的代码的这种pile up，慢慢的这种维护或者修改就变得越来越难。这也就是XP一个practice  "Coding Standards" ,这个是一个非常重要的东东，在项目开始大家一起定制一个统一的guideline或者standards，并且在这个standards内能让coder的风格能发挥很大的自由却不会造成team mates中间的disagreement，因为这些都有在前面讨论过。引用James Shore的<a href="http://books.google.com/books?id=g_ji7cRb--UC&amp;printsec=frontcover&amp;dq=art+of+agile&amp;source=bl&amp;ots=vlPvwuVzbB&amp;sig=3Wg3MGDR-H8kKOmom89CiWEWzu0&amp;hl=en&amp;ei=bSV6TO20GI_6cPij4eIF&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=5&amp;ved=0CCsQ6AEwBA#v=onepage&amp;q&amp;f=false" target="_blank">The Art of Agile Development</a> 关于Code Standards的99字总结:
 
 
@@ -147,6 +151,50 @@ return new DateTime(dataTimeInDb.Year, dataTimeInDb.Month, dataTimeInDb.Day, dat
   </ul>
 </div>
 
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/ios.html">ios (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
   
   <div class="footer">
     <div class="contact">

@@ -35,11 +35,15 @@
 <div class="site">
   <div class="title">
     <a href="/">Tuo 拓</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
   </div>
   
-  <div id="post">
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <div id="post">
 jit graph(<a href="http://thejit.org/demos/" target="_blank">JavaScript InfoVis Toolkit</a> ) is an amazing javascript graph library. Here is the demo i use , the <a href="http://thejit.org/static/v20/Jit/Examples/ForceDirected/example1.html" target="_blank">forcedirected</a> graph. Well I just get stuck on how to add the label on the edges. I 've googled for a lot , but lots of doc are out of sync. So i just tweeted a little bit, and found the following solution.
 <h4>1.modify the json data ,to add a relatedOn key/value</h4>
 <pre lang="javascript">    var json = [
@@ -136,6 +140,50 @@ There you go. Following is the result:
   </ul>
 </div>
 
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/ios.html">ios (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
   
   <div class="footer">
     <div class="contact">

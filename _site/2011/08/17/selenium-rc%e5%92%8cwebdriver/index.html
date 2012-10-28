@@ -35,11 +35,15 @@
 <div class="site">
   <div class="title">
     <a href="/">Tuo 拓</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
   </div>
   
-  <div id="post">
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <div id="post">
 前两天在跟结对的同事查看一段我之前写的自动化搭建初始数据的代码时,同事问我为什么需要起一个selenium server才能跑起来,而我们的本地跑的cucumber测试却没有需要你显示的跑一个selenium server.我一时其实也回答不上来,下班后仔细查了查selenium的文档,才豁然开朗.我之前用的是<a href="http://selenium-client.rubyforge.org/" target="_blank">selenium-client</a>, 因为我之前想用它来截取每个浏览器的屏幕, 而selenium-client提供了很好API来跟浏览器打交道(甚至内置的截图方法),  它是基于Selenium RC的.讲到这个先简要介绍一下selenium,它主要用来驱动和跟浏览器做交互,实现web应用程序的自动化测试. 所以意味着selenium必须有一套自己跟浏览器交互的API.
 
 selenium根据实现形式的不同分为两种: selenium rc 和 webdriver.
@@ -168,6 +172,50 @@ Official Blog:<a href="http://seleniumhq.wordpress.com/">http://seleniumhq.wordp
   </ul>
 </div>
 
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/ios.html">ios (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
   
   <div class="footer">
     <div class="contact">

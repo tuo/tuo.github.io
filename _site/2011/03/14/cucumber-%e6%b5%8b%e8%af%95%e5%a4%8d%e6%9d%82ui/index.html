@@ -35,11 +35,15 @@
 <div class="site">
   <div class="title">
     <a href="/">Tuo 拓</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
   </div>
   
-  <div id="post">
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <div id="post">
 &nbsp;&nbsp;&nbsp;&nbsp;最近碰到的一个问题是:我们在controller层都有完备的单元测试,当然既然是单元测试,也就缺乏集成测试了.为什么会是这样了?因为项目要求测试覆盖率为100%,任何在controller层测试中写跟数据库打交道的测试都会通不过项目的质量检查.那既然controller层测试只有一些stub和mock测试的话,集成测试写在哪里了? 在cucumber测试中.那就写呗,难题在于哪了. 就在view层需要渲染一个复杂的报表,使用highcharts库来渲染的图表.通常一般的cucumber测试,在一个scenario中,准备一些数据,然后访问那个页面,查看是否元素或者数据存在.问题就在最后一步,怎么去页面中抓取到想要的元素或者数据,如果只是简单视图显示,可能就很简单,但是如果这个视图渲染出来之后非常复杂情况就难办了. 这就需要进一步分析报表的渲染模型了.
 &nbsp;&nbsp;&nbsp;&nbsp;highcharts是一个javascript库,你所要做的便是传入合适的数据(配置),然后渲染的事情就可以交给它了. 以这个<a href="http://www.highcharts.com/demo/?example=line-basic&amp;theme=default">demo</a>这个基本线条模式为例:
 &nbsp;&nbsp;&nbsp;&nbsp;<pre lang="javascript">
@@ -157,6 +161,50 @@ data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
   </ul>
 </div>
 
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/ios.html">ios (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
   
   <div class="footer">
     <div class="contact">

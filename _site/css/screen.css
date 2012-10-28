@@ -81,15 +81,17 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: justify;
-  width: 40em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
 
 .title {
   color: #a00;
+  margin: 0 auto;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 0;
+  width: 940px;
+
 }
 
   .site .title a {
@@ -199,3 +201,54 @@ ul.posts {
   
 /* highlight */
 
+#main {
+    
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 940px;
+	border: 0px solid red;
+}
+#content {
+
+    float: left;
+    margin: 10px 0;
+    padding: 5px 20px;
+    width: 625px;
+}
+aside {
+    float: right;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 250px;
+	border: 0px solid blue;
+}
+header, footer, section, aside, nav, article {
+    display: block;
+}
+
+.footer{
+	margin: 0 auto 2em;
+	width: 940px;
+}
+aside section ul {
+    color: #307437;
+    margin: 0 0 0 20px;
+}
+aside section ul li {
+    padding-left: 5px;
+}
+aside section ul li a {
+    color: #000000;
+    display: block;
+    text-decoration: none;
+}
+body {
+    background: url("/images/bg1.png") repeat scroll 0 0 transparent;
+}
+.title{
+	margin-bottom:0;
+	padding-left: 41px;
+}

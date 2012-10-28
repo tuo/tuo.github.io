@@ -35,11 +35,15 @@
 <div class="site">
   <div class="title">
     <a href="/">Tuo 拓</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
   </div>
   
-  <div id="post">
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <div id="post">
 这个两个星期在项目的开发过程中，遇到了不少的问题，使我认识到自己某些方面的意识还不是很强烈，思维的方式还需要加强，为什么这么说了？ 我记得以前看书的时候，记得说需要创建一个对象是loo<span>se</span>ly coupled,high cohe<span>s</span>ion ,remove redundancy等等，说到底还是强调说你在思考的时候，多多从OO的角度出发去思考，尽管我觉得自己看过好几次，但是每当自己编程的时候看过自己的代码我都觉得当时的自己思考的仍然不到位。我记得上周编程的过程中，在<span>Se</span>rvice层，我记得当时采用te<span>s</span>t-fir<span>s</span>t model，然后我开始blablabla的写完测试，然后开始写实现，让测试能通过，当然这个测试是针对某一个feature。它会首先获取所有的publi<span>s</span>hedVer<span>s</span>ion<span>s</span>返回的是一个li<span>s</span>t类型，然后判断是否这个li<span>s</span>t为空，如果为空，那么直接返回；如果不是，那么取出li<span>s</span>t中的第一个，然后检查是否u<span>se</span>r拥有MarkA<span>s</span>Depreated的权限，如果有那么就执行这个动作，当时写完后，测试都有通过，bingo! ,我觉得ah,it pa<span>s</span><span>se</span>d,not bad at lea<span>s</span>t，
 <h3>Code Li<span>s</span>t 1</h3>
 <pre class="brush:csharp;">private void HandleSourceDeprecationOn(..){
@@ -139,6 +143,50 @@ Check out Ted Neward'<span>s</span> blog "<a href="http://blogs.tedneward.com/20
   </ul>
 </div>
 
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/ios.html">ios (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
   
   <div class="footer">
     <div class="contact">

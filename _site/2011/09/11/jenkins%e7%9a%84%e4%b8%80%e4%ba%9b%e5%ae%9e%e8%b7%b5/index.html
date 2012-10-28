@@ -35,11 +35,15 @@
 <div class="site">
   <div class="title">
     <a href="/">Tuo 拓</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
   </div>
   
-  <div id="post">
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <div id="post">
 持续集成已经是大家都非常熟悉的概念了,可以参考Martin的文章<a href="http://martinfowler.com/articles/continuousIntegration.html" target="_blank">Continuous Integration</a> .而Jenkins(原名hudson)正是业界最为流行的持续集成引擎.本文正是总结了近期工作之中一些使用jenkins的收获.
 <h3><a href="http://martinfowler.com/articles/continuousIntegration.html#KeepTheBuildFast">Keep the Build Fast</a></h3>
 保持CI(持续集成服务器)上的工作快速是一个非常重要的方面, 这样才能提供快速的反馈.没有人会忍受一个构建跑上一个小时,毕竟喝上一个小时的茶或者咖啡也还是真是蛮浪费时间的. 之前的持续集成构建都得跑上半个小时,因为这个构建的代码库非常大,不止一个项目.每次构建都会按照一下顺序逐一执行:
@@ -194,6 +198,50 @@ Join适合于"钻石"依赖型的项目. 也就是我们上面的构建流程可
   </ul>
 </div>
 
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/ios.html">ios (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
   
   <div class="footer">
     <div class="contact">

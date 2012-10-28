@@ -35,11 +35,15 @@
 <div class="site">
   <div class="title">
     <a href="/">Tuo 拓</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
   </div>
   
-  <div id="post">
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <div id="post">
 上周编程中有碰到需要处理这个用户权限逻辑的重构,因为首先我们一开始写代码时是很简单的,没有新的超复杂的需求或者变化出现,所以权限这一块基本上比较简单.但是当我们后来遇到一个新情况,某个用户现在有个动作是被禁止的,但是现在需要可以允许,这样就得需要去给某个角色添加允许某一个动作的逻辑,但实际中发现这很困难,为什么? 因为这个角色维护是一个黑名单,而其他角色维护的是白名单.所以这个你的思维得在这两个HAT中不停的转换,有时候很晕,即使有测试,我们觉得仍然非常痛苦.因为这个问题的出现,觉得说这个时候是不是应该达到来某一个阀值THRESHOLD,可以对它进行重构,改成维护一个白名单了.然后就根据测试和规则,对其进行重构.
 第二个比较棘手的问题是一个动作可能需要多个用户一起参与,比如CopyAsNewCurve需要判读当前用户是否同时具有CREATOR和SYSADMIN的角色,而我们当前只有处理每个用户之间是没有任何的知情权的,听凯哥说UNIX也有这样的用户管理机制.那这个问题如何是好了? 我当时的想法是就像STRUTS2有它一系列的拦截器或者像ACEGI一样的拦截器等等(尽管两个我都不是很熟悉),但是感觉很接近.将四个角色按照一定的顺序链起来,然后讲动作等信息作为一个<a href="http://www.industriallogic.com/xp/refactoring/accumulationToCollection.html" target="_blank">COLLECTING PARAMETER</a> 来收集每一个用户对此动作或者用户的许可情况,如果允许那么直接返回;如果不允许,并修改COLLECTING PARAMETER并将其传至下一层,如果到了最后一层没有人处理得了,那就返回FALSE. 然后凯哥说了一个想法,那就是CopyAsNewCurve其实是两个动作,一个是CREATOR可以Create 并且SYSADMIN可以Read的权限,这样的好处还是明了的,实现起来非常简单.方案是使用COMPOSITE模式,将复合动作和原子动作一视同仁(对外).对于复合动作中的每一个动作如果有一个失败,那么就说验证是失败,没有权限;如果都OK,那就是用户有这个权限.
 
@@ -94,6 +98,50 @@
   </ul>
 </div>
 
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/ios.html">ios (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
   
   <div class="footer">
     <div class="contact">

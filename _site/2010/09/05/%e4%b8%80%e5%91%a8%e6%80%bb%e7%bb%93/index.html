@@ -35,11 +35,15 @@
 <div class="site">
   <div class="title">
     <a href="/">Tuo 拓</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
   </div>
   
-  <div id="post">
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <div id="post">
            上一周在开发过程中明显感觉到这个差距啊。。。很多东西，有些时候就是在你平时看书你可能觉得没有什么，然而到了实践却要忘记了，以前在学校读的书不少，当时就有怀疑说自己真实有掌握多少，是不是太缺实践了，果然啊。
            在跟凯哥pair继续完成实现将整个系统中DateTime的实现策略改为将所有UI上获得时间以local或者相应的时区来显示，在数据库中一律以Utc的格式存储。同时在完成一个Alarm设置时凯哥发现很多地方的都会有创建不同Alarm对象的声明，但是有很多重复确是没有将它们可以以一种更好的方式来管理，赋予更具意义更直观的名字，于是便有创建一个AlarmMother专门用来说当成一个工厂，你可以在里面声明你想要的测试数据，并且可以更加易于阅读的方式命名，比如说 new Alarm(alarmtime,TimezoneInfo.Local.Id,UserMother.Trader()) 你所能从这个测试数据的准备中看出来它要干什么是很难的，所以它没有AlarmMother.CreateLocalAlarmFor(UserMother.Trader() ,alarmtime );这样更加直观，它明确的告诉它创建的是一个本地时区的alarmtime，而且AlarmMother将所以对象的实例化都放置一个地方，大大方便了测试数据的准备，这样你的实例化不是散落(scatter)在测试中，而是集中在一个地方，如果你这个实例化的地方有很多，那么这样带来的便利是不言而喻的。这次要将所有散落在测试中直接实例化Alarm的地方全部替换成使用AlarmMother，一搜才发现，真的有蛮多啦，所以这个改动过程非常无聊，纯体力活。试想如果当初发现这个这个创建ALarm的地方有点多，而且对于不同的测试创建Alarm的方式也会是有不同（比如不同的参数代表不同意思），如果有及时的做一个抽象，那么会给后面的测试带来多大的便利。不过我想还是缺乏一种直觉吧，像凯歌有过很多的经验，自然有形成一种reflection反射和intuition直觉，当他有写到一个地方或者一个点，就会有知道说会不会应该先跳出来，看看这样重复有没有可以改进的地方，正如凯歌有说，这个需要时间，我这经验还很少，慢慢来。
               记得上周五有实现一个关于复选框支持批量删除的故事，然后我记得我当初想的是让用户在页面选中复选框，然后利用ASP.NET mvc内嵌的data binding这个功能，将每一个选中的复选框对应的curve的id传过来，也就是一个int[] 数组。为什么要这样做？ 我的想法是正如今晚有看过Eric Evans的&lt;&gt;有讲到一个分层的设计，Application这一层在UI层下面，它应该有free from依赖的它的上层的，我觉得这里便是这样不管UI的实现如何，至少我的应用层应该是一个接受一系列需要删除curve的id，然后我想想这个MVC它有没有这样的支持了，如果有的话，那我可就是很简单的就可以搞定;如果没有可能处理过程还要麻烦一点。当我在stackoverflow上搜时，我发现这个它里面说这个方案是可以的，但是到我那确实不可行，死活这个id都是null值。想了想，然后就方案<a href="http://stackoverflow.com/questions/3291501/asp-net-mvc-maintain-state-of-a-dynamic-list-of-checkboxes/3298821#3298821" target="_blank">ASP.Net MVC maintain state of a dynamic list of checkboxes</a>一点点放小，看看问题出在哪里.然后我尝试将Html.BeginForm()改为&lt;form/&gt;这样它居然能工作，然后我将表单的内容替换成真实需要的，它能工作，然后我将&lt;form/&gt;又重新换回去也没问题，这个令人发指啊。 不过这个“解决”问题的思路就是，一点点来，努力缩小问题出现的域，一步步向它逼近，如果复杂点它不能功能，那么换成最简单的形式，然后一点点往上面加东西，以便检查是否出现问题，这样子来定位问题的思路应该还是很正确的（尽管这个问题我没有从源头上理解它。。。。）。
@@ -101,6 +105,50 @@
   </ul>
 </div>
 
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/ios.html">ios (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
   
   <div class="footer">
     <div class="contact">

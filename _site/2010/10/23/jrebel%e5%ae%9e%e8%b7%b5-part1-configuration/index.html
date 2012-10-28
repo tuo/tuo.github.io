@@ -35,11 +35,15 @@
 <div class="site">
   <div class="title">
     <a href="/">Tuo 拓</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
   </div>
   
-  <div id="post">
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <div id="post">
 在这个星期开始了兴奋的编码,之前的每周都是session讲座,一天到晚都是坐着听讲座还真的是困到不行,这周终于开始了编码. 这一周开始了在Chronicle项目编码,在实现第一个story的时候,发现这个每一次我更改了.java的文件,比如我改动了一下controller层或者service层抑或是DAO层的代码,我不得不重重新编译,部署,然后重新启动jetty ,这个过程有时候非常的令人烦恼,严重影响了你的编码节奏,更加于公司的价值观之一"rapid feedback"相冲突. 于是我搜索了一下,想起来过去在大学的时候也有一个项目,项目特别大,以至于你只改了.java文件的一行代码,但是需要发费十几分钟时间来部署重启服务器,那是相当的痛苦,于是当时搜索了一下,发现了JavaRebel,那时候还不是叫<a href="http://www.zeroturnaround.com/jrebel/" target="_blank">JRebel</a>,而且当时是免费的 ,我当时试着配置了一下但是仅仅局限于小小demo案例,并没有成功的应用到项目中,依稀记得配置不是特别清楚. 下面是引用自<a href="http://www.zeroturnaround.com/jrebel/" target="_blank">zeroturnaround</a>官网的一个视频,非常有趣:
 
 <a href="http://www.zeroturnaround.com/cartoon/javarebel_cartoon.swf"><object style="width: 500px; height: 396px;" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="500" height="396" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="loop" value="false" /><param name="swliveconnect" value="true" /><param name="wmode" value="window" /><param name="src" value="http://www.zeroturnaround.com/cartoon/javarebel_cartoon.swf" /><embed style="width: 500px; height: 396px;" type="application/x-shockwave-flash" width="500" height="396" src="http://www.zeroturnaround.com/cartoon/javarebel_cartoon.swf" wmode="window" swliveconnect="true" loop="false"></embed></object></a>
@@ -142,6 +146,50 @@ Steps: “File” --&gt;”Settigns” --&gt;”Keymap”  --&gt;in the right w
   </ul>
 </div>
 
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/ios.html">ios (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
   
   <div class="footer">
     <div class="contact">

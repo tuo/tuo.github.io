@@ -35,11 +35,15 @@
 <div class="site">
   <div class="title">
     <a href="/">Tuo 拓</a>
-    <a class="extra" href="/">home</a>
-    <a class="extra" href="/about.html">about</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
   </div>
   
-  <div id="post">
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <div id="post">
 <p style="font-family: Verdana,menlo,monaco">
 最近的Rails项目的cucumber测试中，经常会碰到需要处理时间。有意思的是，我们在cucumber测试中需要尽量用自然语言来表达时间，而在其对应的step definition中需要解析成为对应的时间。 比如我们需要在feature表达<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">“3个月以前”</span>这个概念，原有的做法是 直接在feature中写成<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">"3.months.ago"</span> ,而对应的步定义中则是用到eval()来解析成为对应的时间：<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">eval(time_literal || "1.month.ago")</span>.  也许这个<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">"3.months.ago"</span>还不是非常接近自然语言，为什么中间有"."了？ 所以我们可以进一步改进一下， 在feature中写成"3 months ago" ,然后在调用eval函数之前，先将空格替换成点。 嗯， 还不错，至少Rails自带支持的时间处理是够用的。 但是后来我们需要处理<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">“上个星期的周二”</span>， 那这个Rails自带的时间支持无法很好的完成任务了。
 </p>
@@ -136,6 +140,50 @@ Chronic能非常的适用于上述的情景。
   </ul>
 </div>
 
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/ios.html">ios (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
   
   <div class="footer">
     <div class="contact">
