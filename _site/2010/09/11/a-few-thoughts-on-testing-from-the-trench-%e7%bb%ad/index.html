@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="msvalidate.01" content="D44891873E3206AEFB1E30BD563E5E4B" />
+   <title>A few thoughts on testing from the trench ç»­</title>
+   <meta name="author" content="Tuo 拓" />
+   <link href="http://feeds.feedburner.com/tuo.github.com" rel="alternate" title="Tuo 拓" type="application/atom+xml" />
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!--google analytics -->
+   <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27864586-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</head>
+<body>
+
+<div class="site">
+  <div class="title">
+    <a href="/">Tuo 拓</a>
+    <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a>
+  </div>
+  
+  <div id="post">
+&nbsp;&nbsp;&nbsp;&nbsp;In my last blog ”<a href="http://tuohuang.thoughtworkers.org/?p=28" target="_blank">A few thoughts on testing from the trench</a>“ , i have described a  scenario i  gotta stumbled in . The situation  is  that i forgot to add cleanup method to former testcase   ,which sets the tone for some intricate failures of newly added testcases.Way too nitty-gritty,let's ,say, put simply ,i just broke the prerequisites or presumptions  that later test case relies on due to my carelessness. And i just come up with a solution,which just adds the cleanup to former testcases , as illustrated in following code :
+<pre class="brush: csharp; ">[Test]
+public void should_return_configed_timeframe_when_timeframe_in_app_setting_is_in_right_format()
+{
+ ConfigurationManager.AppSettings.Set(DateTimeHelper.TRIGGER_TIMEFRAME_KEY, "17:00:00");
+ actualReturned = DateTimeHelper.ReadTimeframeFromConfig();
+ expectedReturn = CreateUtcDateTimeByHHMM(17, 0);
+ Assert.AreEqual(DateTimeKind.Utc, actualReturned.Kind);
+ Assert.AreEqual(expectedReturn, actualReturned);
+
+ ConfigurationManager.AppSettings.Set(DateTimeHelper.TRIGGER_TIMEFRAME_KEY, null);
+ var configedTime = ConfigurationManager.AppSettings.Get(DateTimeHelper.TRIGGER_TIMEFRAME_KEY);
+ Assert.IsNull(configedTime);
+}</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;Code between line 10 and  13 is what i thought of as a ,ah ,not bad remedy at that time. Well, it turns out that i just add more woods to "evil" fire. How can i say to myself? Man , What a miserable guy!  So when<a href="http://www.iamhukai.com/" target="_blank"> Kai Ge</a> reviews my codes  ,a quick glance at those testcases , as u probably know ,the following conversation definitely blow my mind. He said ,"hey,why not put those cleanup code to TearDown() method derived from NUnit? " I said"Ah,ah,ah....." and i just gotta stuck ,period .  With a astonishingly fast follow-up question ,he said,"What if any exception thrown out from your test code before your cleanup? So u just leave the testcase's "Crime Scene" ,again, uncleaned? "  So that question just blows my mind with a big "Wow" from bottom of my heart.  Yes ,definitely,i just write the codes without too much mediation.
+
+&nbsp;&nbsp;&nbsp;&nbsp;But what really reveals is that it shows that how unfamiliar i am with  the framework i use. So did i even know the architecture or the design philosophy behind its surface ?  No , i just use it blindly and shitly , without resorting to any documentations or any tips for using that framework.  Lack of specific or ,how to say ,background or backbone of tools u use may significantly slow u down and encumber your productivity dramatically.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Well ,it reminds me that <a href="http://www.iamhukai.com/" target="_blank">Kai Ge</a> has already talked about JUnit's design,well ,a little long ago , and i may have certain sorts of impression on that , admittedly, at that time ,not so impressive enough to let me get big "WOW"  at the time i write testcases in the first place. So, i just forget it when i coded it plainly. It seems that i need to practice more to get that kinda of familiarity.
+
+&nbsp;&nbsp;&nbsp;&nbsp;I also remember that i just see a fabulous article about how JUnit gotta be shaped by using patterns by Kent Beck. Although JUnit is simple for seasoned engineer like Kai Ge ,for me --a rookie , 'Ma Que Sui Xiao ,Wu Zang Ju Quan!(Read this in PinYin拼音) ,i think i have that kinda of need to learn .   This article<span style="color: #33ff33;"> <a href="http://junit.sourceforge.net/doc/cookstour/cookstour.htm" target="_blank">J</a></span><a href="http://junit.sourceforge.net/doc/cookstour/cookstour.htm" target="_blank"><span style="color: #cc0000;">U</span>nit A Cook's Tour</a> suits my appetite.Likewise, there is a big chapter about realizing a mini test framework like JUnit in Perl  step by step  in  Kent Beck 's book &lt;&lt;<a href="http://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530" target="_blank">Test Driven Development: By Example</a> &gt;&gt;.
+
+&nbsp;&nbsp;&nbsp;&nbsp;In <span style="color: #33ff33;"><a href="http://junit.sourceforge.net/doc/cookstour/cookstour.htm" target="_blank">J</a></span><a href="http://junit.sourceforge.net/doc/cookstour/cookstour.htm" target="_blank"><span style="color: #cc0000;">U</span>nit A Cook's Tour</a> Kent Beck and Erich Gamma(who is also a big cow大牛)  mainly emphasize on how patterns come together to shape the whole design ,like Composite Pattern ,Template Pattern  and so on. Here is a figure i referred from this article ,  talking about how Template Pattern gotta applied  to     <span>TestCase.run() --the core method in JUnit.</span>
+
+<span> <img class="alignnone" title="TestCase.run() applies Template Method" src="http://junit.sourceforge.net/doc/cookstour/Image2.gif" alt="" width="270" height="142" /></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;<span> Here comes the code  quoted from that article: </span>
+<pre class="brush: java; ">public void run(){
+setUp();
+try {
+runTest();
+}
+catch (AssertionFailedError e) { //1
+
+//collection test result
+
+}
+finally {
+tearDown();
+}
+
+}</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;This is pretty straightforward .So we know that TearDown() is put into finally block in case that when any exception thrown from runTest() method or not ,the tearDown() method is always kept committed that it will be executed.  After we grasped nitty-gritty ,we ,now,are completely confident how to handle cleanup because we know how it works behind the scene.
+
+&nbsp;&nbsp;&nbsp;&nbsp;The final solution is that we move those cleanup method to TearDown() method , so that we 're always promised the "Crime Scene" is gonna be cleaned and no messy.
+
+&nbsp;&nbsp;&nbsp;&nbsp;So ,truth is that we need to keep informed about the tools that we use ,to some extent. Spending a little time  on it ,we're probably gonna be more productive and less prone to get stumbled.
+
+&nbsp;&nbsp;&nbsp;&nbsp;And thanks for patience and tips from <a href="http://www.iamhukai.com/" target="_blank">Kai Ge</a> ,i really appreciate it.
+
+</div>
+
+<div id="share_post">
+  <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  <!-- Place this tag where you want the +1 button to render -->
+<div class="g-plusone" data-size="medium" data-annotation="inline"></div>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</div>
+
+  <!-- START: Livefyre Embed -->
+  <script type='text/javascript' src='http://zor.livefyre.com/wjs/v1.0/javascripts/livefyre_init.js'></script>
+  <script type='text/javascript'>
+    var fyre = LF({
+        site_id: 294528
+    });
+  </script>
+<!-- END: Livefyre Embed -->
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>09 Oct 2012</span> &raquo; <a href="/2012/10/09/%25e8%25bd%25ac%25ef%25bc%259a-e%25e7%25bb%259c%25e7%259b%259f-2012%25e6%25a0%2591%25e8%258e%2593%25e6%25b4%25be-raspberry-pi%25e5%258f%2591%25e7%2583%25a7%25e5%258f%258b%25e8%25a7%2581%25e9%259d%25a2%25e4%25bc%259a">è½¬ï¼ eç»ç-2012æ èæ´¾-raspberry-piåç§åè§é¢ä¼</a></li>
+    
+      <li><span>14 Jul 2012</span> &raquo; <a href="/2012/07/14/%25e6%25af%2595%25e4%25b8%259a%25e4%25b8%25a4%25e5%25b9%25b4%25e8%25ae%25b0-%25ef%25bc%2588%25e4%25b8%258a%25ef%25bc%2589">æ¯ä¸ä¸¤å¹´è®° ï¼ä¸ï¼</a></li>
+    
+      <li><span>23 Apr 2012</span> &raquo; <a href="/2012/04/23/%25e8%25ae%25b0%25e6%25b1%259f%25e8%258b%258f%25e4%25b9%258b%25e8%25a1%258c%25ef%25bc%2588%25e4%25ba%258c%25ef%25bc%2589">è®°æ±èä¹è¡ï¼äºï¼</a></li>
+    
+  </ul>
+</div>
+
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Tuo 拓<br />
+        clarkhtse@gmail.com
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+      <a href="http://twitter.com/tu0huang/">twitter.com/tu0huang</a><br />      
+      <a href="http://github.com/tuo/">github.com/tuo</a><br />
+      <a href="http://weibo.com/1394253223">Tuo's sina weibo</a><br />
+      </p>
+    </div>
+    <div class="rss">
+      <a href="http://feeds.feedburner.com/tuo">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

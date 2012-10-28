@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="msvalidate.01" content="D44891873E3206AEFB1E30BD563E5E4B" />
+   <title>Thoughts on Preparing Test Data</title>
+   <meta name="author" content="Tuo 拓" />
+   <link href="http://feeds.feedburner.com/tuo.github.com" rel="alternate" title="Tuo 拓" type="application/atom+xml" />
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!--google analytics -->
+   <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27864586-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</head>
+<body>
+
+<div class="site">
+  <div class="title">
+    <a href="/">Tuo 拓</a>
+    <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a>
+  </div>
+  
+  <div id="post">
+As a developer ,testing is already a part of life.Every day we write tests ,follow the "Red-Green-Refactoring" rhythm,yeah life is a thing of  beauty.Recently i am on a project in TWU,while,things are going well.This week ,i have paired with <a href="http://jawspeak.com/" target="_blank">Jonathan</a>,and there are lots of fun along with many insights gained from him. One of those is about how to prepare test data.
+<h5>A Traditional Way</h5>
+It reminds me that ,on previous project,i also ran into that scenario that there is an object called "Alarm",whose constructor receive three parameters:a "Timezone"  representing the timezone that alarm is in, a "Date" carrying out time but without timezone info,a "String" showing the name of user who holds this alarm.  The thing is that when writing test either unit- or integration- , some guy need a local timezone alarm ,so he/she just wrote this line :
+<pre class="brush: csharp">Alarm alarm  = new Alarm(TimezoneInfo.Local , Datetime.Now , "Tina");</pre>
+this is pretty simple ,while another coder said "hey Tina need a alarm with Beijing time" ,so she/he just wrote this in his/her test code:
+<pre class="brush: csharp">Alarm alarm  = new Alarm(timezoneOfBeiJing ,DateTime.Now ,  "Tina");</pre>
+At that time ,things just accumulated but  went smoothly.
+<h5>Potential Problem</h5>
+Well ,life is always up-and-down.There is a requirement saying alarm need a create time to show when this alarm is created. You probably said "this is easy ,just add a new constructor that take four pararmeters." Yeah,not bad, it wouldn't break your unit-tests ".Thinking about this:alarm is an entity ,which gotta be saved to database and hibernate wouldn't allow map null createDatetime to database. And that is the real-world case in previous project.
+
+And all the integration-tests are broken,because  create datetime is need and it can't be null.
+
+So what you gotta do ?  how about adding setCreatedTime(Datetime time) to alarm and call this method below alarm instantiation in all tests?  Again,not bad ,except coming at price of nightmare.  This thing can be overwhelming, because you got ,first, find all places that needed , then  manually add this line. That is not good,dude!
+
+I have been through that nightmare before , and there is no doubt that it is like torturing.So let's unveil that monster.The first point is that ,like forementioned .
+
+1. it is very painful when you change the signature of constructor or change sth of that object ,which possibly caused a butter-fly effect. Yeah ,a chain of pain.
+
+2. it is not straightforward. What that means is that you must infer what it does from navigating into constructor and checking the parameters , definitely not intention-revealing.
+
+3.duplication.  You can see  that  instantiation codes have to declare "Tina"  and "Datetime.Now" twice.
+
+So there must be some way to handle this .Here it is ,the<a href="http://martinfowler.com/bliki/ObjectMother.html" target="_blank"> Object Mother.</a>
+<h5>Solution One:  Object Mother</h5>
+What basically Object Mother does is that it encapsulates all the creation code in one place.It is full of Factory Method ,which is very self-explanatory. What is really good about this is that it centralizes all the creation logics and make tests more manageable. Here is what it looks like when applying Object Mother to Alarm:
+<pre class="brush: csharp">Alarm alarm = AlarmMother.createLocalNowAlarmToTina();</pre>
+the second one is :
+<pre class="brush: csharp">Alarm alarm = AlarmMother.createBeiJingNowAlarmToTina();</pre>
+As you can see , it is more intention-revealing and you don't even need go to constructor of alarm to guess what it really does-----that is what tests really care. The tests just say "I need what kinda of data and just give me ,and i don't care how it got constructed". Object Mother uses an approach that stands on a higher-level point.It is more abstract and it fits to what tests should serve for perfectly. Test is a document,it should be clear,straightforward and should not be too detailed that confuse people or let them spend time inferring what test means.
+
+Well the downside of Object Mother is that it is slightly rigid and it is easy to get it bloated. It can't deal with variations of tests very well.What that means  is that ,if you need slightly  different test data ,it turns out you just keep adding method to Object Mother.
+<pre class="brush: csharp">Alarm alarm = AlarmMother.createLocalNowAlarmToTina();
+
+Alarm alarm = AlarmMother.createLocalMidNightAlarmToTina();</pre>
+See , as time goes by ,the AlarmMother could easily get out of controll and unmanageable.And there are more and more fine-grained little methods flying around.
+
+There is another situation you may encounter:(i quote from <a href="www.chrisrichardson.net" target="_blank">Chris Richardson</a>'s slide <a href="http://www.slideshare.net/chris.e.richardson/improving-tests-with-object-mothers-and-internal-dsls-presentation" target="_blank">"Improving Tests With Object Mothers And Internal Dsls"</a>)
+
+<img class="alignnone" title="Strike a balance" src="http://lh4.ggpht.com/_i1xQ-NrcTdU/TMxEJxlQ9DI/AAAAAAAAAD0/IQixG4rwkpk/s720/Screen%20shot%202010-10-30%20at%209.42.46%20PM.png" alt="" width="520" height="374" />
+
+But overall, the shinning side of Object Mother way far weigh over the downsides.
+<h5>Solution Two: Test Data Builder</h5>
+Here it is:<a href="http://c2.com/cgi/wiki?TestDataBuilder" target="_blank">Test Data Builder.</a>
+
+Every time you want use a class in tests ,create a Builder for that:(Quote from "<a href="http://nat.truemesh.com/archives/000714.html" target="_blank">Test Data Builders: an alternative to the Object Mother pattern</a>")
+<blockquote>1.Has an instance variable for each constructor parameter
+2.Initialises its instance variables to commonly used or safe values
+3.Has a `build` method that creates a new object using the values in its instance variables
+4.Has "chainable" public methods for overriding the values in its instance variables</blockquote>
+Following code is builder for alarm:
+<pre class="brush: java">public class AlarmBuilder {
+Timezone timezone ;
+Datetime time ;
+String username ;
+Datetime createdTime = Datetime.now;
+
+public AlarmBuilder withTimezone(Timezone timezone) {
+this.timezone = timezone;
+return this;
+}
+
+public AlarmBuilder withTime(Datetime time) {
+this.time = time;
+return this;
+}
+
+public AlarmBuilder withUsername(String username) {
+this.username = username;
+return this;
+}
+
+public AlarmBuilder withCreatedTime(Datetime createTime) {
+this.createdTime = createdTime;
+return this;
+}
+
+public Alarm build() {
+return new Alarm(timezone , time , username ,createdTime);
+}
+}</pre>
+So the instantiation process could be :
+<pre class="brush: csharp">Alarm alarm = new AlarmBuilder().withTimezone(TimezoneInfo.Local)
+.withTime(Datetime.Now).withUsername("Tina").build();
+
+Alarm alarm = new  AlarmBuilder().withTimezone(beijingTimezone).withTime(Datetime.Now)
+.withUsername("Tina").build();</pre>
+As you can see ,it is pretty easy and manageable.To some extent ,it is not more intention-revealing than Object Mother. Consider this: suppose you wanna control all the parameters on object ,in object mother ,you probably can't use a very long method name to handle that ,because it is very easy to get Object Mother bloated:
+<pre class="brush: csharp">alarm = AlarmMother.createAlarm(bangaloreTimezone,
+DateTimeHelper.convert("2010-10-30 21:03:03") , "TuoHuang" ,
+DateTimeHelper.convert("2010-09-30 21:03:03"));</pre>
+And look at it under Builder :
+<pre class="brush: csharp">Alarm alarm = new AlarmBuilder().withTimezone(bangaloreTimezone)
+.withTime( DateTimeHelper.convert("2010-10-3021:03:03"))
+.withUsername("TuoHuang")
+.withCreatedTime(DateTimeHelper.convert("2010-09-30 21:03:03")).build();</pre>
+The transcendence of builder is that you can distinguish that the later datetime is for created time and the former is for alarm time . But you can't get that info from using Object Mother.
+
+But Test Data Builder sometimes focus  on lower-level detail that it probably can't show the real meanings behind those data ,instead Object Mother handles this very well.
+<h5>An Interesting Case</h5>
+Put it more concrete , let's take an example from <a href="http://www.iamhukai.com/?p=24" target="_blank">HuKai</a>'s blog .
+
+Suppose KungFuPanda must have following features simultaneously :
+<blockquote>createPanda()
+
+matureAnimal()
+
+heavyWeight()
+
+animalLivesInUSA()
+
+animalAcrobat()</blockquote>
+To create an KungFuPanda , if you use Test Data Builder to do this ,it probably looks like following :
+<pre class="brush: java">new PandaBuilder().withMature().withHeavyWeight()
+.withCountry("USA").withAcrobat();</pre>
+When you first look at the code , you maybe can't figure out that that code is to create a "KungFu" panda,because its code is too low-level detail,which force you to infer from those code---probably not good idea.
+
+But instead  ,if look at the code implemented by Object Mother
+<pre class="brush: java">PandaMother.createKungFuPanda();</pre>
+It takes just one line to let you know "what it is"  without inferring it from "How it does".  This way is probably is more favorable for tests:straightforward , clear. More importantly ,it offers you a way to unaware the twisted implementation details behind the scene,which means a lot when you review the code.
+<h5>Go Beyond the Surface</h5>
+Here is another philosophy behind that: you shouldn't scatter the "new" keyword on your production code ,instead you need to either let Dependency Injection framework handles this or centralizes those creation logic to one place like "Factory" or sth. Yeah ,it is also true for test code. Centralized creation logic for tests is also important,for more info check out  Misko Hevery 's blog <a href="http://misko.hevery.com/2008/09/30/to-new-or-not-to-new/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+TestabilityExplorerBlogFeed+%28Testability+Explorer+Blog+Feed%29" target="_blank">How to Think About the “new” Operator with Respect to Unit Testing</a>
+<h5>Which approach i should take?</h5>
+In this blog ,probaActually, it is up to you. One thing i learned from software  is that there is no specific way belongs to  sovereign remedy. You should consider the context ,and adopt the way that best fits to that situation.What is really important is that you really gain deep insights behind the scene ,so you can tweak it to apply to different cases.
+
+</div>
+
+<div id="share_post">
+  <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  <!-- Place this tag where you want the +1 button to render -->
+<div class="g-plusone" data-size="medium" data-annotation="inline"></div>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</div>
+
+  <!-- START: Livefyre Embed -->
+  <script type='text/javascript' src='http://zor.livefyre.com/wjs/v1.0/javascripts/livefyre_init.js'></script>
+  <script type='text/javascript'>
+    var fyre = LF({
+        site_id: 294528
+    });
+  </script>
+<!-- END: Livefyre Embed -->
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>09 Oct 2012</span> &raquo; <a href="/2012/10/09/%25e8%25bd%25ac%25ef%25bc%259a-e%25e7%25bb%259c%25e7%259b%259f-2012%25e6%25a0%2591%25e8%258e%2593%25e6%25b4%25be-raspberry-pi%25e5%258f%2591%25e7%2583%25a7%25e5%258f%258b%25e8%25a7%2581%25e9%259d%25a2%25e4%25bc%259a">è½¬ï¼ eç»ç-2012æ èæ´¾-raspberry-piåç§åè§é¢ä¼</a></li>
+    
+      <li><span>14 Jul 2012</span> &raquo; <a href="/2012/07/14/%25e6%25af%2595%25e4%25b8%259a%25e4%25b8%25a4%25e5%25b9%25b4%25e8%25ae%25b0-%25ef%25bc%2588%25e4%25b8%258a%25ef%25bc%2589">æ¯ä¸ä¸¤å¹´è®° ï¼ä¸ï¼</a></li>
+    
+      <li><span>23 Apr 2012</span> &raquo; <a href="/2012/04/23/%25e8%25ae%25b0%25e6%25b1%259f%25e8%258b%258f%25e4%25b9%258b%25e8%25a1%258c%25ef%25bc%2588%25e4%25ba%258c%25ef%25bc%2589">è®°æ±èä¹è¡ï¼äºï¼</a></li>
+    
+  </ul>
+</div>
+
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Tuo 拓<br />
+        clarkhtse@gmail.com
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+      <a href="http://twitter.com/tu0huang/">twitter.com/tu0huang</a><br />      
+      <a href="http://github.com/tuo/">github.com/tuo</a><br />
+      <a href="http://weibo.com/1394253223">Tuo's sina weibo</a><br />
+      </p>
+    </div>
+    <div class="rss">
+      <a href="http://feeds.feedburner.com/tuo">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,2 +1,4 @@
 markdown: rdiscount
 pygments: true
+auto: true
+permalink: /:year/:month/:day/:title

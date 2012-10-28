@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="msvalidate.01" content="D44891873E3206AEFB1E30BD563E5E4B" />
+   <title>å°UIåé¢åæ¨¡åéç¦»å¼æ¥ (äº)</title>
+   <meta name="author" content="Tuo 拓" />
+   <link href="http://feeds.feedburner.com/tuo.github.com" rel="alternate" title="Tuo 拓" type="application/atom+xml" />
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!--google analytics -->
+   <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27864586-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</head>
+<body>
+
+<div class="site">
+  <div class="title">
+    <a href="/">Tuo 拓</a>
+    <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a>
+  </div>
+  
+  <div id="post">
+<h2>目的:</h2>
+那我们现在要做得便是要借助Hibernate Validator的支持,将整个判断逻辑从客户端移植到服务端.
+<h2>解决方案:</h2>
+关于这个问题,我记得当时有跟Kai讨论过,提出了两种方案.
+第一种,Kai的方案,扩展Spring MVC的WebDataBinding功能,但是我们发现这样我们能操控的行为,只能在发生数据绑定这个过程之后. 也就是说如果我想在数据绑定之前,将请求中的month和year字段合并为一个字段storyDate,这样Story这个对象仍然能保持与UI的隔离.这就要求我们能控制数据绑定之前的行为,Kai说他先去SPIKE下,我现在接着把这个STORY继续下去,因为时间很紧张,如果完成了这个之后有时间就采用Kai的办法. 等他搞完,我跑过去一看,他说搜遍了文档,也没发现Spring MVC提供这个钩,所以这个Story里面还是得有month和year字段,只是说扩展了Spring的Validator,实际上就是一个Proxy模式.请看代码:
+<pre class="brush:java">@InitBinder
+protected void initBinder(WebDataBinder binder) {
+     binder.setValidator(new StoryPostBindingValidatorProxy(binder.getValidator()));  //这个动作发生在绑定之后,迫使我们依然得保留month和year字段
+}</pre>
+在StoryPostBindingValidatorProxy中是这样的:
+<pre class="brush:java">@Override
+public void validate(Object o, Errors errors) {
+ if (o instanceof Story) {
+   Story story = (Story) o;
+   if(story.getYear().isEmpty()){
+    Calendar calendar = Calendar.getInstance();
+    story.setStoryDate(calendar.getTime());
+    errors.rejectValue("storyDate" ,null ,"Year cannot be empty.");
+   }else if(doesYearContainsNumbers(story.getYear())){
+     Calendar calendar = Calendar.getInstance();
+     story.setStoryDate(calendar.getTime());
+     errors.rejectValue("storyDate" ,null ,"Year should only contain numbers.");
+   }else{
+     DateTime date = story.getMonth().equals("-1") ?
+      new DateTime(Integer.parseInt(story.getYear()),
+      DateTimeConstants.JANUARY, 1, 0,0,0,0) :
+      new DateTime(Integer.parseInt(story.getYear()),
+      Integer.parseInt(story.getMonth()), 2, 0,0,0,0);
+     story.setStoryDate(date.toDate());
+     }
+   }
+   springValidator.validate(o, errors);
+}
+
+private boolean doesYearContainsNumbers(String year) {
+     return !(year.trim().matches("[0-9]{4}"));
+}</pre>
+可以看到在进入springValidator.validate(o, errors);之前,我们有检查year和month字段,填入合适具体的错误信息,同时将storyDate设置一个正确的时间.这样的话,好处在将如何组合成正确storyDate的逻辑提取了出来,减少了Story模型的污染,同时也提高了代码的可测性.
+在Story中StoryDate的描述:
+<pre class="brush:java">@Column(name = "story_date", nullable = false)
+@NotNull
+@Past(message = "Did you invent time travel?  Please enter a date in the past.")
+@NotBeforeMay1954(message = "Date cannot be earlier than May,1954.")
+public Date getStoryDate() {
+     return storyDate;
+}</pre>
+前三个annotation都是Hibernate内嵌支持的,后面一个是我自己实现的,所代表的意思非常明了,StoryDate不能早于1954年5月,这样以来的好处在于StoryDate在它上面只需关心它自己的逻辑,跟UI都无关,同时代码的可读性也大大增强.
+下面是NotBeforeMay1954的实现图,详细的可以参考Hibernate Validation Annotation中的Customization
+
+面临的一个实际问题是: 当用户浏览某一个故事,并单击Edit时,此时进入edit_story页面,它需要显示故事的内容,标题,年和月等,来等待用户编辑.
+<pre class="brush:java">@Transient
+public String getMonthOfStoryDate() {
+  if (storyDate == null)
+       return "";
+  if (new DateTime(storyDate).getDayOfMonth() == 31) {
+     return "0";
+   } else
+   return String.valueOf(new DateTime(storyDate).getMonthOfYear());
+ }
+@Transient
+public String getMonth() {
+     return month;
+}</pre>
+那如果你页面中绑定到month这个字段,此时页面就无法显示真实的月份,因为month被标记为@Transient; 如果绑定到monthOfStoryDate字段的,当你编辑完成准备提交时,页面上month字段的值却要无法绑定到Story模型上的monthOfStoryDate字段上,因为Story只有month这个字段.
+为了解决这个问题,最终的结果是:
+在StoryController中,
+<pre class="brush:java">@RequestMapping(value = "story/{storyId}/edit", method = RequestMethod.GET)
+public ModelAndView edit(@PathVariable int storyId, @CurrentUser User currentUser) {
+     Story story = storyService.findById(storyId);
+     //.....
+     modelAndView.setViewName("edit_story");
+     story.setMonth(story.getMonthOfStoryDate());
+     modelAndView.addObject("story", story);
+     //....
+}</pre>
+这看起来很tricky阿!
+
+仔细思考,为什么会有这个问题了?
+
+原因还是在于Story作为一个领域模型,它有自己的biz rules,它本应该不受到UI层的影响或者耦合的,但是在这里Story却是跟UI紧密相结合.
+你可以想象,写代码者当时拿到这个故事时,先弄了页面,发现需要year和month两个输入,于是自然而然在Story中也添加了对应的两个字段,也许当时他却是很方便,但是却给现在尤其是维护或者扩展时带来极大的麻烦.
+为什么领域模型模型需要关心你的UI 了? 为什么不从模型本身所要承载的biz rules出发了思考问题了? 为什么要倒过来先写UI然后说看看模型层应该相应的怎么变化,这个不应该是模型层相对稳定且独立,而UI层比较趋于变化不?
+本末倒置.
+
+在这里思考的是从Story出发,我需要的就是一个StoryDate,我不关心你是怎么是构成这个日期的,而且我也不能去关心那个,不然别人怎么能够放心大胆的重用我了?  举个例子,可以方便你看出Story模型跟UI有多么高的耦合,如果将来页面UI需要引入day,那岂不是我要得改Story模型,可能我需要引入day这个字段,同时想一想那个它怎么判断用户是否输入月份的逻辑,在想想它在页面如何判断取出的Story是否有month需要显示出来(那个"-1","0" 和"31"), 不可思议的恐怖,真得是牵一发动全身,这个rippling effect实在是无法承受滴,试问你如何去维护这样的代码.
+
+从OO的角度来说,它的一个原则似乎也可以应用到这里:DIP.
+
+所以也可以看到即使你应用到了MVP模式,也并不一定代表你能很好地掌握它的应用场景和上下文.
+<h2>Polishing the design</h2>
+我提出的第二个方案是,为什么要在数据绑定的时候,直接使用模型来作为绑定的载体了? 如果说UI 很简单,能与模型一一对应,比如在这里如果没有year和month,那用直接使用模型作为数据绑定的载体很OK,如果将来UI变更了,我再做以下的事情就好:创建一个于表格对应的ViewModel(或者说Presenter). 这样做的想法很简单,每一个页面都代表这当前模型或者系统的一个状态,而这些状态不一定跟真实的模型能一一匹配上,正如表格中month和year字段,此时在Story模型并没有相应的字段与之对应.这个问题就非常像ORM中的Impedance Mismatch,也就是说正如面向对象和平面的关系数据库之间有鸿沟,因而你有看到了什么RowMapper之类的,而在这里它正相当于Presenter或ViewModel,它来负责信息的一些转换. 这个问题使我想到我原来做过一个关于PRG模式的讲座,当时准备材料,我看了一篇文章 <a href="http://www.theserverside.com/news/1365146/Redirect-After-Post" target="_blank">Redirect After Post</a>,其中有一段,当时我不是很懂,但现在想想貌似还蛮有道理的.
+所以了,我门将会在Story模型中去掉month和year字段,我只关心给我一个日期格式的storyDate,我拿过来用就好,我不care它怎么得来滴,所以这个使我想到了"<a href="http://pragprog.com/articles/tell-dont-ask" target="_blank">Ask don't tell</a>"的原则,在这里真是很好的fit in阿.除此之外所以的判断逻辑都将从Story模型中移除出去,去哪了?   正是NewStoryViewModel.
+这里我们将创建一个NewStoryViewModel对象,并使用它作为数据绑定的载体,那么它肯定会包含
+<pre class="brush:java">public class NewStoryViewModel {
+
+     private String title;
+     private String content;
+     private String city;
+     private String month;
+     private String year;
+
+     public Story toStory(){
+          Story story = new Story();
+           story.setTitle(title);
+          story.setContent(content);
+          story.setCity(city);
+          story.setStoryDate(getRightStoryDate());
+          return story;
+     }
+
+     private  Date getRightStoryDate() {
+          return getMonth().equals("-1") ?
+               new DateTime(Integer.parseInt(getYear()),
+               DateTimeConstants.JANUARY, 1, 0, 0, 0, 0).toDate() :
+               new DateTime(Integer.parseInt(getYear()),
+               Integer.parseInt(getMonth()), 2, 0, 0, 0, 0).toDate();
+     }
+
+     //...getters and setts</pre>
+在StoryPostValidationProxy中:
+<pre class="brush:java">@Override
+public void validate(Object o, Errors errors) {
+     NewStoryViewModel newStoryViewModel = (NewStoryViewModel) o;
+     if (newStoryViewModel.isYearFieldEmpty()) {
+          createRightStoryForValidation(newStoryViewModel);
+           errors.rejectValue("storyDate", null, "Year cannot be empty.");
+     } else if (newStoryViewModel.doesYearContainsNumbers()) {
+          createRightStoryForValidation(newStoryViewModel);
+          errors.rejectValue("storyDate", null, "Year should only contain numbers.");
+     }
+     springValidator.validate(newStoryViewModel.toStory(), errors);
+}
+public void createRightStoryForValidation(NewStoryViewModel newStoryViewModel) {
+     Calendar calendar = Calendar.getInstance();
+     newStoryViewModel.setYear(calendar.get(Calendar.YEAR));
+     newStoryViewModel.setMonth(calendar.get(Calendar.MONTH));
+}</pre>
+这样的话,我们就得到了一个非常清晰明了的设计和实现.现在的Story模型,完全不受到UI的影响,这些原来的耦合都被封装到了NewStoryViewModel之中,同时也大大提高了Story模型的可重用性和NewStoryViewModel以及验证逻辑的可测性.那你现在还可以进一步将NewStoryViewModel类中方法getRightStoryDate()做进一步的改进,你可以封装这些有意义的字段,你甚至可以将其移动到一个类似Constants的类中,这将极大方便你日后显示或者其他的. 比如在显示故事的时候,原来的代码是
+在StoryViewModel中
+<pre class="brush:java">public EscapedString getDateOccurred() {
+     if (story.getMonth().equals("0"))
+          return escape(story.getYear());
+     else
+          return escape(new DateTime(story.getStoryDate()).monthOfYear().getAsShortText() + " " +                               story.getYear());
+     }</pre>
+你可以该进为:
+<pre class="brush:java">public EscapedString getDateOccurred() {
+     if (StoryViewModelUtil.isYearOnly(story.getStoryDate())
+          return escape(story.getYear());
+     else
+          return escape(new DateTime(story.getStoryDate()).monthOfYear().getAsShortText() + " " +      story.getYear());
+}</pre>
+等等有很多可以提高的地方.
+
+总结: 很多问题有时候不是浅层次的问题,而有可能是设计问题. 如果当初写此代码之人写完之后仔细一看,(当然拉,感觉也不会,因为一个测试也没有,代码都成这样了),感觉这个看起来很不爽,继而能通过询问他人或者其他方式来思考这个问题,恐怕也不会造成现在我门维护代码如此之困难的窘境.所以Bob的<a href="http://manifesto.softwarecraftsmanship.org/" target="_blank">Craftsmanship</a>宣言很有道理.
+<blockquote>
+<h2><em>Not only working software,</em></h2>
+<h2><em> but also <span style="color: #ff0000;"><strong>well-crafted software</strong></span></em></h2>
+</blockquote>
+
+</div>
+
+<div id="share_post">
+  <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  <!-- Place this tag where you want the +1 button to render -->
+<div class="g-plusone" data-size="medium" data-annotation="inline"></div>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</div>
+
+  <!-- START: Livefyre Embed -->
+  <script type='text/javascript' src='http://zor.livefyre.com/wjs/v1.0/javascripts/livefyre_init.js'></script>
+  <script type='text/javascript'>
+    var fyre = LF({
+        site_id: 294528
+    });
+  </script>
+<!-- END: Livefyre Embed -->
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>09 Oct 2012</span> &raquo; <a href="/2012/10/09/%25e8%25bd%25ac%25ef%25bc%259a-e%25e7%25bb%259c%25e7%259b%259f-2012%25e6%25a0%2591%25e8%258e%2593%25e6%25b4%25be-raspberry-pi%25e5%258f%2591%25e7%2583%25a7%25e5%258f%258b%25e8%25a7%2581%25e9%259d%25a2%25e4%25bc%259a">è½¬ï¼ eç»ç-2012æ èæ´¾-raspberry-piåç§åè§é¢ä¼</a></li>
+    
+      <li><span>14 Jul 2012</span> &raquo; <a href="/2012/07/14/%25e6%25af%2595%25e4%25b8%259a%25e4%25b8%25a4%25e5%25b9%25b4%25e8%25ae%25b0-%25ef%25bc%2588%25e4%25b8%258a%25ef%25bc%2589">æ¯ä¸ä¸¤å¹´è®° ï¼ä¸ï¼</a></li>
+    
+      <li><span>23 Apr 2012</span> &raquo; <a href="/2012/04/23/%25e8%25ae%25b0%25e6%25b1%259f%25e8%258b%258f%25e4%25b9%258b%25e8%25a1%258c%25ef%25bc%2588%25e4%25ba%258c%25ef%25bc%2589">è®°æ±èä¹è¡ï¼äºï¼</a></li>
+    
+  </ul>
+</div>
+
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Tuo 拓<br />
+        clarkhtse@gmail.com
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+      <a href="http://twitter.com/tu0huang/">twitter.com/tu0huang</a><br />      
+      <a href="http://github.com/tuo/">github.com/tuo</a><br />
+      <a href="http://weibo.com/1394253223">Tuo's sina weibo</a><br />
+      </p>
+    </div>
+    <div class="rss">
+      <a href="http://feeds.feedburner.com/tuo">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
