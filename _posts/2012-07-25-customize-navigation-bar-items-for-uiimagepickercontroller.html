@@ -1,0 +1,75 @@
+--- 
+layout: post
+title: Customize navigation bar items for UIImagePickerController
+tags: []
+
+status: draft
+type: post
+published: false
+meta: 
+  _edit_last: "1"
+---
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/07/IMG_1507.png"><img src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/07/IMG_1507-200x300.png" alt="" title="IMG_1507" width="200" height="300" class="alignleft size-medium wp-image-211" /></a> So if you are wondering how to customize the navigation bar items for UIImagePickerController to make sure the style is consistent across the app, this is what this post aims at. Here is the screenshots for Instagram camera roll picker:
+
+
+
+
+Here it code :
+
+-(void)setupAppearance {
+	// Navigation bar
+	UIImage *navigationBarImage = [UIImage imageNamed:@"header.png"];
+	[[UINavigationBar appearance] setBackgroundImage:navigationBarImage 
+									   forBarMetrics:UIBarMetricsDefault];
+	
+
+
+}
+
+create an instance variable to hold current navigation controller used in UIImagePickerController:
+
+UINavigationController *cameraRollNavigationController; 
+
+when initializing picker controller, make sure the you set the delegate to current controller: 
+UIImagePickerController *rollImagePicker = [[UIImagePickerController alloc] init];
+	rollImagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+	rollImagePicker.delegate = self;
+	//	rollImagePicker.showsCameraControls = NO;	
+	[self presentModalViewController:rollImagePicker animated:YES];
+
+next, implement the delegate method of "UINavigationControllerDelegate"
+
+- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+
+    cameraRollNavigationController = navigationController;
+    if (viewController.navigationItem.rightBarButtonItem == nil) {
+
+        UIImage *backImage = [UIImage imageNamed:@"button-photo.png"];
+        UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, backImage.size.width, backImage.size.height)];
+        [backButton setBackgroundImage:backImage forState:UIControlStateNormal];
+        [backButton setBackgroundImage:[UIImage imageNamed:@"button-photo_active.png"] forState:UIControlStateHighlighted];
+        [backButton addTarget:self action:@selector(goBackPicker:) forControlEvents:UIControlEventTouchUpInside];
+        UIBarButtonItem *backBarItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+        viewController.navigationItem.leftBarButtonItem = backBarItem;
+    }
+    UIImage *cancelImage = [UIImage imageNamed:@"button-cancel.png"];
+    UIButton *cancelButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, cancelImage.size.width, cancelImage.size.height)];
+    [cancelButton setBackgroundImage:cancelImage forState:UIControlStateNormal];
+    [cancelButton setBackgroundImage:[UIImage imageNamed:@"button-cancel_active.png"] forState:UIControlStateHighlighted];
+    [cancelButton addTarget:self action:@selector(cancelImagePicker:) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *cancelBarItem = [[UIBarButtonItem alloc] initWithCustomView:cancelButton];
+    viewController.navigationItem.rightBarButtonItem = cancelBarItem;
+}
+
+next implement the callback for bar item: 
+
+- (void)goBackPicker:(id)goBackPicker {
+    if (cameraRollNavigationController != nil)
+        [cameraRollNavigationController popViewControllerAnimated:YES];
+}
+
+- (void)cancelImagePicker:(id)cancelImagePicker {
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+done

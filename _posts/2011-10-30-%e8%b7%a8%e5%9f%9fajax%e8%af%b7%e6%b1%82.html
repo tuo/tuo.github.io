@@ -1,0 +1,94 @@
+--- 
+layout: post
+title: "\xE8\xB7\xA8\xE5\x9F\x9Fajax\xE8\xAF\xB7\xE6\xB1\x82"
+tags: 
+- ajax
+- cors
+- cross-domain ajax
+- easyxdm
+- javascript
+- jsonp
+- same-origin policy
+- w3c
+- yql
+status: publish
+type: post
+published: true
+meta: 
+  _edit_last: "1"
+---
+&nbsp;&nbsp;&nbsp;&nbsp;之前写的<a href="https://github.com/tuo/jenkins-dashboard" target="_blank">jenkins-dashboard</a>在几个团队中都在用,效果不错, 但是就是搭建起来有点麻烦. 因为它目前工作原理是起一个ruby进程然后每次去轮训jenkins ci上的每个build的状态(通过jenkins暴露的api),然后写到本地的一个html中.接着在写一个主文件比如dashboard.html,它每隔几秒钟去装载刚才ruby生成的html文件,这样就可以在dashboard上及时显示和更新ci的状态.但是问题是这个太重量级了,你还得装ruby环境和几个gem包甚至可能需要rvm,WTF.于是同事准备只用一个html就搞定,就是说每个几秒钟去发ajax请求到jenkins上拿到最新的构建状态,并更新dom结构或者样式, 这样一来用户就可以主需要下个html文件,并配置下ci的地址和想监控的构建就好了.几天后,我问同事怎么样了,他说ajax请求其他域名出错了. 回头我想了想我是忘记这个事情了, 因为浏览器有<a href="http://en.wikipedia.org/wiki/Same_origin_policy" target="_blank">Same Origin Policy</a>的安全限制. 好比现在:
+
+localhost ----ajax request ---&gt; http://ci.jruby.org/view/Ruboto/api/json
+
+不行, 因为虽然ci.jruby.org这个服务器是暴露了它的json/xml的api,但是这个请求不是在localhost下面,所以无法成功.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3>怎么实现跨域的ajax?</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;最简单的办法是将本地的服务器作为一个代理,将第三方的ajax请求都转发出去, 这样一来我在客户端,我基本无需改动.但是它的弊处是它扩展性和伸缩性差.
+&nbsp;&nbsp;&nbsp;&nbsp;第二种: 之前说过因为同源策略的限制,所以ajax请求无法跨域,但是还是hack的方法. 在浏览器中,对于script这个tag是一个例外,浏览器可以请求其他域的javascript数据源.那这么一来, 我可以在有一个script tag中定义好callback函数:
+<pre lang="javascript">
+ <script type="text/javascript">
+    function doSth(data){
+      alert(data.currency + ', ' + data.account);
+    }
+ </script>
+ <script type="text/javascript" src="http://another.domain.com/money?format=xml&amp;callback=doSth"></script>
+</pre>
+那怎么让服务器知道它需要组装数据然后调用你在本地服务器定义的callback函数了?(e.g.doSth()). 所以你看到下面的script tag中src属性指定了callback是doSth这个函数引用. 下面是服务器端的大概逻辑:
+<pre lang="java">data=....
+request.getParameter('callback');
+callback(data)</pre>
+这个解决方案被称为<a href="www.json-p.org" target="_blank">jsonp</a>(JSON-with-padding),通常被请求的数据都是以json方式来交换.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3>JSONP-jQuery支持</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;jQuery自从1.2开始在getJSON()中支持jsonp模式.如果你想请求远程的一个ajax请求,你需要做两件事情:
+<ul>
+	<li>在url中加上format=[json|xml]和callback=?</li>
+	<li>定义你的callback函数</li>
+</ul>
+这里的callback=? 这个?占位符会在jQuery执行时,替换成匿名函数的引用. 它会首先将匿名函数转换为一个全局函数同时挂到
+window对象上. 然后当请求完成,那么它会自动将其删除. 如果你的请求不是跨域的请求,它会将其转换为一个正常的ajax请求.
+&nbsp;&nbsp;&nbsp;&nbsp;比如我想请求
+<pre lang="javascript"> jQuery.getJSON("http://another.domain.com/money?format=json&amp;callback=?", function(data) {
+    alert(data.currency + ', ' + data.account);
+ });</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3>但是......</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;到目前为止,jsonp看起来很不错, jquery对它的支持更是不错, 那么.......问题是?
+它需要你在第三方的服务器暴露的服务进行修改,以便使其支持正确响应jsonp模式的请求.可以想象,对于another.domain.com/money?format=json这个功能而言,它不能只返回json对象,而是callback(json_data).我们知道
+很多时候我们没有对第三方服务进行修改的权限.所以这个时候便是YQL来拯救.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3><a href="http://developer.yahoo.com/yql/" target="_blank">YQL</a></h3>
+&nbsp;&nbsp;&nbsp;&nbsp;YQL是Yahoo提供的一个第三方query平台和api, 用来抓取第三方的数据信息,而不需要关心第三方的具体协议(REST)和数据格式(RSS,ATOM,XML,JSON, etc).
+引用YQL的一个示意图:
+<img class="alignnone" title="YQL" src="http://www.ibm.com/developerworks/web/library/wa-aj-jsonp2/yql.gif" alt="" width="563" height="235" />
+&nbsp;&nbsp;&nbsp;&nbsp;有兴趣的可以去<a href="http://developer.yahoo.com/yql/console" target="_blank">YQL Console</a>玩玩. 但是这里我们关注的是YQL它提供JSONP服务支持,也就是说你可以发送一个请求JSON数据的请求同时可以指定你的回调函数,相当于它给所以第三方的服务提供了自动化JSONP服务支持而不需要你对第三方服务做任何的修改,这就使得跨域的ajax修改不依赖于具体的第三方服务端的设置,完全只需要修改前端的javascript代码. yep~
+&nbsp;&nbsp;&nbsp;&nbsp;YQL语法的大概格式是:
+<pre lang="javascript">http://query.yahooapis.com/v1/public?q=[command]&amp;format=json&amp;callback=?</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;结合jQuery,比如你想拿到http://ci.jruby.org/view/Ruboto/api/json的结果:
+<pre lang="sql">select * from json where url ="http://ci.jruby.org/view/Ruboto/api/json"</pre>
+但是你需要它对应的REST QUERY的地址(web service):
+<pre lang="javascript">jQuery.getJSON("http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20json%20where%20url%20%3D%22http%3A%2F%2Fci.jruby.org%2Fview%2FRuboto%2Fapi%2Fjson%22&amp;format=json&amp;callback=?",function(data) {
+     alert("view name : "+ data.query.results.json.name);
+});</pre>
+实际上你还可以简化一下jQuery和YQL的使用, 比如构造url的过程, 这里<a href="http://james.padolsey.com/javascript/cross-domain-requests-with-jquery/" target="_blank">james padolsey</a>就写了一个很方便的封装.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3>Other Cross Domain Strageties</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;ok,我们讲过跨域ajax请求的两种办法: 设置代理服务器转发, 使用YQL. 但是这两种并没有本质上解决问题,二者都是通过一些独特的方法绕过浏览器对于跨域请求的限制.实际上,在如今mashup急剧增加, 跨域之间的资源共享确实是非常重要, W3C推出了 <a href="http://www.w3.org/TR/cors/" target="_blank">CORS</a>(Cross-Origin Resource Sharing), 简要的说它是标准XMLHttpRequest(aka.XHR)的扩展,允许浏览器做出不同域之间的请求. 相比以往的普通的XMLHttpRequest对象的工作方式, CORS不同的是它会先向服务器端发出请求,询问是否其他域的请求是否被允许,如果不是,那么就会被拒绝;如果服务端根据预定规则(有点类似于ACL)去检查其权限为允许放行的话,那么它就会亮绿灯允许这个请求继而拿到第三方的数据.
+&nbsp;&nbsp;&nbsp;&nbsp;所以你可以看到在服务器端可能有定义如下的权限规则:
+<pre lang="javascript">   Access-Control-Allow-Origin: http://www.another.domain.com</pre>
+<a href="http://www.nczonline.net/blog/" target="_blank">Nicholas Zakas</a>写了一篇关于<a href="http://www.nczonline.net/blog/2010/05/25/cross-domain-ajax-with-cross-origin-resource-sharing/" target="_blank">CORS for cross-domain Ajax</a>的文章.
+但是CORS的未来还不清楚,浏览器的支持也不是非常好,而且要求权限验证逻辑写在服务端,对于OPS的人维护起来也确实是麻烦,特别是你有多个平台需要维护(qa/staging/production).
+相比JSONP的方式,二者各有利弊, 还可以参考<a href="http://easyxdm.net/wp/" target="_blank">easyXDM</a>.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3>引用</h3>
+<a href="www.json-p.org" target="_blank">JSONP introduction</a>
+
+<a href="http://developer.yahoo.com/yql/" target="_blank">Yahoo! Query Language</a>
+
+<a href="http://developer.yahoo.com/yos/screencasts/yql_screencast.html" target="_blank"> Screencast: Introducing YQL  from YQL Site</a>
+
+<a href="http://www.youtube.com/watch?v=KareyTLxoXc" target="_blank">YQL: An Introduction on Youtube</a>
+
+<a href="http://icant.co.uk/articles/crossdomain-ajax-with-jquery/" target="_blank">Loading external content with Ajax using jQuery and YQL</a>
+
+<a href="http://www.ibm.com/developerworks/library/wa-aj-jsonp1/" target="_blank">Cross-domain communications with JSONP, Part 1: Combine JSONP and jQuery to quickly build powerful mashups</a>
+
+<a href="http://www.ibm.com/developerworks/web/library/wa-aj-jsonp2/" target="_blank">Cross-domain communications with JSONP, Part 2: Building mashups with JSONP, jQuery, and Yahoo! Query Language
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<address><strong>TODO List</strong>:  Rewrite Jenkins-dashboard using purely html/javascript, no heavy-lifting ruby.   </address>
