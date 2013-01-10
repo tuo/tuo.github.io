@@ -711,7 +711,6 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 	ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
 	ul ul li, ul ol li
 	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 23px; }
 	ul.large li { line-height: 32px; }
 	li p { line-height: 21px; }
 	
