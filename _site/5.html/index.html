@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="msvalidate.01" content="D44891873E3206AEFB1E30BD563E5E4B" />
+   <title>安装Puppet</title>
+   <meta name="author" content="Tuo 拓" />
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!--google analytics -->
+   <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27864586-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</head>
+<body>
+
+<div class="site">
+  <div class="title">
+    <a href="/">Tuo 拓</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
+  </div>
+  
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <h1 style="color: #AA0000;">安装Puppet</h1>
+<div id="post">
+&nbsp;&nbsp;&nbsp;&nbsp;近些年来出现了很多热词,其中有一个就是<a title="infrastructure as code" href="http://www.infoq.com/presentations/infrastructure-as-code" target="_blank">Infrastructure As Code</a>,基本的想法是相比原来系统管理员手工运行什么ssh或者命令来管理和搭建不同的机子或者平台, 能否使用一种更加抽象级别的语言来描述这个过程, 将系统底层的东西隔离开来, 使他们能脱离出系统底层各种细节,更多关注自己想到做得事情.
+
+&nbsp;&nbsp;&nbsp;&nbsp;所以就出现这样一些工具: <a title="puppet intro" href="http://docs.puppetlabs.com/guides/introduction.html" target="_blank">puppet</a>, <a title="chef" href="http://wiki.opscode.com/display/chef/Home" target="_blank">chef</a>等等. 上周胡凯要我尝试给ThoughtWorks西安也搭建这样的一个平台,我觉得这个东西还蛮有意思的,尝试了下puppet,中间还是遇到了不少问题,不过最终都有调试通过.这篇文章将会简要的介绍怎么安装puppet和中间可能遇到的问题和解决办法.
+
+&nbsp;&nbsp;&nbsp;&nbsp;我的环境是puppet agent使用的是Ubuntu虚拟机(这样比较稳妥), 同时puppet master也用的是Ubuntu.
+
+&nbsp;&nbsp;&nbsp;&nbsp;第一步:安装. 在server上首先你的装上ruby, 然后安装puppet.  在Ubuntu上最简单的安装方式是apt拉, 你可以运行<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">"sudo apt-get install puppet puppetmaster facter"</span>, 如果你现在运行puppet -V查看版本的话, 却发现它的版本是<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">"0.25.0"</span>,然而主流的版本是<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">"2.6.8"</span>.解决办法是:
+
+&nbsp;&nbsp;&nbsp;&nbsp;修改你的<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">/etc/apt/sources.list</span> 加入 运行aptitude update (是为了装上最新版本的puppet master 2.6.8, 如果你不修改这一行你装的就是0.25这个版本, 问题很多).
+<pre lang="javascript"> 
+deb http://backports.debian.org/debian-backports lenny-backports main contrib non-free
+aptitude update
+aptitude show puppet
+</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;这下你运行puppet -V应该可以看到你的版本已经是最近的版本.
+
+&nbsp;&nbsp;&nbsp;&nbsp;默认这个puppet会安装到/etc/puppet下面.这个时候你需要产生一个puppet.conf文件,木有这个文件,puppet master是启动不了的.你可以使用<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">"puppet master --genconfig &gt; puppet.conf"</span> 来产生这个配置文件.
+
+然后你可以尝试启动puppet master,用如下命令<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">"puppet master --debug --no-daemonize"</span> 你应该可以看到"notice: Starting Puppet master version 2.6.8"
+--verbose表示的是这个日志输出的详细程度, --no-daemonize表示这个线程将不会转入后台, 你可以在console当中看到日志的输出.
+
+如果出现<span style="color:red; margin:0;padding:0;border:0;">Could not run: Could not create PID file: /var/lib/puppet/run/master.pid</span>, 就意味着很有可能你上次使用了daemonize的方式启动的, 所以现在这个进程还在后台, 你可以ps -ax | grep puppet ,然后杀死这个进程,在输入命令试试.
+
+紧接着就是puppet agent了,也就是要配置客户端了.具体过程可以参考下面链接:<a href="http://docs.puppetlabs.com/guides/installation.html" target="_blank">Installation Guide</a>.
+安装完成之后可以运行: <span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">puppet agent --server=puppet --no-daemonize --verbose</span>那这个--server指的就是puppet master所在主机的地址.极力推荐使用域名而非简单的IP地址. 你也可以在/etc/hosts中加入如下映射:
+<pre lang="python"> 
+10.29.2.50      puppet
+</pre>
+然后在你的puppet master上配置:(这里的10.29.2.5也就是clark-laptop的ip)
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/07/puppet-server-hosts.jpg"><img class="alignleft size-full wp-image-151" title="puppet server hosts" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/07/puppet-server-hosts.jpg" alt="" width="593" height="185" /></a>
+Ok,搞定.
+&nbsp;&nbsp;&nbsp;&nbsp;运行puppet agent --server=puppet --no-daemonize --verbose, 就开始了puppet agent和puppet master之间的ssl过程, 这个过程是可能出现问题较多的地方.这个时候puppet agent会想server端发出确认certification的请求,所以在server端你可以运行" puppet cert --list" 来查看有多少agent的认证请求, 比如这里就有如下输出:
+<pre lang="css"> 
+clarht-laptop
+</pre> 
+
+上面代表的是agent所在主机的域名了,那这个域名是在puppet master主机上/etc/hosts中根据请求过来的agent的ip而对应找到的域名.
+
+然后<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">puppet cert --sign clarht-laptop</span>就可以确认认证了,握手完成.
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/07/puppet-mapping.jpg"><img class="alignleft size-full wp-image-155" title="puppet mapping" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/07/puppet-mapping.jpg" alt="" width="610" height="301" /></a>
+
+如果这个过程中,你有碰到"
+
+<span style="color:red; margin:0;padding:0;border:0;">
+err: Could not request certificate: Retrieved certificate does not match private key; please remove certificate from server and regenerate it with the current key"
+</span>
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/07/puppet-error.png"><img class="alignleft size-large wp-image-152" title="puppet error" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/07/puppet-error-1024x146.png" alt="" width="684" height="146" /></a>
+<i>这个时候表示你可能将hostname, ip, domain之间的设置给搞错了.</i>
+首先确保你的puppet server的映射木有出错.在你的puppet master所在的机子上, 运行<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">"less /ect/resolv.conf"</span> 查看到你的domain name.
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/07/Screen-shot-2011-07-16-at-8.51.44-PM1.png"><img class="alignleft size-full wp-image-154" title="Screen shot 2011-07-16 at 8.51.44 PM" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/07/Screen-shot-2011-07-16-at-8.51.44-PM1.png" alt="" width="410" height="132" /></a>
+&nbsp;
+&nbsp;
+然后在你的<span style="background-color:#FFFFAA; margin:0;padding:0;border:0;">/etc/hosts</span>中加入
+<pre lang="java"> 
+10.29.2.50 puppet.corporate.thoughtworks.com puppet
+</pre>
+也就是按照"ip &lt;hostname&gt;.&lt;domain name&gt; &lt;hostname&gt;"的方式.
+
+对于agent的配置比较麻烦一点, 首先上到puppet agent所在机子上,命令行中调用"hostname", 获取到agent所在主机的hostname,比如我这里就是"clark-laptop", 同时less /etc/resolv.conf 查看agent所在主机的domain name. 这个domain name在这里刚好也是"corporate.thoughtworks.com",但是它不一定跟puppet master上的domain name就是相同的.然后记下agent的ip地址10.29.2.5.
+
+最后返回到puppet master所在主机上,修改/etc/hosts文件,加入如下映射:
+<pre lang="javascript"> 
+ <agent-ip> <agent-hostname>.<agent-domain-name> <agent-hostname>
+</pre>
+也就是10.29.2.5   clark-laptop.corporate.thoughtworks.com clark-laptop.
+
+&nbsp;&nbsp;&nbsp;&nbsp;由于上面的配置不正确而引出的问题, 在google下还真是每个人都有各自的说法, 试了不少方案, 也算是这个搞清楚了这个流程是怎么回事,希望这个能帮助到刚开始玩puppet的朋友.这样一来ssl握手也解决了, 你可以尝试写一两个catalog让agent请求下来玩玩, 比如安装openssh-server, git , mysql数据库. 另外其实puppet都有一些现有的公共的module,可以避免重新发明轮子, 可以参考<a href="http://forge.puppetlabs.com/">http://forge.puppetlabs.com/</a>
+
+<h4>Have fun~</h4>
+
+&nbsp;&nbsp;&nbsp;&nbsp;接下来应该会尝试下chef, 因为它的语言是使用ruby的, 相对puppet使用自己的DSL, 上手速度应该蛮快的.另外如何使用Chef和<a title="vagrant" href="http://vagrantup.com/">Vagrant</a>来测试,应该很有意思.
+
+</div>
+
+<div id="share_post">
+  <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  <!-- Place this tag where you want the +1 button to render -->
+<div class="g-plusone" data-size="medium" data-annotation="inline"></div>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</div>
+
+<!-- START: Livefyre Embed -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tuohuang'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+<!-- END: Livefyre Embed -->
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/android-listview-remember-selection-and-set-default-selection">Android listview remember selection and set default selection</a></li>
+    
+      <li><span>09 Oct 2012</span> &raquo; <a href="20.html">转： e络盟-2012树莓派-raspberry-pi发烧友见面会</a></li>
+    
+      <li><span>14 Jul 2012</span> &raquo; <a href="19.html">毕业两年记 （上）</a></li>
+    
+  </ul>
+</div>
+
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/Life MiscellaneousProgramming.html">Life MiscellaneousProgramming (1)</a></li>
+  
+  <li><a href="/android.html">android (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Tuo 拓<br />
+       
+		 <a href="mailto:clarkhtse@gmail.com?subject=hey">clarkhtse@gmail.com</a> 
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+      <a href="http://twitter.com/tu0huang/">twitter.com/tu0huang</a><br />      
+      <a href="http://github.com/tuo/">github.com/tuo</a><br />
+      <a href="http://weibo.com/1394253223">Tuo's sina weibo</a><br />
+      </p>
+    </div>
+    <div class="rss">
+      <a href="http://feeds.feedburner.com/tuo">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

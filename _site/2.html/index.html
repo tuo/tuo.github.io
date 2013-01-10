@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="msvalidate.01" content="D44891873E3206AEFB1E30BD563E5E4B" />
+   <title>cucumber 测试复杂UI</title>
+   <meta name="author" content="Tuo 拓" />
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!--google analytics -->
+   <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27864586-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</head>
+<body>
+
+<div class="site">
+  <div class="title">
+    <a href="/">Tuo 拓</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
+  </div>
+  
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <h1 style="color: #AA0000;">cucumber 测试复杂UI</h1>
+<div id="post">
+&nbsp;&nbsp;&nbsp;&nbsp;最近碰到的一个问题是:我们在controller层都有完备的单元测试,当然既然是单元测试,也就缺乏集成测试了.为什么会是这样了?因为项目要求测试覆盖率为100%,任何在controller层测试中写跟数据库打交道的测试都会通不过项目的质量检查.那既然controller层测试只有一些stub和mock测试的话,集成测试写在哪里了? 在cucumber测试中.那就写呗,难题在于哪了. 就在view层需要渲染一个复杂的报表,使用highcharts库来渲染的图表.通常一般的cucumber测试,在一个scenario中,准备一些数据,然后访问那个页面,查看是否元素或者数据存在.问题就在最后一步,怎么去页面中抓取到想要的元素或者数据,如果只是简单视图显示,可能就很简单,但是如果这个视图渲染出来之后非常复杂情况就难办了. 这就需要进一步分析报表的渲染模型了.
+&nbsp;&nbsp;&nbsp;&nbsp;highcharts是一个javascript库,你所要做的便是传入合适的数据(配置),然后渲染的事情就可以交给它了. 以这个<a href="http://www.highcharts.com/demo/?example=line-basic&amp;theme=default">demo</a>这个基本线条模式为例:
+&nbsp;&nbsp;&nbsp;&nbsp;<pre lang="javascript">
+var chart;
+$(document).ready(function() {
+chart = new Highcharts.Chart({
+chart: {
+renderTo: 'container',
+defaultSeriesType: 'line',
+marginRight: 130,
+marginBottom: 25
+}
+..........
+//个性化配置的数据
+series: [{
+name: 'Tokyo',
+data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+}, {
+name: 'New York',
+data: [-0.2, 0.8, 5.7, 11.3, 17.0, 22.0, 24.8, 24.1, 20.1, 14.1, 8.6, 2.5]
+}, {
+name: 'Berlin',
+data: [-0.9, 0.6, 3.5, 8.4, 13.5, 17.0, 18.6, 17.9, 14.3, 9.0, 3.9, 1.0]
+}, {
+name: 'London',
+data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+}]
+});
+
+});
+</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;所以结合整个流程就是:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;databaset --&gt; services --&gt; controller --&gt;取道合适的数据 --&gt; view--&gt; highcharts render --&gt; 报表
+&nbsp;&nbsp;&nbsp;&nbsp;相比一般普通的cucumber测试,现在的问题是highcharts渲染出来后的报表标签(是一个svg)实在是非常混乱,数据被打散了,不像表格一样有明确清晰的意义一目了然.
+&nbsp;&nbsp;&nbsp;&nbsp;怎么办了? 问题在哪?
+
+&nbsp;&nbsp;&nbsp;&nbsp;测试对象.
+
+&nbsp;&nbsp;&nbsp;&nbsp;为什么需要测试highcharts它的渲染过程? 那就可以相信highcharts库,不去测试?
+
+&nbsp;&nbsp;&nbsp;&nbsp;问题在于什么是可以自动化测试什么是必须得人工测试.
+
+&nbsp;&nbsp;&nbsp;&nbsp;自动化测试的过程可以在"databaset --&gt; services --&gt; controller --&gt;取道合适的数据" 发生
+
+&nbsp;&nbsp;&nbsp;&nbsp;但是关于highcharts渲染的过程,不能包含在自动化测试, 只能由人工测试来覆盖.
+
+&nbsp;&nbsp;&nbsp;&nbsp;这个分解难处在怎么去测试从controller层传回的数据是正确的. 我的做法的一个依据是为什么highcharts渲染过的很难测,因为它数据展现形式缺乏语意性.所以我尝试用一个&lt;table&gt;表格来显示数据.但这个表格只能在测试和QA模式下才可以显示在页面上.
+&nbsp;&nbsp;&nbsp;&nbsp; 具体做法是:在helper中加入这样一个方法
+<pre lang="ruby">
+      def cucumber_debug_print(data)
+        return unless ["test", "cucumber"].include?(Rails.env)
+        raw_tag = "<table id='data_listing'><thead><tr><th> Name</th>"              
+
+        raw_tag <<  "</tr></thead><tbody>"
+        transform_on(data).each do |data|
+          raw_tag << "<tr><td>#{data[:name]}</td>"
+          raw_tag << "</tr>"
+        end      
+        raw_tag <<"</tbody></table>"
+        raw_tag.html_safe
+      end
+</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;这样的好处在于:最大限度地将测试包含到自动化测试中.同时提高了一种更有语意的数据表现形式(table),这样测试人员只要根据报表下面的表格中数据来检查报表是否渲染正确,而不需要去scenario中去推导准备数据.
+
+&nbsp;&nbsp;&nbsp;&nbsp;后来证明这个方案是非常重要的,因为后面scenario还涉及到跟其他部分联合的测试,如果采用一般的测试,无法想象这个测试会写成什么样子. 因为之前我跟客户之前的开发人员也有争论这件事情,一开始人家坚持认为cucumber测试丢给QA手工测试就好,结果写出来的测试什么事也没干,因为从controller层传来的数据是应该可以自动化测试的,但是这个时候就必须要QA手工去测试,大大加大的QA的负担,或许像小龙说的这边的开发人员更多的是思考将自己的事弄好就好了,至于QA是否容易测试,我不关心.我一开始无法说服他,人家有多年的经验,挣的面红耳赤也没有必要,那就让事实说话呗. 很高兴的是这个方案更好也更有效的覆盖到了很多单元测试无法测试的问题,给了我们非常即时的反馈. 也许不是一定要非常有侵略性的说服别人,而是让人家自己摸索之后回过头来觉说"哇,你的想法不错阿,试试"
+
+</div>
+
+<div id="share_post">
+  <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  <!-- Place this tag where you want the +1 button to render -->
+<div class="g-plusone" data-size="medium" data-annotation="inline"></div>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</div>
+
+<!-- START: Livefyre Embed -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tuohuang'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+<!-- END: Livefyre Embed -->
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/android-listview-remember-selection-and-set-default-selection">Android listview remember selection and set default selection</a></li>
+    
+      <li><span>09 Oct 2012</span> &raquo; <a href="20.html">转： e络盟-2012树莓派-raspberry-pi发烧友见面会</a></li>
+    
+      <li><span>14 Jul 2012</span> &raquo; <a href="19.html">毕业两年记 （上）</a></li>
+    
+  </ul>
+</div>
+
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/Life MiscellaneousProgramming.html">Life MiscellaneousProgramming (1)</a></li>
+  
+  <li><a href="/android.html">android (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Tuo 拓<br />
+       
+		 <a href="mailto:clarkhtse@gmail.com?subject=hey">clarkhtse@gmail.com</a> 
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+      <a href="http://twitter.com/tu0huang/">twitter.com/tu0huang</a><br />      
+      <a href="http://github.com/tuo/">github.com/tuo</a><br />
+      <a href="http://weibo.com/1394253223">Tuo's sina weibo</a><br />
+      </p>
+    </div>
+    <div class="rss">
+      <a href="http://feeds.feedburner.com/tuo">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

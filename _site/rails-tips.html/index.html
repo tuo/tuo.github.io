@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="msvalidate.01" content="D44891873E3206AEFB1E30BD563E5E4B" />
+   <title>rails开发工具的一些tips</title>
+   <meta name="author" content="Tuo 拓" />
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!--google analytics -->
+   <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27864586-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</head>
+<body>
+
+<div class="site">
+  <div class="title">
+    <a href="/">Tuo 拓</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
+  </div>
+  
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <h1 style="color: #AA0000;">rails开发工具的一些tips</h1>
+<div id="post">
+&nbsp;&nbsp;&nbsp;&nbsp;在这阵子的也不是很长的Rails开发过程中,零星的记录了一些开发过程中使用工具的点滴.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2>Tip 1:</h2>
+
+&nbsp;&nbsp;&nbsp;&nbsp;是对于Rails Console而言,每当我们输入比如Review.all时,它打印出来的总是挤成一团的数据信息.
+
+<img class="alignleft size-full wp-image-117" title="Screen shot 2011-01-09 at 8.48.23 PM" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/01/Screen-shot-2011-01-09-at-8.48.23-PM2.png" alt="" width="504" height="123" />
+
+&nbsp;&nbsp;&nbsp;&nbsp;首先它没有打出SQL语句,而SQL信息有时候对于调试还是蛮重要的. 打开的打印SQL的设置很简单,可以敲rails console之后,输入
+<pre class="brush: rails">
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;紧随其后所有的操作都回打印出查询的SQL语句,很方便.
+&nbsp;&nbsp;&nbsp;&nbsp;当然只打印SQL语句也是不够的,为了阅读容易,你可以更希望Review.all不是打印出一团的很难阅读的信息,而是以表格的方式打印出来. 我刚好有看<a href="http://asciicasts.com/episodes/176-searchlogic" target="_blank">Railscasts</a>有接触到<a href="https://github.com/cldwalker/hirb" target="_blank">Hirb</a>.
+
+&nbsp;&nbsp;&nbsp;&nbsp;首先gem install hirb一下,然后可以创建一个~/.irbrc的文件中输入
+<pre class="brush: rails">
+require  'rubygems'
+require 'hirb'
+require 'active_record'
+Hirb.enable
+ActiveRecord::Base.logger = Logger.new(STDOUT)
+</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;完成两件事,设置logger输出SQL语句,同时打开hirb在窗口中以表格显示. 当然这是全局的设置,如果在某个console中觉得不爽,可以调用Hirb.disable来关闭这个表格输出.
+
+<img class="alignleft size-large wp-image-119" title="Screen shot 2011-01-09 at 8.49.57 PM" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/01/Screen-shot-2011-01-09-at-8.49.57-PM1-1024x168.png" alt="" width="504" height="99" />
+
+&nbsp;&nbsp;&nbsp;&nbsp;看起来满不错的.(如果你觉得这个屏幕太小,有记录都省略掉了,你当然可以查Hirb的文档,还有办法是进rails console前将你的窗口调大点.这样它的表格的大小也会相应变大.顺便说说iTerm的Command+Enter进入全屏的方式非常爽.)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h2>Tip 2:</h2>
+
+&nbsp;&nbsp;&nbsp;&nbsp;每次写完测试,都要跑到窗口中去看rspec spec或者rake spec ,当然你也可以装一个rspec的textmate bundle,从那里面Command+R跑当前文件的测试(ps:我用得最多的还是Rspec Book中作者提到Ctr+Shift+Down来快速地在应用代码和测试代码之间快速切换). 但是每次都有涉及到一些会影响面很大的测试时(这可能会是一个代码坏味),你所想的便是跑rspec spec,但是测试代码一多,这个时间耗费实在太大,一定程度上影响了开发的节奏.
+
+<img class="alignleft  size-full wp-image-120" title="Screen shot 2011-01-09 at 9.10.34 PM" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/01/Screen-shot-2011-01-09-at-9.10.34-PM.png" alt="" width="504" height="188" />
+
+&nbsp;&nbsp;&nbsp;&nbsp;上网搜了搜,发现了这篇文章<a href="http://upstre.am/blog/2009/07/kickstart-rspec-with-spork/" target="_blank">Kickstart Rspec with Spork</a>,就有谈到使用Spork来加快Rails开发过程中的运行测试的周期.你可以去<a href="https://github.com/timcharper/spork" target="_blank">Spork</a>的github中找到如何配置等等. 如果这其中你碰到有问题,你可以详细的查看它的Issue列表,在这里我先列举出我遇到的一些问题. 我暂时用的是 Spork 0.8.4 + Rails 3.0.3
+
+<img class="alignleft  size-full wp-image-123" title="Screen shot 2011-01-09 at 9.12.08 PM" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/01/Screen-shot-2011-01-09-at-9.12.08-PM.png" alt="" width="503" height="210" />
+
+spork (0.8.4)
+Authors: Tim Harper, Donald Parish
+Rubyforge: http://rubyforge.org/projects/spork
+Homepage: http://github.com/timcharper/spork
+Installed at: /Users/twer/.rvm/gems/ruby-1.8.7-p302@rails3.0.3
+
+&nbsp;&nbsp;&nbsp;&nbsp;一开始我都是按照Github的配置的来的,基本上没有什么需要个性化的地方.如果你使用过程中发现这个你修改了某个Controller层或者Model层的东西,但是测试仍然失败,而你认为它应该是成功的.那么可能解决的办法是你需要找到environments/test.rb 然后设置cache_classes为false:
+<pre class="brush: rails">
+config.cache_classes = false
+</pre>
+
+&nbsp;&nbsp;&nbsp;&nbsp;需要注意的是:
+<blockquote>It’s important to disable class caching in your test environment otherwise spork will preload all your models and controllers.</blockquote>
+&nbsp;&nbsp;&nbsp;&nbsp;关于这个问题,可以查看Issue列表上已经解决的一个问题:<a href="https://github.com/timcharper/spork/issues/closed#issue/44" target="_blank">gotcha for the docs: rails3 defaults environment/test.rb to preload models via cache_classes setting</a> 而Spork的作者timcharper提到
+<blockquote>I've decide that spork 0.9.0 will disable eager loading, regardless of this variable. I may change my mind if enough people are angry about the decision.</blockquote>
+&nbsp;&nbsp;&nbsp;&nbsp;但是我暂时使用0.8.4这个版本是没有任何问题的,即它并没有预加载model和controller层的类. (spork -d可以列举出所以已经预加载的类).
+
+&nbsp;&nbsp;&nbsp;&nbsp;现在用起来还真是满爽的,要跑所有测试速度也相对原来快了满多的.爽到BIANG BIANG声之后,遭遇了另外一个问题,同事有碰到一个问题是他在routes里的增加了对应的url到action的映射后,这个测试还是跑不过,提示没有对应的route有定义.我挣扎了半天,突然想到两个星期前原来Xia姐也有问过我,但当时我也没搞清楚,只能关了Spork,重启才行.额,联系到Spork的原理,我想先看看Spork会预加载哪些类了?  运行"spork -d"  一看:
+<img src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/01/Screen-shot-2011-01-09-at-9.37.55-PM.png" alt="" title="Screen shot 2011-01-09 at 9.37.55 PM" width="554" height="250" class="alignleft size-full wp-image-124" />
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<p>果然有routes.rb被预加载了,所以每一次运行rspec 命令,都不会去重新加载routes.rb这个文件,哪怕你在里面做了惊天地泣鬼神的变化. 所以问题是如何手动的指定了让Spork每次都重载这个文件了? 夷,可以参考Issue列表,说不定有人也有这样的问题.一看,没有找到跟我问题一样的,但是却发现有点类似的,那便是<a href="https://github.com/thoughtbot/factory_girl/issuesearch?state=closed&amp;q=spork#issue/55" target="_blank">Factory girl with bundler and spork - no reloading of classes.</a> 那我知道我应该去spec_helper.rb中的Spork.each_run 方法(默认是空)中require我门需要的文件config/routes.rb, 所以下面便是修改之后的:</p>
+<pre class="brush:rails">
+Spork.each_run do
+#make sure each time running rspec , it will reload routes.rb file.mod
+require File.expand_path("../../config/routes", __FILE__)
+end
+</pre>
+
+&nbsp;&nbsp;&nbsp;&nbsp;启动Spork,运行rspec,改动routes.rb文件,立马就能在测试中显示出效果,赞! 所以基本上以后的开发都不会需要改动Spork了,也不会有问题跟它有联系了,因为它预加载就是下面几个文件:
+
+config/application.rb
+config/boot.rb
+config/environment.rb
+config/initializers/backtrace_silencers.rb
+config/initializers/inflections.rb
+config/initializers/mime_types.rb
+config/initializers/secret_token.rb
+config/initializers/session_store.rb
+spec/spec_helper.rb
+
+&nbsp;&nbsp;&nbsp;&nbsp;一般来说,对于开发,基本上改动的范围无外乎route, model ,view 和 controller等,上面列举的文件不需要去改动它们.
+
+&nbsp;&nbsp;&nbsp;&nbsp;那如果以后你发现了诡异的问题,测试应该过,却要是没有过,那就按照上面的方法来办吧.
+
+&nbsp;&nbsp;&nbsp;&nbsp;最后,在Textmate中Ctrl+Command+Alt+V可以跳出剪贴板的所有历史记录,直接输入前几个字母就能定位,这个很实用. esc可以有一定程度的补全,也很酷
+
+&nbsp;&nbsp;看一个这个链接: <a href="http://adventuresincoding.com/2010/05/10-textmate-bundlesplugins-to-boost-your-ruby-on-rails-development-productivity" target="_blank">10  TextMate bundles/plugins to boost your Ruby on Rails</a> Code Beautifier 格式化代码满好使的,AckMate搜索很方便等等
+
+<hr/>
+<b>Update @2011/02/11 : <a href="http://www.rubyinside.com/how-to-rails-3-and-rspec-2-4336.html"   target="_blank">How To Get Rails 3 and RSpec 2 Running Specs Fast (From Scratch)</a>
+
+</div>
+
+<div id="share_post">
+  <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  <!-- Place this tag where you want the +1 button to render -->
+<div class="g-plusone" data-size="medium" data-annotation="inline"></div>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</div>
+
+<!-- START: Livefyre Embed -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tuohuang'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+<!-- END: Livefyre Embed -->
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/android-listview-remember-selection-and-set-default-selection">Android listview remember selection and set default selection</a></li>
+    
+      <li><span>09 Oct 2012</span> &raquo; <a href="20.html">转： e络盟-2012树莓派-raspberry-pi发烧友见面会</a></li>
+    
+      <li><span>14 Jul 2012</span> &raquo; <a href="19.html">毕业两年记 （上）</a></li>
+    
+  </ul>
+</div>
+
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/Life MiscellaneousProgramming.html">Life MiscellaneousProgramming (1)</a></li>
+  
+  <li><a href="/android.html">android (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Tuo 拓<br />
+       
+		 <a href="mailto:clarkhtse@gmail.com?subject=hey">clarkhtse@gmail.com</a> 
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+      <a href="http://twitter.com/tu0huang/">twitter.com/tu0huang</a><br />      
+      <a href="http://github.com/tuo/">github.com/tuo</a><br />
+      <a href="http://weibo.com/1394253223">Tuo's sina weibo</a><br />
+      </p>
+    </div>
+    <div class="rss">
+      <a href="http://feeds.feedburner.com/tuo">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

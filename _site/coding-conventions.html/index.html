@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="msvalidate.01" content="D44891873E3206AEFB1E30BD563E5E4B" />
+   <title>实践中的Codinng Convention and Incremental Development一点体会</title>
+   <meta name="author" content="Tuo 拓" />
+
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+  
+
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+
+   <!--google analytics -->
+   <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27864586-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</head>
+<body>
+
+<div class="site">
+  <div class="title">
+    <a href="/">Tuo 拓</a>
+    <!-- <a class="extra" href="/">home</a>
+    <a class="extra" href="/about.html">about</a> -->
+  </div>
+  
+  
+  <section id="main"><!-- #main content and sidebar area -->  
+      <div id="content">
+        <article class="articlecontent">
+          <h1 style="color: #AA0000;">实践中的Codinng Convention and Incremental Development一点体会</h1>
+<div id="post">
+这一周的工作印象很深的第一件事是<a href="http://www.iamhukai.com/" target="_blank">凯哥</a>需要去添加页面，然后发现那个样式并没有应用上，在firebug上一看，原来是简单标记使用css的元素id不一致，在一个页面中你可以看到一部分是以hyphen - 连字符，另一部分却是underline _ 下划线，而且确是有混在一起使用，看起来怪怪的。早些的时候我原来有接触过这个页面，但当时我有看到这个问题，却并没有一下子潜进去去替换或怎么样，因为当时感觉虽然也有问题，但是还不是一个很大的deficiency缺点，直至到现在它已经不能work,而且非常的counter-intuitive. ps:尽管凯哥一直强调我写日志的时候需要考虑对象，但是从我的手指间不自觉的会流出这种风格. 已经是到了不得不改的时候了，so,which style u're gotta pick up , hyphen ,camelCase or underscore ? 凯哥在检查的时候使用的是连字符，那有没有说一种naming convention 或者 'best practice' 或者说无论哪种只是一个personal preference了?    W3C css 规范并没有提出太多的指示，而在StackOverflow上的一篇帖子<a href="http://stackoverflow.com/questions/1686337/hyphens-or-underscores-in-css-and-html-identifiers" target="_blank">Hyphens or underscores in CSS and HTML identifiers?</a> 和CSS-Tricks的问卷调查<a href="http://css-tricks.com/new-poll-hyphens-or-dashes/" target="_blank">New Poll: Hyphens, Underscores, or camelCase</a>? 大家都有提出自己的看法，连字符、下划线和camelcase都是可以的，仅仅是一个个人喜欢的问题，选择权is totally up to u. 当我们bla bla bla的将很多页面的涉及到的不符合命名规范的id都换成统一的风格时，我们发现这个改动实在是太痛苦了,手工的copy/paste，而且你还没办法去automate它，很多东西是如此的insidious，那可是花了一周折。这种机械的却又无法交给机器去自动化的东西，解决办法有一个，那就是从源头上截断它的产生。所以凯哥说这不是某一个coder的错误，而是当初项目的一个错误。因为当初并没有指定Code Standards，并且因为大家是如此有个性的coder,所以大家的风格没有办法去align，却要找不到一个guideline来balance，不同的风格并没有错，但是需要一个大家可以参考的baseline,你不能越过它，否则各种不同风格的代码的这种pile up，慢慢的这种维护或者修改就变得越来越难。这也就是XP一个practice  "Coding Standards" ,这个是一个非常重要的东东，在项目开始大家一起定制一个统一的guideline或者standards，并且在这个standards内能让coder的风格能发挥很大的自由却不会造成team mates中间的disagreement，因为这些都有在前面讨论过。引用James Shore的<a href="http://books.google.com/books?id=g_ji7cRb--UC&amp;printsec=frontcover&amp;dq=art+of+agile&amp;source=bl&amp;ots=vlPvwuVzbB&amp;sig=3Wg3MGDR-H8kKOmom89CiWEWzu0&amp;hl=en&amp;ei=bSV6TO20GI_6cPij4eIF&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=5&amp;ved=0CCsQ6AEwBA#v=onepage&amp;q&amp;f=false" target="_blank">The Art of Agile Development</a> 关于Code Standards的99字总结:
+
+
+<blockquote>
+<strong>in 99 words</strong>
+
+In team software development, we create a collective work that is greater than any individual could create on his own. Arguing about style gets in the way.
+
+When creating a coding standard, your most important achievement will be learning how to disagree constructively. To succeed, create the minimal set of standards you can live with. Focus on consistency and consensus over perfection. Remember that few decisions are irrevocable in agile development.
+
+Assume your colleagues are professional and well-meaning. If they deviate from the standard, discuss reasons rather than placing blame. No coding standard can substitute for professional judgement.</blockquote>
+
+同样Jason Mawdsley关于这个话题也有一篇非常棒的文章 <a href="http://www.drdobbs.com/architecture-and-design/193003844" target="_blank">Coding Conventions: Make Them Agile</a> ，在文章中他提出“
+
+<blockquote><span> Documented coding conventions take the pain out of  development.</span></blockquote>
+
+<span> 很明显，documentation 在软件领域本身某些out-of-sync的性质使得大家对它比较进而远之的。文章中作者提出来自己对于agile coding convention的看法:
+</span>
+<blockquote><h3>The Agile Coding Convention</h3>
+Simple rules let your team deliver high-quality code as efficiently as  possible. With this in mind, my agile coding convention consists of these simple  rules:
+<ol>
+        <li>Make your code look like other people's code.</li>
+	<li>Use the simplest design possible.</li>
+	<li>Don't re-invent the wheel.</li>
+	<li>Document your code.</li>
+	<li>Keep security in mind.</li>
+	<li>Work in increments.</li>
+	<li>Work in iterations.</li>
+	<li>Have your code reviewed.</li>
+	<li>Don't stay blocked.</li>
+	<li>Do unto others as you would have them do unto you.</li>
+</ol></blockquote>
+
+
+注意其中有一条会跟我第二个话题有很大关系。
+
+当然不同的语言环境下的code standards是不太一样的，这个链接可能可以给点提示<a href="http://www.westborosystems.com/2010/02/coding-standard/" target="_blank">Some Specific Coding Standards</a>，遵从这些convention(其实我也没分的很清楚Convention 和 Standards的区别，可能一个是大家默认的风俗，一个是官方建议的吧，不过我更喜欢convention)的好处是非常明显的，它可以帮助你写出别人舒服的代码，方便信息流通。(想起了一点CoC的观念，<a href="http://en.wikipedia.org/wiki/Convention_over_configuration" target="_blank">Convention over Configuration</a>,也称作Coding by Convention--比如Maven相对Ant在文件目录上的一个convention设置，大大方便了用户)。CoC现在可是很被广泛运用和接受的概念，对此Uncle Bob也有评论：
+
+<blockquote>This is the problem with conventions - they have to be continually resold to  each developer. If the developer has not learned the convention, or does not  agree with it, then the convention will violated. And one violation can  compromise the whole structure." -Robert C. Martin</blockquote>
+
+任何事情有利有弊，like a double-edged sword or two sides of coin ,关键是看它应用的context。
+
+题归正传，第二件事情比较深刻的是在实现一个由时间的转换的时候，因为C#中DateTime有一个属性是DateTimeKind,当我们存进去一个时间，然后再取出来的它的DateTimeKind就会是一个Local，而不是你存进去之前制定的，比如是utc等等，这就给我们造成了问题，所以这个解决方案就是使用NHibernate的UserType，在NullSafeGet的时候，将DateTimeKind指定后为UTC再将之返回，看起来应该是蛮straightforward吧，
+<pre  class="brush: csharp; ">
+if (String.IsNullOrEmpty(value.ToString()))
+{
+return null;
+}
+var dataTimeInDb = DateTime.Parse(value.ToString());
+return new DateTime(dataTimeInDb.Year, dataTimeInDb.Month, dataTimeInDb.Day, dataTimeInDb.Hour, dataTimeInDb.Minute, dataTimeInDb.Second,DateTimeKind.Utc);
+</pre>
+     但是在我们将所有映射文件*.hbm中出现DateTime格式的property都将其type指定为自己实现的usertype后，跑整个Dao测试，失败，而且提示的错误信息没有，都是什么SqlClient什么的Timeout exception，我想了半天搞不定，一位是hibernate的session没有flush仍然占着数据库连接，然后后面的SqlClient尝试去保存东西时获取不到连接，在那里等然后超时，但问题是它们是不同的表。所以我这个忙了半天没头绪，后来凯哥说这个先把所有的更改都rollback掉，然后一点点的将usertype加回来，然后看测试通过没，结果加到一个EventSources类时发现了测试通过不了，然后就一点点的缩小问题的区域，后来发现在Nhibernate中的NullSafeGet居然不让返回Null的DateTime格式，但是相应的数据库和.hbml中都是可以为null的，晕了，真是what the fWORD!! 不过，这次解决问题的经历也让我明白incremental develop 的重要性，它可以帮助你快速的找到问题，而且提供及时的反馈，更重要的是降低了其他异常覆盖真正引起问题异常的几率，让我们更直白的spot问题在哪里发生，因为软件本身就是一个复杂的环境，所以这个开发方式将会有利于develop with confidence.
+
+    这一周当然收获不止那么多，上面只是列举出其中两个比较深刻的例子，知识总是在实践中一点一点的加深，that's awesome.
+ 
+
+</div>
+
+<div id="share_post">
+  <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  <!-- Place this tag where you want the +1 button to render -->
+<div class="g-plusone" data-size="medium" data-annotation="inline"></div>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</div>
+
+<!-- START: Livefyre Embed -->
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tuohuang'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+<!-- END: Livefyre Embed -->
+
+<div id="related">
+  <h2>Related Posts</h2>
+  <ul class="posts">
+    
+      <li><span>28 Oct 2012</span> &raquo; <a href="/2012/10/28/android-listview-remember-selection-and-set-default-selection">Android listview remember selection and set default selection</a></li>
+    
+      <li><span>09 Oct 2012</span> &raquo; <a href="20.html">转： e络盟-2012树莓派-raspberry-pi发烧友见面会</a></li>
+    
+      <li><span>14 Jul 2012</span> &raquo; <a href="19.html">毕业两年记 （上）</a></li>
+    
+  </ul>
+</div>
+
+        </article>
+      </div>
+	  
+	  
+
+	  <aside>
+	  <section style="margin-top: 14px; margin-bottom: 20px">
+	  <!-- <h3>Who's saberma</h3>
+	  <img src="/images/saberma.jpeg"/>
+	  <p>email(gtalk):<a href="mailto:mahb45@gmail.com">mahb45@gmail.com</a></p>
+	  <p>twitter:<a href="http://twitter.com/saberma">twitter.com/saberma</a></p>
+	  <p>
+	    <a href="http://github.com/saberma">github</a>
+	    <a href="http://www.douban.com/people/4034647/">douban</a>
+	  </p> -->
+	  <h1>About Me 关于我</h1>
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png"><img class="alignnone size-full wp-image-26" title="my" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2010/08/my.png" alt="" width="138" height="182" /></a>
+<br/>
+Hi!<br/>
+My name is Tuo Huang.<br/>
+I'm a software engineer.<br/>
+I like mobile development and agile.<br/>
+<!-- Currently working in <a href="http://www.reigndesign.com" target="_blank">ReignDesign</a>.<br/> -->
+
+	  </section>
+
+	  <section>
+
+	  <!-- Feedsky FEED发布代码结束 -->
+	  </section>
+
+	  <section>
+	  <h3>Categories</h3>
+<ul>
+  
+  <li><a href="/Life MiscellaneousProgramming.html">Life MiscellaneousProgramming (1)</a></li>
+  
+  <li><a href="/android.html">android (1)</a></li>
+  
+</ul>
+
+	  </section>
+
+	  </aside>
+  </section><!-- end of #main content and sidebar-->
+  
+  <div class="footer">
+    <div class="contact">
+      <p>
+        Tuo 拓<br />
+       
+		 <a href="mailto:clarkhtse@gmail.com?subject=hey">clarkhtse@gmail.com</a> 
+      </p>
+    </div>
+    <div class="contact">
+      <p>
+      <a href="http://twitter.com/tu0huang/">twitter.com/tu0huang</a><br />      
+      <a href="http://github.com/tuo/">github.com/tuo</a><br />
+      <a href="http://weibo.com/1394253223">Tuo's sina weibo</a><br />
+      </p>
+    </div>
+    <div class="rss">
+      <a href="http://feeds.feedburner.com/tuo">
+        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
