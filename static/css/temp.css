@@ -1040,14 +1040,14 @@ article ul li li li {
 }
 
 #social a, #social a:visited {
-  color: #999;
+  color: #0066AA;
   -webkit-transition:color 200ms ease-in;
   -moz-transition:color 200ms ease-in;
   -o-transition:color 200ms ease-in;
 }
 
 #social a:hover, #social a:visited:hover {
-  color: #423F37;
+  color: #0066AA;
   text-decoration: none;
 }
 

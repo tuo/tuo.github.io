@@ -4,7 +4,7 @@
  <title>Tuo</title>
  <link href="http://tuo.github.com/atom.xml" rel="self"/>
  <link href="http://tuo.github.com/"/>
- <updated>2013-01-10T23:27:27+08:00</updated>
+ <updated>2013-01-10T23:58:41+08:00</updated>
  <id>http://tuo.github.com</id>
  <author>
    <name>Tuo</name>
@@ -3451,7 +3451,7 @@ Anyway,it is aways a good habit to  let a test case account for cleaning what i
  </entry>
  
  <entry>
-   <title>实践中的Codinng Convention and Incremental Development一点体会</title>
+   <title>Codinng Convention and Incremental Development</title>
    <link href="http://tuo.github.comcoding-conventions.html"/>
    <updated>2010-08-29T00:00:00+08:00</updated>
    <id>http:/tuo.github.com./code-convention</id>
