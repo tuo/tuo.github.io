@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Sirupsen</title>
- <link href="http://sirupsen.github.com/atom.xml" rel="self"/>
- <link href="http://sirupsen.github.com/"/>
- <updated>2013-01-10T23:10:11+08:00</updated>
- <id>http://sirupsen.github.com</id>
+ <title>Tuo</title>
+ <link href="http://tuo.github.com/atom.xml" rel="self"/>
+ <link href="http://tuo.github.com/"/>
+ <updated>2013-01-10T23:18:58+08:00</updated>
+ <id>http://tuo.github.com</id>
  <author>
-   <name>Sirupsen</name>
-   <email>sirup@sirupsen.com</email>
+   <name>Tuo</name>
+   <email>clarkhtse@gmail.com</email>
  </author>
 
  
  <entry>
    <title>Android listview remember selection and set default selection</title>
-   <link href="http://sirupsen.github.com/android-listview-remember-selection-and-set-default-selection"/>
+   <link href="http://tuo.github.com/android-listview-remember-selection-and-set-default-selection"/>
    <updated>2012-10-28T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/android-listview-remember-selection-and-set-default-selection</id>
+   <id>http:/tuo.github.com/android-listview-remember-selection-and-set-default-selection</id>
    <content type="html">&lt;p&gt;From an iOS developer’s perspective, I find that it is extremely hard to apply features like “&lt;strong&gt;set default selection when starting&lt;/strong&gt;” and “&lt;strong&gt;remember selection status after user clicked row&lt;/strong&gt;” to ListView. &lt;/p&gt;
 
 &lt;p&gt;So let’s start with &lt;strong&gt;“remember selection”&lt;/strong&gt; first.The problem is that even if you know that 
@@ -163,9 +163,9 @@ public void onListItemClick(ListView l, View v, int position, long id) {
  
  <entry>
    <title>转： e络盟-2012树莓派-raspberry-pi发烧友见面会</title>
-   <link href="http://sirupsen.github.com20.html"/>
+   <link href="http://tuo.github.com20.html"/>
    <updated>2012-10-09T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e8%bd%ac%ef%bc%9a-e%e7%bb%9c%e7%9b%9f-2012%e6%a0%91%e8%8e%93%e6%b4%be-raspberry-pi%e5%8f%91%e7%83%a7%e5%8f%8b%e8%a7%81%e9%9d%a2%e4%bc%9a</id>
+   <id>http:/tuo.github.com./%e8%bd%ac%ef%bc%9a-e%e7%bb%9c%e7%9b%9f-2012%e6%a0%91%e8%8e%93%e6%b4%be-raspberry-pi%e5%8f%91%e7%83%a7%e5%8f%8b%e8%a7%81%e9%9d%a2%e4%bc%9a</id>
    <content type="html">&lt;a href=&quot;http://www.element14.com/community/blogs/cn_element14/2012/09/28/e%E7%BB%9C%E7%9B%9F-2012%E6%A0%91%E8%8E%93%E6%B4%BE-raspberry-pi%E5%8F%91%E7%83%A7%E5%8F%8B%E8%A7%81%E9%9D%A2%E4%BC%9A&quot; title=&quot;活动详细信息&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;
 http://www.element14.com/community/blogs/cn_element14/2012/09/28/e%E7%BB%9C%E7%9B%9F-2012%E6%A0%91%E8%8E%93%E6%B4%BE-raspberry-pi%E5%8F%91%E7%83%A7%E5%8F%8B%E8%A7%81%E9%9D%A2%E4%BC%9A
 玩过树莓派 Raspberry Pi ？
@@ -193,9 +193,9 @@ e络盟 2012树莓派 (Raspberry Pi)发烧友见面会
  
  <entry>
    <title>毕业两年记 （上）</title>
-   <link href="http://sirupsen.github.com19.html"/>
+   <link href="http://tuo.github.com19.html"/>
    <updated>2012-07-14T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e6%af%95%e4%b8%9a%e4%b8%a4%e5%b9%b4%e8%ae%b0-%ef%bc%88%e4%b8%8a%ef%bc%89</id>
+   <id>http:/tuo.github.com./%e6%af%95%e4%b8%9a%e4%b8%a4%e5%b9%b4%e8%ae%b0-%ef%bc%88%e4%b8%8a%ef%bc%89</id>
    <content type="html">前几天看到西门大牛，在人人网上感叹，一晃毕业已经两年了。 是的，想一想确实毕业两年了，从2010年七月十二号参加工作到现在也刚好两年了。两年中，收获了很多，成长了很多，更多的是明白了自己更想要什么东西，中间有很多挑战，有很多心得，虽然不是每一个挑战完成的很漂亮，但是挑战的过程我都坚持过来了。 最重要的是感谢这两年中帮助和批评过的我人们。
 
  2010/06/28 -   2010/07/12
@@ -210,9 +210,9 @@ e络盟 2012树莓派 (Raspberry Pi)发烧友见面会
  
  <entry>
    <title>记江苏之行（二）</title>
-   <link href="http://sirupsen.github.com17.html"/>
+   <link href="http://tuo.github.com17.html"/>
    <updated>2012-04-23T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e8%ae%b0%e6%b1%9f%e8%8b%8f%e4%b9%8b%e8%a1%8c%ef%bc%88%e4%ba%8c%ef%bc%89</id>
+   <id>http:/tuo.github.com./%e8%ae%b0%e6%b1%9f%e8%8b%8f%e4%b9%8b%e8%a1%8c%ef%bc%88%e4%ba%8c%ef%bc%89</id>
    <content type="html">从五点半一直捡到七点半，这时天色已经完完全全黑了下来，我还有一段路没有捡完，但是实在是没法继续下来，我提着桶开始往回走。然后在农家乐住了一晚，第二天又赶去了兴化市区，做大巴去了泰州。
 
 去泰州，是因为我想在泰州逛逛之后直接做下午三点半从泰州到上海的大巴回去
@@ -260,9 +260,9 @@ e络盟 2012树莓派 (Raspberry Pi)发烧友见面会
  
  <entry>
    <title>记江苏之行（一）</title>
-   <link href="http://sirupsen.github.com16.html"/>
+   <link href="http://tuo.github.com16.html"/>
    <updated>2012-04-23T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e8%ae%b0%e6%b1%9f%e8%8b%8f%e4%b9%8b%e8%a1%8c%ef%bc%88%e4%b8%80%ef%bc%89</id>
+   <id>http:/tuo.github.com./%e8%ae%b0%e6%b1%9f%e8%8b%8f%e4%b9%8b%e8%a1%8c%ef%bc%88%e4%b8%80%ef%bc%89</id>
    <content type="html">上个周末去了江苏一趟，这一趟确实是非常值得的。
 
 距离这一次出行，我有大概接近一个月没有出去转转了，一直忙于很多事情，也确实让我感觉有点疲惫，于是趁着这个五一来之前，赶到非常热而且人多的五一之前，我决定出去一趟（后来证明我的决策是非常英明的，兴化撑船的大妈说上周几万人，连车都开不进来，这周明显人少了好多，到了下一周或者五一了，最佳看花的时间也就过了）。
@@ -305,9 +305,9 @@ e络盟 2012树莓派 (Raspberry Pi)发烧友见面会
  
  <entry>
    <title>合肥之行</title>
-   <link href="http://sirupsen.github.com15.html"/>
+   <link href="http://tuo.github.com15.html"/>
    <updated>2012-04-14T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%90%88%e8%82%a5%e4%b9%8b%e8%a1%8c</id>
+   <id>http:/tuo.github.com./%e5%90%88%e8%82%a5%e4%b9%8b%e8%a1%8c</id>
    <content type="html"> &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;距离上次去合肥也有两三周了，今天突然想起来可以记一笔流水账。
  想去合肥，是因为我之前读过梁启超的《李鸿章传》，里面详细描述他的生平主要是加入湘军曾国藩手下开始一步一步做到开创淮军，打败太平天国，直至真正入阁参与了洋务运动以及各种谈判。
  更重要的是张辽是我在三国中非常喜欢的人物，当年在逍遥津八百人打败孙权十万人，至今想想都是热血沸腾。
@@ -387,9 +387,9 @@ DJN童鞋你太高了。。。。。。。
  
  <entry>
    <title>problem with adding custom font in Xcode 4.3.2</title>
-   <link href="http://sirupsen.github.com/problem-with-adding-custom-font-in-xcode-4-3-2"/>
+   <link href="http://tuo.github.com/problem-with-adding-custom-font-in-xcode-4-3-2"/>
    <updated>2012-04-13T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/problem-with-adding-custom-font-in-xcode-4-3-2</id>
+   <id>http:/tuo.github.com/problem-with-adding-custom-font-in-xcode-4-3-2</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Well, I guess John Muchow's blog &lt;a href=&quot;http://iphonedevelopertips.com/user-interface/load-and-access-custom-fonts.html&quot; target=&quot;_blank&quot;&gt;Load and Access Custom Fonts&quot; &lt;/a&gt; pretty much said everything about adding custom font before xcode 4.3.2. Before Xcode 4.3.2, when you add custom font, you need to make sure name of font you use in following code snippet:
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;objectivec&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;label2&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;setFont:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UIFont&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;fontWithName:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;@&amp;quot;BlackBoard&amp;quot;&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;size:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]];&lt;/span&gt;
@@ -423,9 +423,9 @@ Here is the reason:
  
  <entry>
    <title>IOS使用CAReplicatorLayer重建动态的倒影</title>
-   <link href="http://sirupsen.github.com14.html"/>
+   <link href="http://tuo.github.com14.html"/>
    <updated>2012-03-31T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./ios%e4%bd%bf%e7%94%a8careplicatorlayer%e9%87%8d%e5%bb%ba%e5%8a%a8%e6%80%81%e7%9a%84%e5%80%92%e5%bd%b1</id>
+   <id>http:/tuo.github.com./ios%e4%bd%bf%e7%94%a8careplicatorlayer%e9%87%8d%e5%bb%ba%e5%8a%a8%e6%80%81%e7%9a%84%e5%80%92%e5%bd%b1</id>
    <content type="html">最近在看ios中关于core animation的一些东西,其中就有一个是任何创建倒影。 创建倒影应该是蛮常见的吧，比如你打开iphone中的音乐，这个时候如果你将你的手机横过来，就可以看到这个cover flow的效果了。仔细看的话，你会发现这个每张专辑图片下都有一个倒影。是的，这便是这篇文章的主题。我们会先讲一个普通且常见的创建倒影的方式，然后讲一讲它的缺点，最后讲讲新重建倒影的方式。
 &lt;a href=&quot;http://www.flickr.com/photos/54952827@N02/7031916839/&quot; title=&quot;coverflow by Tuo Huang, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7247/7031916839_273185ae61.jpg&quot; width=&quot;500&quot; height=&quot;333&quot; alt=&quot;coverflow&quot;&gt;&lt;/a&gt;
 常见创建倒影的方式：
@@ -618,9 +618,9 @@ joericioppo 有一个结合CAReplicatorLayer和CATransform3D起来的demo，甚�
  
  <entry>
    <title>简结</title>
-   <link href="http://sirupsen.github.com13.html"/>
+   <link href="http://tuo.github.com13.html"/>
    <updated>2011-12-29T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e7%ae%80%e7%bb%93</id>
+   <id>http:/tuo.github.com./%e7%ae%80%e7%bb%93</id>
    <content type="html">2011年马上就过去了.
     感激，丰富，新奇，不舍
 2012展望
@@ -633,9 +633,9 @@ joericioppo 有一个结合CAReplicatorLayer和CATransform3D起来的demo，甚�
  
  <entry>
    <title>墨尔本生活锁记</title>
-   <link href="http://sirupsen.github.com12.html"/>
+   <link href="http://tuo.github.com12.html"/>
    <updated>2011-12-04T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%a2%a8%e5%b0%94%e6%9c%ac%e7%94%9f%e6%b4%bb%e9%94%81%e8%ae%b0</id>
+   <id>http:/tuo.github.com./%e5%a2%a8%e5%b0%94%e6%9c%ac%e7%94%9f%e6%b4%bb%e9%94%81%e8%ae%b0</id>
    <content type="html"> 这次来墨尔本,已然是2011年中的第三次了, 显然已经是对墨尔本熟门熟路了, 刚刚接机的时候司机师傅还跟我介绍墨尔本.这次墨尔本之行,除了在工作上完成来之前定下来的目的之外, 在生活上这一次比前两次可要爽多了. 大概因为前两次来这边, 客户他们觉得并没有很好照顾好我们, 而他们觉得在西安时他们被照顾的很好, 所以这一次他们还是非常热情的. 刚刚好,也是时机碰对了,因为墨尔本正在举行&lt;a href=&quot;http://www.3aw.com.au/comp-acg&quot; target=&quot;_blank&quot;&gt;19th Australian Corporate Games &lt;/a&gt;比赛, 而客户所在的公司刚刚也报名参加了其中的很多项目, 当然就包括篮球. 因为之前在西安的时候, 我跟他们打过篮球, 他们觉得我这个技术不错, 于是非常强烈的要求我参加, Sam想了一个办法,让我顶替之前不能上场的球员.要是找我要照片地址等等信息,终于成功的注册上了. 我个人觉得也是蛮搞笑的, 我是TW的然后代表他们上场比赛, 有点外援的意思.
 是的,这是我很2的入场证明,哈哈
 &lt;a href=&quot;http://www.flickr.com/photos/54952827@N02/6449567951/&quot; title=&quot;IMG_20111126_151330 by Tuo Huang, on Flickr&quot;&gt;&lt;img src=&quot;http://farm8.staticflickr.com/7028/6449567951_53ee42c34a.jpg&quot; width=&quot;500&quot; height=&quot;374&quot; alt=&quot;IMG_20111126_151330&quot;&gt;&lt;/a&gt;
@@ -670,9 +670,9 @@ joericioppo 有一个结合CAReplicatorLayer和CATransform3D起来的demo，甚�
  
  <entry>
    <title>跨域ajax请求</title>
-   <link href="http://sirupsen.github.com11.html"/>
+   <link href="http://tuo.github.com11.html"/>
    <updated>2011-10-30T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e8%b7%a8%e5%9f%9fajax%e8%af%b7%e6%b1%82</id>
+   <id>http:/tuo.github.com./%e8%b7%a8%e5%9f%9fajax%e8%af%b7%e6%b1%82</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;之前写的&lt;a href=&quot;https://github.com/tuo/jenkins-dashboard&quot; target=&quot;_blank&quot;&gt;jenkins-dashboard&lt;/a&gt;在几个团队中都在用,效果不错, 但是就是搭建起来有点麻烦. 因为它目前工作原理是起一个ruby进程然后每次去轮训jenkins ci上的每个build的状态(通过jenkins暴露的api),然后写到本地的一个html中.接着在写一个主文件比如dashboard.html,它每隔几秒钟去装载刚才ruby生成的html文件,这样就可以在dashboard上及时显示和更新ci的状态.但是问题是这个太重量级了,你还得装ruby环境和几个gem包甚至可能需要rvm,WTF.于是同事准备只用一个html就搞定,就是说每个几秒钟去发ajax请求到jenkins上拿到最新的构建状态,并更新dom结构或者样式, 这样一来用户就可以主需要下个html文件,并配置下ci的地址和想监控的构建就好了.几天后,我问同事怎么样了,他说ajax请求其他域名出错了. 回头我想了想我是忘记这个事情了, 因为浏览器有&lt;a href=&quot;http://en.wikipedia.org/wiki/Same_origin_policy&quot; target=&quot;_blank&quot;&gt;Same Origin Policy&lt;/a&gt;的安全限制. 好比现在:
 
 localhost ----ajax request ---&amp;gt; http://ci.jruby.org/view/Ruboto/api/json
@@ -753,9 +753,9 @@ window对象上. 然后当请求完成,那么它会自动将其删除. 如果你
  
  <entry>
    <title>Jasmine测试</title>
-   <link href="http://sirupsen.github.com10.html"/>
+   <link href="http://tuo.github.com10.html"/>
    <updated>2011-10-22T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./jasmine%e6%b5%8b%e8%af%95</id>
+   <id>http:/tuo.github.com./jasmine%e6%b5%8b%e8%af%95</id>
    <content type="html">Jasmine作为一个javascript的测试框架, 借鉴了很多其他测试框架比如RSpec,JSpec的有点,包含了很多优秀的设计思想.结合最近的使用心得,它的主要优点有:
 &lt;ol&gt;
 	&lt;li&gt; 专心做assertion框架, 独立模块化的设计使其非常好的能和其他库进行集成.比如它可以和像提供非常强大健壮的持续集成支持的jsTestDriver(非常专业的non-headless test/spec runner)互相配合相得益彰; 根据jquery相应扩展出的下面会讲到的jasmine-jquery等.&lt;/li&gt;
@@ -885,9 +885,9 @@ SinonJS: &lt;a href=&quot;http://msdn.microsoft.com/en-us/scriptjunkie/gg649850
  
  <entry>
    <title>古今笑</title>
-   <link href="http://sirupsen.github.com9.html"/>
+   <link href="http://tuo.github.com9.html"/>
    <updated>2011-09-24T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%8f%a4%e4%bb%8a%e7%ac%91</id>
+   <id>http:/tuo.github.com./%e5%8f%a4%e4%bb%8a%e7%ac%91</id>
    <content type="html">最近读了节选部分的&amp;lt;古今笑&amp;gt;,清李渔给古今笑做的序有提到这本书&quot;雅俗并嗜,购之唯恨不早&quot;.&amp;lt;古今谭概&amp;gt;是冯梦龙收集的一些稗官野史中的记录,然后加入自己的一些品评,跟苏轼的有点类似.这类的笔记有意思的在于它提供了很多侧面的方式帮助我们了解古人的形象和生活,拉近了距离.
 
 &lt;strong&gt;异服&lt;/strong&gt;
@@ -1035,9 +1035,9 @@ ps:有创意&lt;/pre&gt;
  
  <entry>
    <title>近期郑大晔校总结</title>
-   <link href="http://sirupsen.github.com8.html"/>
+   <link href="http://tuo.github.com8.html"/>
    <updated>2011-09-17T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e8%bf%91%e6%9c%9f%e9%83%91%e5%a4%a7%e6%99%94%e6%a0%a1%e6%80%bb%e7%bb%93</id>
+   <id>http:/tuo.github.com./%e8%bf%91%e6%9c%9f%e9%83%91%e5%a4%a7%e6%99%94%e6%a0%a1%e6%80%bb%e7%bb%93</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;这两期的&lt;a href=&quot;http://dreamhead.blogbus.com/&quot; target=&quot;_blank&quot;&gt;郑大晔校&lt;/a&gt;,感觉收获很多.第一次讨论一个程序员应该具备的好的编程习惯;第二次像经验丰富的资深程序员发问.我总结了一下郑大晔校中自己感兴趣的话题和近期的工作碰到问题:
 &lt;h3&gt;    1.熟悉编辑器的快捷键.&lt;/h3&gt;
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;这一点我去年进公司时印象深刻,那个时候是一个.NET项目使用Visual Studio,跟&lt;a href=&quot;http://www.iamhukai.com/&quot; target=&quot;_blank&quot;&gt;胡凯&lt;/a&gt;结对编程的时候,胡所一般都会把鼠标收起来,完全丢弃, 直接各种键盘流, 看得我惊叹.紧接着胡所就把Resharper的快捷键打印出来,让大家私底下回去记忆,顺便讲到了他记忆快捷键的方法(使用小卡片,在公交车上背阿). 这个的好处就是使你的大脑思维集中在你关注的事情上面,保持自己的编码节奏,提高开发的效率. 所以熟悉快捷键操作是非常重要的,公司里几乎每个人接触到新的编辑器,都会从先熟悉快捷键开始.
@@ -1058,9 +1058,9 @@ ps:有创意&lt;/pre&gt;
  
  <entry>
    <title>Jenkins的一些实践</title>
-   <link href="http://sirupsen.github.com7.html"/>
+   <link href="http://tuo.github.com7.html"/>
    <updated>2011-09-11T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./jenkins%e7%9a%84%e4%b8%80%e4%ba%9b%e5%ae%9e%e8%b7%b5</id>
+   <id>http:/tuo.github.com./jenkins%e7%9a%84%e4%b8%80%e4%ba%9b%e5%ae%9e%e8%b7%b5</id>
    <content type="html">持续集成已经是大家都非常熟悉的概念了,可以参考Martin的文章&lt;a href=&quot;http://martinfowler.com/articles/continuousIntegration.html&quot; target=&quot;_blank&quot;&gt;Continuous Integration&lt;/a&gt; .而Jenkins(原名hudson)正是业界最为流行的持续集成引擎.本文正是总结了近期工作之中一些使用jenkins的收获.
 &lt;h3&gt;&lt;a href=&quot;http://martinfowler.com/articles/continuousIntegration.html#KeepTheBuildFast&quot;&gt;Keep the Build Fast&lt;/a&gt;&lt;/h3&gt;
 保持CI(持续集成服务器)上的工作快速是一个非常重要的方面, 这样才能提供快速的反馈.没有人会忍受一个构建跑上一个小时,毕竟喝上一个小时的茶或者咖啡也还是真是蛮浪费时间的. 之前的持续集成构建都得跑上半个小时,因为这个构建的代码库非常大,不止一个项目.每次构建都会按照一下顺序逐一执行:
@@ -1168,9 +1168,9 @@ Join适合于&quot;钻石&quot;依赖型的项目. 也就是我们上面的构�
  
  <entry>
    <title>第一个RubyGem jenkins-remote-api</title>
-   <link href="http://sirupsen.github.com/jenkins-remote-api-rubygem"/>
+   <link href="http://tuo.github.com/jenkins-remote-api-rubygem"/>
    <updated>2011-09-03T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/jenkins-remote-api-rubygem</id>
+   <id>http:/tuo.github.com/jenkins-remote-api-rubygem</id>
    <content type="html">这个Gem主要是用来消化Jenkins提供的API,方便查询CI的状态. 这个RubyGem开发主要用到了&lt;a href=&quot;http://yehudakatz.com/2010/04/02/using-gemspecs-as-intended/&quot; target=&quot;_blank&quot;&gt;bundler&lt;/a&gt;,而非&lt;a href=&quot;http://mlomnicki.com/ruby/rubygems/2011/01/22/jeweler-vs-bundler.html&quot; target=&quot;_blank&quot;&gt;jeweler&lt;/a&gt;,同时用到了&lt;a href=&quot;https://github.com/cucumber/aruba&quot; target=&quot;_blank&quot;&gt;Aruba&lt;/a&gt;提供了CLI支持,这样方便了用户使用.
 
 &amp;nbsp;
@@ -1184,9 +1184,9 @@ RubyGem上地址: &lt;a href=&quot;https://rubygems.org/gems/jenkins-remote-api&
  
  <entry>
    <title>selenium rc和webdriver</title>
-   <link href="http://sirupsen.github.com6.html"/>
+   <link href="http://tuo.github.com6.html"/>
    <updated>2011-08-17T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./selenium-rc%e5%92%8cwebdriver</id>
+   <id>http:/tuo.github.com./selenium-rc%e5%92%8cwebdriver</id>
    <content type="html">前两天在跟结对的同事查看一段我之前写的自动化搭建初始数据的代码时,同事问我为什么需要起一个selenium server才能跑起来,而我们的本地跑的cucumber测试却没有需要你显示的跑一个selenium server.我一时其实也回答不上来,下班后仔细查了查selenium的文档,才豁然开朗.我之前用的是&lt;a href=&quot;http://selenium-client.rubyforge.org/&quot; target=&quot;_blank&quot;&gt;selenium-client&lt;/a&gt;, 因为我之前想用它来截取每个浏览器的屏幕, 而selenium-client提供了很好API来跟浏览器打交道(甚至内置的截图方法),  它是基于Selenium RC的.讲到这个先简要介绍一下selenium,它主要用来驱动和跟浏览器做交互,实现web应用程序的自动化测试. 所以意味着selenium必须有一套自己跟浏览器交互的API.
 
 selenium根据实现形式的不同分为两种: selenium rc 和 webdriver.
@@ -1268,9 +1268,9 @@ Official Blog:&lt;a href=&quot;http://seleniumhq.wordpress.com/&quot;&gt;http://
  
  <entry>
    <title>安装Puppet</title>
-   <link href="http://sirupsen.github.com5.html"/>
+   <link href="http://tuo.github.com5.html"/>
    <updated>2011-07-16T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%ae%89%e8%a3%85puppet</id>
+   <id>http:/tuo.github.com./%e5%ae%89%e8%a3%85puppet</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;近些年来出现了很多热词,其中有一个就是&lt;a title=&quot;infrastructure as code&quot; href=&quot;http://www.infoq.com/presentations/infrastructure-as-code&quot; target=&quot;_blank&quot;&gt;Infrastructure As Code&lt;/a&gt;,基本的想法是相比原来系统管理员手工运行什么ssh或者命令来管理和搭建不同的机子或者平台, 能否使用一种更加抽象级别的语言来描述这个过程, 将系统底层的东西隔离开来, 使他们能脱离出系统底层各种细节,更多关注自己想到做得事情.
 
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;所以就出现这样一些工具: &lt;a title=&quot;puppet intro&quot; href=&quot;http://docs.puppetlabs.com/guides/introduction.html&quot; target=&quot;_blank&quot;&gt;puppet&lt;/a&gt;, &lt;a title=&quot;chef&quot; href=&quot;http://wiki.opscode.com/display/chef/Home&quot; target=&quot;_blank&quot;&gt;chef&lt;/a&gt;等等. 上周胡凯要我尝试给ThoughtWorks西安也搭建这样的一个平台,我觉得这个东西还蛮有意思的,尝试了下puppet,中间还是遇到了不少问题,不过最终都有调试通过.这篇文章将会简要的介绍怎么安装puppet和中间可能遇到的问题和解决办法.
@@ -1349,9 +1349,9 @@ err: Could not request certificate: Retrieved certificate does not match private
  
  <entry>
    <title>jit graph Forcedirected add label on edge</title>
-   <link href="http://sirupsen.github.com/jit-graph-forcedirected-add-label-on-edge"/>
+   <link href="http://tuo.github.com/jit-graph-forcedirected-add-label-on-edge"/>
    <updated>2011-06-21T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/jit-graph-forcedirected-add-label-on-edge</id>
+   <id>http:/tuo.github.com/jit-graph-forcedirected-add-label-on-edge</id>
    <content type="html">jit graph(&lt;a href=&quot;http://thejit.org/demos/&quot; target=&quot;_blank&quot;&gt;JavaScript InfoVis Toolkit&lt;/a&gt; ) is an amazing javascript graph library. Here is the demo i use , the &lt;a href=&quot;http://thejit.org/static/v20/Jit/Examples/ForceDirected/example1.html&quot; target=&quot;_blank&quot;&gt;forcedirected&lt;/a&gt; graph. Well I just get stuck on how to add the label on the edges. I 've googled for a lot , but lots of doc are out of sync. So i just tweeted a little bit, and found the following solution.
 &lt;h4&gt;1.modify the json data ,to add a relatedOn key/value&lt;/h4&gt;
 &lt;pre lang=&quot;javascript&quot;&gt;    var json = [
@@ -1401,9 +1401,9 @@ There you go. Following is the result:
  
  <entry>
    <title>Rspec hooks 配置</title>
-   <link href="http://sirupsen.github.com4.html"/>
+   <link href="http://tuo.github.com4.html"/>
    <updated>2011-06-19T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./rspec-hooks-%e9%85%8d%e7%bd%ae</id>
+   <id>http:/tuo.github.com./rspec-hooks-%e9%85%8d%e7%bd%ae</id>
    <content type="html">  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;最近项目中有碰到这样一个场景, 我们需要给测试中给每个测试案例置于事务之中,确保方法运行完后回滚所有的数据操作.于是最简单的,在spec_helper.rb中添加如下代码:
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;pre lang=&quot;ruby&quot;&gt;
   config.around(:each) do |example|
@@ -1436,9 +1436,9 @@ end
  
  <entry>
    <title>chronic自然语言来表达时间</title>
-   <link href="http://sirupsen.github.com3.html"/>
+   <link href="http://tuo.github.com3.html"/>
    <updated>2011-05-07T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./chronic%e8%87%aa%e7%84%b6%e8%af%ad%e8%a8%80%e6%9d%a5%e8%a1%a8%e8%be%be%e6%97%b6%e9%97%b4</id>
+   <id>http:/tuo.github.com./chronic%e8%87%aa%e7%84%b6%e8%af%ad%e8%a8%80%e6%9d%a5%e8%a1%a8%e8%be%be%e6%97%b6%e9%97%b4</id>
    <content type="html">&lt;p style=&quot;font-family: Verdana,menlo,monaco&quot;&gt;
 最近的Rails项目的cucumber测试中，经常会碰到需要处理时间。有意思的是，我们在cucumber测试中需要尽量用自然语言来表达时间，而在其对应的step definition中需要解析成为对应的时间。 比如我们需要在feature表达&lt;span style=&quot;background-color:#FFFFAA; margin:0;padding:0;border:0;&quot;&gt;“3个月以前”&lt;/span&gt;这个概念，原有的做法是 直接在feature中写成&lt;span style=&quot;background-color:#FFFFAA; margin:0;padding:0;border:0;&quot;&gt;&quot;3.months.ago&quot;&lt;/span&gt; ,而对应的步定义中则是用到eval()来解析成为对应的时间：&lt;span style=&quot;background-color:#FFFFAA; margin:0;padding:0;border:0;&quot;&gt;eval(time_literal || &quot;1.month.ago&quot;)&lt;/span&gt;.  也许这个&lt;span style=&quot;background-color:#FFFFAA; margin:0;padding:0;border:0;&quot;&gt;&quot;3.months.ago&quot;&lt;/span&gt;还不是非常接近自然语言，为什么中间有&quot;.&quot;了？ 所以我们可以进一步改进一下， 在feature中写成&quot;3 months ago&quot; ,然后在调用eval函数之前，先将空格替换成点。 嗯， 还不错，至少Rails自带支持的时间处理是够用的。 但是后来我们需要处理&lt;span style=&quot;background-color:#FFFFAA; margin:0;padding:0;border:0;&quot;&gt;“上个星期的周二”&lt;/span&gt;， 那这个Rails自带的时间支持无法很好的完成任务了。
 &lt;/p&gt;
@@ -1488,9 +1488,9 @@ Chronic能非常的适用于上述的情景。
  
  <entry>
    <title>Mongodb</title>
-   <link href="http://sirupsen.github.com/mongodb"/>
+   <link href="http://tuo.github.com/mongodb"/>
    <updated>2011-05-02T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/mongodb</id>
+   <id>http:/tuo.github.com/mongodb</id>
    <content type="html">之前数据存储方面接触最多还是Mysql,SQLserver, 用起来还不错, 也没有觉得很复杂, 或许人的思维习惯了复杂,后来慢慢听到了很多很热的词:NoSQL.开始觉得NoSQL == &quot;No SQL&quot;, 是表示我们不需要SQL了,放弃关系数据库了吗?   当时觉得这会不会只是一个很热的词了,过阵子就不了了之,就木有花很多时间在这上面.这次有这样一个机会可以好好看看.
 很基本的疑问是:关系数据库是70年代产生的,问题是在觉得如何存储和获取数据(通过SQL这样的一个DSL), 而面向对象是在80年代兴起的,也许关系数据库使用了很多的场景,但是到了现在随着WEB大潮的到来,数据量的爆咋,关系数据库已经很吃力了.你实际上在要求70年代设计关系数据库的作者超前设计这样一个&quot;&lt;a href=&quot;http://www.cs.brown.edu/~ugur/fits_all.pdf&quot;&gt;one size fits all&lt;/a&gt;&quot;的数据存储系统,很明显这是不太可能的. 所以Not only SQL的数据存储方式就应运而生了.
 
@@ -1605,9 +1605,9 @@ http://www.mongodb.org/
  
  <entry>
    <title>cucumber 测试复杂UI</title>
-   <link href="http://sirupsen.github.com2.html"/>
+   <link href="http://tuo.github.com2.html"/>
    <updated>2011-03-14T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./cucumber-%e6%b5%8b%e8%af%95%e5%a4%8d%e6%9d%82ui</id>
+   <id>http:/tuo.github.com./cucumber-%e6%b5%8b%e8%af%95%e5%a4%8d%e6%9d%82ui</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;最近碰到的一个问题是:我们在controller层都有完备的单元测试,当然既然是单元测试,也就缺乏集成测试了.为什么会是这样了?因为项目要求测试覆盖率为100%,任何在controller层测试中写跟数据库打交道的测试都会通不过项目的质量检查.那既然controller层测试只有一些stub和mock测试的话,集成测试写在哪里了? 在cucumber测试中.那就写呗,难题在于哪了. 就在view层需要渲染一个复杂的报表,使用highcharts库来渲染的图表.通常一般的cucumber测试,在一个scenario中,准备一些数据,然后访问那个页面,查看是否元素或者数据存在.问题就在最后一步,怎么去页面中抓取到想要的元素或者数据,如果只是简单视图显示,可能就很简单,但是如果这个视图渲染出来之后非常复杂情况就难办了. 这就需要进一步分析报表的渲染模型了.
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;highcharts是一个javascript库,你所要做的便是传入合适的数据(配置),然后渲染的事情就可以交给它了. 以这个&lt;a href=&quot;http://www.highcharts.com/demo/?example=line-basic&amp;amp;theme=default&quot;&gt;demo&lt;/a&gt;这个基本线条模式为例:
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;pre lang=&quot;javascript&quot;&gt;
@@ -1678,9 +1678,9 @@ data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
  
  <entry>
    <title>Rails的一些实践</title>
-   <link href="http://sirupsen.github.com1.html"/>
+   <link href="http://tuo.github.com1.html"/>
    <updated>2011-02-14T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./rails%e6%9c%80%e4%bd%b3%e5%af%a6%e8%b8%90</id>
+   <id>http:/tuo.github.com./rails%e6%9c%80%e4%bd%b3%e5%af%a6%e8%b8%90</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;这篇文章拖到过年之后才写,真是够拖拉的,厄,不过赶的早不如赶得巧，刚好Ryan Bates更新他的railscasts&lt;a href=&quot;http://railscasts.com/episodes/252-metrics-metrics-metrics&quot; target=&quot;_blank&quot;&gt;Metrics Metrics Metrics&lt;/a&gt;，而这集跟我要将的东东还蛮有联系的.过年之前我一直在一个公司内部的rails项目试手,因为之前我没有任何的ruby/rails经验,所以这个项目的过程也是有点点坎坷的.我一边在学习知识,同时又将刚刚学到的东西应用出来,就是一个不断学习不断改进的过程.整个学习过程中当然也参考了很多网站拉,比如railscasts阿等等.
 那其实整个过程中我都有收获满多的心得,很多之前写的不是elegant的代码,随着后来对其识认识的进一步深入而
 变的更加的干淨整洁了.我当时也有萌芽个想法去总结这个东西,因为那个时候整个办公室也是有满多跟我一样的rails/ruby新手,如果有这个总结性的东西,也更加有利于知识的分享,更重要的是一个抛砖引玉的效果,让大家的想法经验都能汇集起来.但是一直没有找到这样的一个方式能帮助我更好将心得给表达出来.直到我发现了ihower的rails best pratice这个ppt,这才让我找到了这样一个很不错的方式和参考。
@@ -1723,9 +1723,9 @@ by ihower &lt;/a&gt;
  
  <entry>
    <title>关于bundler</title>
-   <link href="http://sirupsen.github.combundler.html"/>
+   <link href="http://tuo.github.combundler.html"/>
    <updated>2011-01-17T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%85%b3%e4%ba%8ebundler</id>
+   <id>http:/tuo.github.com./%e5%85%b3%e4%ba%8ebundler</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;在rails项目在生产环境中使用的是mysql,而开发和测试环境中使用是sqlite,这种方案使用起来还真是很方便.生产环境是 在一台Ubuntu虚拟机上面,而开发和测试环境都是在Mac上面.
 在SCM仓库中的Gemfile是这样的:
 &lt;pre&gt;source 'http://rubygems.org'&lt;/pre&gt;
@@ -1824,9 +1824,9 @@ References:
  
  <entry>
    <title>Using Mootools with Rails</title>
-   <link href="http://sirupsen.github.com/using-mootools-with-rails"/>
+   <link href="http://tuo.github.com/using-mootools-with-rails"/>
    <updated>2011-01-12T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/using-mootools-with-rails</id>
+   <id>http:/tuo.github.com/using-mootools-with-rails</id>
    <content type="html">最近项目中有需要在Rails中使用&lt;a href=&quot;http://mootools.net/&quot; target=&quot;_blank&quot;&gt;mootools&lt;/a&gt;，
 
 &lt;img class=&quot;alignnone&quot; title=&quot;mootools&quot; src=&quot;http://tutorialdog.com/wp-content/uploads/2008/01/mootools.gif&quot; alt=&quot;&quot; width=&quot;180&quot; height=&quot;60&quot; /&gt;
@@ -1852,9 +1852,9 @@ link_to &quot;My Review&quot;, reviews_path  都有解释成POST方法的请求
  
  <entry>
    <title>rails开发工具的一些tips</title>
-   <link href="http://sirupsen.github.comrails-tips.html"/>
+   <link href="http://tuo.github.comrails-tips.html"/>
    <updated>2011-01-09T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./rails%e5%bc%80%e5%8f%91%e5%b7%a5%e5%85%b7%e7%9a%84%e4%b8%80%e4%ba%9btips</id>
+   <id>http:/tuo.github.com./rails%e5%bc%80%e5%8f%91%e5%b7%a5%e5%85%b7%e7%9a%84%e4%b8%80%e4%ba%9btips</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;在这阵子的也不是很长的Rails开发过程中,零星的记录了一些开发过程中使用工具的点滴.
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h2&gt;Tip 1:&lt;/h2&gt;
 
@@ -1949,9 +1949,9 @@ spec/spec_helper.rb
  
  <entry>
    <title>减少HTTP请求</title>
-   <link href="http://sirupsen.github.comreduce-http-requests.html"/>
+   <link href="http://tuo.github.comreduce-http-requests.html"/>
    <updated>2010-12-25T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%87%8f%e5%b0%91http%e8%af%b7%e6%b1%82</id>
+   <id>http:/tuo.github.com./%e5%87%8f%e5%b0%91http%e8%af%b7%e6%b1%82</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;这篇文章的一个基调是根据&lt;a href=&quot;http://developer.yahoo.com/performance/rules.html&quot;&gt;Yahoo! Exceptional Performance Best Practices&lt;/a&gt;中第一条规则&quot;减少HTTP请求&quot;.
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h3&gt;为什么需要减少HTTP请求次数?&lt;/h3&gt;
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;当你打开一个网页时,浏览器就会向服务器端发送请求,这些请求包括有图片,CSS,Javascript和Flash等等,然后服务器对这些请求做出响应,将对应的资源发回给客户端.这个过程中用户需要等待这些响应,而服务器需要分配资源来处理请求,对于一些小型的网站,浏览的人少,那么对应的服务器的压力也不会太大,响应速度也不至于太慢(当然这也跟网速有关).但是对于大型的网站,每秒中浏览人的量是非常大的,那么服务器的所承受的压力也会变大,到了一定程度,就会出现处理不过来的情况,对于用户而言,就是看到一张空白的网页,难以提供良好的用户体验.这里可以参考
@@ -2118,9 +2118,9 @@ background-image:url(&quot;../images/doc.png&quot;);
  
  <entry>
    <title>Follow Your Hunch</title>
-   <link href="http://sirupsen.github.com/follow-your-hunch"/>
+   <link href="http://tuo.github.com/follow-your-hunch"/>
    <updated>2010-12-17T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/follow-your-hunch</id>
+   <id>http:/tuo.github.com/follow-your-hunch</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;这篇博客的起由是前阵子在了解GWT(Google Web Toolkit)的时候,因为GWT内置了一个Java到Javascript的编译器,所以你可以在Java平台上进行开发,好处在于你并需要有对Javascript,跨浏览器等等很深的认识,甚至你可以是个文盲.当然这种好处的代价在于你以Java语言来开发客户端,这个过程极其貌似原来开发Swing的过程.所以下面是一段很常见的代码,给一个按钮添加一个点击事件:
 &lt;pre class=&quot;brush: java&quot;&gt;final Button closeButton = new Button(&quot;Close&quot;);
    // Add a click handler to close button
@@ -2267,9 +2267,9 @@ Uncle Bob关于为什么选择Clojure的文章:
  
  <entry>
    <title>将UI和领域模型隔离开来 (二)</title>
-   <link href="http://sirupsen.github.comseparate-ui-and-domain-model-part-2.html"/>
+   <link href="http://tuo.github.comseparate-ui-and-domain-model-part-2.html"/>
    <updated>2010-11-30T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%b0%86ui%e5%92%8c%e9%a2%86%e5%9f%9f%e6%a8%a1%e5%9e%8b%e9%9a%94%e7%a6%bb%e5%bc%80%e6%9d%a5-%e4%ba%8c</id>
+   <id>http:/tuo.github.com./%e5%b0%86ui%e5%92%8c%e9%a2%86%e5%9f%9f%e6%a8%a1%e5%9e%8b%e9%9a%94%e7%a6%bb%e5%bc%80%e6%9d%a5-%e4%ba%8c</id>
    <content type="html">&lt;h2&gt;目的:&lt;/h2&gt;
 那我们现在要做得便是要借助Hibernate Validator的支持,将整个判断逻辑从客户端移植到服务端.
 &lt;h2&gt;解决方案:&lt;/h2&gt;
@@ -2434,9 +2434,9 @@ public void createRightStoryForValidation(NewStoryViewModel newStoryViewModel) {
  
  <entry>
    <title>将UI和领域模型隔离开来 (一)</title>
-   <link href="http://sirupsen.github.comseparate-ui-and-domain-model-part-1.html"/>
+   <link href="http://tuo.github.comseparate-ui-and-domain-model-part-1.html"/>
    <updated>2010-11-30T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%b0%86ui%e5%92%8c%e9%a2%86%e5%9f%9f%e6%a8%a1%e5%9e%8b%e9%9a%94%e7%a6%bb%e5%bc%80%e6%9d%a5-%e4%b8%80</id>
+   <id>http:/tuo.github.com./%e5%b0%86ui%e5%92%8c%e9%a2%86%e5%9f%9f%e6%a8%a1%e5%9e%8b%e9%9a%94%e7%a6%bb%e5%bc%80%e6%9d%a5-%e4%b8%80</id>
    <content type="html">有将近一个月没有更新博客了,这阵子确实比较忙,必须淡定,克己轩. 不过这期间我有在Evernote中记录了一些零星的想法和感触,今天刚好有时间,于是拿出来仔细瞧了瞧.其中有一篇是关于我在TWU即将结束的时候记下来的日记,记得当时有一个故事,需要将浏览器端的javascript验证逻辑移植到服务器端.在完成这个故事的过程中给我留下了很深的印象,遇到了很多有意思的问题,我觉得我有必要写出来,否则时间过久了就会忘了.TWU这个项目比较有意思,它历经了几届TWU学员的蹂躏,很好的完成了试验品这个角色赋予的任务,你可以猜到当我们拿到这个项目时,并不是推到原有的而从新开始开发,而是在既有的代码库上进行开发.
 我会选取我在完成这个故事中的一个情景入手,这个情景是用户可以跳到&quot;创建新故事&quot;页面,然后可以输入title(文本框,必须填写),city(文本框,必须填写),content(文本框,必须填写),month(下拉框,非必须选择)和year(文本框,必须填写)这几个选项,然后单击&quot;Publish&quot;按钮进行发布,发布之后会跳到 显示故事的页面,它会显示刚刚创建的故事的一些信息. 其中值得注意的是 用户在&quot;创建新故事&quot; 页面的表格中,如果用户跳过month字段,因为它是非必须的,那么在显示故事的页面的&quot;Event Date: &quot;后面只会显示年份,而没有月份.
 
@@ -2584,9 +2584,9 @@ public Boolean save(Story story, User currentUser,String contextPath) {
  
  <entry>
    <title>Thoughts on Preparing Test Data</title>
-   <link href="http://sirupsen.github.com/thoughts-on-preparing-test-data"/>
+   <link href="http://tuo.github.com/thoughts-on-preparing-test-data"/>
    <updated>2010-10-30T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/thoughts-on-preparing-test-data</id>
+   <id>http:/tuo.github.com/thoughts-on-preparing-test-data</id>
    <content type="html">As a developer ,testing is already a part of life.Every day we write tests ,follow the &quot;Red-Green-Refactoring&quot; rhythm,yeah life is a thing of  beauty.Recently i am on a project in TWU,while,things are going well.This week ,i have paired with &lt;a href=&quot;http://jawspeak.com/&quot; target=&quot;_blank&quot;&gt;Jonathan&lt;/a&gt;,and there are lots of fun along with many insights gained from him. One of those is about how to prepare test data.
 &lt;h5&gt;A Traditional Way&lt;/h5&gt;
 It reminds me that ,on previous project,i also ran into that scenario that there is an object called &quot;Alarm&quot;,whose constructor receive three parameters:a &quot;Timezone&quot;  representing the timezone that alarm is in, a &quot;Date&quot; carrying out time but without timezone info,a &quot;String&quot; showing the name of user who holds this alarm.  The thing is that when writing test either unit- or integration- , some guy need a local timezone alarm ,so he/she just wrote this line :
@@ -2715,9 +2715,9 @@ In this blog ,probaActually, it is up to you. One thing i learned from software�
  
  <entry>
    <title>JRebel实践  part2 behind the scene</title>
-   <link href="http://sirupsen.github.comjrebel-part-2.html"/>
+   <link href="http://tuo.github.comjrebel-part-2.html"/>
    <updated>2010-10-26T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./jrebel%e5%ae%9e%e8%b7%b5-part2-behind-the-scene</id>
+   <id>http:/tuo.github.com./jrebel%e5%ae%9e%e8%b7%b5-part2-behind-the-scene</id>
    <content type="html">这篇BLOG很大程度还得感谢Coach &lt;a href=&quot;http://jawspeak.com/&quot; target=&quot;_blank&quot;&gt;Jonathan&lt;/a&gt; ,我跑过去跟他讨论了一会,他说你可以继续在测测看看在controller层和repository层是否工作, 然后尝试着做一个关于这个的Session,让大家都了解了解,有很大可能会在这个项目中应用.他说了之后,我就开始着手查阅更多资料,然后直接促成了这篇文章,因为经验和认识的原因,里面有些观点可能不太准确.
 
 实际上我们关心的是如何能在运行时实现重新装载类,而不需要去关闭整个程序.当整个程序跑起来了,特别指明WEB程序,每一次我改动了.java文件,然后编译,但是我想回到页面看到改动后的效果,但是我不想重复一下步骤
@@ -2828,9 +2828,9 @@ JRebel和HotSwap比较: &lt;script src=&quot;http://javabyexample.wisdomplug.co
  
  <entry>
    <title>JRebel实践  part1 configuration</title>
-   <link href="http://sirupsen.github.comjrebel-part-1.html"/>
+   <link href="http://tuo.github.comjrebel-part-1.html"/>
    <updated>2010-10-23T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./jrebel%e5%ae%9e%e8%b7%b5-part1-configuration</id>
+   <id>http:/tuo.github.com./jrebel%e5%ae%9e%e8%b7%b5-part1-configuration</id>
    <content type="html">在这个星期开始了兴奋的编码,之前的每周都是session讲座,一天到晚都是坐着听讲座还真的是困到不行,这周终于开始了编码. 这一周开始了在Chronicle项目编码,在实现第一个story的时候,发现这个每一次我更改了.java的文件,比如我改动了一下controller层或者service层抑或是DAO层的代码,我不得不重重新编译,部署,然后重新启动jetty ,这个过程有时候非常的令人烦恼,严重影响了你的编码节奏,更加于公司的价值观之一&quot;rapid feedback&quot;相冲突. 于是我搜索了一下,想起来过去在大学的时候也有一个项目,项目特别大,以至于你只改了.java文件的一行代码,但是需要发费十几分钟时间来部署重启服务器,那是相当的痛苦,于是当时搜索了一下,发现了JavaRebel,那时候还不是叫&lt;a href=&quot;http://www.zeroturnaround.com/jrebel/&quot; target=&quot;_blank&quot;&gt;JRebel&lt;/a&gt;,而且当时是免费的 ,我当时试着配置了一下但是仅仅局限于小小demo案例,并没有成功的应用到项目中,依稀记得配置不是特别清楚. 下面是引用自&lt;a href=&quot;http://www.zeroturnaround.com/jrebel/&quot; target=&quot;_blank&quot;&gt;zeroturnaround&lt;/a&gt;官网的一个视频,非常有趣:
 
 &lt;a href=&quot;http://www.zeroturnaround.com/cartoon/javarebel_cartoon.swf&quot;&gt;&lt;object style=&quot;width: 500px; height: 396px;&quot; classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; width=&quot;500&quot; height=&quot;396&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&quot;&gt;&lt;param name=&quot;loop&quot; value=&quot;false&quot; /&gt;&lt;param name=&quot;swliveconnect&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;window&quot; /&gt;&lt;param name=&quot;src&quot; value=&quot;http://www.zeroturnaround.com/cartoon/javarebel_cartoon.swf&quot; /&gt;&lt;embed style=&quot;width: 500px; height: 396px;&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;500&quot; height=&quot;396&quot; src=&quot;http://www.zeroturnaround.com/cartoon/javarebel_cartoon.swf&quot; wmode=&quot;window&quot; swliveconnect=&quot;true&quot; loop=&quot;false&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/a&gt;
@@ -2886,9 +2886,9 @@ Steps: “File” --&amp;gt;”Settigns” --&amp;gt;”Keymap”  --&amp;gt;in
  
  <entry>
    <title>西游记 第三季</title>
-   <link href="http://sirupsen.github.comjourney-to-west-part-3.html"/>
+   <link href="http://tuo.github.comjourney-to-west-part-3.html"/>
    <updated>2010-10-17T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e8%a5%bf%e6%b8%b8%e8%ae%b0-%e7%ac%ac%e4%b8%89%e5%ad%a3</id>
+   <id>http:/tuo.github.com./%e8%a5%bf%e6%b8%b8%e8%ae%b0-%e7%ac%ac%e4%b8%89%e5%ad%a3</id>
    <content type="html">这周非常的累,整个一周下来天天都是坐在教室里听SESSION,尽管总的来说并不是非常深入,但是却给了我很多想法,同时也帮助及时的&quot;反刍&quot;,联系原来学习到的知识.这篇日志本来是准备写一下MOCK和SELENIUM测试的,我准备好是在周末时花时间多多查点资料,形成一个系统的概念,但是这个来得比较迟,刚刚才有查找资料才发现这篇日志需要比较多的时间消化知识,整理思路, 而且整个周末参与集体活动,在野外呆了一天一夜,非常的累,上一篇日志花了将近8个小时的时间,自己感觉质量还可以,所以决定推迟一下,更好的整理思路.
 
 下一周开始正式的编码,终于到了提起精神的时刻了,希望这个印度口音不会成为一个非常大的障碍.
@@ -2901,9 +2901,9 @@ Steps: “File” --&amp;gt;”Settigns” --&amp;gt;”Keymap”  --&amp;gt;in
  
  <entry>
    <title>关于做卓越的讲座 Part 3 排练</title>
-   <link href="http://sirupsen.github.comeffective-presentation-part-3.html"/>
+   <link href="http://tuo.github.comeffective-presentation-part-3.html"/>
    <updated>2010-10-10T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%85%b3%e4%ba%8e%e5%81%9a%e5%8d%93%e8%b6%8a%e7%9a%84%e8%ae%b2%e5%ba%a7-part-3-%e6%8e%92%e7%bb%83</id>
+   <id>http:/tuo.github.com./%e5%85%b3%e4%ba%8e%e5%81%9a%e5%8d%93%e8%b6%8a%e7%9a%84%e8%ae%b2%e5%ba%a7-part-3-%e6%8e%92%e7%bb%83</id>
    <content type="html">&lt;strong&gt;第三部分&lt;/strong&gt;&lt;strong&gt;: 排练.&lt;/strong&gt;
 
 那现在已经到了排练的时候了.当我们已经构思好了整个主题,有了不错的PPT设计,接下来就是排练的时候.
@@ -2964,9 +2964,9 @@ Brain Rule 是由JOHN MEDINA创建的一个关于研究大脑认知行为的一�
  
  <entry>
    <title>关于做卓越的讲座 Part 2 设计页面</title>
-   <link href="http://sirupsen.github.comeffective-presentation-part-2.html"/>
+   <link href="http://tuo.github.comeffective-presentation-part-2.html"/>
    <updated>2010-10-10T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%85%b3%e4%ba%8e%e5%81%9a%e5%8d%93%e8%b6%8a%e7%9a%84%e8%ae%b2%e5%ba%a7-part-2-%e8%ae%be%e8%ae%a1%e9%a1%b5%e9%9d%a2</id>
+   <id>http:/tuo.github.com./%e5%85%b3%e4%ba%8e%e5%81%9a%e5%8d%93%e8%b6%8a%e7%9a%84%e8%ae%b2%e5%ba%a7-part-2-%e8%ae%be%e8%ae%a1%e9%a1%b5%e9%9d%a2</id>
    <content type="html">&lt;strong&gt;第二部分&lt;/strong&gt;&lt;strong&gt;: 设计PPT.&lt;/strong&gt;
 
 这一步是整个过程中非常重要的一环,有很多细节需要注意.昨天Sumeet有做过讲座&lt;a href=&quot;http://www.slideshare.net/sumeet.moghe/tips-for-effective-presentations-4462308&quot; target=&quot;_blank&quot;&gt;Tips  for Effective Presentations&lt;/a&gt;,列举出了很多需要注意的要点.我简要的总结一下:
@@ -3033,9 +3033,9 @@ Brain Rule 是由JOHN MEDINA创建的一个关于研究大脑认知行为的一�
  
  <entry>
    <title>关于做卓越的讲座 Part 1 构思</title>
-   <link href="http://sirupsen.github.comeffective-presentation-part-1.html"/>
+   <link href="http://tuo.github.comeffective-presentation-part-1.html"/>
    <updated>2010-10-10T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%85%b3%e4%ba%8e%e5%81%9a%e5%8d%93%e8%b6%8a%e7%9a%84%e8%ae%b2%e5%ba%a7-part-1-%e6%9e%84%e6%80%9d</id>
+   <id>http:/tuo.github.com./%e5%85%b3%e4%ba%8e%e5%81%9a%e5%8d%93%e8%b6%8a%e7%9a%84%e8%ae%b2%e5%ba%a7-part-1-%e6%9e%84%e6%80%9d</id>
    <content type="html">做一个有效的讲座对于我来说一直都是非常重要的,因为对于咨询人员而言,如何让你的知识得到有效的分享和交换是一个非常重要的部分.如果你有很强的能力和很渊博的知识,但是没有一个很有的交流和分享的能力,那么你的价值实惠大大的打折扣的.
 &lt;blockquote&gt;A person can have the greatest idea in the world.  But if that person can’t convince enough other people,  it doesn’t matter.                                                                                                 –Gregory Berns&lt;/blockquote&gt;
 尽管我也有意识到它的重要性,但是缺乏这样的机会来系统的整理和总结这样一个话题:如何做出有效的讲座(How To Make Effective Presentation).刚刚好上周五的Open Space上,Sumeet有做了关于这个话题的一个讲座,给了我很多启示,然后我上网也搜了艘这方面的资料,下面便是我的一些心得.
@@ -3082,9 +3082,9 @@ Brain Rule 是由JOHN MEDINA创建的一个关于研究大脑认知行为的一�
  
  <entry>
    <title>西游记 第二季</title>
-   <link href="http://sirupsen.github.comjourney-to-west-part-2.html"/>
+   <link href="http://tuo.github.comjourney-to-west-part-2.html"/>
    <updated>2010-10-04T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e8%a5%bf%e6%b8%b8%e8%ae%b0-%e7%ac%ac%e4%ba%8c%e5%ad%a3</id>
+   <id>http:/tuo.github.com./%e8%a5%bf%e6%b8%b8%e8%ae%b0-%e7%ac%ac%e4%ba%8c%e5%ad%a3</id>
    <content type="html">昨天有进行传统的寻宝活动,这个天气真是热死的,然后在甘地路和商业街上有如无头苍蝇般的乱跑乱去,感觉街上有点挤,而且这个摩托车非常彪悍,令人发指.我的感觉是跟着印度本人跑就好,尽管我非常想参与,但是这个话没听懂,拜托,您讲慢点,有点晕.
 今天主要是听了几个SESSION,主要是关于个公司文化的一些简介.还有一些关于我们将要做得项目的一些技术介绍等等.不得不说,这个咖啡还不错,食物还可以把.感觉有点麻烦的是这个中午困的太厉害了,下午听SESSION的时候差不多快睡着了,而且下课后还没有篮球,太令人发指了.顺便说下,那个SUMEET用的PPT的软件&lt;a href=&quot;http://prezi.com/&quot; target=&quot;_blank&quot;&gt;PREZI&lt;/a&gt;非常酷,可以学习下.
 我问了SAM,他没有搞到球,又问了几个印度同事都没搞到球,大家打球的积极性都很高,就是找不到球.
@@ -3096,9 +3096,9 @@ Brain Rule 是由JOHN MEDINA创建的一个关于研究大脑认知行为的一�
  
  <entry>
    <title>西游记 第一季</title>
-   <link href="http://sirupsen.github.comjourney-to-west-part-1.html"/>
+   <link href="http://tuo.github.comjourney-to-west-part-1.html"/>
    <updated>2010-10-02T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e8%a5%bf%e6%b8%b8%e8%ae%b0-%e7%ac%ac%e4%b8%80%e5%ad%a3</id>
+   <id>http:/tuo.github.com./%e8%a5%bf%e6%b8%b8%e8%ae%b0-%e7%ac%ac%e4%b8%80%e5%ad%a3</id>
    <content type="html">昨天应该满有趣的,首先是过马路,这个太惊险了,我的天.没有任何人行横道的概念,道路上都是摩托车,三轮车和各种乱七八糟的车,而且它们的速度都超快,完全不理会你这里有什么人.所以场面看起来相当的危险.所以有经验的人总结说:首先,你需要结伴而过,因为撞死十个人远比撞死一个人来得难 或者说他需要付出的代价更高;第二便是要锹准时机,有空隙就立马过去.下午有跟教练见面,教练是ERROL,一个看起来是本地人,但实际却是一个非常地道的旧金山人,口音非常好,我很感谢,是因为我们组有一个印度本地人,这口音,令人发指,我记得昨晚跟新西兰的LOUIS聊天时,遇到了很多有有趣的事情,比如发音方面,有几个单词他们发音的感觉UK的口音非常严重,得仔细辨别才行,其他都OK. 教练大概就讲了一下这次他需要做的事情更像一个领路人,他原本是一个QA,但是经验非常多,所以即使是DEV,有问题也可以问他.晚上去喝酒时,我感觉我这的说笑话的能力还是满全球化的,嘿嘿,聊到笑到不行,很有趣.(拜托 如果换作是印度人,估计我的笑话就不起作用了).
 今天是一个休息日,几个人去附近超市买了点东西,下午回来准备去打球.当我换好衣服来到下面,结果却下雨了,等了一会雨停了,但是球场上积水还是很多.我打电话问了问吴少,看看能不能搞个球,因为他的室友SAM说他想打球,结果他却睡着了......  等了一会借不到球,然后我就跟吴少跟印度本地人打起了球,场地上都是水,鞋子都湿透了.你别说,印度小孩打球还真的可以啊,还有一个长的高点的,投篮比校准,没办法,场地上都是水,超滑,而且那个篮筐简直令人发指,好吧,我承认这是一个场地问题.就这么打了一会,SAM有下来了,额,非常高,使我们之一批中最高的一个,大概一米九五,令人发指,不过他以前是打冰球的,所以打起篮球来有点僵硬,缺乏灵活性,投篮真是水到不行,好几个要么是蓝外空心,要么是用户过猛,令人疑惑的是人家还要跟我们比投篮,我当时想&quot;大姐,你这是自取欺辱阿,呵呵&quot;. 结果可想而知,被我们玩爆,呵呵.过了一会,那个印度人说要球走了,结果就没球了.大家都觉得非常不爽,拜托,打到一半就没了,这还不SUCKS,然后我们商量了一下要么去买个球或者是租个球,但此时要下雨了,就约定去搞个球下次打.
 晚上会住处的时候,DAMON正有在看电视,跟他聊了下晚上的篮球和LEBRON JAMES等等的话题,看来看NBA有个好处就是跟他们聊这个很有话题,呵呵,准备搞到球后下次一起打,看起来他还是应该会比较蹦达把,很期待.
@@ -3110,9 +3110,9 @@ Brain Rule 是由JOHN MEDINA创建的一个关于研究大脑认知行为的一�
  
  <entry>
    <title>TWU计划</title>
-   <link href="http://sirupsen.github.comtwu-plans.html"/>
+   <link href="http://tuo.github.comtwu-plans.html"/>
    <updated>2010-09-30T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./twu%e8%ae%a1%e5%88%92</id>
+   <id>http:/tuo.github.com./twu%e8%ae%a1%e5%88%92</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;今天有去TWU,正在航途上,非常的累,不过还好旁边一个印度大叔还不错,聊了满多的,感觉还不错.我.现在在离班加罗尔还有两个小时的路上的,我也可以仔细想想这个TWU的一些计划和目标.正如凯哥提示我这个你需要了解你的目的,要去干什么,想要达到什么目的,然后在整个过程中保持一个比较集中的精力,而不至于偏离主航线主目标太多. 仔细想想,下面是我罗列的这样一个目标表:
 
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;需要加强点 1 ---加强表达能力和交际能力,,语言应该是个问题,重要的是你在这个过程中如何让其他人明白无误或者清楚的了解你要干什么,你要表达什么意思,在说之前先整理好思路.所以这个是将会是我非常会注意的.
@@ -3135,9 +3135,9 @@ Brain Rule 是由JOHN MEDINA创建的一个关于研究大脑认知行为的一�
  
  <entry>
    <title>黑白名单和复合</title>
-   <link href="http://sirupsen.github.comblackwhitelistandcomposition.html"/>
+   <link href="http://tuo.github.comblackwhitelistandcomposition.html"/>
    <updated>2010-09-22T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e9%bb%91%e7%99%bd%e5%90%8d%e5%8d%95%e5%92%8c%e5%a4%8d%e5%90%88</id>
+   <id>http:/tuo.github.com./%e9%bb%91%e7%99%bd%e5%90%8d%e5%8d%95%e5%92%8c%e5%a4%8d%e5%90%88</id>
    <content type="html">上周编程中有碰到需要处理这个用户权限逻辑的重构,因为首先我们一开始写代码时是很简单的,没有新的超复杂的需求或者变化出现,所以权限这一块基本上比较简单.但是当我们后来遇到一个新情况,某个用户现在有个动作是被禁止的,但是现在需要可以允许,这样就得需要去给某个角色添加允许某一个动作的逻辑,但实际中发现这很困难,为什么? 因为这个角色维护是一个黑名单,而其他角色维护的是白名单.所以这个你的思维得在这两个HAT中不停的转换,有时候很晕,即使有测试,我们觉得仍然非常痛苦.因为这个问题的出现,觉得说这个时候是不是应该达到来某一个阀值THRESHOLD,可以对它进行重构,改成维护一个白名单了.然后就根据测试和规则,对其进行重构.
 第二个比较棘手的问题是一个动作可能需要多个用户一起参与,比如CopyAsNewCurve需要判读当前用户是否同时具有CREATOR和SYSADMIN的角色,而我们当前只有处理每个用户之间是没有任何的知情权的,听凯哥说UNIX也有这样的用户管理机制.那这个问题如何是好了? 我当时的想法是就像STRUTS2有它一系列的拦截器或者像ACEGI一样的拦截器等等(尽管两个我都不是很熟悉),但是感觉很接近.将四个角色按照一定的顺序链起来,然后讲动作等信息作为一个&lt;a href=&quot;http://www.industriallogic.com/xp/refactoring/accumulationToCollection.html&quot; target=&quot;_blank&quot;&gt;COLLECTING PARAMETER&lt;/a&gt; 来收集每一个用户对此动作或者用户的许可情况,如果允许那么直接返回;如果不允许,并修改COLLECTING PARAMETER并将其传至下一层,如果到了最后一层没有人处理得了,那就返回FALSE. 然后凯哥说了一个想法,那就是CopyAsNewCurve其实是两个动作,一个是CREATOR可以Create 并且SYSADMIN可以Read的权限,这样的好处还是明了的,实现起来非常简单.方案是使用COMPOSITE模式,将复合动作和原子动作一视同仁(对外).对于复合动作中的每一个动作如果有一个失败,那么就说验证是失败,没有权限;如果都OK,那就是用户有这个权限.
 </content>
@@ -3145,9 +3145,9 @@ Brain Rule 是由JOHN MEDINA创建的一个关于研究大脑认知行为的一�
  
  <entry>
    <title>关于小步前进</title>
-   <link href="http://sirupsen.github.comsmall-steps.html"/>
+   <link href="http://tuo.github.comsmall-steps.html"/>
    <updated>2010-09-20T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e5%85%b3%e4%ba%8e%e5%b0%8f%e6%ad%a5%e5%89%8d%e8%bf%9b</id>
+   <id>http:/tuo.github.com./%e5%85%b3%e4%ba%8e%e5%b0%8f%e6%ad%a5%e5%89%8d%e8%bf%9b</id>
    <content type="html">在过去的一周中,主要是跟凯哥一起做CurveBuilder这边的性能测试,同时修复已经测试出来的bug和不完善的地方.对于性能测试这一块,测试的计划是这样子,首先准备好数据(后面会讲到测试数据的这样一个台阶或者说分水岭),然后对于几个主要页面,使用Apache Benchmark来测试这几个页面的响应的时间.首先需要面对的问题是如何比较合理的划分前提准备数据的层次,在项目中我们有表EventSource它的数据量是比较稳定同时也比较接近用户真实环境中情况,同时也有Favorites,Alarms和FormulaVersions这三个表,他们的数据的层次就显得很有必要, 势必要按照这样一个基本阶梯来 : 一开始是数据量基本符合用户的正常使用的通常情况;第二是数据量是用户可能会达到,但是相对所占比列不是很大 ;最后便是认为用户基本上不会达到,或者很少很少的情况下达到,可以认为这是极限测试. 通过凯哥跟客户的交流 ,进一步确定了测试数据阶梯的这样一个划分,分别是500,1000和2000. 然后使用Apache Benchmark进行对服务器能处理请求容量或者速度的一个测试,分别有三个类似的阶梯划分,一个是50个用户30个并发程度,100个请求50个并发程度和500个请求100个并发程度.那使用ab的话,因为我们使用的是本地认证,所以我们必须绕过它的限制,所以需要有针对性的进行配置. 紧接着写了一个Ruby脚本来请求每一个页面,并对返回的结果做一个简单的处理.
 
 一开始的时候我们并没有直接上ab ,而是现在本地上跑看看速度处理怎么样, 在Firefox下速度显示超快，但是在IE8发现显示Favorite 的页面速度超慢,不知道为什么,然后凯哥就开始一步步检查这个瓶颈在哪里出现的(你可以能会问题为什么用什么IE，不以MOSe为标准或者怎么样，我得提示说这个是客户的要求，人家就是要求说IE8，所以客户是G .O .D).首先想到的是在&quot;&quot; 层下的从数据库取出数据的速度很慢,然后写了测试发现速度还是可以的,证明取出数据是非常快,然后我们想说那应该就是View层render的非常慢,然后我们一点一点将显示的东西去掉，看看速度有没有提.果然我们发现这一段代码
@@ -3202,9 +3202,9 @@ return false;
  
  <entry>
    <title>一将功成万骨枯-屠城</title>
-   <link href="http://sirupsen.github.comliterature.html"/>
+   <link href="http://tuo.github.comliterature.html"/>
    <updated>2010-09-17T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e4%b8%80%e5%b0%86%e5%8a%9f%e6%88%90%e4%b8%87%e9%aa%a8%e6%9e%af-%e5%b1%a0%e5%9f%8e</id>
+   <id>http:/tuo.github.com./%e4%b8%80%e5%b0%86%e5%8a%9f%e6%88%90%e4%b8%87%e9%aa%a8%e6%9e%af-%e5%b1%a0%e5%9f%8e</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;最近有读过柏杨先生的读三国一些文章 ， 还有关于明末清初的一些历史，突然有点感触。历来中国历史的上历朝历代屠城的作为一个“扭曲”的默认的传统被流传出来，每一个王朝的没落很新王朝兴起的中间，总是充满了血腥。 哪怕你是最明智的君王，你也不能禁止你底下的将领屠城，甚至你自己本身也可能回去屠城。 我原来有读过柏杨先生翻译过来的《资治通鉴》（因为我古文没达到那种可以直接就看的能力，所以只能借助像柏杨老先生翻译现代文的作品） ， 柏杨先生有特别在其中的部分加上自己的评述，,当时我有从战国开始一直读到东汉开国部分，印象中记得他的评论对于人民互相残食以及将领或者帝王屠城有特别的突出自己的愤慨，我印象非常深刻。譬如秦朝士兵有计人头数来衡量战功的传统，所以秦朝士兵作战可是非常生猛，引用《史记》中的一段描述：“山东之士被甲蒙胄以会战，秦人捐甲徒裼以趋敌，左挈人头，右挟生虏。” 那是相当彪悍，所以秦朝是始作俑者，我觉得很有可能。白起在长平之战中坑杀40万人，几乎将整个赵国青年人都消灭干净了，后来赵国也没有真正能缓过气来。尽管这算不上是准确的“屠城”，但是这坑杀跟屠城有何区别，稍微不同时屠城更加可恶，因为面对的都是平民。战争来临时他们没有选择站在那一边的权利，你想远离战事是不肯能的。西汉之前的我记不太清，但是东汉开国这一段我记忆深刻，刘秀算是一个历史上少有的温和派，对将领如此，对百姓也如此，但是他却没有管理他手底下的将领。像是吴汉，攻城犀利，屠城也不手软，比如成都的大屠杀，连光武帝都责骂他。对于耿弇，《后汉书》记载“弇为将，凡所平郡四十六，屠城三百，未尝挫折焉“ 而且后面评论还提到”将其用兵欲以杀止杀乎？何其独能隆也” 前面你可以认为‘屠’做攻克解，但是对于后面一句的评论了? 我不是专家我不清楚，不过我觉得也是有可能的，以刘秀的性格如果耿屠城三百座，那刘秀还不发飙，但是当时刘秀非常需要耿，我觉得很有可能是真的，我不记得柏杨先生怎么写的了。
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;就连曹操，也是如此，曹操应该说很理性吧，但是也有留下曹操屠徐州是“鸡犬亦尽，墟邑无复行人”的评语，曹操屠徐州是因为陶谦的手下杀害了曹操的父亲曹嵩，当时曹操准备屠城，荀彧劝阻，但是曹操估计是被仇恨冲昏了头。尽管我对曹操非常推崇，我也不得不说这种事情他也是不能避免的，就像东吴孙家也不能避免，战争的带来的影响便是曹操的诗中描述的“白骨露于野，千里无鸡鸣”，一篇惨淡。
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;至于南北朝和五代十国那样的动荡年代就更别说了。
@@ -3226,9 +3226,9 @@ return false;
  
  <entry>
    <title>打球有感</title>
-   <link href="http://sirupsen.github.combasketball.html"/>
+   <link href="http://tuo.github.combasketball.html"/>
    <updated>2010-09-12T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e6%89%93%e7%90%83%e6%9c%89%e6%84%9f-4</id>
+   <id>http:/tuo.github.com./%e6%89%93%e7%90%83%e6%9c%89%e6%84%9f-4</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;今天天气很不错，阳光明媚，有去学校准备找同学打球，结果不在，幸亏我自己有带球过来，然后准备去篮球场一个人去打会，结果篮球场爆满，人超多，正在举行什么新生杯篮球赛，我拿着球观摩了会感觉还不错，比我当年进大学球技好多了，不过即使他们过了四年后我想我还能一样的kick their asses，呵呵（貌似有点嚣张啊）。然后我想说那交大人那么多，要不去建大吧，那就打电话给凯歌没想到他说那个今天他打过了把肩给弄伤了，打不了球。然后我就换了条短裤，背起包搭公交到了空军医院，结果找不到门，刚好对面来了三个娃，我问他们怎么走，人家说你可以钻也可以翻，你选哪种. 当场就被震精了，望着铁栏，想了想自己大庭广众之下爬栏杆，还不如找个不显眼的地方钻进去。进去后，那个场地有地令人发指，一进去那个场中间都不平，坑坑洼洼的，入乡随俗了啦。于是跟三个高中生组成一对加了一拨，场上貌似打得很激烈，轮到我们上的时候，手感比较硬，投了两个没进，被打了个五比零，有点小尴尬啊。那个我们这边两个高中生貌似也忒矮了点吧，而且体型还有胖，防人起来真是囧。不过这两个手感很不错，出手很快，打了一会就来感觉了，投进了几个。打了一会又来了一拨，有一个比较高点的貌似是几个高中生的同学，后来聊天是在读高三，这个在底下等的够呛。等到天色慢慢变黑，饿突然爆发了，找到了感觉，各种crossover ,fadeaway和特别是几个高难度的突破啊~~呵呵，可能是动作有点花，人家问我是不是打街球的。打到最后天是在是黑了，我们几个在打散的，有个初三的娃，貌似打球很不错，节奏啊，后撤步还蛮不错的，然后我就过去给他指点指点，哈哈，人家问我怎么练，我说你很不错啦，我初三的时候可是没你那么厉害，适当的自谦是必要的，而且人家基本功还蛮不错的。接下来就是几个人轮着斗牛，呵呵，他们斗牛的时候，我就跟他们聊天，比如建大的初高中怎么样啊；人家总问我你怎么练球感等等。特别是那个高三的，跟我聊得很起劲，一定要我去理工大打球，说那里的水平很不错，看不出来他居然是读文科的，然后就一起聊聊高三的事情，人家老问这个学习该如何如何，蛮有趣的。就这样一直打到快八点才离开。打球很有趣的地方在于你可以认识很多不同的人有听到很多不同的事情。今天感觉不错的是自己的左手运球有点增长。
 
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;下赛季NBA我非常期待热火，湖人和凯尔特人。咱目前想知道 Allen Iverson将会去哪，有没有球打；也希望TMAC在底特律能找回自己，重现辉煌，记得他当年的跳投这个飘逸的。同时也希望姚明不要受伤，易建联能强势起来，联合大将军和沃尔有一番不错的表现
@@ -3243,9 +3243,9 @@ return false;
  
  <entry>
    <title>A few thoughts on testing from the trench 续</title>
-   <link href="http://sirupsen.github.comtrench.html"/>
+   <link href="http://tuo.github.comtrench.html"/>
    <updated>2010-09-11T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./a-few-thoughts-on-testing-from-the-trench-%e7%bb%ad</id>
+   <id>http:/tuo.github.com./a-few-thoughts-on-testing-from-the-trench-%e7%bb%ad</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;In my last blog ”&lt;a href=&quot;http://tuohuang.thoughtworkers.org/?p=28&quot; target=&quot;_blank&quot;&gt;A few thoughts on testing from the trench&lt;/a&gt;“ , i have described a  scenario i  gotta stumbled in . The situation  is  that i forgot to add cleanup method to former testcase   ,which sets the tone for some intricate failures of newly added testcases.Way too nitty-gritty,let's ,say, put simply ,i just broke the prerequisites or presumptions  that later test case relies on due to my carelessness. And i just come up with a solution,which just adds the cleanup to former testcases , as illustrated in following code :
 &lt;pre class=&quot;brush: csharp; &quot;&gt;[Test]
 public void should_return_configed_timeframe_when_timeframe_in_app_setting_is_in_right_format()
@@ -3300,9 +3300,9 @@ tearDown();
  
  <entry>
    <title>粗心和学习</title>
-   <link href="http://sirupsen.github.comcareless-and-learning.html"/>
+   <link href="http://tuo.github.comcareless-and-learning.html"/>
    <updated>2010-09-08T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./%e7%b2%97%e5%bf%83%e5%92%8c%e5%ad%a6%e4%b9%a0</id>
+   <id>http:/tuo.github.com./%e7%b2%97%e5%bf%83%e5%92%8c%e5%ad%a6%e4%b9%a0</id>
    <content type="html">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;下午快下班时结果CruiseControll上显示Installer的测试没有通过，这一看原来是我提交的东东出现了问题，但是我并没有改Installer的东西，只是另一个项目做了一些修改，看起来关系比较奇怪，看起来好像没有关联。但是无可否认问题是出现我提交的那个changeset上面，然后张姐在去产看问题的时候发现其中一个领域对象居然有引用到测试的一个帮助类，然后Installer是不会包含测试项目的引用的，ah......~~~~  超尴尬，我仔细一看确实啊，这个看起来不可思议啊，我想了想当时确实有好像在测试有多处地方需要实例后，然后我说好，那我将这些东东给塞到一个测试帮助类中，这样原来测试看起来会相对明了点，下面抽取之前的代码：
 &lt;pre class=&quot;brush: csharp; &quot;&gt;
 [Test]
@@ -3346,9 +3346,9 @@ Assert.IsTrue(CurveActionPanelPresenterTestHelper.Contains(actions, CurveActionP
  
  <entry>
    <title>A few thoughts on testing from the trench</title>
-   <link href="http://sirupsen.github.com/a-few-thoughts-on-testing-from-the-trench"/>
+   <link href="http://tuo.github.com/a-few-thoughts-on-testing-from-the-trench"/>
    <updated>2010-09-07T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/a-few-thoughts-on-testing-from-the-trench</id>
+   <id>http:/tuo.github.com/a-few-thoughts-on-testing-from-the-trench</id>
    <content type="html">Yesterday ,in my coding process ,well,i run into a intricate problem . What i'm wanna do is to add a testcase for newly modified funcationality ,then verify whether it works or not. Since the functionality is not our concern , i'll leave out its nuts and bolts.The quick peek  on this is that it will read value of specific key from a web.config ,some sort of xml configuration file, then assemble that value to a legitimate datetime. So,quite simply,ha.
  
 Here comes the testcase that i added:
@@ -3435,9 +3435,9 @@ Anyway,it is aways a good habit to  let a test case account for cleaning what i
  
  <entry>
    <title>一周总结</title>
-   <link href="http://sirupsen.github.com/2010/09/05/week-summary.html"/>
+   <link href="http://tuo.github.com/2010/09/05/week-summary.html"/>
    <updated>2010-09-05T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/2010/09/05/week-summary</id>
+   <id>http:/tuo.github.com/2010/09/05/week-summary</id>
    <content type="html">           上一周在开发过程中明显感觉到这个差距啊。。。很多东西，有些时候就是在你平时看书你可能觉得没有什么，然而到了实践却要忘记了，以前在学校读的书不少，当时就有怀疑说自己真实有掌握多少，是不是太缺实践了，果然啊。
            在跟凯哥pair继续完成实现将整个系统中DateTime的实现策略改为将所有UI上获得时间以local或者相应的时区来显示，在数据库中一律以Utc的格式存储。同时在完成一个Alarm设置时凯哥发现很多地方的都会有创建不同Alarm对象的声明，但是有很多重复确是没有将它们可以以一种更好的方式来管理，赋予更具意义更直观的名字，于是便有创建一个AlarmMother专门用来说当成一个工厂，你可以在里面声明你想要的测试数据，并且可以更加易于阅读的方式命名，比如说 new Alarm(alarmtime,TimezoneInfo.Local.Id,UserMother.Trader()) 你所能从这个测试数据的准备中看出来它要干什么是很难的，所以它没有AlarmMother.CreateLocalAlarmFor(UserMother.Trader() ,alarmtime );这样更加直观，它明确的告诉它创建的是一个本地时区的alarmtime，而且AlarmMother将所以对象的实例化都放置一个地方，大大方便了测试数据的准备，这样你的实例化不是散落(scatter)在测试中，而是集中在一个地方，如果你这个实例化的地方有很多，那么这样带来的便利是不言而喻的。这次要将所有散落在测试中直接实例化Alarm的地方全部替换成使用AlarmMother，一搜才发现，真的有蛮多啦，所以这个改动过程非常无聊，纯体力活。试想如果当初发现这个这个创建ALarm的地方有点多，而且对于不同的测试创建Alarm的方式也会是有不同（比如不同的参数代表不同意思），如果有及时的做一个抽象，那么会给后面的测试带来多大的便利。不过我想还是缺乏一种直觉吧，像凯歌有过很多的经验，自然有形成一种reflection反射和intuition直觉，当他有写到一个地方或者一个点，就会有知道说会不会应该先跳出来，看看这样重复有没有可以改进的地方，正如凯歌有说，这个需要时间，我这经验还很少，慢慢来。
               记得上周五有实现一个关于复选框支持批量删除的故事，然后我记得我当初想的是让用户在页面选中复选框，然后利用ASP.NET mvc内嵌的data binding这个功能，将每一个选中的复选框对应的curve的id传过来，也就是一个int[] 数组。为什么要这样做？ 我的想法是正如今晚有看过Eric Evans的&amp;lt;&amp;gt;有讲到一个分层的设计，Application这一层在UI层下面，它应该有free from依赖的它的上层的，我觉得这里便是这样不管UI的实现如何，至少我的应用层应该是一个接受一系列需要删除curve的id，然后我想想这个MVC它有没有这样的支持了，如果有的话，那我可就是很简单的就可以搞定;如果没有可能处理过程还要麻烦一点。当我在stackoverflow上搜时，我发现这个它里面说这个方案是可以的，但是到我那确实不可行，死活这个id都是null值。想了想，然后就方案&lt;a href=&quot;http://stackoverflow.com/questions/3291501/asp-net-mvc-maintain-state-of-a-dynamic-list-of-checkboxes/3298821#3298821&quot; target=&quot;_blank&quot;&gt;ASP.Net MVC maintain state of a dynamic list of checkboxes&lt;/a&gt;一点点放小，看看问题出在哪里.然后我尝试将Html.BeginForm()改为&amp;lt;form/&amp;gt;这样它居然能工作，然后我将表单的内容替换成真实需要的，它能工作，然后我将&amp;lt;form/&amp;gt;又重新换回去也没问题，这个令人发指啊。 不过这个“解决”问题的思路就是，一点点来，努力缩小问题出现的域，一步步向它逼近，如果复杂点它不能功能，那么换成最简单的形式，然后一点点往上面加东西，以便检查是否出现问题，这样子来定位问题的思路应该还是很正确的（尽管这个问题我没有从源头上理解它。。。。）。
@@ -3452,9 +3452,9 @@ Anyway,it is aways a good habit to  let a test case account for cleaning what i
  
  <entry>
    <title>实践中的Codinng Convention and Incremental Development一点体会</title>
-   <link href="http://sirupsen.github.comcoding-conventions.html"/>
+   <link href="http://tuo.github.comcoding-conventions.html"/>
    <updated>2010-08-29T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com./code-convention</id>
+   <id>http:/tuo.github.com./code-convention</id>
    <content type="html">这一周的工作印象很深的第一件事是&lt;a href=&quot;http://www.iamhukai.com/&quot; target=&quot;_blank&quot;&gt;凯哥&lt;/a&gt;需要去添加页面，然后发现那个样式并没有应用上，在firebug上一看，原来是简单标记使用css的元素id不一致，在一个页面中你可以看到一部分是以hyphen - 连字符，另一部分却是underline _ 下划线，而且确是有混在一起使用，看起来怪怪的。早些的时候我原来有接触过这个页面，但当时我有看到这个问题，却并没有一下子潜进去去替换或怎么样，因为当时感觉虽然也有问题，但是还不是一个很大的deficiency缺点，直至到现在它已经不能work,而且非常的counter-intuitive. ps:尽管凯哥一直强调我写日志的时候需要考虑对象，但是从我的手指间不自觉的会流出这种风格. 已经是到了不得不改的时候了，so,which style u're gotta pick up , hyphen ,camelCase or underscore ? 凯哥在检查的时候使用的是连字符，那有没有说一种naming convention 或者 'best practice' 或者说无论哪种只是一个personal preference了?    W3C css 规范并没有提出太多的指示，而在StackOverflow上的一篇帖子&lt;a href=&quot;http://stackoverflow.com/questions/1686337/hyphens-or-underscores-in-css-and-html-identifiers&quot; target=&quot;_blank&quot;&gt;Hyphens or underscores in CSS and HTML identifiers?&lt;/a&gt; 和CSS-Tricks的问卷调查&lt;a href=&quot;http://css-tricks.com/new-poll-hyphens-or-dashes/&quot; target=&quot;_blank&quot;&gt;New Poll: Hyphens, Underscores, or camelCase&lt;/a&gt;? 大家都有提出自己的看法，连字符、下划线和camelcase都是可以的，仅仅是一个个人喜欢的问题，选择权is totally up to u. 当我们bla bla bla的将很多页面的涉及到的不符合命名规范的id都换成统一的风格时，我们发现这个改动实在是太痛苦了,手工的copy/paste，而且你还没办法去automate它，很多东西是如此的insidious，那可是花了一周折。这种机械的却又无法交给机器去自动化的东西，解决办法有一个，那就是从源头上截断它的产生。所以凯哥说这不是某一个coder的错误，而是当初项目的一个错误。因为当初并没有指定Code Standards，并且因为大家是如此有个性的coder,所以大家的风格没有办法去align，却要找不到一个guideline来balance，不同的风格并没有错，但是需要一个大家可以参考的baseline,你不能越过它，否则各种不同风格的代码的这种pile up，慢慢的这种维护或者修改就变得越来越难。这也就是XP一个practice  &quot;Coding Standards&quot; ,这个是一个非常重要的东东，在项目开始大家一起定制一个统一的guideline或者standards，并且在这个standards内能让coder的风格能发挥很大的自由却不会造成team mates中间的disagreement，因为这些都有在前面讨论过。引用James Shore的&lt;a href=&quot;http://books.google.com/books?id=g_ji7cRb--UC&amp;amp;printsec=frontcover&amp;amp;dq=art+of+agile&amp;amp;source=bl&amp;amp;ots=vlPvwuVzbB&amp;amp;sig=3Wg3MGDR-H8kKOmom89CiWEWzu0&amp;amp;hl=en&amp;amp;ei=bSV6TO20GI_6cPij4eIF&amp;amp;sa=X&amp;amp;oi=book_result&amp;amp;ct=result&amp;amp;resnum=5&amp;amp;ved=0CCsQ6AEwBA#v=onepage&amp;amp;q&amp;amp;f=false&quot; target=&quot;_blank&quot;&gt;The Art of Agile Development&lt;/a&gt; 关于Code Standards的99字总结:
 
 
@@ -3515,9 +3515,9 @@ return new DateTime(dataTimeInDb.Year, dataTimeInDb.Month, dataTimeInDb.Day, dat
  
  <entry>
    <title>Why it matters ?</title>
-   <link href="http://sirupsen.github.com/why-it-matters"/>
+   <link href="http://tuo.github.com/why-it-matters"/>
    <updated>2010-08-24T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/why-it-matters</id>
+   <id>http:/tuo.github.com/why-it-matters</id>
    <content type="html">这个两个星期在项目的开发过程中，遇到了不少的问题，使我认识到自己某些方面的意识还不是很强烈，思维的方式还需要加强，为什么这么说了？ 我记得以前看书的时候，记得说需要创建一个对象是loo&lt;span&gt;se&lt;/span&gt;ly coupled,high cohe&lt;span&gt;s&lt;/span&gt;ion ,remove redundancy等等，说到底还是强调说你在思考的时候，多多从OO的角度出发去思考，尽管我觉得自己看过好几次，但是每当自己编程的时候看过自己的代码我都觉得当时的自己思考的仍然不到位。我记得上周编程的过程中，在&lt;span&gt;Se&lt;/span&gt;rvice层，我记得当时采用te&lt;span&gt;s&lt;/span&gt;t-fir&lt;span&gt;s&lt;/span&gt;t model，然后我开始blablabla的写完测试，然后开始写实现，让测试能通过，当然这个测试是针对某一个feature。它会首先获取所有的publi&lt;span&gt;s&lt;/span&gt;hedVer&lt;span&gt;s&lt;/span&gt;ion&lt;span&gt;s&lt;/span&gt;返回的是一个li&lt;span&gt;s&lt;/span&gt;t类型，然后判断是否这个li&lt;span&gt;s&lt;/span&gt;t为空，如果为空，那么直接返回；如果不是，那么取出li&lt;span&gt;s&lt;/span&gt;t中的第一个，然后检查是否u&lt;span&gt;se&lt;/span&gt;r拥有MarkA&lt;span&gt;s&lt;/span&gt;Depreated的权限，如果有那么就执行这个动作，当时写完后，测试都有通过，bingo! ,我觉得ah,it pa&lt;span&gt;s&lt;/span&gt;&lt;span&gt;se&lt;/span&gt;d,not bad at lea&lt;span&gt;s&lt;/span&gt;t，
 &lt;h3&gt;Code Li&lt;span&gt;s&lt;/span&gt;t 1&lt;/h3&gt;
 &lt;pre class=&quot;brush:csharp;&quot;&gt;private void HandleSourceDeprecationOn(..){
@@ -3570,9 +3570,9 @@ Check out Ted Neward'&lt;span&gt;s&lt;/span&gt; blog &quot;&lt;a href=&quot;http
  
  <entry>
    <title>Hello</title>
-   <link href="http://sirupsen.github.com/hi"/>
+   <link href="http://tuo.github.com/hi"/>
    <updated>2010-08-23T00:00:00+08:00</updated>
-   <id>http:/sirupsen.github.com/hi</id>
+   <id>http:/tuo.github.com/hi</id>
    <content type="html">终于有了自己的一个域名，&lt;a href=&quot;http://www.tuohuang.info&quot;&gt;www.tuohuang.info&lt;/a&gt;，得非常感谢凯哥和gigix的帮助，得以有自己一个可以workable的东西，再次感谢杰哥帮我在他的dreamhost上给了一个空间，同时这个月跟他的pair过程中，我学习到了很多东西，他强调跟我说对于技术人员保持写日志的习惯有多么重要，事实上我非常地赞同，写日志事情都没有理由不去坚持，如果这不能克服阻力坚持下去，没有理由你能办好其他的事情，听杰哥说他写日志有很多年的习惯，而且原来周末一写便是一下午，五六千字，我非常佩服。一个好的习惯是非常重要的，所以这里再次表示感谢，so appreciate。
 我之前的日志一部分是放在了新浪上,一部分是放在了&lt;a href=&quot;http://clarkht.iteye.com/&quot; target=&quot;_blank&quot;&gt;http://clarkht.iteye.com/&lt;/a&gt;上.
 
