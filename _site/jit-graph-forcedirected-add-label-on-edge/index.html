@@ -1,0 +1,148 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>jit graph Forcedirected add label on edge</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>jit graph Forcedirected add label on edge</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Jun 2011
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    jit graph(<a href="http://thejit.org/demos/" target="_blank">JavaScript InfoVis Toolkit</a> ) is an amazing javascript graph library. Here is the demo i use , the <a href="http://thejit.org/static/v20/Jit/Examples/ForceDirected/example1.html" target="_blank">forcedirected</a> graph. Well I just get stuck on how to add the label on the edges. I 've googled for a lot , but lots of doc are out of sync. So i just tweeted a little bit, and found the following solution.
+<h4>1.modify the json data ,to add a relatedOn key/value</h4>
+<pre lang="javascript">    var json = [
+        {
+            "adjacencies": [
+                {
+                    "nodeTo": "sky",
+                    "nodeFrom": "earth",
+                    "data": {
+                        "$color":"#dd99dd",
+                        "relatedOn": "from sky to earth"
+                    }
+                },
+                {
+                    "nodeTo": "ocean",
+                    "nodeFrom": "earth",
+                    "data": {
+                        "relatedOn": "from ocean to earth"
+                    }
+                }],
+            "id": "earth",
+            "name": "earth"
+        }
+  ]</pre>
+<h4>2.implement a customized edge type</h4>
+<pre lang="javascript">    // init ForceDirected
+    var fd = new $jit.ForceDirected({
+        Edge: {
+            overridable: true,
+            color: '#23A4FF',
+            type: 'label-arrow-line'
+        },</pre>
+<h4>3.specify the edge type to customized type in ForceDirected controller Edge configuration.</h4>
+<pre lang="javascript">    var fd = new $jit.ForceDirected({
+        Edge: {
+            overridable: true,
+            color: '#23A4FF',
+            type: 'label-arrow-line'
+        },
+       Label: {...}
+    });</pre>
+There you go. Following is the result:
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/06/Screen-shot-2011-06-22-at-1.43.12-AM.png"><img class="alignleft size-full wp-image-149" title="Screen shot 2011-06-22 at 1.43.12 AM" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2011/06/Screen-shot-2011-06-22-at-1.43.12-AM.png" alt="" width="609" height="320" /></a>
+
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

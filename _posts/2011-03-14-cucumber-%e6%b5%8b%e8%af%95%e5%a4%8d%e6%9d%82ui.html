@@ -1,0 +1,81 @@
+--- 
+layout: post
+title: "cucumber \xE6\xB5\x8B\xE8\xAF\x95\xE5\xA4\x8D\xE6\x9D\x82UI"
+permalink: "2.html"
+tags: 
+- cucumber
+- highcharts
+- qa
+- rails
+- test
+status: publish
+type: post
+published: true
+meta: 
+  _edit_last: "1"
+---
+&nbsp;&nbsp;&nbsp;&nbsp;最近碰到的一个问题是:我们在controller层都有完备的单元测试,当然既然是单元测试,也就缺乏集成测试了.为什么会是这样了?因为项目要求测试覆盖率为100%,任何在controller层测试中写跟数据库打交道的测试都会通不过项目的质量检查.那既然controller层测试只有一些stub和mock测试的话,集成测试写在哪里了? 在cucumber测试中.那就写呗,难题在于哪了. 就在view层需要渲染一个复杂的报表,使用highcharts库来渲染的图表.通常一般的cucumber测试,在一个scenario中,准备一些数据,然后访问那个页面,查看是否元素或者数据存在.问题就在最后一步,怎么去页面中抓取到想要的元素或者数据,如果只是简单视图显示,可能就很简单,但是如果这个视图渲染出来之后非常复杂情况就难办了. 这就需要进一步分析报表的渲染模型了.
+&nbsp;&nbsp;&nbsp;&nbsp;highcharts是一个javascript库,你所要做的便是传入合适的数据(配置),然后渲染的事情就可以交给它了. 以这个<a href="http://www.highcharts.com/demo/?example=line-basic&amp;theme=default">demo</a>这个基本线条模式为例:
+&nbsp;&nbsp;&nbsp;&nbsp;<pre lang="javascript">
+var chart;
+$(document).ready(function() {
+chart = new Highcharts.Chart({
+chart: {
+renderTo: 'container',
+defaultSeriesType: 'line',
+marginRight: 130,
+marginBottom: 25
+}
+..........
+//个性化配置的数据
+series: [{
+name: 'Tokyo',
+data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+}, {
+name: 'New York',
+data: [-0.2, 0.8, 5.7, 11.3, 17.0, 22.0, 24.8, 24.1, 20.1, 14.1, 8.6, 2.5]
+}, {
+name: 'Berlin',
+data: [-0.9, 0.6, 3.5, 8.4, 13.5, 17.0, 18.6, 17.9, 14.3, 9.0, 3.9, 1.0]
+}, {
+name: 'London',
+data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+}]
+});
+
+});
+</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;所以结合整个流程就是:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;databaset --&gt; services --&gt; controller --&gt;取道合适的数据 --&gt; view--&gt; highcharts render --&gt; 报表
+&nbsp;&nbsp;&nbsp;&nbsp;相比一般普通的cucumber测试,现在的问题是highcharts渲染出来后的报表标签(是一个svg)实在是非常混乱,数据被打散了,不像表格一样有明确清晰的意义一目了然.
+&nbsp;&nbsp;&nbsp;&nbsp;怎么办了? 问题在哪?
+
+&nbsp;&nbsp;&nbsp;&nbsp;测试对象.
+
+&nbsp;&nbsp;&nbsp;&nbsp;为什么需要测试highcharts它的渲染过程? 那就可以相信highcharts库,不去测试?
+
+&nbsp;&nbsp;&nbsp;&nbsp;问题在于什么是可以自动化测试什么是必须得人工测试.
+
+&nbsp;&nbsp;&nbsp;&nbsp;自动化测试的过程可以在"databaset --&gt; services --&gt; controller --&gt;取道合适的数据" 发生
+
+&nbsp;&nbsp;&nbsp;&nbsp;但是关于highcharts渲染的过程,不能包含在自动化测试, 只能由人工测试来覆盖.
+
+&nbsp;&nbsp;&nbsp;&nbsp;这个分解难处在怎么去测试从controller层传回的数据是正确的. 我的做法的一个依据是为什么highcharts渲染过的很难测,因为它数据展现形式缺乏语意性.所以我尝试用一个&lt;table&gt;表格来显示数据.但这个表格只能在测试和QA模式下才可以显示在页面上.
+&nbsp;&nbsp;&nbsp;&nbsp; 具体做法是:在helper中加入这样一个方法
+<pre lang="ruby">
+      def cucumber_debug_print(data)
+        return unless ["test", "cucumber"].include?(Rails.env)
+        raw_tag = "<table id='data_listing'><thead><tr><th> Name</th>"              
+
+        raw_tag <<  "</tr></thead><tbody>"
+        transform_on(data).each do |data|
+          raw_tag << "<tr><td>#{data[:name]}</td>"
+          raw_tag << "</tr>"
+        end      
+        raw_tag <<"</tbody></table>"
+        raw_tag.html_safe
+      end
+</pre>
+&nbsp;&nbsp;&nbsp;&nbsp;这样的好处在于:最大限度地将测试包含到自动化测试中.同时提高了一种更有语意的数据表现形式(table),这样测试人员只要根据报表下面的表格中数据来检查报表是否渲染正确,而不需要去scenario中去推导准备数据.
+
+&nbsp;&nbsp;&nbsp;&nbsp;后来证明这个方案是非常重要的,因为后面scenario还涉及到跟其他部分联合的测试,如果采用一般的测试,无法想象这个测试会写成什么样子. 因为之前我跟客户之前的开发人员也有争论这件事情,一开始人家坚持认为cucumber测试丢给QA手工测试就好,结果写出来的测试什么事也没干,因为从controller层传来的数据是应该可以自动化测试的,但是这个时候就必须要QA手工去测试,大大加大的QA的负担,或许像小龙说的这边的开发人员更多的是思考将自己的事弄好就好了,至于QA是否容易测试,我不关心.我一开始无法说服他,人家有多年的经验,挣的面红耳赤也没有必要,那就让事实说话呗. 很高兴的是这个方案更好也更有效的覆盖到了很多单元测试无法测试的问题,给了我们非常即时的反馈. 也许不是一定要非常有侵略性的说服别人,而是让人家自己摸索之后回过头来觉说"哇,你的想法不错阿,试试"

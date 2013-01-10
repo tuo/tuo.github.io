@@ -1,0 +1,245 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>Android listview remember selection and set default selection</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>Android listview remember selection and set default selection</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Oct 2012
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <p>From an iOS developer’s perspective, I find that it is extremely hard to apply features like “<strong>set default selection when starting</strong>” and “<strong>remember selection status after user clicked row</strong>” to ListView. </p>
+
+<p>So let’s start with <strong>“remember selection”</strong> first.The problem is that even if you know that 
+you can use selector xml to define highlight/pressed/focus style.But that style will not 
+be kept after user clicked that row. For instance, I have a highlighting selector xml (list_selector.xml under res/drawable folder) like this (but you may have other fields need to highlight like text color of textview in row):</p>
+
+<pre><code>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;selector xmlns:android="http://schemas.android.com/apk/res/android"&gt;
+    &lt;item android:drawable="@drawable/list_selector_pressed" 
+		android:state_pressed="true" /&gt;
+    &lt;item android:drawable="@drawable/list_selector_pressed" 
+		android:state_selected="true" /&gt;
+&lt;/selector&gt;    
+</code></pre>
+
+<p>and list_selector_pressed.xml which defined the highlighting style–set the background color
+to a gray color :</p>
+
+<pre><code>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;layer-list xmlns:android="http://schemas.android.com/apk/res/android"&gt;
+    &lt;item&gt;
+        &lt;shape xmlns:android="http://schemas.android.com/apk/res/android"&gt;
+            &lt;solid android:color="@color/dark_gray" /&gt;
+        &lt;/shape&gt;
+    &lt;/item&gt;
+&lt;/layer-list&gt;
+</code></pre>
+
+<p>So as @David Hedlund suggested:</p>
+
+<blockquote>
+  <p>Rather, assign an OnItemClickListener, and have it store away the id of the selected item into some variable. </p>
+</blockquote>
+
+<p>you need to create a instance variable on top of your class:</p>
+
+<pre><code>    private View currentSelectedView;
+</code></pre>
+
+<p>then go to </p>
+
+<pre><code>@Override
+public void onListItemClick(ListView l, View v, int position, long id) {
+	if (currentSelectedView != null &amp;&amp; currentSelectedView != v) {
+        unhighlightCurrentRow(currentSelectedView);
+    }
+
+	currentSelectedView = v;
+    highlightCurrentRow(currentSelectedView);
+    //other codes 
+    }
+</code></pre>
+
+<p>Pretty simple: we check if currentSelectedView is null or current clicked view or not. we first to unhighlight any style by calling method unhighlightCurrentRow(currentSelectedView)—you may wonder why we pass instant variable currentSelectedView as parameter, I will explain it later.  Then we assign view to currentSelectedView and highlight current row; so that the style will persist after user’s clicking is done.</p>
+
+<pre><code>private void unhighlightCurrentRow(View rowView) {
+    rowView.setBackgroundColor(Color.TRANSPARENT);
+    TextView textView = (TextView) rowView.findViewById(R.id.menuTitle);
+    textView.setTextColor(getResources().getColor(R.color.white));
+}
+
+private void highlightCurrentRow(View rowView) {
+    rowView.setBackgroundColor(getResources().getColor(
+            R.color.dark_gray));
+    TextView textView = (TextView) rowView.findViewById(R.id.menuTitle);
+    textView.setTextColor(getResources().getColor(R.color.yellow));
+
+} 
+</code></pre>
+
+<p>Aha, that’s it. That is how we implement “remember selection” for list view. As you see, 
+we have to duplicate the codes for styling both in xml and java code–pretty stupid :(</p>
+
+<p><strong>Next about “set default selection”</strong>. You may think that you can do this </p>
+
+<pre><code>listView.setAdapter(adatper)
+listView.setSelection(0);
+currentSelectedView = listView.getChildAt(0);
+highlightCurrentRow(currentSelectedView); in onCreate() in activity or onActivityCreated() in fragment.      But if you run it , you will get NullPointer exception and why ? because at this time, the listview is not rendered yet and Android doesn't like iOS which have viewWillAppear. SO you have to create an instant variable to remember whether it is first time to render listview cell and in onListItemClick to unset that variable:
+</code></pre>
+
+<p>So under currentSelectedView declaration:</p>
+
+<pre><code>private Boolean firstTimeStartup = true;
+</code></pre>
+
+<p>then add methods : suppose we want to highlight the first row in list view:</p>
+
+<pre><code>public class HomeAdapter extends ArrayAdapter&lt;String&gt; {
+	int layoutResourceId;
+
+	public HomeAdapter(Context context, int textViewResourceId,
+			ArrayList&lt;String&gt; objects) {
+		super(context, textViewResourceId, objects);
+		layoutResourceId = textViewResourceId;
+	}
+
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		if (convertView == null) {
+			convertView = LayoutInflater.from(getContext()).inflate(
+					layoutResourceId, null);
+		}
+
+		if (firstTimeStartup &amp;&amp; postion == 0) {
+            highlightCurrentRow(convertView);
+        } else {
+            unhighlightCurrentRow(convertView);
+        }
+
+		TextView title = (TextView) convertView
+				.findViewById(R.id.menuTitle);
+		title.setText(getItem(position));
+		return convertView;
+	}
+}
+</code></pre>
+
+<p>Pretty simple.
+But you need to make some changes in onListItemClick method:</p>
+
+<pre><code>@Override
+public void onListItemClick(ListView l, View v, int position, long id) {
+
+	if (firstTimeStartup) {// first time  highlight first row
+		currentSelectedView = l.getChildAt(0);
+	}
+	firstTimeStartup = false; 
+	if (currentSelectedView != null &amp;&amp; currentSelectedView != v) {
+        unhighlightCurrentRow(currentSelectedView);
+    }
+
+	currentSelectedView = v;
+    highlightCurrentRow(currentSelectedView);
+
+     //other codes
+}
+</code></pre>
+
+<p>There you go! Enjoy Android :)</p>
+
+
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

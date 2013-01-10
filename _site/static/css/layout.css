@@ -101,10 +101,10 @@ article ul li li li {
 }
 
 #avatar {
-  background-image: url('/static/images/sirup.jpg');
+  background-image: url('/static/images/avatar.png');
   background-size: cover;
-  height: 154px;
-  width: 154px;
+  height: 200px;
+  width: 200px;
   display: block;
   border-radius: 50%;
   margin-bottom: 8px;

@@ -1,0 +1,35 @@
+--- 
+layout: post
+permalink: "8.html"
+title: "\xE8\xBF\x91\xE6\x9C\x9F\xE9\x83\x91\xE5\xA4\xA7\xE6\x99\x94\xE6\xA0\xA1\xE6\x80\xBB\xE7\xBB\x93"
+tags: 
+- "\xE5\xBF\xAB\xE6\x8D\xB7\xE9\x94\xAE"
+- "\xE7\x9C\x8B\xE6\x9D\xBF"
+- devops
+- pair programming
+- Programming
+- standup
+- tasking
+- timebox
+- "\xE6\x95\x8F\xE6\x8D\xB7"
+status: publish
+type: post
+published: true
+meta: 
+  _edit_last: "1"
+---
+&nbsp;&nbsp;&nbsp;&nbsp;这两期的<a href="http://dreamhead.blogbus.com/" target="_blank">郑大晔校</a>,感觉收获很多.第一次讨论一个程序员应该具备的好的编程习惯;第二次像经验丰富的资深程序员发问.我总结了一下郑大晔校中自己感兴趣的话题和近期的工作碰到问题:
+<h3>    1.熟悉编辑器的快捷键.</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;这一点我去年进公司时印象深刻,那个时候是一个.NET项目使用Visual Studio,跟<a href="http://www.iamhukai.com/" target="_blank">胡凯</a>结对编程的时候,胡所一般都会把鼠标收起来,完全丢弃, 直接各种键盘流, 看得我惊叹.紧接着胡所就把Resharper的快捷键打印出来,让大家私底下回去记忆,顺便讲到了他记忆快捷键的方法(使用小卡片,在公交车上背阿). 这个的好处就是使你的大脑思维集中在你关注的事情上面,保持自己的编码节奏,提高开发的效率. 所以熟悉快捷键操作是非常重要的,公司里几乎每个人接触到新的编辑器,都会从先熟悉快捷键开始.
+<h3>     2.Tasking任务划分.</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;这里的Task指的不是评估story,而是程序员在编码中将story拆分成一个个小任务,这些任务可以以通过对应的测试为验收标准.之前<a href="http://blog.vincentx.info/" target="_blank">徐昊</a>去年在做OO bootcamp时,我记得印象深刻的是他强调了划分小任务的重要性.他问道读过&lt;&lt;Test Driven Development by exmaple&gt;&gt;的觉得里面重要的是啥? 最重要的是他每隔小节中都会提到的任务列表, 每次做完一个小任务,他会划掉,并且加上新的小任务,然后用TDD方式实现.同时另外一个感触是每次团队中有新人加入,我们的结对编程会是,有经验的人会跟新手一起过一遍story,然后划分为一个个的小任务列表,到后来就是直接让新手自己先写出任务表, 写完之后一起浏览过一遍, 这样做非常好在于当你在写task的时候, 你会发现很多时候你的问题的认识是不到位的.Tasking好处在于帮助大脑将复杂的事情拆分为简单可行的任务列表.任务的划分可以使用<a href="http://www.energizedwork.com/weblog/2005/05/slicing-the-cake" target="_blank">垂直划分</a>的方式.
+<h3>      3. Timebox.</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;这个Timbox不是说到Scrum中的迭代,而是在编码过程中对于某件事情固定一个时间范围约束.为什么会这样?我本人就犯错的经历.某次开发中接到一个技术任务,而后按照我认为我自己的理解开始干活,这个过程中碰到问题了,那好我就潜进去看为什么,结果吭哧吭哧搞了一天,最后发结果发出去了,人家说不对,你理解错了,结果就整个浪费了一天.我在想接到这件事情时,我自己很清楚这个东西应该只需要2个小时或者做多半天的.但是中间自己遇到问题却也没有及时跳出来问问题,自己仍在钻研,结果半天之后发现自己的理解错了.所以很多时候遇到事情,可以在开始干之前给自己一个时间范围,超过这个时间了,没有完成,你可以暂时停下来跟其他人交流确认你遇到的问题,毕竟自己一开始按照自己理解而设置的时间阈值不够,也许真是问题比自己了解的要复杂,或许其他时候是自己的理解不准确或者方向不正确.比如上次碰到的Apache SSL的配置问题, 因为大家都不是非常熟悉Apache的一些配置,吭哧吭哧在那里搞了半天,结果还是没有搞出来.后来跳出团队,问其他团队Apache经验比较的多的人,一解释立马就豁然开朗了.
+<h3>      4.观察力.</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;公司很多项目中有用到故事墙来描述故事的状态,哪些是在In Dev,那些在In Dev Done, 哪些是In QA;也有大的电视投放jenkins上构建的状态(见前一篇博客);这些都是为了将项目的状态尽量的视觉化出来,让大家都在同一个上下文中.我注意到胡所貌似给admin也有应用类似的理念,公司入门口就有一个白板,上面标注着admin哪些工作正在做,哪些做完了等等, 这样即使是开发写代码的人也知道admin在做什么事情.比如admin谈到对技术不是特别懂,可能有时候比如招聘会有人问技术之类的,就不太好回答, 那我一个同事就有给admin做一个讲座,主要介绍当前办公室正在使用的技术(以至于有HR直接转成BA).目前有很热的为了消除开发人员与运维人员之间隔阂障碍的DevOps, 我觉得目前我们就有做DevAdmin, 这个就像设计模式源于建筑设计师Christopher Alexander.虽然之前写得<a href="https://github.com/tuo/jenkins-dashboard" target="_blank">jenkins-dashboard</a>写的很简单还有很多不足,但是看到有其他项目也有用到,效果还不错,这个也挺满足的.做一个有心人,观察生活或者工作中其他人是否有碰到不便或者麻烦的事情,想想以自己的知识和能力能否帮助到别人, 这是非常重要的.
+<h3>      5.结对编程.</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;结对编程这件事情其实源自三哥的一个提问, 其实也是我自己的一个疑惑: 是否什么情况下都能结对?有什么情况是不适合结对? 其实反问自己, 尽管每天都在结对编程中, 但是对于最基本的问题,我却也是无法回答.但是近期看到前TWer Jay Fields的最新更新的文章<a href="http://blog.jayfields.com/2011/08/life-after-pair-programming.html" target="_blank">Life after Pair Programming</a>, 结合他自己实际一一"驳斥"了 <a href="http://pragprog.com/magazines/2011-07/pair-programming-benefits" target="_blank">Pair Programming Benefits</a>中提到的pair的优点,给人满多思考的.
+<h3>      6.站立会议.</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;最近的站立会议中我们发现客户的Product Owner,在我们这边发言时,不知道什么原因,可能是技术方面的东东她不太感冒,扭过头去跟旁边的UI设计人员讨论mockup去了.站立会议完了之后,同事提问到为什么product owner会提不起精神,我们要思考我们standup发的言,对于product owner或者说iteration manager有意义才行. 但是之后,我自己很有疑问: 我们是开发人员,更多的时候确实说的事情在商业价值不是非常明显能表达出来. 于是看了看<a href="http://martinfowler.com/articles/itsNotJustStandingUp.html" target="_blank">It's Not Just Standing Up: Patterns for Daily Standup Meetings</a>. 作者提到站立会议应该说: 昨天做了什么? 今天将要做什么? 有什么东西阻碍我们的进展?  并且提到不太好的站立会议的一个特征便是: <a href="http://martinfowler.com/articles/itsNotJustStandingUp.html#ReportingToTheLeader" target="_blank">Reporting To The Leader</a>. 更多的时候,站立会议的意义在于让团队知道对方在做什么,目前团队遇到的问题,使得大家能在同一个上下文中.
+
+&nbsp;

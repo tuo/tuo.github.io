@@ -1,0 +1,157 @@
+--- 
+layout: post
+title: "\xE5\xB0\x86UI\xE5\x92\x8C\xE9\xA2\x86\xE5\x9F\x9F\xE6\xA8\xA1\xE5\x9E\x8B\xE9\x9A\x94\xE7\xA6\xBB\xE5\xBC\x80\xE6\x9D\xA5 (\xE4\xB8\x80)"
+permalink: "separate-ui-and-domain-model-part-1.html"
+tags: 
+- javascript test
+- Programming
+- validation
+status: publish
+type: post
+published: true
+meta: 
+  _edit_last: "1"
+  _wp_old_slug: ""
+---
+有将近一个月没有更新博客了,这阵子确实比较忙,必须淡定,克己轩. 不过这期间我有在Evernote中记录了一些零星的想法和感触,今天刚好有时间,于是拿出来仔细瞧了瞧.其中有一篇是关于我在TWU即将结束的时候记下来的日记,记得当时有一个故事,需要将浏览器端的javascript验证逻辑移植到服务器端.在完成这个故事的过程中给我留下了很深的印象,遇到了很多有意思的问题,我觉得我有必要写出来,否则时间过久了就会忘了.TWU这个项目比较有意思,它历经了几届TWU学员的蹂躏,很好的完成了试验品这个角色赋予的任务,你可以猜到当我们拿到这个项目时,并不是推到原有的而从新开始开发,而是在既有的代码库上进行开发.
+我会选取我在完成这个故事中的一个情景入手,这个情景是用户可以跳到"创建新故事"页面,然后可以输入title(文本框,必须填写),city(文本框,必须填写),content(文本框,必须填写),month(下拉框,非必须选择)和year(文本框,必须填写)这几个选项,然后单击"Publish"按钮进行发布,发布之后会跳到 显示故事的页面,它会显示刚刚创建的故事的一些信息. 其中值得注意的是 用户在"创建新故事" 页面的表格中,如果用户跳过month字段,因为它是非必须的,那么在显示故事的页面的"Event Date: "后面只会显示年份,而没有月份.
+
+<img class="alignleft" title="Input Form" src="http://lh5.ggpht.com/_i1xQ-NrcTdU/TPRU1Qf7CvI/AAAAAAAAAEo/3BkrDkgJv8Y/Screen%20shot%202010-11-29%20at%203.35.35%20PM.png" alt="" width="500" height="70" />
+
+显示故事的页面:
+
+<img class="aligncenter" title="Show Story Page" src="http://lh3.ggpht.com/_i1xQ-NrcTdU/TPRpsOTC3oI/AAAAAAAAAEw/OU2HyQdpZ3w/Screen%20shot%202010-11-30%20at%2011.03.50%20AM.png" alt="" width="365" height="26" />
+
+现有实现
+首先用户填写表格,并单击"Publish",javascript会拦截请求,进行验证,这里我们只关心年和月的验证:
+<pre class="brush:js">function validTWYear(year,month) {
+     if(year == "") return false;//for year empty
+     if(!isNumeric(year)) return false;
+     var date = new Date();
+     var curr_date = date.getDate();
+     var curr_month = date.getMonth()+1;
+     var curr_year = date.getFullYear();
+     if(year&gt;curr_year)
+          return false;
+     if(year&lt;1954)
+          return false;
+     if(year==1954 &amp;&amp; month&lt;5)
+          return false;     
+     return true; 
+ }
+ function validTWMonth(month,year) {      
+     var date = new Date(); 
+     var curr_date = date.getDate();
+     var curr_month = date.getMonth()+1;
+     var curr_year = date.getFullYear(); 
+     if(year==curr_year)
+           if(month&gt;curr_month &amp;&amp; month!=-1)
+                   return false;
+     if(year==1954 &amp;&amp; month&lt;5)
+          return false;
+     return true;
+}</pre>
+这段代码的意思是对于年字段的值而言,它不能为空,不能包含非数字的字符,不能比今年还大且不能早于1954年,如果是年份是1954,那么对应的月份应该早于5月份.
+对于月字段的值而言,如果输入年份是今年,那么输入的月份的值不能大于当前的月份.
+
+这段代码它没有任何测试案例可以寻找,另外代码的抽象程度太低,读起来很费劲,为后来的将这段逻辑移植到服务器端带来很大的不便.
+关于javascript测试:<a href="http://twoguysarguing.wordpress.com/2010/11/02/make-javascript-tests-part-of-your-build-qunit-rhino/" target="_blank">Make JavaScript tests part of your build: QUnit &amp; Rhino</a>
+
+如果验证都有通过,下一步就是在Controller层处理请求,这个方法是
+<pre class="brush:java">@RequestMapping(value = "/story/new", method = RequestMethod.POST)
+public ModelAndView create(@Valid Story story, BindingResult bindingResult, @CurrentUser User) {
+     ModelAndView modelAndView =  new ModelAndView("new_story", "story", story);
+     if(bindingResult.hasErrors()) {
+          return modelAndView;
+     }
+     if (storyService.save(story, currentUser,request.getContextPath())){
+          return new ModelAndView(String.format("redirect:/story/%s", story.getId()));
+     }
+     return new ModelAndView("redirect:/error.jsp");
+}</pre>
+这段还是很清楚的,做完数据绑定之后,调用Spring内嵌支持的Validator对Story对象上所有标记Annotation的字段进行验证,并将结果保持到bindResult中,如果出现错误返回到原页面,并将错误信息一并带回.
+这个过程是发生在数据绑定之后的,所以你可以猜到Story对象中一定有month和year字段. 这里必须提到<a href="http://docs.jboss.org/hibernate/validator/4.0.1/reference/en/html_single/" target="_blank">Hibernate Validation Annotation</a> , 好处在于它使得模型能够拥有自己 的判断逻辑,而不需要跟其他比如UI层发生紧密的耦合,提高可重用性的同时保持自己的纯洁.但是现在Story里面的判断逻辑都是非常简单的,比如像是
+<pre class="brush:java">@Column(name = "story_date", nullable = false)
+public Date getStoryDate() {
+     return storyDate;
+}</pre>
+然后便是storyService存储故事的代码
+<pre class="brush:java">@Transactional
+public Boolean save(Story story, User currentUser,String contextPath) {
+     story.generateStoryDate();
+     if (!story.valid()) {
+          return false;
+     }
+     story.setUnformattedContent(HTMLTagsRemover.removeTagsIn(story.getContent()));
+     story.generateStoryDate();
+     inlineTagProcessor.updateTags(story, contextPath);
+     story.setLastModifiedBy(currentUser);
+     story.setAuthor(currentUser);
+     return storyRepository.save(story);
+}</pre>
+首先,它调用story.generateStoryDate(). 这个方法是能从它的名字推出,因为story里此时记录的时间不是storyDate而是month和year,所以它需要将其转换成一个storyDate.
+<pre class="brush:java">     private Date storyDate;
+     private String month;
+     private String year;
+
+     private Date convertToDateObject(String month, String year) {
+        DateTime date = month.equals("-1") ?
+         new DateTime(Integer.parseInt(year),DateTimeConstants.DECEMBER, 31 ,0,0,0,0) :
+         new DateTime(Integer.parseInt(year),Integer.parseInt(month), 1, 0,0,0,0);
+        return date.toDate();
+     }
+     public void generateStoryDate() {
+          setStoryDate(convertToDateObject(this.month, this.year));
+     }</pre>
+忘了交代,如果用户在"创建新故事"的表格中没有选取month字段,那么默认会给一个值: <span style="color: #ff0000;">-1</span>.
+所以为什么在convertToDateObject会是这个样子了?  因为显示这个故事的时候,需要知道是否用户当初有没有填入month,如果没有,只显示年份;如果填了,那么显示年月.这两种情况都没有跟天有什么关系,
+所以此时的这段代码作者便是这样处理的: 如果用户没有在表格中填month字段,那么此时在Story对象中month的值就是-1,那就设置它的DayOfMonth是<span style="color: #ff0000;">31</span>号;如果用户有填了,那么将其DayOfMonth设置为<span style="color: #ff0000;">1</span>号. 所以你可以思考那他在显示此故事的逻辑是怎样处理的了?
+<pre class="brush:html">     <span class="field_names">Event date:</span> ${story_view_model.dateOccurred}</pre>
+在StoryViewModel中
+<pre class="brush:java">public EscapedString getDateOccurred() {
+     if (story.getMonth().equals("0"))
+          return escape(story.getYear());
+     else
+          return escape(new DateTime(story.getStoryDate()).monthOfYear().getAsShortText() + " " +                                  story.getYear());
+     }</pre>
+这段逻辑也很简单,如果getMonth()是<span style="color: #ff0000;">"0"</span>,则只返回年份;如果不是则讲二则组合起来返回.
+那这个<span style="color: #ff0000;">"0"</span>是从何而来了, 准备好别吐血,且看在Story中getMonth()的代码:
+<pre class="brush:java">@Transient
+ public String getMonth() {
+     if(storyDate == null)
+          return "";
+     if(new DateTime(storyDate).getDayOfMonth() == 31) {
+          return "0";
+     }
+     else
+        return String.valueOf(new DateTime(storyDate).getMonthOfYear());
+}</pre>
+如果你将整个联合起来一想,就知道写此代码之人是如何思考的拉,如果在显示故事的时候知道是应该显示年份了还是年月一起来, 他很聪明,想到这个东西跟天
+没有关系,于是用天作为一个mark,同时即使在model层知道了天是否正确,那么如何让UI知道了,于是有了"<span style="color: #ff0000;">0</span>".
+两个MAGIC NUMBER ,好歹你也封装下如此底层的实现细节,花了不少时间在揣测它想表达意思,后来发现是用"<span style="color: #ff0000;">0</span>"和<span style="color: #ff0000;">31</span>来串联整个流程,把我可是看吐血了.
+别急还有,在Service层,调用完generateStoryDate()之后,紧接着的是:
+<pre class="brush:java">if (!story.valid()) {
+     return false;
+}</pre>
+在Story中代码是:
+<pre class="brush:java">public boolean valid() {
+     boolean validator=checkValidYearAndTextFields();
+     boolean monthInFuture=checkMonthInFuture();
+     return (validator &amp;&amp; !monthInFuture);
+ }
+ private boolean checkValidYearAndTextFields() {
+      Validator validator = Validation.buildDefaultValidatorFactory() .getValidator();
+      Set&gt; constraintViolations = validator .validate(this);
+      return constraintViolations.isEmpty();
+ }
+ public boolean checkMonthInFuture() {
+     if (Integer.parseInt(getYear()) == currentYear()) {
+     DateTime today = new DateTime();
+     if(getMonth().equals("0")) return false;
+          return Integer.parseInt(getMonth()) &gt; today.monthOfYear().get();
+     }
+     return false;
+ }</pre>
+看起来,貌似抽象程度还可以,但是如果看checkValidYearAndTextFields()方法中,居然要一次调用Validator来验证,不知道为啥,因为CONTROLLER层已经有使用Spring内嵌提供的validator验证过了,这里再来一遍,实在是不解. 再看看checkMonthInFuture(),要检查了一遍如果输入年份是现在的年份,是否月份超出当前的月份. 于是你要可以看到神奇的数字<span style="color: #ff0000;">"0"</span>,而且没有测试.
+<p style="text-align: center;"><span style="font-size: xx-large;"><span><strong>
+</strong></span></span></p>

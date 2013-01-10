@@ -1,0 +1,228 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>Jasmine测试</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>Jasmine测试</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Oct 2011
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    Jasmine作为一个javascript的测试框架, 借鉴了很多其他测试框架比如RSpec,JSpec的有点,包含了很多优秀的设计思想.结合最近的使用心得,它的主要优点有:
+<ol>
+	<li> 专心做assertion框架, 独立模块化的设计使其非常好的能和其他库进行集成.比如它可以和像提供非常强大健壮的持续集成支持的jsTestDriver(非常专业的non-headless test/spec runner)互相配合相得益彰; 根据jquery相应扩展出的下面会讲到的jasmine-jquery等.</li>
+	<li>idomatic的语法. Jasmine借鉴了RSpec的语法设计, 如果你是接触过并使用过rspec(当然除了像DHH这种rspec-offender),你发会发现jasmine的语法跟rspec会有惊人的类似,学习使用起来很快就会得心应手,似曾相识.</li>
+</ol>
+接下来Jasmine是如何简化javascript的测试了?
+<pre lang="javascript"> describe("Calculator", function() {
+  it("adding algorithm", function() {
+     expect(Calculator.add(1, 2)).toEqual(3);
+  });
+ });</pre>
+上面是一个简单的测试案例, 简单的测试Calculator的加法逻辑, 但是你看到Jasmine测试的语法确实非常简洁.jasmine这个对于纯javascript的测试,那是得心应手.
+但是通常说javascript测试中两个难点:第一个是DOM的交互;第二个是ajax.
+与DOM交互测试难处在于: 你需要准备测试对应的fixture也就是html代码片段, 然后让你想测试的javascript在html上执行, 最后在验证DOM上面元素的变化.另外一个方面这些与dom打交道的可能是第三方的库,比如最常见的jquery. 第一个问题其实也可以解决,那便是我们可以使用$('body').append("some test fixtures"), 但它的可用性不好而且最重要的这个字符串型的html片段非常难看,同时你每次都得在测试最后手动删掉这些fixtures.当然你可以将这些fixture写到一些文件之中, 但是你不得不使用ajax去载入文件然后手动的将其append到body后面,代码非常繁琐而且你每次都得记得去DOM中清除掉这些fixtures. 总结处理html fixtures的两个要点是:
+<ol>
+	<li>如何更加简洁来处理html fixtures的读取加载. 避免需要硬编码的在&lt;body&gt;上面去添加字符串型的fixtures,; 也需要避免使用非常长的使用ajax来加载html fixtures文件的尴尬</li>
+	<li>在每个测试案例运行之后在DOM文件中清除掉fixtures,这个应该是默认的行为,而不是需要自己手动添加tear down的代码.</li>
+</ol>
+另外一个问题便是在assert的时候, 你要判断某一个元素的有没有class? 你可能需要写成:
+<pre lang="javascript">    expect($("#market-summary").attr("class")).toEqual("no-margin-wrapper");</pre>
+因为jasmine内置的matcher并没有提供这些, 这也看出来它这些match并不是给断言DOM来设计的. 不过虽然jasmine提供了类似于rspec的个性化matcher的功能,但是这个没有理由让我们重新发明轮子.
+
+这个时候便是Jasmine-jQuery大展伸手的时候了. 它给jasmine提供了两大支持:
+<blockquote>
+<ul>
+	<li>a set of custom matchers for jQuery framework</li>
+	<li>an API for handling HTML fixtures in your specs</li>
+</ul>
+</blockquote>
+<div>第一个它提供了非常强大的个性化matcher, 简化对于DOM条件的断言. 比如上面的判断元素class name, 在集成jasmine-jquery之后, 我可以写成:</div>
+<pre lang="javascript">   expect($("#market-summary")).toHaveClass("no-margin-wrapper");</pre>
+这样一来,代码的可读性也跟着大大提供了. 更多的matcher可以参考jasmine-jquery的github主页.
+第二是关于怎么简化处理html fixtures的.
+<pre lang="javascript"> loadFixtures('myfixture.html');</pre>
+如果你没有个性化fixture加载的地址, jasmine-jquery会默认去找到spec/javascript/fixtures目录下的myfixute.hml文件,本质上还是使用$.ajax去请求这个文件,然后在append到DOM中. 同时它还提供了一套非常完备的API来处理fixture相关的操作. 另外一个提到便是它每次会在测试案例跑完之后清除掉DOM中掉之前加载的fixture, 所以你不需要每次在之后手动加 $("xxxx).remove().
+另外一个便是测试ajax.这里测试分为两种单元测试和集成测试.集成测试也就是真正会touch服务器端,请使用其他工具比如capybara等. 对于javascript单元测试,在测试时我们都必须注意不能真的让它touch到服务器端,也就是不能真正让它发出ajax请求, 如果发出来了,我们也要阻拦住然后替换它(有兴趣的可以看看sinonjs).  你可以使用jasmine有自己一套mock框架spy, 它可以用来mock, stub和fake你想测试协作者的功能.  假设你有一个ajax请求, 在success的回调函数中做很多事情,比如修改DOM阿等等.
+<pre lang="javascript">var Validation = function(){
+   var init = function(){
+      $.ajax({
+         url: url,
+          // ....
+         success: function(data) {
+           $("#validation-result").text(data);
+         }
+     });
+  }
+  return init : init;
+});
+var Util = function(){
+   var sendAjax = function(url, successCallback, errorCallback,...){
+      $.ajax({
+         url: url,
+          // ....
+         success: successCallback
+     });
+  }
+  return sendAjax : sendAjax;
+});</pre>
+在对应的测试中,我们就可以使用spy来mock这个ajax请求,使其并不会真得发出ajax.
+<pre lang="javascript">describe("Validation", function () {
+	it("when ajax request succeeded and callback get called", function () {
+		loadFixtures('validation.html');
+		expect($("#validation-result")).toBeEmpty();
+		spyOn($, "ajax");
+		Valiation.init();
+		expect($.ajax).toHaveBeenCalled();
+		expect($.ajax.mostRecentCall.args[0].url).toEqual('some url');
+		$.ajax.mostRecentCall.args[0].success("failed");
+		expect($("#validation-result")).toHaveText("failed");
+	 })
+});</pre>
+<pre>相比之下如果我们将send ajax这段boilerplate放在一个单独的模块,而其他引用它的文件的测试就只需要spy这个模块就好了.</pre>
+<pre lang="javascript">var Validation = function(){
+   var successCallback = function (data) {
+     $("#validation-result").text(data);
+   }
+   var init = function(){
+     Util.sendAjax("some url", "GET", successCallback);
+   }
+	 return init : init;
+ });</pre>
+以及测试:
+<pre lang="javascript">describe("Validation", function () {
+	it("when ajax request succeeded and callback get called", function () {
+		loadFixtures('validation.html');
+		expect($("#validation-result")).toBeEmpty();
+		spyOn(Util, "sendAjax");
+		Valiation.init();
+		expect(Util.sendAjax).toHaveBeenCalled();
+		expect(Util.sendAjax.mostRecentCall.args[0]).toEqual('some url');
+		Util.sendAjax.mostRecentCall.args[1]("failed");
+		expect($("#validation-result")).toHaveText("failed");
+	 })
+});</pre>
+而接着对于sendAjax的测试就非常简单了, 我们同样可以选择使用spyOn, 也可以使用sinonjs来mock ajax请求.
+<h2>Jasmine的问题与注意事项:</h2>
+<ol>
+	<li>基于jasmine的机制,它会将所有的引用包括报表包含在一个静态HMTL文件中(SpecRunner.html). 如果你使用jasmine-jquery,在浏览器中执行时如果你使用firebug进行inspect时,你会发现一个tag: &lt;div class='jasmine-fixtures'&gt;&lt;div&gt;, 所有的fixtures会默认加载到这个div下,然后测试案例跑完之后,它会去清空这个div的内容.但是问题是如果你有测试案例中代码会对比如&lt;body&gt;等在&lt;div class='jasmine-fixtures'&gt;&lt;/div&gt;之外的元素进行操作时,它的痕迹是不会在测试案例跑完之后自己清空, 这个时候需要你自己去手动写代码清空, 否则会影响到下面的测试案例.</li>
+	<li>因为所有的测试在浏览器中都跑一个窗口下, 所以代码跟浏览器相关的操作都需要仔细考虑. 比如你代码中有重新转向另一个url,
+<pre lang="javascript">window.location.href= "www.xxx.com"</pre>
+然后你去assert它当前的url是不是"www.xxx.com".你会发现这个你的jasmine runner的窗口也跟着跳转了, 然后后面测试也无法跑了.如果你理解了jasmine的工作方式之后,你就知道它为什么会这样了. 这个时候要求你需要划分模块了, 将这个转向的逻辑抽出来放在另一个模块中比如叫做NavigationHelper, 然后测试时,你不需要直接是去
+<pre lang="javascript"> expect(window.location.href).toEqual("www.xxx.com");</pre>
+而是可以spy这个NavigationHelper. 这也许是为什么javascript测试覆盖率很难达到100%的一个原因之一.
+</li>
+<li>jasmine在测试全局变量时非常不给力.但是问题不在于jasmine不给力,问题在于为什么引入全局变量. 就像Douglas Crockford说的: global variables are evils. 但是问题是有一些是第三方库强迫的,而且因为商业上原因,你还不能把它去掉或者替换.这个时候你只能采用ad-hoc的方式了.</li>
+<li>jasmine有一个有意思的事情便是如果你的spec测试中, 有语法错误. 比如在calculator-spec.js中
+<pre lang="javascript">  expect(1 + 1).toEqual(2);</pre>
+你给粗心写成了
+<pre lang="javascript">  expect(1 + 1).toEqual(2))));</pre>
+然后你去跑jasmine测试, 你会发现spec runner依然是绿色. 但是如果你仔细看, 你会发现这个测试案例的数量却是减少了.在定睛一看,你会发现这个calculator-spec.js文件就没有被执行, 也就是它会忽视整个测试文件,但是它却可以心不惊肉不跳的执行下面的测试.
+解决办法: 保持良好的观察力, 养成记住上次测试跑了多少个测试案例的数量, 这当然是开玩笑了. 这种情况下两种办法: 第一种可以使用jslint来进行语法格式检查. 比如这个它会提示:
+<pre lang="javascript">  Lint at line 17 character 20: Expected ')' to have an indentation at 7 instead at 20.
+          expect(1 + 1)).toEqual(2);</pre>
+当然一个良好的项目有javascript测试,但是却没有jslint检查,这个就不太专业了. 另外一个办法是:你可以跑javascript coverage,
+一个好的项目的话,对于测试覆盖率是有要求的,如果没有达到一定的阈值,就会报错. 比如这里,一个语法问题导致整个测试文件都没跑,通常情况下,测试覆盖虑应该都会降,你这个时候跑CI应该都会错误.但是这个也是不一定的, 它没有jslint检查那么彻底.
+</li></ol>
+<h3>引申:</h3>
+<pre>javascript单元测试是非常重要的,它写起来的容易与否跟我们是否合理的划分模块和依赖, 有很大的关系.</pre>
+就是之前提出的全局变量的事情, 你可以将参数的计算逻辑从第三方库中抽离出来, 这样可以独立测试并覆盖到, 最大限度地做到能测就测到. 另外一个case便是因为javascript测试需要的fixtures并不会随着产品代码的修改而及时更新,但是这个时候你跑jasmine测试它并不会失败.这个事情上次跟gigix聊了一会, 他建议是尽量将javascript划分成比较合理的模块,这样各个模块都可以独立测试,然后通过真正的集成测试比如jasmine来验证行为.比如有一个段逻辑是计算弹出盒子的位置,这个计算位置的逻辑可以抽离出来,然后在写一个cucumber测试,这个测试只要验证盒子出来就好,而不需要关心这个盒子在哪个位置,因为那部分逻辑已经在单元测试中覆盖到. 我后来想到包括你想前面提到的window.href.location这一段逻辑,它抽离出来的好处在于在集成测试上面,哪怕有非常多的地方掉了这个逻辑, 但是我只需要写一个覆盖到重定位的cucumber场景就好了. 其实我想了想这个问题是: 究竟得写多少cucumber测试才能确保产品html的改动同时及时反应在javascript的单元测试中fixtures上面,使得二者保持同步,确保javascript代码时刻能正确工作.<span class="Apple-style-span" style="font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif; font-size: 13px; line-height: 19px; white-space: normal;">之前说到jasmine的设计非常巧妙, 其中之一便是体现在跟CI的集成上面. 简要的来说现在的spec runner的host分为两种: headless&gt;和non-headless. 第一种就是不起显示的浏览器,也就是没有浏览器, 你可以使用java实现的js引擎rhino以及在模拟浏览器中DOM实现的Envjs,优势是速度上非常快.第二种使用浏览器的比如jsTestDriver, jasmine有跟其集成的<a href="https://github.com/ibolmo/jasmine-jstd-adapter">jasmine-jstd-adapter</a> .</span>
+参考:
+想简单体验一下: <a href=" http://try-jasmine.heroku.com/" target="_blank"> http://try-jasmine.heroku.com/</a>
+railscast上面的介绍: <a href="http://railscasts.com/episodes/261-testing-javascript-with-jasmine" target="_blank"> http://railscasts.com/episodes/261-testing-javascript-with-jasmine</a>
+jasmine-jquery作者的博客: <a href="http://testdrivenwebsites.com/2010/07/29/html-fixtures-in-jasmine-using-jasmine-jquery/" target="_blank"> http://testdrivenwebsites.com/2010/07/29/html-fixtures-in-jasmine-using-jasmine-jquery/</a>
+SinonJS: <a href="http://msdn.microsoft.com/en-us/scriptjunkie/gg649850.aspx" target="_blank">Planning, Cheating and Faking Your Way Through JavaScript Tests</a>
+
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 
