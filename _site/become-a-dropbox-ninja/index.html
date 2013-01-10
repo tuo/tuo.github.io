@@ -1,0 +1,122 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>Become a Dropbox ninja!</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>Become a Dropbox ninja!</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Oct 2009
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <p>I&#8217;ve known <a href="http://dropbox.com">Dropbox</a> for very long. I&#8217;ve already found it to be an extremely cool service, however &#8211; I like to have things automated, the little programmer inside all of us. I didn&#8217;t want to &#8220;Drop&#8221; my files manually into the Dropbox folder all the time. That was time consuming, and I would forget to do it &#8211; sort of eliminating the purpose.</p>
+<p>I wanted Dropbox to sync everything automatically across all my machine, I wanted to still have my files where they would originally be on my Desktop. On my Laptop, that didn&#8217;t matter &#8211; since I only use it for browsing the web, sometimes I program a bit on it, though. On my Desktop, I have all my Photos, configuration files, and code. I wanted to have these files available everywhere, anytime.</p>
+<p>The solution to this was simple, very simple because of symbolic links, under Linux (my desktop, and main computer) I&#8217;d just download Dropbox, and place the special folder in my <span class="fixed">~</span>, then start throwing symbolic links in. First of, my photos.</p>
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>ln -s Photos Dropbox/Photos
+</code></pre>
+</div>
+<p>Then all my local code:</p>
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>ln -s /var/www Dropbox/Programming
+</code></pre>
+</div>
+<p>Then my <span class="fixed">Dumper</span> which is basically anything else than videos, photos, music and programming:</p>
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>ln -s Dumper Dropbox/Dumper
+</code></pre>
+</div>
+<p>In my dumper I even did symbolic links to some of the configuration directories (e.g. <span class="fixed">Vim</span> configuration, <span class="fixed">.bashrc</span> etc.)</p>
+<p>It started syncing, and now the magic of Dropbox is a lot more tempting to me. I now have everything, and the most recent version of it, available everywhere (iPhone, Laptop, Web), and it&#8217;s securely backed up.</p>
+<p><img src="/images/dropbox.jpg" alt="" /></p>
+<p>If Dropbox seems tempting to you (now?), be sure to sign up at <a href="http://dropbox.com">Dropbox.com</a> If you&#8217;d like to help me, and yourself, you can signup via <a href="https://www.getdropbox.com/referrals/NTgzODk4OTk">my referral link</a> and you&#8217;ll get (and give) 250 mb extra to the 2gb default free limit!</p>
+<p>Furthermore, Dropbox has <a href="http://wiki.getdropbox.com/">a great wiki</a> with <a href="http://wiki.getdropbox.com/DropboxAddons">various addons</a> and <a href="http://wiki.getdropbox.com/TipsAndTricks">tips &amp; and tricks</a> . They even have a <span class="caps">CLI</span> to Dropbox, which I use nowadays on Arch Linux when I&#8217;m without <span class="fixed">Nautilus</span>.</p>
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

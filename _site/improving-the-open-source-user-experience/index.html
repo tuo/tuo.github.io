@@ -1,0 +1,129 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>Improving the Open Source user experience</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>Improving the Open Source user experience</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Feb 2011
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <h2 id="draft">Draft</h2>
+
+<p>I absolutely love open source, I contribute myself and I use tons of open source software every day. I am attached to the idea that what I use is completely open, I can change everything about it if I want, I can figure out how it works, learn from it, contribute to it. Open source is many things: browsers, databases, operating systems and what not.</p>
+
+<p>However, there’s one thing I always thought could be drastically improved in many open source projects: The User Experience. When I ask a not-so-techinal friend why they don’t use <em>some open source project instead of commercial one</em> many say that “it’s because ugly”. What they mean by ugly is that it’s hard to find what you are looking for in the interface, and yeah, it’s usually not eye candy either.</p>
+
+<p>Most open source projects have no designers attached. However, some do, for instance <a href="https://wiki.ubuntu.com/Artwork">Ubuntu</a>, most people, again non-techinal people, I know like Ubuntu because it’s pretty and easy to use:</p>
+
+<blockquote>
+  <p>For every % in sales invested in product design, a company’s sales and profits rise 3-4% on average.
+From <a href="http://www.amazon.com/Whole-New-Mind-Right-Brainers-Future/dp/1594481717">A Whole New Mind</a>, p. 78</p>
+</blockquote>
+
+<p>This is relevant for open source too; good product design attract users.</p>
+
+<p>People tend to design for themselves, and generally it just doesn’t work when developers create software for non-developers. Even so, developers are taking care of designing and implementing the user interface in the majority of open source projects. Leaving us with an unconsistent, probably not well thought through, interface that is very much hacked together and is something the developers just want to get over with. Most importantly: An interface which may confuse users. Designing interfaces usually is not what developers enjoy doing the most, very much reflected in the finished interface. </p>
+
+<p>This is where the designers come in; we need designers to help the developers to create amazing frontends for the open source applications.</p>
+
+<p>There are a couple of problems dragging designers into open source projects, and we can start addressing the reason why it hasn’t happened a lot in the past. To put it briefly: Designers are scared of developers. Developers speak a foreign language, they are like aliens. Developers don’t package their source code in .zip files, instead we use some scary thing called version control. The frontends typically presuposes a pretty extensive knowledge of the backend, a knowledge the designers simply don’t have and will have a pretty tough time getting. Designers don’t know how to modify a QT GUI, although they may have a daunting idea on how the interface could be so much better.  </p>
+
+<p>How do we solve this? Communication. Developers need to get in touch with the designers and talk with them about how they can get the designers started contributing. For a web application, a skilled web designer might have an easier time than with a GUI, but communication is still required to understand the interface’s needs as well as implementation details in terms of communicating with the back end.</p>
+
+<p>The designers I have talked to would love to get involved, the motivation is there they get to put this on their portfolio and they enjoy designing – the crucial thing is communication and getting started. Designers want to have easy access to developers of the project they can ask all kinds of questions, developers that might also help the designer implement the interface change itself. IRC is probably not the designer’s favorite communication channel, but it’s the only one developers know and it’s a great way to perform a group chat, involving the entire community around the project.</p>
+
+
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

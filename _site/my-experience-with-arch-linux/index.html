@@ -1,0 +1,132 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>My experience with Arch Linux</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>My experience with Arch Linux</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Apr 2010
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <p>After about 8 months with <a href="http://www.ubuntu.com/">Ubuntu</a>, I decided it was time for change. I had for a while wanted to switch to some other distribution, not because I did not like Ubuntu, more because I wanted to learn more about Linux, and try something new. And I felt Ubuntu limited me in this direction. Furthermore, I wanted to have a system which I did not feel I had to reinstall whenever new major updates came out, I wanted a system I could improve over time. I wanted a system where I could switch desktop environment/window manager quickly, and without googling myself on how to then remove all the old, now useless, packages. And rolling-release seems to be the solution, to that problem.</p>
+
+<p>I quickly found a distro. which seemed to fit my requirements, <a href="http://www.archlinux.org/">Arch Linux</a>. Arch Linux is lightweight, and simple. I found a quote on the Wiki, which describes it quite well: </p>
+
+<blockquote>
+  <p>“Linux, with a nice package manager.” </p>
+</blockquote>
+
+<p>And my edition:</p>
+
+<blockquote>
+  <p>“Linux, with an nice package manager, and a kick-ass Wiki.” </p>
+</blockquote>
+
+<p>That Wiki seriously provides the best information on everything you’ll ever need to know - I have yet to run into a problem which is not described here.</p>
+
+<p>With Arch, you basically start with bare-bones Linux, which can boot into a CLI, has the basic stuff like Vi, grep, and these kind of basic Unix tools, that you’d have to install anyway, as well as a tool with which you can install packages. From there, you simply start building your system with the <a href="http://wiki.archlinux.org/index.php/Beginners'_Guide">Arch Linux beginner’s guide</a> (which is extremely well written). You install Vim, Xorg, Drivers, and so on. As it was my first (and hopefully only on this computer) install, I took good time to do each step, to understand what I was installing, and why I was installing it. Once I had Xorg up (I already felt like I had learned a lot more about how Linux works at a lower level. I was already starting to really like Arch Linux.</p>
+
+<p>At some point when Xorg was set up, I wanted a <a href="http://wiki.archlinux.org/index.php/Window_manager">Window Manager</a>. And it’s really a dungeon there. There are hundreds of different Window Managers, tiling, not-tiling, and these big desktop environments (Gnome, KDE). I had already decided I didn’t want to go for a desktop environment, since then I’d have loads of gui-configuring-tools, and not learn exactly where configuration files are located (<em>oh how I search the knowledge</em>). I quickly figured out that <a href="http://openbox.org/wiki/Main_Page">Openbox</a> was very popular on the Arch Linux forums. So I decided to install it, and found the neat <a href="http://rent0n86.deviantart.com/art/Arkid-148937983">Arkid theme</a>, somebody had posted it in a screenshot thread on the Arch Linux forums. I’ve found Openbox to be great, and fit my needs.</p>
+
+<p>From there, it was just a matter of setting up all the stuff I usually set up when I install Ubuntu: Vim, Chrome, Pidgin, a music player, Dropbox, and so on. And Pacman (the Arch Linux package manager) made this a pleasing experience. I ran into a few packages which I could not install with Pacman however. But, I quickly figured there was something called <a href="http://aur.archlinux.org/">AUR</a> (the Arch User Repository), in which I have yet to not find a package, this helps me get minimum headaches, since the AUR packages usually compile OTB, running the right <strong>./configure</strong> etc. And of course, my fellow Arch Linux users have also provided me with tools which allows easy installation from AUR. I found a tool called <a href="http://bbs.archlinux.org/viewtopic.php?id=91860">Clyde</a>, which works great. Basically a layer on Pacman with <a href="http://bbs.archlinux.org/viewtopic.php?id=91860">AUR</a> support.</p>
+
+<p>I’ve been running this system for a few weeks (as of this update, months), and I feel at home. I love it really. If you are looking to try something new, and already got some Linux experience, then you should defiantly go and try Arch Linux! Should you run into issues you have trouble addressing the people at #archlinux on chat.freenode.net are helpful.</p>
+
+<p>Here’s a screenshot of my Archbox, because everyone loves screenshots.</p>
+
+<p><a href="http://img202.imageshack.us/img202/8011/201004050121043200x1080.png"><img src="/static/images/arch.png" alt="" /></a></p>
+
+
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

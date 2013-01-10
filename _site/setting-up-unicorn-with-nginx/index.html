@@ -1,0 +1,321 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>Setting up Unicorn with Nginx</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>Setting up Unicorn with Nginx</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Oct 2010
+  
+      revised Nov 2012
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <p>Unicorn is an interesting Unix Ruby HTTP server which <a href="http://tomayko.com/writings/unicorn-is-unix">makes great use of Unix</a>:</p>
+
+<blockquote>
+  <p>Unicorn is an HTTP server for Rack applications designed to only serve fast
+clients on low-latency, high-bandwidth connections and take advantage of
+features in Unix/Unix-like kernels.</p>
+</blockquote>
+
+<p>In this post I’ll describe Unicorn’s design then walk you through setting it up.</p>
+
+<h1 id="unicorns-design">Unicorn’s design</h1>
+
+<p>Unicorn follows the Unix philosophy:</p>
+
+<blockquote>
+  <p>Do one thing and do it right.</p>
+</blockquote>
+
+<p>For instance, load balancing in Unicorn is done by the OS kernel and Unicorn’s
+processes are controlled by Unix signals.</p>
+
+<p>Unicorn’s design is officially described <a href="http://unicorn.bogomips.org/DESIGN.html">here</a>. I will list some of
+the things which I consider core for why Unicorn is an interesting alternative.</p>
+
+<h2 id="load-balancing">Load balancing</h2>
+
+<blockquote>
+  <p>Load balancing between worker processes is done by the OS kernel. All workers share a common set of listener sockets and does non-blocking accept() on them. The kernel will decide which worker process to give a socket to and workers will sleep if there is nothing to accept().</p>
+</blockquote>
+
+<p>Load balancers conventionally reverse proxy the request to the worker that is <em>most likely</em>
+to be ready. This assumption is usually based purely on whenever that worker
+last served a request. This suffers from two evident disadvantages:</p>
+
+<ul>
+  <li>Some requests take longer to complete (e.g. heavy I/O, slow client)</li>
+  <li>Software fails and times out</li>
+</ul>
+
+<p>The common load balancer does not account for this, queueing clients at
+workers behind slow requests.</p>
+
+<p>Unicorn solves this problem with a pull-model rather than a push-model. All
+requests are initially queued at the master on a Unix socket, workers
+<code>accept(2)</code> (pull) requests off the queue (shared Unix socket) when they are
+ready. Thus requests are always handled by a worker which can handle request
+immediately. This solves the problems mentioned above.</p>
+
+<h2 id="slow-clients">Slow clients</h2>
+
+<p>Slow clients slow down everything. Twitter has shed some light on this issue in
+<a href="http://engineering.twitter.com/2010/03/unicorn-power.html">their blog post</a> on why they moved to Unicorn:</p>
+
+<blockquote>
+  <p>Every server has a fixed number of workers that handle incoming requests.
+During peak hours, we may get more simultaneous requests than available
+workers. We respond by putting those requests in a queue.</p>
+</blockquote>
+
+<p>Welcome to Unicorn’s world of evented I/O:</p>
+
+<blockquote>
+  <p>This is unnoticeable to users when the queue is short and we handle requests
+quickly, but large systems have outliers. Every so often a request will take
+unusually long, and everyone waiting behind that request suffers. Worse, if an
+individual worker’s line gets too long, we have to drop requests. You may be
+presented with an adorable whale just because you landed in the wrong queue at
+the wrong time.</p>
+</blockquote>
+
+<p>And then they continue to talk about supermarket queues, <a href="http://engineering.twitter.com/2010/03/unicorn-power.html">read the whole thing</a>.</p>
+
+<p>In the conventional web server using the busyness heuristic to determine where
+to push the request, you have many short queues at each worker. Easily, a lot of
+fast requests can end up behind slow requests, because they are distributed
+essentially randomly, which means your request can timeout simply because you
+were unlucky enough to end up behind a slow request.</p>
+
+<p>Because of Unicorn’s long queue model, this will not happen. Instead, you will
+be taken off the long queue quickly and slow requests will fail in isolation.</p>
+
+<h2 id="deploying">Deploying</h2>
+
+<p>With Unicorn one can deploy with <em>zero</em> downtime. This is rad stuff:</p>
+
+<blockquote>
+  <p>You can upgrade Unicorn, your entire application, libraries and even your Ruby interpreter without dropping clients.</p>
+</blockquote>
+
+<p>The Unicorn master and worker processes <a href="http://unicorn.bogomips.org/SIGNALS.html">respond</a> to Unix signals.
+Here’s what Github does:</p>
+
+<blockquote>
+  <p>First we send the existing Unicorn master a <code>USR2 SIGNAL</code>. This tells it to
+begin starting a new master process, reloading all our app code. When the new
+master is fully loaded it forks all the workers it needs. The first worker
+forked notices there is still an old master and sends it a QUIT signal.</p>
+</blockquote>
+
+<blockquote>
+  <p>When the old master receives the QUIT, it starts gracefully shutting down its
+workers. Once all the workers have finished serving requests, it dies. We now
+have a fresh version of our app, fully loaded and ready to receive requests,
+without any downtime: the old and new workers all share the Unix Domain Socket
+so nginx doesn’t have to even care about the transition.</p>
+</blockquote>
+
+<blockquote>
+  <p>We can also use this process to upgrade Unicorn itself.</p>
+</blockquote>
+
+<p>Unicorn’s signal handling is described <a href="http://unicorn.bogomips.org/SIGNALS.html">here</a>.
+Github has <a href="http://github.com/defunkt/unicorn/blob/master/examples/init.sh">shared their init</a> for Unicorn, which sends the appropriate signals
+according to the spec for various actions. This makes 100% uptime possible,
+without any significant speed drop since children are slowly restarted.</p>
+
+<h1 id="rails-on-unicorns">Rails on Unicorns</h1>
+
+<p>We’re going to set up <a href="http://nginx.org">nginx</a> in front of Unicorn.</p>
+
+<h2 id="nginx">nginx</h2>
+
+<p>Start by installing <a href="http://nginx.org">nginx</a> via your favorite package manager. Afterwards
+we need to configure it for Unicorn. We’ll grab <a href="http://github.com/defunkt/unicorn/blob/master/examples/nginx.conf">the <code>nginx.conf</code> example
+configuration shipped with Unicorn</a>, the nginx configuration file is
+usually located at <code>/etc/nginx/nginx.conf</code>, so place it there, and tweak it to
+your likings, read the comments–they’re quite good.</p>
+
+<p>In <code>nginx.conf</code> you may have stumbled upon this line:</p>
+
+<div class="highlight"><pre><code class="bash">user nobody nogroup; <span class="c"># for systems with a &quot;nogroup&quot;</span>
+</code></pre>
+</div>
+
+<p>While this works, it’s generally adviced to run as a seperate user (which we
+have more control over than nobody) for security reasons and increased control.
+We’ll create an nginx user and a web group.</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>sudo useradd -s /sbin/nologin -r nginx
+<span class="nv">$ </span>sudo usermod -a -G web nginx
+</code></pre>
+</div>
+
+<p>Configure your static path in <code>nginx.conf</code> to <code>/var/www</code>, and change the owner
+of that directory to the web group:</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>sudo mkdir /var/www
+<span class="nv">$ </span>sudo chgrp -R web /var/www <span class="c"># set /var/www owner group to &quot;web&quot;</span>
+<span class="nv">$ </span>sudo chmod -R 775 /var/www <span class="c"># group write permission</span>
+</code></pre>
+</div>
+
+<p>Add yourself to the web group to be able to modify the contents of <code>/var/www</code>:</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>sudo usermod -a -G web USERNAME
+</code></pre>
+</div>
+
+<h2 id="unicorn">Unicorn</h2>
+
+<p>Now we have nginx running. Install the Unicorn gem:</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>gem install unicorn
+</code></pre>
+</div>
+
+<p>You should now have Unicorn installed: <code>unicorn</code> (for non-Rails rack
+applications) and <code>unicorn_rails</code> (for Rails applications version &gt;= 1.2) should
+be in your path.</p>
+
+<p>Time to take it for a spin! (You may wish to re-login with <code>su - USERNAME</code> if
+you haven’t already, this ensures your permission tokens are set, otherwise you
+will not have write permission to <code>/var/www</code>.)</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span><span class="nb">cd</span> /var/www
+<span class="nv">$ </span>rails new unicorn
+</code></pre>
+</div>
+
+<p>There we go, we now have our Unicorn Rails test app in <code>/var/www</code>! Let’s fetch a
+Unicorn config file. We’ll set our starting point in the example configuration
+that ships with the Unicorn source:</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>curl -o config/unicorn.rb https://raw.github.com/defunkt/unicorn/master/examples/unicorn.conf.rb
+</code></pre>
+</div>
+
+<p>You will want to tweak a few things to set the right paths:</p>
+
+<div class="highlight"><pre><code class="ruby"><span class="no">APP_PATH</span> <span class="o">=</span> <span class="s2">&quot;/var/www/unicorn&quot;</span>
+<span class="n">working_directory</span> <span class="no">APP_PATH</span>
+
+<span class="n">stderr_path</span> <span class="no">APP_PATH</span> <span class="o">+</span> <span class="s2">&quot;/log/unicorn.stderr.log&quot;</span>
+<span class="n">stdout_path</span> <span class="no">APP_PATH</span> <span class="o">+</span> <span class="s2">&quot;/log/unicorn.stderr.log&quot;</span>
+
+<span class="n">pid</span> <span class="no">APP_PATH</span> <span class="o">+</span> <span class="s2">&quot;/tmp/pid/unicorn.pid&quot;</span>
+</code></pre>
+</div>
+
+<p>Then Unicorn is configured!</p>
+
+<h2 id="rainbow-magic">Rainbow magic</h2>
+
+<p>Start the nginx deamon, this depends on your OS. Then start Unicorn:</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>unicorn_rails -c /var/www/unicorn/config/unicorn.rb -D
+</code></pre>
+</div>
+
+<p><code>-D</code> deamonizes it. <code>-c</code> specifies the configuration file. In production you
+will probably want to pass <code>-E production</code> as well, to run the app in the
+production Rack environment.</p>
+
+<p>That’s it! Visiting <a href="http://localhost">localhost</a> should take you to the Rails default page.</p>
+
+
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

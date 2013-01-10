@@ -1,0 +1,182 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>My journey to the International Olympiad in Informatics</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>My journey to the International Olympiad in Informatics</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Jun 2012
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <p>Back in January <a href="http://twitter.com/charliesome" title="Charlie's personal website">Charlie Somerville</a> told me about his participation in the <a href="http://orac.amt.edu.au/" title="Australian Informatics Competition">Australian Informatics Competition</a>, a competition for Australian high school students in informatics. Having done mostly Web development so far, I became quite interested and searched for something similar in Denmark. To my surprise I found a Danish equivalent: <a href="http://ddd.emu.dk/" title="Dansk Datalogi Dyst's website">“Dansk Datalogi Dyst”</a> (DDD, Danish Informatics Competition). The ultimate goal of the national competitions, Danish as well as Australian, is to be elected as one of four to compete in the <a href="http://en.wikipedia.org/wiki/International_Olympiad_in_Informatics" title="Wikipedia Page on IOI">International Olympiad in Informatics</a> (IOI), one of many international high school science olympiads. In Denmark the election process for the IOI-team consists of three phases: An online qualification round; where all Danish high schools can participate, The Nationals; competition for the 10 best from the qualification round, and the <a href="http://www.boi2012.lv/" title="BOI 2012 website">Baltic Olympiad</a>; where the six best from the Nationals compete against each other and participants from the other Nordic and Baltic countries. Finally the four best from the Baltic Olympiad are chosen to compete in IOI.</p>
+
+<p>This is the story of how I ended up qualifying for the toughest high school programming contest in the world (IOI), without knowing hardly anything about it.</p>
+
+<h2 id="solving-an-np-hard-problem-without-knowing-of-np-hard-problems">Solving an NP-hard problem, without knowing of NP-hard problems</h2>
+
+<p>Initially I thought the Nationals would conflict with my study trip to Barcelona in mid-March, but when the final dates regarding Barcelona were set, the possibility of making it only 8 hours late to the Nationals appeared. This sudden change of plans meant I had to tackle the qualification round with almost no training. I also discovered all solutions had to be written in C, C++ or Pascal, none of which I knew.</p>
+
+<p>In mid-February the tasks for the online qualification round were released, and we were given about a week (alongside school) to solve the problems. <a href="https://www.evernote.com/shard/s30/sh/a249c078-2cff-440d-af2e-af0de21d8d71/5f5c9150efffa0dc627c8b9bbff0ba54" title="My own translation of the problem from Danish">The first task</a> I solved rather quickly (<a href="http://sirupsen.com/dice">how I solved it</a>). I wrote a solution in Ruby, and translated it to the approved language C, with the help of Google and Charlie. Drugged by the eureka-effect I went on to look at <a href="http://ioinformatics.org/locations/ioi00/contest/day1/car/car.pdf" title="Problem description">the second problem</a> which appeared much harder. The feeling of being able to solve any problem soon wore off. After hours and hours of thinking, I came up with what should reach a perfect solution to the problem. This problem, unlike the other, had feedback upon submission. Enabled feedback means you are able to see how many points your program scored out of the maximum of 100, when you upload it to the submission site. </p>
+
+<p>The score in IOI-style competitions is based on speed, correctness and memory usage of your program. Furthermore it shows which errors occurred (wrong answer/timeout) during execution on different, unknown test cases. A test case is a pair of input, data given to your program, and output, data expected to be given back by your program for the input. With 500 lines of horrible C code, I was proud to have implemented my “perfect solution”.</p>
+
+<p>When I uploaded it, I received just 25 points. I was very disappointed, to put it mildly. All the other test cases resulted in timeouts. At that point, it was only a few hours left till deadline. By desperately micro-optimizing with <a href="http://en.wikipedia.org/wiki/Memoization">memoization</a>, optimizing memory usage and lots of other minor things, I was able to get just above 30 points. </p>
+
+<p>I later found out what I had been trying to solve was an <a href="http://en.wikipedia.org/wiki/NP-hard">NP-hard problem</a> (basically it means that the perfect solution can only be achieved in exponential time, growing by the length of input), without even knowing what an NP-problem was. My program did find optimal solutions, but ran in exponential time, thus it did not receive maximum score because it timed out. You were supposed to find suboptimal solutions, however, not knowing about NP-problems I was certain I could find the optimum solutions (the better the solution, the more points, for this particular task)!</p>
+
+<p>I was pretty disappointed with myself that I had not been able to score the 100 maximum points in the second task, but even then I already felt like I had learned a lot. I comforted myself with the fact that I had actually scored points with so little training, but did not expect to make it to the Nationals.</p>
+
+<h2 id="nationals-with-a-hangover">Nationals with a hangover</h2>
+
+<p>In the end of February I received an email that I had been selected to participate in the Nationals in Informatics! Excited for the coming week, I went to Barcelona in mid-March with my class. We had a great trip, and after a physics teacher frighteningly keen on getting us into a strip club and solving [a preparation task][teleports] (teleports) given to us by the team leaders on the plane, I arrived 8 hours late at the boarding school where the Nationals were held.</p>
+
+<p>The purpose of the national competition is a weekend of intense training rounded off with a 5-hour IOI-style competition. Based on the general impression, results of the qualification tasks and tasks solved during the weekend as well as the results of the competition, 6 of the 10 in the Nationals were chosen to compete in the Baltic Olympiad. </p>
+
+<p>With no phone numbers of any team leaders or participants, I had no idea where to go as I was looking despairingly at a school building with no lights in any of the windows. I got the idea that they could’ve set up a WiFi for the competition. I walked around campus with my phone in front of me as was it a flashlight, searching for a WiFi, a clue. And finally! A WiFi called “DDD” (Danish acronym for Danish Informatics Competition) appeared in my list of networks. Guided by the increasing WiFi strength I was able to find the right building, in which I could follow the sound of smashing keyboards to find the competition room. As I entered, I was met by 9 guys completely claimed by their laptop screens. I was immediately given all the tasks the other participants were working on or had already completed, and were told they had had lessons in <a href="http://www.mimuw.edu.pl/~kubica/publications/2001-boi/boi2001.ps">“Recursion”</a> and <a href="http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm">“Divide and Conquer”</a>, I was familiar with recursion, but not Divide and Conquer. Googling my way to understand Divide and Conquer, I was able to solve a few of the tasks. However, I was extremely tired, because I had slept roughly 5 hours per night during the Barcelona trip. Around 2 hours after my arrival at 10pm I was almost falling asleep writing my recursive routines, so I decided to close my eyes till we were all advancing to the sleeping quarters..</p>
+
+<p>After breakfast on saturday, I felt much more energized. The routine was that every 4 hours we’d be introduced to a new “programming concept”, and receive ~2-6 tasks where this, combined with previously introduced concepts, had to be applied. All the solutions had to be submitted to the same site I submitted my qualification solutions to, as it was all part of the final evaluation. The tasks were incredibly challenging, like nothing I had ever tried before. Sometimes in extreme desperation combined with tiredness from the trip, I’d think about taking the next train home. This feeling would disappear with the utter joy and confidence that arose whenever I would finally solve a task, and creep back once again when I found myself still struggling after an hour on a new problem. But this kept me going. By saturday afternoon, I had almost managed to get up to speed with the others, and were doing the same tasks as them.</p>
+
+<p>On sunday morning we were introduced to the last concept, <a href="http://en.wikipedia.org/wiki/Dynamic_programming">dynamic programming</a>, after doing a few dynamic programming problems, the 5-hour National competition started. These tasks were even more difficult. I was able to solve the first one to about 60 points (out of the maximum 100). On paper I came up with a solution to the second problem, but I did not manage to successfully implement it within the timeframe. With a total of 60 points, I assessed my own chance of proceeding to the next stage, the Baltic Olympiads, rather slim. Even then, I was satisfied with my own performance during the weekend: Managing to catch up while being 8 hours behind, and achieving 60 points in the Nationals having only solved in the region of 4-5 tasks in total before the training camp! It is by far the weekend in my life in which I have learnt the most. I would find out if I was one of the six to go to Latvia for the Baltic Olympiad at the science olympiad reception a month later, but I did not bet on it.</p>
+
+<h2 id="science-olympiad-reception-with-a-cheerful-surprise">Science olympiad reception with a cheerful surprise</h2>
+
+<p><a href="http://en.wikipedia.org/wiki/Carlsberg_Group" title="Wikipedia page on Carlsberg">Carlsberg, Denmark</a> is the main sponsor of the Science Olympiads in Denmark. In Denmark we have teams for: Geography, physics, mathematics, informatics, biology and chemistry. In the end of April, all the participants in the Nationals had come to the reception in Denmark’s capital, Copenhagen to hear the announcements of the final teams. Our minister of “children and education” held a speech, so did the leader of the physics team, and the director of the foundation that Carlsberg has for supporting science. One of the consistent themes of the speeches (except for our minister) was that it is a pity with so little focus on what they called the “elite students” in the Danish education system. They praised the system for being very good at handling the weak students, but criticized it for not being equally good at challenging the top students. There was no press at the event.</p>
+
+<p>The director of the Carlsberg science foundation announced the names of those who were on the national teams: mathematics, physics, biology, .. and then, finally, informatics. As I heard my name, I was flabbergasted. I took the train back home, happy that my informatics adventures were not over yet for this year.</p>
+
+<h2 id="studying-knuth">Studying Knuth</h2>
+
+<p>Because I did not expect to qualify for the Baltic Olympiad, I had not trained up to the reception. With only about a week to the Baltics, I armed myself with a borrowed copy of <a href="http://en.wikipedia.org/wiki/The_Art_of_Computer_Programming" title="Wikipedia page on Knuth's bible">“The Art of Computer Programming”</a>, working through the exercises, read up on common algorithms on Wikipedia, completed tasks on <a href="http://ace.delos.com/usacogate" title="USACO, I recommend this for getting started">USACO</a>, and memorized the critical parts of my Vim config for the competition computers. I managed to create quite an intense training weekend for myself, although regretting not having had more optimism for proceeding to the Baltics by preparing prior to the reception, I felt much more ready on the other side of the weekend. <a href="http://firmafon.dk">Firmafon</a>, where I work, was kind enough to give me my own copy of Knuth’s compilation.</p>
+
+<p><img src="/static/images/ioi/knuth.JPG" alt="" /></p>
+
+<h2 id="the-baltic-olympiad-in-informatics-and-europes-widest-waterfall">The Baltic Olympiad in Informatics and Europe’s widest waterfall</h2>
+
+<p>With the other 5 participants, of which 4 had participated before, and two team leaders who were previous participants, we flew to Riga, Latvia and drove to Ventspils with the Finnish team. IOI-style international competitions like BOI consists of two competition days, each of 5 hours with 3 tasks.</p>
+
+<p>About one hour into the competition on the first day, my excitement had soon been replaced by the all familiar balance between frustration and encouragement when finally figuring something out. The tasks were even more difficult than those at the Nationals, so I decided to focus all my energy into <a href="http://www.boi2012.lv/data/day1/eng/mobile.pdf">a single task</a> (<a href="http://sirupsen.com/mobile">my approach to solving it</a>), where I managed to come up with a solution which I calculated would yield around 30 points (too slow for larger input). After the competition I talked with the other Danish participants who had participated before, who said the tasks were indeed more difficult than usual. Few had gotten anything working at all.</p>
+
+<p>The citizens of Ventspils seemed very proud of their city, so in lieu of the much needed nap we were all craving after 5 hours of brain-tumbling in the competition room, we went on one of many excursions to see Ventspils, a small tourist city with a population of around 40 000. At the end of the excursion we arrived at an adventure park, where we received the day’s competition results in a letter. Surprisingly, 4/6 of the Danish team had achieved 0/300 points on the first day. Including me. I couldn’t quite figure out what went wrong with my program, talking with the other teammates it seemed like a small off-by-one mistake. Aww. Many of the other teams had similar results. A tired, disappointed Danish team went back to the hotel to get some sleep before the next competition day.</p>
+
+<p>The difficulty on the second day was much like the first. Thus I decided to once again devote all the time to <a href="http://www.boi2012.lv/data/day2/eng/fire.pdf">a single task</a>, exploring edge-cases with pen and paper, rethinking even the most trivial logic. Once again, I was quite sure I had figured out a 30-point solution. But when we received our results, it turned out I had only received 10 points on the second day.</p>
+
+<p>According to the other, more experienced Danish participants the tasks had been unusually difficult, and normally you get more points for a slow, working solution (like mine on the second day), about 30-40 points. The 10 points from the second day became my final score, I was <a href="boiresults">positioned as the fifth dane</a>, so I was rather certain to not get on the IOI-team of 4. I was disappointed now that I had come so far, but taken the experience of the other participants into consideration, I could be quite happy with my result, and follow my plan to go all-in next year. I chose to focus on the wrong tasks on both days, wrong because they were not the easiest, even if they looked like that at a first glance. But these are the kinds of things you learn from experience. Once again, I had learned a lot, and I had a great time with the team in Latvia.</p>
+
+<p>They loved taking us out for excursions, preferably several per day, to see old Soviet radars, light towers, trains and Europe’s widest waterfall, which we drove a total of 3 hours to see….</p>
+
+<p><img src="/static/images/ioi/waterfall.jpg" alt="" /></p>
+
+<p>Europe’s widest waterfall (impressive height: ~0.5 meter) in Kuldiga, Latvia</p>
+
+<p><a href="http://www.boi2012.lv/tasks">All tasks for BOI 2012.</a></p>
+
+<h2 id="competition-lessons">Competition lessons</h2>
+
+<p>From BOI and the Nationals I learned that you must avoid digging holes. Repeatedly I found myself so fixated on getting a particular idea to work I’d get absolutely nowhere. Sometimes you have to bite the bullet, delete your program, find a new sheet of paper, and start from scratch. A good smell of this is when you start working around your general solution to the problem to solve specific edge-cases. I learned that there is almost always a simple way to solve the problem without explicitly handling edge-cases. If there are two edge-cases, there’s almost certainly two more. The simple solution will handle edge-cases automatically, even those you might have not considered.</p>
+
+<p>In the IOI-style competitions where you can achieve partial scores (i.e. the results are not binary: completed/not completed, as in most University competitions), thus it’s wise to create naive, slow solutions scoring 30-40 points for a task (except at Baltics in 2012, where doing so proved to be difficult). Being able to quickly spot the tasks where this is possible, can let you achieve easy points. Enough easy points can even grant you a medal. Afterwards, you can go back in the remaining time to improve on your solution.</p>
+
+<p>It’s paramount to perform all thinking on paper. I wrote all my algorithms in plain English, which worked well to find holes and explore edge cases. I applied the algorithm on paper on test cases I made up myself. When writing it out in English I sometimes found myself writing “then just..”, this is a smell. Often these “just”-lines required fundamental change in my solution. Do not defer thinking till you get to do the actual implementation. Expanding a “just” takes 5 minutes, and these are always saved, usually multiple times. During the implementation you are inclined to not think of a proper solution to the subproblem, and you will just hack your way around it. You then must return to paper immediately. Pen and paper are life savers. The thinking done when implementing should be minimal.</p>
+
+<h2 id="now">Now</h2>
+
+<p>In the beginning of June I received an email saying I was chosen as one of the four to compete for Denmark in IOI 2012, Italy in September! I try to do a few problems a week as preparation, and I participate in online competitions like <a href="http://www.codeforces.com/">Codeforces</a> and <a href="http://www.topcoder.com/">Topcoder</a>. I contacted the local university (<a href="http://www.au.dk/">Aarhus University</a>) for a mentor in algorithms, and got a phD student to point me in the right directions.</p>
+
+<p>I have learned much by visiting “the other side”, and I am looking forward to learn more. My problem-solving skills have increased tremendously. Coming from doing only Web development where the difficulties lie in structuring your application, it has been amazing to try and solve hard problems using algorithms and hours of thinking. It’s so incredibly satisfying to solve a problem you’ve worked several hours on.</p>
+
+<p>I can continue to bring many of the things I learn from the competitions into my day-to-day work. I see more and more opportunities, interesting ways to process data and I am starting to understand how some of the magical services actually work underneath. It opens many possibilities for me as a developer. Combining different algorithms and data structures, I can make applications I never dreamt of creating. It has a brought a unique and fundamental missing tool to my toolbox. My ultimate goal is to win a medal in IOI 2013 in Brisbane, Australia, which is the last year in which I can compete, because I finish high school next year. Now I am looking forward to Italy in September, and I’ll be sure to do a writeup when I am on the other side of that.</p>
+
+
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

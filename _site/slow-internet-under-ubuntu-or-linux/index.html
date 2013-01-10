@@ -1,0 +1,118 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>Slow internet under Ubuntu or Linux</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>Slow internet under Ubuntu or Linux</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Oct 2009
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <h2>Fix one: <span class="caps">DNS</span> issue</h2>
+<p>Ever since I started using Linux, I&#8217;ve run into issues regarding internet performance; it was unstable &#8211; it would take it several seconds, sometimes 10-20, to look up the host for most sites. Overall, it was very unstable &#8211; and rather unusable for a heavy surfer like me.</p>
+<p>Download speed, and basically everything but the browser worked fine. Thus, I concluded that it could have something to do with the <span class="caps">DNS</span> &#8211; and I was right. I switched to <a href="http://www.opendns.com/">OpenDNS</a>, and it was running normally &#8211; here&#8217;s [the guide from <a href="https://store.opendns.com/setup/device/ubuntu/">OpenDNS</a> on configuring OpenDNS on Ubuntu, should you be using another Linux distro., simply Google something like <strong>linux-distro opendns</strong>.</p>
+<p>I also stumbled upon <a href="http://code.google.com/p/namebench/">Namebench</a> in the process, which is a little Python application that attempts to find the fastest <span class="caps">DNS</span> for you &#8211; which you can use to optimize performance further.</p>
+<h2>Fix two: IPV6</h2>
+<p>Currently, the standard for IPs is IPV4 &#8211; the thing is, that there&#8217;s always a limit towards to maximum number of IP-adresses available. We&#8217;re nearing this limit rapidly with IPV4, and therefore IPV6 is set to replace the old IPV4. <sup class="footnote" id="fnr1"><a href="#fn1">1</a></sup> However, some providers doesn&#8217;t support IPV6 yet, and Linux might attempt to use IPV6, conclude it fails, and then use IPV4 &#8211; each time it connects. This can be result in bad performance. Luckily, you can disable the IPV6 kernel  module, which fixes this.</p>
+<h3>Fixing on Debian-based systems</h3>
+<p>I don&#8217;t know for sure, if this is the routine on anything non-debian based. I know this is not the way to go on e.g. Arch Linux. Debian-based systems include Linux Mint and Ubuntu.</p>
+<blockquote>
+<p>You should be able to disable IPv6 by adding <span class="fixed-width">ipv6.disable=1</span> to kernel boot parameters (editing Grub config in <span class="fixed-width">/boot/grub/menu.lstand</span> running <span class="fixed-width">sudo update-grub</span> as instructed for example here). <sup class="footnote" id="fnr2"><a href="#fn2">2</a></sup></p>
+</blockquote>
+<h3>Other distros</h3>
+<p>Again, use Google and you&#8217;ll probably be geared towards a Wiki, or forum thread for your specific distro.</p>
+<p class="footnote" id="fn1"><a href="#fnr1"><sup>1</sup></a> <a href="http://en.wikipedia.org/wiki/IPv6">http://en.wikipedia.org/wiki/IPv6</a></p>
+<p class="footnote" id="fn2"><a href="#fnr2"><sup>2</sup></a> <a href="http://superuser.com/questions/67921/slow-website-loading-on-ubuntu-karmic">http://superuser.com/questions/67921/slow-website-loading-on-ubuntu-karmic</a></p>
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

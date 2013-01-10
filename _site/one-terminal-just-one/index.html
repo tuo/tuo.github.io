@@ -1,0 +1,128 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>One terminal, just one</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>One terminal, just one</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Apr 2010
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <p>Until not-so-long ago, I always had a million terminals open at the same time. I have this neat keyboard-shortcut (Alt-T) which opens a new terminal. That&#8217;s nice and all, but the problem is, that I can&#8217;t be arsed to alt-tab to my old terminals, leaving a million terminals open, making alt-tabbing between other applications a pain. And I rely quite a bit on Alt-tab, I don&#8217;t have any task bar, since I&#8217;d rather just alt-tab between stuff than clicking on a task bar (which also takes up precious screen space).</p>
+<p>So yes, one day I realised I really had this problem. So I scaled it down, my goal was to: On launch it looks for terminals.</p>
+<blockquote>
+<p>If any terminal is found, this terminal should appear in front of all other windows, instead of launching a new terminal. If, however, no terminals are present, a new one should be launched.</p>
+</blockquote>
+<p>That&#8217;s when I realised: <strong>&#8220;How-the-bob am I going to do this?&#8221;</strong>- Google to the rescue, and I eventually scaled down each problem in the application, and found a neat little application called <span class="fixed-width">wmctrl</span> which (apparently) handles Windows. And by looking a bit at this application, I came up with this script, which handles the problem nicely:</p>
+<div class="highlight"><pre><code class="bash"><span class="c">#! /bin/bash</span>
+<span class="nv">WINTITLE</span><span class="o">=</span><span class="s2">&quot;sakura&quot;</span> <span class="c"># Name of the window (or part of it)</span>
+<span class="nv">PROGRAMNAME</span><span class="o">=</span><span class="s2">&quot;sakura&quot;</span> <span class="c"># Name of the program, so it can be opened if there&#39;s no window currently</span>
+
+<span class="c"># Lists all windows, if there&#39;s one containing $WINTITLE it&#39;ll return 1, and bring the current instance of the program to the front.</span>
+<span class="k">if</span> <span class="o">[</span> <span class="sb">`</span>wmctrl -l | grep -c <span class="s2">&quot;$WINTITLE&quot;</span><span class="sb">`</span> !<span class="o">=</span> 0 <span class="o">]</span>
+  <span class="k">then</span>
+<span class="k">    </span>wmctrl -a <span class="s2">&quot;$WINTITLE&quot;</span>
+<span class="c"># Else, it&#39;ll launch a new instance</span>
+<span class="k">else</span>
+  <span class="nv">$PROGRAMNAME</span> &amp;
+<span class="k">fi</span>
+
+<span class="c"># We&#39;re good!</span>
+<span class="nb">exit </span>0
+</code></pre>
+</div>
+<p>Just change the variables to reflect your environment, it should be rather obvious what to change. So yeah, you just c/p this script to a <span style="fixed-width;">whatever.sh</span> file, and put it in your <span style="fixed-width;">bin</span> and launch your terminal via this script from now on. It&#8217;s also in my <a href="http://github.com/Sirupsen/Kittybin">Kittybin</a>, I might cover some of the other scripts from there in further blog posts. :)</p>
+<p>And there we go. <strong>Problem solved.</strong></p>
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

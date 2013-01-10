@@ -1,0 +1,165 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>Handle passwords with Keychain</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>Handle passwords with Keychain</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Aug 2012
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <p>I considered <a href="https://agilebits.com/onepassword">1password</a>, but playing with
+Keychain, which ships with OS X, I found out it does all I need from a password manager. 
+No need for any browser extensions or app store purchases. It’s all built in to OS X. 
+Simply understanding how “Save Password” works in the browser is enough to solve
+the problem.</p>
+
+<p>Safari and Chrome both save and fetch passwords from Keychain. You want to have
+the encrypted keychain which you’ll store all your passwords in backed up. I store it
+in my Dropbox. You can find the default keychain at
+<code>~/Library/Keychains/login.keychain</code>. Once you’ve moved it to your Dropbox, open
+<code>Keychain Access</code> and add it from the file menu. Most of your passwords will 
+already be in there. That’s fine.</p>
+
+<p>You might also want to change the password to the keychain. By default the
+password to the login keychain is your user login. You change it by right
+clicking it in the left-hand pane.</p>
+
+<p>Whenever I create a new account, or change a password, I come up with a 
+<a href="http://xkcd.com/936/">random password</a> myself and put it in my clipboard. Paste
+it when signing up, and when signing in. On sign in I allow Safari/Chrome to remember my password, which means 
+it stores the password in Keychain. </p>
+
+<p>If you ever need the password outside your OS X browser, for instance to sign in to
+Twitter on your phone, you can copy the password to the clipboard from <code>Keychain</code>:</p>
+
+<p><img src="/static/images/passwords/copy-to-clipboard.png" alt="" /></p>
+
+<p>Once a password is in Keychain it will auto-fill in your browser, regardless of
+how you add it, as long as the “where” attribute is the same as the page you are
+currently on:</p>
+
+<p><img src="/static/images/passwords/keychain-facebook-details.png" alt="" /></p>
+
+<p><img src="/static/images/passwords/facebook-autocomplete.png" alt="" /></p>
+
+<p>Since there’s no magic in adding keys, you can just as well add them from the
+command line or in the Keychain app, as long as the “where” attribute (as shown on the
+picture above) is right.</p>
+
+<p><code>security</code> also allows you to easily add new passwords with the
+<code>add-internet-password</code> command:</p>
+
+<div class="highlight"><pre><code class="bash">    security add-internet-password -a <span class="s2">&quot;John Doe&quot;</span> -s foo.com -w pass 
+</code></pre>
+</div>
+
+<p>Furthermore, passwords in Keychain can be accessed via <code>security</code> on the command line:</p>
+
+<div class="highlight"><pre><code class="bash">    security 2&gt;&amp;1 &gt;/dev/null find-internet-password -gs www.google.com | grep -o <span class="se">\</span>
+      <span class="s1">&#39;&quot;.*&quot;&#39;</span> | sed <span class="s1">&#39;s/&quot;//g&#39;</span>
+</code></pre>
+</div>
+
+<p>It will prompt me for the password to the keychain, then output the decrypted
+password. This is handy for <a href="http://www.mutt.org/">various</a> <a href="https://github.com/defunkt/gist/#authentication">packages</a> that require passwords.</p>
+
+<p><a href="http://www.jinx.de/Keychain2Go.html">Keychain2go</a> exists if you want to bring it to your iPhone.</p>
+
+<p>You can also add encrypted notes to your keychain, these can be used for credit card
+numbers, images, bank account information, secret documents etc.</p>
+
+
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

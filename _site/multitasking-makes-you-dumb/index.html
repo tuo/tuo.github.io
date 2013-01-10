@@ -1,0 +1,211 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>Multitasking makes you dumb</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>Multitasking makes you dumb</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Nov 2012
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <div class="intro">
+  As part of researching for my 30 days of super productivity, I have explored
+  the topics of context switching and multitasking. I found that multitasking has
+  a tremendous effect on how we approach tasks and too much multitasking can
+  negatively alter how our brain processes information.
+</div>
+
+<p>Multitasking is attempting to handle more than one task simultaneously. The human
+mind is not directly capable of this, thus it emulates multitasking by
+rapidly alternating between the tasks. This makes for a higher rate of errors
+due to lack of attention, and since context switching from one task to another
+is expensive, the sum of time spent on the tasks is larger than if the tasks
+were done sequentially. (Think green threads with a huge context switch cost
+with lots of deadlocks and race conditions.)<sup id="fnref:4"><a href="#fn:4" rel="footnote">1</a></sup></p>
+
+<p>Furthermore, our brain exercises something Dr. Meyer of the University of
+Michigan calls “adaptive executive control” where our brain assigns priorities
+to the tasks we are performing in parallel.<sup id="fnref:3"><a href="#fn:3" rel="footnote">2</a></sup> For instance, when driving and
+talking in cell phone, our brain assigns a higher priority to responding to our
+phone conversation than focusing on the road. This deteriorates reaction time to
+worse than drivers intoxicated over the 0.08% legal limit.<sup id="fnref:5"><a href="#fn:5" rel="footnote">3</a></sup></p>
+
+<h2 id="multitasking-impairs-cognitive-control">Multitasking impairs cognitive control</h2>
+
+<p>Stanford professors thought before their study on multitasking that people who
+frequently multitask must be excellent in recognizing important elements in a
+series of tasks:</p>
+
+<blockquote>
+  <p>In one experiment, the groups were shown sets of two red rectangles alone or
+surrounded by two, four or six blue rectangles. Each configuration was flashed
+twice, and the participants had to determine whether the two red rectangles in
+the second frame were in a different position than in the first frame.</p>
+</blockquote>
+
+<blockquote>
+  <p>They were told to ignore the blue rectangles, and the low multitaskers had no
+problem doing that. But the high multitaskers were constantly distracted by the
+irrelevant blue images. Their performance was horrible.<sup id="fnref:1"><a href="#fn:1" rel="footnote">4</a></sup></p>
+</blockquote>
+
+<p>Desperately they attempted to find tasks in which the frequent multitaskers
+performed better, such as short term memory and context switching, but
+multitaskers failed to show any improvement in any task the Stanford
+psychologists presented. Multitaskers have trouble paying attention and are easily
+distracted. They have their mind in a myriad of different places at the same
+time, not effectively processing any information.</p>
+
+<p>One last theory involved the possibility of multitaskers being faster at context
+switching, performing this all the time, but even here their performance was
+inferior:</p>
+
+<blockquote>
+  <p>The test subjects were shown images of letters and numbers at the same time and
+instructed what to focus on. When they were told to pay attention to numbers,
+they had to determine if the digits were even or odd. When told to concentrate
+on letters, they had to say whether they were vowels or consonants.</p>
+</blockquote>
+
+<blockquote>
+  <p>Again, the heavy multitaskers underperformed the light multitaskers.</p>
+</blockquote>
+
+<blockquote>
+  <p>“They couldn’t help thinking about the task they weren’t doing,” Ophir said.
+“The high multitaskers are always drawing from all the information in front of
+them. They can’t keep things separate in their minds.”</p>
+</blockquote>
+
+<h2 id="multitaskers-worse-at-multitasking">Multitaskers worse at multitasking</h2>
+
+<p>Effectively, multitaskers train themselves to superficially consume multiple
+sources of input from memory and the external world. Their ability to filter
+relevance to their current goal declines and they are easily distracted by irrelevant
+information. Multitaskers actually become bad at multitasking, by multitasking.<sup id="fnref:2"><a href="#fn:2" rel="footnote">5</a></sup></p>
+
+<p>Multitasking students report to have more issues in their academic work.
+Students who browse Facebook and instant messaging while doing homework on
+average achieve lower grades in school.<sup id="fnref:6"><a href="#fn:6" rel="footnote">6</a></sup> In 1999 16% of media consumption was
+combined, in 2005 26% of media was used together. This number must have
+skyrocketed since, with Generation Z and Y being its victims.<sup id="fnref:7"><a href="#fn:7" rel="footnote">7</a></sup></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:4">
+      <p><a href="http://en.wikipedia.org/wiki/Human_multitasking">Human multitasking</a><a href="#fnref:4" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p><a href="http://www.thenewatlantis.com/docLib/20080605_TNA20Rosen.pdf">The Myth of Multitasking</a><a href="#fnref:3" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p><a href="http://www.distraction.gov/download/research-pdf/Comparison-of-CellPhone-Driver-Drunk-Driver.pdf">A Comparison of the Cell Phone Driver and the Drunk Driver</a><a href="#fnref:5" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:1">
+      <p><a href="http://news.stanford.edu/news/2009/august24/multitask-research-study-082409.html">Media multitaskers pay mental price</a><a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p><a href="http://news.bbc.co.uk/2/hi/technology/8219212.stm">Multitaskers bad at multitasking</a><a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p><a href="http://blog.reyjunco.com/pdf/JuncoCottenMultitaskingCAE2010.pdf">Perceived academic effects of instant messaging use</a><a href="#fnref:6" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p><a href="http://blog.reyjunco.com/wp-content/uploads/2010/03/JuncoCottenMultitaskingFBTextCAE2012.pdf">The relationship between multitasking and academic performance</a><a href="#fnref:7" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

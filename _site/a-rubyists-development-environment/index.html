@@ -1,0 +1,167 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>A Rubyist's development environment</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>A Rubyist's development environment</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Sep 2010
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <p>I consider myself as a Rubyist and a minimalist. I want my tools to be few, and sharp. That means I only want few tools, but I want to master these tools.
+Now it’s been about a year since I started programming, this post is supposed to give you a look into my toolbox. I hope it can be of inspiration to you.</p>
+
+<p>I’ve open sourced all my dotfiles <a href="http://github.com/Sirupsen/dotfiles">on Github</a>.</p>
+
+<h2 id="operating-system-linux-and-mac">Operating System: Linux and Mac</h2>
+
+<p>My primary development platform is my desktop running <a href="http://sirupsen.com/my-experience-with-arch-linux" title="See my blog post about my experience with Arch Linux">Arch Linux</a>. It’s a dual screen setup, which I learned to <em>love</em>. I also own a Macbook, primarily used for schoolwork and field coding.</p>
+
+<p>As for my desktop setup of noteworthy tools besides my editor, I use bleeding-edge Chromium as my browser. I might switch to <a href="http://www.uzbl.org/">Uzbl</a> someday. I use <a href="http://openbox.org/wiki">Openbox</a> as my window manager. Sakura as my terminal, simply because it’s lightweight, simple to setup and it does its job.</p>
+
+<p>I have Openbox <a href="http://github.com/Sirupsen/dotfiles/blob/master/.config/openbox/rc.xml">configured to act like Vim</a>, and for Chromium I use <a href="https://chrome.google.com/extensions/detail/dbepggeogbaibhgnhhndojpepiihcmeb">Vimium</a> to achieve the same Vim behavior. In theory I <em>never</em> have to touch my mouse.</p>
+
+<h3 id="shell">Shell</h3>
+
+<p>As for my shell I just use <code>bash</code>. I know the cool kids use <code>zsh</code>, but I simply haven’t bothered to set it up, and I’m really quite happy with <code>bash</code>. </p>
+
+<p>My bash configuration is pretty simple. It just defines some default values, source a few things, and add to my <code>$PATH</code>. It also sets my <code>PS1</code> which consists of only the current directory. I figured that I <em>already know</em> my username, and hostname. Furthermore I really don’t need to know the entire absolute path of the current directory.</p>
+
+<h2 id="editor-vim">Editor: Vim</h2>
+
+<p>I’ve been through many editors. Many. Believe me. A little less than a year ago, a friend recommended me Vim. And I started digging into it. In the beginning, it was hard. But he promised me it’d be worth it. So I sticked to it. In the start, I felt less productive in Vim, because it was somewhat hard to learn. After a few days in it however, I began taking advantage of the endless sets of commands, this all resulted in a <em>more</em> productive me. I now love Vim, and nowadays I almost do all of my text-processing in it: I take notes in Vim, I’m writing this very blog post in Vim, and I make kickass code in Vim.</p>
+
+<p>My Vim setup really is nothing special. I use a few plugins, and I have a small configuration file which is just parts stolen and compiled from others. I can’t remember who I stole what from, though. So they are not credited. I use Monaco as my Vim (and terminal) font, I simply like this font a lot. <a href="http://imgur.com/IdNuY.png">Screenshot</a>.</p>
+
+<h2 id="syncing-dropbox">Syncing: Dropbox</h2>
+
+<p>As I have multiple computers, I sync <em>everything</em> with Dropbox. This also has the benefit of being (additional, I have everything under <code>git</code>, too) backup. My Dropbox holds mostly configuration files and code. The rest is in the cloud. With everything in my Dropbox, I make symbolic links from the Dropbox.</p>
+
+<h3 id="configuration-between-multiple-computers">Configuration between multiple computers</h3>
+
+<p>As I have multiple computers, I want <a href="http://github.com/Sirupsen/dotfiles">my configuration files</a> (<em>dotfiles</em>) to change on other computers as soon as I have changed it somewhere else. In the beginning I had an ugly Rake task to do all this symbolic linking, but later I discovered <a href="http://github.com/technicalpickles/homesick">Homesick</a>. </p>
+
+<blockquote>
+  <p>Homesick is sorta like rip, but for dotfiles. It uses git to clone a repository containing dotfiles, and saves them in <code>~/.homesick</code>. It then allows you to symlink all the dotfiles into place with a single command.</p>
+</blockquote>
+
+<p>When you clone a <code>castle</code>, as they are called in Homesick, it puts the castle in <code>~/.homesick/repos/&lt;repo&gt;</code>, for instance:</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>homesick clone Sirupsen/dotfiles <span class="c"># goes to ~/homesick/repos/Sirupsen/dotfiles</span>
+</code></pre>
+</div>
+
+<p>Instead of updating the dotfiles with Git via pulling, however, I wanted it to go through Dropbox, so changes are reflected on my other computers instantly. Later, I can commit these changes:</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>ln -s Dropbox/dotfiles ~/.homesick/repos/
+</code></pre>
+</div>
+
+<p>Now I can symlink everything easily:</p>
+
+<div class="highlight"><pre><code class="bash"><span class="nv">$ </span>homesick symlink dotfiles
+</code></pre>
+</div>
+
+<h2 id="using-dual-screen-for-coding">Using dual screen for coding</h2>
+
+<p>When I work, I usually work on two monitors. A 19”, and a 24”.</p>
+
+<p>On my 19” I have Pidgin running. This makes me able to talk to colleagues, or friends while working on my other monitor. I might also shring my windows here, and have another terminal open with tests.</p>
+
+<p>On my 24” I have my browser running in the right side, taking up about 50% of horizontal space. When i am coding, this is great for documentation and general googling, githubing and ticket managing while coding. I have experimented with fullscreen Vim, however I just don’t need more than these 80 columns horizontally, so this setup works great. More vertical space is always nice, I’ve heard great things about having a screen that can be turned around to a portrait view for coding. I usually have my terminal running beneath my Vim window, it’s super easy to switch between them with my Openbox Vim configuration.</p>
+
+
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 

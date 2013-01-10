@@ -1,0 +1,136 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>The switch to Github Pages</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds.feedburner.com/sirupsen" rel="alternate" title="Sirupsen" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>Sirupsen</a></li>
+          <li><span class="gray">Simon Hørup Eskildsen</span></li>
+          <li><a href="mailto:sirup@sirupsen.com" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', 'Sidebar Email']);">sirup@sirupsen.com</a></li>
+          <li><a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Mobile', Sidebar Email']);">@Sirupsen</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:sirup@sirupsen.com?subject=hi" class="icon-envelope-alt" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Email']);" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/Sirupsen" class="icon-twitter" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Twitter']);" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/Sirupsen" class="icon-github" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Github']);" title="I share and fork code here"></a>
+            </li>
+
+            <li>
+              <a href="skype:sirupsen?add" class="icon-comment" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar Skype']);" title="Feel free to add me on Skype"></a>
+            </li>
+
+            <li>
+              <a href="http://feeds.feedburner.com/sirupsen" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Simon Hørup Eskildsen</span></li>
+            <li class="gray">Ruby developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>The switch to Github Pages</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Jul 2010
+  
+      revised Nov 2012
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <div class="intro">I ditched my VPS to migrate my blog to Github
+Pages. A simple blogging platform for hackers.</div>
+
+<p>I hosted my previous Wordpress blog on my dad’s server. Limiting me in terms
+of technological mobility. The lack of free deployment methods kept me from
+using languages other than PHP.</p>
+
+<p>I decided to rent a VPS. I looked at <a href="http://www.lowendbox.com/">low end box</a> for a light option,
+since a personal blog like this requires minimal power. Although I wanted to
+retain enough power to stand a Slashdot as when I published <a href="/what-I-wish-a-ruby-programmer-had-told-me-one-year-ago/">What I wish a Ruby
+programmer had told me one year ago</a>, requiring juice which isn’t needed
+the majority of the time. Adding a caching layer to avoid the dynamic web server
+layer seemed like a redundant move, which it turned out to be.</p>
+
+<p>Pretty soon I had to switch VPS host due to latency issues, at the thought of
+migrating my blog once again, the thought of hosting it independently became
+intrusive. My blog was mostly static anyhow: Wrote <a href="http://daringfireball.net/projects/markdown/">Markdown</a> blog
+posts in Vim, no comment system or other dynamic interaction.</p>
+
+<p>I looked into <a href="http://pages.github.com">Github Pages</a>, which runs <a href="http://github.com/mojombo/jekyll">Jekyll</a> allowing you to
+host a sophisticated static blog, with support for the mandatory hacker features
+such as code highlighting and clever handling of the static blog posts. It’s
+super easy to set up. Deployment is performed just by pushing to a Github
+repository with the name “<username>.github.com", i.e. I push to the repo at
+[Sirupsen/sirupsen.github.com][source]. Here's a little guide to [migrate 
+from other blogging engines][migrate].</username></p>
+
+<p>I’ve since cancelled my VPS. I no longer have to worry about a server or uptime.
+You’re welcome to <a href="https://github.com/Sirupsen/sirupsen.github.com">fork my blog</a> to create your own.</p>
+
+
+  </div>
+
+  <footer class="ten columns">
+    <p id='follow'>
+      You should follow me on Twitter <a href="http://twitter.com/Sirupsen" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Post Twitter']);">here.</a>
+    </p>
+  </footer>
+</article>
+
+    </div>
+
+    <script> var _gaq=[["_setAccount","UA-9939782-5"],["_trackPageview"]]; (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1; g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js"; s.parentNode.insertBefore(g,s)}(document,"script")); </script>
+  </body>
+</html> 
