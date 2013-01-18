@@ -10,7 +10,7 @@ blog: true
 
   <div class='ten columns gray' id="date-header">
     <p>
-      {{ page.date | date: "%b %Y" }}
+      {{ page.date | date: "%b %d, %Y" }}
   {% if page.updated_at %}
       revised {{ page.updated_at }}
   {% endif %}
