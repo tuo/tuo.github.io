@@ -8,7 +8,7 @@ layout: nil
  <link href="http://tuohuang.info/atom.xml" rel="self"/>
  <link href="http://tuohuang.info/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>tuohuang.info</id>
+ <id>http://tuohuang.info/</id>
  <author>
    <name>Tuo</name>
    <email>clarkhtse@gmail.com</email>
@@ -17,9 +17,9 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="tuohuang.info{{ post.url }}"/>
+   <link href="http://tuohuang.info{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http:/tuo.github.com{{ post.id }}</id>
+   <id>http://tuohuang.info{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
