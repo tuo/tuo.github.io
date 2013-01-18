@@ -4,7 +4,7 @@
  <title>Tuo</title>
  <link href="http://tuo.github.com/atom.xml" rel="self"/>
  <link href="http://tuo.github.com/"/>
- <updated>2013-01-18T21:32:17+08:00</updated>
+ <updated>2013-01-18T22:02:05+08:00</updated>
  <id>http://tuo.github.com</id>
  <author>
    <name>Tuo</name>
@@ -1187,7 +1187,7 @@ RubyGem上地址: &lt;a href=&quot;https://rubygems.org/gems/jenkins-remote-api&
    <link href="http://tuo.github.com6.html"/>
    <updated>2011-08-17T00:00:00+08:00</updated>
    <id>http:/tuo.github.com./selenium-rc%e5%92%8cwebdriver</id>
-   <content type="html">前两天在跟结对的同事查看一段我之前写的自动化搭建初始数据的代码时,同事问我为什么需要起一个selenium server才能跑起来,而我们的本地跑的cucumber测试却没有需要你显示的跑一个selenium server.我一时其实也回答不上来,下班后仔细查了查selenium的文档,才豁然开朗.我之前用的是&lt;a href=&quot;http://selenium-client.rubyforge.org/&quot; target=&quot;_blank&quot;&gt;selenium-client&lt;/a&gt;, 因为我之前想用它来截取每个浏览器的屏幕, 而selenium-client提供了很好API来跟浏览器打交道(甚至内置的截图方法),  它是基于Selenium RC的.讲到这个先简要介绍一下selenium,它主要用来驱动和跟浏览器做交互,实现web应用程序的自动化测试. 所以意味着selenium必须有一套自己跟浏览器交互的API.
+   <content type="html">前两天在跟结对的同事查看一段我之前写的自动化搭建初始数据的代码时,同事问我为什么需要起一个selenium server才能跑起来,而我们的本地跑的cucumber测试却没有需要你显示的跑一个selenium server.我一时其实也回答不上来,下班后仔细查了查selenium的文档,才豁然开朗.我之前用的是&lt;a href=&quot;http://selenium-client.rubyforge.org/&quot; target=&quot;_blank&quot;&gt;selenium-client&lt;/a&gt;, 因为我之前想用它来截取每个浏览器的屏幕, 而selenium-client提供了很好API来跟浏览器打交道(甚至内置的截图方法),  它是基于Selenium RC的.讲到这个先简要介绍一下selenium,它主要用来驱动和跟浏览器做交互,实现web应用程序的自动化测试. 所以意味着selenium必须有一套自己跟浏览器交互的API.
 
 selenium根据实现形式的不同分为两种: selenium rc 和 webdriver.
 
@@ -1589,7 +1589,7 @@ MongoDB的Query也是很方便的:
 
 &amp;nbsp;
 
-而比较复杂是Aggregation的操作,比如SQL中的group, avg,sum等等,这些操作在MongoDB中可以使用Map/Reduce来完成.
+而比较复杂是Aggregation的操作,比如SQL中的group, avg,sum等等,这些操作在MongoDB中可以使用Map/Reduce来完成.
 
 MongoDB差不多对主流的编程语言都有很多的支持,在ruby中就有MongoMapper和Mongoid两个很不错的封装框架.
 
@@ -2108,11 +2108,11 @@ background-image:url(&quot;../images/doc.png&quot;);
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;黄志敏(&lt;a href=&quot;https://github.com/flyerhzm&quot; target=&quot;_blank&quot;&gt;flyerhzm&lt;/a&gt;)关于CSS sprite best practice 的PPT: &lt;a href=&quot;http://www.slideshare.net/flyerhzm/css-sprite-best-practices&quot; target=&quot;_blank&quot;&gt;Css sprite best practices&lt;/a&gt;
 
 
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;提高性能另外一个关键在于异步加载提高并发,绕过传统的阻塞模型,实现网页的迅速加载.以后会继续提到&quot;&lt;a title=&quot;What is a non-blocking script?&quot; href=&quot;http://www.nczonline.net/blog/2010/08/10/what-is-a-non-blocking-script/&quot; target=&quot;_blank&quot;&gt;non-blocking script&lt;/a&gt;&quot;,有意者请看Steve Souders的&lt;a href=&quot;http://www.stevesouders.com/blog/2010/12/15/controljs-part-1/&quot; target=&quot;_blank&quot;&gt;ControlJS&lt;/a&gt;系列和Nicolas的&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;a class=&quot;entry-title-link&quot; href=&quot;http://feedproxy.google.com/%7Er/nczonline/%7E3/Wje5TDBxQ7g/&quot; target=&quot;_blank&quot;&gt;Thoughts on script loaders&lt;/a&gt;.&lt;/span&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;提高性能另外一个关键在于异步加载提高并发,绕过传统的阻塞模型,实现网页的迅速加载.以后会继续提到&quot;&lt;a title=&quot;What is a non-blocking script?&quot; href=&quot;http://www.nczonline.net/blog/2010/08/10/what-is-a-non-blocking-script/&quot; target=&quot;_blank&quot;&gt;non-blocking script&lt;/a&gt;&quot;,有意者请看Steve Souders的&lt;a href=&quot;http://www.stevesouders.com/blog/2010/12/15/controljs-part-1/&quot; target=&quot;_blank&quot;&gt;ControlJS&lt;/a&gt;系列和Nicolas的&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;a class=&quot;entry-title-link&quot; href=&quot;http://feedproxy.google.com/%7Er/nczonline/%7E3/Wje5TDBxQ7g/&quot; target=&quot;_blank&quot;&gt;Thoughts on script loaders&lt;/a&gt;.&lt;/span&gt;
 
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;嗨,这一天我的Reader可是多了不少的订阅阿~~
 
-&lt;strong&gt;Update&lt;/strong&gt;:关于更多DataURI的内容可以参考:Wiki的&lt;a href=&quot;http://en.wikipedia.org/wiki/Data_URI_scheme&quot; target=&quot;_blank&quot;&gt;data URI scheme&lt;/a&gt;
+&lt;strong&gt;Update&lt;/strong&gt;:关于更多DataURI的内容可以参考:Wiki的&lt;a href=&quot;http://en.wikipedia.org/wiki/Data_URI_scheme&quot; target=&quot;_blank&quot;&gt;data URI scheme&lt;/a&gt;
 </content>
  </entry>
  
@@ -2438,7 +2438,7 @@ public void createRightStoryForValidation(NewStoryViewModel newStoryViewModel) {
    <updated>2010-11-30T00:00:00+08:00</updated>
    <id>http:/tuo.github.com./%e5%b0%86ui%e5%92%8c%e9%a2%86%e5%9f%9f%e6%a8%a1%e5%9e%8b%e9%9a%94%e7%a6%bb%e5%bc%80%e6%9d%a5-%e4%b8%80</id>
    <content type="html">有将近一个月没有更新博客了,这阵子确实比较忙,必须淡定,克己轩. 不过这期间我有在Evernote中记录了一些零星的想法和感触,今天刚好有时间,于是拿出来仔细瞧了瞧.其中有一篇是关于我在TWU即将结束的时候记下来的日记,记得当时有一个故事,需要将浏览器端的javascript验证逻辑移植到服务器端.在完成这个故事的过程中给我留下了很深的印象,遇到了很多有意思的问题,我觉得我有必要写出来,否则时间过久了就会忘了.TWU这个项目比较有意思,它历经了几届TWU学员的蹂躏,很好的完成了试验品这个角色赋予的任务,你可以猜到当我们拿到这个项目时,并不是推到原有的而从新开始开发,而是在既有的代码库上进行开发.
-我会选取我在完成这个故事中的一个情景入手,这个情景是用户可以跳到&quot;创建新故事&quot;页面,然后可以输入title(文本框,必须填写),city(文本框,必须填写),content(文本框,必须填写),month(下拉框,非必须选择)和year(文本框,必须填写)这几个选项,然后单击&quot;Publish&quot;按钮进行发布,发布之后会跳到 显示故事的页面,它会显示刚刚创建的故事的一些信息. 其中值得注意的是 用户在&quot;创建新故事&quot; 页面的表格中,如果用户跳过month字段,因为它是非必须的,那么在显示故事的页面的&quot;Event Date: &quot;后面只会显示年份,而没有月份.
+我会选取我在完成这个故事中的一个情景入手,这个情景是用户可以跳到&quot;创建新故事&quot;页面,然后可以输入title(文本框,必须填写),city(文本框,必须填写),content(文本框,必须填写),month(下拉框,非必须选择)和year(文本框,必须填写)这几个选项,然后单击&quot;Publish&quot;按钮进行发布,发布之后会跳到 显示故事的页面,它会显示刚刚创建的故事的一些信息. 其中值得注意的是 用户在&quot;创建新故事&quot; 页面的表格中,如果用户跳过month字段,因为它是非必须的,那么在显示故事的页面的&quot;Event Date: &quot;后面只会显示年份,而没有月份.
 
 &lt;img class=&quot;alignleft&quot; title=&quot;Input Form&quot; src=&quot;http://lh5.ggpht.com/_i1xQ-NrcTdU/TPRU1Qf7CvI/AAAAAAAAAEo/3BkrDkgJv8Y/Screen%20shot%202010-11-29%20at%203.35.35%20PM.png&quot; alt=&quot;&quot; width=&quot;500&quot; height=&quot;70&quot; /&gt;
 
@@ -2493,7 +2493,7 @@ public ModelAndView create(@Valid Story story, BindingResult bindingResult, @Cur
      }
      return new ModelAndView(&quot;redirect:/error.jsp&quot;);
 }&lt;/pre&gt;
-这段还是很清楚的,做完数据绑定之后,调用Spring内嵌支持的Validator对Story对象上所有标记Annotation的字段进行验证,并将结果保持到bindResult中,如果出现错误返回到原页面,并将错误信息一并带回.
+这段还是很清楚的,做完数据绑定之后,调用Spring内嵌支持的Validator对Story对象上所有标记Annotation的字段进行验证,并将结果保持到bindResult中,如果出现错误返回到原页面,并将错误信息一并带回.
 这个过程是发生在数据绑定之后的,所以你可以猜到Story对象中一定有month和year字段. 这里必须提到&lt;a href=&quot;http://docs.jboss.org/hibernate/validator/4.0.1/reference/en/html_single/&quot; target=&quot;_blank&quot;&gt;Hibernate Validation Annotation&lt;/a&gt; , 好处在于它使得模型能够拥有自己 的判断逻辑,而不需要跟其他比如UI层发生紧密的耦合,提高可重用性的同时保持自己的纯洁.但是现在Story里面的判断逻辑都是非常简单的,比如像是
 &lt;pre class=&quot;brush:java&quot;&gt;@Column(name = &quot;story_date&quot;, nullable = false)
 public Date getStoryDate() {
@@ -2718,7 +2718,7 @@ In this blog ,probaActually, it is up to you. One thing i learned from software�
    <link href="http://tuo.github.comjrebel-part-2.html"/>
    <updated>2010-10-26T00:00:00+08:00</updated>
    <id>http:/tuo.github.com./jrebel%e5%ae%9e%e8%b7%b5-part2-behind-the-scene</id>
-   <content type="html">这篇BLOG很大程度还得感谢Coach &lt;a href=&quot;http://jawspeak.com/&quot; target=&quot;_blank&quot;&gt;Jonathan&lt;/a&gt; ,我跑过去跟他讨论了一会,他说你可以继续在测测看看在controller层和repository层是否工作, 然后尝试着做一个关于这个的Session,让大家都了解了解,有很大可能会在这个项目中应用.他说了之后,我就开始着手查阅更多资料,然后直接促成了这篇文章,因为经验和认识的原因,里面有些观点可能不太准确.
+   <content type="html">这篇BLOG很大程度还得感谢Coach &lt;a href=&quot;http://jawspeak.com/&quot; target=&quot;_blank&quot;&gt;Jonathan&lt;/a&gt; ,我跑过去跟他讨论了一会,他说你可以继续在测测看看在controller层和repository层是否工作, 然后尝试着做一个关于这个的Session,让大家都了解了解,有很大可能会在这个项目中应用.他说了之后,我就开始着手查阅更多资料,然后直接促成了这篇文章,因为经验和认识的原因,里面有些观点可能不太准确.
 
 实际上我们关心的是如何能在运行时实现重新装载类,而不需要去关闭整个程序.当整个程序跑起来了,特别指明WEB程序,每一次我改动了.java文件,然后编译,但是我想回到页面看到改动后的效果,但是我不想重复一下步骤
 
@@ -2944,7 +2944,7 @@ Brain Rule 是由JOHN MEDINA创建的一个关于研究大脑认知行为的一�
 
 &lt;img class=&quot;alignnone&quot; title=&quot;Brain Rules Cover&quot; src=&quot;http://www.brainrules.net/images/brain_rules_cover_3d_white.jpg&quot; alt=&quot;&quot; width=&quot;345&quot; height=&quot;345&quot; /&gt;
 
-&lt;a href=&quot;http://www.presentationzen.com/presentationzen/  &quot; target=&quot;_blank&quot;&gt;Presentation Zen&lt;/a&gt;有很多有用的知识 关于如何做好PPT等 ZEN禅道  应该跟我当初学CSS时候的网站&lt;a title=&quot;Beauty of CSS design&quot; href=&quot;http://www.csszengarden.com/&quot; target=&quot;_blank&quot;&gt;CSS Zen Garden &lt;/a&gt;取名的想法差不多
+&lt;a href=&quot;http://www.presentationzen.com/presentationzen/  &quot; target=&quot;_blank&quot;&gt;Presentation Zen&lt;/a&gt;有很多有用的知识 关于如何做好PPT等 ZEN禅道  应该跟我当初学CSS时候的网站&lt;a title=&quot;Beauty of CSS design&quot; href=&quot;http://www.csszengarden.com/&quot; target=&quot;_blank&quot;&gt;CSS Zen Garden &lt;/a&gt;取名的想法差不多
 
 下面是三篇我所引用到关于做出好的PPT的引用:
 
@@ -3099,8 +3099,8 @@ Brain Rule 是由JOHN MEDINA创建的一个关于研究大脑认知行为的一�
    <link href="http://tuo.github.comjourney-to-west-part-1.html"/>
    <updated>2010-10-02T00:00:00+08:00</updated>
    <id>http:/tuo.github.com./%e8%a5%bf%e6%b8%b8%e8%ae%b0-%e7%ac%ac%e4%b8%80%e5%ad%a3</id>
-   <content type="html">昨天应该满有趣的,首先是过马路,这个太惊险了,我的天.没有任何人行横道的概念,道路上都是摩托车,三轮车和各种乱七八糟的车,而且它们的速度都超快,完全不理会你这里有什么人.所以场面看起来相当的危险.所以有经验的人总结说:首先,你需要结伴而过,因为撞死十个人远比撞死一个人来得难 或者说他需要付出的代价更高;第二便是要锹准时机,有空隙就立马过去.下午有跟教练见面,教练是ERROL,一个看起来是本地人,但实际却是一个非常地道的旧金山人,口音非常好,我很感谢,是因为我们组有一个印度本地人,这口音,令人发指,我记得昨晚跟新西兰的LOUIS聊天时,遇到了很多有有趣的事情,比如发音方面,有几个单词他们发音的感觉UK的口音非常严重,得仔细辨别才行,其他都OK. 教练大概就讲了一下这次他需要做的事情更像一个领路人,他原本是一个QA,但是经验非常多,所以即使是DEV,有问题也可以问他.晚上去喝酒时,我感觉我这的说笑话的能力还是满全球化的,嘿嘿,聊到笑到不行,很有趣.(拜托 如果换作是印度人,估计我的笑话就不起作用了).
-今天是一个休息日,几个人去附近超市买了点东西,下午回来准备去打球.当我换好衣服来到下面,结果却下雨了,等了一会雨停了,但是球场上积水还是很多.我打电话问了问吴少,看看能不能搞个球,因为他的室友SAM说他想打球,结果他却睡着了......  等了一会借不到球,然后我就跟吴少跟印度本地人打起了球,场地上都是水,鞋子都湿透了.你别说,印度小孩打球还真的可以啊,还有一个长的高点的,投篮比校准,没办法,场地上都是水,超滑,而且那个篮筐简直令人发指,好吧,我承认这是一个场地问题.就这么打了一会,SAM有下来了,额,非常高,使我们之一批中最高的一个,大概一米九五,令人发指,不过他以前是打冰球的,所以打起篮球来有点僵硬,缺乏灵活性,投篮真是水到不行,好几个要么是蓝外空心,要么是用户过猛,令人疑惑的是人家还要跟我们比投篮,我当时想&quot;大姐,你这是自取欺辱阿,呵呵&quot;. 结果可想而知,被我们玩爆,呵呵.过了一会,那个印度人说要球走了,结果就没球了.大家都觉得非常不爽,拜托,打到一半就没了,这还不SUCKS,然后我们商量了一下要么去买个球或者是租个球,但此时要下雨了,就约定去搞个球下次打.
+   <content type="html">昨天应该满有趣的,首先是过马路,这个太惊险了,我的天.没有任何人行横道的概念,道路上都是摩托车,三轮车和各种乱七八糟的车,而且它们的速度都超快,完全不理会你这里有什么人.所以场面看起来相当的危险.所以有经验的人总结说:首先,你需要结伴而过,因为撞死十个人远比撞死一个人来得难 或者说他需要付出的代价更高;第二便是要锹准时机,有空隙就立马过去.下午有跟教练见面,教练是ERROL,一个看起来是本地人,但实际却是一个非常地道的旧金山人,口音非常好,我很感谢,是因为我们组有一个印度本地人,这口音,令人发指,我记得昨晚跟新西兰的LOUIS聊天时,遇到了很多有有趣的事情,比如发音方面,有几个单词他们发音的感觉UK的口音非常严重,得仔细辨别才行,其他都OK. 教练大概就讲了一下这次他需要做的事情更像一个领路人,他原本是一个QA,但是经验非常多,所以即使是DEV,有问题也可以问他.晚上去喝酒时,我感觉我这的说笑话的能力还是满全球化的,嘿嘿,聊到笑到不行,很有趣.(拜托 如果换作是印度人,估计我的笑话就不起作用了).
+今天是一个休息日,几个人去附近超市买了点东西,下午回来准备去打球.当我换好衣服来到下面,结果却下雨了,等了一会雨停了,但是球场上积水还是很多.我打电话问了问吴少,看看能不能搞个球,因为他的室友SAM说他想打球,结果他却睡着了......  等了一会借不到球,然后我就跟吴少跟印度本地人打起了球,场地上都是水,鞋子都湿透了.你别说,印度小孩打球还真的可以啊,还有一个长的高点的,投篮比校准,没办法,场地上都是水,超滑,而且那个篮筐简直令人发指,好吧,我承认这是一个场地问题.就这么打了一会,SAM有下来了,额,非常高,使我们之一批中最高的一个,大概一米九五,令人发指,不过他以前是打冰球的,所以打起篮球来有点僵硬,缺乏灵活性,投篮真是水到不行,好几个要么是蓝外空心,要么是用户过猛,令人疑惑的是人家还要跟我们比投篮,我当时想&quot;大姐,你这是自取欺辱阿,呵呵&quot;. 结果可想而知,被我们玩爆,呵呵.过了一会,那个印度人说要球走了,结果就没球了.大家都觉得非常不爽,拜托,打到一半就没了,这还不SUCKS,然后我们商量了一下要么去买个球或者是租个球,但此时要下雨了,就约定去搞个球下次打.
 晚上会住处的时候,DAMON正有在看电视,跟他聊了下晚上的篮球和LEBRON JAMES等等的话题,看来看NBA有个好处就是跟他们聊这个很有话题,呵呵,准备搞到球后下次一起打,看起来他还是应该会比较蹦达把,很期待.
 昨天吃站立早餐时有跟茱丽叶聊了会,很明显,只要是个美国人,跟她们说起NBA篮球之类的,都会有很多话题,顺便还聊到了音乐,我顺手说了个什么乡村音乐,她很差异,你连这个都有喜好,看不出来阿.然后又讲到了嘻哈音乐,我说JAY_Z,EMINEM很酷,没想到人家觉得,恩....我觉得是年纪问题把,但是我觉得这个笑话不太好,然后要收回了,看起来还不错.
 

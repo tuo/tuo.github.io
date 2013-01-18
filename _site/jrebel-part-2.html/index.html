@@ -8,6 +8,7 @@
 <!--<![endif]-->
   <head>
     <meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
     <title>JRebel实践  part2 behind the scene</title>
 
@@ -82,7 +83,7 @@
   </div>
 
   <div class="ten columns" id="article-content">
-    这篇BLOG很大程度还得感谢Coach <a href="http://jawspeak.com/" target="_blank">Jonathan</a> ,我跑过去跟他讨论了一会,他说你可以继续在测测看看在controller层和repository层是否工作, 然后尝试着做一个关于这个的Session,让大家都了解了解,有很大可能会在这个项目中应用.他说了之后,我就开始着手查阅更多资料,然后直接促成了这篇文章,因为经验和认识的原因,里面有些观点可能不太准确.
+    这篇BLOG很大程度还得感谢Coach <a href="http://jawspeak.com/" target="_blank">Jonathan</a> ,我跑过去跟他讨论了一会,他说你可以继续在测测看看在controller层和repository层是否工作, 然后尝试着做一个关于这个的Session,让大家都了解了解,有很大可能会在这个项目中应用.他说了之后,我就开始着手查阅更多资料,然后直接促成了这篇文章,因为经验和认识的原因,里面有些观点可能不太准确.
 
 实际上我们关心的是如何能在运行时实现重新装载类,而不需要去关闭整个程序.当整个程序跑起来了,特别指明WEB程序,每一次我改动了.java文件,然后编译,但是我想回到页面看到改动后的效果,但是我不想重复一下步骤
 
