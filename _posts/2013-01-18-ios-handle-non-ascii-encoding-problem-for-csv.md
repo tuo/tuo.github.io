@@ -7,9 +7,9 @@ published: true
 
 ## 起因
 
-&nbsp;&nbsp;&nbsp;&nbsp;最近一次iOS项目中需要按照CSV格式拼装字符串然后添加到邮件作为附件。但是在这个过程我遇到两个很常见的问题：non-ascii编码和BOM(Byte Order Mark)字节顺序标记。
+&nbsp;&nbsp;&nbsp;&nbsp;最近一次iOS项目中需要按照CSV格式拼装字符串然后添加到邮件作为附件。但是在这个过程我遇到两个很常见的问题：CSV格式和non-ascii编码及BOM(Byte Order Mark)字节顺序标记。
  
-##Non-ASCII编码##
+##CSV格式##
 这个比较棘手过程开始于：因为将要发送的CSV字符串中有中文符号（数据统计相关的东西），所以我需要支持unicode编码。
 <br/>
 当然最简单的实现方式是:
@@ -49,7 +49,7 @@ NSString *timestamp = [dateFormatter stringFromDate:[NSDate date]];
 **新的问题是： 每个格子的中文都是乱码？**
 ![乱码](/static/images/20130118/1.png)
 	 
-##BOM##
+##Non-ASCII编码以及BOM##
 
 要解决这些乱码问题，首先我们需要指导为什么我们可以通过向CSV文件的头部插入BOM的方式来消除乱码？长话短说，就是它一个让文件接收方知道发送方使用了何种Unicode编码方式的标记，所以通过它我们可以正确的解析字符流。
 <br/>
