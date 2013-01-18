@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "iOS解决CSV文件的编码问题"
+title: "iOS解决CSV文件的中文编码问题"
 category: iOS
 published: true
 ---
