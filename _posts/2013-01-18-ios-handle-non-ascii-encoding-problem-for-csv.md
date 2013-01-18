@@ -64,8 +64,8 @@ NSString *timestamp = [dateFormatter stringFromDate:[NSDate date]];
 [csvString appendString:[NSString stringWithFormat:@"\xEF\xBB\xBF%@\t%@\t%@\t%@\r\n", @"黄拓", @"男", @"65 kg", timestamp]];
 [csvString appendString:[NSString stringWithFormat:@"\xEF\xBB\xBF%@\t%@\t%@\t%@\r\n", @"詹姆斯", @"女", @"25 kg", timestamp]];
  NSString *sourceString = [[NSString alloc] initWithFormat:@"\xEF\xBB\xBF%@", csvString];
-NSData *convertedData = [sourceString dataUsingEncoding:NSUTF16StringEncoding allowLossyConversion:YES];
-[picker addAttachmentData:[csvString dataUsingEncoding:NSUTF8StringEncoding] mimeType:@"text/csv" fileName:@"statistics.csv"];
+NSData *encodedData = [sourceString dataUsingEncoding:NSUTF16StringEncoding allowLossyConversion:YES];
+[picker addAttachmentData:encodedData mimeType:@"text/csv" fileName:@"statistics.csv"];
 {% endhighlight %}	
 
 你可以很奇怪，我们应该只需要在头部添加BOM标记就好啦， 为什么每一行内容都需要添加这个标记？
