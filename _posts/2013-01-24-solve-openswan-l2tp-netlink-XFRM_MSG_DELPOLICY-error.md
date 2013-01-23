@@ -78,4 +78,10 @@ Then I add following lines to that file:
 		dpdtimeout=130
 		dpdaction=clear
 
+
+**DO remember to restart IPsec&Xl2tpd services**
+
+		sudo service ipsec restart
+		sudo service xl2tpd restart
+		
 And it works! YEAH!
