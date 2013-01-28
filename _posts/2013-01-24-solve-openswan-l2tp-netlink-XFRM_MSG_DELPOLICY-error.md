@@ -22,66 +22,46 @@ I do search on google and openswan forum. But there isn't any clear/direct answe
 
 #XFRM_MSG_DELPOLICY? WTF!!!
 Until I saw the this post on OpenSwan forum : 
-		[What's xl2tpd's 'ERROR: netlink XFRM_MSG_DELPOLICY ...' about?](http://readlist.com/lists/openswan.org/users/2/12949.html)
+		[What's xl2tpd's 'ERROR: netlink XFRM_MSG_DELPOLICY ...' about?](https://lists.openswan.org/pipermail/users/2011-April/020411.html)
 
-The answer is really brief and I have no idea what he is saying. 
+The answer is really brief.
 
->	Specify a specified listen-addr IP, do not use 0.0.0.0. It causes
->	problems with putting the proper src ip on UDP reply packets.
+	> 2) I have all along been experiencing the behavior in OpenSwan that I think is a documented bug:  When I disconnect my iPhone from the VPN, I need to restart it with /etc/init.d/ipsec restart before I'm able to reconnect.  Is there a known fix to this?  I actually have an idea on how I can set up a password-protected URL to remotely restart it, so in a pinch, I can get that working, but obviously a proper fix would be ideal.
+	That's a known apple bug, and should be resolved if you use openswan 2.6.33 and xl2tpd 1.2.8
 
+Here is solution: make sure you have correct version of OpenSwan and Xl2tpd.
 
-Then I guess he is saying some attribute in /etc/ipsec.conf and after played some time, I figure it out.
+	sudo ipsec --version	
 
-Here is solution:
+Then you get following info:
+	
+	Linux Openswan U2.6.34/K3.0.0-12-generic (netkey)
+	See `ipsec --copyright' for copyright information.
 
-open  /etc/ipsec.conf and add or replace with following lines:
+Check Xl2tpd version by running:
+	
+	sudo xl2tpd --version
+	
+Then you get:
+	
+	xl2tpd version:  xl2tpd-1.2.8
 
-		leftnexthop=X.X.X.X
-		dpddelay=40
-		dpdtimeout=130
-		dpdaction=clear
+So make sure you get OpenSwan 2.6.33 installed. 
 
-**Remember the leftnexthop value should be the same with value of 'left'**
+	cd /usr/src
+	wget http://www.openswan.org/download/openswan-2.6.33.tar.gz
+	tar zxvf openswan-2.6.33.tar.gz
+	cd openswan-2.6.33
+	make programs install
 
-For me, here is my previous config file:
+But failed. Because that version is not compatible with current kernel version.
 
-	version 2.0
-	config setup
-	    nat_traversal=yes
-	    virtual_private=%v4:10.0.0.0/8,%v4:192.168.0.0/16,%v4:172.16.0.0/12
-	    oe=off
-	    protostack=netkey
+Then I try version 2.6.34 and it got isntalled.
 
-	conn L2TP-PSK-NAT
-	    rightsubnet=vhost:%priv
-	    also=L2TP-PSK-noNAT
+Then you config the /etc/ipsec.conf and ipsec.secrets.
 
-	conn L2TP-PSK-noNAT
-	    authby=secret
-	    pfs=no
-	    auto=add
-	    keyingtries=3
-	    rekey=no
-	    ikelifetime=8h
-	    keylife=1h
-	    type=transport
-	    left=209.141.44.110
-	    leftprotoport=17/1701
-	    right=%any
-	    rightprotoport=17/%any
-		
+Do remember to reboot to make ipsec work.
 
-Then I add following lines to that file:
-		
-		leftnexthop=209.141.44.110
-		dpddelay=40
-		dpdtimeout=130
-		dpdaction=clear
+After reboot, try */etc/init.d/ipsec restart* and *ipsec verify*  and it should work.
 
-
-**DO remember to restart IPsec&Xl2tpd services**
-
-		sudo service ipsec restart
-		sudo service xl2tpd restart
-		
-And it works! YEAH!
+Yep!
