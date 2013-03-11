@@ -5,7 +5,6 @@ category: "ios"
 published: true
 ---
 
-#iOS ViewController内存
 在做一个关于相片的app中，发现app使用起来是越来越慢，甚至就是有时崩溃了最后.我们用instruments打开之后观察内存的使用情况发现，从root vc -> detail A vc 之后内存占用变大了，这个没有任何问题，但是从detail A vc返回到root vc之后发现内存占用率却依然是没有降下来.所以如果你尝试几次root vc -> details A vc -> root vc --> detail B vc --> root vc， 这里当然是基于UINavigationController来管理每个controller之间的过渡，就会发现内容占用简直要爆表了. 
 	
 这个很奇怪，我们当时想也许是从detail A返回之后， detail A的viewDidUnload方法没有被调用，所以它所引用的对象都没有被释放.这个就很奇怪了，我的理解是如果你一旦调用了popViewController:animated（如果你使用Seague，其实质也是调用此方法), 那么对应的detail A viewcontroller的viewDidUnload应该是会调用的，如果不是立刻被调用，也应该是很快。但是却发现一直没有被调用，但是dealloc()方法却是被调用了。于是为了验证我的理解是否准确，我创建了一个新项目，很简单的流程 UINavigationController -> RootVC -> DetailVC， 然后调试后发现，每次从DetailVC返回到RootVC，DetailVC的dealloc()几乎是“立刻“”被执行了，但是viewDidUnload却是没有.看了一下api文档,
