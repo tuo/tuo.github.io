@@ -31,3 +31,5 @@ Now the reason I wacthed these video is because it lets me know that I need to g
 there and fight every day. 
 现在我仍然看着这些视频，因为我要告诫自己每天都要努力。
 
+
+努力
