@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Stupid setAlpha on Android"
+title: "Android上setAlpha诡异问题"
 date: 2013-03-14 13:18:35 +0800
-published: false
+published: true
 tags: 
 - android #tags go here: space-separated string
 ---
