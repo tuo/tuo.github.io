@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "iOS ViewController内存"
+title: "iOS ViewController内存问题"
 category: "ios"
 published: true
 ---
