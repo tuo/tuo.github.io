@@ -30,8 +30,8 @@ tags:
 	
 
 终于正常了	
-{% highlight java %}
+```java
 float opacity = (float) (1.0 - ((float)currentTime/1000.0 - spot.originalStartTime)/FADE_OUT_DURATION);
 if(opacity < 0)opacity = 0;
 hview.setAlpha((int)(255.0*opacity));
-{% endhighlight %}
+```
