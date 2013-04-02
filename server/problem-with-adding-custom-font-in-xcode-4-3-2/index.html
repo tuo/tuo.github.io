@@ -1,0 +1,149 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>problem with adding custom font in Xcode 4.3.2</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds2.feedburner.com/tu0huang" rel="alternate" title="Tuo" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>tuohuang</a></li>
+          <li><span class="gray">Tuo Huang 黄拓</span></li>
+          <li><a href="mailto:clarkhtse@gmail.com.com">clarkhtse@gmail.com.com</a></li>
+          <li><a href="http://twitter.com/tu0huang">@tu0huang</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:clarkhtse@gmail.com?subject=hi" class="icon-envelope-alt" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/tu0huang" class="icon-twitter" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/tuo" class="icon-github"  title="I share and fork code here"></a>
+            </li>
+            <li>
+              <a href="http://feeds2.feedburner.com/tu0huang" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Tuo Huang 黄拓</span><a href="http://weibo.com/tu0huang" style="display:inline-block;"><img src='/static/images/sinaweibo.png'/></a></li>
+            <li class="gray">iOS and Android developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>problem with adding custom font in Xcode 4.3.2</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Apr 13, 2012
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    &nbsp;&nbsp;&nbsp;&nbsp;Well, I guess John Muchow's blog <a href="http://iphonedevelopertips.com/user-interface/load-and-access-custom-fonts.html" target="_blank">Load and Access Custom Fonts" </a> pretty much said everything about adding custom font before xcode 4.3.2. Before Xcode 4.3.2, when you add custom font, you need to make sure name of font you use in following code snippet:
+
+<div class="highlight"><pre><code class="objectivec"><span class="p">[</span><span class="n">label2</span> <span class="n">setFont</span><span class="o">:</span> <span class="p">[</span><span class="n">UIFont</span> <span class="n">fontWithName</span><span class="o">:</span> <span class="s">@&quot;BlackBoard&quot;</span> <span class="n">size</span><span class="o">:</span><span class="mi">18</span><span class="p">]];</span>
+</code></pre>
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3>Where is my font ?</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;the "BlarkBoard" is the real name when you install it on mac. So the file name you just add to Resource and plist file , like "BlackBoard.ttf" is always the same the name of font that installed on mac.So you need to open that font file in FontBook, and write the name showing up down, like "Black BoardSb".
+&nbsp;&nbsp;&nbsp;&nbsp;Then when you want to refer to font in the code:
+<pre lang="c">[label2 setFont: [UIFont fontWithName: @"Black BoardSb" size:18]];</pre>
+
+&nbsp;&nbsp;&nbsp;&nbsp;That is so important and it is always easy to forget about. Actually there is one way to debug it when the fonts doesn't show up as you expected by using:
+<pre lang="c">NSLog(@"Available fonts: %@", [UIFont familyNames]);</pre>
+
+&nbsp;&nbsp;&nbsp;&nbsp;So far, all is good. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h3>But if you use Xcode 4.3.2......</h3>
+&nbsp;&nbsp;&nbsp;But if you use Xcode 4.3.2, although you are very sure that every steps above are done properly, you still can't find the font you expected in
+the log message of [UIFont familyNames].
+Here is the reason:
+<em><strong>          You have to go to "Copy Bundle Resources" in "Build Phases" of your project, and add font file to that list.</strong></em>
+
+
+<a href="http://www.flickr.com/photos/54952827@N02/6927232622/" title="Screen Shot 2012-04-13 at 6.24.59 PM by Tuo Huang, on Flickr"><img src="http://farm6.staticflickr.com/5197/6927232622_a5fefae380_z.jpg" width="640" height="114" alt="Screen Shot 2012-04-13 at 6.24.59 PM"></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Then run the project. Bang! It works now.
+&nbsp;&nbsp;&nbsp;&nbsp;I've no freaking idea what's going on.It seems there is a bug relating to custom font in Xcode 4.3.2.
+
+
+  </div>
+  <hr style="visibility:hidden;"/>
+  
+  <!--<footer class="ten columns">
+    <p id='follow'>
+       Follow me on <a href="http://twitter.com/tu0huang">Twitter</a> &
+       <a href="http://weibo.com/tu0huang">Weibo</a>	   
+    </p>
+  </footer> -->
+</article>
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ten columns offset-by-four" style="margin-bottom: 11px;">
+	<a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f9651243f1723a"></script>
+<!-- AddThis Button END -->
+<div style="margin-bottom:10px;"/>
+<div id="disqus_thread" class="ten columns offset-by-four"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tuohuang'; // required: replace example with your forum shortname
+  var disqus_identifier = '/tuohuangid';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    </div>
+  </body>
+</html> 

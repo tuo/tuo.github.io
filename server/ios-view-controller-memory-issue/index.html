@@ -1,0 +1,155 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>iOS ViewController内存问题</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds2.feedburner.com/tu0huang" rel="alternate" title="Tuo" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>tuohuang</a></li>
+          <li><span class="gray">Tuo Huang 黄拓</span></li>
+          <li><a href="mailto:clarkhtse@gmail.com.com">clarkhtse@gmail.com.com</a></li>
+          <li><a href="http://twitter.com/tu0huang">@tu0huang</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:clarkhtse@gmail.com?subject=hi" class="icon-envelope-alt" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/tu0huang" class="icon-twitter" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/tuo" class="icon-github"  title="I share and fork code here"></a>
+            </li>
+            <li>
+              <a href="http://feeds2.feedburner.com/tu0huang" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Tuo Huang 黄拓</span><a href="http://weibo.com/tu0huang" style="display:inline-block;"><img src='/static/images/sinaweibo.png'/></a></li>
+            <li class="gray">iOS and Android developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>iOS ViewController内存问题</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Mar 11, 2013
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <p>在做一个关于相片的app中，发现app使用起来是越来越慢，甚至就是有时崩溃了最后.我们用instruments打开之后观察内存的使用情况发现，从root vc -&gt; detail A vc 之后内存占用变大了，这个没有任何问题，但是从detail A vc返回到root vc之后发现内存占用率却依然是没有降下来.所以如果你尝试几次root vc -&gt; details A vc -&gt; root vc –&gt; detail B vc –&gt; root vc， 这里当然是基于UINavigationController来管理每个controller之间的过渡，就会发现内容占用简直要爆表了. </p>
+
+<p>这个很奇怪，我们当时想也许是从detail A返回之后， detail A的viewDidUnload方法没有被调用，所以它所引用的对象都没有被释放.这个就很奇怪了，我的理解是如果你一旦调用了popViewController:animated（如果你使用Seague，其实质也是调用此方法), 那么对应的detail A viewcontroller的viewDidUnload应该是会调用的，如果不是立刻被调用，也应该是很快。但是却发现一直没有被调用，但是dealloc()方法却是被调用了。于是为了验证我的理解是否准确，我创建了一个新项目，很简单的流程 UINavigationController -&gt; RootVC -&gt; DetailVC， 然后调试后发现，每次从DetailVC返回到RootVC，DetailVC的dealloc()几乎是“立刻“”被执行了，但是viewDidUnload却是没有.看了一下api文档,</p>
+
+<pre><code>Called when the controller’s view is released from memory. (Deprecated in iOS 6.0. Views are no longer purged under low-memory conditions and so this method is never called.)
+</code></pre>
+
+<p>所以这个是其实是在iOS5上只有当出现Receiving memory warning,才会被调用.</p>
+
+<p>反过头来，我觉得那么Detail VC的viewDidUnload是没有被调用，但是dealloc方法应该是被调用了，那么内存占用率应该是降下来才对啊，但是却发现dealloc根本木有被执行.</p>
+
+<p>所以猜测应该是这个对象依然仍然被引用着，导致无法被回收。 仔细看了看代码，使用了最笨的调试方式–就是删除所有代码，只保留非常基础的代码之后发现依然没有被调用。 接着看了看它的父类，果然发现了问题.</p>
+
+<p>在BaseViewController的viewDidLoad中发现了下面代码：</p>
+
+<pre><code>[NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(updateSyncStatus:) userInfo:nil repeats:YES];
+[self updateSyncStatus:nil];
+
+
+(void)updateSyncStatus:(id)sender {
+     BOOL nowSyncing = ([[SyncManager sharedInstance] uploadInProgress] || [[SyncManager sharedInstance] downloadInProgress]);
+     if (nowSyncing!=self.syncing) {
+	 	....
+     }
+ }
+</code></pre>
+
+<p>你可以发现代码中只有初始化timer，却没有相对的invalidate timer的代码，但是本应该被释放的对象无法被回收，致使内存占用率居高不下.</p>
+
+<pre><code>The dealloc method was not being called if any of the references held by a viewcontroller were still in memory
+</code></pre>
+
+<p>将初始化timer放到viewWillAppear，invalidate timer的代码放到viewWillDisappear变解决了问题.	</p>
+
+  </div>
+  <hr style="visibility:hidden;"/>
+  
+  <!--<footer class="ten columns">
+    <p id='follow'>
+       Follow me on <a href="http://twitter.com/tu0huang">Twitter</a> &
+       <a href="http://weibo.com/tu0huang">Weibo</a>	   
+    </p>
+  </footer> -->
+</article>
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ten columns offset-by-four" style="margin-bottom: 11px;">
+	<a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f9651243f1723a"></script>
+<!-- AddThis Button END -->
+<div style="margin-bottom:10px;"/>
+<div id="disqus_thread" class="ten columns offset-by-four"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tuohuang'; // required: replace example with your forum shortname
+  var disqus_identifier = '/tuohuangid';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    </div>
+  </body>
+</html> 

@@ -1,0 +1,168 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>Solution to mobile</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds2.feedburner.com/tu0huang" rel="alternate" title="Tuo" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>tuohuang</a></li>
+          <li><span class="gray">Tuo Huang 黄拓</span></li>
+          <li><a href="mailto:clarkhtse@gmail.com.com">clarkhtse@gmail.com.com</a></li>
+          <li><a href="http://twitter.com/tu0huang">@tu0huang</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:clarkhtse@gmail.com?subject=hi" class="icon-envelope-alt" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/tu0huang" class="icon-twitter" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/tuo" class="icon-github"  title="I share and fork code here"></a>
+            </li>
+            <li>
+              <a href="http://feeds2.feedburner.com/tu0huang" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Tuo Huang 黄拓</span><a href="http://weibo.com/tu0huang" style="display:inline-block;"><img src='/static/images/sinaweibo.png'/></a></li>
+            <li class="gray">iOS and Android developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>Solution to mobile</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    <p>I assume you have read the <a href="http://www.boi2012.lv/data/day1/eng/mobile.pdf">task
+description</a>.</p>
+
+<p>I used about 45 minutes of thinking before I started implementing my first solution
+to this task. First, I was thinking about doing an actual simulation of
+expanding the radius of the mobile towers, but I thought that would be very
+slow, so I abondoned this idea. That was stupid, as seen later. I learned from
+this task, that sometimes you SHOULD simulate whatever is actually going on!</p>
+
+<p>Because you can have an error margin of <code>Δ10^-3</code>, my first solution was pretty
+simple: Start at the very beginning of the road (position <code>p</code>), calculate distances
+to all the mobile towers, add <code>10^-3</code> to <code>p</code>, repeat for all points. That meant I had to check
+from <code>p = 0</code> to <code>p = l</code>, with the road length <code>l</code>. With
+a total <code>n</code> mobile towers, this algorithim ran in <code>O((1/10^-3) * l
+* n) = O(l * n)</code> time, which was not ideal, since <code>l</code> grows pretty quickly as
+  opposed to <code>n</code>. However, decent for a rather simple solution.</p>
+
+<p>Looking for another solution, I observed that the only relevant points on the
+road are its endpoints and the intersections between the road, and the line ortogonal 
+on the middle of the line connecting two mobile towers:</p>
+
+<p><img src="/static/images/ioi/mobile-task-1.jpg" alt="" /></p>
+
+<p>This solution takes <code>O(n^3)</code> time, because you have to check for every single
+pair. You can prove that the x-coordinate of these relevant points on the highway for a pair of towers 
+  <code>(x1, y1)</code> and <code>(x2, y2)</code> are calculted by: <code>1/2 * (x1 + x2 + (y1^2 - y2^2)/(x1 - x2))</code>
+I figured I’d be better off with my first solution, which is what I
+ended up submitting.</p>
+
+<p>I said that I made the mistake of not simulating the real thing, after the
+competition we agreed that the best solution would probably have been exactly
+this. If you start with some radius <code>r</code>, and then check whether the circles from
+all the towers cover the whole road, you should do a binary search based on the results.
+  You can check
+whether it covers the whole road by finding the intersections between each
+circle and the road, then you check whether you can merge these ranges of
+intersections in a fashion so that the entire road is covered. This binary
+search checks all <code>n</code> towers, thus it runs in <code>O(log(m) * n)</code> time, where <code>m</code> is
+the maximum coordinate of a tower.</p>
+
+<p><img src="/static/images/ioi/mobile-task-2.jpg" alt="" /></p>
+
+<p>Not even the binary search is optimum, and you would not receive full points for
+that solution. Nobody at the competition achieved full points in this task.</p>
+
+<p><a href="http://www.boi2012.lv/data/day1/spoilers/mobile.pdf">Official solutions</a></p>
+
+  </div>
+  <hr style="visibility:hidden;"/>
+  
+  <!--<footer class="ten columns">
+    <p id='follow'>
+       Follow me on <a href="http://twitter.com/tu0huang">Twitter</a> &
+       <a href="http://weibo.com/tu0huang">Weibo</a>	   
+    </p>
+  </footer> -->
+</article>
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ten columns offset-by-four" style="margin-bottom: 11px;">
+	<a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f9651243f1723a"></script>
+<!-- AddThis Button END -->
+<div style="margin-bottom:10px;"/>
+<div id="disqus_thread" class="ten columns offset-by-four"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tuohuang'; // required: replace example with your forum shortname
+  var disqus_identifier = '/tuohuangid';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    </div>
+  </body>
+</html> 

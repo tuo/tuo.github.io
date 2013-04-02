@@ -1,0 +1,159 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>Rails的一些实践</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds2.feedburner.com/tu0huang" rel="alternate" title="Tuo" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>tuohuang</a></li>
+          <li><span class="gray">Tuo Huang 黄拓</span></li>
+          <li><a href="mailto:clarkhtse@gmail.com.com">clarkhtse@gmail.com.com</a></li>
+          <li><a href="http://twitter.com/tu0huang">@tu0huang</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:clarkhtse@gmail.com?subject=hi" class="icon-envelope-alt" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/tu0huang" class="icon-twitter" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/tuo" class="icon-github"  title="I share and fork code here"></a>
+            </li>
+            <li>
+              <a href="http://feeds2.feedburner.com/tu0huang" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Tuo Huang 黄拓</span><a href="http://weibo.com/tu0huang" style="display:inline-block;"><img src='/static/images/sinaweibo.png'/></a></li>
+            <li class="gray">iOS and Android developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>Rails的一些实践</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Feb 14, 2011
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    &nbsp;&nbsp;&nbsp;&nbsp;这篇文章拖到过年之后才写,真是够拖拉的,厄,不过赶的早不如赶得巧，刚好Ryan Bates更新他的railscasts<a href="http://railscasts.com/episodes/252-metrics-metrics-metrics" target="_blank">Metrics Metrics Metrics</a>，而这集跟我要将的东东还蛮有联系的.过年之前我一直在一个公司内部的rails项目试手,因为之前我没有任何的ruby/rails经验,所以这个项目的过程也是有点点坎坷的.我一边在学习知识,同时又将刚刚学到的东西应用出来,就是一个不断学习不断改进的过程.整个学习过程中当然也参考了很多网站拉,比如railscasts阿等等.
+那其实整个过程中我都有收获满多的心得,很多之前写的不是elegant的代码,随着后来对其识认识的进一步深入而
+变的更加的干淨整洁了.我当时也有萌芽个想法去总结这个东西,因为那个时候整个办公室也是有满多跟我一样的rails/ruby新手,如果有这个总结性的东西,也更加有利于知识的分享,更重要的是一个抛砖引玉的效果,让大家的想法经验都能汇集起来.但是一直没有找到这样的一个方式能帮助我更好将心得给表达出来.直到我发现了ihower的rails best pratice这个ppt,这才让我找到了这样一个很不错的方式和参考。
+<div id="__ss_6915034" style="width: 425px;"><strong style="display: block; margin: 12px 0 4px;"><a title="rails best pratice from feedback" href="http://www.slideshare.net/clarkht/rails-best-pratice-from-feedback">rails best pratice from feedback</a></strong><object id="__sse6915034" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="355" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="src" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=feedbackrailsbk-110213203623-phpapp01&amp;stripped_title=rails-best-pratice-from-feedback&amp;userName=clarkht" /><param name="name" value="__sse6915034" /><param name="allowfullscreen" value="true" /><embed id="__sse6915034" type="application/x-shockwave-flash" width="425" height="355" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=feedbackrailsbk-110213203623-phpapp01&amp;stripped_title=rails-best-pratice-from-feedback&amp;userName=clarkht" name="__sse6915034" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<div style="padding: 5px 0 12px;">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/clarkht">clarkht</a>.</div>
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;实际上了，大部分上面的practice还都是蛮有用的，但是有些地方还真是不一定适用。比如上面提到的使用metaprogramming来减少一些重复，还有一段代码
+
+def self.all_cmts
+Person.all.select{|p| p.cmt?}
+end
+
+def self.all_hrs
+Person.all.select{|p| p.hr?}
+end
+&nbsp;&nbsp;&nbsp;&nbsp;以开始我也想得是说使用metaprogramming来减少重复，但是发现写出来的代码实际上是蛮复杂的，考虑到代码的可读性和可维护性，在这个桉例上我们并没有使用这个practice.
+
+&nbsp;&nbsp;&nbsp;&nbsp;那其实还有另外一点值得提到的就是，在session过程进行到permission check这一块时，我其实是没有特别好的注意或办法的，因为这一块我也不是非常熟，所以我想的是把这个问题抛出来，果然徐昊有提出了更好的方桉。相对于我将权限检查这一块扔到模型层（原因是因为需要权限检查将会是在一个非常细粒度的级别上，比如字段，当然我也参考过那个<a href="https://github.com/stffn/declarative_authorization"  target="_blank">declarative authorization</a>，它应该是能够在字段级别进行检查，或许不是很大问题，但是如何垮字段的检查，不是特别清楚，但是那是一个不同的故事了） ， 而是将权限检查提取到控制层，从而保持模型层的干淨整洁，pretty cool。
+
+<a href=" http://ihower.tw/blog/archives/3075" target="_blank">Rails Best Practices 投影片</a>
+
+<a href="http://railscasts.com/episodes/252-metrics-metrics-metrics" target="_blank">Railscasts  Metric Fu</a>
+
+<a href="https://github.com/flyerhzm/rails_best_practices" target="_blank">Rails Best Practice Gem</a>
+
+<a href="http://rails-bestpractices.com/" target="_blank">Rails Best Practice Website</a>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;下面是我订阅的關於rails的一些博客.
+<script src="https://www.google.com/reader/ui/publisher-en.js" type="text/javascript"></script> <script src="https://www.google.com/reader/public/javascript/user/01832955315015118142/label/Rails?n=5&amp;callback=GRC_p(%7Bc%3A%22blue%22%2Ct%3A%22%5C%22Rails%5C%22%20via%20Clarkht%22%2Cs%3A%22false%22%2Cn%3A%22true%22%2Cb%3A%22false%22%7D)%3Bnew%20GRC" type="text/javascript"></script>
+
+Update:  
+<a href="http://ihower.tw/blog/archives/1691" target="_blank">
+如何寫出有效率的 Ruby Code
+by ihower </a>
+
+<a href="http://www.informit.com/store/product.aspx?isbn=0321540034" target="_blank">Writing Efficient Ruby Code</a>
+
+  </div>
+  <hr style="visibility:hidden;"/>
+  
+  <!--<footer class="ten columns">
+    <p id='follow'>
+       Follow me on <a href="http://twitter.com/tu0huang">Twitter</a> &
+       <a href="http://weibo.com/tu0huang">Weibo</a>	   
+    </p>
+  </footer> -->
+</article>
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ten columns offset-by-four" style="margin-bottom: 11px;">
+	<a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f9651243f1723a"></script>
+<!-- AddThis Button END -->
+<div style="margin-bottom:10px;"/>
+<div id="disqus_thread" class="ten columns offset-by-four"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tuohuang'; // required: replace example with your forum shortname
+  var disqus_identifier = '/tuohuangid';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    </div>
+  </body>
+</html> 

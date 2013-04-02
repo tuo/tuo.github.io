@@ -1,0 +1,290 @@
+
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 	
+<html lang="en"> 
+<!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	<!-- Force Latest IE rendering engine -->
+    <title>Arduino+L298N+蓝牙+nodejs</title>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600' rel='stylesheet' type='text/css'>
+    <link href="http://feeds2.feedburner.com/tu0huang" rel="alternate" title="Tuo" type="application/atom+xml" /> 
+    <link rel="shortcut icon" href="/static/images/favicon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+
+    <link rel="stylesheet" href="/static/css/style.css">
+
+    <!--[if IE 7]>
+      <script src="/static/css/font-awesome-ie7.css"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">	
+      <div id='mobile' class='two columns hidden'>
+        <ul>
+          <li><a href='/'>tuohuang</a></li>
+          <li><span class="gray">Tuo Huang 黄拓</span></li>
+          <li><a href="mailto:clarkhtse@gmail.com.com">clarkhtse@gmail.com.com</a></li>
+          <li><a href="http://twitter.com/tu0huang">@tu0huang</a></li>
+        </ul>
+      </div>
+
+      <div class="four columns sidebar">
+        <section>
+          <a id="avatar" href="/"></a>
+
+          <ul id="social">
+            <li>
+              <a href="mailto:clarkhtse@gmail.com?subject=hi" class="icon-envelope-alt" title="Say hi"></a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/tu0huang" class="icon-twitter" title="You should follow me" style="font-size: 28px;"></a>
+            </li>
+
+            <li>
+              <a href="http://github.com/tuo" class="icon-github"  title="I share and fork code here"></a>
+            </li>
+            <li>
+              <a href="http://feeds2.feedburner.com/tu0huang" class="icon-rss" onClick="_gaq.push(['_trackEvent', 'Link', 'Click', 'Sidebar RSS']);" title="RSS"></a>
+            </li>
+          </ul>
+
+          <ul id="me">
+            <li>Tuo Huang 黄拓</span><a href="http://weibo.com/tu0huang" style="display:inline-block;"><img src='/static/images/sinaweibo.png'/></a></li>
+            <li class="gray">iOS and Android developer.</li>
+          </ul>
+
+        </section>
+      </div>
+
+      <article class='ten columns offset-by-four' id="article-content">
+  <header class="ten columns" id="article-header">
+    <h1>Arduino+L298N+蓝牙+nodejs</h1>
+  </header>
+
+  <div class='ten columns gray' id="date-header">
+    <p>
+      Dec 15, 2012
+  
+    </p>
+
+  </div>
+
+  <div class="ten columns" id="article-content">
+    上个周末DIY了一部可以网络在线控制（<a href="tuohuang.no-ip.org" target="_blank">tuohuang.no-ip.org</a>抱歉的是我现在的服务器是在我自己的联想本子跑的，但是我也不太可能一天到晚开着,我下面会说到用Rasperry Pi替换作为服务器的好处，是的，windows系统太恶心)的蓝牙小车，还是很有意思很有乐趣的一件事。可以先上个图
+
+<p style="text-align: center;"><a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_22361.jpg"><img class="aligncenter  wp-image-221" title="IMG_2236" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_22361-768x1024.jpg" alt="" width="500" height="666" /></a></p>
+
+其实粗略一看其实也很简单，就是有两个直流电机，然后一块控制板加上一个蓝牙传输模块，基本上可以控制小车的前后左右以及速度等等，控制的话，你可以直接通过android手机控制（无需wifi),也可以了网络在线控制。
+
+说完了最后是个啥样子，接下来是为什么选择做一个两轮驱动的小车，而不是做一个四轮的或者为什么不是选择做一个自平衡像是
+
+赛格威Segway那样的很拽的来做了？
+
+答案很简单，对于单片机和电子电路的初学者而言，两轮驱动小车是一个很好的起点，你可以一开把功能做的非常简单，然后在上面增加很多的功能和模块，这个过程也就是一步步深入理解电子原件和原理的过程。
+
+当然，另外一个好处，这个应该算是比较便宜的入门选项了，如果你要整个四驱或者自平衡，这个开销可以两轮的高很多。
+
+而我，一开始主要是在想在过年的时候带着我六岁的弟弟一起做点有点意思的东东，相对于直接送给他一个玩具然后他玩两下丢了，还不如说让他参与一下这个小车是怎么做的，当然了，这个小车可以那么玩具车高级多了，可以玩出很多花样。与其带着他玩泥巴玩炮竹玩CS，这个也许能激发他的一些兴趣爱好嘛。
+
+
+
+话说正题，要完成这部车需要了解的一下概念或者知识：
+
+<ul>
+
+	<li>电路和基本的电子元器件</li>
+
+	<li>arduino</li>
+
+	<li>L298n</li>
+
+	<li>蓝牙模块通信</li>
+
+	<li>nodejs</li>
+
+</ul>
+
+首先说一下第一个要点，电子电路这玩意我还是听畏惧的，初中时自己做了一个台灯，结果短路把旁边妈妈的大衣给烧黑了一道，而且的话还是挺危险的，220电压，拜托。另外一个大学时的电子电路这门课，把我听的云里云雾，最后考了60分，把我高兴的不行。一想到这个单片机，就老想到汇编中的寄存器啥玩意的，整一个简单东西能把自己给写晕了，很是恶心。 其实第一二个话题还是挺相关的，玩arduino一开始只要有基本的初中物理概念（什么电阻和电压之类）就行，而且的话arduino的电压都是5v，所以很安全，你可以很放心，最多也就是把你的arduino板子给烧了，但不至于威胁你的人身安全。 那接下来就是介绍下arduino了， 其实也是很简单的，所谓开源的电子原型平台，听起来好像来玩的，具体的定义可以百度下。但是它的好处在于不需要了解太底层概念，你提高了自己的编程语言，非常类似C的风格，很简单。你基本上在arduino的编辑器中写好代码，然后上传到arduino芯片上就可以了，就是一个微控制器。
+
+
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_2229.jpg"><img class="size-medium wp-image-223 aligncenter" title="IMG_2229" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_2229-300x225.jpg" alt="" width="300" height="225" /></a>
+
+
+
+那有了控制器，接下来介绍的是L298n电机驱动板，它可以带一个步进电机或者两个直流电机，这里用的是直流电机，它相对于步进电机来说简单一些，同时也便宜一些。那为什么驱动电机还需要专门的电机驱动扳而不是直接连接到arduino来控制了？ 这是因为直流电机工作时需要很高的电压（2.5-46v)，而ardunio的电压最高只有5v. 这里需要了解一下L298n的工作原理，才能在接线的时候得心应手，很多时候你拿到了东西或者元件，巴不得立刻动手，其实到头来发现却是摸不着头脑而且浪费时间。所以玩电子元器件时，必须第一步仔细阅读产品参数和说明，不然可能出现板子都给烧了。关于L298n背后的原理，你可以查看极客工坊的文章“<a href="http://www.geek-workshop.com/forum.php?mod=viewthread&amp;tid=24" target="_blank">关于直流电机 H 桥驱动方案的选择</a>”。
+
+
+
+关于具体L298n 如何接到Arduino以及电机的说明，这里就不多说了，否则文章都写不完，这里只想说，L298n接线确实是非常多，一开始看起来无从下手，但是其实你如果看了L298n是如何工作的话，你接起线来就是轻车熟路了。（代码会在最后贴上）下面是图：
+
+<p style="text-align: center;"><a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_2226.jpg"><img class="wp-image-222 alignnone" title="IMG_2226" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_2226-768x1024.jpg" alt="" width="500" height="500" /></a></p>
+
+     很好，第一步已经完成，你可以成功的把arduino和L298n连接起来，但是你的能控制它才行啊。我不可能拿个笔记本拉着一个USB线跟在车子后面，所以应该选择一种通信方式了，但是无线是最好了。但是环顾四周，你会发现有蓝牙，WIFI, APC220和XBee等等。对比一下，我发现还是蓝牙模块给力，第一相对其他几种选择蓝牙至少便宜一半， 第二虽然蓝牙的通信距离比较短，但是我这个小车也不需要说像是航模一下，在一千米之外还需要控制着，最好的一个地方是它能无缝跟android手机集成通讯，这意味着你只要把从蓝牙模块接到小车上， 你手拿android手机就可以控制它了，完全不需要网络或者其他笨拙的中间件（比如还的先从手机发给电脑然后电脑在发给小车）。
+
+我选的蓝牙模块基本上分为一个USB蓝牙适配器，一个主蓝牙模块以及一个从蓝牙模块。 使用时主蓝牙模块先焊到（需要电烙铁来焊一下）USB蓝牙适配器上，然后再讲蓝牙适配器插到电脑上。向下面的图所示：
+
+
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_2233.jpg"><img class="size-medium wp-image-224 aligncenter" title="IMG_2233" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_2233-300x225.jpg" alt="" width="300" height="225" /></a>
+
+
+
+然后将从蓝牙模块连接到arduino上，因为TX/RX是arduino IDE上传代码到芯片时的所使用的端口，所以你如果在烧写代码时需要先将从蓝牙模块的TX/RX先拔掉：
+
+
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_2234.jpg"><img class="size-medium wp-image-225 aligncenter" title="IMG_2234" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_2234-300x225.jpg" alt="" width="300" height="225" /></a>
+
+
+
+当然了，你可以先单独测试蓝牙通讯，比如我就是先用它测试一下是否能控制PMW的值来控制LED灯的亮度来实现"呼吸“的效果，然后在集成去测试电机。
+
+
+
+这里你需要了解一下什么是串口通讯（频率等），蓝牙如果一旦连接上就可以看到一个叫做“SLAB_USBtoUART"的串口显示为可用，所有命令都是通过这个串口发送给从蓝牙模块。千万注意要检查一下这个串口是不是已经被使用中，否则你发现你怎么发命令，都木有反应，说不定是你在测试调试的时候打开了连接却忘了关闭连接。
+
+
+
+蓝牙模块其实还是很简单，但是有些要实际中注意的， 蓝牙的芯片驱动CP2012 mac版一般是比较不容易搜索到的， 你可以这个网站去找到其windows/mac/linux的驱动（http://www.pololu.com/docs/0J7/3）但是安装去要重启。接下来需要下载一个串口通讯测试工具，windows很简单比如串口通讯助手V2.2，mac底下就是 Serial Tools app等。
+
+
+
+下面是在mac上测试的画面：
+
+
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/Screen-Shot-2012-12-08-at-10.04.58-PM.png"><img class="size-medium wp-image-226 aligncenter" title="Screen Shot 2012-12-08 at 10.04.58 PM" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/Screen-Shot-2012-12-08-at-10.04.58-PM-300x198.png" alt="" width="300" height="198" /></a>
+
+
+
+接下来便是将arduino,L298n，蓝牙模块以及小车底盘等组装集成起来了。就像这个样子:
+
+
+
+接下来的问题是我不能只是通过串口调试工具来操控小车啊，太老土了，我也许想让我远在老家的弟弟通过网页来操作小车啊。这个时候我们可以在我们的电脑跑起来一个nodejs服务，创建一个网页，上面有一些简单的按钮来操控上下左右，同时右边有一个实时的视屏流来观察此时小车的状态。
+
+
+
+当然这里你可以使用其他技术比如rails,php等等，我这里主要讲讲碰到了一些问题。最重要的，如何要nodejs向arduino发送串口指令？这个必须是可以配置频率以及使用哪个串口以及要发送的指令符。在mac/lunix上，你可以使用内置的stty命令：https://wiki.archlinux.org/index.php/Arduino#stty
+
+比如像是下面的代码：
+
+<blockquote><em>stty -f /dev/cu.SLAB_USBtoUART cs8 9600 ignbrk -brkint -imaxbel -opost -onlcr -isig -icanon -iexten -echo -echoe -echok -echoctl -echoke noflsh -ixon -crtscts //设置频率等</em>
+
+
+
+<em>echo -n "f" &gt; /dev/cu.SLAB_USBtoUART //发送"f"指令到蓝牙串口</em></blockquote>
+
+然后你把这terminal命令行交给nodejs的exec/child_process来执行就可以发现你的小车有反应了。
+
+
+
+在windows上比较麻烦一点，你需要去设备管理器去看看SLAB_USBtoUART它使用的串口名字是多少（比如com4).
+
+然后nodejs中exec执行命令行指令“echo f &gt; com4”,这里不需要stty， 更重要的是千万不要像mac一样在echo后面加"-n"。
+
+
+
+Bingo!
+
+
+
+<strong>     最后一个获取实时视频流。 </strong>
+
+这个是比较麻烦的一件事，如果你有安卓手机的话就很简单了。这里你去安卓市场下载一款叫做"IPWebcam"的应用，然后打开之后你会发现底下有显示一个ip地址，然后你可以在你的电脑尝试需要这个地址就可以获取实时视频流，借助html的videoplay tag，你可以修改一下你nodejs中网页中它的视频流地址，将其指向为你的安卓手机地址，因为其都在一个内网中，应该是非常快的。最后将你的安卓手机放到可以拍摄到小车合适角度的地方。就可以跳到最后一步。
+
+
+
+<strong>如何让外网可以访问你内网的nodejs服务器？</strong>
+
+
+
+非常简单，打开路由器设置，然后找到转发规则，然后增加一个虚拟服务器，比如8080，同时将ip地址指向你跑nodejs的那台机子，然后重启路由器。
+
+但是有木有搞错啊？这个地址是http://101.45.191.182:8080/ 太难记了！有木有简单容易记住的DNS啊。
+
+是的，有很多动态DNS服务，你可以注册使用http://www.no-ip.com/的免费服务，然后创建一个转发规则，选中“Port 80 Redirect", 将101.45.191.182和8080分别填好。
+
+
+
+<a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/Screen-Shot-2012-12-11-at-11.10.39-PM.png"><img class="size-medium wp-image-227 aligncenter" title="Screen Shot 2012-12-11 at 11.10.39 PM" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/Screen-Shot-2012-12-11-at-11.10.39-PM-300x194.png" alt="" width="300" height="194" /></a>
+
+
+
+那以后只要访问 tuohuang.no-ip.org 就可以访问我内网的服务器罗！
+
+
+
+最后贴上主要的电子器件和淘宝地址，当然了主题是便宜要好用，下面是我的购物清单（包含运费)：
+
+<ul>
+
+	<li>智能小车底盘/寻迹小车/机器人/带码盘/测速/强磁电机/ZK-2WD(http://item.taobao.com/item.htm?id=17614027453)  51块</li>
+
+	<li>L298N电机驱动板/步进电机驱动模块/机器人/智能小车(http://trade.taobao.com/trade/detail/tradeSnap.htm?spm=a1z09.2.9.80.lNGirU&amp;tradeID=178162818334442) 31块</li>
+
+	<li>蓝牙数传套餐： 蓝牙主机+蓝牙从机+蓝牙USB转串口(http://item.taobao.com/item.htm?id=18220892827) 75块</li>
+
+	<li>40P双头打杜邦端子 杜邦线 长21CM 进口彩排线 带壳子(http://trade.taobao.com/trade/itemlist/list_bought_items.htm?t=20110530&amp;ad_id=&amp;am_id=&amp;cm_id=&amp;pm_id=)   10.5块</li>
+
+	<li>电烙铁+烙铁架+高亮焊锡+焊锡膏6合1 （http://trade.taobao.com/trade/detail/tradeSnap.htm?spm=a1z09.2.9.38.lNGirU&amp;tradeID=262580287254442） 31块</li>
+
+	<li>DFRobot Arduino入门套件 (http://www.dfrobot.com.cn/index.php?route=product/product&amp;path=119&amp;product_id=531) 130块</li>
+
+</ul>
+
+总共下来差不多不到350块，但是除了其中的小车底盘，其他器件都是可以重用的。
+
+<p style="text-align: center;"><a href="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_2222.jpg"><img class="aligncenter  wp-image-228" title="IMG_2222" src="http://tuohuang.thoughtworkers.org/wp-content/uploads/2012/12/IMG_2222-768x1024.jpg" alt="" width="500" height="666" /></a></p>
+
+<p style="text-align: left;"> <strong>代码</strong> 详细可以参考我的github:(<a href="https://github.com/tuo/Arduino2WDCars" target="_blank">https://github.com/tuo/Arduino2WDCars</a>) 里面有arduino代码以及nodejs服务器的代码。</p>
+  </div>
+  <hr style="visibility:hidden;"/>
+  
+  <!--<footer class="ten columns">
+    <p id='follow'>
+       Follow me on <a href="http://twitter.com/tu0huang">Twitter</a> &
+       <a href="http://weibo.com/tu0huang">Weibo</a>	   
+    </p>
+  </footer> -->
+</article>
+
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style ten columns offset-by-four" style="margin-bottom: 11px;">
+	<a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f9651243f1723a"></script>
+<!-- AddThis Button END -->
+<div style="margin-bottom:10px;"/>
+<div id="disqus_thread" class="ten columns offset-by-four"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'tuohuang'; // required: replace example with your forum shortname
+  var disqus_identifier = '/tuohuangid';
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    </div>
+  </body>
+</html> 
