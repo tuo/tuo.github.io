@@ -68,6 +68,7 @@ And the post build process that I'm handling is like following:
     NSString *deviceAlias;
     NSString *pushActionURL;    
 {% endhighlight %}		
+
 4. Modify *AppController.mm* to add header imports
 {% highlight objectivec %} 
     #import "Appirater.h"
@@ -75,6 +76,7 @@ And the post build process that I'm handling is like following:
     #import "Chartboost.h"
     #import <RevMobAds/RevMobAds.h>
 {% endhighlight %}
+
 5. Modify *AppController.mm* to add *[[RDGameCenterManager sharedInstance] disconnectLocalPlayer];* to end of *applicationWillResignActive* method 
 
 6. Modify *AppController.mm* to add *[Appirater appEnteredForeground:YES];* to end of *applicationWillEnterForeground* method 
