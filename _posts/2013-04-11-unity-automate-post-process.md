@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unity: Automate post build process"
+title: "Unity: Automate Post Process"
 date: 2013-04-11 22:25:09 +0800
 published: true
 tags: #tags go here: space-separated string
@@ -87,7 +87,7 @@ Imagine everytime, you build from Unity and you have to do those steps, it is ve
 
 ##Solution
 
-Note: You can find complete code in my github repo: [UnityAutomatePostBuildProcess](https://github.com/tuo/UnityAutomatePostBuildProcess).
+Note: You can find complete code in my github repo: [UnityAutomatePostProcess](https://github.com/tuo/UnityAutomatePostProcess).
 
 As Unity [PostProcessBuildAttribute](http://docs.unity3d.com/Documentation/ScriptReference/PostProcessBuildAttribute.html) reference says, 
 
@@ -448,7 +448,7 @@ I'd like to suggest when testing python script, you probably just move a clean c
 
 Python is quite straightford to pick up, like I just spend several mintues to get familiar with its syntax and be able work on it quite easily. BTW, pay attention to the soft tabs and hard tabs when you get indentation problems.
 
-You can have a complete source code here:[UnityAutomatePostBuildProcess](https://github.com/tuo/UnityAutomatePostBuildProcess).
+You can have a complete source code here:[UnityAutomatePostProcess](https://github.com/tuo/UnityAutomatePostProcess).
 
 Enjoy unity!
 
