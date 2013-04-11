@@ -88,7 +88,7 @@ Imagine everytime, you build from Unity and you have to do those steps, it is ve
 
 ##Solution
 
-Note: You can find complete code in my github repo.
+Note: You can find complete code in my github repo: [UnityAutomatePostBuildProcess](https://github.com/tuo/UnityAutomatePostBuildProcess).
 
 As Unity [PostProcessBuildAttribute](http://docs.unity3d.com/Documentation/ScriptReference/PostProcessBuildAttribute.html) reference says, 
 > Add this attribute to a method to get a notification just after building the player.
@@ -446,4 +446,4 @@ I'd like to suggest when testing python script, you probably just move a clean c
 
 Python is quite straightford, like I just spend several mintues to get familiar with its syntax and be able work on it quite easily. BTW, pay attention to the soft tabs and hard tabs when you get indentation problems.
 
-You can have a complete source code here.
+You can have a complete source code here: [UnityAutomatePostBuildProcess](https://github.com/tuo/UnityAutomatePostBuildProcess).
