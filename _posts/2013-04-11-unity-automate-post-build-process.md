@@ -63,19 +63,16 @@ And the post build process that I'm handling is like following:
 	
 3. Modify *AppController.h* to add following instance variable declarations for UrbanArship push notification
 
-{% highlight objectivec %}     
-    NSString *deviceToken;
-    NSString *deviceAlias;
-    NSString *pushActionURL;    
-{% endhighlight %}		
-
+        NSString *deviceToken;
+        NSString *deviceAlias;
+        NSString *pushActionURL;    
+    
 4. Modify *AppController.mm* to add header imports
-{% highlight objectivec %} 
-    #import "Appirater.h"
-    #import "RDGameCenterManager.h"
-    #import "Chartboost.h"
-    #import <RevMobAds/RevMobAds.h>
-{% endhighlight %}
+
+        #import "Appirater.h"
+        #import "RDGameCenterManager.h"
+        #import "Chartboost.h"
+        #import <RevMobAds/RevMobAds.h>
 
 5. Modify *AppController.mm* to add *[[RDGameCenterManager sharedInstance] disconnectLocalPlayer];* to end of *applicationWillResignActive* method 
 
