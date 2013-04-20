@@ -6,6 +6,9 @@ published: true
 tags: 
 - android #tags go here: space-separated string
 ---
+高规格方法ff[Fffffg](ggg[H{% highlight Gghgfg %}
+Gghggggh
+{% endhighlight %}]()gf)ffd#Gggggggfg
 
 最近需要在项目中添加[Android 4.1 Notification BigPicture](http://capdroid.wordpress.com/2012/07/16/android-4-1-jelly-beans-notification-tutorial-part-ii/) 支持，来让这个提醒条更加美观。下面便是代码：
 {% highlight java %}
