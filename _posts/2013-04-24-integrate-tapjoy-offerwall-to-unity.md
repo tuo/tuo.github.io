@@ -16,7 +16,7 @@ What it says it that Tapjoy is gonna save total points,spent points and awarded 
 
 Here is simplified version of CurrencyManager.cs :
 
-{% highlight objectivec %} 
+{% highlight csharp %} 
 
 public enum OfferWallType
 {
@@ -134,99 +134,104 @@ Of course, our CurrencyManager is singleton.
 
 Here is the tapjoy code:
 
-	public class TapJoy : OfferwallBase
-	{	 
-		void Start()
-		{		
-			TapjoyPlugin.SetCallbackHandler("CurrencyManager");
-			
-			TapjoyPlugin.EnableLogging(true); //for testing
-			TapjoyPlugin.RequestTapjoyConnect(Configuration.TAPJOY_APP_ID, Configuration.TAPJOY_SECRET);
-			TapjoyPlugin.SetTransitionEffect((int)TapjoyTransition.TJCTransitionExpand);		 		 
-		}
-		 
-		public override void ShowOffers()
-		{
-			TapjoyPlugin.ShowOffers();
-		}
-	
-		public override void SpendPoints(int points)
-		{
-			TapjoyPlugin.SpendTapPoints(points);			
-		}
+{% highlight csharp %}
+
+public class TapJoy : OfferwallBase
+{	 
+	void Start()
+	{		
+		TapjoyPlugin.SetCallbackHandler("CurrencyManager");
 		
-		public override void AwardPoints(int points)
-		{
-			TapjoyPlugin.AwardTapPoints(points);
-		}
-	
-		
-		public override void GetPoints()
-		{
-			TapjoyPlugin.GetTapPoints();
-		}
-	
-	
-		public override void ShowEarnedPoints()
-		{
-			TapjoyPlugin.ShowDefaultEarnedCurrencyAlert();
-		}
-	
-		#region Tapjoy Callback Methods (These must be implemented in your own c# script file.)
-		// CONNECT
-		public void TapjoyConnectSuccess(string message)
-		{
-			Debug.Log("HandleTapjoyConnectSuccess");
-		}
-		
-		public void TapjoyConnectFail(string message)
-		{
-			Debug.Log("HandleTapjoyConnectFailed");
-		}
-		
-		// VIRTUAL CURRENCY
-		public void TapPointsLoaded(string points)
-		{
-			Debug.Log("HandleGetTapPointsSucceeded: " + points);
-			CurrencyManager.getInstance().totalPoints = int.Parse(points);
-		}
-		Point
-		public void TapPointsLoadedError(string message)
-		{
-			Debug.Log("HandleGetTapPointsFailed" + message);
-		}
-		
-		public void TapPointsSpent(string points)
-		{
-			Debug.Log("HandleSpendTapPointsSucceeded: " + points);
-			CurrencyManager.getInstance().spentPoints = 0;
-			CurrencyManager.getInstance().totalPoints = int.Parse(points);
-		}
-	
-		public void TapPointsSpendError(string message)
-		{
-			Debug.Log("HandleSpendTapPointsFailed " + message);
-		}
-	
-		public void TapPointsAwarded(string points)
-		{		 
-			Debug.Log("HandleAwardTapPointsSucceeded " + points );		 
-			CurrencyManager.getInstance().awardedPoints = 0;
-			CurrencyManager.getInstance().queryPoints();
-		}
-	
-		public void TapPointsAwardError(string message)
-		{
-			Debug.Log("HandleAwardTapPointsFailed");
-		}
-		 
-		public void CurrencyEarned(string points)
-		{ 
-	 		Debug.Log("CurrencyEarned" + points ); 
-	 		TapjoyPlugin.ShowDefaultEarnedCurrencyAlert();	}
-	
-		#endregion
+		TapjoyPlugin.EnableLogging(true); //for testing
+		TapjoyPlugin.RequestTapjoyConnect(Configuration.TAPJOY_APP_ID, Configuration.TAPJOY_SECRET);
+		TapjoyPlugin.SetTransitionEffect((int)TapjoyTransition.TJCTransitionExpand);		 		 
 	}
+	 
+	public override void ShowOffers()
+	{
+		TapjoyPlugin.ShowOffers();
+	}
+
+	public override void SpendPoints(int points)
+	{
+		TapjoyPlugin.SpendTapPoints(points);			
+	}
+	
+	public override void AwardPoints(int points)
+	{
+		TapjoyPlugin.AwardTapPoints(points);
+	}
+
+	
+	public override void GetPoints()
+	{
+		TapjoyPlugin.GetTapPoints();
+	}
+
+
+	public override void ShowEarnedPoints()
+	{
+		TapjoyPlugin.ShowDefaultEarnedCurrencyAlert();
+	}
+
+	#region Tapjoy Callback Methods (These must be implemented in your own c# script file.)
+	// CONNECT
+	public void TapjoyConnectSuccess(string message)
+	{
+		Debug.Log("HandleTapjoyConnectSuccess");
+	}
+	
+	public void TapjoyConnectFail(string message)
+	{
+		Debug.Log("HandleTapjoyConnectFailed");
+	}
+	
+	// VIRTUAL CURRENCY
+	public void TapPointsLoaded(string points)
+	{
+		Debug.Log("HandleGetTapPointsSucceeded: " + points);
+		CurrencyManager.getInstance().totalPoints = int.Parse(points);
+	}
+	Point
+	public void TapPointsLoadedError(string message)
+	{
+		Debug.Log("HandleGetTapPointsFailed" + message);
+	}
+	
+	public void TapPointsSpent(string points)
+	{
+		Debug.Log("HandleSpendTapPointsSucceeded: " + points);
+		CurrencyManager.getInstance().spentPoints = 0;
+		CurrencyManager.getInstance().totalPoints = int.Parse(points);
+	}
+
+	public void TapPointsSpendError(string message)
+	{
+		Debug.Log("HandleSpendTapPointsFailed " + message);
+	}
+
+	public void TapPointsAwarded(string points)
+	{		 
+		Debug.Log("HandleAwardTapPointsSucceeded " + points );		 
+		CurrencyManager.getInstance().awardedPoints = 0;
+		CurrencyManager.getInstance().queryPoints();
+	}
+
+	public void TapPointsAwardError(string message)
+	{
+		Debug.Log("HandleAwardTapPointsFailed");
+	}
+	 
+	public void CurrencyEarned(string points)
+	{ 
+ 		Debug.Log("CurrencyEarned" + points ); 
+ 		TapjoyPlugin.ShowDefaultEarnedCurrencyAlert();	}
+
+	#endregion
+}
+
+{% endhighlight %} 
+
 Nothing special, we just followed official sample code and the documentation [Tapjoy Integrating the Offerwall](https://knowledge.tapjoy.com/en/integration/integrating-the-offerwall). And the Tapjoy class here is like composition, just hide complexity of code that acutally deal with tapjoy. 
 
 Here is the thing you may wonder why *CurrencyEarned* is not called. The trick is that after you set *TapjoyPlugin.SetCallbackHandler*, everytime response from tapjoy backend like queryPoints or awardPoints, the tapjoy is pretty smart to check whether it is necessary to call *CurrencyEarned* or not.
@@ -245,24 +250,33 @@ Here for a typical game, you have a collectable items in gameplay.Like here we h
 ##Solution
 You may think that we can do a check in method *CurrencyEarned*
 
-	public void CurrencyEarned(string points)
-	{ 
-		Debug.Log("CurrencyEarned" + points ); 
-		TapjoyPlugin.ShowDefaultEarnedCurrencyAlert();
-	}
+{% highlight csharp %}
+
+public void CurrencyEarned(string points)
+{ 
+	Debug.Log("CurrencyEarned" + points ); 
+	TapjoyPlugin.ShowDefaultEarnedCurrencyAlert();
+}
 	
+
+{% endhighlight %} 
 	
 by checking like GameState, normally game will have following states: None, Playing,Pause, Continue, GameOver.
 Then how about adding following check ?
 
-	public void CurrencyEarned(string points)
-	{ 
-		Debug.Log("CurrencyEarned" + points ); 
-		if(GameManager.GameState == None || GameManager.GameState == GameOver)
-		{
-			TapjoyPlugin.ShowDefaultEarnedCurrencyAlert();
-		}		
-	}
+{% highlight csharp %}
+
+public void CurrencyEarned(string points)
+{ 
+	Debug.Log("CurrencyEarned" + points ); 
+	if(GameManager.GameState == None || GameManager.GameState == GameOver)
+	{
+		TapjoyPlugin.ShowDefaultEarnedCurrencyAlert();
+	}		
+}
+
+{% endhighlight %} 	
+	
 Here for our case is even tricky as we also show it not only when game scene not started/loaded also when it is gameover.
 
 But then we have another problem, it is that character right before it is dead, it pick up a point power-up item. Then you will an alert view saying *Congratulations! You've just earned 1 Points!*. Again, you need to press *OK* button to dismiss it. You may think this case it is pretty rare but when your game has millions users. It is not a neglectable issue.
@@ -273,64 +287,76 @@ Maybe we can set a flag like *enabled* on like *TapjoyEarnedPointManager*, which
 
 Then go to Mono and find your *UnityInterface.cs* wrapper-which contains all your unity-objectivec magic method delcarations. Add following codes:
 
-	[DllImport("__Internal")]
-	public static extern bool Plugin_IsOfferWallCheckPointsTriggered();
-	public static bool IsOfferWallCheckPointsTriggered()
-	{
-		if(Configuration.isDevice())
-		{
-			return Plugin_IsOfferWallCheckPointsTriggered();
-		}
-		return false;
-	}
+{% highlight csharp %}
 
-	[DllImport("__Internal")]
-	public static extern void Plugin_SetOfferWallCheckPointsTriggeredToFalse();
-	public static void SetOfferWallCheckPointsTriggeredToFalse()
+[DllImport("__Internal")]
+public static extern bool Plugin_IsOfferWallCheckPointsTriggered();
+public static bool IsOfferWallCheckPointsTriggered()
+{
+	if(Configuration.isDevice())
 	{
-		if(Configuration.isDevice())
-		{
-			Plugin_SetOfferWallCheckPointsTriggeredToFalse();
-		}
+		return Plugin_IsOfferWallCheckPointsTriggered();
 	}
+	return false;
+}
+
+[DllImport("__Internal")]
+public static extern void Plugin_SetOfferWallCheckPointsTriggeredToFalse();
+public static void SetOfferWallCheckPointsTriggeredToFalse()
+{
+	if(Configuration.isDevice())
+	{
+		Plugin_SetOfferWallCheckPointsTriggeredToFalse();
+	}
+}
+
+{% endhighlight %} 
 
 And in your unity interface navtive code somewhere add implmenetations:
+
+{% highlight csharp %}
 	  
-	  ...
-	    bool Plugin_IsOfferWallCheckPointsTriggered()
-	    {
-	        return ([TapjoyEarnedPointManager sharedInstance].enabled)
-	         
-	    }
-	    
-	    void Plugin_SetOfferWallCheckPointsTriggeredToFalse()
-	    {
-	    	[TapjoyEarnedPointManager sharedInstance].enabled = NO;
-	    }
-	    
-		
-	#ifdef __cplusplus
-	}
-	#endif
+  ...
+    bool Plugin_IsOfferWallCheckPointsTriggered()
+    {
+        return ([TapjoyEarnedPointManager sharedInstance].enabled)
+         
+    }
+    
+    void Plugin_SetOfferWallCheckPointsTriggeredToFalse()
+    {
+    	[TapjoyEarnedPointManager sharedInstance].enabled = NO;
+    }
+    
+	
+#ifdef __cplusplus
+}
+#endif
+
+{% endhighlight %} 
 
 Finally go to your *Tapjoy.cs* and locate *CurrencyEarned*, change it to following:
 
-	public void CurrencyEarned(string points)
-	{ 
- 		
-		if(UnityInterface.IsOfferWallCheckPointsTriggered())
-		{
-			UnityInterface.SetOfferWallCheckPointsTriggeredToFalse();
-			//it may have network delay and you actually now is playing it, don't alert under that case
-			if(GameManager.GameState == None || GameManager.GameState == GameOver)
-			{
-				TapjoyPlugin.ShowDefaultEarnedCurrencyAlert();
-			} 	
+{% highlight csharp %}
 
-		}else{
-			Debug.Log("Currencty Earned IsOfferWallCheckPointsTriggered is false, not show it");
-		}
-	}	
+public void CurrencyEarned(string points)
+{ 
+	
+	if(UnityInterface.IsOfferWallCheckPointsTriggered())
+	{
+		UnityInterface.SetOfferWallCheckPointsTriggeredToFalse();
+		//it may have network delay and you actually now is playing it, don't alert under that case
+		if(GameManager.GameState == None || GameManager.GameState == GameOver)
+		{
+			TapjoyPlugin.ShowDefaultEarnedCurrencyAlert();
+		} 	
+
+	}else{
+		Debug.Log("Currencty Earned IsOfferWallCheckPointsTriggered is false, not show it");
+	}
+}	
+
+{% endhighlight %} 
 
 Build and run it. It should slove previous problem perfectly. 
 
