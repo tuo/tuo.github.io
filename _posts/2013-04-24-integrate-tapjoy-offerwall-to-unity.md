@@ -15,114 +15,118 @@ So basically I have a script *CurrencyManager* in my project, which is attached 
 What it says it that Tapjoy is gonna save total points,spent points and awarded points in backend. That means you need to maintain synchronization of points between local and remote. As sometimes,network is not available and user's any operation on points will not be synchronized to remote tapjoy backend immedidately, and when network is available later, those points should be synchronized properly. And Tapjoy is in charge of everthing about points, it has a setting in admin panel that deal with amount of points you want to give to new user(first install) and configure Conversion rate and add test devices.
 
 Here is simplified version of CurrencyManager.cs :
- 
-	public enum OfferWallType
-	{
-		Youmi,Tapjoy
+
+{% highlight objectivec %} 
+
+public enum OfferWallType
+{
+	Youmi,Tapjoy
+}
+public class CurrencyManager : MonoBehaviour
+{
+	public static OfferWallType offerWallType;	
+	private static CurrencyManager _instance;	
+	private OfferwallBase _offerwallService;
+	  	
+	public void init()
+	{				 		
+		if(CurrencyManager.offerWallType == OfferWallType.Youmi){
+			_offerwallService = (Youmi) gameObject.AddComponent(typeof(Youmi));
+		}else{
+			_offerwallService = (TapJoy) gameObject.AddComponent(typeof(TapJoy));
+		}
 	}
-	public class CurrencyManager : MonoBehaviour
+		
+	public void showOffers()
 	{
-		public static OfferWallType offerWallType;	
-		private static CurrencyManager _instance;	
-		private OfferwallBase _offerwallService;
-		  	
-		public void init()
-		{				 		
-			if(CurrencyManager.offerWallType == OfferWallType.Youmi){
-				_offerwallService = (Youmi) gameObject.AddComponent(typeof(Youmi));
-			}else{
-				_offerwallService = (TapJoy) gameObject.AddComponent(typeof(TapJoy));
-			}
-		}
-			
-		public void showOffers()
+		_offerwallService.ShowOffers();
+	}
+		
+	public void syncPoints()
+	{
+		bool spentORaward = false;
+		if(spentPoints > 0)
 		{
-			_offerwallService.ShowOffers();
-		}
-			
-		public void syncPoints()
-		{
-			bool spentORaward = false;
-			if(spentPoints > 0)
-			{
-				_offerwallService.SpendPoints(spent￿s);			
-				spentORaward = true;
-			}
-			
-			if(awardedPoints > 0)
-			{
-				_offerwallService.AwardPoints(awardedPoints);			
-				spentORaward = true;
-			}
-			
-			//if no spent or award, query points
-			if(!spentORaward)
-			{
-				queryPoints();
-			}
-			
+			_offerwallService.SpendPoints(spent￿s);			
+			spentORaward = true;
 		}
 		
-		public void pointsAward(int value)
+		if(awardedPoints > 0)
 		{
-			awardedPoints += value;
-			syncPoints();
+			_offerwallService.AwardPoints(awardedPoints);			
+			spentORaward = true;
 		}
 		
-		public void pointsSpend(int value)
+		//if no spent or award, query points
+		if(!spentORaward)
 		{
-			spentPoints += value;
-			syncPoints();
+			queryPoints();
 		}
 		
-		public void queryPoints()
+	}
+	
+	public void pointsAward(int value)
+	{
+		awardedPoints += value;
+		syncPoints();
+	}
+	
+	public void pointsSpend(int value)
+	{
+		spentPoints += value;
+		syncPoints();
+	}
+	
+	public void queryPoints()
+	{
+		if(Configuration.isDevice())
 		{
-			if(Configuration.isDevice())
+			_offerwallService.GetPoints();						
+		}	
+	}
+	
+ 	public void showEarnedPoints()
+	{
+		if(Configuration.isDevice())
+		{
+			_offerwallService.ShowEarnedPoints();
+		}
+	}
+	
+	private bool _totalPointsChanged;
+	private int _totalPoints;
+	public int totalPoints
+	{
+		get{
+			if(_totalPointsChanged)
 			{
-				_offerwallService.GetPoints();						
-			}	
-		}
-		
-	 	public void showEarnedPoints()
-		{
-			if(Configuration.isDevice())
-			{
-				_offerwallService.ShowEarnedPoints();
-			}
-		}
-		
-		private bool _totalPointsChanged;
-		private int _totalPoints;
-		public int totalPoints
-		{
-			get{
-				if(_totalPointsChanged)
+				_totalPointsChanged = false;
+				 
+				 //You mean need to encrypt the value before save
+				if(PlayerPrefs.HasKey(PREFS_TOTAL))
 				{
-					_totalPointsChanged = false;
-					 
-					 //You mean need to encrypt the value before save
-					if(PlayerPrefs.HasKey(PREFS_TOTAL))
-					{
-						_totalPoints = int.Parse(Parse(PlayerPrefs.GetString(PREFS_TOTAL));
-					}
-					else
-					{
-						_totalPoints = 0;
-					}	
+					_totalPoints = int.Parse(Parse(PlayerPrefs.GetString(PREFS_TOTAL));
 				}
-				
-				return (_totalPoints + awardedPoints - spentPoints);
+				else
+				{
+					_totalPoints = 0;
+				}	
 			}
 			
-			set{
-				_totalPointsChanged = true;
-	            PlayerPrefs.SetString(PREFS_TOTAL_HEARTS, value.ToString());
-			}
+			return (_totalPoints + awardedPoints - spentPoints);
 		}
 		
-		//..do similiar setup for awaredPoints and spentPoints setter and getter
-		 
+		set{
+			_totalPointsChanged = true;
+            PlayerPrefs.SetString(PREFS_TOTAL_HEARTS, value.ToString());
+		}
 	}
+	
+	//..do similiar setup for awaredPoints and spentPoints setter and getter
+	 
+}
+
+{% endhighlight %} 
 
 CurrencyManager is pretty flexible as you can add other offerwall services quite easily to the code(Like here we also implement YouMi). The method worth pointing out is that for totalPoints,awaredPoints and spentPoints, the setter is gonna actually save points locally and getter is loading points from PlayerPrefs. So that we don't rely on backend to track points. And everytime you award/spend points, it is gonna trigger syncPoints() to sync local points to tapjoy services.
 
