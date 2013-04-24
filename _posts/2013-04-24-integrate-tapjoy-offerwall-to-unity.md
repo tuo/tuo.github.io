@@ -240,11 +240,11 @@ Here is the thing you may wonder why *CurrencyEarned* is not called. The trick i
 ##Problem
 Okay, so you have all the code ready and can't wait to build out xcode project and run it on your device. Oh, before you test it, don't forget to set *Init Balance* and add your device to *Test Devices*, which first one will give you init points and second one will you make your testing way easier.
 
-You launch the app and open offerwall, click *Test Offer (Click to receive 10 points)* in the first row and press home button and open you app again, you will see an alert : *Congratulations! You've just earned 10 Points!*.  Perfect! Everything looks good. 
+You launch the app and open offerwall, click *Test Offer (Click to receive 10 points)* in the first row and press home button and open you app again, you will see an alert : *"Congratulations! You've just earned 10 Points!"*.  Perfect! Everything looks good. 
 
 **Then where is problem I'm gonna talk about?**
 
-Here for a typical game, you have a collectable items in gameplay.Like here we have collectable item when user is playing the game, and user can just pick up the item and their points in lower-left corner will be increased by one. Well user definitely will pick up the item, then after 2 or 3 seconds, BANG, you got an alert view saying *Congratulations! You've just earned 1 Points!*. And you lose the control of the game, until you press the *OK* button of alert view.  Then maybe your lovely character is already dead by hitting to rock or stepped on by Chuck Norris. So you may be wondering WTF!
+Here for a typical game, you have a collectable items in gameplay.Like here we have collectable item when user is playing the game, and user can just pick up the item and their points in lower-left corner will be increased by one. Well user definitely will pick up the item, then after 2 or 3 seconds, BANG, you got an alert view saying *"Congratulations! You've just earned 1 Points!"*. And you lose the control of the game, until you press the *OK* button of alert view.  Then maybe your lovely character is already dead by hitting to rock or stepped on by Chuck Norris. So you may be wondering WTF!
 
 
 ##Solution
@@ -279,7 +279,7 @@ public void CurrencyEarned(string points)
 	
 Here for our case is even tricky as we also show it not only when game scene not started/loaded also when it is gameover.
 
-But then we have another problem, it is that character right before it is dead, it pick up a point power-up item. Then you will an alert view saying *Congratulations! You've just earned 1 Points!*. Again, you need to press *OK* button to dismiss it. You may think this case it is pretty rare but when your game has millions users. It is not a neglectable issue.
+But then we have another problem, it is that character right before it is dead, it pick up a point power-up item. Then you will an alert view saying *"Congratulations! You've just earned 1 Points!"*. Again, you need to press *OK* button to dismiss it. You may think this case it is pretty rare but when your game has millions users. It is not a neglectable issue.
 
 Let's revisit the logic. So basically we only want *CurrencyEarned* be triggered when user lanunch the app. And during the gameplay, we dont' want it get called. 
 
