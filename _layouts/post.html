@@ -1,14 +1,14 @@
 ---
-layout: default
+layout: post_main
 blog: true
 ---
 
-<article class='ten columns offset-by-four' id="article-content">
-  <header class="ten columns" id="article-header">
+<article class='fourteen columns' id="article-content" style="border: 0px solid red">
+  <header class="fourteen columns" id="article-header">
     <h1>{{ page.title }}</h1>
   </header>
 
-  <div class='ten columns gray' id="date-header">
+  <div class='fourteen columns gray' id="date-header">
     <p>
       {{ page.date | date: "%b %d, %Y" }}
   {% if page.updated_at %}
@@ -18,7 +18,7 @@ blog: true
 
   </div>
 
-  <div class="ten columns" id="article-content">
+  <div class="fourteen columns" id="article-content">
     {{ content }}
   </div>
   <hr style="visibility:hidden;"/>
@@ -32,14 +32,14 @@ blog: true
 </article>
 
 <!-- AddThis Button BEGIN -->
-<div class="addthis_toolbox addthis_default_style ten columns offset-by-four" style="margin-bottom: 11px;">
+<div class="addthis_toolbox addthis_default_style fourteen columns" style="margin-bottom: 11px;">
 	<a class="addthis_counter addthis_pill_style"></a>
 </div>
 <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f9651243f1723a"></script>
 <!-- AddThis Button END -->
 <div style="margin-bottom:10px;"/>
-<div id="disqus_thread" class="ten columns offset-by-four"></div>
+<div id="disqus_thread" class="fourteen columns"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'tuohuang'; // required: replace example with your forum shortname
