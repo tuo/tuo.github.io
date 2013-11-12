@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "iOS7 Teck Talks Shanghai"
+title: "iOS7 Tech Talks Shanghai"
 date: 2013-11-12 23:21:59 +0800
 tags: iOS
 --- 
