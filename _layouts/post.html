@@ -4,20 +4,21 @@ blog: true
 ---
 
 <article class='fourteen columns' id="article-content" style="border: 0px solid red">
-  <header class="fourteen columns" id="article-header">
+
+  <a id="avatar" class="four columns" style="width:100px;height:100px;" href="/"></a>
+
+  <header class="eleven columns" id="article-header" style="margin-top:14px;">
     <h1>{{ page.title }}</h1>
   </header>
 
-  <div class='fourteen columns gray' id="date-header">
+  <div class='eleven columns gray' id="date-header" style="margin-bottom: 10px;">
     <p>
       {{ page.date | date: "%b %d, %Y" }}
-  {% if page.updated_at %}
-      revised {{ page.updated_at }}
-  {% endif %}
     </p>
 
   </div>
 
+  <div style="clear:both"/>
   <div class="fourteen columns" id="article-content">
     {{ content }}
   </div>

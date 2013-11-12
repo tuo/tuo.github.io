@@ -1033,6 +1033,21 @@ article ul li li li {
   -o-transition:all 500ms ease-in;
 }
 
+#avatar1 {
+  background-image: url('/static/images/avatar.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  display: block;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  border: 2px solid #999;
+  opacity: 0.8;
+  -webkit-transition:all 500ms ease-in;
+  -moz-transition:all 500ms ease-in;
+  -o-transition:all 500ms ease-in;
+}
+
 #social li {
   display: inline-block;
   font-size: 22px;
