@@ -7,7 +7,7 @@ tags: iOS
 
 比较幸运的被选中参与了苹果组织的[iOS7 Tech Talks](https://developer.apple.com/tech-talks/)上海站的活动， 整个活动有两天，分别是iOS7应用开发和游戏开发。 我选择报名了App开发讲座，这个讲座会有一整天而且整个安排都非常的紧凑，虽然其中有些东西我在WWDC 2013的视频中有看过，但是总体而言，还是很有收获的，因为它不仅仅只是关于开发，它还有关于UI设计的，市场等等， 总的来看就是WWDC 2013的精简版。
 
-![iOS7 Tech Talks Shanghai](http://d.pcs.baidu.com/thumbnail/4df58e4190668fb38483cf8f7639e013?fid=103032193-250528-3054655043&time=1384269931&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-VjNCDqIgFjh2HLbnwrfnr8IZv%2BM%3D&rt=sh&expires=8h&r=497402287&size=c710_u500&quality=100)
+![iOS7 Tech Talks Shanghai](https://drive.google.com/uc?id=0B6o1WtyuFjd4cnBVYnJCcTlwUmM)
 
   简单梳理一下自己觉得有意思或者自己之前不太了解的一些知识点吧。
 
