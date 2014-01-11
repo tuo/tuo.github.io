@@ -57,7 +57,7 @@ The code is pretty straightforward. There is one problem with GPUImage movie mer
 
 So when you run the project and compare the video ouput with original video, you would find that the exposure and white balance get little weird, kinda like following picture:
 
-![Exposure Chaos](https://doc-0o-7c-docs.googleusercontent.com/docs/securesc/eah3hotnktkgs5hnchu752lmr7fe6a8o/6vn3nrs3vopf5qai7rh2a1h49ftkjpfg/1388901600000/01854151473789099623/01854151473789099623/0B6o1WtyuFjd4dmxtWjBmbV9jd2M?h=16653014193614665626&nonce=lhdb7tbdpci44&user=01854151473789099623&hash=qilf97sl065i7ji40f95i7b33m8k44o2)
+![Exposure Chaos](https://farm8.staticflickr.com/7347/11883049186_99c3acbdda_o.png)
 
 Kinda bizzare. I did search in github and found that there are some issues related to this like [#1313 GPUImageMovieWriter changes exposure and white balance](https://github.com/BradLarson/GPUImage/issues/1313) and [#1306 GPUImageView renders video brighter than AVPlayer](https://github.com/BradLarson/GPUImage/issues/1306).
 
