@@ -6,6 +6,8 @@ published: true
 tags: iOS,GPUImage,Chroma Key, GPUImageMovieWriter, Exposure
 ---
 
+*There is updated post on this: [GPUImage Photo(Still)/Video - Color Degradation/Too Much Brightness](http://tuohuang.info/gpuimage-color-degradation)*
+
 [GPUImage](https://github.com/BradLarson/GPUImage) is a great library for processing image and video on iOS. Recently I have used it for merging and blending two videos by applying [chroma key](http://en.wikipedia.org/wiki/Chroma_key) filter. The idea is we create two GPUImageMovie objects, one GPUImageChromaKeyBlendFilter and finally the GPUImageMovieWriter object. The code is like following:
 
 {% highlight objectivec %} 
