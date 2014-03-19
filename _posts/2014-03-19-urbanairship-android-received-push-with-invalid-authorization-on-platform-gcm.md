@@ -11,7 +11,7 @@ Urban Airship does have a really good documentation about to how to set it up on
 
 It keeps saying **Received push with invalid authorization on platform GCM**.
 
-##Google API Console
+##Problem breakdown
 
 I searched in google and found several same issues reported by people, e.g., [Received push with invalid authorization on platform GCM in Urban push console](https://support.urbanairship.com/customer/portal/questions/4449356-received-push-with-invalid-authorization-on-platform-gcm-in-urban-push-console) and  [Received push with invalid authorization on platform GCM](https://support.urbanairship.com/customer/portal/questions/4690667-received-push-with-invalid-authorization-on-platform-gcm). The thing is that it works fine on iOS but not on Android, the kind-hearted guy from Urban Airship suggested to look through their [GCM Troubleshooting Guide](https://support.urbanairship.com/customer/portal/articles/823114-gcm-troubleshooting-guide). 
 
@@ -44,7 +44,7 @@ and compare with the SHA1 string in *~/.android/debug.keystore*:
 	androiddebugkey, Apr 24, 2013, PrivateKeyEntry,
 	Certificate fingerprint (MD5): 9C:DC:4C:FA:5A:74:F0:83:9D:17:D8:3B:1A:C3:BD:E5
 
-The SHA1 string si the same, then how about the package name? 
+The SHA1 string is the same, then how about the package name? 
 
 Refer to this post [Resolving the package name of Android APK](http://stackoverflow.com/questions/6289149/resolving-the-package-name-of-android-apk), I'm able to print the apk infos about package name:
 
