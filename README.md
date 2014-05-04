@@ -2,6 +2,9 @@ build new _sites_
 jekyll --pygments --safe
 
 
+TODO:
+
+ 图片, backtick `
 1. emoji:
 https://help.github.com/articles/emoji-on-github-pages
 

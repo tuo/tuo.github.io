@@ -2,6 +2,7 @@
 layout: post
 title: "TPLink WR720N刷OpenWrt - 修砖"
 date: 2014-05-04 17:06:50 +0800
+published: false
 tags: #openwrt, #wr720n
 ---
 
@@ -12,6 +13,7 @@ tags: #openwrt, #wr720n
 ## 首次刷机尝试
 
 手头有的东西名目:
+
 	* 一个很早之前买的TPLink WR720N迷你路由
 	* 一根microUSB线
 	* 网线
