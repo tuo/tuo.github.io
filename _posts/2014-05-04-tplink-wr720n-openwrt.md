@@ -33,8 +33,8 @@ a factory image is one built for the bootloader flasher or stock software flashe
 > 
 sysupgrade image (previously named trx image) is designed to be flashed from within openwrt itself
 
-##刷成砖头了 :(
-&nbsp;&nbsp;&nbsp;&nbsp;是的，应该很简单，应该木有问题的，但是很不幸我的刷成了砖头了，ping不通，IP地址无效，重设了N遍都木有任何反应。 
+##刷成砖头了
+&nbsp;&nbsp;&nbsp;&nbsp;是的，应该很简单，应该木有问题的，但是很不幸我的刷成了砖头了，ping不通，IP地址无效，重设了N遍都木有任何反应。:scream: 
 
 &nbsp;&nbsp;&nbsp;&nbsp;怎么办了？我大概了解下路由器启动过程，一般路由器都有一个Flash卡（相当于电脑的硬盘，里面有你个操作系统文件等等），里面有你写好或者下好的固件.当路由器启动时，有一个启动引导程序uboot（相当于windows上BIOS),一般来收它会从Flash卡读取固件（相当于windows比如默认从硬盘上启动操作系统）并加载到内存中。
 

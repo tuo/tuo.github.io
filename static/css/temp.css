@@ -995,11 +995,11 @@ pre {
 }
 
 img {
-  max-width: 70%;
+/*  max-width: 70%;
   max-height: 400px;
-  margin-left: auto !important;
+*/  margin-left: auto !important;
   margin-right: auto !important;
-  display: block;
+/*  display: block;*/
 }
 
 article ul {
