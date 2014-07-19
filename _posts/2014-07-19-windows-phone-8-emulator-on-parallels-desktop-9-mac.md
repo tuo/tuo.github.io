@@ -2,7 +2,6 @@
 layout: post
 title: "在Parallels Desktop 9运行Windows 8 Phone模拟器"
 date: 2014-07-19 12:17:52 +0800
-published: false
 tags: #wp8 #windows #emulator #parallelsdesktop9# #mac#
 ---
 
@@ -27,12 +26,15 @@ tags: #wp8 #windows #emulator #parallelsdesktop9# #mac#
 ##Parallel Desktop 9
 
 具体安装流程可以参考[使用 Parallels Desktop 在 Mac 上安装 Windows 和开发工具](http://msdn.microsoft.com/zh-cn/library/windows/apps/jj945424.aspx) 这里有一点需要注意的是，在[步骤 2：设置 Parallels Desktop]中第六步之后，你还需要选中设置面板中第二个tab[Options],下面的左侧的[Optimization]，右侧内容中[Enable nested virtualization]。
+
 ![Enable nested virtualization](https://cloud.githubusercontent.com/assets/491610/3633860/411b570c-0f00-11e4-947c-61cc1cbf1e80.png)
 
 在系统安装完毕之后，我们需要打开Hyper-V功能，这是能让模拟器能跑起来的重要条件。
 
 依次打开 `Control Panel` -> `Programs and Features` -> `Turn Windows features on or off` -> tick `Hyper-V`
+
 ![Hyper-v](https://cloud.githubusercontent.com/assets/491610/3633861/4cf12098-0f00-11e4-8ee4-c498a98e9526.png)
+
 然后重启电脑。
 
 接下来就是用ultraiso依次加载和安装visual studio和windows phone 8 sdk。
