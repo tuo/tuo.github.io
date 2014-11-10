@@ -56,3 +56,6 @@ tags: #wp8 #windows #emulator #parallelsdesktop9# #mac#
 
 * [使用 Parallels Desktop 在 Mac 上安装 Windows 和开发工具](http://msdn.microsoft.com/zh-cn/library/windows/apps/jj945424.aspx)
 
+
+
+
