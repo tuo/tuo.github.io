@@ -54,7 +54,7 @@ tags: #wp8 #windows #emulator #parallelsdesktop9# #mac#
 
 * [PD9: Running Windows 8 Phone emulator in the Windows 8 virtual machine](http://kb.parallels.com/en/115211)
 
-* [使用 Parallels Desktop 在 Mac 上安装 Windows 和开发工具](http://msdn.microsoft.com/zh-cn/library/windows/apps/jj945424.aspx).
+* [使用 Parallels Desktop 在 Mac 上安装 Windows 和开发工具](http://msdn.microsoft.com/zh-cn/library/windows/apps/jj945424.aspx)
 
 
 
