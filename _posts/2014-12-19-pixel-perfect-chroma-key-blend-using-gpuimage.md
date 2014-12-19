@@ -53,110 +53,118 @@ Followings are the steps to do it:
 
 ####1. Open GPUImage project and create *THMovieAlphaBlendFilter*
 
-	#import "GPUImageThreeInputFilter.h"
-	 
-	@interface THMovieAlphaBlendFilter : GPUImageThreeInputFilter {
-	 
-	}
-	
-	@end
+{% highlight objectivec %} 
 
+#import "GPUImageThreeInputFilter.h"
+ 
+@interface THMovieAlphaBlendFilter : GPUImageThreeInputFilter {
+ 
+}
+
+@end
+
+{% endhighlight %} 	
 	
 ####2. Change *THMovieAlphaBlendFilter.m* file 
 
-	#import "THMovieAlphaBlendFilter.h"
-	
-	NSString *const kTHMovieAlphaBlendFragmentShaderString = SHADER_STRING
-	(
-	 precision highp float;
-	 
-	 varying highp vec2 textureCoordinate;
-	 varying highp vec2 textureCoordinate2;
-	 varying highp vec2 textureCoordinate3;
-	 
-	 uniform sampler2D inputImageTexture;
-	 uniform sampler2D inputImageTexture2;
-	 uniform sampler2D inputImageTexture3;
-	 
-	 void main()
-	 {
-	     vec4 textureColorAlpha = texture2D(inputImageTexture, textureCoordinate);//alpha
-	     vec4 textureColorFX = texture2D(inputImageTexture2, textureCoordinate2); //fx
-	     vec4 textureColorSrc = texture2D(inputImageTexture3, textureCoordinate3); //src
-	 
-	     gl_FragColor = mix(textureColorFX, textureColorSrc, 1.0 -textureColorAlpha.r);	     
-	     
-	 });
-	
-	
-	@implementation THMovieAlphaBlendFilter
-		
-	- (id)init;
-	{
-	    if (!(self = [super initWithFragmentShaderFromString:kTHMovieAlphaBlendFragmentShaderString]))
-	    {
-	        return nil;
-	    }	    	    
-	    return self;
-	}
-	@end
+{% highlight objectivec %} 
+#import "THMovieAlphaBlendFilter.h"
 
+NSString *const kTHMovieAlphaBlendFragmentShaderString = SHADER_STRING
+(
+ precision highp float;
+ 
+ varying highp vec2 textureCoordinate;
+ varying highp vec2 textureCoordinate2;
+ varying highp vec2 textureCoordinate3;
+ 
+ uniform sampler2D inputImageTexture;
+ uniform sampler2D inputImageTexture2;
+ uniform sampler2D inputImageTexture3;
+ 
+ void main()
+ {
+     vec4 textureColorAlpha = texture2D(inputImageTexture, textureCoordinate);//alpha
+     vec4 textureColorFX = texture2D(inputImageTexture2, textureCoordinate2); //fx
+     vec4 textureColorSrc = texture2D(inputImageTexture3, textureCoordinate3); //src
+ 
+     gl_FragColor = mix(textureColorFX, textureColorSrc, 1.0 -textureColorAlpha.r);	     
+     
+ });
+
+
+@implementation THMovieAlphaBlendFilter
+	
+- (id)init;
+{
+    if (!(self = [super initWithFragmentShaderFromString:kTHMovieAlphaBlendFragmentShaderString]))
+    {
+        return nil;
+    }	    	    
+    return self;
+}
+@end
+
+{% endhighlight %} 	
 
 The key part is *gl_FragColor = mix(textureColorFX, textureColorSrc, 1.0 -textureColorAlpha.r);* , as you see the third parameter (blend value) is the value of color component from alpha-channel video.
 
 ####3. Setup and run demo code
 
-	@interface ViewController ()
-	@property (nonatomic, strong) GPUImageMovie *gpuMovieAlpha;
-	@property (nonatomic, strong) GPUImageMovie *gpuMovieFX;
-	@property (nonatomic, strong) GPUImageMovie *gpuMovieSource;
-	@property (nonatomic, strong) GPUImageMovieWriter *movieWriter;
-	@property (nonatomic, strong) THMovieAlphaBlendFilter *filter;
-	@end
-	
-	@implementation ViewController
-	
-	- (void)viewDidAppear:(BOOL)animated {
-	    [super viewDidAppear:animated];
-	    
-	    NSURL *urlApha = [[NSBundle mainBundle] URLForResource:@"fireworks_alpha_sd" withExtension:@"mp4"];
-	    self.gpuMovieAlpha = [[GPUImageMovie alloc] initWithURL:urlApha];
-	
-	    NSURL *urlFX = [[NSBundle mainBundle] URLForResource:@"fireworks_sd" withExtension:@"mp4"];
-	    self.gpuMovieFX = [[GPUImageMovie alloc] initWithURL:urlFX];
-	
-	    
-	    NSURL *urlSource = [[NSBundle mainBundle] URLForResource:@"source" withExtension:@"mov"];
-	    self.gpuMovieSource = [[GPUImageMovie alloc] initWithURL:urlSource];
-	    
-	    self.filter = [[THMovieAlphaBlendFilter alloc] init];
-	    
-	    [self.gpuMovieAlpha addTarget:self.filter];
-	    [self.gpuMovieFX addTarget:self.filter];
-	    [self.gpuMovieSource addTarget:self.filter];
-	    
-	    NSString *pathToMovie = [NSHomeDirectory() stringByAppendingPathComponent:
-	                             [NSString stringWithFormat:@"Documents/%@.%@",@"output", @"mp4"]];
-	    unlink([pathToMovie UTF8String]);
-	    NSURL *outputPath = [NSURL fileURLWithPath:pathToMovie];
-	    self.movieWriter = [[GPUImageMovieWriter alloc] initWithMovieURL:outputPath size:CGSizeMake(640.0, 640.0)];
-	    [self.filter addTarget:self.movieWriter];
-	    
-	    [self.movieWriter startRecording];
-	    [self.gpuMovieAlpha startProcessing];
-	    [self.gpuMovieFX startProcessing];
-	    [self.gpuMovieSource startProcessing];
-	 
-	    __weak typeof(self) weakSelf = self;
-	    [self.movieWriter setCompletionBlock:^{
-	        [weakSelf.gpuMovieAlpha endProcessing];
-	        [weakSelf.gpuMovieFX endProcessing];
-	        [weakSelf.gpuMovieSource endProcessing];
-	        [weakSelf.movieWriter finishRecording];
-	    }];
-	    
-	}
-	@end
+{% highlight objectivec %} 
+@interface ViewController ()
+@property (nonatomic, strong) GPUImageMovie *gpuMovieAlpha;
+@property (nonatomic, strong) GPUImageMovie *gpuMovieFX;
+@property (nonatomic, strong) GPUImageMovie *gpuMovieSource;
+@property (nonatomic, strong) GPUImageMovieWriter *movieWriter;
+@property (nonatomic, strong) THMovieAlphaBlendFilter *filter;
+@end
+
+@implementation ViewController
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    NSURL *urlApha = [[NSBundle mainBundle] URLForResource:@"fireworks_alpha_sd" withExtension:@"mp4"];
+    self.gpuMovieAlpha = [[GPUImageMovie alloc] initWithURL:urlApha];
+
+    NSURL *urlFX = [[NSBundle mainBundle] URLForResource:@"fireworks_sd" withExtension:@"mp4"];
+    self.gpuMovieFX = [[GPUImageMovie alloc] initWithURL:urlFX];
+
+    
+    NSURL *urlSource = [[NSBundle mainBundle] URLForResource:@"source" withExtension:@"mov"];
+    self.gpuMovieSource = [[GPUImageMovie alloc] initWithURL:urlSource];
+    
+    self.filter = [[THMovieAlphaBlendFilter alloc] init];
+    
+    [self.gpuMovieAlpha addTarget:self.filter];
+    [self.gpuMovieFX addTarget:self.filter];
+    [self.gpuMovieSource addTarget:self.filter];
+    
+    NSString *pathToMovie = [NSHomeDirectory() stringByAppendingPathComponent:
+                             [NSString stringWithFormat:@"Documents/%@.%@",@"output", @"mp4"]];
+    unlink([pathToMovie UTF8String]);
+    NSURL *outputPath = [NSURL fileURLWithPath:pathToMovie];
+    self.movieWriter = [[GPUImageMovieWriter alloc] initWithMovieURL:outputPath size:CGSizeMake(640.0, 640.0)];
+    [self.filter addTarget:self.movieWriter];
+    
+    [self.movieWriter startRecording];
+    [self.gpuMovieAlpha startProcessing];
+    [self.gpuMovieFX startProcessing];
+    [self.gpuMovieSource startProcessing];
+ 
+    __weak typeof(self) weakSelf = self;
+    [self.movieWriter setCompletionBlock:^{
+        [weakSelf.gpuMovieAlpha endProcessing];
+        [weakSelf.gpuMovieFX endProcessing];
+        [weakSelf.gpuMovieSource endProcessing];
+        [weakSelf.movieWriter finishRecording];
+    }];
+    
+}
+@end
+
+{% endhighlight %} 	
 	
 Extreme care should be taken for the order of *addTarget:self.filter* part, as this order maps strictly to the order in GLSL fragment shader.
 
