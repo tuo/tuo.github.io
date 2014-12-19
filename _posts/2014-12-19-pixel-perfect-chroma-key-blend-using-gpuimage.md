@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pixel Perfect Chroma Key Blend Using GPUImage"
-date: 2014-12-19 16:07:19 +0800
+date: 2014-12-19 19:07:19 +0800
 published: true
 tags: GPUImage,Chroma Key
 ---
@@ -159,6 +159,12 @@ The key part is *gl_FragColor = mix(textureColorFX, textureColorSrc, 1.0 -textur
 	@end
 	
 Extreme care should be taken for the order of *addTarget:self.filter* part, as this order maps strictly to the order in GLSL fragment shader.
+
+There you go, you should be able to get pixel-perfect blended videos, no pulling hairs from animation creators.
+
+All videos(including alpha-channel, fx, source) mentioned in above code could be found here : [sample videos](https://github.com/tuo/tuo.github.io/tree/master/movies). Just quick reminder, the sample vidoeos are just for studying code purpose, do not distribute or use for commercial.
+
+
 
 
 
