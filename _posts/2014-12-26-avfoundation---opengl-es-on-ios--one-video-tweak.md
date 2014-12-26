@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Video Merging with AVFoundation and OpenGL ES on iOS: One Video Tweak"
-date: 2014-12-26 17:00:46 +0800
-published: true
+date: 2014-12-26 20:00:46 +0800
+published: false
 tags: #tags go here: space-separated string
 ---
 
