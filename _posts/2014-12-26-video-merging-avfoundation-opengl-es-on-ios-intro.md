@@ -39,7 +39,7 @@ I did some performance benchmark, which is not that strictly but roughly accurat
 
 Followings is the result:
 
-######Two Videoes Chroma Key Merging
+######Two Videoes Chroma Key Merging (two vidoes)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|         	| GPUImage 	| AVFoundation+OpenGL ES 	|
 |---------	|----------	|------------------------	|
@@ -48,12 +48,12 @@ Followings is the result:
 |         	|          	|                        	|
 
 
-######Three Videoes Alpha Channel Merging
+######Three Videoes Alpha Channel Merging(three vidoes)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|         	| GPUImage 	| AVFoundation+OpenGL ES 	|
 |---------	|----------	|------------------------	|
-| iPhone4 	| 44.79s   	| 11.90s                 	|
-| iPod5   	| 4.68s    	| 3.87s                  	|
+| iPhone4 	| 31.79s   	| 9.10s                 	|
+| iPod5   	| 3.71s     | 3.41s                  	|
 |         	|          	|                        	|
 
 
