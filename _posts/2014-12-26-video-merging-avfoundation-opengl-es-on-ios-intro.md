@@ -2,7 +2,7 @@
 layout: post
 title: "Video Merging with AVFoundation and OpenGL ES on iOS: Introduction"
 date: 2014-12-26 20:00:46 +0800
-published: false
+published: true
 tags: #tags go here: space-separated string
 ---
 

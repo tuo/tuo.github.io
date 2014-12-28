@@ -24,6 +24,8 @@ To illustrate that:
 <br/>
 Note: this will invovles lots of coding, I will break into reasonable section with comments to make it clear.Before we jump into the code, I highly recommend you to watch [WWDC 2011 video 419 'Capturing from the Camera using AVFoundation on iOS 5'](https://developer.apple.com/videos/wwdc/2011/), which covers how to combine AVFoundation with OpenGL ES so that it would be much easier for you to understand what following is about.
 
+Also you could find/download/run the sample project/code in github: [AVFoundationOpenGLESVideoProcessing: OneVideo](https://github.com/tuo/AVFoundationOpenGLESVideoProcessing/tree/master/OneVideo)
+
 ## Code Walkthrough
 
 We will have a video reader and video writer class to carray each's responsibility.
