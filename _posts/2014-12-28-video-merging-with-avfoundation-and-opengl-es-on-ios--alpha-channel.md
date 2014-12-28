@@ -10,18 +10,18 @@ In one of previous post [Pixel Perfect Chroma Key Blend Using GPUImage](http://t
 
 Here is one screenshot of one frame from final video using GPUImage on iPad2:
 
-<div style="text-align:center; width:400px;height:400px; margin:0 auto" markdown="1">
+
+<div style="text-align:center; width:400px;height:483px; margin:0 auto" markdown="1">
 ![ipad2 gpualphablend framenotsynced](https://cloud.githubusercontent.com/assets/491610/5564000/48a1cf26-8edd-11e4-97ed-f8809269acf9.PNG)
-</div>
+</div> 
 
 You could clearly tell that the frame is not perfectly synced.
 
 Here is the one from my implementation:
 
-<div style="text-align:center; width:400px;height:400px; margin:0 auto" markdown="1">
+<div style="text-align:center; width:400px;height:483px; margin:0 auto" markdown="1">
 ![ipad2 customblend png](https://cloud.githubusercontent.com/assets/491610/5563999/4641740c-8edd-11e4-8bfc-0270c4e90cb3.PNG)
-</div>
-
+</div> 
 
 Note: the complete code is on github: [ThreeVidoes-AlphaChannelBlend/](https://github.com/tuo/AVFoundationOpenGLESVideoProcessing/tree/master/ThreeVidoes-AlphaChannelBlend). In sample code, I have also implemented how to do chroma key using GPUImage, so that you could compare side by side.  
 
