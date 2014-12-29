@@ -86,14 +86,14 @@ Here are some logs from console:
 As you see the frametime is not perfectly synchronized between two readers, situation got even worse if you are doing three videoes merging. Why it happens? it is because how GPUImage library use multithreading.if you take a look at [code](https://github.com/BradLarson/GPUImage/blob/master/framework/Source/GPUImageMovie.m#L377) in GPUImageMovie(which is the one reading frame and upload to GPU), what **runSynchronouslyOnVideoProcessingQueue** refers to is just dispatch the reading/uploading block to a single serial queue in [GPUImageContext](https://github.com/BradLarson/GPUImage/blob/master/framework/Source/iOS/GPUImageContext.m#L34)(singleton class to maintain one serial queue for multiple readers). Okay, this is how frame time works in video reader, how it handles frametime passed into video writer? There is the [newFrameReadyAtTime](https://github.com/BradLarson/GPUImage/blob/master/framework/Source/GPUImageTwoInputFilter.m#L209) in GPUImageTwoInputFilter class, which basically says: "only if I got both uploaded output texture in GPU from  video readers, then I will pass **current condition-met frametime** to video writer. And any other case, I will just simply ignore any output from readers". To better illustrate that, if you look at the above logs, so avasset reader finished frame reading and uploading at frame time 0.00, then it simply pass it to  GPUImageTwoInputFilter whom won't start write because it hasn't received second frame output yet, so it simply skips this frame(output is discarded) instead of pausing captured_video and starting APP_Likes because all video readers share same serial queue.
 
 
-The new approach in this experiment is instead of :
+The new approach in this experiment is instead of what GPUImage currently does:
 
 1. letting video readers take initiative, pass read&uploaded frame output to writer and just simply continue next frame processing
 
 2. writer just simply discard whatever frames before both frame are received, which caues of inter-reader frame time out of  sync
 
 
-we are gonna do is:
+what we are gonna do is:
 
 1. video writer take the initiative, reader is passive. Writer ask all readers to read/upload next frame, and it won't start write or next-round reading at all,  unless all readers are returned with its final output texture
 
