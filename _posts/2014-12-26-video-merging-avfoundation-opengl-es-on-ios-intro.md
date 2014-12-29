@@ -114,11 +114,11 @@ This approache will make sure we got frames synced perfectly also gain best perf
 
 &nbsp;&nbsp;&nbsp;&nbsp;The goal that we wanna acheive is broken into three steps: 
 
-1. One video source: take out green color component, and write to disk
+1. One video source: take out green color component, and write to disk (single thread, simple glsl)
 
-2. Two video sources: blend using chroma key, and write to disk
+2. Two video sources: blend using chroma key, and write to disk (multi thread, little bit complicted glsl)
 
-3. Three video sources: blend using white-alpha channel, and write to disk
+3. Three video sources: blend using white-alpha channel, and write to disk (multi thread, little bit complicted glsl)
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Let's start from easiest first step: using avassetreader in avfoundation to read samples/frames from source video, then we upload to GPU with our magic glsl code to take out the green color component from it, after that we grab the output from fully rendered pixels in GPU, and write the transformed frames to final output movie in disk using avassetwriter avfoundation.
