@@ -97,7 +97,7 @@ what we are gonna do is:
 
 1. video writer take the initiative, reader is passive. Writer ask all readers to read/upload next frame, and it won't start write or next-round reading at all,  unless all readers are returned with its final output texture
 
-2. video writer will dispatch all reader's reading process to concurrent queue to achieve better performance instead of using serial queue. We will leverage a greate feature **[GCD dispatch_async group](https://developer.apple.com/library/ios/documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html)** to make sure all paralle-running blocks are all done before start writing.
+2. video writer will dispatch all reader's reading process to concurrent queue to achieve better performance instead of serial queue. We will leverage a greate feature **[GCD dispatch_async group](https://developer.apple.com/library/ios/documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html)** to make sure all paralle-running blocks are all done before start writing.
 
 
 This approache will make sure we got frames synced perfectly also gain best performance.
