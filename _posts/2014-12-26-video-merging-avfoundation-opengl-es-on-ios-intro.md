@@ -65,9 +65,43 @@ Followings is the result:
 
 * on iPod5/iPhone6: final video from GPUImage ends earlier about 0.5s before full length) also frames is not fully synced, well, for custom AVFoundation+OpenGL ES, the final duration is perfect without any frame feezing.
 
-
-
 I haven't got much time on testing on other devices but the results looks quite promoising, plus I haven't got any crash at all after running it many times - which GPUImage sometimes just crashes.
+
+The problem with frame timing in GPUImage library lies in how it works. It use multithreading to get better performance, but it doens't have a good mechanism to handle frame time synching.
+
+Here are some logs from console:
+
+    2014-12-29 19:12:03.115 BBB[4989:60b] GPUImageMovie: captured_video_8A08021A-0886-4399-BC75-EE15C46D5963.mp4, duration: {354565/44100 = 8.040}
+    2014-12-29 19:12:03.126 BBB[4989:60b] GPUImageMovie: APP_Likes.mp4, duration: {723840/90000 = 8.043}
+    2014-12-29 19:12:03.225 BBB[4989:dd0f] ---captured_video_8A08021A-0886-4399-BC75-EE15C46D5963.mp4 newFrameReadyAtTime: 0.00
+    2014-12-29 19:12:03.304 BBB[4989:dd0f] ---captured_video_8A08021A-0886-4399-BC75-EE15C46D5963.mp4 newFrameReadyAtTime: 0.04
+    2014-12-29 19:12:03.320 BBB[4989:dd0f] ---captured_video_8A08021A-0886-4399-BC75-EE15C46D5963.mp4 newFrameReadyAtTime: 0.08
+    2014-12-29 19:12:03.337 BBB[4989:de03] ---APP_Likes.mp4 newFrameReadyAtTime: 0.04
+    2014-12-29 19:12:03.421 BBB[4989:dd0f] ---captured_video_8A08021A-0886-4399-BC75-EE15C46D5963.mp4 newFrameReadyAtTime: 0.13
+    2014-12-29 19:12:03.443 BBB[4989:bb03] Wrote a video frame: 0.08
+    2014-12-29 19:12:03.467 BBB[4989:dd0f] ---captured_video_8A08021A-0886-4399-BC75-EE15C46D5963.mp4 newFrameReadyAtTime: 0.17
+    2014-12-29 19:12:03.481 BBB[4989:de03] ---APP_Likes.mp4 newFrameReadyAtTime: 0.08
+    2014-12-29 19:12:03.542 BBB[4989:bb03] Wrote a video frame: 0.17
+
+As you see the frametime is not perfectly synchronized between two readers, situation got even worse if you are doing three videoes merging. Why it happens? it is because how GPUImage library use multithreading.if you take a look at [code](https://github.com/BradLarson/GPUImage/blob/master/framework/Source/GPUImageMovie.m#L377) in GPUImageMovie(which is the one reading frame and upload to GPU), what **runSynchronouslyOnVideoProcessingQueue** refers to is just dispatch the reading/uploading block to a single serial queue in [GPUImageContext](https://github.com/BradLarson/GPUImage/blob/master/framework/Source/iOS/GPUImageContext.m#L34)(singleton class to maintain one serial queue for multiple readers). Okay, this is how frame time works in video reader, how it handles frametime passed into video writer? There is the [newFrameReadyAtTime](https://github.com/BradLarson/GPUImage/blob/master/framework/Source/GPUImageTwoInputFilter.m#L209) in GPUImageTwoInputFilter class, which basically says: "only if I got both uploaded output texture in GPU from  video readers, then I will pass **current condition-met frametime** to video writer. And any other case, I will just simply ignore any output from readers". To better illustrate that, if you look at the above logs, so avasset reader finished frame reading and uploading at frame time 0.00, then it simply pass it to  GPUImageTwoInputFilter whom won't start write because it hasn't received second frame output yet, so it simply skips this frame(output is discarded) instead of pausing captured_video and starting APP_Likes because all video readers share same serial queue.
+
+
+The new approach in this experiment is instead of :
+
+1. letting video readers take initiative, pass read&uploaded frame output to writer and just simply continue next frame processing
+
+2. writer just simply discard whatever frames before both frame are received, which caues of inter-reader frame time out of  sync
+
+
+we are gonna do is:
+
+1. video writer take the initiative, reader is passive. Writer ask all readers to read/upload next frame, and it won't start write or next-round reading at all,  unless all readers are returned with its final output texture
+
+2. video writer will dispatch all reader's reading process to concurrent queue to achieve better performance instead of using serial queue. We will leverage a greate feature **[GCD dispatch_async group](https://developer.apple.com/library/ios/documentation/General/Conceptual/ConcurrencyProgrammingGuide/OperationQueues/OperationQueues.html)** to make sure all paralle-running blocks are all done before start writing.
+
+
+This approache will make sure we got frames synced perfectly also gain best performance.
+
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;Breakdown
 
@@ -108,14 +142,4 @@ But this is not enough yet, we need some way to upload image to GPU, which in Op
 </div>
 
 
-
-
-
 Without further ado, let's get our's dirty to get our first milestone done :) 
-
-
-
-
-
-
-
