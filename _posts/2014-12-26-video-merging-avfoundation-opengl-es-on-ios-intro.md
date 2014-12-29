@@ -149,4 +149,7 @@ But this is not enough yet, we need some way to upload image to GPU, which in Op
 </div>
 
 
+As you see, it is not that complicted or scarying like what it says in above rage comic. We only need a fairly simple understanding of OpenGL ES(because we're working one 2D), multithreading(because we only need to know serial/concurrent queue and dispatch_async_group), AVFoundatation(well, just setup and read/write frames).
+
+
 Without further ado, let's get our's dirty to get our first milestone done :) 
