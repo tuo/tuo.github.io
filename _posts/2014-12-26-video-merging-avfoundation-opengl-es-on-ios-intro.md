@@ -45,6 +45,7 @@ Followings is the result:
 |---------	|----------	|------------------------	|
 | iPhone4 	| 44.79s   	| 11.90s                 	|
 | iPod5   	| 4.68s    	| 3.87s                  	|
+| iPhone6   | 1.44s     | 1.11s                  	|
 |         	|          	|                        	|
 
 
@@ -54,14 +55,17 @@ Followings is the result:
 |---------	|----------	|------------------------	|
 | iPhone4 	| 31.79s   	| 9.10s                 	|
 | iPod5   	| 3.71s     | 3.41s                  	|
+| iPhone6   | 1.62s     | 1.13s                  	|
 |         	|          	|                        	|
 
 
-**note: **
+######Note:
 
 * on iPhone4: GPUImage throw tons of 'Couldn't write a frame' error, not be able to write a video or written video is chaotic or contains lots of feezing frames; well for custom AVFoundation+OpenGL ES,perfect full length, no frame dropping, frame synced perfectly. 
 
-* on iPod5: final video from GPUImage ends earlier about 0.5s before full length), well, for custom AVFoundation+OpenGL ES, the final duration is perfect without any frame feezing.
+* on iPod5/iPhone6: final video from GPUImage ends earlier about 0.5s before full length) also frames is not fully synced, well, for custom AVFoundation+OpenGL ES, the final duration is perfect without any frame feezing.
+
+
 
 I haven't got much time on testing on other devices but the results looks quite promoising, plus I haven't got any crash at all after running it many times - which GPUImage sometimes just crashes.
 
