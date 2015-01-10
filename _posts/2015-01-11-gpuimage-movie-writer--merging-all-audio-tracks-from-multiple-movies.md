@@ -488,7 +488,7 @@ Man, working with low level threading and avfoundation is a challenage, working 
 
 I help someone could give some suggestions to make this library even better :)
 
-All code and examples are available on github: [GPUImageMultpileAudioTracksMerge](https://github.com/tuo/GPUImageMultpileAudioTracksMerge)
+All code and examples(which covers all cases: no audio track, one audio track, all audio tracks) are available on github: [GPUImageMultpileAudioTracksMerge](https://github.com/tuo/GPUImageMultpileAudioTracksMerge)
 
 And GPUImage changes are available on github also: [added support for merging all audio tracks from multiple movies](https://github.com/tuo/GPUImage/commit/4a3be64c6f1c0a44316045b71d70dd1714baa70c), you should be easy to get this pull request.
 
