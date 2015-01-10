@@ -13,7 +13,9 @@ To achieve this, we need to modify the code that we had for one video transform 
 Note: the complete code is on github: [TwoVideoes-ChromaKey](https://github.com/tuo/AVFoundationOpenGLESVideoProcessing/tree/master/TwoVideoes-ChromaKey). In sample code, I have also implemented how to do chroma key using GPUImage, so that you could compare side by side.
 
 
-#### Shaders
+#Shaders
+<hr/>
+
 
 Now we need to change vertext shader to has two input texture coordinates:
 
@@ -67,7 +69,9 @@ The fragment shader we take from GPUImage's [GPUImageChromaKeyBlendFilter](https
 
 So for anyone who has used GPUImage to do chromakey blend, this should look very familiar.
 
-### Sample 
+# Setup 
+<hr/>
+
 
 {% highlight objectivec %}
 
@@ -92,7 +96,9 @@ Okay, we're good with sample code, so what change we need on video reader and wr
 
 Well, it turns out video reader doesn't need any change. We only need to change VideoWriter to add support for two readers.
 
-### VideoWriter
+# VideoWriter
+<hr/>
+
 
 First, we need to change **- (void)compileShaders ** method to get handler for second texture(because of one more video).
 
@@ -259,6 +265,16 @@ Here we used **dispatch_group_async** to dispatch reading/uploading frame curren
                 
 The order is very important, as it is mapped to the order we defined in our shader, which could lead to completely different result if it is wrong.
 
-That's it, that's all you need to change to make it support two video merging with chroma key.                
+That's it, that's all you need to change to make it support two video merging with chroma key.  
+
+
+# What's Next
+<hr/>
+
+
+* ####Audio Tracks Merge####: We already have video merged, but not for audio part. So in next article, we will add function to merge audio tracks from all vidoes: .
+
+* ####Performance Optimization####: All above test is based on 640*640 resolution, what if we try 1280*720 resolution videos?  We will try to use OpenGL ES Analyzer in Instrument to help improve the performance.
+
 
     

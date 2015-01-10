@@ -26,7 +26,8 @@ Note: this will invovles lots of coding, I will break into reasonable section wi
 
 Also you could find/download/run the sample project/code in github: [AVFoundationOpenGLESVideoProcessing: OneVideo](https://github.com/tuo/AVFoundationOpenGLESVideoProcessing/tree/master/OneVideo)
 
-## Code Walkthrough
+# Code Walkthrough
+<hr/>
 
 We will have a video reader and video writer class to carray each's responsibility.
 
@@ -54,7 +55,9 @@ In step5(*kick off recording*), we will pull each frame from reader, then upload
 ![workflow](https://cloud.githubusercontent.com/assets/491610/5563835/469de488-8ed0-11e4-8f47-2fd925a4f654.jpg)
 </div>
 
-### Sample 
+# Setup
+<hr/>
+
 
 {% highlight objectivec %}
 
@@ -67,7 +70,9 @@ videoReaderFX = [[VideoReader alloc] initWithURL:fxURL];
 
 {% endhighlight %} 	
 
-### Video Reader Setup
+# Video Reader Setup
+<hr/>
+
 
 setup code:
 
@@ -167,7 +172,8 @@ Load video and prepare:
 {% endhighlight %} 
 
 
-### Video Writer Setup
+# Video Writer Setup
+<hr/>
 
 Note: video writer setup and warm up is more complicted than reader slightly.
 
@@ -320,7 +326,8 @@ First part is setup code:
 
 {% endhighlight %} 
 
-### Video Writer KickOff
+# Video Writer KickOff
+<hr/>
 
 This is key part of whole thing:
 
@@ -535,7 +542,8 @@ FrameRenderOutput is just simply data object to hold some intermediate informati
 
 {% endhighlight %} 
 
-### Shader GLSL
+# Shader GLSL
+<hr/>
 
 Here is the vertext file:
 

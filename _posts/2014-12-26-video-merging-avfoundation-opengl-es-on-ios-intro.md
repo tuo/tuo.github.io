@@ -9,7 +9,8 @@ tags: #tags go here: space-separated string
 
 &nbsp;&nbsp;&nbsp;&nbsp;Video merging on iOS is kinda tricky even though there is good library like GPUImage there. If you look at the issue page of GPUImage, you would realize lots of the issues relates to *GPUImageMovie* or *GPUImageMovieWriter*, yes, it is very good at image processing, but for video, I'm not sure about that.
 
-##  &nbsp;&nbsp;&nbsp;&nbsp;Problems
+#  &nbsp;&nbsp;&nbsp;&nbsp;Problems
+<hr/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;As I know from my personal experience, there are some problems with vide processing: 
 
@@ -31,7 +32,8 @@ and final video got some freeze frames.This however, from my experience, it rela
 </div>
 
 
-## &nbsp;&nbsp;&nbsp;&nbsp;New Approach
+# &nbsp;&nbsp;&nbsp;&nbsp;New Approach
+<hr/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;So I decide to try writing a simple video-processing(more specific chroma key) project using AVFoundation and OpenGL ES to see how hard it is. As you may know, the hard thing about it is you need to know OpenGL ES which is kinda scarying at the beginning, let alone combine with multithreading to acheive better performance. 
 
@@ -110,7 +112,9 @@ what we are gonna do is:
 This approache will make sure we got frames synced perfectly also gain best performance.
 
 
-## &nbsp;&nbsp;&nbsp;&nbsp;Breakdown
+# &nbsp;&nbsp;&nbsp;&nbsp;Breakdown
+<hr/>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;The goal that we wanna acheive is broken into three steps: 
 
@@ -123,7 +127,7 @@ This approache will make sure we got frames synced perfectly also gain best perf
 
 &nbsp;&nbsp;&nbsp;&nbsp;Let's start from easiest first step: using avassetreader in avfoundation to read samples/frames from source video, then we upload to GPU with our magic glsl code to take out the green color component from it, after that we grab the output from fully rendered pixels in GPU, and write the transformed frames to final output movie in disk using avassetwriter avfoundation.
 
-
+<br/>
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Key Concept Walkthrough: OpenGL ES 
 
 &nbsp;&nbsp;&nbsp;&nbsp;The difficult part in first step is OpenGL ES. You need to have basic knowledge about it, but it won't that difficult to pick up. You need to step back and change your mind little bit to old procedure programming.
@@ -132,10 +136,12 @@ To begin with OpenGL ES, I strongly recommend Ray Wenderlich's article [OpenGL T
 
 But this is not enough yet, we need some way to upload image to GPU, which in OpenGL ES terms, called "texture", which is well covered in second part of blog: [OpenGL ES 2.0 for iPhone Tutorial Part 2: Textures](http://www.raywenderlich.com/4404/opengl-es-2-0-for-iphone-tutorial-part-2-textures). Note: you don't need know to depth buffer, just need to know how to map texture coordinates and send pixel data to GPU.
 
+<br/>
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Key Concept Walkthrough: AVFoundation
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AVFoundation is what we're gonna use for read/write frames from/to video. Apple has really good sessions from WWDC, which you could take a look. Also it has a greate resource in dev library in [Export](https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/AVFoundationPG/Articles/05_Export.html) in [AV Foundation Programming Guide](https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/AVFoundationPG/Articles/00_Introduction.html#//apple_ref/doc/uid/TP40010188-CH1-SW3), which covers reading/writing assets.
 
+<br/>
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Key Concept Walkthrough: OpenGL ES && AVFoundation 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How do combine those two keys together? I would really suggest a well reading through Apple's sample code [GLCameraRipple](https://developer.apple.com/library/ios/samplecode/GLCameraRipple/Introduction/Intro.html), what it does is: 

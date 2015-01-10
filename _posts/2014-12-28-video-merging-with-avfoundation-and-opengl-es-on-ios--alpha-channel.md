@@ -28,7 +28,9 @@ Note: the complete code is on github: [ThreeVidoes-AlphaChannelBlend/](https://g
 
 Talk is cheap, show me the damn code.
 
-#### Shaders
+# Shaders
+<hr/>
+
 
 Now we need to change vertext shader to has three input texture coordinates:
 
@@ -75,7 +77,9 @@ The fragment shader is quite simple, as we pull the color component from alpha c
     }
     
 
-### Sample 
+# Setup 
+<hr/>
+
 
 {% highlight objectivec %}
 
@@ -105,7 +109,8 @@ Okay, we're good with sample code, so what change we need on video reader and wr
 
 Yeah, it turns out it is like what we did in two video merging: video reader doesn't need any change and we only need to change VideoWriter to add support for three readers.
 
-### VideoWriter
+# VideoWriter
+<hr/>
 
 First, we need to change **- (void)compileShaders ** method to get handler for third texture(because of one more video).
 
