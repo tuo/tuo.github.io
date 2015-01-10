@@ -263,6 +263,8 @@ This is the last article in this series.
 
 I have done other cleanup also. But for other points it listed from instruments, I dont' quite understand how to improve it. I help someone could share some experience on it and make it better.
 
+Beside that, you could use kCVPixelFormatType_420YpCbCr8BiPlanarFullRange over kCVPixelFormatType_32BGRA for better performance, since I dont' have much time for it, I'm just gonna leave it for someone who is interested on this :)
+
 
 
 
