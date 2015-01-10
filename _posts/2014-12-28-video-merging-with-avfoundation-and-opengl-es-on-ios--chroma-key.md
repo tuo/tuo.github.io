@@ -266,15 +266,4 @@ Here we used **dispatch_group_async** to dispatch reading/uploading frame curren
 The order is very important, as it is mapped to the order we defined in our shader, which could lead to completely different result if it is wrong.
 
 That's it, that's all you need to change to make it support two video merging with chroma key.  
-
-
-# What's Next
-<hr/>
-
-
-* ####[Audio Tracks Merge](http://tuohuang.info/video-merging-with-avfoundation-and-opengl-es-on-ios--multiple-audio-tracks-merge)####: We already have video merged, but not for audio part. So in next article, we will add function to merge audio tracks from all vidoes: .
-
-* ####[Performance Optimization](http://tuohuang.info/video-merging-with-avfoundation-and-opengl-es-on-ios--optimization-with-instruments/)####: All above test is based on 640*640 resolution, what if we try 1280*720 resolution videos?  We will try to use OpenGL ES Analyzer in Instrument to help improve the performance.
-
-
     

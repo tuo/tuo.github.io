@@ -301,4 +301,11 @@ Again, the order is very important.
 
 That's it, that's all you need to change to make it support three video merging to pixel perfect chroma key blending :)
 
+# What's Next
+<hr/>
+
+
+* [Audio Tracks Merge](http://tuohuang.info/video-merging-with-avfoundation-and-opengl-es-on-ios--multiple-audio-tracks-merge): We already have video merged, but not for audio part. So in next article, we will add function to merge audio tracks from all vidoes: .
+
+* [Performance Optimization](http://tuohuang.info/video-merging-with-avfoundation-and-opengl-es-on-ios--optimization-with-instruments/): All above test is based on 640*640 resolution, what if we try 1280*720 resolution videos?  We will try to use OpenGL ES Analyzer in Instrument to help improve the performance.
     
