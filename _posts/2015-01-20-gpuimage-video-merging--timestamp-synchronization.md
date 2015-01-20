@@ -14,7 +14,7 @@ There are several issues on github mentioned about this already: [video overlay 
 
 >This is what triggers all the bizarre behavior people see around blending two movies together (something I never designed things for, and now need to find a way to fix). It's a tricky problem, and I don't spend a lot of time working with movie files, so it's not one of the areas I've put a lot of thought into.
 
-
+<br/>
 #Out-of-Sync Timestamp : Why?
 <hr/>
 
@@ -263,7 +263,7 @@ Here is the stats on iPod5 running multiple videos(8 seconds, 640*640 resolution
 | Three Videos | 11s                       | 12.00s            |
 | Four Videos  | 12s                       | 15.96s            |
 
-
+<br/>
 Only when you process four video merging, you probably would notice the difference; for other cases, the difference is just trivial.
 
 All changes are available on github also: [Fix Video Timestamp Inconsistence - which video stops too early](https://github.com/tuo/GPUImage/commit/e99878196e85820be86296a53f1c40ada4a40b5f).
