@@ -264,7 +264,7 @@ Here is the stats on iPod5 running multiple videos(8 seconds, 640*640 resolution
 | Four Videos  | 12s                       | 15.96s            |
 
 
-Only when you process four video merging, you probably would notice the difference; for other cases, it just looks no difference.
+Only when you process four video merging, you probably would notice the difference; for other cases, the difference is just trivial.
 
 All changes are available on github also: [Fix Video Timestamp Inconsistence - which video stops too early](https://github.com/tuo/GPUImage/commit/e99878196e85820be86296a53f1c40ada4a40b5f).
 
