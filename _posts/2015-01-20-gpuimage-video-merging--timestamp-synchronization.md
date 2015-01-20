@@ -14,7 +14,9 @@ There are several issues on github mentioned about this already: [video overlay 
 
 >This is what triggers all the bizarre behavior people see around blending two movies together (something I never designed things for, and now need to find a way to fix). It's a tricky problem, and I don't spend a lot of time working with movie files, so it's not one of the areas I've put a lot of thought into.
 
-#Out-of-Sync Timestamp : Why?
+
+<br/>
+# Out-of-Sync Timestamp : Why?
 <hr/>
 
 Let's recall how to setup chroma key to handle two video merging, which is quite typical use case:
