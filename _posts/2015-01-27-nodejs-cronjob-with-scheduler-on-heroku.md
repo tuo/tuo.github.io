@@ -26,7 +26,7 @@ var createDailyMail = function(callback){
 var _jobs = [
   {
     name: 'Create Email Queue',
-	cronTime: '0 2 0 * * *', // every day at 00:02:00 am (extra 2 minutes for dyno wakeup)
+	cronTime: '0 2 0 * * *', // every day at 00:02:00 am (extra 2 minutes for dyno wakeup, any number between 0 and 60 minutes is fine as cronjob will be guaranteed to be executed before dyno went sleep again)
     //cronTime: '*/10 * * * * *', // every 10 seconds
     onTick: createDailyMail,
     start: true,
@@ -151,10 +151,48 @@ Then we need to go to heroku scheduler adds-on page:
 6. save 
 
 
-Then you're pretty much done. Just pay attention to the run time, it is utc time so make sure you calculate/convert correctly from your target timezone. I have just made a dumb mistake by putting wrong 04:00 UTC time rather than 16:00 UTC.
-
 ![heroku scheduler](https://cloud.githubusercontent.com/assets/491610/5917762/d489517c-a65b-11e4-98fc-f8a9938b774d.png)
 
+
+Then you're pretty much done. Just pay attention to the run time, it is utc time so make sure you calculate/convert correctly from your target timezone. I have just made a dumb mistake by putting wrong 04:00 UTC time rather than 16:00 UTC.
+
+Run it again and check out the logs:
+
+    2015-01-27T09:22:00.688992+00:00 app[web.1]: emails: 0
+    2015-01-27T09:22:00.689005+00:00 app[web.1]: mailer.process_queue => Finished processing each email address from 0 queued emails
+    2015-01-27T09:22:33.117304+00:00 heroku[web.1]: Idling
+    2015-01-27T09:22:33.117873+00:00 heroku[web.1]: State changed from up to down
+    2015-01-27T09:22:35.571568+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+    2015-01-27T09:22:37.153548+00:00 heroku[web.1]: Process exited with status 143
+    2015-01-27T16:00:13.589599+00:00 heroku[api]: Starting process with command `node wake_up_dyno.js` by scheduler@addons.heroku.com
+    2015-01-27T16:00:17.036490+00:00 heroku[scheduler.1203]: Starting process with command `node wake_up_dyno.js`
+    2015-01-27T16:00:17.661659+00:00 heroku[scheduler.1203]: State changed from starting to up
+    2015-01-27T16:00:18.793986+00:00 app[scheduler.1203]: ======WAKUP DYNO START
+    2015-01-27T16:00:18.868482+00:00 heroku[web.1]: State changed from down to starting
+    2015-01-27T16:00:18.868482+00:00 heroku[web.1]: Unidling
+    2015-01-27T16:00:23.329359+00:00 heroku[web.1]: Starting process with command `node server.js`
+    2015-01-27T16:00:29.952355+00:00 app[web.1]: Create Email Queue cronjob scheduled at 0 2 0 * * * on timezone Asia/Shanghai
+    2015-01-27T16:00:29.962476+00:00 app[web.1]: Tue Jan 27 2015 16:00:29 GMT+0000 (UTC) | XXX app started on port 51605
+    2015-01-27T16:00:29.962543+00:00 app[web.1]: === LOGS ==========================================
+    2015-01-27T16:00:29.944710+00:00 app[web.1]: Deprecation warning: moment().zone is deprecated, use moment().utcOffset instead. https://github.com/moment/moment/issues/1779
+    2015-01-27T16:00:29.961339+00:00 app[web.1]: Process Email Queue cronjob scheduled at 0 */1 * * * * on timezone undefined
+    2015-01-27T16:00:31.005846+00:00 heroku[router]: at=info method=GET path="/WAKEUP_DYNO" host=xxx.herokuapp.com request_id=885034de-57fb-452f-ab76-dec9b6f0958d dyno=web.1 connect=6ms service=40ms status=404 bytes=245
+    2015-01-27T16:00:31.029943+00:00 app[scheduler.1203]: ======WAKUP DYNO: HEROKU RESPONSE: Cannot GET /WAKEUP_DYNO
+    2015-01-27T16:00:31.029950+00:00 app[scheduler.1203]: 
+    2015-01-27T16:00:31.013335+00:00 app[web.1]: GET /WAKEUP_DYNO 404 24 - 14.446 ms
+    2015-01-27T16:00:30.020379+00:00 heroku[web.1]: State changed from starting to up
+    2015-01-27T16:00:32.002333+00:00 heroku[scheduler.1203]: State changed from up to complete
+    2015-01-27T16:00:31.973919+00:00 heroku[scheduler.1203]: Process exited with status 0
+    2015-01-27T16:01:01.079431+00:00 app[web.1]: mailer.process_queue => Finished processing each email address from 0 queued emails
+    2015-01-27T16:01:01.078878+00:00 app[web.1]: emails: 0
+    2015-01-27T16:02:01.092341+00:00 app[web.1]: ====createDailyMail created daily email at: 2015-01-27 00:00:00
+    2015-01-27T16:02:01.086960+00:00 app[web.1]: mailer.process_queue => Finished processing each email address from 0 queued emails
+    2015-01-27T16:03:00.098213+00:00 app[web.1]: emails: 1
+    2015-01-27T16:03:00.171912+00:00 app[web.1]: mailer.process_queue sending => Email 54c7b679f952480300579948 to clarkhtse@gmail.com with subject: [XXXXXX] Stats on 2015-01-27
+    2015-01-27T16:03:01.216343+00:00 app[web.1]: mailer.process_queue success => Email to clarkhtse@gmail.com  Sent with response => success marked as sent
+    2015-01-27T16:03:01.222617+00:00 app[web.1]: mailer.process_queue => Finished processing each email address from 1 queued emails
+    2015-01-27T16:04:00.154263+00:00 app[web.1]: emails: 0
+    2015-01-27T16:04:00.154393+00:00 app[web.1]: mailer.process_queue => Finished processing each email address from 0 queued emails
 
 
 There you go. Your little cronjob should work as you expect now :)
