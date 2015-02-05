@@ -507,7 +507,7 @@ There you go.
 
 I found this change has resolved all problems above and it runs quite stably(not even with a single crash spotted)
 
-The commit is available on github: [Fix movie writer exporting](https://github.com/tuo/GPUImage/commit/38bba142a00c51c138621c0a4a73fe1132de4cdb) and you could run the sample project called [ChromaKeyVideoMerge](https://github.com/tuo/GPUImage/tree/master/examples/iOS/ChromaKeyVideoMerge)
+The commit is available on github: [Fix movie writer exporting](https://github.com/tuo/GPUImage/commit/5bef9d6d6e84f666739aa0cf36e7a9fce467e291) and you could run the sample project called [ChromaKeyVideoMerge](https://github.com/tuo/GPUImage/tree/master/examples/iOS/ChromaKeyVideoMerge)
 
 
 
