@@ -51,12 +51,18 @@ tags: #tags go here: space-separated string
 
 在受理之后的两天，我收到了英国签证中心的邮件，他回复我上次的申诉：
 
-FW: HUANG TUO - GWF035115164 - SHANGHAI - CMS 131000078957
-Visa.Shanghai@fco.gov.uk
-Dear Huang Tuo,
+	Dear Huang Tuo,
 
-Thank you for your below correspondence.
+	Thank you for your below correspondence.
+	I note that you have since re-applied for your DATV and have addressed the reasons for refusal, therefore have now been issued.
+	For any future enquiries regarding UK visas, please refer to our website at https://www.gov.uk/browse/visas-immigration
 
+	Regards
+
+	I. Keating
+	Entry Clearance Manager
+	Shanghai Visa Section
+	UK Visas and Immigration
 
 
 
