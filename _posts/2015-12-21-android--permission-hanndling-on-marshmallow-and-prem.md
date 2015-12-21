@@ -280,3 +280,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 There you go.
+
+Full code on gist: [https://gist.github.com/tuo/2ee5de2a03e04b48b79b](https://gist.github.com/tuo/2ee5de2a03e04b48b79b)
