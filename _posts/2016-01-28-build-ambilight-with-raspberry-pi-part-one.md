@@ -33,9 +33,9 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 
 配置LED灯带的发光序列和映射是通过树莓派基于OSMC系统上的Hyerion来操作，我会在接下来的部分中仔细描述。
 
-## 配件清单
+# 配件清单
 <hr/>
-分析了原理之后，就需要准备和采购配件了，这里我会列举出组件和淘宝的链接和价格，重要的配件我会给出图片，方便各位参考。
+分析了原理之后，就需要准备和采购配件了，这里我会列举出组件和淘宝的链接和价格，方便各位参考。
 
 * Raspberry Pi(树莓派)： 树莓派是这个实验中最核心的部分，作为控制中心。我的树莓派是2012年时在官方[Elements 14](http://cn.element14.com/raspberrypi-boards)买的，当时的配置是256M内存，各项配置远远没有现在高，但是貌似价格也没有太大幅度的涨价。因为树莓派的操作系统是存储在从外部的闪存卡中。所以记住同时买一个8G的闪存卡还有一个读卡器。（价格：250左右）
 
@@ -48,6 +48,27 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * HDMI转AV线转换器： 高清信号转模拟信号，就需要顶多带几米的LED灯带，也不需要高清信号那么奢侈，模拟信号刚好。[淘宝链接](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.Hagliz&id=522842971813&_u=uc8grg40942) 价格：68
 
 * DC 5V/8A电源一个：记住这个电压非常关键，本实验中所有耗电组件额定电压是5V。如果你只是要带LED灯带，这个足够了。 但是如果你想像我一样，希望用一个电源供给所有的组件，比如LED灯带，树莓派，HDMI分配器，以及HDMI转AV的转换器，那其实我发现买的功率不是很够带动所有的组件，买一个5V/12A 或者 5V/20A的会比较稳妥，我后面会描述如何计算功率来选取合适的电源。 [淘宝链接](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.Hagliz&id=525650598251&_u=uc8grg438f7) 价格： 30.
+
+* HDMI高清线 若干条。[淘宝链接](https://detail.tmall.com/item.htm?id=10773105194&spm=a1z09.2.0.0.Hagliz&_u=vc8grg46b6c)
+
+* AV公对公直通头： 需要将视频采集卡和HDMI转AV线转换器连接起来。[淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.144.bfGq9d&id=40743240102&ns=1&abbucket=5#detail) 价格: 4
+
+* 杜邦线 公对母 公对公：杜邦线可以帮助连接树莓派和LED灯带，以及LED灯带分解和焊接。[淘宝链接](https://detail.tmall.com/item.htm?id=21555044507&ali_refid=a3_430583_1006:1106005875:N:%E6%9D%9C%E9%82%A6%E7%BA%BF:6d3d28cb03feaf6adca31ae0c1dacbe7&ali_trackid=1_6d3d28cb03feaf6adca31ae0c1dacbe7&spm=a230r.1.14.1.wtPjjh&skuId=3108837394481)
+
+* DC电源插座5.5-2.1mm 母头: 这里我们需要将它和LED灯带的供电接头连接起来实现对灯带的供电。[淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.23.uszV7w&id=525229013449&ns=1&abbucket=5#detail)
+
+* DC母头转Micro USB: 实现对树莓派供电。（如果你不是集中一起供电，这个不是必选的）[淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.20.xZnjnh&id=523792521607&ns=1&abbucket=5#detail)
+
+* DC电源分线一拖四：将电源转4路，供给树莓派，LED灯带，HDMI2AV, HDMI分配器。（如果你不是集中一起供电，这个不是必选的） [淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.56.upUcMJ&id=523898222188&ns=1&abbucket=5#detail)
+
+还需要一些焊接LED灯带需要的洛铁，焊锡和焊锡膏，我买的就是住的地方下面的五金店20块的那种，用起来也挺顺手的，丢了也不觉得多肉疼。
+
+
+
+
+
+
+
 
 
 
