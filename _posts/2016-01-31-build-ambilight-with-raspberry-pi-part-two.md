@@ -261,6 +261,8 @@ sudo hyperiond /etc/hyperion.config.json
 
 至此，就表示大功告成。
 
+最后运行**sudo /etc/init.d/hyperion start**来启动Hyerion. 尽情享受流光溢彩Ambilight吧~
+
 
 
 
