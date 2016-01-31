@@ -113,7 +113,7 @@ sudo vi /boot/config.txt（然后末尾添加此行：dtparam=spi=on)
 {% endhighlight %}
 
 
-# Hyperion调试 #
+# Hyperion视频采集卡调试 #
 <hr/>
 
 安装好后，可以快速调试一下看看是否工作：
@@ -172,6 +172,100 @@ sudo hyperion-v4l2 --width -1 --height -1 --crop-top 10 --crop-left 30 --crop-bo
 {% endhighlight %}
 
 就得到右边的截图。
+
+# Hyperion配置LED灯带映射 #
+<hr/>
+
+到了配置Hyperion的时候了，你可以通过Hyerion的图形化工具来配置。工具的文档[Hyerion Configuration](https://github.com/tvdzwan/hyperion/wiki/Configuration)有详细的工具使用说明，先下载工具[HyperCon_ssh.jar](https://raw.github.com/tvdzwan/hypercon/master/deploy/HyperCon_ssh.jar). 下载到本地之后运行**java -jar HyperCon_ssh.jar**：
+
+<div>
+<img src="https://cloud.githubusercontent.com/assets/491610/12617405/839201b0-c54a-11e5-95ea-ecd44d8b7976.png" align="left" height="593" width="1000"/>
+</div>
+<div style="clear:both;"/>
+<br/>
+
+>    type: 选择WS2081
+    RGB byte order: RGB
+    direction: 方向选取逆时针
+    Led in top/bottom coners: 因为我们在顶角90度的地方并没有灯叠加，所以都选false
+    Horizontal: 水平灯一共有32个
+    Vertical: 左右边有19个
+    Bottom Gap: 因为底边没有灯，所以设置为顶边的灯数来去掉底边
+    1st LED offset: 设置此参数来确保第一个标号0从灯带的输入端开始，也就是右边地下第一个。
+
+后面的Horizontal depth等等可以保持默认。
+
+<div>
+<img src="https://cloud.githubusercontent.com/assets/491610/12700894/459a7aca-c830-11e5-9ec9-bc6c51f6d77f.png" align="left" height="593" width="1000"/>
+</div>
+<div style="clear:both;"/>
+<br/>
+
+接下来设置采集卡参数，禁止**Frame Grabber**, 同时开起**GrabberV4L2**, 将下面的参数按照调试的时候填上。
+最后点击下面的**Create Hyerion Configuration**,导出*hyperion.config.json*配置文件,并SCP上传到树莓派上。
+
+{% highlight bash %}
+scp hyperion.config.json osmc@192.168.1.3:~
+登陆到树莓派
+cp hyperion.config.json /etc/
+sudo /etc/init.d/hyperion stop
+{% endhighlight %}
+
+怎么调试了？ 可以运行如下命令来查看输出：
+
+{% highlight bash %}
+sudo hyperiond /etc/hyperion.config.json
+{% endhighlight %}
+
+会有如下输出：
+
+>    Application build time: Jan 30 2016 16:59:41
+    QCoreApplication initialised
+    Selected configuration file: /etc/hyperion.config.json
+    ColorTransform 'default' => [0; 203]
+    Device configuration:
+    {
+    "colorOrder" : "rgb",
+    "name" : "MyPi",
+    "output" : "/dev/spidev0.0",
+    "rate" : 250000,
+    "type" : "WS2801"
+    }
+    Black border threshold set to 0.1 (26)
+    Creating linear smoothing
+    Created linear-smoothing(interval_ms=25;settlingTime_ms=200;updateDelay=0
+    Effect loaded: Knight rider
+    Effect loaded: Blue mood blobs
+    Effect loaded: Cold mood blobs
+    Effect loaded: Full color mood blobs
+    Effect loaded: Green mood blobs
+    Effect loaded: Red mood blobs
+    Effect loaded: Warm mood blobs
+    Effect loaded: Rainbow mood
+    Effect loaded: Rainbow swirl fast
+    Effect loaded: Rainbow swirl
+    Effect loaded: Snake
+    Effect loaded: Strobe blue
+    Effect loaded: Strobe Raspbmc
+    Effect loaded: Strobe white
+    Initializing Python interpreter
+    Hyperion created and initialised
+    run effect Rainbow swirl fast on channel 0
+    Boot sequence(Rainbow swirl fast) created and started
+    V4L2 width=720 height=480
+    V4L2 pixel format=UYVY
+    V4L2 grabber signal threshold set to: {25,25,25}
+    V4L2 grabber started
+    V4l2 grabber created and started
+    ...
+
+至此，就表示大功告成。
+
+
+
+
+
+
 
 
 
