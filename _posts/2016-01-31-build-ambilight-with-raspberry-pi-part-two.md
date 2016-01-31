@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "用树莓派打造流光溢彩 - Build Ambilight with Raspberry Pi (二)"
-date: 2016-01-27 22:21:30 +0800
+date: 2016-01-30 22:21:30 +0800
 published: true
 tags: 树莓派，流光溢彩，Raspberry pi
 ---
@@ -64,3 +64,26 @@ tags: 树莓派，流光溢彩，Raspberry pi
 
 # 软件端准备Hyperion
 <hr/>
+
+目前为止，硬件端基本已经差不多，我们接下来需要准备软件端。
+
+* 操作系统 - [OSMC](https://osmc.tv/). 对于初学者而言,OSMC比较简单直观也有可视化的桌面，上手比较快。我们需要去[下载页面](https://osmc.tv/download/)，选取合适的镜像和平台，下载之后将SD卡插上电脑直接烧录进去即可。 烧录好之后查到树莓派的卡槽中并启动，记得插上网线，然后获取IP地址。
+第一次启动需要你用键盘配置下语言，时区等。
+
+<div>
+<img src="https://cloud.githubusercontent.com/assets/491610/12700628/705c33b2-c825-11e5-9c20-13b2bb610fe5.png" align="left" height="400" width="400" style="margin-left: 0px !important;" />
+<img src="https://cloud.githubusercontent.com/assets/491610/12700627/704d4564-c825-11e5-9ed0-67011daefec5.png" align="left" height="400" width="400"  />
+</div>
+
+<div style="clear:both;"/>
+<br/>
+
+
+记下IP地址:`192.168.1.3`
+
+
+
+
+
+
+
