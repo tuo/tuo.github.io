@@ -107,10 +107,11 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 <br/>
 <img src="https://cloud.githubusercontent.com/assets/491610/12617612/691d1512-c54b-11e5-90a9-2ce717334a17.JPG" align="left" height="300" width="300" style="margin-left: 179px !important;" />
 <img src="https://cloud.githubusercontent.com/assets/491610/12700429/10eb2936-c81d-11e5-9719-00ece94ad2dc.JPG" align="left" height="300" width="300"  />
-
-
 </div>
 <br/>
+
+焊接连接头的时候，记住5V对5V,CK对CK, SI对SI，GND对GND。这是个技术活，记得别紧张慢慢来，虽然焊接圆点不打，其实焊接起来还是比较简单的。
+
 
 
 
