@@ -2,7 +2,7 @@
 layout: post
 title: "用树莓派打造流光溢彩 - Build Ambilight with Raspberry Pi (一)"
 date: 2016-01-27 22:21:30 +0800
-published: false
+published: true
 tags: 树莓派，流光溢彩，Raspberry pi
 ---
 
@@ -98,7 +98,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 # LED灯带布线电视机
 <hr/>
 
-到了动手的环节了， 我们会将LED灯带布线到电视机后面。LED灯带背面有双面胶，将其拨开就可以贴在电视机上面了。我们先从电视机的右边（从背后来看的右边）开始，分成3段，右边->上边->左边，逆时针方向将其布好到电视机上。这里需要保证每一段上面的LED灯带的箭头是一致的。
+到了动手的环节了， 我们会将LED灯带布线到电视机后面。LED灯带背面有双面胶，将其拨开就可以贴在电视机上面了。我们先从电视机的右边（站在电视机前面面对电视机来看的右边）开始，分成3段，右边->上边->左边，逆时针方向将其布好到电视机上。这里需要保证每一段上面的LED灯带的箭头是一致的。
 
 
 
@@ -115,7 +115,22 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 焊接连接头的时候，记住5V对5V,CK对CK, SI对SI，GND对GND。这是个技术活，记得别紧张慢慢来，虽然焊接圆点不打，其实焊接起来还是比较简单的。
 
 
+# LED灯带跟树莓派接线
+<hr/>
 
+接下来我们需要给LED灯带连线，我们首先给灯带供电，我们将拿杜邦线将灯带的5V黑色端连接到DC电源母头的正(+)端，GND蓝色链接到DC电源母头的负(-)端。
+
+这里先上一张连线图，在[Phillip Burgess](https://learn.adafruit.com/assets/1589)的基础上，我简化了一下：
+
+<div>
+<img src="https://cloud.githubusercontent.com/assets/491610/12700514/80ef7bde-c821-11e5-8c98-d0094c83c205.png" align="middle" height="416" width="800" style="margin-left: 0px !important;"/>
+<br/>
+<img src="https://cloud.githubusercontent.com/assets/491610/12700536/78fd691c-c822-11e5-8458-93ba138fd62f.jpg" align="left" height="400" width="400" style="margin-left: 0px !important;" />
+<img src="https://cloud.githubusercontent.com/assets/491610/12700539/aa6c5a9e-c822-11e5-9693-ddaa5cac4e32.jpg" align="left" height="400" width="400"  />
+</div>
+
+<div style="clear:both;"/>
+<br/>
 
 
 
