@@ -263,11 +263,20 @@ sudo hyperiond /etc/hyperion.config.json
 
 最后运行**sudo /etc/init.d/hyperion start**来启动Hyerion. 尽情享受流光溢彩Ambilight吧~
 
+# 引用 #
+<hr/>
 
+* [Building an Ambilight for your Home Theater](https://randyhammons.com/ambilight-build/)
 
+* [How to build your own Ambilight TV with Raspberry Pi and XBMC](https://christianmoser.me/how-to-build-your-own-tv-ambilight-with-raspberry-pi-and-xbmc/)
 
+* [Ambilight from any video source with a Raspberry](http://www.alessandrocolla.com/ambilight-video-source-raspberry-part-3/)
 
+* [DIY Ambient Lighting with Hyperion. Works with HDMI/AV Sources](http://www.instructables.com/id/DIY-Ambilight-with-Hyperion-Works-with-HDMIAV-Sour/)
 
+* [DIY "Ambilight" effect with Hyperion](https://www.youtube.com/watch?v=tRDAzJrfZiM)
+
+* [Hyerion Github Issues](https://github.com/tvdzwan/hyperion/issues/)
 
 
 
