@@ -79,7 +79,7 @@ tags: 树莓派，流光溢彩，Raspberry pi
 
 <div>
 <img src="https://cloud.githubusercontent.com/assets/491610/12700628/705c33b2-c825-11e5-9c20-13b2bb610fe5.png" align="left" height="400" width="400" style="margin-left: 0px !important;" />
-<img src="https://cloud.githubusercontent.com/assets/491610/12700627/704d4564-c825-11e5-9ed0-67011daefec5.png" align="left" height="400" width="400"  />
+<img src="https://cloud.githubusercontent.com/assets/491610/12700627/704d4564-c825-11e5-9ed0-67011daefec5.png" align="left" height="400" width="400"  style="margin-left: 20px !important;"/>
 </div>
 
 <div style="clear:both;"/>
@@ -161,7 +161,7 @@ sudo vi /boot/config.txt（然后末尾添加此行：dtparam=spi=on)
 
 <div>
 <img src="https://cloud.githubusercontent.com/assets/491610/12617388/6d6521c4-c54a-11e5-9b40-07e57e6fddc9.png" align="left" height="400" width="400"/>
-<img src="https://cloud.githubusercontent.com/assets/491610/12617385/6cd5a300-c54a-11e5-9814-8575ed143069.png" align="left" height="400" width="400"/>
+<img src="https://cloud.githubusercontent.com/assets/491610/12617385/6cd5a300-c54a-11e5-9814-8575ed143069.png" align="left" height="400" width="400" style="margin-left: 20px !important;"/>
 </div>
 <div style="clear:both;"/>
 
