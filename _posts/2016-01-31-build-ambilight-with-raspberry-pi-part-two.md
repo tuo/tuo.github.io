@@ -278,6 +278,8 @@ sudo hyperiond /etc/hyperion.config.json
 
 * [Hyerion Github Issues](https://github.com/tvdzwan/hyperion/issues/)
 
+* [Ambilight test video测试视频](http://insaneboard.de/blog/?page_id=24)
+
 
 
 
