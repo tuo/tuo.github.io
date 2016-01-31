@@ -113,6 +113,73 @@ sudo vi /boot/config.txt（然后末尾添加此行：dtparam=spi=on)
 {% endhighlight %}
 
 
+# Hyperion调试 #
+<hr/>
+
+安装好后，可以快速调试一下看看是否工作：
+
+{% highlight bash %}
+    hyperion-remote --priority 50 --color red --duration 5000
+{% endhighlight %}
+
+看看是否都亮红色，比如下图我这里是贴上电视机前先测试的：
+
+<div>
+<img src="https://cloud.githubusercontent.com/assets/491610/12617541/122d4966-c54b-11e5-8288-d9e75e949eca.JPG" align="left" height="400" width="400"/>
+</div>
+<div style="clear:both;"/>
+<br/>
+接下里我们测试下视频采集卡模块是否正常工作。
+
+* 先检测是否视频采集卡被识别。 
+
+{% highlight bash %}
+    apt-get install lsusb    
+{% endhighlight %}
+
+运行之后会有如下输出：
+
+    osmc@osmc:~$ lsusb
+    Bus 001 Device 004: ID 05e1:0408 Syntek Semiconductor Co., Ltd STK1160 Video Capture Device
+    Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp. SMSC9512/9514 Fast Ethernet Adapter
+    Bus 001 Device 002: ID 0424:9512 Standard Microsystems Corp. LAN9500 Ethernet 10/100 Adapter / SMSC9512/9514 Hub
+    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+    osmc@osmc:~$
+
+*Ltd STK1160 Video Capture Device* 那一行就表示被识别。
+
+* 调试Hyerion V412 Grabber模块。
+
+根据官方文档[V412 Grabber](https://github.com/tvdzwan/hyperion/wiki/V412-Grabber), 我们先通过命令调试下部分参数来确保能得到正确的视频截图。
+
+{% highlight bash %}
+    sudo hyperion-v4l2 --width -1 --height -1 --size-decimator 1 --frame-decimator 1 --screenshot
+{% endhighlight %}
+
+会得到一个screenshot文件，是左边这样的。
+
+
+<div>
+<img src="https://cloud.githubusercontent.com/assets/491610/12617388/6d6521c4-c54a-11e5-9b40-07e57e6fddc9.png" align="left" height="400" width="400"/>
+<img src="https://cloud.githubusercontent.com/assets/491610/12617385/6cd5a300-c54a-11e5-9814-8575ed143069.png" align="left" height="400" width="400"/>
+</div>
+<div style="clear:both;"/>
+
+您看到有黑边，这里我们需要配置crop margin，截取黑边部分，
+
+{% highlight bash %}
+sudo hyperion-v4l2 --width -1 --height -1 --crop-top 10 --crop-left 30 --crop-bottom 10 --crop-right 40 --size-decimator 1 --frame-decimator 1 --screenshot
+{% endhighlight %}
+
+就得到右边的截图。
+
+
+
+
+
+
+
+
 
 
 
