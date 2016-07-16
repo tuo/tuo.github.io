@@ -98,12 +98,12 @@
       };
 
       var restrictRawPos = function (pos, viewportDim, imgDim) {
-        console.log("pos:" +pos +", view port dim:" + viewportDim + ", scae:" + scale + ", imgDim:" +imgDim);
-      if (pos < viewportDim/scale - imgDim) { // too far left/up?
-          pos = viewportDim/scale - imgDim;
-        } else if (pos > 0) { // too far right/down?
-          pos = 0;
-        }
+      //   console.log("pos:" +pos +", view port dim:" + viewportDim + ", scae:" + scale + ", imgDim:" +imgDim);
+      // if (pos < viewportDim/scale - imgDim) { // too far left/up?
+      //     pos = viewportDim/scale - imgDim;
+      //   } else if (pos > 0) { // too far right/down?
+      //     pos = 0;
+      //   }
         return pos;
       };
 
