@@ -194,7 +194,7 @@
       var zoomOut = function () {
         zoomCenter(1/2);
       };
-
+      var hammer;
       var onLoad = function () {
 
         img = document.getElementById('pinch-zoom-image-id');
@@ -212,7 +212,7 @@
         curWidth = imgWidth*scale;
         curHeight = imgHeight*scale;
 
-        var hammer = new Hammer(container, {
+        hammer = new Hammer(container, {
           domEvents: true
         });
 
@@ -263,6 +263,8 @@
           zoomAround(2, c.x, c.y);
         });
 
+
+
       };
 
       function previewFile() {
@@ -287,6 +289,7 @@
           lastY = 0;
           pinchCenter = null;
 
+          hammer.reset();
           onLoad();
         }, false);
 
@@ -298,8 +301,10 @@
 
     </script>
     <br>
-    <input id="input" type="file" onchange="previewFile()" value="select file">
+    <input id="input" type="file" onchange="previewFile()" value="select file" style="display:none;">
 
+    <button onclick="zoomIn()">Zoom In</button>
+    <button onclick="zoomOut()">Zoom Out</button>
 
     <div class="pinch-zoom-container">
       <img id="pinch-zoom-image-id" class="pinch-zoom-image" onload="onLoad()"
