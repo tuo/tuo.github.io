@@ -265,7 +265,24 @@
 
       };
 
+      function previewFile() {
+        var preview = document.getElementById('pinch-zoom-image-id');
+        var file    = document.querySelector('input[type=file]').files[0];
+        var reader  = new FileReader();
+
+        reader.addEventListener("load", function () {
+          preview.src = reader.result;
+        }, false);
+
+        if (file) {
+          reader.readAsDataURL(file);
+        }
+      }
+
+
     </script>
+    <br>
+    <input id="input" type="file" onchange="previewFile()" value="select file">
 
     <button onclick="zoomIn()">Zoom In</button>
     <button onclick="zoomOut()">Zoom Out</button>
@@ -274,7 +291,6 @@
       <img id="pinch-zoom-image-id" class="pinch-zoom-image" onload="onLoad()"
            src="http://placekitten.com/1024/768">
     </div>
-
 
   </div>
 
