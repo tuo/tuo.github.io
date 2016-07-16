@@ -11,7 +11,7 @@
 
   <div>
 
-    <div style="height:150px;background-color:#eeeeee">
+    <div style="height:100px;background-color:#eeeeee">
       Ignore this area. Space is needed to test on the iPhone simulator as pinch simulation on the
       iPhone simulator requires the target to be near the middle of the screen and we only respect
       touch events in the image area. This space is not needed in production.
@@ -272,6 +272,7 @@
 
         reader.addEventListener("load", function () {
           preview.src = reader.result;
+          onLoad();
         }, false);
 
         if (file) {
