@@ -11,7 +11,7 @@
 
   <div>
 
-    <div style="height:100px;background-color:#eeeeee">
+    <div style="height:150px;background-color:#eeeeee">
       Ignore this area. Space is needed to test on the iPhone simulator as pinch simulation on the
       iPhone simulator requires the target to be near the middle of the screen and we only respect
       touch events in the image area. This space is not needed in production.
@@ -272,6 +272,21 @@
 
         reader.addEventListener("load", function () {
           preview.src = reader.result;
+
+          imgWidth = null;
+          imgHeight = null;
+          viewportWidth = null;
+          viewportHeight = null;
+          scale = null;
+          lastScale = null;
+          container = null;
+          img = null;
+          x = 0;
+          lastX = 0;
+          y = 0;
+          lastY = 0;
+          pinchCenter = null;
+
           onLoad();
         }, false);
 
@@ -285,8 +300,6 @@
     <br>
     <input id="input" type="file" onchange="previewFile()" value="select file">
 
-    <button onclick="zoomIn()">Zoom In</button>
-    <button onclick="zoomOut()">Zoom Out</button>
 
     <div class="pinch-zoom-container">
       <img id="pinch-zoom-image-id" class="pinch-zoom-image" onload="onLoad()"
