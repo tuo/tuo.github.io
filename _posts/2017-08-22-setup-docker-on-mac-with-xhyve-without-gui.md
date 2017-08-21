@@ -6,7 +6,7 @@ published: true
 tags: #docker
 ---
 
-如果我没记错，几年前还在使用[Puppet](https://puppet.com/)和[Chef](https://www.chef.io/chef/)来快速provisioning AWS上的机器， 虽然说比手动登一个一个SSH登上去手工操作是方便了些， 但是还得写各种recipe, 也是一件头疼的事情。 现在有了Docker, [DevOps](https://en.wikipedia.org/wiki/DevOps)甚至结合slack的[ChatOps](https://medium.com/slack-developer-blog/https-medium-com-slack-developer-blog-building-heroku-chatops-for-slack-f85ef2a3a94), 使得持续部署变得看起来是件容易的事情了。
+如果我没记错，几年前还在使用[Puppet](https://puppet.com/)和[Chef](https://www.chef.io/chef/)来快速provisioning AWS上的机器， 虽然说比手动登一个一个SSH登上去手工操作是方便了些， 但是还得写各种[Recipe](https://docs.chef.io/recipes.html), 也是一件头疼的事情。 现在有了Docker, [DevOps](https://en.wikipedia.org/wiki/DevOps)甚至结合slack的[ChatOps](https://medium.com/slack-developer-blog/https-medium-com-slack-developer-blog-building-heroku-chatops-for-slack-f85ef2a3a94), 使得持续部署变得看起来是件容易的事情了。
 
 
 ## Docker
