@@ -69,7 +69,7 @@ youtube](https://www.youtube.com/watch?v=VU00E-vwxsw)
 
 觉察什么了？ 觉察自我形象, 情感emotion, 身体感知(body sensation)和自我(ego)。
 
-先讲一个《心理控制方法》（[Psycho Cybernetics](https://www.amazon.com/Psycho-Cybernetics-Maxwell-Maltz/dp/0671780921)）， 虽然书名看起来很扯淡，但是考虑这事一本1960年代的书，还是当时非常有前瞻性的。作为一名知名整容外科医生，马尔茨博士发现，许多患者尽管获得了新的面容，但其内心的痛苦与缺乏安全感仍然影响着他们的人生。 
+先讲一个（[Psycho Cybernetics](https://www.amazon.com/Psycho-Cybernetics-Maxwell-Maltz/dp/0671780921)， 虽然翻译的书名看起来很扯淡，但是考虑这事一本1960年代的书，还是当时非常有前瞻性的。作为一名知名整容外科医生，马尔茨博士发现，许多患者尽管获得了新的面容，但其内心的痛苦与缺乏安全感仍然影响着他们的人生。 
 
 有人整容了，但是内心里还是得不到自信；有些人来整容的人，真正可能不是需要整容，而是心理需要咨询。
 想想现在各种整容广告（特别在湖南什么都市频道等，各种啥亚美等，宣传遇见更美的自己？），我在想有没有整容医院开设一个心理咨询(但是商业上不挣钱，估计不是这个年代的风格），其实大部分整容的人应该是心理上的问题更多，至少大部分他们还纠结在外在的自我（self-image), 在他们心中等同于内心的self-image自我形象。 同理的还有学生，成绩不好，可能根源在于他的认知，太多外在的干扰，让这个年纪还未有完整自我形象的孩子失去了方向，只能是抱着自暴自弃亦，所以很多时候都可以听到： 你看我就是不行，没天赋。
@@ -135,7 +135,7 @@ temperament气质：你不需要因为跟大众站一起而感觉高兴兴奋抑
 
 ## 不要去思考，去感受 Don't think, feel & experience
 
-[https://upload-images.jianshu.io/upload_images/15019795-a52fecbd3007d148.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/960/format/webp](https://upload-images.jianshu.io/upload_images/15019795-a52fecbd3007d148.png)
+[bruce lee,dont think,feel](https://user-images.githubusercontent.com/491610/58382646-4145eb00-7fff-11e9-84ad-80df23437f25.png)
 
 这是李小龙在电影里的一个片段。这段的说的是李小龙让学徒不要只看着手指，否则会失去明月的光辉。
 
@@ -161,7 +161,9 @@ temperament气质：你不需要因为跟大众站一起而感觉高兴兴奋抑
 体验经历，抛弃固有的偏见，不管好坏（也无所谓好坏），从其中学习。这让我想起了Ray Dalio在《原则》提到的一个循环:
 
 
-/Users/tuo/Desktop/raydalio-process.jpg
+![raydalio-process](https://user-images.githubusercontent.com/491610/58382643-3db26400-7fff-11e9-9537-0d231f9d19c6.jpg)
+
+
 
 这里的Goal可能用Experience更有用，而且这个不只是Failure失败，成功success也要学习improving的。	
 
@@ -204,7 +206,7 @@ temperament气质：你不需要因为跟大众站一起而感觉高兴兴奋抑
 
 富兰克林这十三条应该说非常贴近日常了。
 
-/Users/tuo/Desktop/Ben-Franklin-Schedule.jpg
+![Ben-Franklin-Schedule](https://user-images.githubusercontent.com/491610/58382649-486cf900-7fff-11e9-8e35-d3c1740b6ef1.jpg)
 
 他还会在每天早上和晚上问自己我将会做什么好的和我做过哪些好的这些问题，这是每日三省吾身么？
 
@@ -272,7 +274,8 @@ present moment（当下）- 跟禅宗里活下当下有点类似了。
 
 
 上帝想让谁灭亡，必定先让其疯狂。如果想要毁灭某一个东西，先推举这一个东西，让他到达顶峰的时候，他自然会走向灭亡。
-/Users/tuo/Desktop/centered.png
+
+[centered](https://user-images.githubusercontent.com/491610/58382640-3723ec80-7fff-11e9-9709-9e66c5e70c7d.png)
 
 对于人来说特别，当他情绪高涨，自认为天下无敌（EGO），感觉良好，他会忽视规律或者道，他的EGO自我让其凌驾于客观事实，为什么了？ 感觉太好了，这种快感(euphoria), 短期极度充满自我，想气球一样，飘了起来，脱离了地面。好比到了一定高度遇到冷空气，不然破气下落摔下来。 他让丧失了理性的判断，overriding复写了你的大脑程序，某种程度上控制了你；人一旦产生妄想，就会违背自然规律而恣意妄为。
 
