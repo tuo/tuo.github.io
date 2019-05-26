@@ -254,6 +254,8 @@ present moment（当下）- 跟禅宗里活下当下有点类似了。
 
 道德经书
 
+![11558879058_ pic](https://user-images.githubusercontent.com/491610/58382818-908d1b00-8001-11e9-8954-0d9edb4c3683.jpg)
+
 
 我时常带着这本口袋书放书包里，有时候有空拿出来看看翻翻，不一定有什么特意，随手一翻，然后不去想，就是感受。
 
@@ -275,7 +277,7 @@ present moment（当下）- 跟禅宗里活下当下有点类似了。
 
 上帝想让谁灭亡，必定先让其疯狂。如果想要毁灭某一个东西，先推举这一个东西，让他到达顶峰的时候，他自然会走向灭亡。
 
-[centered](https://user-images.githubusercontent.com/491610/58382640-3723ec80-7fff-11e9-9709-9e66c5e70c7d.png)
+![centered](https://user-images.githubusercontent.com/491610/58382640-3723ec80-7fff-11e9-9709-9e66c5e70c7d.png)
 
 对于人来说特别，当他情绪高涨，自认为天下无敌（EGO），感觉良好，他会忽视规律或者道，他的EGO自我让其凌驾于客观事实，为什么了？ 感觉太好了，这种快感(euphoria), 短期极度充满自我，想气球一样，飘了起来，脱离了地面。好比到了一定高度遇到冷空气，不然破气下落摔下来。 他让丧失了理性的判断，overriding复写了你的大脑程序，某种程度上控制了你；人一旦产生妄想，就会违背自然规律而恣意妄为。
 
@@ -502,7 +504,7 @@ Andy Hunt写过经典的[《The Pragmatic Programmer: From Journeyman to Master�
 
 
 
-打篮球也是这样，禅师Phil Jackson菲尔·杰克逊的书[《Eleven Rings: The Soul of Success 》](https://www.amazon.com/Eleven-Rings-Success-Phil-Jackson/dp/0143125346)和[《Sacred Hoops: SPIRITUAL LESSONS OF A HARDWOOD WARRIOR 》](https://www.amazon.com/gp/product/1401308813/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i1)，和他在youtube上和奥普拉的采访[How NBA Coach Phil Jackson Taught His Teams Mindfulness | SuperSoul Sunday | Oprah Winfrey Network](https://www.youtube.com/watch?v=aqz7R-QalqY)，你就知道他真的是讲禅融进了生活，篮球只是他讲他的理念实践一个方面。他推崇mindfullness，冥想meditation，推崇铃木俊隆的《禅者的初心》。从他怎么coach乔丹，让他转型做team player团队型球员（我愿意减少得分，给其他团队成员更多机会。ps:结果还是得分王，GOAT就是神），包容bad boys丹尼斯罗德曼的性格，怎么处理我和大我的关系, 建立公牛的两个王朝。包括影响了科比，科比也会每天早上除了凌晨4：30的打铁声，还会做10-15分钟的冥想。[Kobe Bryant On Oprah. Meditation Dictates My Day](https://www.youtube.com/watch?v=ucNODrsGdx0)
+打篮球也是这样，禅师Phil Jackson菲尔·杰克逊的书[《Eleven Rings: The Soul of Success 》](https://www.amazon.com/Eleven-Rings-Success-Phil-Jackson/dp/0143125346)和[《Sacred Hoops: SPIRITUAL LESSONS OF A HARDWOOD WARRIOR 》](https://www.amazon.com/gp/product/1401308813)，和他在youtube上和奥普拉的采访[How NBA Coach Phil Jackson Taught His Teams Mindfulness | SuperSoul Sunday | Oprah Winfrey Network](https://www.youtube.com/watch?v=aqz7R-QalqY)，你就知道他真的是讲禅融进了生活，篮球只是他讲他的理念实践一个方面。他推崇mindfullness，冥想meditation，推崇铃木俊隆的《禅者的初心》。从他怎么coach乔丹，让他转型做team player团队型球员（我愿意减少得分，给其他团队成员更多机会。ps:结果还是得分王，GOAT就是神），包容bad boys丹尼斯罗德曼的性格，怎么处理我和大我的关系, 建立公牛的两个王朝。包括影响了科比，科比也会每天早上除了凌晨4：30的打铁声，还会做10-15分钟的冥想。[Kobe Bryant On Oprah. Meditation Dictates My Day](https://www.youtube.com/watch?v=ucNODrsGdx0)
 
 > In fact, I'm set for whatever might come in my way. I have clamness for whatever in my way. Poise.	
 
