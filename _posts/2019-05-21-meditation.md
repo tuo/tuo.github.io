@@ -135,7 +135,7 @@ temperament气质：你不需要因为跟大众站一起而感觉高兴兴奋抑
 
 ## 不要去思考，去感受 Don't think, feel & experience
 
-[bruce lee,dont think,feel](https://user-images.githubusercontent.com/491610/58382646-4145eb00-7fff-11e9-84ad-80df23437f25.png)
+![bruce lee,dont think,feel](https://user-images.githubusercontent.com/491610/58382646-4145eb00-7fff-11e9-84ad-80df23437f25.png)
 
 这是李小龙在电影里的一个片段。这段的说的是李小龙让学徒不要只看着手指，否则会失去明月的光辉。
 
