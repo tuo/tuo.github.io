@@ -496,6 +496,12 @@ Sciene and art就是关联着的。引用[Da Vinci’s Key to Creativity Came St
 
 反应到实际，比如编程，我们有时候真的没办法，陷入一个死结之中，这个时候我们可以出去走走散散心，买杯咖啡或者抽个烟（不太建议咯），观察其他的东西，反过头可能会发现也许是一个很蠢的错误，但是思维陷入了这个盲点，看不到森林；所以别人帮你看看，梳理梳理，哪怕是讲解也是一种好的办法。
 
+Andy Hunt写过经典的[《The Pragmatic Programmer: From Journeyman to Master》](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X), 大学看的，当时还觉得非常受益。后面他要写了本[《Pragmatic Thinking and Learning: Refactor Your Wetware》](https://www.amazon.com/Pragmatic-Thinking-Learning-Refactor-Programmers/dp/1934356050)提到了很多关于认识大脑和自我还有思维修炼的办法 - 其中也有冥想等。
+
+对于设计师和程序员，这种需要高度的脑力活动，我们需要跟健身一样，锻炼我们的大脑，学会正确认识（包括读懂大脑的状态，给出的提示，比如脑子转不动啊或者突然断电），适当的给大脑喘息和缓冲的空间，除了能提高效率包括注意力，说不定有时候也能给一些新的看问题的视角。
+
+
+
 打篮球也是这样，禅师Phil Jackson菲尔·杰克逊的书[《Eleven Rings: The Soul of Success 》](https://www.amazon.com/Eleven-Rings-Success-Phil-Jackson/dp/0143125346)和[《Sacred Hoops: SPIRITUAL LESSONS OF A HARDWOOD WARRIOR 》](https://www.amazon.com/gp/product/1401308813/ref=dbs_a_def_rwt_hsch_vapi_taft_p1_i1)，和他在youtube上和奥普拉的采访[How NBA Coach Phil Jackson Taught His Teams Mindfulness | SuperSoul Sunday | Oprah Winfrey Network](https://www.youtube.com/watch?v=aqz7R-QalqY)，你就知道他真的是讲禅融进了生活，篮球只是他讲他的理念实践一个方面。他推崇mindfullness，冥想meditation，推崇铃木俊隆的《禅者的初心》。从他怎么coach乔丹，让他转型做team player团队型球员（我愿意减少得分，给其他团队成员更多机会。ps:结果还是得分王，GOAT就是神），包容bad boys丹尼斯罗德曼的性格，怎么处理我和大我的关系, 建立公牛的两个王朝。包括影响了科比，科比也会每天早上除了凌晨4：30的打铁声，还会做10-15分钟的冥想。[Kobe Bryant On Oprah. Meditation Dictates My Day](https://www.youtube.com/watch?v=ucNODrsGdx0)
 
 > In fact, I'm set for whatever might come in my way. I have clamness for whatever in my way. Poise.	
