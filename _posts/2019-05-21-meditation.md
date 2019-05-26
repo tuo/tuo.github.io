@@ -142,6 +142,7 @@ temperament气质：你不需要因为跟大众站一起而感觉高兴兴奋抑
 要理解这段话，我觉得的理解李小龙的创建截拳道的背景和他的人生经历。 他是学哲学的，应该说博览群书，东西方哲学都是广泛涉猎，也包括东方的禅和道，并结合武术的实战特点，独特的创造性的创建了截拳道。与其说他是武术家，我觉得他哲学深度更加令人痴迷。
 
 [BruceLee Podcast](https://brucelee.com/podcast)是一个很好的资源。
+还有书[《The Warrior Within: The Philosophies of Bruce Lee》](https://www.amazon.com/Warrior-Within-Philosophies-Bruce-Lee/dp/0785834443)
 
 月亮不是一般的月亮。唐朝寒山的《吾心思秋月》：
 
