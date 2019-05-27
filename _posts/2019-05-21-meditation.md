@@ -536,4 +536,10 @@ Andy Hunt写过经典的[《The Pragmatic Programmer: From Journeyman to Master�
 
 进则全力以赴，退则静定淡泊。
 
-Strive on, diligently!
+达芬奇：
+
+> Be obsessively curious. Observe from details. Never stop learning. Think visually. 
+
+最后：
+
+*Strive on, diligently!*
