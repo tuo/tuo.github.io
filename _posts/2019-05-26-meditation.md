@@ -84,6 +84,9 @@ I是什么？ 我是什么？ 这个年代我想大部分都感觉到定义一�
 
 以我来看， 跟别人探讨问题时，可能因为某个人的之前的一些行为让我看不惯或者我认为他有故意针对我的意思，那么他语调的一个细微变化（刺激物），就很有可能出发我潜意识的自我防卫-这个人好像对我有威胁或者是名声或者是能力上挑战，继而可能我可能失去工作失去生存， 那么我可能立马就开始有情绪化的表现，比如脸变红，身体不由自己的发抖收缩，语调更高，而且仔细看说的话也越来越脱离事实，好像变成了个人之见的针对。但是事后下来，又觉得自己好像反应过度，不知道自己为什么当时情绪失控，为什么理性好像没有了，变了一个人。
 
+Plato柏拉图： 
+
+> Human behavior flows from three main sources: desire, emotion, and knowledge.
 
 #### Emotional Intelligence情绪智力 - 情绪管控
 
@@ -233,6 +236,8 @@ present moment（当下）- 跟禅宗里活下当下有点类似了。
 
 马可·奥勒留（Marcus Aurelius） & 爱比克泰德（Epictetus），一位是罗马皇帝，一位是奴隶，尽管悬殊的身份，结果都成了古罗马著名的哲学家。 马可·奥勒留身为皇帝，一切欲望都可以满足，因为他的权力，也使得他成为应该是最孤独的人，他写沉思录并没有打算公开，只是写给自己，一种纾解孤独的方式。面对如此巨大的欲望诱惑（想象下），他却没有放纵，反倒了引申出了跟他孤独相对高度的人生思考： 如何更好的自我控制。
 
+> The measure of a man is what he does with power.
+
 道德经里面讲了很多 有大道，当然也有个人相关的道。修身的道，道家，禅和斯托噶都殊途同归。
 
 比如追求happiness幸福，是每个人的都想的。但是真正的幸福是啥了？
@@ -272,12 +277,16 @@ present moment（当下）- 跟禅宗里活下当下有点类似了。
 *不偏不倚，自然能看的客观，不会片面，但有任何妄念，自然会让你脱离中间，失去看透全局之势； 其次，整个宇宙或者大自然，一切都在平衡之中达到和谐，但是任何偏颇，都是差之千里。阴阳互换，循环中自有这个锚点，万事在平衡中打破，打破中平衡；自负自傲则必有大败，自卑菲薄则难以起誓，但是如果知道这个中的存在，则必定在自傲之时，觉察自我，谦卑才得持久；在自卑之时，觉察自我，只月亏则盈，不必执念于一时，更不必妄自菲薄；*
 
 
-#### 中庸
+#### 中庸平衡 - moderate
 
 > 将欲歙之，必固张之。将欲弱之，必固强之。将欲废之，裕固居之。将欲取之，必与固之。
 
 
 上帝想让谁灭亡，必定先让其疯狂。如果想要毁灭某一个东西，先推举这一个东西，让他到达顶峰的时候，他自然会走向灭亡。
+
+柏拉图： 
+
+> There is in every one of us, even those who seem to be most moderate, a type of desire that is terrible, wild, and lawless
 
 ![centered](https://user-images.githubusercontent.com/491610/58382640-3723ec80-7fff-11e9-9709-9e66c5e70c7d.png)
 
@@ -341,18 +350,19 @@ Even keel 哈哈，大道相通, 万物为一物。当你打得好时，别太�
 
 这也是无为的核心思想。 无为并非被动式的逃避问题或者消极厌世，而是你做好的功课，了解观察反思总结事情运行的规律，到了该行动的时候，主动出击，倾尽全力，不纠结于结果；完事，平和的心态接受任何的结果。 先思考你能给予什么， 而不是先思考我能获得什么。
 
-> Things will fall into place, if you let it.
-
+ 
 正如禅里的： 因上努力,果上随缘。
 
 比如打篮球，你平时努力训练，看录像研究对手，到了比赛上，倾尽全力，不去思考结果，那么就是最好的果。但是很多人没有这么去理解，他们不努力然后求果， 或者太多人注重在结果(attached)，却没有努力在过程。
 
-苏格拉底： 
-
-> “He who is not contented with what he has, would not be contented with what he would like to have.”
+太多时候，我们越想得到，实际了越加得不到；反而我们放下了，事情往往水到渠成。
+> The excessive increase in anything causes a reaction in the opposite direction.
 
 记住我们需要完全接受当下，并不是消极不进取，相反一个人如果能平和接受当下的情况，那他就能不畏首畏尾患得患失，全力以赴(commitment&unattached)，因为每个时候他都能用心体验(experience)，平和接受，不管结果如何。
 
+苏格拉底： 
+
+> “He who is not contented with what he has, would not be contented with what he would like to have.”
 
 
 ### 水 Humble&Humility - Be Water, My friend
@@ -388,6 +398,8 @@ Even keel 哈哈，大道相通, 万物为一物。当你打得好时，别太�
 
 
 ### open-mindedness 开放
+
+> Ignorance, the root and stem of every evil.
 
 Ray Dalio [《原则Principles: Life and Work》](https://www.amazon.com/Principles-Life-Work-Ray-Dalio/dp/1501124021)提到的开放思维的原则（Be Radically Open-minded)。当你有了固有的偏见，你就很难去尝试接受新的东西；当你习惯了安稳，自然就很难去接受变化；人成长之间慢慢形成了自己的三观经验规则，慢慢会局限自己的认知；实则到了一定程度，却要反向为之，打破自己亲手建立起来的壁垒，重新建立。
 
