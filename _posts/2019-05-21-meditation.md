@@ -59,7 +59,7 @@ youtube](https://www.youtube.com/watch?v=VU00E-vwxsw)
 > <br/>
 > 归来笑拈梅花嗅，春在枝头已十分。
 
-生活了没有经历或者遭受重大打击或挫折，有时候这些看起来像是像是无病呻吟或是玄而又玄，虚无缥缈，远离人间烟火，因为只有当完全接受([surrender&forgiveness](https://www.newworldlibrary.com/Blog/tabid/767/articleType/ArticleView/articleId/597/The-Meaning-of-Surrender-An-excerpt-from-THE-POWER-OF-NOW-by-Eckhart-Tolle.aspx#.XOoQq9MzbOQ))现实，人才会重新审视自己的内心，也才会明白背后的深远意义。 
+生活了没有经历或者遭受重大打击或挫折，有时候这些看起来像是像是无病呻吟或是玄而又玄，虚无缥缈，远离人间烟火，因为只有当完全接受(surrender&forgiveness[The Power of Now](https://www.amazon.com/Power-Now-Guide-Spiritual-Enlightenment/dp/1577314808))现实，人才会重新审视自己的内心，也才会明白背后的深远意义。 
 
 思考自己已有的价值观或者跳脱出来得到开悟。 但是从何开始？
 
