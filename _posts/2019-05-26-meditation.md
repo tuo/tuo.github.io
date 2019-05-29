@@ -173,7 +173,13 @@ temperament气质：你不需要因为跟大众站一起而感觉高兴兴奋抑
 
 
 
-这里的Goal可能用Experience更有用，而且这个不只是Failure失败，成功success也要学习improving的。	
+
+> ** Experience + Failure/Success + Reflection(examine emotion/feeling honestly by fully accepting reality) = Next Level **
+
+
+我们需要有效的experience, 必须抛开一些理所当然的主观上的东西，好与不好的体验，都是体验，现实是现实，只是我们主观的解释让我们有了倾向性，可能影响我们看到本原本质，我们需要完全接纳accept现实，并且从中reflection反思总结学习，然后进入下一个体验循环。
+
+这个过程中，你无法欺骗的是你自己，可能需要点时间来沉淀情绪心理，but it is okay, take easy,都不是圣人，不必苛求，但是我们可以从情绪感知中读懂真实的自我，来帮我们正视现实.
 
 我们需要有效的experience, 必须抛开一些理所当然的主观上的东西，好与不好的体验，都是体验，现实是现实，只是我们主观的解释让我们有了倾向性，可能影响我们看到本原本质，我们需要完全接纳accept现实，并且从中reflection反思总结学习，然后进入下一个体验循环。
 
