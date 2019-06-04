@@ -581,6 +581,10 @@ Andy Hunt写过经典的[《The Pragmatic Programmer: From Journeyman to Master�
 
 > Be obsessively curious. Observe from details. Never stop learning. Think visually. 
 
+乔布斯：
+
+> Stay hungry, Stay foolish
+
 最后：
 
 *Strive on, diligently!*
