@@ -468,6 +468,11 @@ in long run:
 
 > Simplicity is the ultimate sophistication.
 
+乔布斯on冥想(Steve jobs once told to Issacson about why he meditate.)：
+
+>"If you just sit and observe, you will see how restless your mind is," If you try to calm it, it only makes things worse, but over time it does calm, and when it does, there's room to hear more subtle things - that's when your intuition starts to blossom and you start to see things more clearly and be in the present more. Your mind just slows down, and you see a tremendous expanse in the moment. You see so much more than you could see before. It's a discipline; you have to practice it."
+
+
 冥想是一种方式，好比金刚狼休·杰克曼（Hugh Jackman）在[Nothing has ever opened my eyes like meditation,” says Hugh Jackman](https://tmhome.com/experiences/hugh-jackman-meditation-changed-my-life/)谈到的:
 
 让你接近更简单本真的自我：
