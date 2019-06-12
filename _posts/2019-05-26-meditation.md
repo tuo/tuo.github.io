@@ -365,6 +365,11 @@ Even keel 哈哈，大道相通, 万物为一物。当你打得好时，别太�
 
 > The universe is change; our life is what our thoughts make it." Marcus Aurelius
 
+John Allen Paulos:
+
+> “Uncertainty is the only certainty there is, and knowing how to live with insecurity is the only security.”
+
+
 我之前一个疑惑是对未知对变化的忧虑。天下大势，分就比合，合久必分
 
 > 反者道之动。弱者道之用。天下万物生于有，有生于无。
