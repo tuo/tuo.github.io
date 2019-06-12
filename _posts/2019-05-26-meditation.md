@@ -46,6 +46,10 @@ youtube](https://www.youtube.com/watch?v=VU00E-vwxsw)
 
 ##### 毫无疑问： 由外往内看，是需要折腾的。
 
+Rumi鲁米：
+
+> We carry inside us the wonders we seek outside us
+
 《无门关》禅偈一首：
 
 > 佛在灵山莫远求,灵山只在汝心头
@@ -309,6 +313,12 @@ present moment（当下）- 跟禅宗里活下当下有点类似了。
 
 
 当你遇到挫折逆境，有时候你会陷入到负面的情绪之中。自我ego会极力打击你，心理学上，它会让你不是就事论事，或者站在长远角度来看说这没什么大不了的，而是让你在短暂之中强烈的否定自己，”我不行，我肯定做不好，我是个傻子“， 最重要的是它会联想起你潜意识里的积累的负面经历， 一并累加叠加，让你一下子无法区分失控，陷入强烈的自责自我放弃等破坏性的情绪；
+
+Rumi鲁米:
+
+> These pains you feel are messengers. Listen to them. 
+
+禅诗王维：
 
 > 行到水穷处，坐看云起时
 
