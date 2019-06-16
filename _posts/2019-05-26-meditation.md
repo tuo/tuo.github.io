@@ -329,6 +329,7 @@ Rumi鲁米:
 这个时候就需要一些缓冲，一些耐心patience, 定能生慧嘛。
 
 
+
 这好比一个弹簧，我们需要观察我们是不是在两个极端，或者至少意识到，自我觉察。 大道在平衡循环，物极必反，正确认识自己，观察情绪和身体反应，给自己一点rational thinking理性思维的空间，我们就能用道平衡自己。
 
 不以物喜不以己悲，可能太难了，但是我们可以做到觉察，做到中庸之道，跳脱出这个圈。
@@ -383,6 +384,9 @@ John Allen Paulos:
 
 这也是无为的核心思想。 无为并非被动式的逃避问题或者消极厌世，而是你做好的功课，了解观察反思总结事情运行的规律，到了该行动的时候，主动出击，倾尽全力，不纠结于结果；完事，平和的心态接受任何的结果。 先思考你能给予什么， 而不是先思考我能获得什么。
 
+Stoic 爱比克泰德Epictetus: 
+
+> Man is troubled not by events, but by the meaning he gives them. ... What, then, is to be done? To make the best of what is in our power, and take the rest as it naturally happens.
  
 正如禅里的： 因上努力,果上随缘。
 
