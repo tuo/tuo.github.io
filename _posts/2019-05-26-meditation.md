@@ -97,7 +97,9 @@ Plato柏拉图：
 > Stoicism teaches the development of self-control and fortitude as a means of overcoming destructive emotions;
 
 
-斯多葛学派（Stocism)核心的教学之一也是让大家发展自我控制来客服破坏性的情绪。 
+斯多葛学派（Stocism)核心的教学之一也是让大家发展自我控制来克服破坏性的情绪。
+ps: 心理学上负面的情绪对人的冲击是同等正面情绪的两倍，所以两倍的痛苦=一倍的喜悦。
+也要说的是其实太positive的情绪也有坏处，两者都得小心对待和认识。 
 
 到了当今，结合心理学，和大脑的研究，也让我们更多了解到潜意识，理性思维和情绪怎么工作的。
 
@@ -610,9 +612,10 @@ Andy Hunt写过经典的[《The Pragmatic Programmer: From Journeyman to Master�
 
 > Stay hungry, Stay foolish
 
-中庸：
+《中庸》：
 
-> 博学之，审问之，慎思之，明辨之，笃行之
+> 博学之，审问之，慎思之，明辨之，笃行之。
+
 
 最后：
 
