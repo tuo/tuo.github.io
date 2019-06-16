@@ -610,6 +610,10 @@ Andy Hunt写过经典的[《The Pragmatic Programmer: From Journeyman to Master�
 
 > Stay hungry, Stay foolish
 
+中庸：
+
+> 博学之，审问之，慎思之，明辨之，笃行之
+
 最后：
 
 *Strive on, diligently!*
