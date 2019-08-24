@@ -2,7 +2,7 @@
 layout: post
 title: "习惯和自省"
 date: 2019-07-01 0 21:54:32 +0800
-published: false
+published: true
 tags: #tags go here: space-separated string
 ---
 
