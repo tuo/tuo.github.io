@@ -165,9 +165,6 @@ Ben Bernanke虽然被奥巴马政府认为应对经济危机很得体, 通过FED
 
 
 
-![IMG_20190809_190819](https://user-images.githubusercontent.com/491610/63636599-faba6800-c6a3-11e9-8c34-8edf8150daaf.jpg)
-
-
 
 
 
