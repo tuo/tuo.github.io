@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "习惯和自省"
-date: 2019-07-01 0 21:54:32 +0800
+date: 2019-08-24 0 21:54:32 +0800
 published: true
 tags: #tags go here: space-separated string
 ---
@@ -134,7 +134,10 @@ Ben Bernanke虽然被奥巴马政府认为应对经济危机很得体, 通过FED
 
 ![e3f217604e65bcbc7ef909c60296fd84](https://user-images.githubusercontent.com/491610/63636507-dd38ce80-c6a2-11e9-9053-98de34fef175.jpg)
 
-![](https://user-images.githubusercontent.com/491610/63636506-dd38ce80-c6a2-11e9-9542-20f448ba0357.jpg)
+![e2e2661d7dba02298fff5da38b45786f](https://user-images.githubusercontent.com/491610/63638616-40375f00-c6bd-11e9-8657-9b1cbffecba9.jpg)
+
+
+每天我都尽量抽出时间比如睡觉前来左手抄诗词，或者一些生的单词；下午或者怎么样抽出10分钟后退走几圈刚好拉伸下身体；这个事情没有啥功利性，长期坚持必定是有其中乐趣，简单的乐趣罢了，了解身体，了解大脑，也了解自己。看云卷云舒，看碧蓝灰蒙，各有其妙，也提醒自己保持初心。
 
 惯性思维就跟人被欲望拉在两个极端一样的，很难察觉。所以要自知，要反省， 要总结。
 
