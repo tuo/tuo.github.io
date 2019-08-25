@@ -86,7 +86,7 @@ from [《The Story of Philosophy: The Lives and Opinions of the World's Greatest
 **preconceived ideas** 一些危机之前的普遍的共同意识：
 
 * 1970,80年代Latin American debt crisis拉丁美洲债务危机 - “Countries don't go bankrupt” 国家不会破产.
-* 1990 日本泡沫经济 普遍认为房地产价值和价格不会下跌
+* 1990 日本泡沫经济 普遍认为房地产价值和价格不会下跌 Land will not devalue.
 * 2005 本伯南克 - We've never had a decline in house price on a nationwide basis.
 
 Ben Bernanke虽然被奥巴马政府认为应对经济危机很得体, 通过FED的通用手段降息和QE直升机撒钱：
