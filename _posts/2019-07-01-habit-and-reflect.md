@@ -73,7 +73,7 @@ from [《The Story of Philosophy: The Lives and Opinions of the World's Greatest
 
 《大空头》里的那个一样次贷指数并没有下降，稳如泰山，尽管新闻爆出了次贷不良率的时候，那个时候这群赌博的人都快怀疑人生了，差点坚持不下去，结果这个后面就知道了。
 
-好比Ray Dalio讲到的1971尼克松不挂钩美元和黄金（当然会引起美元下跌），然后政府声明保证不会贬值美元：
+好比Ray Dalio在《Principles》讲到的1971尼克松不挂钩美元和黄金（当然会引起美元下跌），然后政府声明保证不会贬值美元：
 
 > Over the decades since, I’ve repeatedly seen policymakers deliver such assurances immediately before currency devaluations, so I learned not to believe government policymakers when they assure you that they won’t let a currency devaluation happen. The more strongly they make those assurances, the more desperate the situation probably is, so the more likely it is that a devaluation will take place.
 
@@ -93,8 +93,7 @@ from [《The Story of Philosophy: The Lives and Opinions of the World's Greatest
 
 > 2013, Taro Aso, the finance minister, said on Monday that the elderly should be allowed to "hurry up and die" to relieve pressure on the state to pay for their medical care.
 
-前有爆发期，鼓励加班，鼓励员工应该一直工作到尿血，后面到老龄化了，1/4的人超过60岁，这个时候说应该赶紧死来减少财政养老福利赤字，特别是90年代以后积累的巨额债务。大佬你这就过分了，这群人在80年代末也就30多，好嘛，人家泡沫刺破之后背负承重的债务贷款，碰上这要面子的经济危机应对之道（拖延，不愿意直接面对问题，放任政府津贴补助一群zoomie公司，没有积极消化的处理银行bad loans), 好嘛经济不景气就越加班，加班盛行经济收紧哪有时间搞生育，你利息再低有啥用，人家都失去信心(政府债券接近一半在日本央妈手上)。人家建议你可以开放移民来释放来搞些鲶鱼效应，你建议本国老人赶紧。。。
-
+前有爆发期，鼓励加班，鼓励员工应该一直工作到尿血，后面到老龄化了，1/4的人超过60岁，这个时候说应该赶紧死来减少财政养老福利赤字，特别是90年代以后积累的巨额债务。大佬你这就过分了，这群人在80年代末也就30多，好嘛，人家泡沫刺破之后背负承重的债务贷款，碰上这要面子的经济危机应对之道（拖延，不愿意直接面对问题，放任政府津贴补助一群zoombie公司，没有积极消化的处理银行bad loans), 好嘛经济不景气就越加班，加班盛行经济收紧哪有时间搞生育，你利息再低有啥用，人家都失去信心(政府债券接近一半在日本央妈手上)。人家建议你可以开放移民来释放来搞些鲶鱼效应，你建议本国老人赶紧。。。
 
 Ben Bernanke虽然被奥巴马政府认为应对经济危机很得体, 通过FED的通用手段降息和QE直升机撒钱：
 
