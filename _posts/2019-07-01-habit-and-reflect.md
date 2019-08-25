@@ -89,6 +89,13 @@ from [《The Story of Philosophy: The Lives and Opinions of the World's Greatest
 * 1990 日本泡沫经济 普遍认为房地产价值和价格不会下跌 Land will not devalue.
 * 2005 本伯南克 - We've never had a decline in house price on a nationwide basis.
 
+> “In the 1960s and 1970s, rapid loan growth in Japan had generally translated into commensurate GDP growth because Japan was vastly underbuilt as it emerged from the war. Workers were driven to succeed, and “bankers’ hours” had extended to the point where employees of lenders were expected to work from 8 a.m. to 9 p.m., if not later. The premium on hard work and success was so pervasive that at Fuji Bank’s centenary celebration in 1980, “employees were urged to keep working until they ‘urinated blood.’
+
+> 2013, Taro Aso, the finance minister, said on Monday that the elderly should be allowed to "hurry up and die" to relieve pressure on the state to pay for their medical care.
+
+前有爆发期，鼓励加班，鼓励员工应该一直工作到尿血，后面到老龄化了，1/4的人超过60岁，这个时候说应该赶紧死来减少财政养老福利赤字，特别是90年代以后积累的巨额债务。大佬你这就过分了，这群人在80年代末也就30多，好嘛，人家泡沫刺破之后背负承重的债务贷款，碰上这要面子的经济危机应对之道（拖延，不愿意直接面对问题，放任政府津贴补助一群zoomie公司，没有积极消化的处理银行bad loans), 好嘛经济不景气就越加班，加班盛行经济收紧哪有时间搞生育，你利息再低有啥用，人家都失去信心(政府债券接近一半在日本央妈手上)。人家建议你可以开放移民来释放来搞些鲶鱼效应，你建议本国老人赶紧。。。
+
+
 Ben Bernanke虽然被奥巴马政府认为应对经济危机很得体, 通过FED的通用手段降息和QE直升机撒钱：
 
 >In remarks prepared for the announcement Tuesday, Obama praised Bernanke for leading the country through the meltdown and, with his expertise on the Great Depression, helping prevent a crisis rivaling that of the 1930s.
