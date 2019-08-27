@@ -158,6 +158,7 @@ from [《Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad On
 
 > “You have power over your mind — not outside events. Realize this, and you will find strength.” (Meditations, Marcus Aurelius)
 
+
 没有反思反省的过程，就不是一个双向良性的自我增强的过程；停止了就会走向反面，切不可范经验主义错误，更不能因为成功而沾沾自喜骄傲膨胀，但是难啊，反人性啊。 毕竟谁愿意一生保持敬畏，过危桥一般了，那不就是圣人么？
 
 我想我们只能不断的通过重复的习惯来建立一套体系框架，至少让犯错的时候代价小点，或者让我们能够离本心更近点。
@@ -175,7 +176,7 @@ from [《Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad On
 
 这个体系又要保持，又要反思然后拥抱变化，这个太难了。。。 
 
-这个度和平衡如何把握，一生都没有明确答案吧
+这个度和平衡如何把握，一生都没有明确答案吧, 但是我们一生不就是在不断寻找这个动态平衡点么？
 
 反过来，探索这个过程，应该挺有意思的。
 
