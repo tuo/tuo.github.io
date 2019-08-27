@@ -128,7 +128,11 @@ Ben Bernanke虽然被奥巴马政府认为应对经济危机很得体, 通过FED
 > The changes that seem small and unimportant at first will compound into remarkable results if you’re willing to stick with them for years.
 
 
+
+![15019795-762a28fcf5e5a58e](https://user-images.githubusercontent.com/491610/63791544-513ad700-c92e-11e9-981b-d6b8274cac2f.png)
+
 我们说习惯是需要不断的重复的，需要不断的强化，成为一种routine，才能越来越得心应手。但是当你习惯越来越久，会发现感觉效率慢慢变低了。
+
 
 就需要什么了？ 打破这种habitual thinking.
 
