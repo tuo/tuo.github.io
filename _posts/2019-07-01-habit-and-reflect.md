@@ -180,8 +180,7 @@ from [《Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad On
 
 
 
-
-
+*最后附上最近看到的Ryan Holiday的一篇文章：[Why You Should Study Philosophy](https://forge.medium.com/why-you-should-study-philosophy-47c53fbc3205)*
 
 
 
