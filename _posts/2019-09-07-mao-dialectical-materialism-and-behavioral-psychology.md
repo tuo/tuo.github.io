@@ -73,7 +73,7 @@ tags: dialectical materialism, behavioral psychology, mao
 
 #### 实践
 ![junshi1](https://user-images.githubusercontent.com/491610/64469847-dfebf700-d16b-11e9-946d-78e3b647a349.jpg)
-![junshi2](https://user-images.githubusercontent.com/491610/64469848-dfebf700-d16b-11e9-8e5d-ee8d79968d96.jpg)
+![junshi2](https://user-images.githubusercontent.com/491610/64469865-41ac6100-d16c-11e9-9662-82a19fe90918.jpg)
 
 > 毛泽东说：“向着最坏的一种可能性做准备是完全必要的，但这不是抛弃好的可能性，而正是为着争取好的可能性并使之变为现实性的一个条件。”毛泽东在战争指导中，往往立足于战争的最坏的可能性，并设法创造条件，争取最好的可能性。 
 
