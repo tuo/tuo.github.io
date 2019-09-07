@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "辩证唯物法和行为心理学"
+title: "辩证唯物主义和行为心理学"
 date: 2019-09-07 0 21:54:32 +0800
 published: true
 tags: dialectical materialism, behavioral psychology, mao
