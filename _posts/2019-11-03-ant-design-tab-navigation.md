@@ -161,6 +161,8 @@ Ant Design Pro在v4里将路由改成了可配置的方式，将这些scaffoldin
 
 在model级别，我们规定文件名需要以`model.js`结尾，路由则已`route.js`结尾。如果是跟前端相关的API比如给小程序或者h5使用的，在frontend.route.js里面写；跟后端管理相关的API，则写在dashboard.route.js里。这里我简化了controller跟业务逻辑的严格区分，实际上你可以有一个service级别来严格做业务逻辑。
 
+<img width="800" alt="Screenshot 2019-11-03 at 12 56 18" src="https://user-images.githubusercontent.com/491610/68080633-6c4c2a80-fe3a-11e9-8862-39860ef1f78e.png">
+
 那么如何在项目启动时候识别加载这些我们定义好的convention了? 其实很简单， 比如就是说Sequelize的model把。
 
 
