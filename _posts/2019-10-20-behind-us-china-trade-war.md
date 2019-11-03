@@ -149,8 +149,9 @@ https://xueqiu.com/1697559028/127271004
 https://www.huxiu.com/article/300671.html
 
 
-===
+=== Oct 24, 2019
 
 
-
+WATCH: Vice President Mike Pence speaks on U.S.-China relations at Woodrow Wilson Center
+https://www.youtube.com/watch?v=f5CW6jmZedI
 
