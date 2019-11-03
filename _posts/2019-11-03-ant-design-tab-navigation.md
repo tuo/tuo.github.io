@@ -2,7 +2,7 @@
 layout: post
 title: "Ant Design Pro(v4)中Tabs使用"
 date: 2019-11-03 0 21:54:32 +0800
-published: false
+published: true
 tags: ant design pro,tabs,header
 ---
 
