@@ -157,7 +157,7 @@ Ant Design Pro在v4里将路由改成了可配置的方式，将这些scaffoldin
 
 所以我们后端的目录构造，跟前端是相对应的。这样一来更容易找到更某个模块相关联的代码和逻辑，脑子不需要多余的开销就能顺畅找到它想要的，丝滑般。。。。smoooooooth, bro
 
-![Chuck Norris](https://i.pinimg.com/originals/1a/22/17/1a2217d5eaaf8293d8abe436b8d6fd92.gif)
+![Chuck Norris](https://user-images.githubusercontent.com/491610/68080699-9c47fd80-fe3b-11e9-972e-4b31616b3d1c.gif)
 
 在model级别，我们规定文件名需要以`model.js`结尾，路由则已`route.js`结尾。如果是跟前端相关的API比如给小程序或者h5使用的，在frontend.route.js里面写；跟后端管理相关的API，则写在dashboard.route.js里。这里我简化了controller跟业务逻辑的严格区分，实际上你可以有一个service级别来严格做业务逻辑。
 
