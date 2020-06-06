@@ -76,44 +76,45 @@ Ant Design Pro在v4里将路由改成了可配置的方式，将这些scaffoldin
 
 这个时候我们通过match.path去遍历路由配置来获取匹配`/project/user/:id`的所有路由。
 
-	 function findRoute(basePath, routerData, result){
-	    if(_.isEmpty(routerData)){
-	        return null;
-	    }
-	    routerData.forEach(item => {
-	        if(!item.path){
-	            return
-	        }
-	
-	        const basePathFromCurrent = removeLastPart(item.path);
-	        if(!(basePath.startsWith(item.path) || basePath.startsWith(basePathFromCurrent))){
-	            return
-	        }
-	        //if path without last part match with current path, then it is the one
-	        if(basePath === basePathFromCurrent){
-	            let lastSegmentPath = lastSegment(item.path);
-	            const realComponentName = capitalize(lastSegmentPath);
-	            result.push({ ...item, realComponentName, tabKey: lastSegmentPath })
-	            return result;
-	        }
-	        findRoute(basePath, item.routes, result);
-	    });
-	 }
+```javascript
+function findRoute(basePath, routerData, result){
+	if(_.isEmpty(routerData)){
+		return null;
+	}
+	routerData.forEach(item => {
+		if(!item.path){
+			return
+		}
 
-	/*
-	    name: '详情',	
-	    path: '/project/user/:id/detail',
-	    component: './project/user/detail',
-	    realComponentName: 'Detail',
-	    tabKey: detail
-	* */
-	export function getRoutes(path, routerData=menuConfig) {
-	    const basePath = removeLastPart(path);
-	    let result = []
-	    findRoute(basePath, routerData, result);    
-	    return result
+		const basePathFromCurrent = removeLastPart(item.path);
+		if(!(basePath.startsWith(item.path) || basePath.startsWith(basePathFromCurrent))){
+			return
+		}
+		//if path without last part match with current path, then it is the one
+		if(basePath === basePathFromCurrent){
+			let lastSegmentPath = lastSegment(item.path);
+			const realComponentName = capitalize(lastSegmentPath);
+			result.push({ ...item, realComponentName, tabKey: lastSegmentPath })
+			return result;
+		}
+		findRoute(basePath, item.routes, result);
+	});
 	}
 
+/*
+	name: '详情',	
+	path: '/project/user/:id/detail',
+	component: './project/user/detail',
+	realComponentName: 'Detail',
+	tabKey: detail
+* */
+export function getRoutes(path, routerData=menuConfig) {
+	const basePath = removeLastPart(path);
+	let result = []
+	findRoute(basePath, routerData, result);    
+	return result
+}
+```
 原来v1是有这个getRoutes的但是后面因为挪到了umi里，这个就没有了。这里是没办法直接拿过来直接用的，所以我自己快速写了一个简单的，当然代码还是可以优化。
 
 <img width="1190" alt="Screenshot 2019-11-03 at 12 36 50" src="https://user-images.githubusercontent.com/491610/68080471-00b48e00-fe37-11e9-81d5-6324b4df5fbd.png">
