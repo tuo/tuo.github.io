@@ -53,15 +53,110 @@ In conclusion, we choose SAM and plain python(no web framework here) for develop
 
 #### Module Breakdown
 
-In microservice specially, with some reminsicence of old day Java OO programming, `Single Responsibility Principle` always caught me. Robert.C.Martin, long time ago in his book《Agile software development principles, patterns, and practices》, mentioned five OO principles, and first is the SRP. This applies to Class/Function etc, not for code perfectionist, as it stands for good abstraction, better cognition and easy understanding. Each lambda in AWS represent a business unit, and it should and just do what it needs to do, nothing more or less. Like superstitious/obscure theology, followed by Age of Reason and Englightment, everything should be based on logic, but even emotions and human affections? lets pause here for Romanticism, no doctrine will be silverblullet as context always evovles.
+In microservice specially, with some reminsicence of old day Java OO programming, `Single Responsibility Principle` always caught me. Robert.C.Martin, long time ago in his book《Agile software development principles, patterns, and practices》, mentioned five OO principles, and first is the SRP. This applies to Class/Function etc, not for code perfectionist, as it stands for good abstraction, better cognition and easy understanding. Each lambda in AWS represent a business unit, and it should and just do what it needs to do, nothing more or less. Like superstitious/obscure theology, followed by Age of Reason(btw, salute to George Carlin) and Englightment, everything should be based on its logic, but even emotions and human affections? lets pause here for Romanticism, no doctrine will be silver blullet as context always evovles.
 
 In serverless world, we need consider here:
 
-* Single Responsibility Principle - easy test, lightweight, faster startup time (cold)
+* Single Responsibility Principle and decomposition - easy test, lightweight, faster startup time (cold)
 * lifecycle/duration/frequences - there could one off or long time running
 * event source - how does this got triggered ? (from s3, or request or ....)
-* resource/permission applied
+* resources/permissions applied
+* pricing
 
+![Basic System structure](/Users/tuo/Documents/git/tuo.github.io/assets/systemstructure.png)
+
+
+
+## Development
+
+#### code structure
+
+There are many ways to organzie the code structure. For example, for CRUD case, you could have this:
+
+
+	team
+	├── create
+	│   ├── app.py
+	│   └── requirements.txt
+	├── get
+	│   ├── app.py
+	│   └── requirements.txt
+	├── list
+	│   ├── app.py
+	│   └── requirements.txt
+	└── update
+	    ├── app.py
+	    └── requirements.txt
+	
+or you could put CRUD in one app.py like old days:
+
+	team
+	├── app.py
+	├── requirements.txt
+
+and in template.yaml you could declare the function:
+
+![/Users/tuo/Documents/git/tuo.github.io/assets/template function yaml.png](/Users/tuo/Documents/git/tuo.github.io/assets/template function yaml.png)
+
+When you run `sam build`, from the logs:
+
+![sam build log](/Users/tuo/Documents/git/tuo.github.io/assets/sambuild.png)
+
+from official website on [sam build](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-build.html):
+
+> The sam build command processes your AWS SAM template file, application code, and any applicable language-specific files and dependencies, and copies build artifacts in the format and location expected by subsequent steps in your workflow. You specify dependencies in a manifest file that you include in your application, such as requirements.txt for Python functions, or package.json for Node.js functions.
+
+So it loops each folder then run pip install there, and copy the source code and installed packages to `.aws-sam/build` folder.
+
+![/Users/tuo/Documents/git/tuo.github.io/assets/sambuild_output.png](/Users/tuo/Documents/git/tuo.github.io/assets/sambuild_output.png)
+
+Then when later sam package/deploy, it will zip the whole folder `AdminAuthFunction` and upload to somehere in s3. Once the aws try to execute lambda, it need do some warming up, setup basics, pull the zipped code from s3, unzip it and etc.If the code zipped size is smaller, it would means faster cold start (downloading faster) and less code mess, as it only contains what it needs. 
+
+Personally I favor the second one, as later I would mention about the swagger definitions, - which I think `swagger(API)` , `template yaml(Resource)`, `app.py(Code)` and `requirements.txt(Dependencies)` should be one single unit as it represent one self-contained bussiness logic. (This is some cons of the current aws stack, I will elaborate it later)
+
+
+#### share code
+
+layer function -
+
+* lock common depenecy like bot3
+* 
+
+
+#### different env
+
+* seperate awws account for dev & prod
+* environment variables use AWS parameter store for keys, and some secret use AWS secret crendtails
+
+
+#### SAM TEPLATE BEST PRACTICES
+
+
+
+
+
+## DRawabacks
+
+#### sam build is slow https://github.com/awslabs/aws-sam-cli/issues/805
+
+* 每次改动， 都会重新pip install (不会缓存）
+
+* 代码修改可以，直接改.aws-sam/build
+
+
+解决办法：当代码有小改动或者调试时，可以直接在sam build后的.aws-sam/build/的输出文件下面改，此改动会立即生效，不用每次一次小改动后sam build在进行调试。当然这种方法也是有些危险的。有时候忘了把更改在build文件里面的内容复制到source文件进行代替，那么在重新build后原来的build里的更改会被替换掉。当然这种方法在代码的小改动后的调试啊什么的还是非常便捷的。
+
+
+
+#### sam local start-api is slow (
+
+解决办法：不用每次pull image， 可以 skip pull image sam local start-api --skip-pull-image。
+
+诶， 但mounting还是很慢，有没有keep docker container warm)的方法，看起来目前issue还是open状态，sam还不支持 keep warm。
+
+#### sam local start-api  不支持authorizer
+
+解决办法：目前来看sam local还不支持这个功能，但可以使用swagger来支持local的custom authorizers，但使用swagger又会使template bloated，但sam看起来过不久会支持这个功能。
 
 
 
