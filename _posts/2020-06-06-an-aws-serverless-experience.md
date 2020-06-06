@@ -45,7 +45,7 @@ some are already or could be resolved or supported by AWS China like:
 * EDGE API gateway to set to REGIONAL
 * 403 - Ensure your domain is ICP listed (or you just want to play with it now, ensure you explicitly open a ticket in AWS China panel asking about open temporay API Gateway permission)
 
-The biggest one is that `${AWS:Partition}` is different according to [AWS ARN and namespace](https://docs.aws.amazon.com/zh_cn/general/latest/gr/aws-arns-and-namespaces.html).
+The biggest one is that `${AWS:Partition}` is different according to [AWS ARN and namespace](https://docs.aws.amazon.com/zh_cn/general/latest/gr/aws-arns-and-namespaces.html). Also there some services are not supported in China region, like AWS AppSync. 
 
 some resources, s3 or iam, for example,  `arn:aws:s3:::my_corporate_bucket/*`, would be `arn:aws-cn:s3:::my_corporate_bucket/*`. Also not every AWS service are supported in China Region: [aws china region product services listS](https://www.amazonaws.cn/en/about-aws/regional-product-services/), for example, one key part of CI/CD [CodePipeline](https://aws.amazon.com/codepipeline/) is missing in China region, but CodeBuild and CodeDeploy is supported, so later we need replace it with Jenkins (and help of some plugins) to customize CI/CD flow.
 
@@ -254,25 +254,94 @@ And there is not watch for sam build, you need manually switch back and forth be
 We need add JWT for custom authorizer with cors support. But we can't test this locally somehow. I understand the whole thing, docker etc, aws team try to minick the real production environment with consistency to help migitate the pains of the this-thing-doesn't-work-on-my-laptop. It did! But obvisouly something still need to work on more.
 
 
-#### 
+#### separation of concerns
 
-结构性问题 - 如何将tempalte, swagger都何在一起
-
-
-* 非常长的template.yaml代码 这里丢出样本
-* swagger api definition写在yaml里就不科学 ，因为本身是（参考图片
-/Users/tuo/Documents/git/tuo.github.io/assets/codebuild-screenshots/sawgger.png
-
-map用的velocity, 写在yaml里？
+let's give a quick glance of template.yaml I got from other project which given as a sample or refeference for my team/project to refer to. (live in production, not some random/fake ones from internet). I did learn a lot from those references, but I found it has some problems.
 
 
-## Best Practices
+/Users/tuo/Documents/git/tuo.github.io/assets/templateyamlreference1.png
+/Users/tuo/Documents/git/tuo.github.io/assets/templateyamlreference2.png
+
+For APIGateway yamls, which mainly containes parameters and mappings, swagger api definition and other resources, has over 3 thousands lines. That's pretty insane! Imagine you need change some part of code here, it would be indigestible and super hard to locate and change it. Just imagine again, you need change some swagger mapping template in velocity language in a yaml file.
+
+After a quick look, I found the swagger api definition part takes the most. Again, my two months development experiences from novice tells me that there is some thing could be improved.
+
+The thing is that I need constant jump between python code and template.yaml to change both, which is kinda really painful. The python code containers source code and dependecies, and template.yaml containes instrastructure related and api definitions. Remember, take for example, rails or expressjs, you have controllers/services/models/routes in separate folders, meaning you have `user` model, you need have user-related code in 4 or even folders, well what they do is just simply cooperate to do one sth - user. 
+
+So as I mentioned previously, it would be better that it wraps around the business logic.
+
+	list
+	├── app.py
+	├── requirements.txt
+	├── swagger.yaml
+	└── template.yaml
+
+Each service or business logic has source code, dependency, swagger api and template.yaml for IaC. But too fine-grained level would simply introduce more botherings, also there are some real-world limitations we need consider.
 
 
-#### kinessis , rds, vpc,  -- control the traffics
-#### ci/cd
-#### least iam privilleges (declare explictly)
-#### read documentation fully at least once 
+	team
+	├── create
+	│   ├── app.py
+	│   └── requirements.txt
+	├── get
+	│   ├── app.py
+	│   └── requirements.txt
+	├── list
+	│   ├── app.py
+	│   └── requirements.txt
+	├── swagger.yaml
+	├── template.yaml
+	└── update
+	    ├── app.py
+	    └── requirements.txt
+
+
+This looks like a good comproise. You could have swagger.yaml self-container for a `resource` , same for template.yaml. But how could we need merge those yamls together?
+
+we could use some yaml merging tools like [yamlinc](https://github.com/javanile/yamlinc) and swagger tools also. AWS SAM support include swagger.yaml file but only that file is somehere in s3 which is url - so it is still not 100% integrated in dev process.
+
+All those means we need change your build process little bit and we might need write some custom Makefile etc to achieve that, but it should be possible if we could achieve better development, easy maintance and so on.
+
+
+## Notes
+
+
+#### Traffic control 
+
+Pricing is big consideration. But we need think before that, in a systematic way. What might be the bottleneck of the system? We need control the flow and spikes so it wouldn't take down service or spinning too many instances with no-availbility at all.  Here the IoT, user will frequently upload there gps coordinates, how we prepare for that?  we could Kinesis or simple SQS to do the aborbe and fine control the rate. 
+
+Also we need understand about the Lambda's burst model, cold-start and warm start and do some benchmark to get reason memory/cpu allocated for best performances and good money-savings.
+
+In traditional architecture, the database (relational one) or disk-related file writing/reading are kinda bottleneck. We might try to use s3 or nosql database for most time. But if we need use that, e.g. postgresql/mysql(RDS), we need take extra care for not allowing database become the bottleneck of system. 
+
+For example, a VPC does sound good idea, but in somecase, if not used properly it will exhaust the ip pool and cause lambda keep piling up (if not configured and twisted properly). Also VPC could slow down the cold start time significantly.
+
+
+#### Read through documentation 
+
+There are quite lots of concept and techs in AWS serverless if you, like me, never learned that before. AWS has lots of greate resources online. The aws re-invent and aws online talks are pretty good, covering tons of topics, which is really good opportunity to learn. I found interesting about take new skills or techs is that we all gonna go through following stages:
+
+* step1: follow some tutorials 
+* step2: get hands dirty , play with demos
+* step3: okay, I got it basically, then can't wait start real coding 
+* step4: xxx
+
+
+There is an impulse/urge to jump to detail implementation - instant gratification for self-proving ?  But often later, we got caught in big hole and sometimes got driven crazy as felt no way to get out of it, esp, when time is not on your side. Maybe you need deliver some features before deadline?
+
+How many times have I made those similar mistakes, not only in coding but other area of life too?
+
+After step1 and step2, you're good, as you know basically how it works. And jump to nuts and bolts is fine. What's wrong? you need step back and look from a big view when needed. Always go back to basic and origin, take some dumb time to read through documentations always saves me big time later. No one likes to read docs, (like APIGateway, Lambda, IAM, CloudFormation, SAM, CodeBuild, CodePipeline, CodeDeploy), it is not fun at all. But it is a must, you could try with comparing to tech/skill/language that you already familiar with, yeah, diverting your attention and make it little bit more fun. 
+
+ 
+A good programmer should be good to always jump back and forth between abstraction and implementation.
+ 
+
+
+
+ 
+
+
 
 
 
