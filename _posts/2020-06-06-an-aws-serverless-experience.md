@@ -334,9 +334,10 @@ How many times have I made those similar mistakes, not only in coding but other 
 After step1 and step2, you're good, as you know basically how it works. And jump to nuts and bolts is fine. What's wrong? you need step back and look from a big view when needed. Always go back to basic and origin, take some dumb time to read through documentations always saves me big time later. No one likes to read docs, (like APIGateway, Lambda, IAM, CloudFormation, SAM, CodeBuild, CodePipeline, CodeDeploy), it is not fun at all. But it is a must, you could try with comparing to tech/skill/language that you already familiar with, yeah, diverting your attention and make it little bit more fun. 
 
  
-A good programmer should be good to always jump back and forth between abstraction and implementation.
+> A good programmer should be good to always jump back and forth between abstraction and implementation.
  
 
+Anyway I think AWS Serverless is pretty fun and interesting tech to learn and use. Hope they could improve their ecosystem around it to provide better development experience in the future.
 
 
  
