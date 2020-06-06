@@ -135,17 +135,46 @@ There are some good SAM best practices from AWS talks and docs. Some are quite p
 * ideally have seperate AWS accounts for different dev/uat/prod environments
 * use AWS System Manger - [AWS Systems Manager Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) for keys or secrets/credentails(e.g password) rather than plain hard-coded in code
 * APIGateway Stage Variables
-* Ues Parameters and Mappings 
+* Use Parameters and Mappings 
 
 
 
 ## Test and Deploy
 
-Once you're done, you could run sam local start-api to start locally.
+#### Local Dev/Test
+After `sam build`, you could run `sam local start-api` to start locally to debug and test it.
 
 
+	Mounting CreateOrderFunction at http://127.0.0.1:3000/orders [POST, OPTIONS]
+	Mounting ListCarFunction at http://127.0.0.1:3000/cars [GET, OPTIONS]
+	You can now browse to the above endpoints to invoke your functions. You do not need to restart/reload SAM CLI while working on your functions, changes will be reflected instantly/automatically. You only need to restart SAM CLI if you update your AWS SAM template
+	2020-06-06 18:51:23  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+	
+	
+on my mac, `SAM CLI, version 0.41.0`, I got interested on this line:
+
+*You can now browse to the above endpoints to invoke your functions. You do not need to restart/reload SAM CLI while working on your functions, changes will be reflected instantly/automatically. You only need to restart SAM CLI if you update your AWS SAM template*
+
+/Users/tuo/Documents/git/tuo.github.io/assets/samstartapi1.png
 
 
+But truth is, when I just change the code, and call via curl again, nothing happened. But as I guess, it is when you actually do `curl http://127.0.0.1:3000/orders` , only then SAM will try to invoke the lambda, download docker images (runtime, layer etc), and mount 
+
+> Mounting /Users/tuo/Documents/6e/cummins-fleet-mgnt/backend/route-api/.aws-sam/build/ListOrderFunction as /var/task:ro,delegated inside runtime container
+
+from .aws-sam/build to docker container's volume. So either it means `sam build` has some magic watch command ? or there is an option of `watch` in sam build command? But nope, I didn't find any like that in manual.
+
+/Users/tuo/Documents/git/tuo.github.io/assets/samstartapi2.png
+
+
+So what you could do is just simply go to `.aws-sam/build` folder , find the correct function directory and directly modify from it. But you're gonna remember to add it back to source code when done, or if you run `sam build` accidentally (I guarantee you that it will, as I did that a couple of times and lost all codes/changes even if jetbrain smartest IDE could'nt get it back from my GOAT feature, i.e, [Local History: in IntelliJ IDEA May Save Your Life Code](https://blog.jetbrains.com/idea/2020/02/local-history-in-intellij-idea-may-save-your-life-code/)). No git stash or git commit or what so ever, because it often got git ignored! Hoorooooooay !
+
+I will talk a little bit improvement later for this process. But lets continue for deploy part. 
+
+
+#### Manual Deploy
+
+After you run `sam build`, you probably notice in terimal, you could do `
 
 
 ## DRawabacks
