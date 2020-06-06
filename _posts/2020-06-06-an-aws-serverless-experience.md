@@ -5,7 +5,7 @@ date: 2020-06-06 21:55:32 +0800
 published: true
 tags: aws serverless,aws, SAM
 ---
-
+ 
 ## Background
 
 A couple of months ago, we got a project which need implement sth like IoT like running or jogging apps but slightly different. Basically the backend admin could design specfic route for tasks(like delivery service), users could compete for the tasks to get bonus. Once user got the task from the app, he could start the task according to the route info and upload its coordinates like every 10 seconds. Then the manager in dashboard could live monitoring echo ones's progress on the map.  Nothing too complicated, plus user could take photo of some receipt(like invoice) , upload it and backend should be able to do some OCR to extract correct amount of money. Every monthly or weekly, some reports should generated for analysis.

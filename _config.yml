@@ -1,5 +1,12 @@
 highlighter: true
 permalink: '/:title'
 markdown: kramdown
+highlighter: rouge
+incremental: false
 kramdown:
   input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+
+ 
