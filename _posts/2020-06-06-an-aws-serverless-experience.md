@@ -133,7 +133,7 @@ One good use of layer is to lock down system-wide built-in dependencies explicit
 There are some good SAM best practices from AWS talks and docs. Some are quite practical ones:
 
 * ideally have seperate AWS accounts for different dev/uat/prod environments
-* use AWS System Manger - [AWS Systems Manager Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) for keys or secrets/credentails(e.g password) rather than plain hard-coded in code
+* use AWS System Manger - [AWS Systems Manager Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) for keys or secrets/credentails(e.g password) rather than plain hard-coded in code.
 * APIGateway Stage Variables
 * Use Parameters and Mappings 
 
@@ -163,8 +163,6 @@ But truth is, when I just change the code, and call via curl again, nothing happ
 > Mounting /Users/tuo/Documents/6e/cummins-fleet-mgnt/backend/route-api/.aws-sam/build/ListOrderFunction as /var/task:ro,delegated inside runtime container
 
 from .aws-sam/build to docker container's volume. So either it means `sam build` has some magic watch command ? or there is an option of `watch` in sam build command? But nope, I didn't find any like that in manual.
-
-/Users/tuo/Documents/git/tuo.github.io/assets/samstartapi2.png
 
 
 So what you could do is just simply go to `.aws-sam/build` folder , find the correct function directory and directly modify from it. But you're gonna remember to add it back to source code when done, or if you run `sam build` accidentally (I guarantee you that it will, as I did that a couple of times and lost all codes/changes even if jetbrain smartest IDE could'nt get it back from my GOAT feature, i.e, [Local History: in IntelliJ IDEA May Save Your Life Code](https://blog.jetbrains.com/idea/2020/02/local-history-in-intellij-idea-may-save-your-life-code/)). No git stash or git commit or what so ever, because it often got git ignored! Hoorooooooay !
@@ -220,39 +218,46 @@ let's review what are some limitations from aws serverless and SAM.
 
 There is some issue on github: ["sam build" feedback: Support incremental builds #805](https://github.com/awslabs/aws-sam-cli/issues/805).
 
-One of reason, as I mentioned earilier, 
+One of reason, as I mentioned earilier, it is need loop folder, and run `pip install requiments.txt` everytime, even if you didn't change it.And I didn't see it uses any cache for quick install. (I did that by `time` sam build command for clean install and later install, and pretty much no differences. plus we could use --debug to see details).
+
+One way would be to use `sam build help` to list all functions and only run functions you have changes and want to build for that specific service like `sam build AdminAuthFunction`. But this would add cognition overhead, as we need shift our mindset from for example: team -> create -> app.py to `CreateTeamFunction` in template.yaml(see reverse order). I guess you could make naming and folder structure consistent by for example, function name in templates.yaml should be `{parent}capitialize{sub}` like `team->create` folder to `teamCreate` function name in templates.yaml, whicy is way easier when you need navigate from aws console's lambda panel to locate function.
+
+if you are in China, you could run change pip source to use Chinese package index. Plus you could do quick smoke test directly inside .aws-sam/build folder.
+
+But any good way to help this process? One propose would be:
+
+	Loop each folder, check if reuqiments.txt is changed or not(save as md5 signaure and compare with it ).
+	If this md5 doesn’t match new one, then pip install and copy packages to build folder, and copy the all code inside directory
+	If md5 same, just copy the source code
+
+Copying source code is pretty lightweight and fast. I haven't got some time working on this but I guess Gulp could be good tool like what we did old days to watch scss/js changes.
+ 
+
+#### sam local start-api is slow 
+
+One good way to speed up is to add `--skip-pull-image` to the command to skip re-download if you have it already.
+
+But the most painful part is it need start new container and mount volume etc everytime you request it. There is one ticket [Feature request: make it possible to keep docker container warm](https://github.com/awslabs/aws-sam-cli/issues/239) but author said aws team is review and prioritize this task. I guess in short term, it wouldn't be ready. 
+
+![/Users/tuo/Documents/git/tuo.github.io/assets/sambuild_function_empty_depenecy.png](/Users/tuo/Documents/git/tuo.github.io/assets/sambuild_function_empty_depenecy.png)
+
+![/Users/tuo/Documents/git/tuo.github.io/assets/samstartapi2.png](/Users/tuo/Documents/git/tuo.github.io/assets/samstartapi2.png)
+
+Okay, so `sam build`  one single function(empty requirement.txt, no dependency at all, but stil it need run pip install) takes 1.0 seconds and an request to it takes like in above picture 13~ seconds even thought it is the second time requesting.
+
+And there is not watch for sam build, you need manually switch back and forth between terminals panels and typing different commands.
+
+#### Can't run custom authorizer locally with API Gateway
+
+[Feature Request: API Gateway Authorizer support in SAM Local #137](https://github.com/awslabs/aws-sam-cli/issues/137). 
+
+We need add JWT for custom authorizer with cors support. But we can't test this locally somehow. I understand the whole thing, docker etc, aws team try to minick the real production environment with consistency to help migitate the pains of the this-thing-doesn't-work-on-my-laptop. It did! But obvisouly something still need to work on more.
 
 
-sam build is slow https://github.com/awslabs/aws-sam-cli/issues/805
-Also sam build is little bit slow, which is not good for fast iterate development.
-* 每次改动， 都会重新pip install (不会缓存）
+#### 
 
-If loop each folder, check if reuqiments.txt is changed or not(save as md5 signaure and compare with it ).
-If this md5 doesn’t match new one, then pip install and copy packages to build folder, and copy the all code in side direct
-If md5 same, just copy the code directory
+结构性问题 - 如何将tempalte, swagger都何在一起
 
-==because need run against contaciner, we could extract it to layer like ffmpeg
-Recommended : requimentres.txt need with version full
-
-
-* 代码修改可以，直接改.aws-sam/build
-
-
-解决办法：当代码有小改动或者调试时，可以直接在sam build后的.aws-sam/build/的输出文件下面改，此改动会立即生效，不用每次一次小改动后sam build在进行调试。当然这种方法也是有些危险的。有时候忘了把更改在build文件里面的内容复制到source文件进行代替，那么在重新build后原来的build里的更改会被替换掉。当然这种方法在代码的小改动后的调试啊什么的还是非常便捷的。
-
-
-
-#### sam local start-api is slow (
-
-解决办法：不用每次pull image， 可以 skip pull image sam local start-api --skip-pull-image。
-
-诶， 但mounting还是很慢，有没有keep docker container warm)的方法，看起来目前issue还是open状态，sam还不支持 keep warm。
-
-#### sam local start-api  不支持authorizer
-
-解决办法：目前来看sam local还不支持这个功能，但可以使用swagger来支持local的custom authorizers，但使用swagger又会使template bloated，但sam看起来过不久会支持这个功能。
-
-#### 结构性问题 - 如何将tempalte, swagger都何在一起
 
 * 非常长的template.yaml代码 这里丢出样本
 * swagger api definition写在yaml里就不科学 ，因为本身是（参考图片
