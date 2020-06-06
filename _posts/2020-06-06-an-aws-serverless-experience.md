@@ -174,7 +174,24 @@ I will talk a little bit improvement later for this process. But lets continue f
 
 #### Manual Deploy
 
-After you run `sam build`, you probably notice in terimal, you could do `
+After you run `sam build`, you probably notice in terimal, you could do `sam deploy --guided`. But if you like me, are in China, you know it won't - same arn parition problem.
+
+So you need:
+
+
+   * create s3 sbucket for deploy (only once if bucket doesn't exist)
+        
+         aws s3 mb s3://tuo-serverless-artifact
+
+   * sam upload package
+   
+         sam package --output-template-file packaged.yaml --s3-bucket tuo-serverless-artifact
+
+   * sam deploy package 
+   
+         sam deploy --template-file packaged.yaml --region cn-north-1 --capabilities CAPABILITY_IAM --stack-name demo-tuo-api  --s3-bucket tuo-serverless-artifact --confirm-changeset
+
+not too bad.
 
 
 ## DRawabacks
@@ -208,6 +225,13 @@ Recommended : requimentres.txt need with version full
 
 解决办法：目前来看sam local还不支持这个功能，但可以使用swagger来支持local的custom authorizers，但使用swagger又会使template bloated，但sam看起来过不久会支持这个功能。
 
+#### 结构性问题 - 如何将tempalte, swagger都何在一起
+
+* 非常长的template.yaml代码 这里丢出样本
+* swagger api definition写在yaml里就不科学 ，因为本身是（参考图片
+/Users/tuo/Documents/git/tuo.github.io/assets/codebuild-screenshots/sawgger.png
+
+map用的velocity, 写在yaml里？
 
 
 ## Best Practices
