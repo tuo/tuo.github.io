@@ -53,7 +53,7 @@ In conclusion, we choose SAM and plain python(no web framework here) for develop
 
 #### Module Breakdown
 
-In microservice specially, with some reminsicence of old day Java OO programming, `Single Responsibility Principle` always caught me. Robert.C.Martin, long time ago in his book《Agile software development principles, patterns, and practices》, mentioned five OO principles, and first is the SRP. This applies to Class/Function etc, not for code perfectionist, as it stands for good abstraction, better cognition and easy understanding. Each lambda in AWS represent a business unit, and it should and just do what it needs to do, nothing more or less. Like superstitious/obscure theology, followed by Age of Reason(btw, salute to George Carlin) and Englightment, everything should be based on its logic, but even emotions and human affections? lets pause here for Romanticism, no doctrine will be silver blullet as context always evovles.
+In microservice specially, with some reminsicence of old day Java OO programming, `Single Responsibility Principle` always caught me. Robert.C.Martin, long time ago in his book《Agile software development principles, patterns, and practices》, mentioned five OO principles, and first is the SRP/Separate of concerns. This applies to Class/Function etc, not for code perfectionist, as it stands for good abstraction, better cognition and easy understanding. Each lambda in AWS represent a business unit, and it should and just do what it needs to do, nothing more or less. Like superstitious/obscure theology, followed by Age of Reason(btw, salute to George Carlin) and Englightment, everything should be based on its logic, but even emotions and human affections? lets pause here for Romanticism, no doctrine will be silver blullet as context always evovles.
 
 In serverless world, we need consider here:
 
@@ -69,7 +69,7 @@ In serverless world, we need consider here:
 
 ## Development
 
-#### code structure
+#### Code structure
 
 There are many ways to organzie the code structure. For example, for CRUD case, you could have this:
 
@@ -98,7 +98,7 @@ and in template.yaml you could declare the function:
 
 ![/Users/tuo/Documents/git/tuo.github.io/assets/template function yaml.png](/Users/tuo/Documents/git/tuo.github.io/assets/template function yaml.png)
 
-When you run `sam build`, from the logs:
+When you run `sam build --debug`, from the logs:
 
 ![sam build log](/Users/tuo/Documents/git/tuo.github.io/assets/sambuild.png)
 
@@ -115,21 +115,34 @@ Then when later sam package/deploy, it will zip the whole folder `AdminAuthFunct
 Personally I favor the second one, as later I would mention about the swagger definitions, - which I think `swagger(API)` , `template yaml(Resource)`, `app.py(Code)` and `requirements.txt(Dependencies)` should be one single unit as it represent one self-contained bussiness logic. (This is some cons of the current aws stack, I will elaborate it later)
 
 
-#### share code
+#### Share code
 
-layer function -
+To share code inside different services, we could use language specfic solution like npm or pip. Here multiple services share some common logic like utils are pretty common cases. One thing about use pip/npm package, is that it is not easy or nature to integrate with part of development process. Also each service need download the dependencies separately when cold startup.
 
-* lock common depenecy like bot3
-* 
+[AWS Lambda layers](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) are pretty useful here.
+
+> You can configure your Lambda function to pull in additional code and content in the form of layers. A layer is a ZIP archive that contains libraries, a custom runtime, or other dependencies. With layers, you can use libraries in your function without needing to include them in your deployment package.
+
+[Working with AWS Lambda and Lambda Layers in AWS SAM](https://amazonaws-china.com/blogs/compute/working-with-aws-lambda-and-lambda-layers-in-aws-sam/) give pretty good example on how it use with SAM to be part of dev process by directly declare and use it in your sam templates.yaml.
+
+One good use of layer is to lock down system-wide built-in dependencies explicitly, like bot3.
 
 
-#### different env
+#### Different environments
 
-* seperate awws account for dev & prod
-* environment variables use AWS parameter store for keys, and some secret use AWS secret crendtails
+There are some good SAM best practices from AWS talks and docs. Some are quite practical ones:
+
+* ideally have seperate AWS accounts for different dev/uat/prod environments
+* use AWS System Manger - [AWS Systems Manager Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) for keys or secrets/credentails(e.g password) rather than plain hard-coded in code
+* APIGateway Stage Variables
+* Ues Parameters and Mappings 
 
 
-#### SAM TEPLATE BEST PRACTICES
+
+## Test and Deploy
+
+Once you're done, you could run sam local start-api to start locally.
+
 
 
 
@@ -138,8 +151,16 @@ layer function -
 ## DRawabacks
 
 #### sam build is slow https://github.com/awslabs/aws-sam-cli/issues/805
-
+Also sam build is little bit slow, which is not good for fast iterate development.
 * 每次改动， 都会重新pip install (不会缓存）
+
+If loop each folder, check if reuqiments.txt is changed or not(save as md5 signaure and compare with it ).
+If this md5 doesn’t match new one, then pip install and copy packages to build folder, and copy the all code in side direct
+If md5 same, just copy the code directory
+
+==because need run against contaciner, we could extract it to layer like ffmpeg
+Recommended : requimentres.txt need with version full
+
 
 * 代码修改可以，直接改.aws-sam/build
 
@@ -160,10 +181,13 @@ layer function -
 
 
 
+## Best Practices
 
 
-
-
+#### kinessis , rds, vpc,  -- control the traffics
+#### ci/cd
+#### least iam privilleges (declare explictly)
+#### read documentation fully at least once 
 
 
 
