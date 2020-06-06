@@ -172,7 +172,7 @@ So what you could do is just simply go to `.aws-sam/build` folder , find the cor
 I will talk a little bit improvement later for this process. But lets continue for deploy part. 
 
 
-#### Manual Deploy
+#### Deploy
 
 After you run `sam build`, you probably notice in terimal, you could do `sam deploy --guided`. But if you like me, are in China, you know it won't - same arn parition problem.
 
@@ -191,12 +191,39 @@ So you need:
    
          sam deploy --template-file packaged.yaml --region cn-north-1 --capabilities CAPABILITY_IAM --stack-name demo-tuo-api  --s3-bucket tuo-serverless-artifact --confirm-changeset
 
-not too bad.
+
+But how about you need have some decent CI/CD for automating deploy process?  
+
+![/Users/tuo/Documents/git/tuo.github.io/assets/cicd.png](/Users/tuo/Documents/git/tuo.github.io/assets/cicd.png)
+
+Unfortunately, the codepipeline is not supported in China, we need use Jenkins/TravisCI for replacement. You could use the jenkins plugin [AWS CodeBuild](https://plugins.jenkins.io/aws-codebuild/) with github to setup code trigger to codebuild process.
 
 
-## DRawabacks
+![/Users/tuo/Documents/git/tuo.github.io/assets/codebuild.png](/Users/tuo/Documents/git/tuo.github.io/assets/codebuild.png)
 
-#### sam build is slow https://github.com/awslabs/aws-sam-cli/issues/805
+
+/Users/tuo/Documents/git/tuo.github.io/assets/codebuild-screenshots
+
+CodeBuild basically do sam build and package, after that the zip and artifact should be upload to s3 ready for aws cloudformation to deploy.
+
+
+Here is a pretty tutorial on Jenkins with CodeBuild&CodeDeploy from aws blog: [Setting up a CI/CD pipeline by integrating Jenkins with AWS CodeBuild and AWS CodeDeploy](https://amazonaws-china.com/blogs/devops/setting-up-a-ci-cd-pipeline-by-integrating-jenkins-with-aws-codebuild-and-aws-codedeploy/). My experience with this is that this process is very long and error-prone, sometimes you need step back and think why and it might not fit perfectly on your case, and twist little bit.
+
+
+
+## Drawbacks and Limitations
+
+let's review what are some limitations from aws serverless and SAM.
+
+
+#### `sam build` is slow
+
+There is some issue on github: ["sam build" feedback: Support incremental builds #805](https://github.com/awslabs/aws-sam-cli/issues/805).
+
+One of reason, as I mentioned earilier, 
+
+
+sam build is slow https://github.com/awslabs/aws-sam-cli/issues/805
 Also sam build is little bit slow, which is not good for fast iterate development.
 * 每次改动， 都会重新pip install (不会缓存）
 
