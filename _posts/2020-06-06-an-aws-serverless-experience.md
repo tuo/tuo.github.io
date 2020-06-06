@@ -63,7 +63,7 @@ In serverless world, we need consider here:
 * resources/permissions applied
 * pricing
 
-![Basic System structure](/Users/tuo/Documents/git/tuo.github.io/assets/systemstructure.png)
+<img width="852" alt="systemstructure" src="https://user-images.githubusercontent.com/491610/83947399-414f0c80-a849-11ea-8300-4609c1ed2ee6.png">
 
 
 
