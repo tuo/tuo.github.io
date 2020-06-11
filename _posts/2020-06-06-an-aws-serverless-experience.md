@@ -260,11 +260,11 @@ let's give a quick glance of template.yaml I got from other project which given 
 <img width="814" alt="templateyamlreference1" src="https://user-images.githubusercontent.com/491610/83947404-47dd8400-a849-11ea-95fc-63478298d38d.png">
 <img width="806" alt="templateyamlreference2" src="https://user-images.githubusercontent.com/491610/83947405-490eb100-a849-11ea-8ea3-31222d03ae3e.png">
 
-For APIGateway yamls, which mainly containes parameters and mappings, swagger api definition and other resources, has over 3 thousands lines. That's pretty insane! Imagine you need change some part of code here, it would be indigestible and super hard to locate and change it. Just imagine again, you need change some swagger mapping template in velocity language in a yaml file.
+For APIGateway yamls, which mainly containes parameters and mappings, swagger api definition and other resources, has over 3 thousands lines. That's pretty insane! Imagine you need change some part of code here, it would be undigestible and super hard to locate and change it. Just imagine again, you need change some swagger mapping template in velocity language in a yaml file.
 
 After a quick look, I found the swagger api definition part takes the most. Again, my two months development experiences from novice tells me that there is some thing could be improved.
 
-The thing is that I need constant jump between python code and template.yaml to change both, which is kinda really painful. The python code containers source code and dependecies, and template.yaml containes instrastructure related and api definitions. Remember, take for example, rails or expressjs, you have controllers/services/models/routes in separate folders, meaning you have `user` model, you need have user-related code in 4 or even folders, well what they do is just simply cooperate to do one sth - user. 
+The thing is that I need constantly jump between python code and template.yaml to change both, which is kinda really painful. The python code containers source code and dependecies, and template.yaml containes instrastructure related and api definitions. Remember, take for example, rails or expressjs, you have controllers/services/models/routes in separate folders, meaning you have `user` model, you need have user-related code in 4 or even folders, well what they do is just simply cooperate to do one sth - user. 
 
 So as I mentioned previously, it would be better that it wraps around the business logic.
 
