@@ -155,7 +155,7 @@ on my mac, `SAM CLI, version 0.41.0`, I got interested on this line:
 
 *You can now browse to the above endpoints to invoke your functions. You do not need to restart/reload SAM CLI while working on your functions, changes will be reflected instantly/automatically. You only need to restart SAM CLI if you update your AWS SAM template*
 
-![](https://user-images.githubusercontent.com/491610/83947291-ad7d4080-a848-11ea-89a9-33dc5ba7e8a0.png)
+![](https://user-images.githubusercontent.com/491610/84459691-a5832d80-ac9a-11ea-9d26-5c6239272948.png)
 
 
 But truth is, when I just change the code, and call via curl again, nothing happened. But as I guess, it is when you actually do `curl http://127.0.0.1:3000/orders` , only then SAM will try to invoke the lambda, download docker images (runtime, layer etc), and mount 
@@ -239,7 +239,7 @@ But the most painful part is it need start new container and mount volume etc ev
 
 ![/Users/tuo/Documents/git/tuo.github.io/assets/sambuild_function_empty_depenecy.png](https://user-images.githubusercontent.com/491610/83947285-a7875f80-a848-11ea-836b-f4089c447bf5.png)
 
-![/Users/tuo/Documents/git/tuo.github.io/assets/samstartapi2.png](https://user-images.githubusercontent.com/491610/83947297-b110c780-a848-11ea-9985-7bc6d20505ec.png)
+![/Users/tuo/Documents/git/tuo.github.io/assets/samstartapi2.png](https://user-images.githubusercontent.com/491610/84459682-a2883d00-ac9a-11ea-8d1b-a03f363eca52.png)
 
 Okay, so `sam build`  one single function(empty requirement.txt, no dependency at all, but stil it need run pip install) takes 1.0 seconds and an request to it takes like in above picture 13~ seconds even thought it is the second time requesting.
 
