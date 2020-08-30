@@ -1,12 +1,9 @@
 highlighter: true
-permalink: '/:title'
+permalink: "/:title"
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
 incremental: false
 kramdown:
   input: GFM
   math_engine: mathjax
   syntax_highlighter: rouge
-
-
- 
