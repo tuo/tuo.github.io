@@ -4,9 +4,12 @@ title: Tuo/拓
 ---
 
 <ul id="posts" class="fourteen columns offset-by-four">
-  {% for post in site.posts %}
+  {% for post in site.posts %} {% assign post_url = post.url %} {% if post_url
+  contains '.html %} {% else %} {% assign post_url = "{{ post.url }}.html" %} {%
+  endif %}
+
   <li>
-    <a class="eleven columns" href="{{ post.url }}.html">{{ post.title }}</a>
+    <a class="eleven columns" href="{{ post_url }}">{{ post.title }}</a>
     <span class="two columns" style="font-size: 0.9em"
       >{{ post.date | date: "%b %d, %Y" }}</span
     >
