@@ -7,10 +7,10 @@ title: Tuo/拓
   {% for post in site.posts %}
 
   <li>
-    {% if post_url contains '.html %}
-    <a class="eleven columns" href="{{ post_url }}">{{ post.title }}</a>
+    {% if post.url contains '.html' %}
+    <a class="eleven columns" href="{{ post.url }}">{{ post.title }}</a>
     {% else %}
-    <a class="eleven columns" href="{{ post_url }}.html">{{ post.title }}</a>
+    <a class="eleven columns" href="{{ post.url }}.html">{{ post.title }}</a>
     {% endif %}
 
     <span class="two columns" style="font-size: 0.9em"
