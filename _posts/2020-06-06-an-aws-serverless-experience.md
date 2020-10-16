@@ -160,7 +160,7 @@ on my mac, `SAM CLI, version 0.41.0`, I got interested on this line:
 
 But truth is, when I just change the code, and call via curl again, nothing happened. But as I guess, it is when you actually do `curl http://127.0.0.1:3000/orders` , only then SAM will try to invoke the lambda, download docker images (runtime, layer etc), and mount 
 
-> Mounting /Users/tuo/Documents/6e/cummins-fleet-mgnt/backend/route-api/.aws-sam/build/ListOrderFunction as /var/task:ro,delegated inside runtime container
+> Mounting /Users/tuo/Documents/6e/xxx/backend/route-api/.aws-sam/build/ListOrderFunction as /var/task:ro,delegated inside runtime container
 
 from .aws-sam/build to docker container's volume. So either it means `sam build` has some magic watch command ? or there is an option of `watch` in sam build command? But nope, I didn't find any like that in manual.
 
