@@ -59,7 +59,7 @@ tags: dialectical materialism, behavioral psychology, mao
 之前有记得看到一个作者 Ryan Holiday 写过一篇文章[The Incredible Creative Power of the Index Card:
 An old-school tool that rivals its digital competitors](https://forge.medium.com/the-incredible-creative-power-of-the-index-card-b799250033c9)，讲到他如何在平时收集自己的零星的想法，就用到了 Index Card(索引卡)。然后在归门别类，方便后续系统的翻看或者回顾整理。
 
-里根的幽默和段子频出在美国总统上应该排的上号了。除了总统再次竞选时，被主持人质疑年纪过大时（肯尼迪应该是最年轻的了 40 多岁， 而里根当时 70 多，跟现在特朗普和拜登都没得比，当时算是年纪很大了，特别是第一次时 69 岁，已经是历史上年纪最大的总统），可能无法像肯尼迪在古巴危机中连续不停工作，他机制的回答自己不会利用自己年纪大的经验优势来 exploit 占对手年轻的便宜，引得了观众甚至对手的大笑， 巧妙的化解了年纪问题。[Reagan-Mondale debate: the age issue
+里根的幽默和段子频出在美国总统上应该排的上号了。除了总统再次竞选时，被主持人质疑年纪过大时（肯尼迪应该是最年轻的了 40 多岁， 而里根当时 70 多，跟现在特朗普和拜登都没得比，当时算是年纪很大了，特别是第一次时 69 岁，已经是历史上年纪最大的总统），可能无法像肯尼迪在古巴危机中连续不停工作，他机制的回答自己不会利用自己年纪大的经验优势来 exploit 占对手年轻没经验的便宜，引得了观众甚至对手的大笑， 巧妙的化解了年纪问题。[Reagan-Mondale debate: the age issue
 ](https://www.youtube.com/watch?v=LoPu1UIBkBc&ab_channel=lawford83)
 
 [里根讲了不少吐槽关于苏联的段子](https://www.youtube.com/watch?v=ucdkU7f-VWk&ab_channel=ChanJoseph), 其中一个：
