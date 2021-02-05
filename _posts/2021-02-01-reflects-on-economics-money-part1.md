@@ -360,9 +360,8 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 
 
-![gr_banks](https://user-images.githubusercontent.com/491610/107038995-4e693480-67f8-11eb-861e-1289f4bf85a7.jpg)
+![1929_can](https://user-images.githubusercontent.com/491610/107049337-ee2cbf80-6804-11eb-9e2d-71b1275cb7a9.jpg)
 
-![gr_unemployment](https://user-images.githubusercontent.com/491610/107038997-4f01cb00-67f8-11eb-9565-0ec9895f210d.jpg)
 
 上图美国大萧条时期的银行倒闭率和失业率，来自美联储主席本伯南克 [Ben Bernanke](https://en.wikipedia.org/wiki/Ben_Bernanke)在2012年在乔治华盛顿大学的课程[《The Federal Reserve and the Financial Crisis》](https://www.federalreserve.gov/aboutthefed/educational-tools/chairmans-lecture-series-about.htm)，讲了美联储的历史和使命，二战之后的历程，2008金融危机的应对和危机的余波，非常不错的课程。
 
