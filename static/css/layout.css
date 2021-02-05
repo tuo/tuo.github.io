@@ -25,12 +25,12 @@ h4 {
 }
 
 a {
-  color: #06A;
+  color: #08c !important;
   text-decoration: none;
 }
 
 a:hover {
-  color: #06A;
+  color: #08c !important;
   text-decoration: underline;
   cursor: pointer;
 }
