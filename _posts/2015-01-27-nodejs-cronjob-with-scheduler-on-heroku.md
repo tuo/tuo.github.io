@@ -151,7 +151,7 @@ Then we need to go to heroku scheduler adds-on page:
 6. save 
 
 
-![heroku scheduler](https://cloud.githubusercontent.com/assets/491610/5917762/d489517c-a65b-11e4-98fc-f8a9938b774d.png)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/d489517c-a65b-11e4-98fc-f8a9938b774d.png)
 
 
 Then you're pretty much done. Just pay attention to the run time, it is utc time so make sure you calculate/convert correctly from your target timezone. I have just made a dumb mistake by putting wrong 04:00 UTC time rather than 16:00 UTC.
