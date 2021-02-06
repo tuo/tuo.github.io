@@ -34,7 +34,7 @@ tags: money,economics
 
 摩根死后自己的财产不多，但是他的集团掌控的领域和公司特别多，即使后来1933年分拆之后还有现在的Morgan Stanley摩根斯坦利和Morgan Chase摩根大通(后者又益于90年代金融送管克林顿-兼并）. 再一个摩根在1893年时也处理过经济危机（1893年危机中他帮助拯救了美国财政部-[Panic of 1893](https://en.wikipedia.org/wiki/Panic_of_1893)），他应该说经验丰富，同时他利用自己的影响和其他巨头一起联合组成了高级董事会交叉控制网（interlocking directorates），为自己取了更多利润，控制合并了非常多的大工业和铁路领域， 和其他巨头一起形成了影响力非常巨大的[Money trust](https://en.wikipedia.org/wiki/Money_trust)(金融托拉斯)的超级企业巨头联盟，可以让他们控制了国家头部的大银行和其他金融机构。 所以目前谁有最多的钱来给市场注入继续的流动性了？不是小老弟财政部，而是私人巨头们。
 
-![morgan_i_need_all](https://user-images.githubusercontent.com/491610/107039038-5a54f680-67f8-11eb-8a93-e33dc4a100ed.jpg)
+![morgan_i_need_all](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/morgan_i_need_all.jpg)
 
 1907年应该是摩根最风光的一年。老头子当年已经是70岁，应该说见过了不少美国经济的繁荣和危机间隔几年十几年的轮回繁荣衰退周期boom&bust cycle（有兴趣可以看看，尽管美国工业腾飞，但是美国地大农业还是占有相当大比重，每年的农民的收货季节总能引起信贷市场的波动swing，而且美国这期间一直没有中央银行，加上其他因素投机，缺少监管等等）-，做了几件事情了:  
 * 分析已有的金融形势，看看那些能银行能保住(bailout), 哪些只能是破产（Bankcrupt)；
@@ -43,23 +43,23 @@ tags: money,economics
 
 * 节流 - 摩根和其他银行家的钱不是很够了，财政部也是，这个无底洞的填补一定要恢复公众的信心，减少流动性的损失，连欧洲最著名的银行家罗斯柴尔德[Lord Rothschild](https://en.wikipedia.org/wiki/Nathan_Rothschild,_1st_Baron_Rothschild)都给摩根表达他对摩根的“admiration and respect"膜拜和尊敬; 随后金融市场恢复了平静，实则还没渡过风声鹤唳草木皆兵，一个经纪行用田纳西矿业和制铁公司的股票质押借贷然后用于其投机导致亏损，银行都逼迫他卖出[田纳西矿业和制铁公司](https://en.wikipedia.org/wiki/Tennessee_Coal,_Iron_and_Railroad_Company)的股票来还债。摩根认为这个时候逼迫卖出这么多股票（本来就交易量小）来清算，会导致股票价格大幅度大跌（好比07-08年次贷危机房价螺旋式下跌，没人买了，需求急降），造成本已经战战巍巍市场的恐慌。摩根一个方案是用自己之前帮助合并过的钢铁公司来收购，但是这个会触犯憎恨华尔街和大公司的罗斯福的反垄断法。最终罗斯福在[衡量不接受合并可能股市奔溃的后](https://en.wikipedia.org/wiki/Panic_of_1907#cite_ref-61:~:text=Roosevelt%20relented%3B%20he%20later%20recalled%20of,to%20the%20purchase%20under%20those%20circumstances%22.%5B)，同意了合并，摩根以超低的价格收购了TC&I，危机终于彻底过去了。
 
-![Cortelyou](https://user-images.githubusercontent.com/491610/107038973-45786300-67f8-11eb-985f-5ecd96d44bdf.jpg)
+![Cortelyou](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/Cortelyou.jpg)
 <cite>来源: http://santarosahistory.com/wordpress/category/bank-panic-1907/</cite>
 
 1907-10-23号在上图中财政部长Cortelyou出来安抚公众说”形势好转了很多“，右下角说道信托公司有能力满足他们存户的兑换要求（on-demand)，而且这个是因为群众听信谣言说公司处于困难的境地，民众的信心在休市的时候得到稳步的增长（实际还是只是一个开端，有点像当年钱宝2017年8月份有一次挤兑危机，结果钱宝出来说大家不要听信谣言，随时来取款信誓旦旦亮出自己底牌多丰厚，结果借新还旧漏洞补不上半年后倒了，所以这个有点回光返照的意思）
 
 1907-10-26号摩根经常开会商讨研究从晚上一直到了早上4-5点，有时候太晚，有时候太早，坐车时太冷甚至乎的了感冒(cold)，但是媒体评论正是这一寒颤却稳定了市场。
 
-![morgan_cold](https://user-images.githubusercontent.com/491610/107039035-59bc6000-67f8-11eb-9371-f8a19b1afe6c.jpg)
+![morgan_cold](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/morgan_cold.jpg)
 来源：https://www.youtube.com/watch?v=6Rb2TsOm3Kw&ab_channel=CNBC
 
 
 摩根几乎是一己之力把美国从经济危机中拉了出来，一时间成了备受赞誉的国民英雄，但是似乎没有持续多久。
-![morgan_big_gov_small](https://user-images.githubusercontent.com/491610/107039030-5923c980-67f8-11eb-90a9-ea0ba382de4a.jpg)
+![morgan_big_gov_small](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/morgan_big_gov_small.jpg)
 
 股市崩盘恢复可以很快，危机可能可以很快平复，但是恢复的时间特是异常的漫长和痛苦。一个是国家没有中央银行，缺乏经济调控的工具，货币政策不灵活，导致经济不稳定和僵化；出了危机，只能依靠一个私人银行家(可以说是非正式的中央银行行长)来拯救这个令公众和政府有点担忧，头部这小撮人居然有这么大权力，没有被管控；摩根救市也不一定出于爱国，他可能也知道金融情况恶化下去对他而且也是不利的，可能部分也是出于自利之心，另外危机中无底洞一般的资金投入也让他们害怕，害怕再一次重新这个现象.(`1907 - back when bankers bail out gov, not gov bailout bankers now`)
 
-![robber_barrons](https://user-images.githubusercontent.com/491610/107039064-5f19aa80-67f8-11eb-879f-23fba7e4a260.jpg)
+![robber_barrons](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/robber_barrons.jpg)
 <cite>来源： [Meaning and History of the Term Robber Baron](https://www.thoughtco.com/robber-baron-definition-1773342)</cite>
 
 政府和公众认为这小撮人-金融托拉斯-踩着人民的身上，通过金融手段合并和通过*挤压*、低价倾销等方式拖垮还活着的对手（参考洛克菲勒）从而获得垄断权力，控制了物资价格，同时不断延长底下员工的工作时间和无视恶劣的工作环境（童工等），从而积累了大量的财富，被人们称为”[Robber Baron强盗式资本家](https://en.wikipedia.org/wiki/Robber_baron_(industrialist))“。这群商业金融资本家就和底层的农民等等形成了矛盾，农名和社会的情绪过去之后就觉得金融危机可能是这群Money Trust金融托拉斯自己玩脱了或者自己一手设计的，从他们和信托公司（吸收了大量存款）中手中将辛苦钱骗走（1907年大量大量银行倒闭-倒闭数量历史上第二大，导致普罗大众的存款消失），还有就是比如摩根超级低收购田纳西矿业和制铁公司这个事情，肥了摩根这群人的钱包。
@@ -78,7 +78,7 @@ tags: money,economics
 
 > *Morgan:* "Before money or property or anything else.  Money cannot buy it...because a man I do not trust could not get money  from me on all the bonds in Christendom." （摩根： 在金钱或所有物或其他任何东西之前。金钱不能买到它...因为一个我不信任信得过的是不能在一切基督教国家从我这里拿到钱。
 
-![qingzhang](https://user-images.githubusercontent.com/491610/107039059-5de87d80-67f8-11eb-99c4-aa88c544b8fa.jpg)
+![qingzhang](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/qingzhang.jpg)
 
 上图是朋友圈老家的一些朋友有时候过年过节都会发的，他们一般在老家都做点小生意。信用这个东西很特别，但是这里我们看到一般人与人之间信用说到底还是看这个人怎么样；如果他有上进心，你熟悉了解，尽管目前可能有点困难，可能你还是会借给他，即使超过他此时此刻能还的数目；如果你知道这个人不咋样，还信任他，鼓励借给他，那么你要么是高利贷做陷阱让他陷入更大的债务（要么砍头息-多看看今日说法，参考这一期[《20210110 被盯上的拆迁户》](https://tv.cctv.com/2021/01/10/VIDE3de3UUPSagowCh7V0pXC210110.shtml)；以老家的小圈子，记账也得都得是看人如何的。一般来说，个人信用很重要，国家的信用就更重要了。
 
@@ -95,12 +95,12 @@ tags: money,economics
 
 基本上就包括上面描述的紧急情况下向银行贷款，印钱和作为美国政府的财政代理人，监督银行体系。包括最上面的美联储委员会董事会（ [Federal Reserve Board of Governors](https://en.wikipedia.org/wiki/Federal_Reserve_Board_of_Governors)），和十二个地区来代表多样性的地区银行（ [Federal Reserve Banks](https://en.wikipedia.org/wiki/Federal_Reserve_Bank) ）组成负责具体执行美联储政策。 
 
-![fed_structure](https://user-images.githubusercontent.com/491610/107038989-4c9f7100-67f8-11eb-96f2-b52ee9ae719a.jpg)
+![fed_structure](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/fed_structure.jpg)
 
 那么当时的美国总统*Woodrow Wilson*(伍德罗·威尔逊)民主党人（民主党人几乎控制了两院）跟共和党人也就是具体起草人Nelson_Aldrich的矛盾地方在于什么？ 简单说公共vs私人。Nelson Aldrich最初起草的希望这个央行系统全部有私人（银行家和工商阶级）构成，不希望政府等公共的介入（*independent*)，独立的机构。但是民主党人更像代表了农民草根群体害怕央行变成这群华尔街银行家的money trust托斯的牟利工具，所以才有之前讲到的Pujo Commit的听证会。民主党人想要修改草稿来达到救济金融恐慌，减少失业率和商业萧条，最后保证大众的利益不被纽约这群金融托拉斯所绑架而被侵害（ps听起来很熟悉)。两方面都想争取的利益，经济政治因素利益的考虑权衡，远比我们想的要复杂。好比法案到了快要表决的时候，几乎打成了平手，一个来自密苏里州的议员的选票就很关键了，谁能争取下来谁就赢了。为了让方案通过，制定人私下承诺在这个议员所在的这个州联邦第八区（下图）开特列有两个联邦储备银行，即使这个州影响力远小于东部沿海，甚至弱于崛起的西部，到现在都没变 - 所以我们看到这个之间远不是一方绝对压倒性控制另一方，如果有那么只能说在1955年前都是政府压倒式控制美联储，美联储只是一个傀儡工具人. 
 
 
-![fed_district](https://user-images.githubusercontent.com/491610/107038984-4a3d1700-67f8-11eb-838f-855ba70eee72.jpg)
+![fed_district](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/fed_district.jpg)
 <cite>来自：https://en.wikipedia.org/wiki/Federal_Reserve_Bank</cite>
 
 结果就是总统可以认命美联储的董事会；而下面十二个区域的联邦储备银行(Fed Reserve Banks)负责一起实施货币政策，放贷业务和监督区域内的银行，清算，作为最终贷款人[ lender of last resort](https://www.investopedia.com/terms/l/lenderoflastresort.asp)。
@@ -117,7 +117,7 @@ tags: money,economics
 
 收入来源主要是购买债券的利息。这些扣除运行开支，主要是返回给美国财政部Treasury，只有很少很少的部分才会最为利息分发给他的成员银行。比如下图中所示，收入和支出：
 
-![fed_spense_income](https://user-images.githubusercontent.com/491610/107038987-4b6e4400-67f8-11eb-9ef9-0cafbbd085c1.jpg)
+![fed_spense_income](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/fed_spense_income.jpg)
 <cite>来源： https://www.frbsf.org/education/publications/doctor-econ/2006/may/federal-reserve-funding</cite>
 
 我们看到网上说阴谋论是说FED美联储是被私人银行和企业家操控？一个原因是他自己网站[Section 7. Division of Earnings](https://www.federalreserve.gov/aboutthefed/section7.htm)上都说给持人6%的分红。分红我们比列我们大概讲了，记住只是利润，那我们看看实际中每年美联储赚多少钱，多少返回给财政部，多少用于分红了。
@@ -154,7 +154,7 @@ tags: money,economics
 * **公开市场操作**[open market operations](https://www.investopedia.com/terms/o/openmarketoperations.asp) (OMO) - 简单来说，FED的主要货币政策的工具。首先商业银行需要保持一定的准备金数目在美联储储备银行，而且每两周会审核。但是可能银行将钱放贷出去过多（临时），到了审核的时候，就需要往其他有足够钱的银行临时借钱保证审核过审，过审完再给返回去，这个借钱的利率是一个短期的利率，一般来说隔夜。 美联储通过在公开市场出售和购买国债实现往经济中回收或投放货币。按照简单的供给理论来比喻，市场上钱多了，那么借钱成本下降，利率势降低了，反正利率升高。这样就可以通过直接影响短期利率，间接影响长期利率，从而进而影响方方面面，比如储存存钱的利率到长期的家庭房贷利率，信心卡的利率等等， 更进一步影响信用的提供，投资的需求，就业和经济的产出（通货膨胀）。  2020年3月15日为了应对疫情，美联储下调美国联邦基金利率到了大概是0.00%-0.25%。
 
 
-![fed_fomo_control](https://user-images.githubusercontent.com/491610/107038985-4ad5ad80-67f8-11eb-8b8a-de519ad719f7.jpg)
+![fed_fomo_control](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/fed_fomo_control.jpg)
 <cite>来自：https://www.youtube.com/watch?v=Vy6gSr2AtUE&ab_channel=MarginalRevolutionUniversity</cite>
 
 
@@ -169,11 +169,11 @@ tags: money,economics
 
 1914年 欧洲大陆发生了一战，跟林肯一样，为了筹集足够的钱来应付战争的开销，英国暂停了金本位，暂停了英镑和金块的兑换，随后其他国家也跟上。
 
-![inflation_ir](https://user-images.githubusercontent.com/491610/107039002-50cb8e80-67f8-11eb-9bae-64aa8033a500.jpg)
+![inflation_ir](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/inflation_ir.jpg)
 
 1918年一战结束，英国国内货币超发，通胀率居高不下，失业率下不来，欧洲各国开始也推迟了返回金本位的想法。1920初英国政府更想通过回到金本位来降低通胀率，而不是先考虑降低失业率。为什么回到金本位可以降低通胀率了？我们看下图一个简单的比方：
 
-![us-chinagold](https://user-images.githubusercontent.com/491610/107039072-60e36e00-67f8-11eb-8f5b-cea07a984760.jpg)
+![us-chinagold](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/us-chinagold.jpg)
 
 中国一开始因为货币少（这里假设不是美元或者人民币，货币指的就是黄金，因为货币锚定），价格低，不断生成商品，进而出口到美国；此时美国需要将黄金给中国，于是中国积累黄金（净流入国），此时货币>商品产出，钱越来越多，于是通货膨胀，人们希望今天就买东西，否则明天会贬值，此时造成工厂的工资和成本上身，进而再次带动价格上升，出口的吸引力下降；作为美国（净流出国）货币越来越少，人们手头上的钱变少了，购买的欲望下降，造成紧缩，工厂停止生产，进一步带动价格下降，到某个地步，生产商品的成本也会降低（相对而言），从而提高了出口产品价格的吸引力，形式又反转过来了； 
 
@@ -201,7 +201,7 @@ tags: money,economics
 
 这个开始让斯特朗有点忧心，但是他感觉别无他法-低利率是为了帮助欧洲国家（特别是英国）能重回金本位，回到当年稳定的金融货币体系。1929年斯特朗过世后一年美国发生了股市大奔溃，直接开始了多年的经济萧条。胡佛总统的顾问 Adolph Miller当时的FED成员之一责怪斯特朗的信贷宽松是："*father and mother to the subsequent 1929* collapse".
 
-![1929bubble](https://user-images.githubusercontent.com/491610/107038955-401b1880-67f8-11eb-9fcb-1a075e97e376.jpg)
+![1929bubble](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/1929bubble.jpg)
 
 <cite>来源:https://schiffgold.com/guest-commentaries/the-story-of-benjamin-strong-how-fatal-conceit-wrecks-economies/</cite>
 
@@ -231,7 +231,7 @@ tags: money,economics
 所以怎么说了？美联储不给力啊，所以货币政策你别来了，让财政部给你设计就好了。美联储就像是财政部的代理人，执行财政部的政策。至此之后美联储一直没有夺回到货币政策的控制权，直到1951年的[《Treasury-Fed Accord》](https://www.federalreservehistory.org/essays/treasury-fed-accord)（还是因为二战的战争债券的回报率的争端）。
 
 
-![1929_can](https://user-images.githubusercontent.com/491610/107049337-ee2cbf80-6804-11eb-9e2d-71b1275cb7a9.jpg)
+![1929_can](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/1929_can.jpg)
 
 
 上图美国大萧条时期的银行倒闭率和失业率，来自美联储主席本伯南克 [Ben Bernanke](https://en.wikipedia.org/wiki/Ben_Bernanke)在2012年在乔治华盛顿大学的课程[《The Federal Reserve and the Financial Crisis》](https://www.federalreserve.gov/aboutthefed/educational-tools/chairmans-lecture-series-about.htm)，讲了美联储的历史和使命，二战之后的历程，2008金融危机的应对和危机的余波，非常不错的课程。
@@ -281,7 +281,7 @@ tags: money,economics
 
 1973年尼克松彻底将美元和黄金脱钩，这个操作是的美元稍后大幅度贬值，通货膨胀率大幅度飙升，1973年8.7%，1974年12.3%，同时因为价格工资管控（虽然很快又取消了），但是已经造成了三个季度GDP负增长，失业率也上升到1974年7.2%， 1975年的9%，利率从74-75年时期始终是10%以上。火上浇油的是，1973的OPEC石油禁运(1970s energy crisis - 包括1973石油危机和1979年能源危机）造成了油价的大幅度上升，进一步让经济形势恶化。
 
-![1970misery](https://user-images.githubusercontent.com/491610/107038958-41e4dc00-67f8-11eb-942c-8ef2bb9f968e.jpg)
+![1970misery](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/1970misery.jpg)
 
 <cite>来源:https://inflationdata.com/articles/inflation-cpi-consumer-price-index-1970-1979/</cite>
 

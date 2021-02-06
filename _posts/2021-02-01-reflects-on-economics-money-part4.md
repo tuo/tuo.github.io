@@ -7,7 +7,7 @@ tags: money,economics
 ---
 2020年3月份鉴于新冠疫情的原因美股连续几次熔断，美联储从3月15号开始首先开始常规的降息0.25%，降低贴现率0.0%，降低了[对银行的资本要求](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20200401a.htm)，重启08年的QE包括购买长期国债和抵押担保债券Mortgage-Backed Security (MBS)等等。
 
-![excess_reserve](https://user-images.githubusercontent.com/491610/107038979-47dabd00-67f8-11eb-9044-7a31dc2d1d15.jpg)
+![excess_reserve](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/excess_reserve.jpg)
 
 如上图，存款机构（银行等）已经在美联储储备银行存了很多的钱了，这些钱机构并没有像美联储预想的那样流通到市场中去，而这些机构因为担心外面的风险等，反而更愿意存在美联储来获得利息。所以货币的传导机制出现了问题，但是美联储没有办法代替人家做决定，只能是间接的影响，而外面市场里则资金匮乏，大量投资者撤回投资手持现金坐上壁观，导致需要卖的没有了买家，而公司也面临着融不到资金周转困难，及其有可能恶化到影响日常的生产活动导致裁员降薪等等陷入更困难的境地。
 
@@ -19,7 +19,7 @@ tags: money,economics
 
 大量的人卖出债券换回现金，出现美元荒，导致公司融资困难。那么这些公司债券怎么运作的了？上面不是提到了一级和二级么？可以参考克利夫兰美联储分部[《The Fed’s Secondary Market Corporate Credit Facility, explained》](https://www.clevelandfed.org/newsroom-and-events/infographics-library/smccf.aspx)有解释和图表：
 
-![somo](https://user-images.githubusercontent.com/491610/107040842-b9b40600-67fa-11eb-9f36-d824e150c5a3.jpg)
+![somo](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/somo.jpg)
 
 一级市场还是比较小而且量级比较大；二级市场比较广泛量级小，一级卖给二级；但是像上面总结报告里所说：
 
@@ -33,7 +33,7 @@ tags: money,economics
 
 4月9号[《April 09, 2020 Federal Reserve takes additional actions to provide up to $2.3 trillion in loans to support the economy》](https://www.federalreserve.gov/newsevents/pressreleases/monetary20200409a.htm)，扩大到了在3月份22号之前是投资级别，然后3月22号之后信用下降到垃圾级别的的公司债券(称为[Fallen Angel](https://www.investopedia.com/terms/f/fallenangel.asp))同时还有那些暴露在以高风险高回报的公司债券为主要投资对象的ETF。 主要目的是降低公司债券的回报率激增从而降低公司的借债成本（大量入等待卖出无人买，导致公债券没有要），最重要的是要显示美联储对市场稳定的坚定承诺，给市场以信心。随后确实比如垃圾债券市场的收益率大幅度下跌，公司融资成本显著降低。
 
-![junk_yield](https://user-images.githubusercontent.com/491610/107040831-b6207f00-67fa-11eb-9de8-ce7c530c3e01.jpg)
+![junk_yield](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/junk_yield.jpg)
 
 直到5月12号美联储借助黑石BlockRock的专业知识来帮助其购买公司债券ETFs，几家主要的ETF比如先锋[Vanguard](https://advisors.vanguard.com/insights/article/whatsgoodforthefedmayalsobegoodforinvestors)/黑石BlockRock旗下的iShares。[Fed Reveals Which Bond ETFs It Purchased](https://www.thinkadvisor.com/2020/06/01/fed-reveals-which-bond-etfs-it-purchased/)有5月19号的详细的购买列表，引用其中一段：
 
@@ -47,7 +47,7 @@ tags: money,economics
 
 美联储买了哪些公司了？主要是汽车行业和科技行业。包括苹果，电信和几家在美国有分部有下属部门（subsidiaries）的国际汽车制造商。
 
-![bond_issuer](https://user-images.githubusercontent.com/491610/107040804-b15bcb00-67fa-11eb-9248-b92a66b43210.jpg)
+![bond_issuer](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/bond_issuer.jpg)
 
 大众，丰田，AT&T(美国电话电报公司-第二大电信供应商)，戴姆勒，Verizon威瑞森通讯，苹果，通用电气，宝马，微软，福特还有通用汽车，迪士尼，沃尔玛等等都还是比较出名的，后续还加入了可口可乐等等。美联储Jerome Powell 认为尽管目前借钱的成本已经比较低，但是鉴于新冠和快速恢复经济，还坚持购买公司债券，帮助公司需要现金来支付工人，坚定需要继续这么做，降低企业融资的成本。问题也看的出来，比如像苹果这种现金流很充分的特别优质的公司（现金奶牛），包括微软，甲骨文听起来不像是缺钱的公司。特别是苹果，在2020年8月09号宣布第三季度财报里显示，第三季度苹果的营业收入较去年同比增长11%，至597亿美元，本财年的前三个季度中收入增长了7%，达到2098亿美元；同时苹果在过去六个月（3-8）一直在不断回购股票（第三季度中回购了160亿美元的股票，全年回购的总价值达到了552亿美元，占该公司今年前三个季度所产生的运营现金的90%）。
 
@@ -94,7 +94,7 @@ tags: money,economics
 
 利益放大，风险也放大了。2017年杠杆收购企业中，公司的债务是其收入的6.6倍，杠杆融资市场规模高达1万亿，1.2万亿垃圾债券，3万亿将将在垃圾债券评价上的投资级别债券（如果一旦下调，就是垃圾债Fallen Angel).
 
-![coporate_debt](https://user-images.githubusercontent.com/491610/107040806-b15bcb00-67fa-11eb-8e13-ef536a778103.jpg)
+![coporate_debt](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/coporate_debt.jpg)
 
 
 非金融部门的债券飞涨，比如上面的AT&T有1740亿债务，Verizon有1130亿债务。这些公司的债券就像08年的次级贷一样被打包糅合变成ETF在市场上卖给投资者。有些公司，通过低成本的借贷，上杠杆进行公司收购，用发生在将来美好的“利润”来进吸引投资者进行融资或者买入股票等其他高风险高回报的投资，同时将部分钱用来给高管CEO等发高工资，类似于击鼓传花的庞氏骗局。这些垃圾评级公司靠着再融资 - `Refinancing (a method of paying a debt by borrowing additional money thus creating a second debt in order to pay the first` - 靠着借钱来付债务)来左右腾挪其债务而避免其需要还清债务的义务（根本就达不到），而人们因为所有其他的有回报的投资的回报率都在普遍下降，所以人们更多投入相对高回报的债务投机中。
@@ -119,7 +119,7 @@ tags: money,economics
 
 而跟08年bailout银行等一样美联储在危机里出手bailout了这些公司。这些公司理论上如果按照自然流程，是会在危机里被清算，拍卖的拍卖来释放给投资的钱（虽然不多可能），倒闭的倒闭，要么处置不良资产或者资产调整结构重组，释放占用资源，短期可能有痛苦，长期看是好的，但是现在这些垃圾公司依然可以靠着美联储的这些救助勉强漂浮着（美联储的目的是打破多米诺骨牌效应，阻止水波想涟漪一样四处扩散，但是他也无法具体判断哪些公司影响小而可以倒，哪些不能，只能一刀切），占用了市场资源，使得那些具体竞争力有更好发展的公司没办法拿到更多资源，资源错配，影响了自由市场经济的那只无形的手的效用。这些企业就跟日本90年代那些银行是一样的，被称为僵尸企业或[僵尸银行(zombie bank)](https://www.investopedia.com/terms/z/zombie-bank.asp)， 日本过了30年，很多僵尸银行在账目上依然有很大比例的不良资产。
 
-![2020_covid_timline](https://user-images.githubusercontent.com/491610/107040785-ad2fad80-67fa-11eb-93e8-0c530f23ecfa.jpg)
+![2020_covid_timline](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/2020_covid_timline.jpg)
 
 这是截止2020年11月30号摩根整理的美联储应对新冠病毒的一些列措施的时间线，[PDF的详细来源](https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/institutional/insights/portfolio-insights/fixed-income/Fed-reserve-response-timeline.pdf)。
 
@@ -148,11 +148,11 @@ tags: money,economics
 
 根据美联储从1989年到2020年采集美国家庭财富分配数据[《Distribution of Household Wealth in the U.S. since 1989》](https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/table/)来看，到2020年第三季度，美国的家庭财富分配比例是这样：
 
-![wealth_gap](https://user-images.githubusercontent.com/491610/107040860-bd478d00-67fa-11eb-9202-19f88c54496b.jpg)
+![wealth_gap](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/wealth_gap.jpg)
 
 底层50%的家庭只占总财富的%2；上层10%的家庭财富占比从1989年60.9%上升到了69%；特别富余的1%的财富占比人从1989年的23.7%上升到了30.%；而底层50%的人的财富占比从3.6%降到了1.9%。
 
-![equaity](https://user-images.githubusercontent.com/491610/107040809-b1f46180-67fa-11eb-851c-c6f3a8624617.jpg)
+![equaity](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/equaity.jpg)
 
 这是不同财富阶级对于公司股票证券和共同基金的才有比例情况，右上角和左下角两个极值比较有意思。越穷的人股票证券这些资产越少，而且富裕的人持有公司股票或者基金等等的更多。最富裕的1%的人拥有超过50%的公司证券和基金，接下来9%的人拥有超过1/3的位置 - 也就是最富裕的10%的人拥有了超过88%的股份！
 
@@ -175,7 +175,7 @@ tags: money,economics
 
 每当发生危机，钱总是先留到信用高的地方，然后一层层留到底层。谁会是信用高的了？大公司大银行有优质资产抵押的；谁会是低的？入不敷出没钱没房没稳定的工作，餐馆打工还有低收入的个体经营者；这些人在危机发生震荡时，大公司大银行有更多的缓冲；但是个人低收入者，特别是上面美联储自己的调查提到4/10都拿不出400美元的应急款，粤语中的手停口停，一点犯错的空间都没有，连生计都是问题；
 
-![2020_tosmall](https://user-images.githubusercontent.com/491610/107040792-aef97100-67fa-11eb-8ffb-af46d42e701a.jpg)
+![2020_tosmall](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/2020_tosmall.jpg)
 
 
 我们看看2020年五月引发BLM运动的[乔治.弗洛伊德事件的起因](https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E5%BC%97%E6%B4%9B%E4%BC%8A%E5%BE%B7%E4%B9%8B%E6%AD%BB)：
@@ -186,13 +186,13 @@ tags: money,economics
 
 当经济恢复时，往往有着强大投资和购买力的富豪们，借助于政府的资源和自己的资源，可以在其中获得巨大的利益。关于这中间财富分配和资源分配我们可以借助于概率论，比如杨辉三角或者说高尔顿板。
 
-![galton](https://user-images.githubusercontent.com/491610/107040821-b456bb80-67fa-11eb-84df-470df0705761.gif)
+![galton](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/galton.gif)
 
 <cite>来源：Galton board form PhysicsFun: https://www.instagram.com/p/B5qLb2DlZPA/?hl=en。</cite>
 
 可以借助于杨辉三角理解下，到达中间的球的路劲比旁边的位置的要多 - 这样代表比如都美联储在上面放水时候，他设想的是每个位置获得差不多的理想情况，但是实际可能是：
 
-![trickle](https://user-images.githubusercontent.com/491610/107040851-bae53300-67fa-11eb-816a-769c2c3ee5d8.jpg)
+![trickle](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/trickle.jpg)
 
 <cite>来源: https://twitter.com/cwalsh516/status/1095026717184352256</cite>
 
@@ -202,7 +202,7 @@ tags: money,economics
 
 2020年的技术类的IPO公司数量超过了2001年，比较出名的饿了么DoorDash和传统的Airbnb，Snowflake等在第一个交易日就几乎都涨幅超过100%，这三家公司是最大IPO价格增长的前10名 - 也就是说股票上市前的定价在第一天交易就被追捧，上涨幅度之大令人咂舌[2020Dec IPO Mania Sweeps Over Robinhood Crowd and Stokes a 111% Rally](https://www.bloomberg.com/news/articles/2020-12-12/ipo-mania-sweeps-over-robinhood-crowd-and-stokes-a-111-rally)。
 
-![ipo_frenze](https://user-images.githubusercontent.com/491610/107040824-b587e880-67fa-11eb-8e74-bf7a22dc58f7.jpg)
+![ipo_frenze](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/ipo_frenze.jpg)
 
 举个例子有多疯狂，Airbnb上市定的价格是68， 老板Brian Chesky在接受[Bloomberg电视节目直播采访](https://twitter.com/business/status/1337069727500427267)时候得知第一天上市交易股票价格翻倍时(收盘时价格$144)，他甚至震惊的一度支支吾吾哑口无言（momentarily speechless）。他怎么说的了？
 
@@ -231,7 +231,7 @@ tags: money,economics
 
 他本人投资过比特币，并和他人在油管上公开辩论，今年的比特币飞涨也让他的声誉高涨， Social Capital的CEO，金州勇士的老板之一。Chamath Palihapitiya初始股东可以以价格是$0.002美元每股的价格持有20%的股票，其他在市场的投资者只能用$10美元的价格购买剩下的80%.
 
-![spac](https://user-images.githubusercontent.com/491610/107040847-ba4c9c80-67fa-11eb-9cfe-9d703e4f0ebf.jpg)
+![spac](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/spac.jpg)
 
 从2020年九月份[2020-Sep - Chamath Palihapitiya unveils $4.8 billion SPAC deal for real estate startup Opendoor](https://www.youtube.com/watch?v=PSPZ42Wpg4k&ab_channel=CNBCTelevision)他的方向是进军房地产行业，简化和方便流程，目标是围绕着千禧一代，他的目标是找到类似亚马逊和特斯拉相似的可以复制的商业模式。
 
@@ -247,7 +247,7 @@ tags: money,economics
 
 从1980年新自由主义兴起之后的美国社会财富分配，引用达里奥的债务危机中的图片：
 
-![us_netwealth](https://user-images.githubusercontent.com/491610/107040853-bb7dc980-67fa-11eb-9423-3e7ec27e8a50.jpg)
+![us_netwealth](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/us_netwealth.jpg)
 
 贫富差距在拉大，当然不当是美联储放水导致的了，还有很多其他因素，科技金融创新，全球化进程等等。但是看得的出来美联储救市应该说并没有劫富济贫，反而是有些拉大财富差距的促进作用。弗里德曼的新自由主义在1970年之后特开始有影响力，到了1980年之后被广泛的实施，他所在芝加哥大学的部门后来出了30个诺贝尔经济学奖得主，也使得他是最有影响力的经济学家。弗里德曼的新自由主义跟目前的贫富差距有没有直接关系了？
 
