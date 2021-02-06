@@ -89,7 +89,7 @@ tags: money,economics
 
 从美联储的资产负载表可以看出来：
 
-![fed_sheet]https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/fed_sheet.jpg)
+![fed_sheet](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/fed_sheet.jpg)
 
 上面是资产主要包括政府债券和住房抵押债券（这些债券都会打来利息收入，到期可以兑现）；负债主要是储备金(Reserve) 和在流通中的货币Currency-比如你我持有的人民币或者美元；
 
