@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2020年关于现代经济的一些思考(二)"
-date: 2021-02-12 22:55:32 +0800
+date: 2021-02-02 22:55:32 +0800
 published: true
 tags: money,economics
 ---
