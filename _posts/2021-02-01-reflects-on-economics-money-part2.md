@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2020年关于现代经济的一些思考(二)"
-date: 2021-02-01 22:55:32 +0800
+date: 2021-02-02 22:55:32 +0800
 published: true
 tags: money,economics
 ---
@@ -314,3 +314,5 @@ tags: money,economics
 凯恩斯主义的失效，标注着货币主义的兴起。打个比方，如果说经济发展像是开车的话，之前只有凯恩斯主义的一副油门和一副刹车，但是目前这个失效了，车控制不住了；怎么办了？那就试试再加一份油门和刹车-货币主义。
 
 自此货币主义开始占据主流，1979年卡特认命[保罗·沃尔克(Paul Volcker)](https://en.wikipedia.org/wiki/Paul_Volcker)为美联储主席，开始将货币主义的理论付诸于实际。
+
+<a href="./reflects-on-economics-money-part3.html">[2020年关于现代经济的一些思考(三)]</a>

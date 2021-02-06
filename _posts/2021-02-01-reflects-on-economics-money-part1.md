@@ -125,3 +125,5 @@ tags: money,economics
 
 ![civilwar_recovery](https://user-images.githubusercontent.com/491610/107038969-43ae9f80-67f8-11eb-943b-4d2c26004922.jpg)
 
+
+<a href="./reflects-on-economics-money-part2.html">[2020年关于现代经济的一些思考(二)]</a>

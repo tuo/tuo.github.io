@@ -281,3 +281,5 @@ tags: money,economics
 
 > It is true that the problems have not occurred in the last days, they have been accumulating for decades. It is also true that the different governments were not able to recognize this situation in all its magnitude. **This situation of inequity, of abuse, has already meant a genuine and authentic expression of millions and millions of Chileans**. I recognize this lack of vision and I apologize to my compatriots.
 
+
+<a href="./reflects-on-economics-money-part5.html">[2020年关于现代经济的一些思考(五)]</a>
