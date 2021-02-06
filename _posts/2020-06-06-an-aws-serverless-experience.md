@@ -28,13 +28,13 @@ Initially we start with raw AWS tech stack to get familiar little bit (As none o
 Still you need write quite lots of configuration code, even though your main focus should be on actual business code. 
 After some investigation, we could Serverless Framework/AWS Chalice/Zapper/Claudia.js)
 
-![Framework List](https://user-images.githubusercontent.com/491610/83947280-a1917e80-a848-11ea-8e4d-936d2499d090.png)
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/framework.png)
 
 Now obvisouly the [Serverless Framework](https://www.serverless.com/) is most popular one, it even works with Aliyun(Chinese version of AWS), and it really extract out lots of low-level details and help developer to focus on business logic development. But client reject this as they dont' think it is AWS native enough to make best out of AWS's potentials :(  Maybe? There are some key differences between AWS international and AWS China which mightn't work in China Region if we dig deeper later.
 
 [AWS Chalice](https://chalice.readthedocs.io/en/latest/) looks promising as it is coming out of AWS's own hands. 
 
-<img width="435" alt="chalice" src="https://user-images.githubusercontent.com/491610/83947368-0a78f680-a849-11ea-80dd-8d30b7af203b.png">
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/chalice.png)
 
 Neat, nice and super developer-freindly. But here is imporant part, AWS and AWS China are different. Like some discussions here and there on github: [Add support for China region #792
 ](https://github.com/aws/chalice/issues/792), [Using serverless framework for deployment in China region](https://forum.serverless.com/t/using-serverless-framework-for-deployment-in-china-region/3468), [Bring basic support for AWS China #1564](https://github.com/Miserlou/Zappa/issues/1564)
@@ -63,7 +63,8 @@ In serverless world, we need consider here:
 * resources/permissions applied
 * pricing
 
-<img width="852" alt="systemstructure" src="https://user-images.githubusercontent.com/491610/83947399-414f0c80-a849-11ea-8300-4609c1ed2ee6.png">
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/systemstructure.png)
+
 
 
 
@@ -96,11 +97,13 @@ or you could put CRUD in one app.py like old days:
 
 and in template.yaml you could declare the function:
 
-<img width="458" alt="template function yaml" src="https://user-images.githubusercontent.com/491610/83947389-33998700-a849-11ea-9ddd-ad00ff70709f.png"/>
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/template%20function%20yaml.png)
 
 When you run `sam build --debug`, from the logs:
 
-![sam build log](https://user-images.githubusercontent.com/491610/83947290-abb37d00-a848-11ea-9512-59a50698cebe.png)
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/sam%20build%20log.png)
+
 
 from official website on [sam build](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-build.html):
 
@@ -108,7 +111,7 @@ from official website on [sam build](https://docs.aws.amazon.com/serverless-appl
 
 So it loops each folder then run pip install there, and copy the source code and installed packages to `.aws-sam/build` folder.
 
-![/Users/tuo/Documents/git/tuo.github.io/assets/sambuild_output.png](https://user-images.githubusercontent.com/491610/83947287-a9512300-a848-11ea-98b0-563f9e02efda.png)
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/sambuild_output.png)
 
 Then when later sam package/deploy, it will zip the whole folder `AdminAuthFunction` and upload to somehere in s3. Once the aws try to execute lambda, it need do some warming up, setup basics, pull the zipped code from s3, unzip it and etc.If the code zipped size is smaller, it would means faster cold start (downloading faster) and less code mess, as it only contains what it needs. 
 
@@ -155,7 +158,8 @@ on my mac, `SAM CLI, version 0.41.0`, I got interested on this line:
 
 *You can now browse to the above endpoints to invoke your functions. You do not need to restart/reload SAM CLI while working on your functions, changes will be reflected instantly/automatically. You only need to restart SAM CLI if you update your AWS SAM template*
 
-![](https://user-images.githubusercontent.com/491610/84459691-a5832d80-ac9a-11ea-9d26-5c6239272948.png)
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/output.png)
 
 
 But truth is, when I just change the code, and call via curl again, nothing happened. But as I guess, it is when you actually do `curl http://127.0.0.1:3000/orders` , only then SAM will try to invoke the lambda, download docker images (runtime, layer etc), and mount 
@@ -192,13 +196,17 @@ So you need:
 
 But how about you need have some decent CI/CD for automating deploy process?  
 
-![/Users/tuo/Documents/git/tuo.github.io/assets/cicd.png](https://user-images.githubusercontent.com/491610/83947272-95a5bc80-a848-11ea-80ed-6b323dc4fda5.png)
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/cicd.png)
 
 Unfortunately, the codepipeline is not supported in China, we need use Jenkins/TravisCI for replacement. You could use the jenkins plugin [AWS CodeBuild](https://plugins.jenkins.io/aws-codebuild/) with github to setup code trigger to codebuild process.
 
-![/Users/tuo/Documents/git/tuo.github.io/assets/codebuild.png](https://user-images.githubusercontent.com/491610/83947274-96d6e980-a848-11ea-8628-9fc68310f1a5.png)
 
-<img width="1230" alt="Screenshot 2020-06-06 at 23 02 48" src="https://user-images.githubusercontent.com/491610/83947491-d94cf600-a849-11ea-880d-2316e94ac690.png">
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/codebuild.png)
+
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/jenkins.png)
+
 
 CodeBuild basically do sam build and package, after that the zip and artifact should be upload to s3 ready for aws cloudformation to deploy.
 
@@ -237,9 +245,9 @@ One good way to speed up is to add `--skip-pull-image` to the command to skip re
 
 But the most painful part is it need start new container and mount volume etc everytime you request it. There is one ticket [Feature request: make it possible to keep docker container warm](https://github.com/awslabs/aws-sam-cli/issues/239) but author said aws team is review and prioritize this task. I guess in short term, it wouldn't be ready. 
 
-![/Users/tuo/Documents/git/tuo.github.io/assets/sambuild_function_empty_depenecy.png](https://user-images.githubusercontent.com/491610/83947285-a7875f80-a848-11ea-836b-f4089c447bf5.png)
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/templateyamlreference1.png)
 
-![/Users/tuo/Documents/git/tuo.github.io/assets/samstartapi2.png](https://user-images.githubusercontent.com/491610/84459682-a2883d00-ac9a-11ea-8d1b-a03f363eca52.png)
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/templateyamlreference2.png)
 
 Okay, so `sam build`  one single function(empty requirement.txt, no dependency at all, but stil it need run pip install) takes 1.0 seconds and an request to it takes like in above picture 13~ seconds even thought it is the second time requesting.
 
@@ -257,8 +265,10 @@ We need add JWT for custom authorizer with cors support. But we can't test this 
 let's give a quick glance of template.yaml I got from other project which given as a sample or refeference for my team/project to refer to. (live in production, not some random/fake ones from internet). I did learn a lot from those references, but I found it has some problems.
 
 
-<img width="814" alt="templateyamlreference1" src="https://user-images.githubusercontent.com/491610/83947404-47dd8400-a849-11ea-95fc-63478298d38d.png">
-<img width="806" alt="templateyamlreference2" src="https://user-images.githubusercontent.com/491610/83947405-490eb100-a849-11ea-8ea3-31222d03ae3e.png">
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/bigyaml1.png)
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20200606aws/bigyaml2.png)
+
 
 For APIGateway yamls, which mainly containes parameters and mappings, swagger api definition and other resources, has over 3 thousands lines. That's pretty insane! Imagine you need change some part of code here, it would be undigestible and super hard to locate and change it. Just imagine again, you need change some swagger mapping template in velocity language in a yaml file.
 

@@ -24,3 +24,5 @@
 
 
 	 bundle update --bundler
+
+mogrify -format jpg **/*.png
