@@ -27,9 +27,8 @@ and final video got some freeze frames.This however, from my experience, it rela
 3. error messages are just so raw and low level that are difficult to understand. 
 
 
-<div style="text-align:center; width:400px;height:266px; margin:0 auto" markdown="1">
-![jackie_chan_by_rober_raik-d4cly01](https://cloud.githubusercontent.com/assets/491610/5558101/6aa4d738-8d54-11e4-8745-95e8c82121f3.png)
-</div>
+
+![jackie_chan_by_rober_raik-d4cly01](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/6aa4d738-8d54-11e4-8745-95e8c82121f3.png)
 
 
 # &nbsp;&nbsp;&nbsp;&nbsp;New Approach
@@ -150,9 +149,9 @@ But this is not enough yet, we need some way to upload image to GPU, which in Op
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After that, you need be careful as we also need use avassetwrite to write to final video, which uses [AVAssetWriterInputPixelBufferAdaptor](https://developer.apple.com/library/mac/documentation/AVFoundation/Reference/AVAssetWriterInputPixelBufferAdaptor_Class/index.html) to append pixels that pulls from GPU ram. That requires a proper setup on avassetwriter.
 
-<div style="text-align:center; width:400px;height:400px; margin:0 auto" markdown="1">
-![rage comic crazy](https://cloud.githubusercontent.com/assets/491610/5558080/ce63efbc-8d53-11e4-8d38-f5a577933cea.png)
-</div>
+
+![rage comic crazy](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/ce63efbc-8d53-11e4-8d38-f5a577933cea.png)
+
 
 
 As you see, it is not that complicted or scarying like what it says in above rage comic. We only need a fairly simple understanding of OpenGL ES(because we're working one 2D), multithreading(because we only need to know serial/concurrent queue and dispatch_async_group), AVFoundatation(well, just setup and read/write frames).

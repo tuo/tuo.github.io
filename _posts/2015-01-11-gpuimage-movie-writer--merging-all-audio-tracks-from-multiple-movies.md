@@ -14,10 +14,10 @@ The author of GPUImage mentioned that in issue [Merging of video and audio #1223
 
 But why GPUImageMovieWriter only support one audio track writing?!!! This really limits its capability and it shouldn't be like that.
 
+ 
+![jackie_chan_by_rober_raik-d4cly01](![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/6aa4d738-8d54-11e4-8745-95e8c82121f3.png)
 
-<div style="text-align:center; width:400px;height:266px; margin:0 auto" markdown="1">
-![jackie_chan_by_rober_raik-d4cly01](https://cloud.githubusercontent.com/assets/491610/5558101/6aa4d738-8d54-11e4-8745-95e8c82121f3.png)
-</div>
+
 
 
 #GPUImageMovieWriter: One Audio Source Only?

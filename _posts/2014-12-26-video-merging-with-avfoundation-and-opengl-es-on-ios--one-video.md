@@ -12,14 +12,14 @@ The goal of this article is to take a input video(e.g. green background video), 
 To illustrate that:
 
 <h2 style="text-align:center">Before</h2>
-<div style="text-align:center; width:400px;height:400px; margin:0 auto" markdown="1">
-![screen shot 2014-12-26 at 11 43 21 pm](https://cloud.githubusercontent.com/assets/491610/5558217/2e7120aa-8d59-11e4-82c9-551b332c251e.png)
-</div>
+
+![screen shot 2014-12-26 at 11 43 21 pm](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/2e7120aa-8d59-11e4-82c9-551b332c251e.png)
+
 <h2 style="text-align:center">After</h2>
 
-<div style="text-align:center; width:400px;height:400px; margin:0 auto" markdown="1">
-![screen shot 2014-12-26 at 11 42 26 pm](https://cloud.githubusercontent.com/assets/491610/5558222/4cc203da-8d59-11e4-9876-d10e5c59185f.png)
-</div>
+
+![screen shot 2014-12-26 at 11 42 26 pm](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/4cc203da-8d59-11e4-9876-d10e5c59185f.png)
+
 
 <br/>
 Note: this will invovles lots of coding, I will break into reasonable section with comments to make it clear.Before we jump into the code, I highly recommend you to watch [WWDC 2011 video 419 'Capturing from the Camera using AVFoundation on iOS 5'](https://developer.apple.com/videos/wwdc/2011/), which covers how to combine AVFoundation with OpenGL ES so that it would be much easier for you to understand what following is about.
@@ -51,9 +51,8 @@ For video writer class, its responsiblities are:
 In step5(*kick off recording*), we will pull each frame from reader, then upload it to GPU with returned texture pointer, pass that pointer to GPU with name we defined in GLSL, render it, get back the pixel buffers mapped from final output of GPU, write that pixel buffer to our final destination video.
 
 
-<div style="text-align:center; width:500px;height:375px; margin:0 auto" markdown="1">
-![workflow](https://cloud.githubusercontent.com/assets/491610/5563835/469de488-8ed0-11e4-8f47-2fd925a4f654.jpg)
-</div>
+
+![workflow](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/469de488-8ed0-11e4-8f47-2fd925a4f654.jpg)
 
 # Setup
 <hr/>
