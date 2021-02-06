@@ -51,7 +51,8 @@ tags: money,economics
 1907-10-26号摩根经常开会商讨研究从晚上一直到了早上4-5点，有时候太晚，有时候太早，坐车时太冷甚至乎的了感冒(cold)，但是媒体评论正是这一寒颤却稳定了市场。
 
 ![morgan_cold](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/morgan_cold.jpg)
-来源：https://www.youtube.com/watch?v=6Rb2TsOm3Kw&ab_channel=CNBC
+
+<cite>来源：https://www.youtube.com/watch?v=6Rb2TsOm3Kw&ab_channel=CNBC</cite>
 
 
 摩根几乎是一己之力把美国从经济危机中拉了出来，一时间成了备受赞誉的国民英雄，但是似乎没有持续多久。
@@ -60,6 +61,7 @@ tags: money,economics
 股市崩盘恢复可以很快，危机可能可以很快平复，但是恢复的时间特是异常的漫长和痛苦。一个是国家没有中央银行，缺乏经济调控的工具，货币政策不灵活，导致经济不稳定和僵化；出了危机，只能依靠一个私人银行家(可以说是非正式的中央银行行长)来拯救这个令公众和政府有点担忧，头部这小撮人居然有这么大权力，没有被管控；摩根救市也不一定出于爱国，他可能也知道金融情况恶化下去对他而且也是不利的，可能部分也是出于自利之心，另外危机中无底洞一般的资金投入也让他们害怕，害怕再一次重新这个现象.(`1907 - back when bankers bail out gov, not gov bailout bankers now`)
 
 ![robber_barrons](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/robber_barrons.jpg)
+
 <cite>来源： [Meaning and History of the Term Robber Baron](https://www.thoughtco.com/robber-baron-definition-1773342)</cite>
 
 政府和公众认为这小撮人-金融托拉斯-踩着人民的身上，通过金融手段合并和通过*挤压*、低价倾销等方式拖垮还活着的对手（参考洛克菲勒）从而获得垄断权力，控制了物资价格，同时不断延长底下员工的工作时间和无视恶劣的工作环境（童工等），从而积累了大量的财富，被人们称为”[Robber Baron强盗式资本家](https://en.wikipedia.org/wiki/Robber_baron_(industrialist))“。这群商业金融资本家就和底层的农民等等形成了矛盾，农名和社会的情绪过去之后就觉得金融危机可能是这群Money Trust金融托拉斯自己玩脱了或者自己一手设计的，从他们和信托公司（吸收了大量存款）中手中将辛苦钱骗走（1907年大量大量银行倒闭-倒闭数量历史上第二大，导致普罗大众的存款消失），还有就是比如摩根超级低收购田纳西矿业和制铁公司这个事情，肥了摩根这群人的钱包。
