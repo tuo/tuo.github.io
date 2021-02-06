@@ -8,7 +8,8 @@ tags: ant design pro,tabs,header
 
 最近因为需要在项目中引入了Ant Design Pro(v4)，其中有一个页面需要在顶部添加Tabs.类似于[https://preview.pro.ant.design/profile/advanced](https://preview.pro.ant.design/profile/advanced)
 
-<img width="600" alt="Screenshot 2019-11-03 at 11 55 41" src="https://user-images.githubusercontent.com/491610/68080180-e4155780-fe30-11e9-8063-a73577086f1f.png">
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20191103ant/68080180-e4155780-fe30-11e9-8063-a73577086f1f.png)
+
 
 Ant design里关于Tab组件的使用[Tabs标签页](https://ant.design/components/tabs-cn/)
 
@@ -35,17 +36,18 @@ Ant design里关于Tab组件的使用[Tabs标签页](https://ant.design/componen
 
 http://localhost:8000/project/user/230/wishlist:
 
-<img width="500" alt="Screenshot 2019-11-03 at 12 09 48" src="https://user-images.githubusercontent.com/491610/68080278-e37dc080-fe32-11e9-92de-5b24ffc24205.png"/>
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20191103ant/68080278-e37dc080-fe32-11e9-92de-5b24ffc24205.png)
 
 http://localhost:8000/project/user/230/detail:
 
-<img width="500" alt="Screenshot 2019-11-03 at 12 09 44" src="https://user-images.githubusercontent.com/491610/68080279-e4165700-fe32-11e9-8afc-827946ed0193.png"/>
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20191103ant/68080279-e4165700-fe32-11e9-8afc-827946ed0193.png)
+
 
 那代码这边如何处理了？
 
 Ant Design Pro在v4里将路由改成了可配置的方式，将这些scaffolding的事情都交给了[umi](https://umijs.org/), 所以基本上你只需要在config下面配置路由就好.([路由和菜单](https://pro.ant.design/docs/router-and-nav-cn))
 
-<img width="400" alt="Screenshot 2019-11-03 at 12 04 48" src="https://user-images.githubusercontent.com/491610/68080324-0f4d7600-fe34-11e9-9b11-54a79c848bd8.png">
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20191103ant/68080324-0f4d7600-fe34-11e9-9b11-54a79c848bd8.png)
 	
 	{
 	    name: '详情',
@@ -63,7 +65,8 @@ Ant Design Pro在v4里将路由改成了可配置的方式，将这些scaffoldin
 
 所以我们就得先看看这个入口的`detail`组件如何实现： 1.Convention over Configuration如何从路由列表中解析出当前的所有tabs; 2. 如何或者以何种规则加载其内容组件.
 
-<img width="700" alt="Screenshot 2019-11-03 at 12 28 39" src="https://user-images.githubusercontent.com/491610/68080399-7cadd680-fe35-11e9-8c41-7b10fc49e882.png">
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20191103ant/68080399-7cadd680-fe35-11e9-8c41-7b10fc49e882.png)
 
 这是入口文件，可以先看左边的目录。Ant Design Pro组织目录方面是根据模块来划分的，理论上每个模块无非都是UI渲染还有数据获取管理这两个核心功能，所以它一般都有`index.jsx`, `service`, `model`等同一的结构来划分不同的关注点。
 
@@ -117,7 +120,9 @@ export function getRoutes(path, routerData=menuConfig) {
 ```
 原来v1是有这个getRoutes的但是后面因为挪到了umi里，这个就没有了。这里是没办法直接拿过来直接用的，所以我自己快速写了一个简单的，当然代码还是可以优化。
 
-<img width="1190" alt="Screenshot 2019-11-03 at 12 36 50" src="https://user-images.githubusercontent.com/491610/68080471-00b48e00-fe37-11e9-81d5-6324b4df5fbd.png">
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20191103ant/68080471-00b48e00-fe37-11e9-81d5-6324b4df5fbd.png)
+
+
 
 所以我们得到了一个变形过了的数据回复，每一个元素都额外有了两个属性： `realComponentName`和`tabKey`。 这个realComponentName就是url最后一部分`wishlist`/`detail`首字母大写，然后tabKey就是url last segment, tab的名字就是用name.
 
@@ -158,11 +163,14 @@ export function getRoutes(path, routerData=menuConfig) {
 
 所以我们后端的目录构造，跟前端是相对应的。这样一来更容易找到更某个模块相关联的代码和逻辑，脑子不需要多余的开销就能顺畅找到它想要的，丝滑般。。。。smoooooooth, bro
 
-![Chuck Norris](https://user-images.githubusercontent.com/491610/68080699-9c47fd80-fe3b-11e9-972e-4b31616b3d1c.gif)
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20191103ant/68080699-9c47fd80-fe3b-11e9-972e-4b31616b3d1c.gif)
+
 
 在model级别，我们规定文件名需要以`model.js`结尾，路由则已`route.js`结尾。如果是跟前端相关的API比如给小程序或者h5使用的，在frontend.route.js里面写；跟后端管理相关的API，则写在dashboard.route.js里。这里我简化了controller跟业务逻辑的严格区分，实际上你可以有一个service级别来严格做业务逻辑。
 
-<img width="800" alt="Screenshot 2019-11-03 at 12 56 18" src="https://user-images.githubusercontent.com/491610/68080633-6c4c2a80-fe3a-11e9-8862-39860ef1f78e.png">
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20191103ant/68080633-6c4c2a80-fe3a-11e9-8862-39860ef1f78e.png)
+
 
 那么如何在项目启动时候识别加载这些我们定义好的convention了? 其实很简单， 比如就是说Sequelize的model把。
 
