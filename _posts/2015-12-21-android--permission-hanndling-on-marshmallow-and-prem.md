@@ -11,7 +11,7 @@ tags: android permission marshmallow
 Before android marshmallow, permission prompt, e.g. making a call, reading contacts, retrieving user location, happens in Google Play when you press **install** button.
 
 <div>
-<img src="https://cloud.githubusercontent.com/assets/491610/11932839/1e15dd54-a833-11e5-9bef-37607c5d87f6.png" align="middle" height="250" width="250" style="display: block;" >
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/1e15dd54-a833-11e5-9bef-37607c5d87f6.png" align="middle" height="250" width="250" style="display: block;" >
 </div>
 <br/>
 
@@ -45,14 +45,14 @@ private void requestPermission() {
 And when you press the call btn *first time*, it would prompt:
 
 <div>
-<img src="https://cloud.githubusercontent.com/assets/491610/11932472/a7229ec8-a830-11e5-98b5-93ef5e709471.png" align="middle" height="250" width="250" style="display: block;" >
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/a7229ec8-a830-11e5-98b5-93ef5e709471.png" align="middle" height="250" width="250" style="display: block;" >
 </div>
 <br/>
 
 If you choose **ALLOW**, it would just go and call like pre marshmallow; If you choose **DENY**, it means you have denied permission for user to access, then better we'd show an alert to guide user what's going like following screenshot:
 
 <div>
-<img src="https://cloud.githubusercontent.com/assets/491610/11932474/a727684a-a830-11e5-9b10-68faded2fbad.png" align="middle" height="250" width="250" style="display: block;" >
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/a727684a-a830-11e5-9b10-68faded2fbad.png" align="middle" height="250" width="250" style="display: block;" >
 </div>
 <br/>
 
@@ -61,7 +61,7 @@ The idea here is, so user has denied permission, we need provide some explanatio
 So if you clicked **Retry** or you press call button second time, the permission requesting window will have an option: **Never ask again**.
 
 <div>
-<img src="https://cloud.githubusercontent.com/assets/491610/11932475/a74de146-a830-11e5-8a4e-70b11bb07db4.png" align="middle" height="250" width="250" style="display: block;" >
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/a74de146-a830-11e5-8a4e-70b11bb07db4.png" align="middle" height="250" width="250" style="display: block;" >
 </div>
 <br/>
 
@@ -139,7 +139,7 @@ private void goToSettings() {
  So if *shouldShowRequestPermissionRationale* returns false, we will display an alert for go to app settings to allow user manually toggle permissions.
  
  <div>
- <img src="https://cloud.githubusercontent.com/assets/491610/11932476/a7533cf4-a830-11e5-9b3f-5e80fe9880cd.png" align="middle" height="250" width="250" style="display: block;" >
+ <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/a7533cf4-a830-11e5-9b3f-5e80fe9880cd.png" align="middle" height="250" width="250" style="display: block;" >
  </div>
  <br/>
 
