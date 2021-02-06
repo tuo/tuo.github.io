@@ -128,8 +128,7 @@ Tuo去银行借了1000块，这个时候银行会在资产表写入一条贷款`
 
 <iframe src="//player.bilibili.com/player.html?aid=798954581&bvid=BV1My4y127N9&cid=291371802&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-b站： https://www.bilibili.com/video/BV1My4y127N9/
-youtube: https://www.youtube.com/watch?v=N0HRzNCALog&ab_channel=TuoHuang
+[b站](https://www.bilibili.com/video/BV1My4y127N9/), [youtube](https://www.youtube.com/watch?v=N0HRzNCALog&ab_channel=TuoHuang)
 
 我们看到当用户借贷而给银行创造存款的时候，对于银行而言就是负债慢慢变大，为了应对比如储户取款或者支付给银行的需要，银行需要持有更多央行的储备金Rerserve才行。这时候储备金就是有央行按需要供给的，银行出售给央行其自己的资产比如国债等等来换取储备金。储备金数量不直接限制银行放贷和创造银行存款的数量。
 
@@ -163,8 +162,8 @@ youtube: https://www.youtube.com/watch?v=N0HRzNCALog&ab_channel=TuoHuang
 
 <iframe src="//player.bilibili.com/player.html?aid=203929368&bvid=BV1ah41117na&cid=291373011&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-b站： https://www.bilibili.com/video/BV1ah41117na/
-youtube: https://www.youtube.com/watch?v=-ipEvIqP_k0&ab_channel=TuoHuang
+[b站](https://www.bilibili.com/video/BV1ah41117na/), [youtube](https://www.youtube.com/watch?v=ipEvIqP_k0&ab_channel=TuoHuang)
+
 
 
 这是完整的从买方贷款到卖方收到钱的完整交易过程，出来上面的个人负债表还有下面对应的其所在银行的负债表变化情况。
@@ -173,8 +172,8 @@ youtube: https://www.youtube.com/watch?v=-ipEvIqP_k0&ab_channel=TuoHuang
 
 <iframe src="//player.bilibili.com/player.html?aid=928951052&bvid=BV1mT4y1P77H&cid=291373527&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-b站：https://www.bilibili.com/video/BV1mT4y1P77H?zw
-youtube: https://www.youtube.com/watch?v=5naYltB55v0&ab_channel=TuoHuang
+[b站](https://www.bilibili.com/video/BV1mT4y1P77H/), [youtube](https://www.youtube.com/watch?v=5naYltB55v0&ab_channel=TuoHuang)
+
 
 QE这个时候央行的目标就是钱的数量了。上面提到[非银行的金融机构或公司Nonbank Financial Companies (NBFCs)](https://www.investopedia.com/terms/n/nbfcs.asp)（比如投资银行，养老基金，保险公司，抵押贷款机构，对冲基金，p2p放贷人等等）持有国债，这里假设是养老基金持有国债，简单的说，它可以卖给央行，央行直接在负债栏目里创建储备（Reserve)，同时将国债列入资产，这样可以把储备（Reserve)以存款的方式发给养老基金。而养老基金可以拿到这些钱去投资更有风险更高回报的领域，比如购买公司债券或者股份等等，从而推高资产价格同时降低企业融资的成本，反过头来应该可以导致更多经济的消费。
 
