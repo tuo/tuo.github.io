@@ -121,7 +121,7 @@ tags: money,economics
 
 ![greenbacks](https://user-images.githubusercontent.com/491610/107038999-4f9a6180-67f8-11eb-9bdb-f69569e967a9.jpg)
 
-绿皮币没有利息，但是可以兑换为金银币（on demand见票即付），而且可以用来支付关税。但是很快就发现没有足够的金银来兑换绿皮纸钞，所以1861年政府暂停了兑换，随后拒绝了硬币兑换。事实上1861年财政部花费了2350万美元，但是只有580万收入，入不敷出；好在内战林肯赢了，绿皮币的价格得到了回升，但是货币超发相对金币贬值还是不争的事实，如果要回到金本位就得减少货币印刷，但是要会到重建产生负面影响，通货紧缩，失业率增加；只能是慢慢减少发币(同时减少其他货币流通，1873年的《**Coinage Act of 1873**》停止铸造银币，废弃了流通中银币，也被称为[Crime of ‘73](https://www.investopedia.com/terms/c/crime-1873.asp)），同时通过投资铁路等等刺激经济发展，得到更多的经济产出，从而提升货币的购买力（新增钱多生产货品少->新增钱少生产货品多)，直到近1880年才回到金本位，这里大概花了15年才回到当初的购买力水平。这个中间需要一个慢慢尝试的过程，而且是内战(外部条件几乎无变化)；相比后来英国一战后立马回到金本位的做法，急于求成，妄想往日日不落帝国风采，梦很美，但是现实很残酷。
+绿皮币没有利息，但是可以兑换为金银币（on demand见票即付），而且可以用来支付关税。但是很快就发现没有足够的金银来兑换绿皮纸钞，所以1861年政府暂停了兑换，随后拒绝了硬币兑换。事实上1861年财政部花费了2350万美元，但是只有580万收入，入不敷出；好在内战林肯赢了，绿皮币的价格得到了回升，但是货币超发相对金币贬值还是不争的事实，如果要回到金本位就得减少货币印刷，但是要会到重建产生负面影响，通货紧缩，失业率增加；只能是慢慢减少发币(同时减少其他货币流通，1873年的《**Coinage Act of 1873**》停止铸造银币，废弃了流通中银币，也被称为[Crime of ‘73](https://www.investopedia.com/terms/c/crime-1873.asp)），同时通过投资铁路等等刺激经济发展，得到更多的经济产出，从而提升货币的购买力（新增钱多生产货品少->新增钱少生产货品多)，直到近1880年才回到金本位，这里大概花了15年才回到当初的购买力水平。这个中间需要一个慢慢尝试的过程，而且是内战(外部条件几乎无变化)；相比后来英国一战后立马回到金本位的做法，急于求成了.
 
 ![civilwar_recovery](https://user-images.githubusercontent.com/491610/107038969-43ae9f80-67f8-11eb-943b-4d2c26004922.jpg)
 
@@ -131,7 +131,7 @@ tags: money,economics
 
 镀金时代的美国是一个野蛮生长充满腐败缺少监管的时代，美国内战之后百废待兴，林肯的政策主要是修建铁路，但是因为铁路是相当于今天我们中国半导体行业，领先的是英国，需要引入资金，技术和人手，这些就不能是分散纷繁林立的小公司能实现的，加上铁路运营成本，恶性竞争，没有统一的标准，造成了极大的浪费。所以摩根借助金融手段，引入欧洲的资本投资，购买更好的设备科技技术，同时整合铁路行业进行垄断，一方面确保投资人的收益可以源源不断引入更多的投资驱动开发，一方面有效的提高了效率和实际铁路行业的前进。所谓的摩根化：
 
-> “摩根化”（Morganization）是J.P摩根在19世纪使用的方法，J.P摩根接管一个行业并用**垄断**来稳固该行业，再用自己的影响力吸引欧洲金融家进入美国。然后摩根将行业打造为一个单一的、稳定的、高利润的统一体，以吸引欧洲的**银行家**。(资料来源于—[Morganization](http://www.investopedia.com/terms/m/morganization.asp))
+> “摩根化”（Morganization）是J.P摩根在19世纪使用的方法，J.P摩根接管一个行业并用垄断来稳固该行业，再用自己的影响力吸引欧洲金融家进入美国。然后摩根将行业打造为一个单一的、稳定的、高利润的统一体，以吸引欧洲的银行家。(资料来源于—[Morganization](http://www.investopedia.com/terms/m/morganization.asp))
 
 > Morgan reinvented how monopolies can be created by eliminating competition through buying up smaller companies, decreasing prices until the competitors went bankrupt trying to compete, buying up the bankrupt competitors to cover more ground in a market, and slashing the workforce behind the company while reducing wages. Collectively, these actions maximized the monopoly's profit. Morgan eventually took control of three major industries: railroads, electricity, and steel—and his dedication to efficiency and modernization revolutionized American business.
 
@@ -148,52 +148,49 @@ tags: money,economics
 (ps:2021-01-05日Jeremy Grantham发布了股市泡沫的文章[WAITING FOR THE LAST DANCE](https://www.gmo.com/americas/research-library/waiting-for-the-last-dance/)，有人反驳说目前几个乐观点：一是美国企业盈利应该有所恢复；二是拜登新的财经刺激方案；三是疫苗进一步发放。实际上这些观点都不一定可靠，比如这里的企业盈利。)
 
 
-政府的财政部（*Treasury*）也是面对不对恶化的形式无能为力(镀金时代信奉的自由经济，导致了资源的集中和垄断，即使后面有罗斯福和hserill法令的拆分垄断巨头托拉斯 1890[Sherman Antitrust Act](https://www.investopedia.com/terms/s/sherman-antiturst-act.asp)， 这些垄断巨头的影响力还是很大的）。为什么政府的财政部都没办法？ 我们看看银行和华尔街的情况，特别是JP.Morgan(我这里引用[百科](https://baike.baidu.com/item/%E7%BA%A6%E7%BF%B0%C2%B7%E7%9A%AE%E5%B0%94%E5%BA%9E%E7%89%B9%C2%B7%E6%91%A9%E6%A0%B9) 实际可以找找wiki或者其他数据):
+政府的财政部（*Treasury*）也是面对不对恶化的形式无能为力(镀金时代信奉的自由经济，导致了资源的集中和垄断，即使后面有罗斯福和格拉斯-斯蒂格尔银行法[Sherman Antitrust Act](https://www.investopedia.com/terms/s/sherman-antiturst-act.asp)的拆分垄断巨头托拉斯， 这些垄断巨头的影响力还是很大的）。为什么政府的财政部都没办法？ 我们看看银行和华尔街的情况，特别是摩根(引用自[百科](https://baike.baidu.com/item/%E7%BA%A6%E7%BF%B0%C2%B7%E7%9A%AE%E5%B0%94%E5%BA%9E%E7%89%B9%C2%B7%E6%91%A9%E6%A0%B9) 实际可以找找wiki或者其他数据):
 
 > 1912年，摩根财团控制着53家大公司，资产总额127亿美元。这些资产中，有金融机构13家，30.4亿美元；工矿业公司14家，24.6亿美元；铁路公司19家，57.6亿美元；公用事业公司7家，14.4亿美元。
 
-摩根死后自己的财产不多，但是他的集团掌控的领域和公司特别多，即使后来1933年分拆之后还有现在的morgan stanley和morgan chase(后者又益于90年代金融送管克林顿-兼并）. 在一个摩根在1893年时也处理过经济危机（1893年危机中他帮助拯救了美国财政部-[Panic of 1893](https://en.wikipedia.org/wiki/Panic_of_1893)），他应该说经验丰富，同时他利用自己的影响和其他巨头一起联合董事会交叉控制网（interlocking directorates），为自己取了更多利润，控制合并了非常多的大工业和铁路领域， 和其他巨头一起形成了影响力非常巨大的[Money trust](https://en.wikipedia.org/wiki/Money_trust)(金融托拉斯)的超级企业巨头联盟，可以让他们控制了国家头部的大银行和其他金融机构。 所以目前谁有最多的钱来给市场注入继续的流动性了？不是小老弟财政部，而是私人巨头们。
+摩根死后自己的财产不多，但是他的集团掌控的领域和公司特别多，即使后来1933年分拆之后还有现在的Morgan Stanley摩根斯坦利和Morgan Chase摩根大通(后者又益于90年代金融送管克林顿-兼并）. 再一个摩根在1893年时也处理过经济危机（1893年危机中他帮助拯救了美国财政部-[Panic of 1893](https://en.wikipedia.org/wiki/Panic_of_1893)），他应该说经验丰富，同时他利用自己的影响和其他巨头一起联合组成了高级董事会交叉控制网（interlocking directorates），为自己取了更多利润，控制合并了非常多的大工业和铁路领域， 和其他巨头一起形成了影响力非常巨大的[Money trust](https://en.wikipedia.org/wiki/Money_trust)(金融托拉斯)的超级企业巨头联盟，可以让他们控制了国家头部的大银行和其他金融机构。 所以目前谁有最多的钱来给市场注入继续的流动性了？不是小老弟财政部，而是私人巨头们。
 
 ![morgan_i_need_all](https://user-images.githubusercontent.com/491610/107039038-5a54f680-67f8-11eb-8a93-e33dc4a100ed.jpg)
 
+1907年应该是摩根最风光的一年。老头子当年已经是70岁，应该说见过了不少美国经济的繁荣和危机间隔几年十几年的轮回繁荣衰退周期boom&bust cycle（有兴趣可以看看，尽管美国工业腾飞，但是美国地大农业还是占有相当大比重，每年的农民的收货季节总能引起信贷市场的波动swing，而且美国这期间一直没有中央银行，加上其他因素投机，缺少监管等等）-，做了几件事情了:  
+* 分析已有的金融形势，看看那些能银行能保住(bailout), 哪些只能是破产（Bankcrupt)；
 
-1907年应该是JPMorgan最风光的一年。老头子当年已经是70岁，应该说见过了不少美国经济的繁荣和危机间隔几年十几年的轮回boom&bust cycle（有兴趣可以看看，尽管美国工业腾飞，但是美国地大农业还是占有相当大比重，每年的农民的收货季节总能引起信贷市场的波动swing，而且美国这期间一直没有中央银行，加上其他因素投机，缺少监管等等）-，做了几件事情了:  分析已有的金融形势，看看那些能银行能保住(bailout), 哪些只能是破产（Bankcrupt)；开源 - 钱从哪里来？JPMorgan自己掏腰包出了很大一部分钱(我找不到具体多少钱)，和其他纽约的银行家商议包括美国财政部秘书长将政府的钱也存入银行来注入流动性（两天后财政部长Cortelyou存了25百万；洛克菲勒，美国最富有的人往银行存了10百万）；纽约证券交易所（[New York Stock Exchange](https://en.wikipedia.org/wiki/New_York_Stock_Exchange)）通常需要银行放短期贷款来维持日常的股票交易，但是在人人自危的情况下，即使银行有钱也不敢随意借出去-风险太高（从个人角度可以理解，兵荒马乱的时候，就不要考虑能否挣钱， 而是考虑保命拿住钱的问题了， 参考日本）。因为没得到银行的钱来维持正常运转，纽约证券交易所主席不得不急匆匆的跑到马路对面摩根的办公室告诉摩根他可能不得不提前打烊关闭交易所了。摩根再一次召集了纽约银行的主席们筹钱，扭转了形式，应该说救了纽约证券交易所一把，尽管很悬但是避免了形式的进一步恶化（[1913三月摩根过世时遗体从意大利运回经过纽约时，华尔街降半旗-通常只是给国家元首，纽约证券交易市场关闭了两小时](https://en.wikipedia.org/wiki/J._P._Morgan#Death:~:text=Flags%20on%20Wall%20Street%20flew%20at,arrival%20in%20New%20York%20City.%20His)）；节流 - 摩根和其他银行家的钱不是很够了，财政部也是，这个无底洞的填补一定要恢复公众的信心，减少流动性的损失，连欧洲最著名的银行家罗斯柴尔德[Lord Rothschild](https://en.wikipedia.org/wiki/Nathan_Rothschild,_1st_Baron_Rothschild)都给摩根表达他对摩根的“admiration and respect"膜拜和尊敬; 随后金融市场恢复了平静，实则还没渡过风声鹤唳草木皆兵，一个经纪行用田纳西矿业和制铁公司的股票质押借贷然后用于其投机导致亏损，银行都逼迫他卖出[田纳西矿业和制铁公司](https://en.wikipedia.org/wiki/Tennessee_Coal,_Iron_and_Railroad_Company)的股票来还债。摩根认为这个时候逼迫卖出这么多股票（本来就交易量小）来清算，会导致股票价格大幅度大跌（好比07-08年次贷危机房价螺旋式下跌，没人买了，需求急降），造成本已经战战巍巍市场的恐慌。摩根一个方案是用自己之前帮助合并过的钢铁公司来收购，但是这个会触犯憎恨华尔街和大公司的罗斯福的反垄断法。最终罗斯福在[衡量不接受合并可能股市奔溃的后](https://en.wikipedia.org/wiki/Panic_of_1907#cite_ref-61:~:text=Roosevelt%20relented%3B%20he%20later%20recalled%20of,to%20the%20purchase%20under%20those%20circumstances%22.%5B)，同意了合并，摩根以超低的价格收购了TC&I，危机终于彻底过去了。
+* 开源 - 钱从哪里来？摩根自己掏腰包出了很大一部分钱(我找不到具体多少钱)，和其他纽约的银行家商议包括美国财政部秘书长将政府的钱也存入银行来注入流动性（两天后财政部长科特柳Cortelyou存了25百万；洛克菲勒，美国最富有的人往银行存了10百万）；纽约证券交易所（New York Stock Exchange）通常需要银行放短期贷款来维持日常的股票交易，但是在人人自危的情况下，即使银行有钱也不敢随意借出去-风险太高（从个人角度可以理解，兵荒马乱的时候，就不要考虑能否挣钱， 而是考虑保命拿住钱的问题了， 参考日本）。因为没得到银行的钱来维持正常运转，纽约证券交易所主席不得不急匆匆的跑到马路对面摩根的办公室告诉摩根他可能不得不提前打烊关闭交易所了。摩根再一次召集了纽约银行的主席们筹钱，扭转了形式，应该说救了纽约证券交易所一把，尽管很悬但是避免了形式的进一步恶化（[1913三月摩根过世时遗体从意大利运回经过纽约时，华尔街降半旗-通常只是给国家元首，纽约证券交易市场关闭了两小时](https://en.wikipedia.org/wiki/J._P._Morgan#Death:~:text=Flags%20on%20Wall%20Street%20flew%20at,arrival%20in%20New%20York%20City.%20His)）；
 
-来源http://santarosahistory.com/wordpress/category/bank-panic-1907/
+* 节流 - 摩根和其他银行家的钱不是很够了，财政部也是，这个无底洞的填补一定要恢复公众的信心，减少流动性的损失，连欧洲最著名的银行家罗斯柴尔德[Lord Rothschild](https://en.wikipedia.org/wiki/Nathan_Rothschild,_1st_Baron_Rothschild)都给摩根表达他对摩根的“admiration and respect"膜拜和尊敬; 随后金融市场恢复了平静，实则还没渡过风声鹤唳草木皆兵，一个经纪行用田纳西矿业和制铁公司的股票质押借贷然后用于其投机导致亏损，银行都逼迫他卖出[田纳西矿业和制铁公司](https://en.wikipedia.org/wiki/Tennessee_Coal,_Iron_and_Railroad_Company)的股票来还债。摩根认为这个时候逼迫卖出这么多股票（本来就交易量小）来清算，会导致股票价格大幅度大跌（好比07-08年次贷危机房价螺旋式下跌，没人买了，需求急降），造成本已经战战巍巍市场的恐慌。摩根一个方案是用自己之前帮助合并过的钢铁公司来收购，但是这个会触犯憎恨华尔街和大公司的罗斯福的反垄断法。最终罗斯福在[衡量不接受合并可能股市奔溃的后](https://en.wikipedia.org/wiki/Panic_of_1907#cite_ref-61:~:text=Roosevelt%20relented%3B%20he%20later%20recalled%20of,to%20the%20purchase%20under%20those%20circumstances%22.%5B)，同意了合并，摩根以超低的价格收购了TC&I，危机终于彻底过去了。
 
 ![Cortelyou](https://user-images.githubusercontent.com/491610/107038973-45786300-67f8-11eb-985f-5ecd96d44bdf.jpg)
+<cite>来源: http://santarosahistory.com/wordpress/category/bank-panic-1907/</cite>
 
+1907-10-23号在上图中财政部长Cortelyou出来安抚公众说”形势好转了很多“，右下角说道信托公司有能力满足他们存户的兑换要求（on-demand)，而且这个是因为群众听信谣言说公司处于困难的境地，民众的信心在休市的时候得到稳步的增长（实际还是只是一个开端，有点像当年钱宝2017年8月份有一次挤兑危机，结果钱宝出来说大家不要听信谣言，随时来取款信誓旦旦亮出自己底牌多丰厚，结果借新还旧漏洞补不上半年后倒了，所以这个有点回光返照的意思）
 
-1907-10-23号财政部长Cortelyou出来安抚公众说”形势好转了很多“，右下角说道信托公司有能力满足他们存户的兑换要求（on-demand)，而且这个是因为群众听信谣言说公司处于困难的境地，民众的信心在休市的时候得到稳步的增长（实际还是只是一个开端，有点像当年钱宝2017年8月份有一次挤兑危机，结果钱宝出来说大家不要听信谣言，随时来取款信誓旦旦亮出自己底牌多丰厚，结果借新还旧漏洞补不上半年后倒了，所以这个有点回光返照的意思）
-
-1907-10-26号摩根经常开会商讨研究从晚上一直到了早上4-5点，有时候太晚，有时候太早，坐车时太冷甚至乎的了感冒(cold)，但是这一寒颤却稳定了经济。
+1907-10-26号摩根经常开会商讨研究从晚上一直到了早上4-5点，有时候太晚，有时候太早，坐车时太冷甚至乎的了感冒(cold)，但是媒体评论正是这一寒颤却稳定了市场。
 
 ![morgan_cold](https://user-images.githubusercontent.com/491610/107039035-59bc6000-67f8-11eb-9371-f8a19b1afe6c.jpg)
 来源：https://www.youtube.com/watch?v=6Rb2TsOm3Kw&ab_channel=CNBC
 
 
 摩根几乎是一己之力把美国从经济危机中拉了出来，一时间成了备受赞誉的国民英雄，但是似乎没有持续多久。
-
-股市崩盘恢复可以很快，危机可能可以很快平复，但是恢复的时间特是异常的漫长和痛苦。一个是国家没有中央银行，缺乏经济调控的工具，货币政策不灵活，导致经济不稳定和僵化；出了危机，只能依靠一个私人银行家(可以说是非正式的中央银行行长)来拯救这个令公众和政府有点担忧，头部这小撮人居然有这么大权力，没有被管控；摩根救市也不一定出于爱国，他可能也知道金融情况恶化下去对他而且也是不利的，可能部分也是出于自利之心，另外危机中无底洞一般的资金投入也让他们害怕，害怕再一次重新这个现象；(back when bankers bail out gov, not gov bailout bankers now)
-
 ![morgan_big_gov_small](https://user-images.githubusercontent.com/491610/107039030-5923c980-67f8-11eb-90a9-ea0ba382de4a.jpg)
 
-图片来自[Meaning and History of the Term Robber Baron](https://www.thoughtco.com/robber-baron-definition-1773342)
+股市崩盘恢复可以很快，危机可能可以很快平复，但是恢复的时间特是异常的漫长和痛苦。一个是国家没有中央银行，缺乏经济调控的工具，货币政策不灵活，导致经济不稳定和僵化；出了危机，只能依靠一个私人银行家(可以说是非正式的中央银行行长)来拯救这个令公众和政府有点担忧，头部这小撮人居然有这么大权力，没有被管控；摩根救市也不一定出于爱国，他可能也知道金融情况恶化下去对他而且也是不利的，可能部分也是出于自利之心，另外危机中无底洞一般的资金投入也让他们害怕，害怕再一次重新这个现象.(`1907 - back when bankers bail out gov, not gov bailout bankers now`)
 
 ![robber_barrons](https://user-images.githubusercontent.com/491610/107039064-5f19aa80-67f8-11eb-879f-23fba7e4a260.jpg)
+<cite>来源： [Meaning and History of the Term Robber Baron](https://www.thoughtco.com/robber-baron-definition-1773342)</cite>
 
-
-
-
-这群人踩着人民的身上，通过金融手段合并和通过*挤压*、低价倾销等方式拖垮还活着的对手（参考洛克菲勒）从而获得垄断权力，控制了物资价格，同时不断延长底下员工的工作时间和无视恶劣的工作环境（童工等），从而积累了大量的财富，被人们称为”[Robber baron盗式资本家](https://en.wikipedia.org/wiki/Robber_baron_(industrialist))“。这群商业金融资本家就和底层的农民等等形成了矛盾，农名和社会的情绪过去之后就觉得金融危机可能是这群money trust金融托拉斯自己玩脱了或者自己一手设计的，从他们和信托公司（吸收了大量存款）中手中将辛苦钱骗走（1907年大量大量银行倒闭-倒闭数量历史上第二大，导致普罗大众的存款消失），还有就是比如摩根超级低收购田纳西矿业和制铁公司这个事情，肥了摩根这群人的钱包。
+政府和公众认为这小撮人-金融托拉斯-踩着人民的身上，通过金融手段合并和通过*挤压*、低价倾销等方式拖垮还活着的对手（参考洛克菲勒）从而获得垄断权力，控制了物资价格，同时不断延长底下员工的工作时间和无视恶劣的工作环境（童工等），从而积累了大量的财富，被人们称为”[Robber Baron强盗式资本家](https://en.wikipedia.org/wiki/Robber_baron_(industrialist))“。这群商业金融资本家就和底层的农民等等形成了矛盾，农名和社会的情绪过去之后就觉得金融危机可能是这群Money Trust金融托拉斯自己玩脱了或者自己一手设计的，从他们和信托公司（吸收了大量存款）中手中将辛苦钱骗走（1907年大量大量银行倒闭-倒闭数量历史上第二大，导致普罗大众的存款消失），还有就是比如摩根超级低收购田纳西矿业和制铁公司这个事情，肥了摩根这群人的钱包。
 
 政府和公众盯上了这小撮子人。
 
-1912-1913年民主党员(Democratic - 内战赢了的林肯以来简单说共和党代表了汉密尔顿的工商业派-北方，民主党成了托马斯杰弗逊的农业派-南方没落之后1861-1912期间只有[两任总统](https://www.theguardian.com/news/datablog/2012/oct/15/us-presidents-listed))[阿尔塞纳•普约(*Arsène* *Pujo*)](https://en.wikipedia.org/wiki/Pujo_Committee)举行了普约听证会[Pujo Committee](https://www.investopedia.com/terms/p/pujo-committee.asp)质询money trust托拉斯-摩根和纽约这些有权利的显赫的银行家们有没有滥用公共信任来巩固加强联合控制多个工业领域。他发现摩根公司的高层也是其他112个公司价值22.5billion的高管（当时NYSE总市值也就26billion).  摩根和这些人 - 私人企业家们 - 可以说实际上控制了美国这辆车的车头。
+1912-1913年民主党员(内战赢了的林肯以来简单说共和党代表了汉密尔顿的工商业派-北方，民主党成了托马斯杰弗逊的农业派-南方没落之后1861-1912期间只有[两任总统](https://www.theguardian.com/news/datablog/2012/oct/15/us-presidents-listed))[阿尔塞纳•普约(*Arsène* *Pujo*)](https://en.wikipedia.org/wiki/Pujo_Committee)举行了普约听证会[Pujo Committee](https://www.investopedia.com/terms/p/pujo-committee.asp)质询Money Trust金融托拉斯-摩根和纽约这些有权利的显赫的银行家们有没有滥用公共信任来巩固加强联合控制多个工业领域。他发现摩根公司的高层也是其他112个公司价值225亿的高管（当时NYSE总市值也就260亿).  摩根和这些人 - 私人企业家们 - 可以说实际上控制了美国这辆车的车头。
 
-其中有一段摩根跟一位严格的公司律师Untermyer的[character个人品质品格对话](https://memory.loc.gov/service/gdc/scd0001/2006/20060517001te/20060517001te.pdf)：
+其中有一段是摩根跟一位以严格犀利风格出名的律师Untermyer的[character个人品质品格对话](https://memory.loc.gov/service/gdc/scd0001/2006/20060517001te/20060517001te.pdf)：
 
->  *Untermyer:* "Is not commercial credit based primarily upon money or property?" (Untermyer:  难道[商业信用-指商品交易经营活动之间相互提供的信贷。如延期付款、预付货款](https://baike.baidu.com/item/%E5%95%86%E4%B8%9A%E4%BF%A1%E7%94%A8/4231289?fr=aladdin)不是主要基于金钱或者所有物么？ )
+>  *Untermyer:* "Is not commercial credit based primarily upon money or property?" (Untermyer:  难道商业信用（指商品交易经营活动之间相互提供的信贷。如延期付款、预付货款)不是主要基于金钱或者所有物么？ )
 
 > *Morgan:* "No sir. The first thing is character."（摩根： 不。第一位的是个人的品质）
 
@@ -201,60 +198,57 @@ tags: money,economics
 
 > *Morgan:* "Before money or property or anything else.  Money cannot buy it...because a man I do not trust could not get money  from me on all the bonds in Christendom." （摩根： 在金钱或所有物或其他任何东西之前。金钱不能买到它...因为一个我不信任信得过的是不能在一切基督教国家从我这里拿到钱。
 
-
 ![qingzhang](https://user-images.githubusercontent.com/491610/107039059-5de87d80-67f8-11eb-99c4-aa88c544b8fa.jpg)
 
-这是我朋友圈我老家的一些朋友有时候过年过节都会发的，他们一般在老家都做点小生意。信用这个我们会后还会讲到，但是这里我们看到一般人与人之间信用说到底还是看这个人怎么样；如果他有上进心，你熟悉了解，尽管目前可能有点困难，可能你还是会借给他，即使超过他此时此刻能还的数目；如果你知道这个人不咋样，还信任他，鼓励借给他，那么你要么是高利贷做陷阱让他陷入更大的债务（要么砍头息-多看看今日说法，参考这一期[《20210110 被盯上的拆迁户》](https://tv.cctv.com/2021/01/10/VIDE3de3UUPSagowCh7V0pXC210110.shtml)；以老家的小圈子，记账也得都得是看人如何的。但是没有把个人品质个人道德放到金钱前面，你也还能像02年安然Enron和08年的华尔街银行家一样赚个盆满钵满，02/08区别在于就看人多不多组织大不大，有没有足够大大到有人托底。 个人信用很重要，但是国家了？我们后面会降到。
+上图是朋友圈老家的一些朋友有时候过年过节都会发的，他们一般在老家都做点小生意。信用这个东西很特别，但是这里我们看到一般人与人之间信用说到底还是看这个人怎么样；如果他有上进心，你熟悉了解，尽管目前可能有点困难，可能你还是会借给他，即使超过他此时此刻能还的数目；如果你知道这个人不咋样，还信任他，鼓励借给他，那么你要么是高利贷做陷阱让他陷入更大的债务（要么砍头息-多看看今日说法，参考这一期[《20210110 被盯上的拆迁户》](https://tv.cctv.com/2021/01/10/VIDE3de3UUPSagowCh7V0pXC210110.shtml)；以老家的小圈子，记账也得都得是看人如何的。一般来说，个人信用很重要，国家的信用就更重要了。
 
-不管怎么样，所以很快摩根和政府公众都至少有一个一致： 需要建立一个类似欧洲的中央银行，虽然民众一直反对中央银行，害怕中央政府伸出的触角太多，干涉自由，就像早死的美国第一和第二银行.
+不管怎么样，所以很快摩根和政府公众都至少有就一个问题达成了一致： 需要建立一个类似欧洲的中央银行，虽然民众一直反对中央银行，就像早死的美国第一和第二银行.
 
 ## 1913 FED
 <hr/>
 
 
-危机中显示出两个问题： 不够灵活的货币和没有足够的流动性支持。 之后国会成为了一个金融专家为主的国家货币委员会，参议院的共和党人[Nelson Aldrich](https://en.wikipedia.org/wiki/Nelson_Aldrich)是主席。Nelson_Aldrich在参议院和共和党内部影响力很大，泰迪罗斯福称为共和党的[KingPin](https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Aldrich.htm#skip:~:text=.%20President%20Theodore%20Roosevelt%20referred%20to%20him%20as%20the%20%E2%80%9CKing%20Pin%E2%80%9D%20of%20the%20Republican%20Party.)，很多决策都是他和几个人（["Sentor Four"](https://www.senate.gov/artandhistory/history/common/generic/People_SenateFour.htm)）完成的，应该说是国家的经理人（"[general manager of the Nation](https://en.wikipedia.org/wiki/Nelson_W._Aldrich#mw-content-text:~:text=general%20manager%20of%20the%20Nation))。目前来看他在参议院1890年跟商人合作成为了百万富翁，同时坚持支持金本位（简单说不利于农民），他的女婿是洛克菲勒家族，一直被指责跟华尔街的金融银行家有密切往来。他游历考察了欧洲的各个央行制度，跟后面其他几个非常有影响力的银行家和工业联盟秘密的在杰克尔小岛（Jekyll Island）拟定了后来的《 Federal Reserve Act in 1913》法案的雏形。这个岛在18世纪后叶它是专供富豪们狩猎的场所，像Rockefeller, Morgan, [Frank A. Vanderlip](https://en.wikipedia.org/wiki/Frank_A._Vanderlip)(现在花旗银行) , Pulitzer, and Baker等都是狩猎俱乐部[Jekyll_Island_Club](https://en.wikipedia.org/wiki/Jekyll_Island_Club)的成员。一个是当时最有权力的政治家（有金融背景）， 一个是拥有当时1/4世界财富的金融银行企业家们，也解释了当时为么他们这么偷偷摸摸生怕被发现。
+危机中显示出两个问题： 不够灵活的货币和没有足够的流动性支持。 之后国会成为了一个金融专家为主的国家货币委员会，参议院的共和党人[Nelson Aldrich](https://en.wikipedia.org/wiki/Nelson_Aldrich)是主席。Nelson Aldrich在参议院和共和党内部影响力很大，泰迪罗斯福称为共和党的[KingPin](https://www.senate.gov/senators/FeaturedBios/Featured_Bio_Aldrich.htm#skip:~:text=.%20President%20Theodore%20Roosevelt%20referred%20to%20him%20as%20the%20%E2%80%9CKing%20Pin%E2%80%9D%20of%20the%20Republican%20Party.)，很多决策都是他和几个人（["Sentor Four"](https://www.senate.gov/artandhistory/history/common/generic/People_SenateFour.htm)）完成的，应该说是国家的经理人（"[general manager of the Nation](https://en.wikipedia.org/wiki/Nelson_W._Aldrich#mw-content-text:~:text=general%20manager%20of%20the%20Nation))。他在参议院1890年跟商人合作搞有轨电车的生意成为了百万富翁，同时坚定支持金本位（利于贸易），他的女婿是洛克菲勒家族的，他一直被指责跟华尔街的金融银行家有密切往来。他游历考察了欧洲的各个央行制度，跟后面其他几个非常有影响力的银行家和工业联盟秘密的在杰克尔小岛（Jekyll Island）拟定了后来的《 Federal Reserve Act in 1913》法案的雏形。这个岛在18世纪后叶它是专供富豪们休闲狩猎的场所，像Rockefeller, Morgan, [Frank A. Vanderlip](https://en.wikipedia.org/wiki/Frank_A._Vanderlip)(现在花旗银行) , Pulitzer, and Baker等都是狩猎俱乐部[Jekyll Island Club](https://en.wikipedia.org/wiki/Jekyll_Island_Club)的成员。一个是当时最有权力的政治家（有金融背景）， 一个是拥有当时1/4世界财富的金融银行企业家们，也解释了当时为么他们如此这么偷偷摸摸生怕被发现（因为一旦曝光，就没有任何机会可以在国会通过，因为民众像08年之后痛恨那群银行家华尔街一样的痛恨这群人）。
 
+美联储官方关于[Federal Reserve Act](https://www.federalreserve.gov/aboutthefed/officialtitle-preamble.htm)的正式标题：
+>”An Act To provide for the establishment of Federal reserve banks, to furnish an elastic currency, to afford means of rediscounting commercial paper, to establish a more effective supervision of banking in the United States, and for other purposes.“。
 
-
-美联储官方关于[Federal Reserve Act](https://www.federalreserve.gov/aboutthefed/officialtitle-preamble.htm)的正式标题：”An Act To provide for the establishment of Federal reserve banks, to furnish an elastic currency, to afford means of rediscounting commercial paper, to establish a more effective supervision of banking in the United States, and for other purposes.“。基本上就包括上面描述的紧急情况下向银行贷款，印钱和作为美国政府的财政代理人，监督银行体系。包括最上面的美联储委员会董事会（ [Federal Reserve Board of Governors](https://en.wikipedia.org/wiki/Federal_Reserve_Board_of_Governors)），和十二个地区来代表多样性的地区银行（ [Federal Reserve Banks](https://en.wikipedia.org/wiki/Federal_Reserve_Bank) ）组成负责具体执行美联储政策。 
+基本上就包括上面描述的紧急情况下向银行贷款，印钱和作为美国政府的财政代理人，监督银行体系。包括最上面的美联储委员会董事会（ [Federal Reserve Board of Governors](https://en.wikipedia.org/wiki/Federal_Reserve_Board_of_Governors)），和十二个地区来代表多样性的地区银行（ [Federal Reserve Banks](https://en.wikipedia.org/wiki/Federal_Reserve_Bank) ）组成负责具体执行美联储政策。 
 
 ![fed_structure](https://user-images.githubusercontent.com/491610/107038989-4c9f7100-67f8-11eb-96f2-b52ee9ae719a.jpg)
 
-那么当时的美国总统*Woodrow Wilson*(伍德罗·威尔逊)民主党人（民主党人几乎控制了两院）跟共和党人也就是具体起草人Nelson_Aldrich的矛盾地方在于什么？ 简单说公共vs私人。Nelson_Aldrich最初起草的希望这个央行系统全部有私人（银行家和工商阶级）构成，不希望政府等公共的介入（**Independent**)，独立的机构。但是民主党人更像代表了农民草根群体害怕央行变成这群华尔街银行家的money trust托斯的牟利工具，所以才有之前讲到的Pujo Commit的听证会。民主党人想要修改草稿来达到救济金融恐慌，减少失业率和商业萧条，最后保证大众的利益不被纽约这群金融托斯啦统治地址所侵害（ps听起来很熟悉)。两方面都想争取的利益，经济政治因素利益的考虑权衡，远比我们想的要复杂。好比法案到了快要表决的时候，几乎打成了平手，一个来自密苏里州的议员的选票就很关键了，谁能争取下来谁就赢了。为了让方案通过，制定人私下承诺在这个议员所在的这个州联邦第八区开特列有两个联邦储备银行，即使这个州影响力远小于东部沿海，甚至弱于崛起的西部，到现在都没变 - 所以我们看到这个之间远不是一方绝对压倒性控制另一方，如果有那么只能说在1955年前都是政府压倒式控制美联储，美联储只是一个puppet. 我们后续会提到。
-
+那么当时的美国总统*Woodrow Wilson*(伍德罗·威尔逊)民主党人（民主党人几乎控制了两院）跟共和党人也就是具体起草人Nelson_Aldrich的矛盾地方在于什么？ 简单说公共vs私人。Nelson Aldrich最初起草的希望这个央行系统全部有私人（银行家和工商阶级）构成，不希望政府等公共的介入（*independent*)，独立的机构。但是民主党人更像代表了农民草根群体害怕央行变成这群华尔街银行家的money trust托斯的牟利工具，所以才有之前讲到的Pujo Commit的听证会。民主党人想要修改草稿来达到救济金融恐慌，减少失业率和商业萧条，最后保证大众的利益不被纽约这群金融托拉斯所绑架而被侵害（ps听起来很熟悉)。两方面都想争取的利益，经济政治因素利益的考虑权衡，远比我们想的要复杂。好比法案到了快要表决的时候，几乎打成了平手，一个来自密苏里州的议员的选票就很关键了，谁能争取下来谁就赢了。为了让方案通过，制定人私下承诺在这个议员所在的这个州联邦第八区（下图）开特列有两个联邦储备银行，即使这个州影响力远小于东部沿海，甚至弱于崛起的西部，到现在都没变 - 所以我们看到这个之间远不是一方绝对压倒性控制另一方，如果有那么只能说在1955年前都是政府压倒式控制美联储，美联储只是一个傀儡工具人. 
 
 
 ![fed_district](https://user-images.githubusercontent.com/491610/107038984-4a3d1700-67f8-11eb-838f-855ba70eee72.jpg)
-
-https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_Districts_Map_-_Banks_&_Branches.png
+<cite>来自：https://en.wikipedia.org/wiki/Federal_Reserve_Bank</cite>
 
 结果就是总统可以认命美联储的董事会；而下面十二个区域的联邦储备银行(Fed Reserve Banks)负责一起实施货币政策，放贷业务和监督区域内的银行，清算，作为最终贷款人[ lender of last resort](https://www.investopedia.com/terms/l/lenderoflastresort.asp)。
 
 
-联邦储备银行实施董事会的决策，他有私人公司的属性也有公共的比如政府的代表属性。每个区域下的商业银行需要持有联邦储备银行银一部分股份才能成为成员银行(Member Bank)，同时每个联邦储备银行的董事会成员分为三种类别，第一种Class A由底下成员银行选出，代表成员银行的利益；第二种ClassB也是有区域内的成员选出，但是应该suppose代表公众的利益；第三种Class C有由上面美联储董事会指任，意在代表公众的利益。这些成员银行虽然拥有对应的联邦储备银行的股份（相当于实力保证），但是这些股份是不能转让售卖的，联邦储备银行只有利润的分红才会给到成员银行 -一般是6%（公司越大，分红比列越少），跟一般股票不一样的他们不直接控制董事会（好比华尔街像是黑石BlackRock拥有很多三星的股份，但是没有董事会的投票权对公司具体运作不过问，只是投资）
+联邦储备银行实施董事会的决策，他有私人公司的属性也有公共的比如政府的代表属性。每个区域下的商业银行需要持有联邦储备银行银一部分股份才能成为成员银行(Member Bank)，同时每个联邦储备银行的董事会成员分为三种类别，第一种Class A由底下成员银行选出，代表成员银行的利益；第二种ClassB也是有区域内的成员选出，但是应该suppose代表公众的利益；第三种Class C有由上面美联储董事会指任，意在代表公众的利益。这些成员银行虽然拥有对应的联邦储备银行的股份（相当于实力保证），但是这些股份是不能转让售卖的，联邦储备银行只有利润的分红才会给到成员银行 -一般是6%（公司越大，分红比列越少），跟一般股票不一样的他们不直接控制董事会（好比华尔街像是黑石BlackRock拥有很多三星的股份，但是没有董事会的投票权对公司具体运作不过问，只是投资获利而已）
 
-[U.S.-based Asset Manager BlackRock Boosts Stake in Samsung Electronics Above 5%](http://www.businesskorea.co.kr/news/articleView.html?idxno=28973)
+参考[U.S.-based Asset Manager BlackRock Boosts Stake in Samsung Electronics Above 5%](http://www.businesskorea.co.kr/news/articleView.html?idxno=28973):
+> Meanwhile, BlackRock has become the third largest shareholder of Samsung Electronics, following the National Pension Service with a 9.25 percent stake and Samsung Life Insurance Co. with an 8.24 percent stake. *However, BlackRock is not planning to participate in the operation of Samsung Electronics. The company said, “We acquired the shares simply for investment. We will not carry out any activities to exercise our management rights or participate in the operation of the company.”*
 
-> Meanwhile, BlackRock has become the third largest shareholder of Samsung Electronics, following the National Pension Service with a 9.25 percent stake and Samsung Life Insurance Co. with an 8.24 percent stake. **However, BlackRock is not planning to participate in the operation of Samsung Electronics. The company said, “We acquired the shares simply for investment. We will not carry out any activities to exercise our management rights or participate in the operation of the company.”**
-
-联邦储备银行他不完全像是商业银行，那么灵活，他的收入怎么来了？从官方网站描述[为什么FED跟政府是独立的了？What does it mean that the Federal Reserve is "independent within the government"?](https://www.federalreserve.gov/faqs/about_12799.htm):
+联邦储备银行他不完全像是商业银行，那么灵活，他的收入怎么来了？从官方网站描述[《为什么FED跟政府是独立的了？What does it mean that the Federal Reserve is "independent within the government"?》](https://www.federalreserve.gov/faqs/about_12799.htm)提到：
 
 > The Federal Reserve does not receive funding through the congressional budgetary process. The Fed's income comes primarily from the interest on government securities that it has acquired through open market operations. After paying its expenses, the Federal Reserve turns the rest of its earnings over to the U.S. Treasury.
 
-收入来源主要是购买债券的利息。这些扣除运行开支，主要是返回给美国财政部Treasury，只有很少很少的部分才会最为利息分发给他的成员银行。下面是图片来源： https://www.frbsf.org/education/publications/doctor-econ/2006/may/federal-reserve-funding
+收入来源主要是购买债券的利息。这些扣除运行开支，主要是返回给美国财政部Treasury，只有很少很少的部分才会最为利息分发给他的成员银行。比如下图中所示，收入和支出：
 
 ![fed_spense_income](https://user-images.githubusercontent.com/491610/107038987-4b6e4400-67f8-11eb-9ef9-0cafbbd085c1.jpg)
-
+<cite>来源： https://www.frbsf.org/education/publications/doctor-econ/2006/may/federal-reserve-funding</cite>
 
 我们看到网上说阴谋论是说FED美联储是被私人银行和企业家操控？一个原因是他自己网站[Section 7. Division of Earnings](https://www.federalreserve.gov/aboutthefed/section7.htm)上都说给持人6%的分红。分红我们比列我们大概讲了，记住只是利润，那我们看看实际中每年美联储赚多少钱，多少返回给财政部，多少用于分红了。
 
 从这篇2012年的美联储官方的文章[Reserve Bank income and expense data and transfers to the Treasury for 2011](https://www.federalreserve.gov/newsevents/pressreleases/other20120110a.htm)中，我们看到
 
-> **The Federal Reserve Board on Tuesday announced preliminary unaudited results indicating that the Reserve Banks provided for payments of approximately $76.9 billion of their estimated 2011 net income to the U.S.** Treasury. Under the Board's policy, the residual earnings of each Federal Reserve Bank, after providing for the costs of operations, payment of dividends, and the amount necessary to equate surplus with capital paid-in, are distributed to the U.S. Treasury.
+> *The Federal Reserve Board on Tuesday announced preliminary unaudited results indicating that the Reserve Banks provided for payments of approximately $76.9 billion of their estimated 2011 net income to the U.S.* Treasury. Under the Board's policy, the residual earnings of each Federal Reserve Bank, after providing for the costs of operations, payment of dividends, and the amount necessary to equate surplus with capital paid-in, are distributed to the U.S. Treasury.
 
-> **The Federal Reserve Banks' 2011 estimated net income of $78.9 billion** was derived primarily from $83.6 billion in interest income on securities acquired through open market operations (U.S. Treasury securities, federal agency and government-sponsored enterprise (GSE) mortgage-backed securities, and GSE debt securities). Additional earnings were derived primarily from realized gains on the sale of U.S. Treasury securities of $2.3 billion, foreign currency gains of $152 million, and income from services of $479 million. The Reserve Banks had interest expense of $3.8 billion on depository institutions' reserve balances and term deposits.
+> *The Federal Reserve Banks' 2011 estimated net income of $78.9 billion* was derived primarily from $83.6 billion in interest income on securities acquired through open market operations (U.S. Treasury securities, federal agency and government-sponsored enterprise (GSE) mortgage-backed securities, and GSE debt securities). Additional earnings were derived primarily from realized gains on the sale of U.S. Treasury securities of $2.3 billion, foreign currency gains of $152 million, and income from services of $479 million. The Reserve Banks had interest expense of $3.8 billion on depository institutions' reserve balances and term deposits.
 
-> In 2011, **statutory dividends totaled $1.6 billion and $375 million of net income** was used to equate surplus to capital paid-in
+> In 2011, *statutory dividends totaled $1.6 billion and $375 million of net income* was used to equate surplus to capital paid-in
 
 也就是(1.63/78.9)= 0.020 也就是2%左右的是用于分红。[Who owns and controls the Federal Reserve](https://www.usagold.com/cpmforum/who-owns-and-controls-the-federal-reserve/) 1995年几乎是97%的收入归回财政部，3%用于分红和其他。
 
@@ -262,40 +256,38 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 看起来分红的好像不多，那么分红不是一定依据他在美联储银行放的储备金（股份）的多少来的么？
 
-从[这篇文章](https://www.institutionalinvestor.com/article/b1kh4p10qysrhv/Conspiracy-Theorists-Ask-Who-Owns-the-New-York-Fed-Here-s-the-Answer#at-d484cc9f-8008-4a7b-8a71-e8f0a1f1eff3:~:text=Following%20the%20blowback%20from%20the%202008%2F09,particular%20elicited%20calls%20for%20more%20transparency)中，举2018年纽约地区的美联储银行（New York Fed）为例，成员银行中Citibank花旗银行放了87.9百万，占比42.8%；第二名JP Morgan Chase银行，60百万，占比29%，两家加起来70%将近，其他的一级银行还包括比如日本和德国的银行等等。虽然理论上一行都是一样只有一票，但是上面说过他们有三个分类Class A, B, C，同时还跟银行体量大小分为：Group大(比如花旗和JP morgan CHase)，Group中，Group小三个级别的银行。上面说到ClassB理应代表公众利益，实际上却是Group大的可以选一个特别的指定的（designated）的ClassA和ClassB的代表，所以背后的选举程序是不是做到的公开透明难说，有没有更倾向大公司大银行的利益，这些流程是否有监管确实难说。
+从[这篇文章](https://www.institutionalinvestor.com/article/b1kh4p10qysrhv/Conspiracy-Theorists-Ask-Who-Owns-the-New-York-Fed-Here-s-the-Answer#at-d484cc9f-8008-4a7b-8a71-e8f0a1f1eff3:~:text=Following%20the%20blowback%20from%20the%202008%2F09,particular%20elicited%20calls%20for%20more%20transparency)中，举2018年纽约地区的美联储银行（New York Fed）为例，成员银行中Citibank花旗银行放了87.9百万，占比42.8%；第二名JP Morgan Chase银行，60百万，占比29%，两家加起来70%将近，其他的一级银行还包括比如日本和德国的银行等等。虽然理论上一行都是一样只有一票，但是上面说过他们有三个分类Class A, B, C，同时还跟银行体量大小分为：Group大(比如花旗和JP morgan Chase)，Group中，Group小三个级别的银行。上面说到ClassB理应代表公众利益，实际上却是Group大的可以选一个特别的指定的（designated）的ClassA和ClassB的代表，所以背后的选举程序是不是做到的公开透明难说，有没有更倾向大公司大银行的利益，这些流程是否有监管确实难说。
 
-这些成员银行中有一些是一级大银行，成为[Primary Dealers一级交易商](https://en.wikipedia.org/wiki/Structure_of_the_Federal_Reserve_System#Primary_dealers)。以纽约储备银行为列，你可以查到他的一级交易商列表[LIST OF PRIMARY DEALERS OF NYFRB](https://www.newyorkfed.org/markets/primarydealers.html#primary-dealers)。
+这些成员银行中有一些是一级大银行，成为[Primary Dealers一级交易商](https://en.wikipedia.org/wiki/Structure_of_the_Federal_Reserve_System#Primary_dealers)。以纽约储备银行为列，你可以查到他的一级交易商列表: [LIST OF PRIMARY DEALERS OF NYFRB](https://www.newyorkfed.org/markets/primarydealers.html#primary-dealers)。
 
 > 在任何时候，一级交易商通常少于30多家，最新名单由纽约联邦储备银行维护，它处理公开市场业务，随后直接与一级交易商合作。作为一级交易商运作的机构通常在金融市场的其他领域非常活跃，名单上往往包括美国一些规模最大、实力最强的银行和经纪交易商的名单.它必须定期向美联储提交有关其金融活动的信息，包括交易量，并证明其维持着美联储设定的货币储备。它还必须同意参与国债的拍卖，以及在美联储参与公开市场操作时与美联储合作.Primary交易商是可以直接与美联储进行交易的金融机构一级交易商被用来承销新的政府债券，稳定经济，以及促进其他金融目标。美联储需要这些机构使其运作有效，而一级交易商每年的业务依赖美联储数十亿美元。一旦交易商购买证券，他们就可以转售给客户，或者在他们自己的行动中使用它们，在这一过程中，这些银行和经纪商往往能获得丰厚的利润，因为这些银行和券商的上市也能从中受益.
 
 他们向是一张网将美国的国债出售到世界上的其他国家。一级代理商从储备银行那里借钱有一个利率，这个利率叫做[Prime Rate](https://www.investopedia.com/terms/p/primerate.asp)([优惠利率](https://baike.baidu.com/item/%E4%BC%98%E6%83%A0%E5%88%A9%E7%8E%87/6849049)). (这里没细分，你大概值这个是只有规模大信誉好的客户才能拿到的利率）。这个利率基于美联储的[federal fund rate](https://www.investopedia.com/terms/f/federalfundsrate.asp)
 /[美国联邦基金利率](https://baike.baidu.com/item/%E7%BE%8E%E5%9B%BD%E8%81%94%E9%82%A6%E5%9F%BA%E9%87%91%E5%88%A9%E7%8E%87/5968342?fr=aladdin).
 
+下面看看美联储的三个工具：
 
-回到美联储的三个工具：
+* **准备金比列** - 存款机构必须要保留一定比例的存款，不能全部放贷出去。假设我往银行存了100块，那么他可以放贷出去最多90块，还得保留10块，以防客户来兑换，这个10块就是准备金，也就是10%的准备金率。这个比列就是美联储决定的。
+<br/>
+* **贴现率窗口Discount Window** -  当银行被别人挤兑没钱了，这里没钱指的是不一定没有偿还能力（solvent）。比如上面里银行放贷了90块钱的存款，给了工厂去扩大产能。工厂可以拿比如已有的资产asset抵押，作为自己的信誉保证，获得钱来盖场招人，银行可以拿到利息，后面工厂之后得到了利润在还钱给银行，两者双赢，这个确实促进了社会的发展；如果银行信用卡放贷了给了某个人，某个人拿去全部身家投机上杠杆玩期货对赌比特币，然后比特币像是这两天突然下跌了10%跌破$30000美元([《突发闪崩，比特币暴跌12.5%，全网数字货币24小时8.6万人爆仓，51亿资金被“血洗”》](https://www.toutiao.com/i6920229086996464135))，直接爆仓，那么这个人肯定无法偿还了，银行也就是无清还能力insovlent; 不管那一种，银行现在都没钱了，抵押物要短期出手，肯定价格价值都大大折扣，但是每个人都不想成为最后一个去银行取钱的人（那时候没钱了），所以只能借钱，但是其他银行自身难保，就只能是求助于无中生有会生钱（当时还是跟金挂钩）的美联储了。这个利率就是贴现率 - 只在危机情况下作为最后的求助者。
+<br/>
+* **公开市场操作**[open market operations](https://www.investopedia.com/terms/o/openmarketoperations.asp) (OMO) - 简单来说，FED的主要货币政策的工具。首先商业银行需要保持一定的准备金数目在美联储储备银行，而且每两周会审核。但是可能银行将钱放贷出去过多（临时），到了审核的时候，就需要往其他有足够钱的银行临时借钱保证审核过审，过审完再给返回去，这个借钱的利率是一个短期的利率，一般来说隔夜。 美联储通过在公开市场出售和购买国债实现往经济中回收或投放货币。按照简单的供给理论来比喻，市场上钱多了，那么借钱成本下降，利率势降低了，反正利率升高。这样就可以通过直接影响短期利率，间接影响长期利率，从而进而影响方方面面，比如储存存钱的利率到长期的家庭房贷利率，信心卡的利率等等， 更进一步影响信用的提供，投资的需求，就业和经济的产出（通货膨胀）。  2020年3月15日为了应对疫情，美联储下调美国联邦基金利率到了大概是0.00%-0.25%。
 
-* 准备金比列 - 存款机构必须要保留一定比例的存款，不能全部放贷出去。假设我往银行存了100块，那么他可以放贷出去最多90块，还得保留10块，以防客户来兑换，这个10块就是准备金，也就是10%的准备金率。这个比列就是美联储决定的。
-* 贴现率窗口Discount Window -  当银行被别人挤兑没钱了，这里没钱指的是不一定没有偿还能力（solvent）。比如上面里银行放贷了90块钱的存款，给了工厂去扩大产能。工厂可以拿比如已有的资产asset抵押，作为自己的信誉保证，获得钱来盖场招人，银行可以拿到利息，后面工厂之后得到了利润在还钱给银行，两者双赢，这个确实促进了社会的发展；如果银行信用卡放贷了给了某个人，某个人拿去全部身家投机上杠杆玩期货对赌比特币，然后比特币像是这两天突然下跌了10%跌破$30000美元[突发闪崩，比特币暴跌12.5%，全网数字货币24小时8.6万人爆仓，51亿资金被“血洗”](https://www.toutiao.com/i6920229086996464135)，直接爆仓，那么这个人肯定无法偿还了，银行也就是insovlent; 不管那一种，银行现在都没钱了，抵押物要短期出手，肯定价格价值都大大折扣，但是每个人都不想成为最后一个去银行取钱的人（那时候没钱了），所以只能借钱，但是其他银行自身难保，就只能是求助于无中生有会生钱（当时还是跟金挂钩）的美联储了。这个利率就是贴现率 - 只在危机情况下作为最后的求助者。
-* 公开市场操作[open market operations](https://www.investopedia.com/terms/o/openmarketoperations.asp) (OMO) - 简单来说，FED的主要货币政策的工具。首先商业银行需要保持一定的准备金数目在美联储储备银行，而且每两周会审核。但是可能银行将钱放贷出去过多（临时），到了审核的时候，就需要往其他有足够钱的银行临时借钱保证审核过审，过审完再给返回去，这个借钱的利率是一个短期的利率，一般来说隔夜。 美联储通过在公开市场出售和购买国债实现往经济中回收或投放货币。按照供给理论，市场上钱多了，那么借钱成本下降，利率势降低了，反正利率升高。这样就可以通过直接影响短期利率，间接影响长期利率，从而进而影响方方面面，比如储存存钱的利率到长期的家庭房贷利率，信心卡的利率等等， 更进一步影响信用的提供，投资的需求，就业和经济的产出（通货膨胀）。  2020年3月15日为了应对疫情，美联储下调美国联邦基金利率到了大概是0.00%-0.25%。
-
-来自：https://www.youtube.com/watch?v=Vy6gSr2AtUE&ab_channel=MarginalRevolutionUniversity
 
 ![fed_fomo_control](https://user-images.githubusercontent.com/491610/107038985-4ad5ad80-67f8-11eb-8b8a-de519ad719f7.jpg)
+<cite>来自：https://www.youtube.com/watch?v=Vy6gSr2AtUE&ab_channel=MarginalRevolutionUniversity</cite>
 
 
 回到这个prime rate, 美国38%的银行都是区域储备银行的成员，剩下包括民间的私人的小银行地域银行等等. 举例来说2020年中国人民银行公布的贷款基准利率是：一年以内(含一年)贷款利率4.35%，暴雷的蛋壳公寓的微众银行给个人贷款的利率是8.8%而且是消费贷（实际已经很良心了-蛋壳补贴），对于民企贷款利率10个点以上都很正常（还想贷贷不到）。对比一下京东的白条和阿里的花呗，简单的转换下日利息和每期费率（这些词容易迷惑，让人以为便宜，更利于冲动消费），套用下公式和计算，大概白条是18.4%和16.4%，实际利率不低，借呗的甚至接近民间借贷（规定应不超过26.24%）的利率。
 
 所以我们看到利率有短期到长期的传导时间上，也有垂直方面的传导 。 这个传导的依据就是信誉值了。谁的信誉值高（大公司大银行），抵押物或者资产多，风险越低，那么能拿到利率就低；相反如果你经济实力不太行（个体商户），尽管可能事物有前途，但是风险高，那么相对应的要么你拿到利率高或者你让出的未来利益多（风投）；总的来说这套机制对于大的银行家，金融机构和大企业显得更有利，对于普通的个人和小公司小银行来说就不是那么友好。趋利避害，这套架构，某方面来说也是人性的一种体现吧，但是谁能知道当发生人性的扭曲道德的沦丧时会发生什么了？ 谁来制衡这套机制不会过度偏颇走极端了，大概率顶部的越来越集中了？  
 
-这块我们会结合1980的罗根卷第经济学和美国后面的贫富风哈和国会的监督和杨慧山脚。
-
-
 ## 1929-1933 大萧条
 <hr/>
 
-帝国的荣光：1914年之前英镑是世界货币，英镑和黄金挂钩（实际是金块bullion)。英国是头号帝国主义国家，其他国家货币锚定在英镑上面，英镑和黄金绑定，形成所谓的黄金交换标准。英格兰银行也是欧洲各国效仿的对象，除了美国。黄金和资本的流动是自由的，使用同样的世界货币(英镑），拥有差不多一样的法律和监管体系（源自英格兰银行），国际间的贸易和投资变得非常容易。1914年44%的全球 Net foreign investment（外资）来自英国，20%来法国，13%来德国。这些投资都流向了当时的新兴市场（更高的收益率，上面提到的JPMorgan）-美国（就像现在的中国）和拉美国家，非洲等。1870年到1914年，世界贸易跟GDP的比列从10%涨到了21%，这些投资推动了整个世界的发展。同时因为金本位带来的货币的稳定性，各国政府的长期债券的回报率都是比较低的水平- 跟今天央行各种骚操作黑魔法相比-当时的是比较真实反映了现实因为金本位支撑而长期稳定的宏观经济的乐观期望。
+帝国的荣光：1914年之前英镑是世界货币，英镑和黄金挂钩（实际是金块bullion)。英国是头号帝国主义国家，其他国家货币锚定在英镑上面，英镑和黄金绑定，形成所谓的黄金交换标准。英格兰银行也是欧洲各国效仿的对象，除了美国。黄金和资本的流动是自由的，使用同样的世界货币(英镑），拥有差不多一样的法律和监管体系（源自英格兰银行），国际间的贸易和投资变得非常容易。1914年44%的全球 Net foreign investment（外资）来自英国，20%来法国，13%来德国。这些投资都流向了当时的新兴市场（更高的收益率，上面提到的摩根）-美国（就像现在的中国）和拉美国家，非洲等。1870年到1914年，世界贸易跟GDP的比列从10%涨到了21%，这些投资推动了整个世界的发展。同时因为金本位带来的货币的稳定性，各国政府的长期债券的回报率都是比较低的水平- 跟今天央行各种骚操作黑魔法相比-当时的是比较真实反映了现实因为金本位支撑而长期稳定的宏观经济的乐观期望。
 
-1914年 欧洲大陆发生了一战，跟林肯一样，为了筹集足够的钱来应付战争的开销，英国暂停了金本位，暂定了英镑和金块的兑换，随后其他国家也跟上。
+1914年 欧洲大陆发生了一战，跟林肯一样，为了筹集足够的钱来应付战争的开销，英国暂停了金本位，暂停了英镑和金块的兑换，随后其他国家也跟上。
 
 ![inflation_ir](https://user-images.githubusercontent.com/491610/107039002-50cb8e80-67f8-11eb-9bae-64aa8033a500.jpg)
 
@@ -305,15 +297,15 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 中国一开始因为货币少（这里假设不是美元或者人民币，货币指的就是黄金，因为货币锚定），价格低，不断生成商品，进而出口到美国；此时美国需要将黄金给中国，于是中国积累黄金（净流入国），此时货币>商品产出，钱越来越多，于是通货膨胀，人们希望今天就买东西，否则明天会贬值，此时造成工厂的工资和成本上身，进而再次带动价格上升，出口的吸引力下降；作为美国（净流出国）货币越来越少，人们手头上的钱变少了，购买的欲望下降，造成紧缩，工厂停止生产，进一步带动价格下降，到某个地步，生产商品的成本也会降低（相对而言），从而提高了出口产品价格的吸引力，形式又反转过来了； 
 
-某种程度上，金本位带来了一种自动平衡国际家收支进而稳定通货膨胀或紧缩的效果，缺点也很明显当经济出现危机时，某个局部或者国家没有掌控自己内部的货币体系，失去了灵活度，很难通过贬值注入货币供给，只能是通货紧缩财政收紧砍掉公共福利等开支（由奢入俭难），失去了国家部分主权，比如后来的欧元区的希腊的债务危机，到现在都有重回之前货币德拉克马的呼声，在Brexit单词的来源正是[Grexit](https://blog.xolo.io/understanding-brexit#hs_cos_wrapper_post_body:~:text=.%20The%20original%20text%20took%20inspiration,already%20forgotten%20he'd%20ever%20used%20it.).
+某种程度上，金本位带来了一种自动平衡国际家收支进而稳定通货膨胀或紧缩的效果，缺点也很明显当经济出现危机时，某个局部或者国家没有掌控自己内部的货币体系，失去了灵活度，很难通过贬值注入货币供给，只能是通货紧缩财政收紧砍掉公共福利等开支（由奢入俭难），失去了国家部分主权，比如后来的欧元区的希腊的债务危机，到现在都有重回之前货币德拉克马的呼声，在Brexit单词的来源正是希腊脱欧[Grexit](https://blog.xolo.io/understanding-brexit#hs_cos_wrapper_post_body:~:text=.%20The%20original%20text%20took%20inspiration,already%20forgotten%20he'd%20ever%20used%20it.).
 
 英国想回到大战前英国在国际贸易上的统治地位，而这个统治地位是稳定基于价值围绕其他货币的兑换比例英镑的内在价值 - 购买力。
 
-现在英镑大幅度贬值（超发），购买力严重下降，所以黄金的内在价值无法体现，就会流出英国，进入购买力强（保持金本位）的美国。现在英国英国不是为了抑制通货膨胀或者回到帝国荣光立刻回到金本位，而是效仿美国内战，慢慢的缩紧和稳定住货币量，营造一个稳定的货币环境，依靠经济发展的产出慢慢的提升货币的购买力，而不是立刻的紧缩。美国花了15年才回到金本位，英国1925年回到了金本位（大概是7年时间），不要忽略英国这次不是内战，而是欧洲的大站，战后各国都想以邻为壑比对方先恢复过来。
+现在英镑大幅度贬值（超发），购买力严重下降，所以黄金的内在价值无法体现，就会流出英国，进入购买力强（保持金本位）的美国。现在英国英国不是为了抑制通货膨胀或者回到帝国荣光立刻回到金本位，而是效仿美国内战，慢慢的缩紧和稳定住货币量，营造一个稳定的货币环境，依靠经济发展的产出慢慢的提升货币的购买力，而不是立刻的紧缩。美国花了15年才回到金本位，英国1925年回到了金本位（大概是7年时间），不要忽略英国这次不是内战，而是欧洲的大战，战后各国都想以邻为壑比对方先恢复过来，所以外部形势更加恶劣。
 
 1920年4月份，通过削减政府开支和提高利率导致了价格的下跌，伴随着的是大量的失业。1921年紧缩政策-大量的财政削减帮助减少政府的赤子，同时减少了英镑的流通量也使得英镑的购买力相对美元而言开始回升，但是也导致大量的罢工。1925年丘吉尔正式宣布英国重回金本位。重回金本位之后因为英镑的升值导致出口竞争力大幅度下降，大量工作机会消失，出现了一段滞涨经济衰退时期。欧洲其他国家就比较狡猾： 一个原因是其他欧洲国家陆陆续续回归金本位，所以他们相对英国有对应的出口优势（货币贬值）；另外他们没有将兑换比例回归到站前的水平，实际要更低一点，造成了实际上相对英国仍是贬值，出口的价格更低，吸引力更多；比如法国积累大量的黄金，由于英国的影响力下降和目前各国互相冲突以各自利益为主，实际上回到了重商主义，直接也导致金本位的底层基础已经出现了动荡。1926年失业率激增，因为紧缩，更是基于对于将来的继续紧缩，英国爆发了1926年的大罢工[1926 United Kingdom general strike](https://en.wikipedia.org/wiki/1926_United_Kingdom_general_strike)，英国最重要的工业领域-煤矿工人组织工会要求政府组织工资降低和更恶劣的工作条件，更长的工作时间。英国这个情况令其他跟他竞争恢复的国家法国，德国，比利时等等很忧虑，因为他们手上持有很多世界货币英镑了，此时邻居英国看起来要跨了，感觉把英镑兑换成黄金靠谱点，于是争相挤兑英镑，造成了对英镑的信任危机。
 
-英国差点没破产倒闭，没倒闭的原因是大西洋彼岸有一个被自己国会嘲笑为Eurocentric欧洲中心论的美联储主席[本杰明·斯特朗（Benjamin Strong）](https://en.wikipedia.org/wiki/Benjamin_Strong_Jr.)。斯特朗也是当年 luxurious [Jekyll Island](https://en.wikipedia.org/wiki/Jekyll_Island) Hunt Club 的一员，参与了私密定制美联储草稿的会议。他极力想促成欧洲重返金本位，特别是对英国特别的上心，以英国利益为先。1924年英国返回金本位之前，他就想通过降低美国的利率，通货膨胀，使得美元可以贬值，因为英国背负了大量的战争欠款（以美元为单位计算的，不是英镑），这样英国就可以减轻债务，以希望可以保持英国国内的紧缩的高利率，方便回到金本位。这是1924年斯特朗自己的话(Murray N. Rothbard, America’s Great Depression (5th edition), Mises Institute, Auburn, AL 2000 p. 147)：
+英国差点没破产倒闭，没倒闭的原因是大西洋彼岸有一个被自己国会嘲笑为Eurocentric欧洲中心论的美联储主席[本杰明·斯特朗（Benjamin Strong）](https://en.wikipedia.org/wiki/Benjamin_Strong_Jr.)。斯特朗也是当年[Jekyll Island](https://en.wikipedia.org/wiki/Jekyll_Island) Hunt Club 的一员，参与了私密定制美联储草稿的会议。他极力想促成欧洲重返金本位，特别是对英国特别的上心，看起来更像以英国利益为先。1924年英国返回金本位之前，他就想通过降低美国的利率，通货膨胀，使得美元可以贬值，因为英国背负了大量的战争欠款（以美元为单位计算的，不是英镑），这样英国就可以减轻债务，以希望可以保持英国国内的紧缩的高利率，方便回到金本位。这是1924年斯特朗自己的话(Murray N. Rothbard, America’s Great Depression (5th edition), Mises Institute, Auburn, AL 2000 p. 147)：
 
 > …the burden of this readjustment must fall more largely upon us than upon them (Great Britain). It will be difficult politically and socially for the British Government and the Bank of England to face a price liquidation in England… in face of the fact that their trade is poor and they have over a million unemployed people receiving government aid.”
 
@@ -327,37 +319,36 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 > 经济学家[欧文·费雪](https://zh.wikipedia.org/wiki/欧文·费雪)Irving Fisher甚至立下名言，宣称“股价已经立足于像永恒的高地上”（Stock prices have reached what looks like a permanently high plateau）
 
-折让斯特朗有点忧心，但是他感觉别无他法-低利率是为了帮助欧洲国家（特别是英国）能重回金本位，回到当年稳定的金融货币体系。1929年斯特朗过世后一年美国发生了股市大奔溃，直接开始了多年的经济萧条。胡佛总统的顾问 Adolph Miller当时的FED成员之一责怪斯特朗的信贷宽松是："*father and mother to the subsequent 1929* collapse".
+这个开始让斯特朗有点忧心，但是他感觉别无他法-低利率是为了帮助欧洲国家（特别是英国）能重回金本位，回到当年稳定的金融货币体系。1929年斯特朗过世后一年美国发生了股市大奔溃，直接开始了多年的经济萧条。胡佛总统的顾问 Adolph Miller当时的FED成员之一责怪斯特朗的信贷宽松是："*father and mother to the subsequent 1929* collapse".
 
 ![1929bubble](https://user-images.githubusercontent.com/491610/107038955-401b1880-67f8-11eb-9fcb-1a075e97e376.jpg)
 
-（来源:https://schiffgold.com/guest-commentaries/the-story-of-benjamin-strong-how-fatal-conceit-wrecks-economies/)
+<cite>来源:https://schiffgold.com/guest-commentaries/the-story-of-benjamin-strong-how-fatal-conceit-wrecks-economies/</cite>
 
-有意思的：同样的美联储的主席格林斯潘在techbubble之后开启了低利率，导致了2008的经融危机。
+有意思的：同样的美联储的主席格林斯潘在2000年dotnet泡泡之后开启了低利率，间接导致了2008的经融危机的发生。
 
-1929年10月的股市大奔溃引起了多米诺效应，因为金本位的制度和美国当时的经济地位，实际上如同在水塘中投下了原子弹。欧洲银行陆续出现了挤兑，恐慌情绪漫步了整个欧洲，人们想兑换回来黄金和更强的外汇，是的各国央行的黄金储备不足。很快各国央行暂停了黄金兑换和外汇流通，同时各国又一次也跟群众一样迫切去英国（黄金中央银行）挤兑黄金。由于黄金挤兑和恶性套利[Speculative_attack](https://en.wikipedia.org/wiki/Speculative_attack)（可以联想到97年的东南亚金融危机），迫使英国1931年退出了金本位，其他欧洲国家陆陆续续退出了。金本位让各国在正常时期有了稳定的货币体系，促进了贸易的流通，但是到了危机时刻，这种共识就不复存在了，每个国家都自己为先，而金本位没办法让央行有灵活的货币政策，只能在情况最糟糕的情况下采取紧缩的方式（本应该印钱下调利率，贬值，扩大支出），进一步限制了经济复苏的可能和延长了时间。同时1930年的斯姆特-霍利关税法案（The Smoot-Hawley Tariff Act）更是让阻断了各国的贸易往来，恶性竞争和报复性关税，使得各国进入了一个恶性循环，全球贸易量大幅度减少。
+1929年10月的股市大奔溃引起了多米诺效应，因为金本位的制度和美国当时的经济地位，实际上如同在水塘中投下了原子弹。欧洲银行陆续出现了挤兑，恐慌情绪漫步了整个欧洲，人们想兑换回来黄金和更强的外汇，是的各国央行的黄金储备不足。很快各国央行暂停了黄金兑换和外汇流通，同时各国又一次也跟群众一样迫切去英国（黄金中央银行）挤兑黄金。由于黄金挤兑和恶性套利[Speculative_attack](https://en.wikipedia.org/wiki/Speculative_attack)（可以联想到97年的东南亚金融危机），迫使英国1931年退出了金本位，其他欧洲国家陆陆续续退出了。金本位让各国在正常时期有了稳定的货币体系，促进了贸易的流通，但是到了危机时刻，这种共识就不复存在了，每个国家都自己为先，而金本位没办法让央行有灵活的货币政策，只能在情况最糟糕的情况下采取紧缩的方式（本应该印钱下调利率，贬值，扩大支出），进一步限制了经济复苏的可能和延长了时间。同时1930年的斯姆特-霍利关税法案（The Smoot-Hawley Tariff Act）更是让阻断了各国的贸易往来，恶性竞争和报复性关税，使得各国进入了一个恶性循环，全球贸易量大幅度减少。果然率先脱离金本位之后英国也是经济最快恢复起来的。
 
-1932年[《Glass–Steagall legislation格拉斯-斯蒂格尔法案》](https://en.wikipedia.org/wiki/Glass%E2%80%93Steagall_legislation)规定投资银行业务和商业银行业务严格地划分开，前者从事提存及[贷款](https://zh.wikipedia.org/wiki/贷款)业务，后者则从事[包销](https://zh.wikipedia.org/w/index.php?title=包銷&action=edit&redlink=1)、发行及分配[股票](https://zh.wikipedia.org/wiki/股票)、[债券](https://zh.wikipedia.org/wiki/債券)及其他[证券产品](https://zh.wikipedia.org/wiki/證券)的业务(如银行可以自己给自己贷款来做空股票，可以将坏的贷款证券化再次销售给投资者，从而放大了金融风险)。摩根银行被拆分为了JPMorgan商业银行也就是后来的跟大通银行（Chase Manhattan）合并为JPMorgan Chase和投行Morgan Stanley摩根斯坦利。(此法案和合并的事情还在后面提到， 现在美国最大的投行商行就是JP Morgan Chase)
+1932年[《Glass–Steagall legislation格拉斯-斯蒂格尔法案》](https://en.wikipedia.org/wiki/Glass%E2%80%93Steagall_legislation)规定投资银行业务和商业银行业务严格地划分开，前者从事提存及贷款业务，后者则从事包销、发行及分配股票、债券及其他证券产品的业务(如银行可以自己给自己贷款来做空股票，可以将坏的贷款证券化再次销售给投资者，从而放大了金融风险。摩根银行被拆分为了摩根商业银行也就是后来的跟大通银行（Chase Manhattan）合并为摩根 Chase和投行Morgan Stanley摩根斯坦利。(此法案和合并的事情还在后面提到， 现在美国最大的投银行就是JP Morgan Chase)
 
-1933年大萧条之后的第四年， 对于金融机构的不信任，鉴于群众挤兑的情况在美国也越来越严重，国会通过了[《1933年紧急银行法案》（Emergency Banking Act of 1933）](https://en.wikipedia.org/wiki/Emergency_Banking_Act)，总统宣布了四天的银行假期（暂停兑换）清算银行资产，美联储承诺提供无限量的货币来支持重新开业的银行，银行储蓄保险，恢复群众对金融体系的信任。罗斯福利用电台收音机(根据这篇文章[Radio: The Internet of the 1930s](https://www.apmreports.org/episode/2014/11/10/radio-the-internet-of-the-1930s)-1930年，40%的美国人有收音机，相当于今天的电视机和手机）来向全国人民说明国家的状态和政府的措施，帮助人民恢复信心，也被称为了Fireside Chat, 这个也是挺罕见的平民沟通方式了。
+1933年大萧条之后的第四年， 对于金融机构的不信任，鉴于群众挤兑的情况在美国也越来越严重，国会通过了[《1933年紧急银行法案》（Emergency Banking Act of 1933）](https://en.wikipedia.org/wiki/Emergency_Banking_Act)，总统宣布了四天的银行假期（暂停兑换）清算银行资产，美联储承诺提供无限量的货币来支持重新开业的银行，银行储蓄保险FDIC(存款即使没了国家政府来赔），恢复群众对金融体系的信任。罗斯福利用电台收音机(根据这篇文章[Radio: The Internet of the 1930s](https://www.apmreports.org/episode/2014/11/10/radio-the-internet-of-the-1930s)-1930年，40%的美国人有收音机，相当于今天的电视机和手机）来向全国人民说明国家的状态和政府的措施，帮助人民恢复信心，也被称为了Fireside Chat炉边谈话, 这个也是首创平民沟通方式。
 
 >“I can assure you that it is safer to keep your money in a reopened bank than under the mattress.”
 >– President Franklin Roosevelt in his first Fireside Chat, March 12, 1933 
 
-来源：https://www.federalreservehistory.org/essays/emergency-banking-act-of-1933
+<cite>来源：https://www.federalreservehistory.org/essays/emergency-banking-act-of-1933</cite>
 
 同时法令也赋予总统在危机时刻脱离美联储能独立运作货币政策的权利 - 也就是现在总统可以直接做美联储的事情 - 管制外汇市场和黄金白银。
 
 > Expanded presidential authority during a banking crisis, including retroactive approval of the banking holiday and regulation of all banking functions, including “any transactions in foreign exchange, transfers of credit between or payments by banking institutions as defined by the President, and export, hoarding, melting, or earmarking of gold or silver coin.”
 
-进一步的，1934黄金储备法案[Gold Reserve Act](https://en.wikipedia.org/wiki/Gold_Reserve_Act)国有化黄金,禁止私人持有黄金，美联储交出持有的黄金和金券给到财政部，禁止用美元兑换黄金，禁止黄金出口，确立美元和黄金的比列。随后罗斯福将美元和黄金的比列下调，从1ounce黄金对应 $20.67 降到了1黄金对应 $35，这个比列一直持续到1971年。美元的贬值，禁止私人持有黄金，跟美国内战之后的废除银币是一样的，迫使你交出黄金，拿回美元，扩大货币的供给，有助于经济的恢复。
+进一步的，1934黄金储备法案[Gold Reserve Act](https://en.wikipedia.org/wiki/Gold_Reserve_Act)国有化黄金,禁止私人持有黄金，美联储交出持有的黄金和金券给到财政部，禁止用美元兑换黄金，禁止黄金出口，确立美元和黄金的比列。随后罗斯福将美元和黄金的比列下调，从1ounce黄金对应20.67降到了1黄金对应35，这个比列一直持续到1971年。美元的贬值，禁止私人持有黄金，跟美国内战之后的废除银币是一样的，迫使你交出黄金，拿回美元，扩大货币的供给，有助于经济的恢复。
 
-这些危机时的经济和社会改革的政策([新政New Deal](https://en.wikipedia.org/wiki/New_Dea))，可以看出政府的权利其实是扩大了的。我们看罗斯福在写给当时美联储主席时候的一封信中说委婉的说到他的政府的政策并不会干扰美联储的使命。但是后面前美联储主席提到罗斯福的信更像是一份悼词（来源federalreservehistory的[Gold Reserve Act of 1934](https://www.federalreservehistory.org/essays/gold-reserve-act)：
+这些危机时的经济和社会改革的政策([新政New Deal](https://en.wikipedia.org/wiki/New_Dea))，可以看出政府的权利其实是扩大了的。我们看罗斯福在写给当时美联储主席时候的一封信中说委婉的说到他的政府的政策并不会干扰美联储的使命。但是后面前美联储主席提到罗斯福的信更像是一份悼词（来源官方历史的[《Gold Reserve Act of 1934》](https://www.federalreservehistory.org/essays/gold-reserve-act)：
 
 >“The plain and unvarnished fact is that the Federal Reserve System of today is not the one established 20 years ago, any more than it is the system which existed a year back. The present organization has been shorn of its power to formulate an independent credit policy and it can no longer regulate the flow of funds into and out of this country, as it did when the United States was on the gold standard. The gold reserve act of 1934 not only took from the system all of its gold, but in doing so definitely deprived it of future control over gold movements, although of course that power had been lost as a result of the gold embargo and subsequent monetary manipulations. With the passage of this act, therefore, the central banking system of this country formally surrendered one of the chief privileges and duties which it had exercised prior to suspension of gold payments. … **The Administration has assumed responsibility for defining our monetary policies”** (Washington Post  February 17, 1934, 8).
 
-所以怎么说了？美联储不给力啊，所以货币政策你别来了，让财政部给你设计就好了。美联储就像是财政部的代理人，执行财政部的政策。至此之后美联储一直没有夺回到货币政策的控制权，直到1951年的[《Treasury-Fed Accord》](https://www.federalreservehistory.org/essays/treasury-fed-accord)（因为二战的战争债券的回报率）。
-
+所以怎么说了？美联储不给力啊，所以货币政策你别来了，让财政部给你设计就好了。美联储就像是财政部的代理人，执行财政部的政策。至此之后美联储一直没有夺回到货币政策的控制权，直到1951年的[《Treasury-Fed Accord》](https://www.federalreservehistory.org/essays/treasury-fed-accord)（还是因为二战的战争债券的回报率的争端）。
 
 
 ![1929_can](https://user-images.githubusercontent.com/491610/107049337-ee2cbf80-6804-11eb-9e2d-71b1275cb7a9.jpg)
@@ -365,34 +356,32 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 上图美国大萧条时期的银行倒闭率和失业率，来自美联储主席本伯南克 [Ben Bernanke](https://en.wikipedia.org/wiki/Ben_Bernanke)在2012年在乔治华盛顿大学的课程[《The Federal Reserve and the Financial Crisis》](https://www.federalreserve.gov/aboutthefed/educational-tools/chairmans-lecture-series-about.htm)，讲了美联储的历史和使命，二战之后的历程，2008金融危机的应对和危机的余波，非常不错的课程。
 
-因为后面金本位的问题，货币政策紧缩，没有提供足够的信贷支持，是造成大萧条那么长的一个原因.弗里德曼认为从1929到1933年，美联储没有释放信贷，增加货币供给，反而压缩信贷，导致人们没钱可花，价格下跌，收入下降，失业率增加，使得人们不得不把钱藏起来，应付更艰难的日子，进一步恶性循环。这个暂不争论，咱暂定认定本伯南克在[**On Milton Friedman's Ninetieth Birthday**](https://www.federalreserve.gov/boarddocs/speeches/2002/20021108/default.htm)说的：
+因为后面金本位的问题，货币政策紧缩，没有提供足够的信贷支持，是造成大萧条那么长的一个原因.弗里德曼认为从1929到1933年，美联储没有释放信贷，增加货币供给，反而压缩信贷，导致人们没钱可花，价格下跌，收入下降，失业率增加，使得人们不得不把钱藏起来，应付更艰难的日子，进一步恶性循环。这个暂不争论，咱暂定认定本伯南克在[《On Milton Friedman's Ninetieth Birthday》](https://www.federalreserve.gov/boarddocs/speeches/2002/20021108/default.htm)说的：
 
 > "Let me end my talk by abusing slightly my status as an official representative of the Federal Reserve. I would like to say to Milton and Anna: Regarding the Great Depression, you're right. We did it. We're very sorry. But thanks to you, we won't do it again.
 
-但是为什么有了美联储，银行倒闭破产的还是有这么多了？不是有美联储提供流动性的么，实际上美联储却在相反紧缩流动性进一步加剧了银行的破产。 原因目前的说法是斯特朗在1920年经济飞涨的时候实施了上面提到的欧文费雪(Irving Fisher)的价格稳定策略(price stabiltiy).欧文费雪提出应该保持一定数目的货币来保证社会商品的价格看起来稳定，比如商品产出增加，那么相应的提供对应数目的货币，让价格保持平稳。但是当斯特朗1928年死后，这个政策和低利率等等政策完全翻转（黑格尔正反合），取而代之是[real bills doctrine](https://en.wikipedia.org/wiki/Real_bills_doctrine)指的货币的数目应该有其背后支撑的实际商品。结合提高利率，其目的在于打击投机倒把，降低市场热度，本意是好的。但是这样的话，货币的供给就是大幅度降低，大概下降了1/3，这种信用收缩使得更多的银行倒闭，最后9700/25000家大概是38%左右的银行暂定倒闭，直到罗斯福的银行储蓄保险才终止挤兑倒闭潮。
+但是为什么有了美联储，银行倒闭破产的还是有这么多了？不是有美联储提供流动性的么，实际上美联储却在相反紧缩流动性进一步加剧了银行的破产。 原因目前的说法是斯特朗在1920年经济飞涨的时候实施了上面提到的欧文费雪(Irving Fisher)的价格稳定策略(price stabiltiy).欧文费雪提出应该保持一定数目的货币来保证社会商品的价格看起来稳定，比如商品产出增加，那么相应的提供对应数目的货币，让价格保持平稳。但是当斯特朗1928年死后，这个政策和低利率等等政策完全翻转（矫枉必须过正），取而代之是[real bills doctrine](https://en.wikipedia.org/wiki/Real_bills_doctrine)指的货币的数目应该有其背后支撑的实际商品。结合提高利率，其目的在于打击投机倒把，降低市场热度，本意是好的。但是这样的话，货币的供给就是大幅度降低，大概下降了1/3，这种信用收缩使得更多的银行倒闭，最后9700/25000家大概是38%左右的银行暂定倒闭，直到罗斯福的银行储蓄保险才终止挤兑倒闭潮。
 
 看的出来美联储在1929-1933年这期间的操作并没有缓解萧条情况，反而加剧了经济局面，也难怪罗斯福一把夺回了它的权利。私人银行家过的有点惨，显示投行和商行被拆分，管控越来越强，同时连本质工作都被政府抢去了。
 
 
 
-![cpi](https://user-images.githubusercontent.com/491610/107038978-47422680-67f8-11eb-9f03-b435c81de024.jpg)
-
-来源：https://www.alt-m.org/2018/08/23/world-war-i-gold-and-the-great-recession/
-
 ## 1971尼克松滞涨
 <hr/>
 
-二战后美国**马歇尔计划**（The Marshall Plan），官方名称为欧洲复兴**计划**（European Recovery Program），帮助美国对被战争破坏的西欧各国进行经济援助、协助重建的**计划**。
+二战后美国的马歇尔计划（The Marshall Plan），官方名称为欧洲复兴计划（European Recovery Program），是帮助美国对被战争破坏的西欧各国进行经济援助、协助重建的计划。
 
 美国人贷款援助欧洲，欧洲在从美国买物资，美国的商品制造和出口得到了很大的好处，往外一方面输出国内过剩的产能，一方面输出过剩的外汇也让刺激了欧洲经济，帮助欧洲快速重建，提供了潜在可能人口对于消费品产品的需求力。战后欧洲实际形成了以美国为主导核心的新秩序，使得欧洲对于美国的向心力大大增强，一举两得。
 
-1951年美联储和财政部协定之后https://www.federalreservehistory.org/essays/treasury-fed-accord，美联储得到渴望已久的独立性，终于可以通过提高利率来降低货币供给，希望将通胀率降下来。稍后的朝鲜战争(1950-1953)，和越南战争（1955-1975）耗费了美国大量的财力和人力。在越战美国前后期使用了不同的策略，但是总体来说越战是美国二战以来投入资金最多的战争，也付出近36万人伤亡的惨重代价。战争后期，尼克松凭借**沉默的大多数**（英语：**Silent Majority**）赢得了两次的大选。尼克松1973年结束了越战，和中国建交，同苏联博日涅夫签署协议控制核武器，这些都没有他水门事件带来的负面影响大（1972年大选尼克松横扫赢得了51个州中的50个；另外他在水门事件中骚操作，威胁甚至一度挑战了宪法的行为 - 到现在还是有点搞不明白）。经济方面，1968年的以通过《Civil Right Act 民权法案》出名的总统林登约翰逊，一方面扩大越战的开销，一方面搞大社会([Great Society](https://en.wikipedia.org/wiki/Great_Society))社会福利包括著名的[向贫困开战War On Poverty](https://en.wikipedia.org/wiki/War_on_poverty)和医保，进一步加大政府的开支，虽然刺激经济发展，但是通货膨胀率也跟着上升。经济的发展也使得美国进口大量的商品消费，大量用以支付的美元流出。 到1968年，美国有450亿的联邦储备券的负债，但是只有100亿的黄金，也是覆盖比例大概是22%了，而美联储法案当初要求的是40%。其他国外美元持有人于是去美联储要求兑换黄金（比列还是1933年罗斯福设置的比列1ounce= $35）,导致黄金储备进一步短缺。为了让美元能相对黄金升值，只能跟当年英国一年，提高利率到6%，1969年到了9%。但是挤兑还在继续，而且短期快速提高利率，容易造成经济的震荡，出现轻微的经济衰退，失业率攀升，1970年失业率从两年前3%到了6%，通胀率回到了比较稳定水平
+1951年美联储和财政部[协定](https://www.federalreservehistory.org/essays/treasury-fed-accord)之后，美联储得到渴望已久的独立性，终于可以通过提高利率来降低货币供给，希望将通胀率降下来。稍后的朝鲜战争(1950-1953)，和越南战争（1955-1975）耗费了美国大量的财力和人力。在越战美国前后期使用了不同的策略，但是总体来说越战是美国二战以来投入资金最多的战争，也付出近36万人伤亡的惨重代价。战争后期，尼克松凭借*沉默的大多数*（Silent Majority）赢得了两次的大选。尼克松1973年结束了越战，和中国建交，同苏联博日涅夫签署协议控制核武器，这些都没有他水门事件带来的负面影响大（1972年大选尼克松横扫赢得了51个州中的50个；另外他在水门事件中骚操作，威胁甚至一度挑战了宪法的行为 - 到现在还是有点搞不明白）。
 
-1971年尼克松为了总统选举，为了应对高失业率和轻度的通膨率推出[Nixon Shock的经济政策：
+经济方面，1968年的以通过《Civil Right Act 民权法案》出名的总统林登约翰逊，一方面扩大越战的开销，一方面搞大社会([Great Society](https://en.wikipedia.org/wiki/Great_Society))社会福利包括著名的[向贫困开战War On Poverty](https://en.wikipedia.org/wiki/War_on_poverty)和医保，进一步加大政府的开支，虽然刺激经济发展，但是通货膨胀率也跟着上升。经济的发展也使得美国进口大量的商品消费，大量用以支付的美元流出。 到1968年，美国有450亿的联邦储备券的负债，但是只有100亿的黄金，也是覆盖比例大概是22%了，而美联储法案当初要求的是40%。其他国外美元持有人于是去美联储要求兑换黄金（比列还是1933年罗斯福设置的比列1ounce= $35）,导致黄金储备进一步短缺。为了让美元能相对黄金升值，只能跟当年英国一年，提高利率到6%，1969年到了9%。但是挤兑还在继续，而且短期快速提高利率，容易造成经济的震荡，出现轻微的经济衰退，失业率攀升，1970年失业率从两年前3%到了6%，通胀率回到了比较稳定水平
+
+1971年尼克松为了总统选举，为了应对高失业率和轻度的通膨率推出Nixon Shock的经济政策：
 
 > Prosperity without war requires action on three fronts: We must create more and better jobs(创造多和好工作）; we must stop the rise in the cost of living（防止生活成本的上升）; we must protect the dollar from the attacks of international money speculators.（防止美元外汇市场投机套利）
 
-套利的理解这里就跟97年金融危机一样，固定外汇兑换的机制本质是以国家外汇储备为基础的（这里是黄金）。以索罗斯在泰国位列，假设当时泰铢兑换美元是100：1，泰国的央行为了维持住这个固定的兑换比列，就必在外汇市场不断购买和抛售美元泰铢；如果其他国家抛售的泰铢多了，价格下来了，比如1美元对应200泰铢，那么需要用自己的美元兑换泰铢，减少泰铢的供给，让泰铢升值。金融危机前，我先从泰国银行借了1百万泰铢，去外汇市场兑换了1万美元，我欠泰国银行100W泰铢；此时如果其他人或者机构有比泰国央行更多的外汇储备，恶意的做空，不断在外汇市场抛售泰铢，使得实际泰铢的价格下跌，泰国央行为了维持固定汇率，不得不将自己储备的美元来购买多出来的泰铢；如果美元不够用，子弹不够多，泰国政府无法控制，宣布不在挂钩，停止自由兑换。泰铢也不在具有价值，也开始抛售泰铢，泰国政府被迫宣布放弃固定汇率，当日泰铢暴跌。这样假设泰铢暴跌，现在1百万泰铢只能兑换1美元，那么我就要那1美元去兑换然后还款给泰国银行就行了，这样我就白白得到了10000 - 1 = 9999美元。
+套利的理解这里就跟97年金融危机一样，固定外汇兑换的机制本质是以国家外汇储备为基础的（这里是黄金）。以索罗斯在泰国位列，假设当时泰铢兑换美元是100：1，泰国的央行为了维持住这个固定的兑换比列，就必在外汇市场不断购买和抛售美元泰铢；如果其他国家抛售的泰铢多了，价格下来了，比如1美元对应200泰铢，那么需要用自己的美元兑换泰铢，减少泰铢的供给，让泰铢升值。金融危机前，我先从泰国银行借了1百万泰铢，去外汇市场兑换了1万美元，我欠泰国银行100W泰铢；此时如果其他人或者机构有比泰国央行更多的外汇储备，恶意的做空，不断在外汇市场抛售泰铢，使得实际泰铢的价格下跌，泰国央行为了维持固定汇率，不得不将自己储备的美元来购买多出来的泰铢；如果美元不够用，子弹不够多，泰国政府无法控制，宣布不在挂钩，停止自由兑换。泰铢也不在具有价值，也开始抛售泰铢，泰国政府被迫宣布放弃固定汇率，泰铢暴跌。这样假设泰铢暴跌，现在1百万泰铢只能兑换1美元，那么我就要那1美元去兑换然后还款给泰国银行就行了，这样我就白白得到了10000 - 1 = 9999美元。
 
 尼克松在[Nixon Ends Bretton Woods International Monetary System](https://www.youtube.com/watch?v=iRzr1QU6K1o)视频里讲解到的具体三个操作是：
 
@@ -400,25 +389,23 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 * 进口商品加税 (imposing a 10% [surcharge tax](https://en.wikipedia.org/wiki/Duty_(economics)) )
 * 取消国际美元黄金的兑换 ( unilateral cancellation of the direct international [convertibility](https://en.wikipedia.org/wiki/Convertibility) of the [United States dollar to gold](https://en.wikipedia.org/wiki/Gold_standard).[[](https://en.wikipedia.org/wiki/Nixon_shock#cite_note-1))
 
-控制物价和工资看起来很好，这里特别是指的工资和物价不能上涨。假设你现在工资不能提升，那么你的话费的购买欲也就不会提高，对于产品需求的降低，也使得企业很被动，他不能降低产品的价格来吸引消费者，还不能通过降低工资来降低成本，就只能是开除员工，这样更进一步降低了社会的总需求。一般来说控制物价只是战争时期的特殊做法，同样的这个也违背了自由市场的规则，政府可以[Economic Stabilization Act of 1970](https://en.wikipedia.org/wiki/Economic_Stabilization_Act_of_1970)被授权可以（总统）实施作为维护国内市场的商品和劳动力市场的统一价格项目 - 包括控制物价工资利息等等一些列价格。
+控制物价和工资看起来很好，这里特别是指的工资和物价不能上涨。假设你现在工资不能提升，那么你的花费的购买欲也就不会提高，对于产品需求的降低，也使得企业很被动，他不能降低产品的价格来吸引消费者，还不能通过降低工资来降低成本，就只能是开除员工，这样更进一步降低了社会的总需求。一般来说控制物价只是战争时期的特殊做法，同样的这个也违背了自由市场的规则，政府在[Economic Stabilization Act of 1970](https://en.wikipedia.org/wiki/Economic_Stabilization_Act_of_1970)法案中被授权可以（总统）实施作为维护国内市场的商品和劳动力市场的统一价格项目 - 包括控制物价工资利息等等一些列价格 - 直接影响市场。
 
-进口商品加税 - 主要是为了减少政府的财政赤字。加税的成本专家给出口商肯定不乐意，于是他们也提供商品的价格，是的进口产品的价格也跟着上来了，进一步增加了通胀，最后还是转嫁到了消费者身上。同时这种任意的加税也使得其他贸易伙伴的信任下降，其他人也纷纷印钱升高利率来来相对应的平衡。
+进口商品加税 - 主要是为了减少政府的财政赤字。加税的成本转嫁给出口商肯定不乐意，于是他们也提供商品的价格，是的进口产品的价格也跟着上来了，进一步增加了通胀，最后还是转嫁到了消费者身上。同时这种任意的加税也使得其他贸易伙伴的信任下降，其他人也纷纷印钱升高利率来来相对应的平衡。弗里德曼认为关税最后还是人民来买单。
 
-取消美元黄金的兑换，实现美元和黄金的脱钩，现在美元没有任何实体价值的贵金属支撑了，全靠无形的政府的信用，成为了
+取消美元黄金的兑换，实现美元和黄金的脱钩，现在美元没有任何实体价值的贵金属支撑了，全靠无形的政府的信用，成为了[法定货币（legal tender/*fiat* *money*）](https://baike.baidu.com/item/%E6%B3%95%E5%AE%9A%E8%B4%A7%E5%B8%81/3066697?fr=aladdin)：
 
-百度百科[法定货币（legal tender/*fiat* *money*）](https://baike.baidu.com/item/%E6%B3%95%E5%AE%9A%E8%B4%A7%E5%B8%81/3066697?fr=aladdin)：
+> 法定货币（legal tender/fiat money），是指不代表实质商品或货物，发行者亦没有将货币兑现为实物义务；只依靠政府的法令使其成为合法通货的货币。法定货币的价值来自拥有者相信货币将来能维持其购买力。货币本身并无内在价值(Intrinsic value)，也就是说，当纸币产生之后，法定货币实质上就是法律规定的可以流通的纸币
 
-> 法定货币（legal tender/fiat money），是指不代表实质商品或货物，发行者亦没有将货币兑现为实物义务；只依靠政府的法令使其成为合法[通货](https://baike.baidu.com/item/通货/8057546)的货币。法定货币的价值来自拥有者相信货币将来能维持其购买力。货币本身并无[内在价值](https://baike.baidu.com/item/内在价值/537586)（Intrinsic value），也就是说，当纸币产生之后，法定货币实质上就是法律规定的可以流通的[纸币](https://baike.baidu.com/item/纸币/251571)
+之前我们看到的困难时期（比如战争萧条），国家可以暂停纸币跟黄金的兑换（脱钩），但是在困难之后还是回慢慢回到可兑换性，现在第一次出现在和平时期国家不在允许恢复兑换性。钱从此开始就是无形的，这个直接影响了后续运行的整个经济的世界的规则。
 
-之前我们看到的困难时期（比如战争萧条），国家可以暂停纸币跟黄金的兑换（脱钩），但是在困难之后还是回慢慢回到可兑换性，现在第一次出现在和平时期国家不在允许恢复兑换性。钱从此开始就是无形的，这个直接影响了后续我们运行的整个经济的世界的规则。
-
-1973年尼克松彻底将美元和黄金脱钩，这个操作是的美元稍后大幅度贬值，通货膨胀率大幅度飙升，1973年8.7%，1974年12.3%，同时因为价格工资管控（虽然很快又取消了），但是已经造成了三个季度GDP负增长，失业率也上升到1974年7.2%， 1975年的9%，利率从74-75年时期始终是10%以上。火上浇油的是，[1973的OPEC石油禁运(1970s energy crisis - 包括1973石油危机和1979年能源危机)](https://en.wikipedia.org/wiki/1970s_energy_crisis)造成了油价的大幅度上升，进一步让经济形势恶化。
+1973年尼克松彻底将美元和黄金脱钩，这个操作是的美元稍后大幅度贬值，通货膨胀率大幅度飙升，1973年8.7%，1974年12.3%，同时因为价格工资管控（虽然很快又取消了），但是已经造成了三个季度GDP负增长，失业率也上升到1974年7.2%， 1975年的9%，利率从74-75年时期始终是10%以上。火上浇油的是，1973的OPEC石油禁运(1970s energy crisis - 包括1973石油危机和1979年能源危机）造成了油价的大幅度上升，进一步让经济形势恶化。
 
 ![1970misery](https://user-images.githubusercontent.com/491610/107038958-41e4dc00-67f8-11eb-942c-8ef2bb9f968e.jpg)
 
-(https://inflationdata.com/articles/inflation-cpi-consumer-price-index-1970-1979/)
+<cite>来源:https://inflationdata.com/articles/inflation-cpi-consumer-price-index-1970-1979/</cite>
 
-[stagflation滞胀](https://www.thebalance.com/what-is-stagflation-3305964)指的就是这一时期停滞的经济增长，搞失业率和搞通胀率的统称。理论上来说弱经济和高通胀是不能同时发生的，一般说经济弱需求不振，总需求下降，那么价格就会下降，是不会发生通胀 。主流观点是尼克松政府的介入加上石油危机，就是上面提到的三个操作，人为的打破了自然的循环，使得看似不可能的现象发生了： 输入性通胀+价格工资控制。
+[Stagflation滞胀](https://www.thebalance.com/what-is-stagflation-3305964)指的就是这一时期停滞的经济增长，搞失业率和搞通胀率的统称。理论上来说弱经济和高通胀是不能同时发生的，一般说经济弱需求不振，总需求下降，那么价格就会下降，是不会发生通胀 。主流观点是尼克松政府的介入加上石油危机，就是上面提到的三个操作，人为的打破了自然的循环，使得看似不可能的现象发生了： 输入性通胀+价格工资控制。
 
 这里要提到美联储的使命是什么？美联储的官方网站[What economic goals does the Federal Reserve seek to achieve through its monetary policy?](https://www.federalreserve.gov/faqs/what-economic-goals-does-federal-reserve-seek-to-achieve-through-monetary-policy.htm)是这么说的：
 
@@ -426,7 +413,7 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 失业率和稳定的价格（适度的通货膨胀）都是政府和美联储追求的双重使命，但是明显政府这边是帮倒忙了，美联储这边了？
 
-在货币政策方面，这段时间内，美联储一直在紧缩和扩展之间不断调整利率，有通货膨胀就调高利率，紧缩萧条就调低利率，跟这阵子的财政政策和外部石油危机一样，反复无常[也被称称为Stop-Go Monetary Policy](https://www.federalreservehistory.org/essays/recession-of-1981-82#:~:text=In%20the%201970s%2C%20the%20Fed,supply%20and%20target%20lower%20unemployment.)，普遍认为这样的货币政策使得商业投资变得摸不着头脑（对于商业来说很重要的是稳定的预期和政策），所以反而加剧了滞涨的情况。1960年代为了最大化就业，美联储一直保持这低利率，是的大量的货币进入流通；基于此，弗里德曼分析之后第一个用货币理论成功预测了1970年代的滞涨现象，他认为通胀是政府收取的另外一种税，这种税只跟货币供给有关，跟工会或是不同国家情况没有关系[1978: Milton Friedman Speaks: Money and Inflation (B1230) - Full Video](https://www.youtube.com/watch?v=B_nGEj8wIP0&ab_channel=FreeToChooseNetwork)。他简单描述了什么是通货膨胀：
+在货币政策方面，这段时间内，美联储一直在紧缩和扩展之间不断调整利率，有通货膨胀就调高利率，紧缩萧条就调低利率，跟这阵子的财政政策和外部石油危机一样，反复无常也被称称为[Stop-Go Monetary Policy](https://www.federalreservehistory.org/essays/recession-of-1981-82#:~:text=In%20the%201970s%2C%20the%20Fed,supply%20and%20target%20lower%20unemployment.)，普遍认为这样的货币政策使得商业投资变得摸不着头脑（对于商业来说很重要的是稳定的预期和政策），所以反而加剧了滞涨的情况。1960年代为了最大化就业，美联储一直保持这低利率，是的大量的货币进入流通；基于此，弗里德曼分析之后第一个用货币理论成功预测了1970年代的滞涨现象，他认为通胀是政府收取的另外一种税，这种税只跟货币供给有关，跟工会或是不同国家情况没有关系[1978: Milton Friedman Speaks: Money and Inflation (B1230) - Full Video](https://www.youtube.com/watch?v=B_nGEj8wIP0&ab_channel=FreeToChooseNetwork)。他简单描述了什么是通货膨胀：
 
 > Inflation is Too much money chasing too few goods. （通货膨胀就是太多钱追着太少的商品）
 
@@ -440,9 +427,9 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 这套理论在平常可能没有问题，但是凯恩斯在大萧条的发现大量的人失业，这个已经是古典学派“不存在非自愿失业”的论点无法解释的。他认为在在经济萧条情况下，即使大量工人失业，企业也不一定会用低工资招人，因为需求没了，你生产出来商品没有人要，价格再低也没用，因为消费者的钱都藏起来了，可能明天的价格更低，不如有钱在手（巴菲特还说在危机时刻掌握现金最保险了 - 也就是[有效需求](https://zh.wikipedia.org/wiki/%E6%9C%89%E6%95%88%E9%9C%80%E6%B1%82)降低，有钱但是不愿意消费）；另外此时银行即使有钱也不会轻易放贷出去，进一步恶化情况；
 
-这种情况自由放任的经济就陷入困境，如果不介入，无形的手说不定可以慢慢恢复但是政治成本太高（有争论）；凯恩斯认为政府应该增加投资支出来恢复经济，比如08年我们的财政部的4万亿财政计划，他说*财政部可以把钱装在瓦罐里，埋在废弃的煤矿里，让资本家雇人去挖就可以启动经济,从而提供就业和收入*. 
+这种情况自由放任的经济就陷入困境，如果不介入，无形的手说不定可以慢慢恢复但是政治成本太高（有争论）；凯恩斯认为政府应该增加投资支出来恢复经济，比如08年我们的财政部的4万亿财政计划，他说`财政部可以把钱装在瓦罐里，埋在废弃的煤矿里，让资本家雇人去挖就可以启动经济,从而提供就业和收入`. 
 
-简单的说：凯恩斯主义认为失业与通货膨胀是成反比的。比如通胀是因为低失业率，也就是有效需要高，需要大于供给，当经济好时，人们愿意消费，使得物资价格上升；当出现高失业率时，需求小于供给，导致价格下跌，也就是少消费的通过紧缩；这个关系反映在[菲利普斯曲线](https://zh.wikipedia.org/wiki/%E5%81%9C%E6%BB%AF%E6%80%A7%E9%80%9A%E8%B2%A8%E8%86%A8%E8%84%B9)上。而货币主义认为通货膨胀从根本上讲是一种货币现象。（http://www.eeo.com.cn/2009/1216/158239.shtml）
+简单的说：凯恩斯主义认为失业与通货膨胀是成反比的。比如通胀是因为低失业率，也就是有效需要高，需要大于供给，当经济好时，人们愿意消费，使得物资价格上升；当出现高失业率时，需求小于供给，导致价格下跌，也就是少消费的通过紧缩；这个关系反映在[菲利普斯曲线](https://zh.wikipedia.org/wiki/%E5%81%9C%E6%BB%AF%E6%80%A7%E9%80%9A%E8%B2%A8%E8%86%A8%E8%84%B9)上。而货币主义认为通货膨胀从根本上讲是一种货币现象。
 
 凯恩斯主义的失效，标注着货币主义的兴起。打个比方，如果说经济发展像是开车的话，之前只有凯恩斯主义的一副油门和一副刹车，但是目前这个失效了，车控制不住了；怎么办了？那就试试再加一份油门和刹车-货币主义。
 
@@ -451,20 +438,20 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 ## 1980里根经济学-新自由主义
 <hr/>
 
-自从尼克松之后的福特和卡特两节总统内，高通胀高失业率和经济停滞一直是一个问题。有意思的是现在全世界都陷入了通缩的节奏，那个时候通胀确实给美国人带来了非常痛苦的回忆，两相对比令人唏嘘。为了控制通货膨胀，他两都实验了[自愿的价格薪资控制指导voluntary wage-price guidelines](https://www.washingtonpost.com/archive/business/1978/10/01/carter-appears-headed-toward-wage-price-guidelines/e16e4ce7-bc2c-41cc-bd3f-aa8c1dabb265/)，不是尼克松的必须的强制的，只是提供了建议和指导。福特还搞了一个公众运动叫”[鞭笞通胀Whip Inflation Now!](https://en.wikipedia.org/wiki/Whip_inflation_now)“
+自从尼克松之后的福特和卡特两节总统内，高通胀高失业率和经济停滞一直是一个问题。有意思的是现在全世界都陷入了通缩的节奏，那个时候通胀确实给美国人带来了非常痛苦的回忆，两相对比令人唏嘘。为了控制通货膨胀，他两都实验了[自愿的价格薪资控制指导Voluntary Wwage-Price Guidelines](https://www.washingtonpost.com/archive/business/1978/10/01/carter-appears-headed-toward-wage-price-guidelines/e16e4ce7-bc2c-41cc-bd3f-aa8c1dabb265/)，不是尼克松的必须的强制的mandate，只是提供了建议和指导,看起来有进步。福特还搞了一个公众运动叫”[鞭笞通胀Whip Inflation Now!](https://en.wikipedia.org/wiki/Whip_inflation_now)“
 
 ![whipinflation](https://user-images.githubusercontent.com/491610/107039081-62ad3180-67f8-11eb-98b9-e8c5eedb4576.jpg)
 
 
-这也有点幽默的。但是他两的措施都没有效果，相反更像是通胀鞭打他们的屁股。美联储这边，一直以来没有办法完成他的经济目标，也造成了一定程度的信任危机。
+这也有点幽默的，但是他两的措施都没有效果，相反更像是通胀鞭打他们的屁股。美联储这边，一直以来没有办法完成他的经济目标，也造成了一定程度的信任危机。
 
-在[Recession of 1981–82](https://www.federalreservehistory.org/essays/recession-of-1981-82#:~:text=In%20the%201970s%2C%20the%20Fed,supply%20and%20target%20lower%20unemployment.)他上任初提到的他的目标是降低通胀：
+在[Recession of 1981–82](https://www.federalreservehistory.org/essays/recession-of-1981-82#:~:text=In%20the%201970s%2C%20the%20Fed,supply%20and%20target%20lower%20unemployment.)沃尔克上任初提到的他的目标是降低通胀：
 
 > In terms of economic stability in the future, [inflation] is what is likely to give us the most problems and create the biggest recession” (FOMC transcript 1979, 16). He also believed that the Fed faced a credibility problem when it came to keeping inflation in check. During the previous decade, the Fed had demonstrated that it did not place much emphasis on maintaining low inflation, and public expectation of such continued behavior would make it increasingly difficult for the Fed to bring inflation down. “[F]ailure to carry through now in the fight on inflation will only make any subsequent effort more difficult,” he remarked (Volcker 1981b).
 
-1980年通胀率大概10%左右，保罗·沃尔克做了其他不敢做的，开启了紧缩的货币政策，大幅度提高利率到20%。这样大幅度短期提高利率，一定是会影响短期的经济衰退的，也就是一般来说政客是不会做的，因为这样会短期得罪公众让大家过苦日子，尽管你认为长期对他们而言是更有利的。1981-1982年经济衰退甚至是大萧条之后最严重的经济下行，1982年失业率达到了11%，甚至高于09的金融危机。一度在经济情况太差，连国会施加压力质询他希望他放松货币政策来缓解经济形势，但他仍坚持如果不够通胀率降下来就带来长远更严重的灾难。这些措施在1982年得到了好转，通货膨胀降到了5%，利率开始下跌，失业率也开始下跌，到了1987年他卸任膨胀率大概是3.4%。沃尔克激进的降低通胀的决心使得社会上有了一个稳定预期 - 未来通货膨胀率一定是慢慢下来，这种稳定可靠的预期也有利于商业活动的进行。
+1980年通胀率大概10%左右，保罗·沃尔克做了其他不敢做的，开启了紧缩的货币政策，大幅度提高利率到20%。这样大幅度短期提高利率，一定是会影响短期的经济衰退的，也就是一般来说政客是不会做的，因为这样会短期得罪公众让大家过苦日子，尽管你认为长期对他们而言是更有利的。1981-1982年经济衰退甚至是大萧条之后最严重的经济下行，1982年失业率达到了11%，甚至高于09的金融危机。一度在经济情况太差，连国会施加压力质询他希望他放松货币政策来缓解经济形势，但他仍坚持如果不够通胀率降下来就带来长远更严重的灾难。这些措施在1982年得到了好转，通货膨胀降到了5%，利率开始下跌，失业率也开始下跌，到了1987年他卸任膨胀率大概是3.4%。沃尔克激进的降低通胀的决心使得社会上有了一个稳定预期 - 未来通货膨胀率一定是慢慢下来，这种稳定可靠的预期也有利于商业活动的进行. 而这个要给后续美联储的政策制定等等带来巨大的影响。
 
-客观上有人质疑紧缩货币政策是不是一定要么严苛？短时间的巨大震荡[Volcker Shock](https://www.thebalance.com/who-is-paul-volcker-3306157)，为了控制膨胀率，让无数的人失业，关闭那么多工厂和矿工。农民，工匠，建筑工人纷纷写信给沃尔克抱怨和抗议。同时美联储的升息使得美元回流美国，造成拉美的债务危机。
+也有人质疑沃尔克的紧缩货币政策是不是一定要么严苛？短时间的巨大震荡[Volcker Shock](https://www.thebalance.com/who-is-paul-volcker-3306157)，为了控制膨胀率，让无数的人失业，关闭那么多工厂和矿工。农民，工匠，建筑工人纷纷写信给沃尔克抱怨和抗议。同时美联储的升息使得美元回流美国，造成拉美的债务危机。
 
 但这不妨碍本伯南克将他视为代表了美联储的独立精神，他诠释了如何做政治上不受欢迎但是经济上必须要做的典范
 
@@ -472,43 +459,41 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 本伯南克后面还吹嘘了沃尔克的继任者-格林斯潘，大赞因为沃尔克带来的美联储的独立，是的格林斯潘放开手可以追求宏观经济的稳定，经济增长同时经济波动的幅度很小- 称赞格林斯潘治下的时期是[大稳健时代Great Moderation](https://en.wikipedia.org/wiki/Great_Moderation)。
 
-1995年沃尔克后续加入了华尔接的投资公司成为主席，有意思的是在09金融危机时，沃尔克提出了[Volcker Rule](https://www.bloomberg.com/quicktake/the-volcker-rule):限制商业银行用自己的钱在其他股票债券和其他衍生品上赌博。这个也成为了2010 Dodd-Frank financial reform act的一条法令。1979年他刚上任就bailout过了克莱斯勒汽车，结果08年克莱斯勒又被bailout一次，连着两次被bailout这样光荣记录应该前无古人后无来者吧。
+1995年沃尔克后续加入了华尔接的投资公司成为主席，有意思的是在09金融危机时，沃尔克提出了[Volcker Rule](https://www.bloomberg.com/quicktake/the-volcker-rule):限制商业银行用自己的钱在其他股票债券和其他衍生品上赌博。这个也成为了2010年的《多德弗兰克法案》中其中一条法令。有意思的是：1979年沃尔克刚上任就bailout保住过了克莱斯勒汽车，结果08年克莱斯勒又被bailout一次，连着两次被bailout这样光荣记录应该前无古人后无来者吧 - 但是bailout很明显不是弗里德曼喜欢的自由竞争。
 
 沃尔克的货币政策的效果也可以从跟他差不多同期上台的总统里根上面得到印证。
 
 ### 里根经济学
+<hr/>
 
-特朗普喜欢用里根的参选标语（let's make america great again），同时特朗普是一个政治素人是企业家娱乐家，而里根曾经是电影演员(主要是牛仔片）。但是不同的是里根参选之前是有担任过八年加州的最大州的州长，有从政的经验，而且跟演员时代也隔开了很久了。里根参选时候是有70岁，是当时年纪最大的总统参选人，他的从影经历仍然让大众对他的领导能力产生了疑问。1980s年的英国政治讽刺木偶节目 [Ronald Reagan on Spitting Image - the original US president without a Brain!](https://www.youtube.com/watch?v=BQdQxleE8Zg&ab_channel=TheTebbster)里面调侃里根记不起来观众的提问是什么，意在表示对于里根能否处理伊朗人质危机等等有疑问（真正可虚可叹的是里根90年之后确实的了老年痴呆症）。
+特朗普喜欢用里根的参选标语（Let's make america great again），同时特朗普是一个政治素人是企业家娱乐家，而里根曾经是电影演员(主要是牛仔片）。但是不同的是里根参选之前是有担任过八年加州的最大州的州长，有从政的经验，而且跟演员时代也隔开了很久了。里根参选时候是有70岁，是当时年纪最大的总统参选人，他的从影经历仍然让大众对他的领导能力产生了疑问。1980s年的英国政治讽刺木偶节目Spitting Image中 [《Ronald Reagan on Spitting Image - the original US president without a Brain!》](https://www.youtube.com/watch?v=BQdQxleE8Zg&ab_channel=TheTebbster)里面调侃里根记不起来观众的提问是什么，意在表示对于里根能否处理伊朗人质危机等等有疑问（真正可虚可叹的是里根90年之后确实的了老年痴呆症）。
 
 里根在1981年的就职演说[C-SPAN: President Reagan 1981 Inaugural Address](https://www.youtube.com/watch?v=hpPt7xGx4Xo&ab_channel=C-SPAN)里提到:
 
 > "It is no coincidence that our present troubles parallel and are proportionate to the intervention and intrusion in our lives that result from **unnecessary and excessive growth of government**." 
 
-核心： **”Government is not the solution to our problem. Government *is* the problem.“**
+核心： `”Government is not the solution to our problem. Government is the problem.“`
 
-他提倡小政府，缩减政府的开支，减税和减少过度的政府管控（比如之前价格工资管控）。他相信的是一个自由市场和资本经济可以解决目前这个国家的问题。这个放任经济跟货币主义提出的经济的自由来自政治的自由不媒而合。
+里根提倡共和党的理想中的小政府，缩减政府的开支，减税和减少过度的政府管控（比如之前价格工资管控）。他相信的是一个自由市场和资本经济可以解决目前这个国家的问题。这个放任经济跟货币主义提出的经济的自由来自政治的自由不媒而合。
 
 但是他一上台就是1981-1982年仅次于大萧条的经济萧条，他激进的将个人所得税中的高档所得税率从70%降到50%，企业的税率从46%砍到了34%，承诺减少政府开支和放开商业的管控，配合美联储控制通胀。
 
-到里根下台时，政府开支比卡特时期相对来说减少了，而且赤子在他任期内虽然没有缩减但是增长程度不大（尽管星球大战国防开支激增），高累进税率从70%降到28%，资本利得税率从28%降到20%，企业所得税率则从46%下调到33%，放开了价格管控，美国经济恢复了增长。他在告别演说[President Ronald Reagan's Farewell Address to the Nation. January 11, 1989](https://www.youtube.com/watch?v=FjECSv8KFN4&ab_channel=ReaganLibrary)回顾了自己的总统任期，主要讲了一个恢复了美国经济的增长，一个恢复了美国人民的士气。顺带提到了一个故事：1981年他刚上任参加一个在加大拿大举行的经济峰会，开幕式是7个工业国家的首领的一起参加的正式晚餐，里根坐在那里像是一个刚到学校的新学生，晚餐的对话听到的都是法国人或者德国人的名字，他们互相告诉自己的身份并用名字互相称呼（显得互相紧密），某个时刻里根唯唯诺诺地靠过去说”你好，我是Ron"(没有说Ronald)，那年开始里根开始恢复经济的行动-减税，送管，减少支出。两年后在另外一个经济峰会（有着类似的成员），在盛大的开幕式上突然有一刻里根看到所有人坐在那里都望着自己。然后其中一个打破沉默说请您告诉一下我们美国的经济奇迹么。
+到里根下台时，政府开支比卡特时期相对来说减少了，而且赤子在他任期内虽然没有缩减但是增长程度不大（尽管星球大战国防开支激增），高累进税率从70%降到28%，资本利得税率从28%降到20%，企业所得税率则从46%下调到33%，放开了价格管控，美国经济恢复了增长。他在告别演说[《President Ronald Reagan's Farewell Address to the Nation. January 11, 1989》](https://www.youtube.com/watch?v=FjECSv8KFN4&ab_channel=ReaganLibrary)回顾了自己的总统任期，主要讲了一个恢复了美国经济的增长，一个恢复了美国人民的士气。顺带提到了一个故事：1981年他刚上任参加一个在加大拿大举行的经济峰会，开幕式是7个工业国家的首领的一起参加的正式晚餐，里根坐在那里像是一个刚到学校的新学生，晚餐的对话听到的都是法国人或者德国人的名字，他们互相告诉自己的身份并用名字互相称呼（显得互相紧密），某个时刻里根唯唯诺诺地靠过去说：”你好，我是Ron小罗"(没有说Ronald罗纳德)。 从那年开始里根开始恢复经济的行动-减税，松管，减少支出等等。两年后在另外一个经济峰会（有着类似的成员），在盛大的开幕式上突然有一刻里根看到所有人坐在那里都望着自己。然后其中一个打破沉默说请您告诉一下我们美国的经济奇迹么。(虽然总统离任演讲都是吹嘘自己的功绩，但是这个还能看出来一些的)
 
 关于减税的问题，里根认为削减税收，当然政府的收入下降，但是因为减税企业能得到额外的钱可以用于投资和雇人扩大再生产，那么如果基数足够大的话，新增的这些产品和雇员所带来的税收可以弥补减税的那部分。这个减税的幅度和收益的关系就可以通过[拉弗曲线(*Laffer* *Curve*)](https://www.thebalance.com/what-is-the-laffer-curve-explanation-3305566)来得到：
 
 ![tax_benefit](https://user-images.githubusercontent.com/491610/107039068-604ad780-67f8-11eb-8257-1f5200948a33.jpg)
 
 
-
 一部分观点是一开始税率太高，大幅度减税确实可以达到这个双赢，但是一旦税收到了后面在使用这个策略结果效果就一定好了。盲目减税不一定能带来好的效果。
 
-这个也被称为[涓滴经济学Trickle-Down Economics ](https://www.thebalance.com/trickle-down-economics-theory-effect-does-it-work-3305572)， 通过减税-[高级税也就是富人税How tax brackets actually work](https://www.youtube.com/watch/VJhsjUPDulw)（美国按照收入不同分等级，指的是高档收入人和大企业，大投资人大银行等等的税收）可以让企业招人扩大生产，银行可以放贷更多钱，投资者可以买更多企业的股票或者公司，所有这些最后都会实惠到底层的工人。这些工人也会花费他们的工资来驱动需求的增加和经济的增长。但是这个理论和制度也都是作用范围的，里根时期70%的税收确实太高，所以减税的驱动效果很好；但是一开始有效果并不代表一直用都会好，超过某个平衡点时，可能带来的不是好处更多是坏处了 - 企业家开始衡量拿钱投入生产的回报跟其他途径的回报相比哪个更合算。从里根到小布什到特朗普，随着税率越来越低，我们看到减税的效果对经济增长的助力作用明显减弱。
+这个也被称为[涓滴经济学Trickle-Down Economics ](https://www.thebalance.com/trickle-down-economics-theory-effect-does-it-work-3305572)， 通过减税-高级税也就是富人税([Vox - How tax brackets actually work](https://www.youtube.com/watch/VJhsjUPDulw), 美国按照收入不同分等级，指的是高档收入人和大企业，大投资人大银行等等的税收）可以让企业招人扩大生产，银行可以放贷更多钱，投资者可以买更多企业的股票或者公司，所有这些最后都会实惠到底层的工人。这些工人也会花费他们的工资来驱动需求的增加和经济的增长。但是这个理论和制度也都是作用范围的，里根时期70%的税收确实太高，所以减税的驱动效果很好；但是一开始有效果并不代表一直用都会好，超过某个平衡点时，可能带来的不是好处更多是坏处了 - 企业家开始衡量拿钱投入生产的回报跟其他途径的回报相比哪个更合算。从里根到小布什到特朗普，随着税率越来越低，我们看到减税的效果对经济增长的助力作用明显减弱。
 
 里根开启的金融管制的放松，包括放开储蓄银行的低利息限制和存款比列的限制，进一步资产证券化-其预先的设想是让更多美国人容易付得起获得房屋。这些储蓄银行因为利息太低无法吸引客户，只能是拿着储户的钱偷偷去投资高风险高收益的金融产品。资产证券化，比如住房抵押贷款支持证券（MBS）这一时期得到极大的发展。大概原理如下图：
 ![mbs](https://user-images.githubusercontent.com/491610/107039023-57f29c80-67f8-11eb-8092-73719c504aec.jpg)
-购房人找银行借款30年100万，这里面假设收取的利息每年加起来总共是10万块，也就是银行这100W块30年的总的回报是10W，需要等待很多年才能把钱收回来，这中间没办法可以都放贷给其他人。如果这家银行只有100W，那么只能给一个贷款，也就是只要一个人才能买房。但是如果银行说，这样吧我这个打包一下给第三方金融机构，把购房人的每期的利息本金等等都给第三方，第三方在把这个分配打包证券等等卖给需要的投资者。银行让利比如10万回报中给5万的给第三方，第三方将这5W中4W作为利息给到投资者，这样一来银行快速收回了钱还有回报（100W+5W），它可以放贷给另外一个需要的人；第三方的投资者拿到了5W的投资回报；购房人也拥有房屋 - 一举三得。从这来看这个金融创新最开始确实很好，但是为什么到了08年却成为了大问题了，（监管+人性）后续会提到。
+购房人找银行借款30年100万，这里面假设收取的利息每年加起来总共是10万块，也就是银行这100W块30年的总的回报是10W，需要等待很多年才能把钱收回来，这中间没办法可以都放贷给其他人。如果这家银行只有100W，那么只能给一个贷款，也就是只要一个人才能买房。但是如果银行说，这样吧我这个打包一下给第三方金融机构，把购房人的每期的利息本金等等都给第三方，第三方在把这个分配打包证券等等卖给需要的投资者。银行让利比如10万回报中给5万的给第三方，第三方将这5W中4W作为利息给到投资者，这样一来银行快速收回了钱还有回报（100W+5W），它可以放贷给另外一个需要的人；第三方的投资者拿到了5W的投资回报；购房人也拥有房屋 - 一举三得。从这来看这个金融创新最开始确实很好，但是为什么到了08年却成为了大问题了？监管松懈，过渡金融化创新。
 
-
-
-里根的金融松管到了克林顿这里进一步扩大，克林顿认为这些纷繁的监督管控条目限制了金融的发展和创新，比如我们之前提到的1933年的银行法案[《格拉斯-斯蒂格尔法案（Glass-Steagall Act）》](https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E6%96%AF-%E6%96%AF%E8%92%82%E6%A0%BC%E5%B0%94%E6%B3%95%E6%A1%88)中分离[商业储蓄银行](https://zh.wikipedia.org/wiki/商業銀行)和[投资银行](https://zh.wikipedia.org/wiki/投资银行)业务，目的是限制投机。从1980年之后金融银行业一直游说政府废除《格拉斯—斯蒂格尔法》，始终未成功，直到1999年比尔克林顿签署法案废除了该法案[Gramm–Leach–Bliley Act](https://en.wikipedia.org/wiki/Gramm–Leach–Bliley_Act)， 这样一来商业银行就可以同时作为投资保险银行，银行兼并的寡头时代来临，也促进了08年金融危机的发生。花旗银行作为储蓄商业银行可以用储户的存款来投资证券化的资产博弈-MBS抵押贷款证券和[债务担保证券CDO](https://zh.wikipedia.org/wiki/%E5%82%B5%E5%8B%99%E6%93%94%E4%BF%9D%E8%AD%89%E5%88%B8)。一年之后2000年 [J.P. Morgan & Co](https://en.wikipedia.org/wiki/J.P._Morgan_%26_Co.)和[Chase Manhattan Corporation](https://en.wikipedia.org/wiki/Chase_Bank)合并成为了[JP Morgan Chase]([Chase Manhattan Corporation](https://en.wikipedia.org/wiki/Chase_Bank)).
+里根的金融松管到了克林顿这里进一步扩大，克林顿认为这些纷繁的监督管控条目限制了金融的发展和创新，比如我们之前提到的1933年的银行法案[《格拉斯-斯蒂格尔法案（Glass-Steagall Act）》](https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E6%96%AF-%E6%96%AF%E8%92%82%E6%A0%BC%E5%B0%94%E6%B3%95%E6%A1%88)中分离商业储蓄银行和投资银行业务，目的是限制投机。从1980年之后金融银行业一直游说政府废除《格拉斯—斯蒂格尔法》，始终未成功，直到1999年比尔克林顿签署法案废除了该法案[Gramm–Leach–Bliley Act](https://en.wikipedia.org/wiki/Gramm–Leach–Bliley_Act)， 这样一来商业银行就可以同时作为投资保险银行，银行兼并的寡头时代来临，也促进了08年金融危机的发生。花旗银行作为储蓄商业银行可以用储户的存款来投资证券化的资产博弈-MBS抵押贷款证券和[债务担保证券CDO](https://zh.wikipedia.org/wiki/%E5%82%B5%E5%8B%99%E6%93%94%E4%BF%9D%E8%AD%89%E5%88%B8)。一年之后2000年 [J.P. Morgan & Co](https://en.wikipedia.org/wiki/J.P._Morgan_%26_Co.)和[Chase Manhattan Corporation](https://en.wikipedia.org/wiki/Chase_Bank)合并成为了JP Morgan Chase摩根大通。
 
 在1999年签署Gramm-Leach-Bliley Act时候，从视频中可以看出[Signing of the Gramm-Leach-Bliley Act](https://youtu.be/WkG4iXiZCQE?t=891)克林顿提到：
 
@@ -518,7 +503,7 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 商业储蓄银行吸收存户存款，而且存款是有联邦存款保险公司（Federal Deposit Insurance Corporation）保证的（上面1932年罗斯福的储蓄保险政策）所以他们想要那这些被政府保险的低成本存款来跟投资银行竞争。你想想即使储蓄银行拿这些钱去投资上杠杆高风险高收益，如果成功，挣得利润归自己；如果失败，有政府的保险，如果储户找上来要钱，但是银行亏空了，反正有政府兜底。这个正是《格拉斯—斯蒂格尔法》想要避免的。
 
-到了08年，其他的转型成为了双行（即是商业也是投资），其中的巨头有花旗，JPMorgan Chase和美国银行，只剩下有5家出名的专业[投行](https://en.wikipedia.org/wiki/List_of_investment_banks)。金融危机中，其中 Lehman Brothers雷曼兄弟破产，Bear Stearn倒闭被JP Morgan Chase收购，一家Merrill Lynch存活但是不得不被合并到美国银行，第四和第五家高盛Goldman Sach和摩根斯塔拉(Morgan Stanley)也是非常危险，办法是：一夜之间他们宣称他们已经有单纯的投行转成了既有商业也有投资的联合银行，所以应该符合被FDIC联邦存款保险公司保险救济和美国政府的隐形支持的的名额。
+到了08年，其他的转型成为了双行（即是商业也是投资），其中的巨头有花旗，摩根 Chase和美国银行，只剩下有5家出名的专业投行。金融危机中，其中 Lehman Brothers雷曼兄弟破产，Bear Stearn倒闭被JP Morgan Chase收购，一家Merrill Lynch存活但是不得不被合并到美国银行，第四和第五家高盛Goldman Sach和摩根斯塔拉(Morgan Stanley)也是非常危险，办法是：一夜之间他们宣称他们已经有单纯的投行转成了既有商业也有投资的联合银行，所以应该符合被FDIC联邦存款保险公司保险救济和美国政府的隐形支持的的名额。
 
 2015年比尔克林顿在[这篇采访](https://www.inc.com/magazine/201509/james-ledbetter/inc-interview-bill-clinton.html)中被问到关于为什么从对加强监管只是开空头支票，他如何解释universal bank(双行合并）跟后来的危机关系：
 
@@ -526,7 +511,7 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 克林度认为他的取消管控的措施，包括加速银行业的兼并和复杂的金融体系，跟08年金融危机的发生没有一丝丝联系(WTF怎么听起来有点像[I did not have sexual relations with that woman, These allegations are false!](https://www.youtube.com/watch?v=VBe_guezGGc&ab_channel=jw00534)？)，相反他认为联合银行反而不容易倒闭。
 
-正是克林顿开启了金融化时代Age of Financialization.
+而正是克林顿开启了金融化时代Age of Financialization.
 
 ## 2008年经融危机
 <hr/>
@@ -534,13 +519,16 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 2000年的美股的Dot-com bubble[互联网泡沫](https://baike.baidu.com/item/互联网泡沫)，一方面是投机互联网新技术（任何带有.com结尾都会被疯狂追捧），一方面美联储的低利息，还有就是自由化后监管缺失；2000年泡沫的代表就是宠物网[Pets.com](https://en.wikipedia.org/wiki/Pets.com),做网上宠物用品销售的，消费者导向”,“砸钱营销[A medley of Pets.com TV Commercials](https://www.youtube.com/watch?v=sICSyC9u5iI&ab_channel=NutsGum)，资不抵债，最后破产；2001年的财务造假而破产的安然事件严重打击了商业和投资者的信心；在互联网泡沫和911之后美联储不得不降息来保持经济的刺激，小布什宣布自1981年之后最大规模的减税方案，这些多出来的钱希望找到回报利率更高的投资项目，一方面国际方面经过之前的亚洲金融风暴之后新兴国家的收益不太行，所以美元也都回流到了美国。这些钱都流到哪里去了？房地产市场。
 ![homeprice](https://user-images.githubusercontent.com/491610/107039000-5032f800-67f8-11eb-8c72-77af83317b7b.jpg)
-来自达里奥的债务危机： 2004到2006年之间，房屋价格上涨了30%，并且相比2000年上涨了80%。假设设一个家庭用5万美元支付了一个价值25万美元房子的首付，然后房价从25万上涨到了35万，这个家庭的投资翻倍。这也带来更高的借贷比例，更多的人进入房地产市场。随着买房带来的财富效应，越来越多的人开始将房地产进行再融资，增加杠杆来投机。
 
-但是我们贷款买房这种银行需要审查贷款人的条件的，比如这个人的收入水平，拥有的资产，否则还不起贷款就麻烦了。但是这些能带的起款的优质客户相对来说太少了，如果房价一直上涨的话（从2000年到2006年一直都是），那么其实这个人是否还的起利息有没有条件似乎就不是那么重要了。本来这些非优质客户的贷款（次级贷），一开始是这些银行才会玩的， 这样堵高风险但是回报率更高，并且当房价看起来一直再涨，这些银行会越加大胆的上杠杆；这样一来这些政府支持GSE的共用性的放贷机构比如房利美和房贷没，为了跟他们竞争，也不得不跟上，开始接受更多的次级贷。
+来自达里奥的债务危机： 
+
+> 2004到2006年之间，房屋价格上涨了30%，并且相比2000年上涨了80%。假设设一个家庭用5万美元支付了一个价值25万美元房子的首付，然后房价从25万上涨到了35万，这个家庭的投资翻倍。这也带来更高的借贷比例，更多的人进入房地产市场。随着买房带来的财富效应，越来越多的人开始将房地产进行再融资，增加杠杆来投机。
+
+但是我们贷款买房这种银行需要审查贷款人的条件的，比如这个人的收入水平，拥有的资产，否则还不起贷款就麻烦了。但是这些能带的起款的优质客户相对来说太少了，如果房价一直上涨的话（从2000年到2006年一直都是），那么其实这个人是否还的起利息有没有条件似乎就不是那么重要了。本来这些非优质客户的贷款（次级贷），一开始是这些银行才会玩的， 这样堵高风险但是回报率更高，并且当房价看起来一直再涨，这些银行会越加大胆的上杠杆；这样一来这些政府支持GSE的共用性的放贷机构比如两房- 房利美和房地美，为了跟他们竞争，也不得不跟上，开始接受更多的次级贷。
 
 ![morgate](https://user-images.githubusercontent.com/491610/107039043-5aed8d00-67f8-11eb-8271-8db5ea5b0146.jpg)
 
-为了规避金融监管，银行还会利用金融创新“影子银行”在银行之外吸收更多的人放款，因为这些不在银行监管之内，那么这些获取贷款的人条件更送，进一步加剧了次级贷的泛滥。美联储盯着通货膨胀率和结业率两个目标，但是这种情况下跟1989年日本是一样的，居民消费价格水平并没有升高，因为钱都流入了资产房地产里，这样一来美联储并没有察觉太多通胀的（有轻微的因为能源输入性涨价的通胀但是问题不大），也没觉得经济有什么问题。
+为了规避金融监管，银行还会利用金融创新`影子银行ShadowBanks`在银行之外吸收更多的人放款，因为这些不在银行监管之内，那么这些获取贷款的人条件更送，进一步加剧了次级贷的泛滥。美联储盯着通货膨胀率和结业率两个目标，但是这种情况下跟1989年日本是一样的，居民消费价格水平并没有升高，因为钱都流入了资产房地产里，这样一来美联储并没有察觉太多通胀的（有轻微的因为能源输入性涨价的通胀但是问题不大），也没觉得经济有什么问题。
 
 2005年10月20号，当时还不是美联储主席的伯南克写给小布什政府的[经济展望THE ECONOMIC OUTLOOK](https://georgewbush-whitehouse.archives.gov/cea/econ-outlook20051020.html)中主要是评估8月份发生了hurricane katrina飓风卡特里娜(可能我只记得[麦迪和阿里纳斯在慈善救助比赛里互飙三分](https://www.youtube.com/watch?v=yL5fwhjDbYU&ab_channel=OGBobbyJohnson)的场景）给经济带来的影响和当前未来的经济展望。关于房价上涨是这么说的：
 
@@ -554,7 +542,7 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 ![lending2007](https://user-images.githubusercontent.com/491610/107039012-55904280-67f8-11eb-9a86-8951a4995c15.jpg)
 
-我们可以看到1.无需文件的贷款(no-document，你不用提供一堆工作和收入证明的文档)；2.一开始的利息很低1%;3.批准率很高,4/5通过率；4.没有提前的花费（首付）;5.[“还息不还本” Interest only loan ](https://www.sohu.com/a/194216617_99939278);6.「不查收入（stated income) - 收入你自己填
+我们可以看到1.无需文件的贷款(no-document，你不用提供一堆工作和收入证明的文档)；2.一开始的利息很低1% - 实际为[可调利率抵押贷款ARMs](https://baike.baidu.com/item/%E5%8F%AF%E8%B0%83%E5%88%A9%E7%8E%87%E6%8A%B5%E6%8A%BC%E8%B4%B7%E6%AC%BE/6719448?fr=aladdin); 3.批准率很高,4/5通过率；4.没有提前的花费（首付）; 5.[“还息不还本” Interest only loan ](https://www.sohu.com/a/194216617_99939278); 6.「不查收入（stated income) - 收入你自己填
 
 这些都是短期很迷惑性的，比如(ARMs)可调利率抵押贷款的，一开始几年利息很低，慢慢的利息就会变高；还息不还本” Interest only loan都得要求一定时间内归还的；特别当中介担保房价涨涨，肯定没有风险时，你也可以获利的时候，贪婪就容易让理性迷失。就跟我们现在泛滥的金融网贷，白条360花呗，听起来说的都是日还一两块还不到一瓶水的价格，好像这个钱放在那里是白来的，非常就有迷惑性，但是价格计算非常复杂（日利率和等额还息）这些隐藏的套路和协议，是借钱者（特别是迫切借钱的人）在感性之下（或者是冲动消费）无法考虑到的。
 
@@ -562,11 +550,11 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 ![2008crisis](https://user-images.githubusercontent.com/491610/107038963-427d7280-67f8-11eb-9135-eecd54ecb8fc.jpg)
 
-图片来源：http://m.wjw.cn/baoxian/news-742504.html
+<cite>图片来源：http://m.wjw.cn/baoxian/news-742504.html</cite>
 
 当房价上涨的时候，买房人，银行和贷款机构，投行，对冲基金和评级结构都可以获利；但是当房价下跌的时候，就会进入下降的恶性循环。这些投资银行创造的大量金融创新产品CDS，CMO，将高风险通过巧妙而复杂的包装之后，实际上没有人能确切的可以判断这个资产或证券到底风险是怎么样的（透明->不透明），实际上只要挣钱没人会关心，从而带来了巨大的风险。
 
-美联储从 06年开始意识到了次贷的问题，但是没有想到是全国性的问题，但是已经开始升息来一直经济过热。2007年三月为了应对慢慢升级的房地产市场中的不良贷款问题，[Manageable Threats Seen by Fed Chief](https://www.nytimes.com/2007/03/29/business/29fed.html)伯南克提到他不认为逐渐上涨的风险借款人的违约率（这些有不良贷款记录的人）会威胁到整个国家的经济活力。[2007march 28th - The economic outlook*](https://www.federalreserve.gov/newsevents/testimony/bernanke20070328a.htm)在这个经济展望里他似乎更在乎是通胀还是通缩的问题，关于次贷问题：
+美联储从 06年开始意识到了次贷的问题，但是没有想到是全国性的问题，但是已经开始升息来一直经济过热。2007年三月为了应对慢慢升级的房地产市场中的不良贷款问题，在[《Manageable Threats Seen by Fed Chief》](https://www.nytimes.com/2007/03/29/business/29fed.html)中伯南克提到他不认为逐渐上涨的风险借款人的违约率（这些有不良贷款记录的人）会威胁到整个国家的经济活力。[《2007年3月28日 - The economic outlook》](https://www.federalreserve.gov/newsevents/testimony/bernanke20070328a.htm)在这个经济展望里他似乎更在乎是通胀还是通缩的问题，关于次贷问题：
 
 > At this juncture, however, the impact on the broader economy and financial markets of the problems in the subprime market seems likely to be contained.
 
@@ -576,21 +564,22 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 但是美国股市听了这话，在4月到5月继续上涨，创了历史新高。
 
-就雷曼兄弟来说，150多年历史的雷曼兄弟一直扮演着中间人角色（企业和个人联系起来） 一直在每个时代都正确的押宝，1850-60年的棉花，世界末转向金融新生的高风险企业比如零售retail（Sears, Woolworth, Macys)， 然后一直转向新的行业比如电影(Paramount派拉蒙 &Fox福克斯),然后是航空业(环球航空公司twa),然后消费品和汽车（福特Ford)，技术(intel因特尔)雷曼兄弟几乎都是在行业刚起步风险高的时候正确是时间进入，即推动了行业的快速发展，自己也一步步壮大， 成为一家非常出名的投资银行。2000年之后然后雷曼兄弟大规模押宝房贷,次级贷， 上涨的房价使得他们的利润不断上身，以至于他们在06-07的利润达到了高峰，07年利润高达4.5亿（几乎是五年前的4.5倍），不过反过来进一步强化他们押宝次级贷，借钱而后不断上杠杆。
+就雷曼兄弟来说，150多年历史的雷曼兄弟一直扮演着中间人角色（借钱方企业和出钱投资方个人联系起来） 一直在每个时代都正确的押宝，1850-60年的棉花，世界末转向金融新生的高风险企业比如零售retail（Sears, Woolworth, Macys)， 然后一直转向新的行业比如电影(Paramount派拉蒙 &Fox福克斯),然后是航空业(环球航空公司twa),然后消费品和汽车（福特Ford)，技术(intel因特尔)雷曼兄弟几乎都是在行业刚起步风险高的时候正确的时间进入，推动了行业的快速发展，自己也一步步壮大， 成为一家非常出名的投资银行。2000年之后然后雷曼兄弟大规模押宝房贷-次级贷， 上涨的房价使得他们的利润不断上身，以至于他们在06-07的利润达到了高峰，07年利润高达4.5亿（几乎是五年前的4.5倍），不过反过来进一步强化他们押宝次级贷，低利率低成本的借钱而后不断上杠杆。
 ![lehman_brothers](https://user-images.githubusercontent.com/491610/107039008-52955200-67f8-11eb-8011-23b0fd3c33d4.jpg)
-
 
 但是利率上升，自然短期利率的调整会有严重的影响，比如可调利率抵押贷款和还息不还本，会加重还不起贷款的情况，同时利率传导到长期的按揭利率(这个需要时间，但是期望预期已经成立)，让资金从长周期的资产投资中抽出来，导致资产价格的下跌，也就是房地产价格的下跌。还不起贷款，房价下跌，投行和保险都会跟着下跌，就像是恶性循环，直接引爆政整个金融市场。随后股市暴跌，金融市场奔溃，贝尔斯登可能挤兑要倒闭，其他花旗和美林面临着巨额的坏账， 银行投行保险机构等等可能一家家被清算。
 
+可以看看大空头里的Michael Burry在2011年的分析金融危机的的讲座视频[《Missteps to Mayhem: Inside the Doomsday Machine with the Outsider who Predicted and Profited from America's Financial Armageddon》](https://www.youtube.com/watch?v=fx2ClTpnAAs&ab_channel=VanderbiltUniversity).(ps: 虽然我不炒股投资，但是可以结合后面散户WSBvs华尔街空头在GME斗争事件的发起人Roaring Kitty一直以来怎么分析GME的数据找出空头如何过渡杠杆的并且结合价值投资等等[100%+ short interest in GameStop stock (GME) – fundamental & technical deep value analysis](https://www.youtube.com/watch?v=bmwx78rF1xo&ab_channel=RoaringKitty)可以看出来信心任何时候还是来自做好你自己的功课(do your homework)，不是简单的运气而已，不然如何在外界*疾风*中坚持自己的信念和信心(*劲草*)，不能是空气吧。)
 
 
-最后只能政府出面**出台了TARP**（坏账购买计划）**来给市场注入流动性**，通过给金融企业注入资金，逐步恢复资产价格，带来信心的提升，随后银行也可以进行再融资。高盛和摩根斯坦利也获得了美联储的保护（上面提到的）。
 
-美联储没有救投行雷曼，雷曼倒闭，房利美和房贷没被纳入财政部监管并有财政部保证其债务，MerrillLynch被美国银行收购，AIG提供保险的接受了紧急流动性的支持，WashingTonMututalBank被关闭随后被JPMOrgan Chase收购，同时JPmorgan chase还收购了破出售的贝尔斯登被。美联储一个是有毒资产的最后借款人，另一方面降低利率到0的水平和下调贴现率窗口，同时释放流动性。
+最后只能政府出面出台了TARP坏账购买计划）来给市场注入流动性，通过给金融企业注入资金，逐步恢复资产价格，带来信心的提升，随后银行也可以进行再融资。高盛和摩根斯坦利也获得了美联储的保护（上面提到的）。
 
-这次仅次于1929大萧条(Great Depression)的08年金融危机(Great Recession)让伯南克碰到也是巧了。为什么了伯南克正好是一个喜欢研究1929年大萧条的人？ 应该是痴迷1929年大萧条的，就像按照他自己的话说是跟其他喜欢研究美国内战爱好者是一样的。这篇2005年的WSJ文章调到[Long Study of Great Depression Has Shaped Bernanke's Views](https://www.wsj.com/amp/articles/SB113392265577715881) 相当长时间研究大萧条的历史已经塑造的伯南克的观点和看法。他觉得大萧条的那些教训在今天仍然有用，特别是其中通胀和通缩的问题。
+美联储没有救投行雷曼，雷曼倒闭，房利美和房贷没被纳入财政部监管并有财政部保证其债务，MerrillLynch被美国银行收购，AIG提供保险的接受了紧急流动性的支持，WashingTonMututalBank被关闭随后被摩根 Chase收购，同时摩根 chase还收购了破出售的贝尔斯登被。美联储一个是有毒资产的最后借款人，另一方面降低利率到0的水平和下调贴现率窗口，同时释放流动性。
 
-> The Depression, he contends, has taught the importance of avoiding both deflation -- that is, generally falling prices -- and inflation. It has also shown the threat that falling asset prices -- such as, potentially, in housing -- and weakened banks can pose. **Most important, it shows the damage the Fed can do when it follows wrong-headed ideas.**
+这次仅次于1929大萧条(Great Depression)的08年金融危机(Great Recession)让伯南克碰到也是巧了。为什么了伯南克正好是一个喜欢研究1929年大萧条的人？ 应该是痴迷1929年大萧条的，就像按照他自己的话说是跟其他喜欢研究美国内战爱好者是一样的。这篇2005年的WSJ文章调到[《Long Study of Great Depression Has Shaped Bernanke's Views》](https://www.wsj.com/amp/articles/SB113392265577715881) 相当长时间研究大萧条的历史已经塑造的伯南克的观点和看法。他觉得大萧条的那些教训在今天仍然有用，特别是其中通胀和通缩的问题。
+
+> The Depression, he contends, has taught the importance of avoiding both deflation -- that is, generally falling prices -- and inflation. It has also shown the threat that falling asset prices -- such as, potentially, in housing -- and weakened banks can pose. `Most important, it shows the damage the Fed can do when it follows wrong-headed ideas.`
 
 文章里透着乐观祥和：
 
@@ -606,7 +595,7 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 这点得到了印证，伯南克很快将利率达到了0，快准狠。
 
-> Perhaps the most important lesson Mr. Bernanke draws from the 1930s is the importance of thinking creatively when faced with unusual economic challenges. ...Mr. Bernanke has written that President Franklin Roosevelt's most important contribution to ending the Depression was "his willingness to be aggressive and to experiment."
+> Perhaps the most important lesson Mr. Bernanke draws from the 1930s is the importance of thinking creatively when faced with unusual economic challenges. ...Mr. Bernanke has written that President Franklin Roosevelt's most important contribution to ending the Depression was `"his willingness to be aggressive and to experiment."`
 
 伯南克认为在1930大萧条期间的最重要的教训是：当面对不平常的经济挑战时，需要创新的思考。他认为罗斯福之所有结束大萧条最重要的原因是： 他愿意变成激进并且去实验。
 
@@ -614,30 +603,26 @@ https://en.wikipedia.org/wiki/Federal_Reserve_Bank#/media/File:Federal_Reserve_D
 
 伯南克还特别对日本的通货紧缩的失落的三十年特别感兴趣，经济滞涨，物价通缩，他认为日本央行应该承担很多造成经济衰退的责任。这段历史也特别有意思，因为伯南克在08年的非常规武器里很多都学习日本央行，比如QE量化宽松，都是日本央行先实践探索的（参考日本央行BOJ在2001年开始探索）。
 
-2002年伯南克在面对经济恢复缓慢，持续下降的膨胀率（恐惧通货紧缩，大萧条的紧缩吓怕了美国人，1970年代的通货膨胀也吓坏了美国人）的情况时候，美联储看起来主要武器没有弹药了，基准利率已经很低了。如果此时提高利率，那么通缩会更严重。这个常规武器没效果了（Fed funds rate， principal instrument，  fell to zero）。
+2002年伯南克在面对经济恢复缓慢，持续下降的膨胀率（恐惧通货紧缩，大萧条的紧缩吓怕了美国人，1970年代的通货膨胀也吓坏了美国人）的情况时候，美联储看起来主要武器没有弹药了，基准利率已经很低了。如果此时提高利率，那么通缩会更严重。这个常规武器没效果了（Fed funds rate - principal instrument - fell to zero）。
 
 > He said his preferred alternative tool was for the Fed to reduce long-term interest rates by buying bonds, as it did in the 1940s. Long-term rates have a more direct impact on mortgage and corporate loan rates than the Fed funds rate. He also suggested more-exotic tactics such as a tax cut financed by printing money, or pushing the dollar down on world currency markets
 
-他的建议是效仿1940s二战之前一样，通过直接购买去债券市场购买债券来降低长期利率。因为长期利率更能直接影响比如房贷和政府贷款，周期更长(后面会讲到，因为短期利率传导到长期是需要时间的)。甚至可以有更特别的比如印钱让美元贬值和印钱来支持减税等等（让人们手头上有更多的钱）。这些确实比较非常规，但是插一句到了2020年，可能需要更非常规的武器： [無條件基本收入Universal Basic Income](https://zh.wikipedia.org/zh/無條件基本收入)。
+他的建议是效仿1940s二战之前一样，通过直接购买去债券市场购买债券来降低长期利率。因为长期利率更能直接影响比如房贷和政府贷款，周期更长(后面会讲到，因为短期利率传导到长期是需要时间的)。甚至可以有更特别的比如印钱让美元贬值和印钱来支持减税等等（让人们手头上有更多的钱）。
 
 总的来说他当时提出的这些主张是因为太大胆没有被接纳。
 
-> "Once you've made the commitment, how do you get out of it?" says Kenneth Kuttner, then an economist at the Federal Reserve Bank of New York and now at Oberlin College. **If investors even suspected the target wouldn't last, they would unload bonds, driving long-term rates up.**
+> "Once you've made the commitment, how do you get out of it?" says Kenneth Kuttner, then an economist at the Federal Reserve Bank of New York and now at Oberlin College. `If investors even suspected the target wouldn't last, they would unload bonds, driving long-term rates up.`
 
-这个很合理时，实际上08年伯南克创造性的解决了这个，就是[收益率曲线控制](https://baijiahao.baidu.com/s?id=1669223777608645132&wfr=spider&for=pc)/[Yield Curve Control](https://www.investopedia.com/what-is-yield-curve-control-4797189).
+这个很合理时，实际上08年伯南克创造性的解决了这个，就是[收益率曲线控制](https://baijiahao.baidu.com/s?id=1669223777608645132&wfr=spider&for=pc)/[Yield Curve Control](https://www.investopedia.com/what-is-yield-curve-control-4797189).到了08年，伯南克这个喜欢研究大萧条的爱好者真的碰到了经济危机， 使用常规武器肯定是游刃有余的。
 
-到了08年，伯南克这个喜欢研究大萧条的爱好者真的碰到了经济危机， 使用常规武器肯定是游刃有余的。
-
-https://www.huxiu.com/article/281200.html
-
-> **历史总是那么相似，在面临大萧条的时候，选择释放天量流动性并且压低利率价格，成了政府以及央行一致行动的决策。**这一次美联储出台的是量化宽松。我们从下图看到，货币供应在1929年大萧条之后出现了巨大的增长，并且伴随着利率水平见底。而这一次同样出现了巨大的增长，同样伴随着利率水平的见底。
+> 历史总是那么相似，在面临大萧条的时候，选择释放天量流动性并且压低利率价格，成了政府以及央行一致行动的决策。这一次美联储出台的是量化宽松。我们从下图看到，货币供应在1929年大萧条之后出现了巨大的增长，并且伴随着利率水平见底。而这一次同样出现了巨大的增长，同样伴随着利率水平的见底。
 
 ![moneysupply_ir](https://user-images.githubusercontent.com/491610/107039027-588b3300-67f8-11eb-87a7-f7afbe76f1ef.jpg)
-
 
 但是问题跟02年他碰到的问题差不多， 美联储货币政策的常规武器打光了，但是对于恶化不见好转的经济形势还是没有啥太大效果，去哪里找速效救心丸了？
 
 ### 美联储的武器库
+<hr/>
 
 上面我们讲到了美联储的常规武器是通过[公开市场操作Open Market Operations(OMO)](https://www.federalreserve.gov/monetarypolicy/openmarket.htm)主要是买卖政府债券影响短期基准利率利率，从而影响到货币的供给。
 
@@ -645,19 +630,23 @@ https://www.huxiu.com/article/281200.html
 
 
 回报率(yield)等于每年的利息收入除以纸面价格，假设你第一天去买了一个政府债券纸面价格标注(face value/par value)的是$1000，市场竞价之后也是$1000(market value)买到，每年支付利息收入(coupon)是$60，那么回报率就是60/1000 = 6%. 但是第二天这个纸面价值$1000也是会在交易投资中变化（市场价值），如果价格下跌，比如$950，那么你这个时候买新的就有60/950=6.3%，回报率上升。这个有什么关系了？如果我只能持有到到期结束，但是债券是可以转手买卖的(transferable/tradeable)。也也是说我第一天买的实际上相当于没有保值，通货膨胀了，债券的价值降低了，毕竟拿到了同样的利息收入，但是第二天购买的人少支付$50；相反如果第二天债券价格升高，也就是新买的人支付更多比如$1050，那么相对来说回报率就会降低(5.7%)，也就没有那么吸引人去购买，换句话说老的持有者的价值升值；
-![bond_yield](https://user-images.githubusercontent.com/491610/107040521-490ce980-67fa-11eb-8e8f-1052f2f6d124.gif)
 
-图片来源： https://www.finpipe.com/bond-teeter-totter/
+![bond_yield](https://user-images.githubusercontent.com/491610/107040521-490ce980-67fa-11eb-8e8f-1052f2f6d124.gif)
+<cite>图片来源： https://www.finpipe.com/bond-teeter-totter/</cite>
+
 
 回到为什么长期债券的收益率大于短期的？看看财政部的[每日收益率曲线Daily Treasury Yield Curve Rates](https://www.treasury.gov/resource-center/data-chart-center/interest-rates/pages/textview.aspx?data=yield)这种表里我们到2021年1月21号的，一个月债券收益率是0.07%， 两年的是0.13%，十年是1.10%， 三十年是1.85%。也可以理解的，如果我短期借给别人钱，那么相对来说借的成本相对长期借贷来的不高的；一个借款7天，跟一个借款30年，肯定长期借款的风险更大，你不知道经济情况会怎么样未知因素太多有没有黑天鹅，另外也有机会成本（这中间可能有其他更高收益率的投资-比如买彩票，但是钱被锁住了），所以长期借贷的利息（回报率）相对来说要高点，而且短期一般来说，风险更小些，更可控些利息（回报率）低一点；另一个我们结合上面的描述，假设一个持有2年债券的人，跟持有一个10年债券的人，现在过来一年半，然后政府某种操作提高了债券收益率或利息，也就是这两人持有的债券的价值都贬值了，新买的人用更少的钱获得同样的回报，这个时候2年的人可以只用等半年就可以重新买更值钱的债券，但是这个持有10年的人要么等8.5年买新的或者打折卖出自己手中还没到期的债券，这个时候持有2年的人就比10年的人更灵活；
 
-有一个具体的案列更契合能理解这个收益率，就是1951年的[《财政部和联邦储备系统协议**Treasury**-**Federal Reserve Accord**》](https://www.federalreservehistory.org/essays/treasury-fed-accord),该协议终结了美联储支持美国国债价格的义务，确保了联储制定和执行货币政策的独立性，把美联储从上面提到的1934年罗斯福设置的“财政部的提线木偶”的角色中拯救了出来，从此走上了独立自主的道路-后续影响很大（虽然没有到1980年沃尔克那样的独立程度）。从[官方的历史资料](https://www.federalreservehistory.org/essays/treasury-fed-accord)来看，主要的冲突就是战后美联储一直也都是听命政府二战时需要降低长期国债的利率（回报率）来帮助政府低成本的筹钱，但是我们知道利率低，钱太多，那么相对应的通胀率也开始上升。1946-1948年的通胀率一直保持在高位，从17.6%下降到9.5%，但是还是接近双位数的水平，美联储认为他的目标已经从之前战时委身求全（因为战争失败，政府垮台，美联储也得完）的帮助政府筹钱，现在到了应该是战后限制通胀的本职工作了。但是总统和财政部部长为了保护那些战争期间买了政府的战争债券的爱国民众的利益，强力支持美联储保持低回报率。（这里就是上面讲的，如果利率回报率上升，那么那些之前战争期间买了10年30年的战争国债的，就贬值了，利益受损，那这些会想：凭什么我一腔热血省吃俭用那么困难的都要支持国家（有兴趣可以看看那些[战争债券War Bonds explained | How children helped pay for both world wars](https://www.youtube.com/watch?v=YSnL8LgZg1A&ab_channel=ImperialWarMuseums)的宣传和广告[Promotion of war bonds in the United States during World War II. HD Stock Footage](https://www.youtube.com/watch?v=92hJjW5n6ZQ&ab_channel=CriticalPast)），到头来战争过去了，你们还要蚕食我们的利益）。所以美联储可能知道自己很理性，但是有点无情，所以一直还是保持低利率；直到1951年朝鲜战争爆发，美国国内本土的通胀率高达21%，这个就让美联储坐不住了(untenable)，最终跟政府来来回回争论最终达成了协议。
+有一个具体的案列更契合能理解这个收益率，就是1951年的[《财政部和联邦储备系统协议Treasury-Federal Reserve Accord》](https://www.federalreservehistory.org/essays/treasury-fed-accord),该协议终结了美联储支持美国国债价格的义务，确保了联储制定和执行货币政策的独立性，把美联储从上面提到的1934年罗斯福设置的“财政部的提线木偶”的角色中拯救了出来，从此走上了独立自主的道路-后续影响很大（虽然没有到1980年沃尔克那样的独立程度）。从[官方的历史资料](https://www.federalreservehistory.org/essays/treasury-fed-accord)来看，主要的冲突就是战后美联储一直也都是听命政府二战时需要降低长期国债的利率（回报率）来帮助政府低成本的筹钱，但是我们知道利率低，钱太多，那么相对应的通胀率也开始上升。1946-1948年的通胀率一直保持在高位，从17.6%下降到9.5%，但是还是接近双位数的水平，美联储认为他的目标已经从之前战时委身求全（因为战争失败，政府垮台，美联储也得完）的帮助政府筹钱，现在到了应该是战后限制通胀的本职工作了。但是总统和财政部部长为了保护那些战争期间买了政府的战争债券的爱国民众的利益，强力支持美联储保持低回报率。（这里就是上面讲的，如果利率回报率上升，那么那些之前战争期间买了10年30年的战争国债的，就贬值了，利益受损，那这些会想：凭什么我一腔热血省吃俭用那么困难的都要支持国家。
+
+有兴趣可以看看那些[战争债券War Bonds explained How children helped pay for both world wars](https://www.youtube.com/watch?v=YSnL8LgZg1A&ab_channel=ImperialWarMuseums)的宣传和广告[Promotion of war bonds in the United States during World War II. HD Stock Footage](https://www.youtube.com/watch?v=92hJjW5n6ZQ&ab_channel=CriticalPast)，到头来战争过去了，你们还要蚕食我们的利益。所以美联储可能知道自己很理性，但是有点无情，所以一直还是保持低利率；直到1951年朝鲜战争爆发，美国国内本土的通胀率高达21%，这个就让美联储坐不住了(untenable)，最终跟政府来来回回争论最终达成了协议。
+
 
 > At the time, it was not known how profound an effect that statement would have. But the accord marked the start of the development of a strong free market in government securities, which continues today. In addition, the debate over the consequences of interest rate pegging marked a shift in thinking at the Fed. Monetary policymakers began focusing actively on bank reserves and the control of money creation in order to stabilize the purchasing power of the dollar. But most important, by establishing the central bank’s independence from fiscal concerns, the accord set the stage for the development of modern monetary policy.
 
 ![yieldcurve](https://user-images.githubusercontent.com/491610/107039088-6476f500-67f8-11eb-9141-b53366a7b06c.jpg)
+<cite>来自wsj: [Why Investors Are Obsessed With the Inverted Yield Curve](https://www.youtube.com/watch?v=bItazfbSptI&ab_channel=CNBCCNBCVerified)</cite>
 
-来自wsj: Why Investors Are Obsessed With the Inverted Yield Curvehttps://www.youtube.com/watch?v=bItazfbSptI&ab_channel=CNBCCNBCVerified
 
 为了方便理解，我们最好记住供给理论和风险回报比，还有衡量事物的尺度是否主观还是客观。
 
@@ -665,19 +654,19 @@ https://www.huxiu.com/article/281200.html
 
 我们看到的正常情况下的回报率跟时间的曲线大概是上面这种慢慢上行的类型上坡的形状。 左边底下是短期利率，美联储通过公开市场操作买卖短期政府债券，来影响短期利率，但是不会很快传导到长期利率。长期利率更多是投资者的感觉感受，正如上面说的，他觉得现在经济形势不错，那么不会买低回报的政府债券，而是会转而投入股票房地产等等，需求少->价格低->回报率高；相反，经济形势差下行，股灾或者房地产奔溃，公司大规模倒闭， 则政府债券更安全，钱就少赚就少赚点，留得青山在不愁没柴烧，需求多->价格高->回报率低；
 
-正常情况长期的比如10年的回报率是大于短期比如2年的回报率的，但是如果经济情况不景气，投资者的信心不足，可能会购买更多的长期债，造成长期利率下滑；如果经济情况得不到改善，则可能有更多人慢慢涌入这个长期债券，导致价格进一步升高，回报率下降，后买的人更加觉得要赶紧购买来保值；同时一般经济危机时美联储都会下调短期利率，这样一来也会使得长期利率慢慢更低；这个时候一般来说是两者双双下跌，但是某种情况下长期跌的比短期还多，也就是出现了[利率倒挂Inverted Yield Curve ](https://www.investopedia.com/terms/i/invertedyieldcurve.asp#:~:text=An inverted yield curve represents,of the same credit quality.&text=When the yield curve inverts,higher than long-term rates.)，变成右边比左边还低的情况。普遍认为这是不好的情况，标明公司的融资的难度越来越高，这些金融机构的利润也会受损，更重要的是这个倒挂跟随后的历史上的很多危机都能对应上。下图是2019年2月份的来自https://www.youtube.com/watch?v=bItazfbSptI&ab_channel=CNBCCNBCVerified：
+正常情况长期的比如10年的回报率是大于短期比如2年的回报率的，但是如果经济情况不景气，投资者的信心不足，可能会购买更多的长期债，造成长期利率下滑；如果经济情况得不到改善，则可能有更多人慢慢涌入这个长期债券，导致价格进一步升高，回报率下降，后买的人更加觉得要赶紧购买来保值；同时一般经济危机时美联储都会下调短期利率，这样一来也会使得长期利率慢慢更低；这个时候一般来说是两者双双下跌，但是某种情况下长期跌的比短期还多，也就是出现了[利率倒挂Inverted Yield Curve](https://www.investopedia.com/terms/i/invertedyieldcurve.asp)，变成右边比左边还低的情况。普遍认为这是不好的情况，标明公司的融资的难度越来越高，这些金融机构的利润也会受损，更重要的是这个倒挂跟随后的历史上的很多危机都能对应上。下图是2019年2月份的来自[WSJ](https://www.youtube.com/watch?v=bItazfbSptI&ab_channel=CNBCCNBCVerified)：
 
 ![inveredcurve](https://user-images.githubusercontent.com/491610/107039005-51fcbb80-67f8-11eb-92a1-0dd9018b620a.jpg)
 
 当然经济学是一个模糊的学科，肯定不能靠单一指标预测的，没有银弹。
 
 政府债券的价格Price和回报率Yield受什么决定了？它是如何售卖的了？
-
-拍卖auction。
+    
+    拍卖auction。
 
 具体来说参考财政部的买卖指导：[Treasury Bonds: How To Buy](https://www.treasurydirect.gov/indiv/research/indepth/tbonds/res_tbond_buy.htm)。你可以个人直接跟财政部购买，注册账号，然后提交bid出价投标。但是主要还是经过公开市场操作，包括银行经济商行等等，大家一起竞标购买或者出售，最后达成一个大家都认可的价格。然后才会在二级市场频繁交易和从银行或者经纪人那里购买。
 
-比如美联储的公开市场操作，就是有公开市场操作委员会先开会决定一个目标[基准利率值federal funds rate](https://www.investopedia.com/terms/f/federalfundsrate.asp)]，然后去在政府债券市场和其他主要是银行竞标购买或者出售，达到预期的值。买卖的主要是短期的债券比如三个月等等，通过影响供给关系，提高或者收回银行的储备金，从而影响短期利率，调节货币供给。比如如果美联储觉得经济不行，像08年经融危机，公司融资没有了地方能借到钱（1: 食品用光了，没吃的了；2: 食品被其他藏起来了，觉得你风险太大，不借给你），这里假设1，银行是有偿付能力的，但是短期收不回来的，那么美联储需要主要额外的钱也就是流动性，就需要提高货币的供给，降低借款的利息，这个时候就需去公开市场，大量购买国债，将钱注入到银行，各个银行现在钱多了，这个时候就容易借给公司度过难关了。
+比如美联储的公开市场操作，就是有公开市场操作委员会先开会决定一个目标基准利率值federal funds rate，然后去在政府债券市场和其他主要是银行竞标购买或者出售，达到预期的值。买卖的主要是短期的债券比如三个月等等，通过影响供给关系，提高或者收回银行的储备金，从而影响短期利率，调节货币供给。比如如果美联储觉得经济不行，像08年经融危机，公司融资没有了地方能借到钱（1: 食品用光了，没吃的了；2: 食品被其他藏起来了，觉得你风险太大，不借给你），这里假设1，银行是有偿付能力的，但是短期收不回来的，那么美联储需要主要额外的钱也就是流动性，就需要提高货币的供给，降低借款的利息，这个时候就需去公开市场，大量购买国债，将钱注入到银行，各个银行现在钱多了，这个时候就容易借给公司度过难关了。
 
 美联储通过这个主要工具来控制通胀， 简单的逻辑可以这么表述：
 
@@ -689,17 +678,17 @@ https://www.huxiu.com/article/281200.html
 
 
 
-来自： https://fred.stlouisfed.org/graph/?g=5rJe 具体数字和变化可以查看FED官方的[FOMC's target federal funds rate or range, change [(basis points)](https://www.federalreserve.gov/monetarypolicy/openmarket.htm#fn1) and level](https://www.federalreserve.gov/monetarypolicy/openmarket.htm)每年的变化，最近一次调整是在2020年3月16号调整为0.0-0.25%，非常接近0了, 2020年的通货膨胀率大概是0.62%。来自https://www.statista.com/statistics/244983/projected-inflation-rate-in-the-united-states/
+具体数字和变化可以查看FED官方的[FOMC's target federal funds rate or range, change basis points and level](https://www.federalreserve.gov/monetarypolicy/openmarket.htm)每年的变化，最近一次调整是在2020年3月16号调整为0.0-0.25%，非常接近0了, 2020年的通货膨胀率大概是0.62%。
 
-为了救市，伯南克在07年九月份到2008十二月，把基准利率从5.25%一下子降到了接近于0。美联储不断在公开市场一级市场prime dealer（主要是几个大银行）购买短期国债将reserve钱给到这些银行。 还记得之前讲的主要银行需要在美联储储备银行里保留一定比列的[准备金reserve requirement](https://www.investopedia.com/terms/r/requiredreserves.asp)基本是10%（这里面实际比这个复杂），超过10%的叫做[多余储备excess reserves](https://www.investopedia.com/terms/e/excess_reserves.asp). 基础储备（低于10%的部分）是有利息(interest on reserves - IOR)， 然后2006年制定法规规定了多余储备也会利息(interest on excess reserves - IOER)，美联储通过指定这个利息值可以调控货币，也是货币政策的常规工具。这几家垄断行一级银行拿到钱reserve notes，会去更大的二级市场里去购买给比如其他小银行，金融机构，对冲基金和个人等这些人手中的国债，从而将钱从美联储转移到更大的人群中，这样就实现了货币的供给，这些人可以用来投资更有前途回报更高的领域比如股票公司债券等等，方便社会融资和经济的发展（货币乘数效应）。毕竟银行靠什么赚钱？放贷-hmm-正常情况下。
+为了救市，伯南克在07年九月份到2008十二月，把基准利率从5.25%一下子降到了接近于0。美联储不断在公开市场一级市场prime dealer（主要是几个大银行）购买短期国债将reserve钱给到这些银行。 还记得之前讲的主要银行需要在美联储储备银行里保留一定比列的[准备金reserve requirement](https://www.investopedia.com/terms/r/requiredreserves.asp)基本是10%（这里面实际比这个复杂），超过10%的叫做[多余储备excess reserves](https://www.investopedia.com/terms/e/excess_reserves.asp). 基础储备（低于10%的部分）是有利息(interest on reserves - IOR)， 然后2006年制定法规规定了多余储备也会利息(interest on excess reserves - IOER)，美联储通过指定这个利息值可以调控货币，也是货币政策的常规工具。这几家垄断行一级银行拿到钱reserve notes，会去更大的二级市场里去购买给比如其他小银行，金融机构，对冲基金和个人等这些人手中的国债，从而将钱从美联储转移到更大的人群中，这样就实现了货币的供给，这些人可以用来投资更有前途回报更高的领域比如股票公司债券等等，方便社会融资和经济的发展。毕竟银行靠什么赚钱？放贷。
 
 ![fed_archtecture](https://user-images.githubusercontent.com/491610/107038981-48735380-67f8-11eb-85de-c9e161c03a9d.jpg)
 
-美联储向一级银行购买国债的利息一般来说没有一级银行向二级市场收的利息多，所以一级银行一般来收乐意转手赚取利息差，同时还能配合美联储的工作。但是如果经济不太行的情况，比如美联储已经将基础利率降到了几乎为零，一级银行已非常低的成本拿到了很多钱，但是还有一个问题，我可能拿够了补充基础储备的数了（达到了准备金利率），那我为什么还要多付利息去拿更多钱的了？因为外面风险大回报低，还不如拿在手里，如果可以，为什么要付多余的借钱的利息，虽然很低了。所以美联储可以相对而言提升下储备利息，这样银行有动机拿更多的钱在手中，这样也许可以增加比如[Repo](https://www.investopedia.com/ask/answers/041615/what-difference-between-repurchase-agreement-and-reverse-repurchase-agreement.asp)或者社会临时需要用钱的渠道。
+如图所示，美联储向一级银行购买国债的利息一般来说没有一级银行向二级市场收的利息多，所以一级银行一般来收乐意转手赚取利息差，同时还能配合美联储的工作。但是如果经济不太行的情况，比如美联储已经将基础利率降到了几乎为零，一级银行已非常低的成本拿到了很多钱，但是还有一个问题，我可能拿够了补充基础储备的数了（达到了准备金利率），那我为什么还要多付利息去拿更多钱的了？因为外面风险大回报低，还不如拿在手里，如果可以，为什么要付多余的借钱的利息，虽然很低了。所以美联储可以相对而言提升下储备利息，这样银行有动机拿更多的钱在手中，这样也许可以增加比如[REPO](https://www.investopedia.com/ask/answers/041615/what-difference-between-repurchase-agreement-and-reverse-repurchase-agreement.asp)或者社会临时需要用钱的渠道。
 
 这就容易陷入[流动性陷阱Liquidity Traps](https://www.investopedia.com/terms/l/liquiditytrap.asp)： 这些储备金的利息可能高过短期国债的收益率。比如[2017年5月19日](https://www.stlouisfed.org/publications/regional-economist/third-quarter-2017/quantitative-easing-how-well-does-this-tool-work)这天，一个月的债券收益率是0.71%，但是IOER多余储备的利息是1.00%，也就是说一级银行更愿意拿着储备金放在那里，也不愿意去二级市场买社会大众的债券，因为多了0.29%的利润。为什么了？因为一级市场只能是限制性的几个大玩家，而债券是更为广泛的被人持有而且可以当做抵押物向别人借钱（这个就是上面的[REPO买断式回购 ](https://baike.baidu.com/item/%E4%B9%B0%E6%96%AD%E5%BC%8F%E5%9B%9E%E8%B4%AD/4687441?fr=aladdin)，短期资金周转，需要借钱可以拿国债抵押，承诺第二天用稍微高一点点的价格赎回来）-这些特点是储备金没有的。虽然举的例子是2017年的已经是QE之后的几年了，但是这个现象也还是QE之前某些情况也是会存在。
 
-要参考REPO买断式回购具体怎么运转，推荐看看WSJ的[2019 - Repo: How Roughly $1 Trillion Moves Overnight | WSJ](https://www.youtube.com/watch?v=gzCkXNrjFQM&ab_channel=WallStreetJournal)。基于这种情况，稍后提到的2020年危机了美联储很创新的立马把IOER多余储备的利息从2020年3月份1.6%降到了0.1%，目前2021-01-25这个时候还是0.1%(https://fred.stlouisfed.org/series/IOER)，而1月期国债收益率是hmm， 0.07%，还是有0.03%的利息差，不过很比2017年的0.29%还是小很多的:)（https://www.treasury.gov/resource-center/data-chart-center/interest-rates/pages/TextView.aspx?data=yieldYear&year=2021）。
+要参考REPO买断式回购具体怎么运转，推荐看看WSJ的[2019 - Repo: How Roughly $1 Trillion Moves Overnight | WSJ](https://www.youtube.com/watch?v=gzCkXNrjFQM&ab_channel=WallStreetJournal)。基于这种情况，稍后提到的2020年危机了美联储很创新的立马把IOER多余储备的利息从2020年3月份1.6%降到了0.1%，目前2021-01-25这个时候还是[0.1%](https://fred.stlouisfed.org/series/IOER)，而1月期国债收益率是hmm， [0.07%](https://www.treasury.gov/resource-center/data-chart-center/interest-rates/pages/TextView.aspx?data=yieldYear&year=2021)，还是有0.03%的利息差，不过很比2017年的0.29%还是小很多的。
 
 回到正题，结合这张短长期利率图表和伯南克的如何应对危机的讲座视频和PPT([Chairman Bernanke's College Lecture Series - Lecture04 - The Aftermath of the Crisis](https://www.federalreserve.gov/aboutthefed/educational-tools/lecture-series-the-aftermath-of-the-crisis.htm)):
 
@@ -708,11 +697,12 @@ https://www.huxiu.com/article/281200.html
 
 鉴于短期利率已经到底，常规武器已经用完，但是经济形势还未好转，担心通货紧缩的风险加大。美联储换了思路，借鉴了前期日本的非常规武器的实验的经验，决定开启目标式的量化宽松。
 
-先看看形势：08年金融危机是次级贷引起的，Mortgage-Backed Security， 抵押支持[债券](https://baike.baidu.com/item/债券/499051)或者抵押贷款证券化。而房贷一般属于长期的借贷，还包括比如车贷等等都可以认为是长期贷款，一般时间是比较长的，这块是收到打击最严重的。危机之后房屋的价格暴跌，很多在建的楼盘停止，很多建筑工人失业。这个时候资产价格下跌，但是债务并不会缩水。
+先看看形势：08年金融危机是次级贷引起的，Mortgage-Backed Security， 抵押支持债券或者抵押贷款证券化。而房贷一般属于长期的借贷，还包括比如车贷等等都可以认为是长期贷款，一般时间是比较长的，这块是收到打击最严重的。危机之后房屋的价格暴跌，很多在建的楼盘停止，很多建筑工人失业。这个时候资产价格下跌，但是债务并不会缩水。
 
 我们看到了平常情况下没问题，但是现在价值100w房子假设暴跌只价值$1(极端点方便解释)，这些不良买房人因为利息升高等等每个月已经越来越付不起利息（或者现在房价下跌的如此厉害，我本来流浪汉，要赔钱，甚至房子不要了，跑路），自然这些购买MBS的投资者就会有损失，最后去找银行，银行说那我回收房子了吧，结果房子现在去卖只有1块；银行跟投资者说跟我没关系，你们找评级的保险的都行，这些人本来能赚钱就是基于房价上涨的预期（击鼓传花），现在这些多来找理赔的，问题是我也投入高风险投资了，也没钱了，不知道找谁。所以这些投资者的损失谁来赔付了？OK，假设这个不良买房人比较有良心，收入有只是比较少，还可以慢慢付，但是肯定心里不愿意了，因为房价是跌了，但是债务没减少啊，利息还得交，如果是那种可调利息，后面越来越高，那他的损失谁来保？美联储说这个MBS，保险，银行环节我来兜底吧。
 
 ### 量化宽松的时间线：
+<hr/>
 
 关于量化宽松是什么？为什么有宽松和效果怎么样？ 我们可以看看先行者日本央行BOJ的在2002年[《The Challenges Facing Japan's Economy and the Monetary Policy Response》](https://www.boj.or.jp/en/announcements/press/koen_2002/ko0212c.htm/)会议纪要有一章节特别讲到QE的由来，如何工作的和效果[A. Purpose behind Quantitative Easing Measures and Their Effectiveness](https://www.boj.or.jp/en/announcements/press/koen_2002/ko0212c.htm/#i2-1:~:text=A.%20Purpose%20behind%20Quantitative%20Easing%20Measures%20and%20Their%20Effectiveness,-I).
 
@@ -739,9 +729,10 @@ QE3和QE4跟QE1、QE2区别在于每月购买，没有设置一个资金上限�
 
 > "If some really good news comes in, if you're using a date, people wouldn't know how to adjust that," he said. "But if you're using guideposts in terms of inflation and unemployment, then investors in the market can say, 'Well, the date seems to be a little closer now than we thought."
 
-现对于给一个具体的日期和资金上限数目不同，他是以通胀(核心CPI回升到2.5%以上)和实业率(降到6.5%以下)为导向的（参考FED官方的"[Transcript of Chairman Bernanke’s Press Conference December 12, 2012](https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20121212.pdf)），这样他认为更利于投资者更好判断经济和稳定的预期。他跟他崇拜的导师paul volker沃尔克一样觉得一定要提供一个稳定的预期，不稳定的货币政策会影响人们的商业运作，这个可能比美联储在实际中各种操作效果好的多。（参考上面沃尔克之前1980之前美联储的左右摇摆stop-go货币策略）
+现对于给一个具体的日期和资金上限数目不同，他是以通胀(核心CPI回升到2.5%以上)和实业率(降到6.5%以下)为导向的（参考FED官方的"[Transcript of Chairman Bernanke’s Press Conference December 12, 2012](https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20121212.pdf)），这样他认为更利于投资者更好判断经济和稳定的预期。他跟他崇拜的导师paul volker沃尔克一样觉得一定要提供一个稳定的预期，不稳定的货币政策会影响人们的商业运作，这个可能比美联储在实际中各种操作效果好的多 - 比如沃尔克之前1980之前美联储的左右摇摆stop-go货币策略。
 
 ### 2008年QE的效果
+<hr/>
 
 2014年10月，QE4结束[QE4 Explanation with Pros and Cons:How QE4 Changed Fed History](https://www.thebalance.com/qe4-explanation-pros-and-cons-3305532#:~:text=QE4%20was%20the%20fourth%20round,and%20ended%20in%20October%202014.)。
 
@@ -765,7 +756,7 @@ QE3和QE4跟QE1、QE2区别在于每月购买，没有设置一个资金上限�
 
 这样一来看起来双赢： 杠杆人可以（比如澳门线上xxx开业了）以小博大，紧张刺激，能挣得更多的钱；借钱给杠杆的人可以拿到回扣利息，哪怕一旦下跌，他还可以强制平仓保证自己借出去的钱-本金；
 
-这样一来，只要上涨的概率大于下跌的，那么加杠杆的人赚钱的机会相对来说会大一些；特别是如果股市房价一直上涨，就比如从2000年到2006年房价涨的越来越快，这个时候我越加杠杆我赢得越多，而且这种一直上涨的幻觉经过长时间的熏陶，你会认为是永恒的，也就是下跌是微乎其微，甚至不可能，那么不加杠杆才是傻了；看看索罗斯做的，不是啥把鸡蛋放在篮子了，这句话上下文不全，当你确定机会的时候就应该下最大仓位。就像索罗斯徒弟徒弟[Stanley Druckenmiller德鲁肯米勒](https://baike.baidu.com/item/%E6%96%AF%E4%BD%86%E8%8F%9C%C2%B7%E5%BE%B7%E9%B2%81%E8%82%AF%E7%B1%B3%E5%8B%92）在狙击英镑中被索罗斯反问`你把这也叫做仓位?`：
+这样一来，只要上涨的概率大于下跌的，那么加杠杆的人赚钱的机会相对来说会大一些；特别是如果股市房价一直上涨，就比如从2000年到2006年房价涨的越来越快，这个时候我越加杠杆我赢得越多，而且这种一直上涨的幻觉经过长时间的熏陶，你会认为是永恒的，也就是下跌是微乎其微，甚至不可能，那么不加杠杆才是傻了；看看索罗斯做的，不是啥把鸡蛋放在篮子了，这句话上下文不全，当你确定机会的时候就应该下最大仓位。就像索罗斯徒弟徒弟[Stanley Druckenmiller德鲁肯米勒](https://baike.baidu.com/item/%E6%96%AF%E4%BD%86%E8%8F%9C%C2%B7%E5%BE%B7%E9%B2%81%E8%82%AF%E7%B1%B3%E5%8B%92)在狙击英镑中被索罗斯反问`你把这也叫做仓位?`：
 
 > 从投资组合的角度来看，德拉肯米勒这样说是为了达到真正杰出的业绩，你在行情顺利得心应手地交易时，要充分利用当前的优势。那时是真正需要你紧握桂冠不放的时刻。杰出的业绩纪录可以避免出现亏损年，要尽力创造一些每年收益率达到二位数以上，乃至三位数的年头。对于个人交易的情况来说，管理好资金意味着当你处于不常遇见的好机会，有深具盈利信心时，就要敢于投入资金操作甚至不惜用杠杆作用借入资金。就像在1992年著名的 “英磅战役”用20亿美元压下了100亿多美元的筹码。正如斯坦利.德拉肯米勒所说的那样：“当你对一笔交易充满信心时，就要给对方致命一击。索罗斯对我不多的几次批评是因为我对市场判断正确时，没有最大限度地抓住机会放大胜果。”
 
@@ -777,9 +768,9 @@ QE3和QE4跟QE1、QE2区别在于每月购买，没有设置一个资金上限�
 
 ![weird_qe](https://user-images.githubusercontent.com/491610/107039074-60e36e00-67f8-11eb-81a1-8f93eb31547f.jpg)
 
-上图里（这里也许可以引用wsj的repo那篇文章excessive resever) 看到通货膨胀和m2的货币供应量没有明显上升，同时银行在储备银行的多余储备却激增。这说明什么了？ 我们看看之前BOJ在上面2002年提到关于[A. Purpose behind Quantitative Easing Measures and Their Effectiveness](https://www.boj.or.jp/en/announcements/press/koen_2002/ko0212c.htm/#i2-1:~:text=The%20third%20finding%20is%20that%20abundant,of%20the%20monetary%20easing%20measures%20themselves.)中提到的：
+上图里看到通货膨胀和m2的货币供应量没有明显上升，同时银行在储备银行的多余储备却激增。这说明什么了？ 我们看看之前BOJ在上面2002年提到关于[A. Purpose behind Quantitative Easing Measures and Their Effectiveness](https://www.boj.or.jp/en/announcements/press/koen_2002/ko0212c.htm/#i2-1:~:text=The%20third%20finding%20is%20that%20abundant,of%20the%20monetary%20easing%20measures%20themselves.)中提到的：
 
-> The third finding is that abundant funds at banks do not necessarily flow into economic activity in the private sector, such as investment and consumption. The increase in the monetary base, or the provision of funds by the Bank, has not led to an increase in the money stock, which provide the basis for private-sector economic activity. Theoretically, an increase in the monetary base brings about an increase in the money stock((consisting of cash, demand deposits, and negotiable certificate of deposits)), because ample funds provided to financial markets stimulate the demand for money. In practice, however, signs that the transmission mechanism of monetary policy was functioning fully, such as an increase in financial institutions' willingness to lend and in inflation expectations, have been conspicuously absent. As I mentioned earlier, these effects are expected theoretically, but in practice they are not taking place. 
+> The third finding is that abundant funds at banks do not necessarily flow into economic activity in the private sector, such as investment and consumption. The increase in the monetary base, or the provision of funds by the Bank, has not led to an increase in the money stock, which provide the basis for private-sector economic activity. Theoretically, an increase in the monetary base brings about an increase in the money stock((consisting of cash, demand deposits, and negotiable certificate of deposits)), because ample funds provided to financial markets stimulate the demand for money. `In practice, however, signs that the transmission mechanism of monetary policy was functioning fully, such as an increase in financial institutions' willingness to lend and in inflation expectations, have been conspicuously absent. As I mentioned earlier, these effects are expected theoretically, but in practice they are not taking place.` 
 >
 > It is, however, necessary to consider carefully the side effects of the quantitative easing monetary policy. 
 
@@ -789,6 +780,6 @@ QE3和QE4跟QE1、QE2区别在于每月购买，没有设置一个资金上限�
 
 就实际效果比较日本2013年之后的通膨率(抛开消费税政策）跟货币供给发现并没有提高通货膨胀率（日本目标是2%），GPD增长比较美国跟没有QE的加拿大比数据也落后，数据并不能支撑QE的理论上行的好效果。当然作者也说任何货币政策都是非常难去量化的.一种看QE的方式是QE就是把长期债券转变为短期储备存款reserve。这样的有两个问题：一个是为什么不是财政部多发性短期债少发长期债券这样也可以达到美联储的效果，这两个谁来主导？第二是私人部门能比央行更好将长期转成短期，而现在这群人拿着多余的存款准备(reserve)也不去房贷而是赚利息，何不使用一些更丰富的工具来踢踢他们屁股了？比如中国的[中央银行票据](https://baike.baidu.com/item/%E4%B8%AD%E5%A4%AE%E9%93%B6%E8%A1%8C%E7%A5%A8%E6%8D%AE/9785901?fromtitle=Central%20Bank%20Bill&fromid=11208336&fr=aladdin)。
 
-尽管对QE有不同的看法，但是拉长点我们看2019年，美国GDP增长2.2%(一般， 08-19年平均大概2%)， 通胀率1.81%（08-19年总体不超过2%，还差0.5%左右），失业率达到了1969年来的历史最低点3.6%(08-19年一直在稳步下降)，道琼斯工业指数26,379.55点（十年一直牛市上涨两三倍)，基准利率也上升恢复到了最高2.42%。从美联储官方统计的这张表看[Total Assets of the Federal Reserve ](https://www.federalreserve.gov/monetarypolicy/bst_recenttrends_accessible.htm)，美联储资产从2007年的8.8千亿到2017年巅峰4.78亿到2019年已经回落到3.75亿，标明经济应该有向好，美联储开始卸掉自己的债务。
+尽管对QE有不同的看法，但是拉长点我们看2019年，美国GDP增长2.2%(一般， 08-19年平均大概2%)， 通胀率1.81%（08-19年总体不超过2%，还差0.5%左右），失业率达到了1969年来的历史最低点3.6%(08-19年一直在稳步下降)，道琼斯工业指数26,379.55点（十年一直牛市上涨两三倍)，基准利率也上升恢复到了最高2.42%。从美联储官方统计的这张表看[Total Assets of the Federal Reserve ](https://www.federalreserve.gov/monetarypolicy/bst_recenttrends_accessible.htm)，美联储资产从2007年的8.8千亿到2017年巅峰4.78亿到2019年已经回落到3.75亿，应该说经济有向好，美联储也开始卸掉自己的债务。
 
 鉴于这些数字来看除了GDP增长慢了点，其他数据都很漂亮。美联储主席也已经来到了杰罗姆·鲍威尔（Jerome Powell）。
