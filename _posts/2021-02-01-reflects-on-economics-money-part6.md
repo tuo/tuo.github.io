@@ -6,6 +6,7 @@ published: true
 tags: money,economics
 ---
 
+
 ## 引用References
 
 * Chairman Bernanke's College Lecture Series: [https://www.federalreserve.gov/aboutthefed/educational-tools/chairmans-lecture-series-about.htm](https://www.federalreserve.gov/aboutthefed/educational-tools/chairmans-lecture-series-about.htm)
@@ -55,95 +56,93 @@ tags: money,economics
 * Owning the Consequences: Clinton and the Repeal of Glass-Steagall https://www.demos.org/blog/owning-consequences-clinton-and-repeal-glass-steagall
 * Bill Clinton on How Entrepreneurs Can Transform the Country： [https://www.inc.com/magazine/201509/james-ledbetter/inc-interview-bill-clinton.html]( https://www.inc.com/magazine/201509/james-ledbetter/inc-interview-bill-clinton.html) 
 * Bill Clinton on deregulation: ‘The Republicans made me do it! [https://archives.cjr.org/the_audit/bill_clinton_the_republicans_m.php](https://archives.cjr.org/the_audit/bill_clinton_the_republicans_m.php) 
-* https://www.huxiu.com/article/281200.html 
 * [https://www.wsj.com/amp/articles/SB113392265577715881](https://www.wsj.com/amp/articles/SB113392265577715881)
-* https://archive.curbed.com/2018/8/29/17788844/financial-crisis-2008-cause-housing-mortgage-lending
-* https://zhuanlan.zhihu.com/p/129648456 
-* What is the Yield Curve, and Why is it Flattening?https://www.youtube.com/watch?v=5L_zQGPNXOk&ab_channel=ThePlainBagel 
-* Relationship between bond prices and interest rates Khan Academyhttps://www.youtube.com/watch?v=I7FDx4DPapw&ab_channel=KhanAcademy
-*  Introduction to bonds Stocks and bonds Khan Academyhttps://www.youtube.com/watch?v=Qh-M3_L4xYk&ab_channel=KhanAcademy
-* https://www.investopedia.com/terms/o/openmarketoperations.asp
-* https://www.youtube.com/watch?v=gzCkXNrjFQM&ab_channel=WallStreetJournal
-* https://www.stlouisfed.org/publications/regional-economist/third-quarter-2017/quantitative-easing-how-well-does-this-tool-work
-* Japan: The Fading Economyhttps://www.youtube.com/watch?v=ErUQnd-YFGg&ab_channel=EconomicsExplained
-* http://projects.marketwatch.com/short-history-of-qe-and-the-market-timeline/
-* https://www.newyorker.com/magazine/2019/09/02/the-rich-cant-get-richer-forever-can-they
-* https://www.washingtonpost.com/business/2020/12/31/stock-market-record-2020/
-* https://www.forbes.com/sites/nathanlewis/2013/01/03/the-1870-1914-gold-standard-the-most-perfect-one-ever-created/?sh=29ce5b374a6a
-
+* What is the Yield Curve, and Why is it Flattening? [https://www.youtube.com/watch?v=5L_zQGPNXOk](https://www.youtube.com/watch?v=5L_zQGPNXOk) 
+* Relationship between bond prices and interest rates Khan Academy [https://www.youtube.com/watch?v=I7FDx4DPapw&ab_channel=KhanAcademy](https://www.youtube.com/watch?v=I7FDx4DPapw&ab_channel=KhanAcademy)
+* Introduction to bonds Stocks and bonds Khan Academy [https://www.youtube.com/watch?v=Qh-M3_L4xYk&ab_channel=KhanAcademy](https://www.youtube.com/watch?v=Qh-M3_L4xYk&ab_channel=KhanAcademy)
+* Japan: The Fading Economy [https://www.youtube.com/watch?v=ErUQnd-YFGg&ab_channel=EconomicsExplained](https://www.youtube.com/watch?v=ErUQnd-YFGg&ab_channel=EconomicsExplained)
 * Capital Requirements: [https://www.investopedia.com/terms/c/capitalrequirement.asp](https://www.investopedia.com/terms/c/capitalrequirement.asp)
-* [https://www.huffpost.com/entry/before-he-wrote-a-manifes_n_5772360](https://www.huffpost.com/entry/before-he-wrote-a-manifes_n_5772360)
-* https://www.investopedia.com/terms/a/accounting-equation.asp
-* https://www.investopedia.com/articles/economics/10/understanding-the-fed-balance-sheet.asp
-* https://www.federalreserve.gov/releases/h41/current/h41.htm 
-* https://www.quora.com/Are-bank-deposit-liability-or-asset 
-* https://www.tutor2u.net/economics/reference/financial-economics-creating-credit
-* https://www.vox.com/future-perfect/2019/4/16/18251646/modern-monetary-theory-new-moment-explained
-* https://www.stlouisfed.org/~/media/files/pdfs/great-depression/the-great-depression-wheelock-overview.pdf
-* What’s good for the Fed may also be good for investorshttps://advisors.vanguard.com/insights/article/whatsgoodforthefedmayalsobegoodforinvestors
-* https://www.thinkadvisor.com/2020/06/01/fed-reveals-which-bond-etfs-it-purchased/
-* https://wolfstreet.com/2020/12/04/nobodys-worried-about-nothin-junk-bond-yields-hit-record-low/
-* https://www.bloomberg.com/opinion/articles/2020-06-15/fed-doesn-t-really-need-to-buy-corporate-bonds
-* https://www.bloomberg.com/opinion/articles/2020-06-18/fed-seems-to-skirt-the-law-to-buy-corporate-bonds
-* https://www.cnbc.com/2020/08/10/the-fed-bought-more-blue-chip-and-junk-bonds-and-has-started-making-main-street-loans.html 
-* https://www.nytimes.com/2020/09/28/business/economy/coronavirus-pandemic-income-inequality.html
-* Wealth increase of 10 men during pandemic could buy vaccines for all'https://www.bbc.com/news/world-55793575 
-* https://www.businessinsider.com/billionaires-net-worth-increases-coronavirus-pandemic-2020-7 
-* 40% of Americans don’t have $400 in the bank for emergency expenses: Federal Reservehttps://abcnews.go.com/US/10-americans-struggle-cover-400-emergency-expense-federal/story?id=63253846 
-* https://www.bbc.com/zhongwen/simp/world-52988524
-* https://www.bloomberg.com/news/articles/2019-11-09/one-percenters-close-to-surpassing-wealth-of-u-s-middle-class 
-* https://deconstructingrisk.com/tag/us-net-wealth/
 * [2020Dec IPO Mania Sweeps Over Robinhood Crowd and Stokes a 111% Rally](https://www.bloomberg.com/news/articles/2020-12-12/ipo-mania-sweeps-over-robinhood-crowd-and-stokes-a-111-rally)。
-* https://www.stockfeel.com.tw/spac-%E7%89%B9%E6%AE%8A%E7%9B%AE%E7%9A%84%E6%94%B6%E8%B3%BC%E5%85%AC%E5%8F%B8-ipo-%E7%BE%8E%E5%9C%8B-%E5%80%9F%E6%AE%BC-%E4%B8%8A%E5%B8%82/ 
-* https://www.nasdaq.com/articles/2020-has-been-the-year-of-spac-ipos%3A-here-are-the-prominent-4-2020-12-28 
-* https://www.youtube.com/watch?v=jfNFI5JhrvA&ab_channel=CNBCInternational 
-* Chamath Palihapitiya explains why SPAC’s are awesomehttps://www.youtube.com/watch?v=TO8WZgLTxkk&t=74s&ab_channel=InvestinYourself
-* https://www.36kr.com/p/1075552592769921
-* https://www.nytimes.com/1970/09/13/archives/a-friedman-doctrine-the-social-responsibility-of-business-is-to.html
-* https://www.forbes.com/advisor/investing/milton-friedman-social-responsibility-of-business/
-* https://www.newyorker.com/magazine/2019/09/02/the-rich-cant-get-richer-forever-can-they
-* https://fortune.com/2018/09/28/house-3-8-trillion-tax-cut-passes/
-* https://www.businessinsider.com/billionaires-net-worth-increases-coronavirus-pandemic-2020-7
-* https://www.cnbc.com/2020/02/04/amazon-had-to-pay-federal-income-taxes-for-the-first-time-since-2016.html
-* https://fortune.com/2019/02/14/amazon-doesnt-pay-federal-taxes-2019/
-* https://itep.org/amazon-in-its-prime-doubles-profits-pays-0-in-federal-income-taxes/
-* https://fortune.com/2018/06/12/amazon-just-killed-a-tax-that-helps-homeless-people/ 
-* https://www.bloomberg.com/news/articles/2019-11-09/one-percenters-close-to-surpassing-wealth-of-u-s-middle-class 
-* https://www.newyorker.com/magazine/2019/09/02/the-rich-cant-get-richer-forever-can-they
-* https://www.bloomberg.com/opinion/articles/2020-09-18/milton-friedman-was-wrong-look-at-income-inequality
-* https://www.nytimes.com/2020/09/10/business/dealbook/milton-friedman-inequality.html
-* https://www.washingtonpost.com/business/economy/corporate-debt-nears-a-record-10-trillion-and-borrowing-binge-poses-new-risks/2019/11/29/1f86ba3e-114b-11ea-bf62-eadd5d11f559_story.html
-* A better way to tax the richhttps://www.youtube.com/watch?v=pTwPHuE_HrU&ab_channel=Vox 
-* How tax brackets actually workhttps://www.youtube.com/watch?v=VJhsjUPDulw&ab_channel=Vox
-* https://americansfortaxfairness.org/tax-fairness-briefing-booklet/fact-sheet-taxing-wealthy-americans
-* https://edition.cnn.com/2020/09/28/politics/tax-law-101/index.html
-* https://www.cnbc.com/2019/02/21/here-are-5-ways-the-super-rich-manage-to-pay-lower-taxes.html 
-* https://fortune.com/2018/11/21/amazon-hq2-tax-breaks-subsidies/
-* https://www.vox.com/2019/3/19/18240377/estate-tax-wealth-tax-70-percent-warren-sanders-aoc
-* https://www.swissinfo.ch/chi/%E6%8D%8D%E5%8D%AB%E7%BB%9F%E4%B8%80%E7%A8%8E_%E5%90%84%E5%9B%BD%E9%83%BD%E5%9C%A8%E4%BA%89%E6%8A%A2%E5%A4%96%E5%9B%BD%E5%AF%8C%E4%BA%BA/41096344 
-* https://www.luohanacademy.com/cn/insights/5e3da4ceb80664d6 
-* https://www.zhihu.com/question/277816021 
-* https://www.bloomberg.com/news/articles/2020-12-06/boj-becomes-biggest-japan-stock-owner-with-434-billion-hoard 
-* https://www.zhihu.com/question/398493429/answer/1258461624 
-* https://www.wsj.com/articles/SB10001424052702304470504579163094082999108 
-* https://www.quora.com/What-are-the-fundamental-accounting-differences-between-capital-requirements-and-reserve-requirements-set-for-a-bank 
-* https://www.investopedia.com/terms/r/requiredreserves.asp#:~:text=Reserve%20requirements%20are%20the%20amount%20of%20funds%20that%20a%20bank,economy%20and%20influence%20interest%20rates. 
-* https://www.fdic.gov/deposit/covered/notinsured.html 
-* https://www.investopedia.com/terms/n/nbfcs.asp 
-* https://www.newyorkfed.org/aboutthefed/fedpoint/fed15.html 
-* http://jpkoning.blogspot.com/2012/02/idiots-guide-to-federal-reserve.html 
-* https://www.investopedia.com/terms/a/accounting-equation.asp#:~:text=Assets%20represent%20the%20valuable%20resources,of%20a%20company%20are%20financed. 
-* https://www.youtube.com/watch?v=Q1z395u60xU&ab_channel=TheFinanceStoryteller 
-* https://zhuanlan.zhihu.com/p/118557325 
-* https://www.zhihu.com/question/20879716 
-* https://www.forbes.com/sites/francescoppola/2019/09/17/if-you-dont-understand-banks-dont-write-about-them/?sh=3af754322e69 
-* https://www.theatlantic.com/magazine/archive/2007/06/the-dark-side-of-the-gilded-age/306012/ 
-* https://sites.williams.edu/engl-209-fall16/uncategorized/the-dark-side-of-darwinism/ 
-* https://www.forbes.com/sites/danielnewman/2019/05/08/could-blockchain-solve-our-growing-privacy-issue/?sh=3986b6d35eb4 
-* https://www.forbes.com/sites/tommybeer/2020/10/08/top-1-of-us-households-hold-15-times-more-wealth-than-bottom-50-combined/?sh=53b2f0b75179
 * [Newyorker - Liberalism According to The Economist](https://www.newyorker.com/magazine/2019/11/11/liberalism-according-to-the-economist))
-* https://www.pbs.org/wgbh/americanexperience/features/carnegie-herbert-spencer/
-* https://en.wikipedia.org/wiki/Thomas_Jefferson_and_slavery
-* Andrew Carnegie Claimed to Support Unions, But Then Destroyed Them in His Steel Empire https://www.history.com/news/andrew-carnegie-unions-homestead-strike
-* Four Reasons Financial Intermediaries Failhttps://www.youtube.com/watch?v=cdGA9t_PDpY&ab_channel=MarginalRevolutionUniversity
-* The Bank of England: https://www.bankofengland.co.uk/
+* Andrew Carnegie Claimed to Support Unions, But Then Destroyed Them in His Steel Empire [https://www.history.com/news/andrew-carnegie-unions-homestead-strike](https://www.history.com/news/andrew-carnegie-unions-homestead-strike)
+* Four Reasons Financial Intermediaries Fail [https://www.youtube.com/watch?v=cdGA9t_PDpY&ab_channel=MarginalRevolutionUniversity](https://www.youtube.com/watch?v=cdGA9t_PDpY&ab_channel=MarginalRevolutionUniversity)
+* The Bank of England: [https://www.bankofengland.co.uk/](https://www.bankofengland.co.uk/)
+
+* Fed doesn t really need to buy corporate bonds [https://www.bloomberg.com/opinion/articles/2020-06-15/fed-doesn-t-really-need-to-buy-corporate-bonds](https://www.bloomberg.com/opinion/articles/2020-06-15/fed-doesn-t-really-need-to-buy-corporate-bonds)
+* Fed seems to skirt the law to buy corporate bonds [https://www.bloomberg.com/opinion/articles/2020-06-18/fed-seems-to-skirt-the-law-to-buy-corporate-bonds](https://www.bloomberg.com/opinion/articles/2020-06-18/fed-seems-to-skirt-the-law-to-buy-corporate-bonds)
+* One percenters close to surpassing wealth of u s middle class [https://www.bloomberg.com/news/articles/2019-11-09/one-percenters-close-to-surpassing-wealth-of-u-s-middle-class](https://www.bloomberg.com/news/articles/2019-11-09/one-percenters-close-to-surpassing-wealth-of-u-s-middle-class)
+* One percenters close to surpassing wealth of u s middle class [https://www.bloomberg.com/news/articles/2019-11-09/one-percenters-close-to-surpassing-wealth-of-u-s-middle-class](https://www.bloomberg.com/news/articles/2019-11-09/one-percenters-close-to-surpassing-wealth-of-u-s-middle-class)
+* Milton friedman was wrong look at income inequality [https://www.bloomberg.com/opinion/articles/2020-09-18/milton-friedman-was-wrong-look-at-income-inequality](https://www.bloomberg.com/opinion/articles/2020-09-18/milton-friedman-was-wrong-look-at-income-inequality)
+* Boj becomes biggest japan stock owner with 434 billion hoard [https://www.bloomberg.com/news/articles/2020-12-06/boj-becomes-biggest-japan-stock-owner-with-434-billion-hoard](https://www.bloomberg.com/news/articles/2020-12-06/boj-becomes-biggest-japan-stock-owner-with-434-billion-hoard)
+* 凯恩斯主义、货币主义和理性预期学派在失业和通胀关系问题上观点的主要差异 - 知乎 [https://zhuanlan.zhihu.com/p/129648456](https://zhuanlan.zhihu.com/p/129648456)
+* 2008年金融危机的形成、泡沫和复苏全过程-虎嗅网 [https://www.huxiu.com/article/281200.html](https://www.huxiu.com/article/281200.html)
+* YOLO：不甘沉默的大多数_详细解读_最新资讯_热点事件_36氪 [https://www.36kr.com/p/1075552592769921](https://www.36kr.com/p/1075552592769921)
+* Timeline: A short history of QE and the market - Marketwatch [http://projects.marketwatch.com/short-history-of-qe-and-the-market-timeline/](http://projects.marketwatch.com/short-history-of-qe-and-the-market-timeline/)
+* 一步到零，美联储为何如此激进？ - 专家观点 - 罗汉堂 [https://www.luohanacademy.com/cn/insights/5e3da4ceb80664d6](https://www.luohanacademy.com/cn/insights/5e3da4ceb80664d6)
+* 一个简单的例子让你了解资产负债表！ - 知乎 [https://zhuanlan.zhihu.com/p/118557325](https://zhuanlan.zhihu.com/p/118557325)
+* 如何看待主持人崔娃关于近期美警暴力执法引起骚乱等事件的发声？ - 知乎 [https://www.zhihu.com/question/398493429/answer/1258461624](https://www.zhihu.com/question/398493429/answer/1258461624)
+* 怎么理解 输入性通货膨胀？ - 知乎 [https://www.zhihu.com/question/277816021](https://www.zhihu.com/question/277816021)
+* 如何看待亚当斯密的《道德情操论》和《国富论》？ - 知乎 [https://www.zhihu.com/question/20879716](https://www.zhihu.com/question/20879716)
+* The 1870-1914 Gold Standard: The Most Perfect One Ever Created [https://www.forbes.com/sites/nathanlewis/2013/01/03/the-1870-1914-gold-standard-the-most-perfect-one-ever-created/?sh=29ce5b374a6a](https://www.forbes.com/sites/nathanlewis/2013/01/03/the-1870-1914-gold-standard-the-most-perfect-one-ever-created/?sh=29ce5b374a6a)
+* Are bank deposit liability or asset? - Quora [https://www.quora.com/Are-bank-deposit-liability-or-asset](https://www.quora.com/Are-bank-deposit-liability-or-asset)
+* Modern Monetary Theory, explained - Vox [https://www.vox.com/future-perfect/2019/4/16/18251646/modern-monetary-theory-new-moment-explained](https://www.vox.com/future-perfect/2019/4/16/18251646/modern-monetary-theory-new-moment-explained)
+* 504 GATEWAY_TIMEOUT [https://advisors.vanguard.com/insights/article/whatsgoodforthefedmayalsobegoodforinvestors](https://advisors.vanguard.com/insights/article/whatsgoodforthefedmayalsobegoodforinvestors)
+* Fed Reveals Which Bond ETFs It Purchased - ThinkAdvisor [https://www.thinkadvisor.com/2020/06/01/fed-reveals-which-bond-etfs-it-purchased/](https://www.thinkadvisor.com/2020/06/01/fed-reveals-which-bond-etfs-it-purchased/)
+* The financial crisis of 2008: How housing contributed - Curbed [https://archive.curbed.com/2018/8/29/17788844/financial-crisis-2008-cause-housing-mortgage-lending](https://archive.curbed.com/2018/8/29/17788844/financial-crisis-2008-cause-housing-mortgage-lending)
+* The Dark Side of Darwinism - Philosophy for the Many [https://sites.williams.edu/engl-209-fall16/uncategorized/the-dark-side-of-darwinism/](https://sites.williams.edu/engl-209-fall16/uncategorized/the-dark-side-of-darwinism/)
+* Before 'The Wealth Of Nations,' Adam Smith Penned The Ultimate Guide To A Moral Life - HuffPost Life [https://www.huffpost.com/entry/before-he-wrote-a-manifes_n_5772360](https://www.huffpost.com/entry/before-he-wrote-a-manifes_n_5772360)
+* Reserve Requirements Definition [https://www.investopedia.com/terms/r/requiredreserves.asp](https://www.investopedia.com/terms/r/requiredreserves.asp)
+* Credit: How it is Created (Financial Economics) - Economics - tutor2u [https://www.tutor2u.net/economics/reference/financial-economics-creating-credit](https://www.tutor2u.net/economics/reference/financial-economics-creating-credit)
+* 'Wealth increase of 10 men during pandemic could buy vaccines for all' - BBC News [https://www.bbc.com/news/world-55793575](https://www.bbc.com/news/world-55793575)
+* Accounting Equation Definition [https://www.investopedia.com/terms/a/accounting-equation.asp](https://www.investopedia.com/terms/a/accounting-equation.asp)
+* The Fed bought more blue-chip and junk bonds, and has started making Main Street loans [https://www.cnbc.com/2020/08/10/the-fed-bought-more-blue-chip-and-junk-bonds-and-has-started-making-main-street-loans.html](https://www.cnbc.com/2020/08/10/the-fed-bought-more-blue-chip-and-junk-bonds-and-has-started-making-main-street-loans.html)
+* Moneyness: The Idiot's Guide to the Federal Reserve Interdistrict Settlement Account [http://jpkoning.blogspot.com/2012/02/idiots-guide-to-federal-reserve.html](http://jpkoning.blogspot.com/2012/02/idiots-guide-to-federal-reserve.html)
+* US Net Wealth - deconstructingrisk [https://deconstructingrisk.com/tag/us-net-wealth/](https://deconstructingrisk.com/tag/us-net-wealth/)
+* Federal Funds and Interest on Reserves  - Fedpoints - FEDERAL RESERVE BANK of NEW YORK [https://www.newyorkfed.org/aboutthefed/fedpoint/fed15.html](https://www.newyorkfed.org/aboutthefed/fedpoint/fed15.html)
+* Amazon Not Paying Federal Income Taxes on $11.2 Billion Profits - Fortune [https://fortune.com/2019/02/14/amazon-doesnt-pay-federal-taxes-2019/](https://fortune.com/2019/02/14/amazon-doesnt-pay-federal-taxes-2019/)
+* Amazon Just Killed a Tax That Helps Homeless People - Fortune [https://fortune.com/2018/06/12/amazon-just-killed-a-tax-that-helps-homeless-people/](https://fortune.com/2018/06/12/amazon-just-killed-a-tax-that-helps-homeless-people/)
+* [SPAC 是什麼？有什麼好處？運作流程與結構？SPAC IPO 上市 為何在美國爆紅？](https://www.stockfeel.com.tw/spac-%E7%89%B9%E6%AE%8A%E7%9B%AE%E7%9A%84%E6%94%B6%E8%B3%BC%E5%85%AC%E5%8F%B8-ipo-%E7%BE%8E%E5%9C%8B-%E5%80%9F%E6%AE%BC-%E4%B8%8A%E5%B8%82/)
+* Thomas Jefferson and slavery - Wikipedia [https://en.wikipedia.org/wiki/Thomas_Jefferson_and_slavery](https://en.wikipedia.org/wiki/Thomas_Jefferson_and_slavery)
+* Accounting Equation Definition [https://www.investopedia.com/terms/a/accounting-equation.asp](https://www.investopedia.com/terms/a/accounting-equation.asp)
+* FDIC: Insured or Not Insured? [https://www.fdic.gov/deposit/covered/notinsured.html](https://www.fdic.gov/deposit/covered/notinsured.html)
+* Nonbank Financial Companies (NBFCs) Definition [https://www.investopedia.com/terms/n/nbfcs.asp](https://www.investopedia.com/terms/n/nbfcs.asp)
+* If You Don't Understand Banks, Don't Write About Them [https://www.forbes.com/sites/francescoppola/2019/09/17/if-you-dont-understand-banks-dont-write-about-them/?sh=3af754322e69](https://www.forbes.com/sites/francescoppola/2019/09/17/if-you-dont-understand-banks-dont-write-about-them/?sh=3af754322e69)
+* House Passes $3.8 Trillion in Tax Cuts - Fortune [https://fortune.com/2018/09/28/house-3-8-trillion-tax-cut-passes/](https://fortune.com/2018/09/28/house-3-8-trillion-tax-cut-passes/)
+* How billionaires got $637 billion richer during the COVID-19 pandemic [https://www.businessinsider.com/billionaires-net-worth-increases-coronavirus-pandemic-2020-7](https://www.businessinsider.com/billionaires-net-worth-increases-coronavirus-pandemic-2020-7)
+* The Dark Side of the Gilded Age - The Atlantic [https://www.theatlantic.com/magazine/archive/2007/06/the-dark-side-of-the-gilded-age/306012/](https://www.theatlantic.com/magazine/archive/2007/06/the-dark-side-of-the-gilded-age/306012/)
+* How billionaires got $637 billion richer during the COVID-19 pandemic [https://www.businessinsider.com/billionaires-net-worth-increases-coronavirus-pandemic-2020-7](https://www.businessinsider.com/billionaires-net-worth-increases-coronavirus-pandemic-2020-7)
+* 乔治·佛洛伊德之死：从“我会改变世界”到“我无法呼吸”的一生 - BBC News 中文 [https://www.bbc.com/zhongwen/simp/world-52988524](https://www.bbc.com/zhongwen/simp/world-52988524)
+* Could Blockchain Solve Our Growing Privacy Issue? [https://www.forbes.com/sites/danielnewman/2019/05/08/could-blockchain-solve-our-growing-privacy-issue/?sh=3986b6d35eb4](https://www.forbes.com/sites/danielnewman/2019/05/08/could-blockchain-solve-our-growing-privacy-issue/?sh=3986b6d35eb4)
+* The Rich Can’t Get Richer Forever, Can They? - The New Yorker [https://www.newyorker.com/magazine/2019/09/02/the-rich-cant-get-richer-forever-can-they](https://www.newyorker.com/magazine/2019/09/02/the-rich-cant-get-richer-forever-can-they)
+* Commentary: Amazon HQ2: How Jeff Bezos Avoids Paying Taxes - Fortune [https://fortune.com/2018/11/21/amazon-hq2-tax-breaks-subsidies/](https://fortune.com/2018/11/21/amazon-hq2-tax-breaks-subsidies/)
+* What are the fundamental accounting differences between capital requirements and reserve requirements set for a bank? - Quora [https://www.quora.com/What-are-the-fundamental-accounting-differences-between-capital-requirements-and-reserve-requirements-set-for-a-bank](https://www.quora.com/What-are-the-fundamental-accounting-differences-between-capital-requirements-and-reserve-requirements-set-for-a-bank)
+* Understanding the Federal Reserve Balance Sheet [https://www.investopedia.com/articles/economics/10/understanding-the-fed-balance-sheet.asp](https://www.investopedia.com/articles/economics/10/understanding-the-fed-balance-sheet.asp)
+* What is a SPAC? - CNBC Explains - YouTube [https://www.youtube.com/watch?v=jfNFI5JhrvA&ab_channel=CNBCInternational](https://www.youtube.com/watch?v=jfNFI5JhrvA&ab_channel=CNBCInternational)
+* The Rich Can’t Get Richer Forever, Can They? - The New Yorker [https://www.newyorker.com/magazine/2019/09/02/the-rich-cant-get-richer-forever-can-they](https://www.newyorker.com/magazine/2019/09/02/the-rich-cant-get-richer-forever-can-they)
+* Top 1% Of U.S. Households Hold 15 Times More Wealth Than Bottom 50% Combined [https://www.forbes.com/sites/tommybeer/2020/10/08/top-1-of-us-households-hold-15-times-more-wealth-than-bottom-50-combined/?sh=53b2f0b75179](https://www.forbes.com/sites/tommybeer/2020/10/08/top-1-of-us-households-hold-15-times-more-wealth-than-bottom-50-combined/?sh=53b2f0b75179)
+* Milton Friedman On The Social Responsibility Of Business – Forbes Advisor [https://www.forbes.com/advisor/investing/milton-friedman-social-responsibility-of-business/](https://www.forbes.com/advisor/investing/milton-friedman-social-responsibility-of-business/)
+* Fact Sheet: Taxing Wealthy Americans - Americans For Tax Fairness [https://americansfortaxfairness.org/tax-fairness-briefing-booklet/fact-sheet-taxing-wealthy-americans](https://americansfortaxfairness.org/tax-fairness-briefing-booklet/fact-sheet-taxing-wealthy-americans)
+* Japan's Banks Find It Hard to Lend Easy Money - WSJ [https://www.wsj.com/articles/SB10001424052702304470504579163094082999108](https://www.wsj.com/articles/SB10001424052702304470504579163094082999108)
+* How tax brackets actually work - YouTube [https://www.youtube.com/watch?v=VJhsjUPDulw&ab_channel=Vox](https://www.youtube.com/watch?v=VJhsjUPDulw&ab_channel=Vox)
+* Junk Bond Yields Hit Record Low: Most Distorted Markets Ever - Wolf Street [https://wolfstreet.com/2020/12/04/nobodys-worried-about-nothin-junk-bond-yields-hit-record-low/](https://wolfstreet.com/2020/12/04/nobodys-worried-about-nothin-junk-bond-yields-hit-record-low/)
+* A better way to tax the rich - YouTube [https://www.youtube.com/watch?v=pTwPHuE_HrU&ab_channel=Vox](https://www.youtube.com/watch?v=pTwPHuE_HrU&ab_channel=Vox)
+* How does US tax law allow billionaires not to pay? Read this and try to understand - CNNPolitics [https://edition.cnn.com/2020/09/28/politics/tax-law-101/index.html](https://edition.cnn.com/2020/09/28/politics/tax-law-101/index.html)
+* What is Equity - YouTube [https://www.youtube.com/watch?v=Q1z395u60xU&ab_channel=TheFinanceStoryteller](https://www.youtube.com/watch?v=Q1z395u60xU&ab_channel=TheFinanceStoryteller)
+* Even as Americans Grew Richer, Inequality Persisted - The New York Times [https://www.nytimes.com/2020/09/28/business/economy/coronavirus-pandemic-income-inequality.html](https://www.nytimes.com/2020/09/28/business/economy/coronavirus-pandemic-income-inequality.html)
+* Here are 5 ways the super-rich manage to pay lower taxes [https://www.cnbc.com/2019/02/21/here-are-5-ways-the-super-rich-manage-to-pay-lower-taxes.html](https://www.cnbc.com/2019/02/21/here-are-5-ways-the-super-rich-manage-to-pay-lower-taxes.html)
+* Herbert Spencer - American Experience - Official Site - PBS [https://www.pbs.org/wgbh/americanexperience/features/carnegie-herbert-spencer/](https://www.pbs.org/wgbh/americanexperience/features/carnegie-herbert-spencer/)
+* [各国都在争抢外国富人 - SWI swissinfo.ch ](https://www.swissinfo.ch/chi/%E6%8D%8D%E5%8D%AB%E7%BB%9F%E4%B8%80%E7%A8%8E_%E5%90%84%E5%9B%BD%E9%83%BD%E5%9C%A8%E4%BA%89%E6%8A%A2%E5%A4%96%E5%9B%BD%E5%AF%8C%E4%BA%BA/41096344)
+* Amazon had to pay federal income taxes for the first time since 2016 [https://www.cnbc.com/2020/02/04/amazon-had-to-pay-federal-income-taxes-for-the-first-time-since-2016.html](https://www.cnbc.com/2020/02/04/amazon-had-to-pay-federal-income-taxes-for-the-first-time-since-2016.html)
+* Society Has Become More Unequal Since Milton Friedman's Day - The New York Times [https://www.nytimes.com/2020/09/10/business/dealbook/milton-friedman-inequality.html](https://www.nytimes.com/2020/09/10/business/dealbook/milton-friedman-inequality.html)
+* Repo: How Roughly $1 Trillion Moves Overnight - WSJ - YouTube [https://www.youtube.com/watch?v=gzCkXNrjFQM&ab_channel=WallStreetJournal](https://www.youtube.com/watch?v=gzCkXNrjFQM&ab_channel=WallStreetJournal)
+* Open Market Operations (OMO) Definition [https://www.investopedia.com/terms/o/openmarketoperations.asp](https://www.investopedia.com/terms/o/openmarketoperations.asp)
+* How to tax the rich, explained - Vox [https://www.vox.com/2019/3/19/18240377/estate-tax-wealth-tax-70-percent-warren-sanders-aoc](https://www.vox.com/2019/3/19/18240377/estate-tax-wealth-tax-70-percent-warren-sanders-aoc)
+* A Friedman doctrine‐- The Social Responsibility Of Business Is to Increase Its Profits - The New York Times [https://www.nytimes.com/1970/09/13/archives/a-friedman-doctrine-the-social-responsibility-of-business-is-to.html](https://www.nytimes.com/1970/09/13/archives/a-friedman-doctrine-the-social-responsibility-of-business-is-to.html)
+* Quantitative Easing: How Well Does This Tool Work? - St. Louis Fed [https://www.stlouisfed.org/publications/regional-economist/third-quarter-2017/quantitative-easing-how-well-does-this-tool-work](https://www.stlouisfed.org/publications/regional-economist/third-quarter-2017/quantitative-easing-how-well-does-this-tool-work)
+* Chamath Palihapitiya explains why SPAC’s are awesome - YouTube [https://www.youtube.com/watch?v=TO8WZgLTxkk&t=74s&ab_channel=InvestinYourself](https://www.youtube.com/watch?v=TO8WZgLTxkk&t=74s&ab_channel=InvestinYourself)
+* Amazon in Its Prime: Doubles Profits, Pays $0 in Federal Income Taxes – ITEP [https://itep.org/amazon-in-its-prime-doubles-profits-pays-0-in-federal-income-taxes/](https://itep.org/amazon-in-its-prime-doubles-profits-pays-0-in-federal-income-taxes/)
+* 40% of Americans don’t have $400 in the bank for emergency expenses: Federal Reserve - ABC News [https://abcnews.go.com/US/10-americans-struggle-cover-400-emergency-expense-federal/story?id=63253846](https://abcnews.go.com/US/10-americans-struggle-cover-400-emergency-expense-federal/story?id=63253846)
+* FRB: H.4.1 Release-- Factors Affecting Reserve Balances --   Thursday, February 4, 2021 [https://www.federalreserve.gov/releases/h41/current/h41.htm](https://www.federalreserve.gov/releases/h41/current/h41.htm)
+* The Rich Can’t Get Richer Forever, Can They? - The New Yorker [https://www.newyorker.com/magazine/2019/09/02/the-rich-cant-get-richer-forever-can-they](https://www.newyorker.com/magazine/2019/09/02/the-rich-cant-get-richer-forever-can-they)
+* Corporate debt nears a record $10 trillion, and borrowing binge poses new risks - The Washington Post [https://www.washingtonpost.com/business/economy/corporate-debt-nears-a-record-10-trillion-and-borrowing-binge-poses-new-risks/2019/11/29/1f86ba3e-114b-11ea-bf62-eadd5d11f559_story.html](https://www.washingtonpost.com/business/economy/corporate-debt-nears-a-record-10-trillion-and-borrowing-binge-poses-new-risks/2019/11/29/1f86ba3e-114b-11ea-bf62-eadd5d11f559_story.html)
+* Stock market ends year at record levels - The Washington Post [https://www.washingtonpost.com/business/2020/12/31/stock-market-record-2020/](https://www.washingtonpost.com/business/2020/12/31/stock-market-record-2020/)
