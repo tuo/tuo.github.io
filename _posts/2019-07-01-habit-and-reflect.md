@@ -43,8 +43,11 @@ from [《The Story of Philosophy: The Lives and Opinions of the World's Greatest
 
 索罗斯虽然行为有争议，但是他非常有创造性的将哲学应用到金融上面值得学习。 他讲金融当做他的试验田，来验证和修正自己的哲学思想。他在《金融炼金术》里提出的参与者的主动意识，影响并推动价格和市场的走向，两者是相互作用的, 互相交缠作用，好比流水和想法一样万古不息。
 
-![1716e4440c9bcc3761ead96ecc96b739](https://user-images.githubusercontent.com/491610/63636508-dd38ce80-c6a2-11e9-9332-bdc74e012a7f.jpg)
-![ef24a1d5d72fae6992d46809d8d77be8](https://user-images.githubusercontent.com/491610/63636509-ddd16500-c6a2-11e9-854f-e477dd88f203.jpg)
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190824habit/63636508-dd38ce80-c6a2-11e9-9332-bdc74e012a7f.jpg)
+
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190824habit/63636509-ddd16500-c6a2-11e9-854f-e477dd88f203.jpg)
+
 
 
 这本书好比是他的笔记，他如何将哲学运用到宏观经济学之上，更加不回避的提到自己的错误和修正。这本书没有提到一个明确的答案，甚至看起来有些矛盾，大部分看过想要银弹秘方的人可能要大失所望，不知所云（部分因为需要了解1970，80美国和世界的经济格局），但是正是如此，他提供的这个思辨过程才如此有价值，务实有借鉴学习。务实派明白万事的变化本质，反而乐意看到自己修正自己的过程，不管是从成功或失败之中，不固步自封。
@@ -106,8 +109,11 @@ Ben Bernanke虽然被奥巴马政府认为应对经济危机很得体, 通过FED
 
 但是看了伯南克在08年之前对Alan Greenspan格林斯潘的夸奖（05年讲座称赞是The Great Moderation), 结果发现是Great Moderation -> Greate Recession, 然后一系列的言论不无表现出“一切都在控制之内，FED掌握真理”，不要慌，及时发生的初始阶段也是拒绝接受认可危机的。
 
-![5d8ba6349de6f7b3d1339cc61584d5c4](https://user-images.githubusercontent.com/491610/63636510-de69fb80-c6a2-11e9-872b-695174fceffb.jpg)
-![eb1dc92f0c69dbe6873ae3e096ba45bc](https://user-images.githubusercontent.com/491610/63636512-de69fb80-c6a2-11e9-82dc-4a7e1d988cf4.jpg)
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190824habit/63636510-de69fb80-c6a2-11e9-872b-695174fceffb.jpg)
+
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190824habit/63636512-de69fb80-c6a2-11e9-82dc-4a7e1d988cf4.jpg)
+
 
 
 所以简单说如果我们能在boom开始时跳进去，并且在转折点之时(turnpoint)，跳出来，是不是就可以全身而退了？
@@ -133,7 +139,8 @@ Ben Bernanke虽然被奥巴马政府认为应对经济危机很得体, 通过FED
 
 
 
-![15019795-762a28fcf5e5a58e](https://user-images.githubusercontent.com/491610/63791544-513ad700-c92e-11e9-981b-d6b8274cac2f.png)
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190824habit/63791544-513ad700-c92e-11e9-981b-d6b8274cac2f.png)
+
 
 from [《Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones》](https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299)
 
@@ -145,11 +152,9 @@ from [《Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad On
 普遍或者理所当然的事情我们需要留心，保持好奇心问为什么了？ 不可以因为年龄或者惯性，失去了那份天性。从大角度看，万物相通。
 
 好比程序员，太多的理性思维，我有时候就观察到自己或别人的惯用手和走路方式，为什么不能用左手写字（费惯用手），或者为什么不能后退走路了？ 然后我坚持每天用左手抄写唐诗一首，然后尽量我在工作下午的时候抽空下去找一个空的地方，后退着走几圈。 一方面我觉得左手写的时候，我感觉好像小时候学写字好笨拙，一方面抄写唐诗的时候不由自主的思考想象那个诗的意向，挺好的; 一方面我后退走时候，迫使我离开办公室跟自然接触，恢复感知和大自然的联系，看看天和云和竹子，也让我后面的工作有更好专注力。而且我觉得我大脑好像被按摩一样的，怪怪的。 好比你不得不把自己杯子的水倒出来，从新学习熟练。
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190824habit/63636507-dd38ce80-c6a2-11e9-9053-98de34fef175.jpg)
 
-
-![e3f217604e65bcbc7ef909c60296fd84](https://user-images.githubusercontent.com/491610/63636507-dd38ce80-c6a2-11e9-9053-98de34fef175.jpg)
-
-![e2e2661d7dba02298fff5da38b45786f](https://user-images.githubusercontent.com/491610/63638616-40375f00-c6bd-11e9-8657-9b1cbffecba9.jpg)
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190824habit/63638616-40375f00-c6bd-11e9-8657-9b1cbffecba9.jpg)
 
 
 每天我都尽量抽出时间比如睡觉前来左手抄诗词，或者一些生的单词；下午或者怎么样抽出10分钟后退走几圈刚好拉伸下身体；这个事情没有啥功利性，长期坚持必定是有其中乐趣，简单的乐趣罢了，了解身体，了解大脑，也了解自己。看云卷云舒，看碧蓝灰蒙，各有其妙，也提醒自己保持初心。

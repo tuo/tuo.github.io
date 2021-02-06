@@ -148,7 +148,10 @@ temperament气质：你不需要因为跟大众站一起而感觉高兴兴奋抑
 
 ## 不要去思考，去感受 Don't think, feel & experience
 
-![bruce lee,dont think,feel](https://user-images.githubusercontent.com/491610/58382646-4145eb00-7fff-11e9-84ad-80df23437f25.png)
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/58382646-4145eb00-7fff-11e9-84ad-80df23437f25.png)
+
+
 
 
 这是李小龙在电影里的一个片段。这段的说的是李小龙让学徒不要只看着手指，否则会失去明月的光辉。
@@ -175,9 +178,7 @@ temperament气质：你不需要因为跟大众站一起而感觉高兴兴奋抑
 
 体验经历，抛弃固有的偏见，不管好坏（也无所谓好坏），从其中学习。这让我想起了Ray Dalio在《原则》提到的一个循环:
 
-
-![raydalio-process](https://user-images.githubusercontent.com/491610/58382643-3db26400-7fff-11e9-9537-0d231f9d19c6.jpg)
-
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/58382643-3db26400-7fff-11e9-9537-0d231f9d19c6.jpg)
 
 
 
@@ -233,7 +234,9 @@ temperament气质：你不需要因为跟大众站一起而感觉高兴兴奋抑
 
 富兰克林这十三条应该说非常贴近日常了。
 
-![Ben-Franklin-Schedule](https://user-images.githubusercontent.com/491610/58382649-486cf900-7fff-11e9-8e35-d3c1740b6ef1.jpg)
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/58382649-486cf900-7fff-11e9-8e35-d3c1740b6ef1.jpg)
+
 
 他还会在每天早上和晚上问自己我将会做什么好的和我做过哪些好的这些问题，这是每日三省吾身么？
 
@@ -280,7 +283,8 @@ present moment（当下）- 跟禅宗里活下当下有点类似了。
 
 古人的，中庸之道，平衡之道真是大智慧。 可能我们教材读书时过多的讲了儒家孔子的东西，对于老庄的东西没有提的太多，当然也能理解如果让白纸一样的没有实际入世经历的学生来体悟这些东西，好比无根之水。到了一定年纪，一定经历，重读道德经，真是发人深省，赞叹不已。现代社会以来，这些古老的美玉如同蒙尘一般，被世人遗忘，大家都蜂拥而向摩拜西方的学说，却不曾发现这个”灵山“就在自己脚下。
 
-![11558879058_ pic](https://user-images.githubusercontent.com/491610/58382818-908d1b00-8001-11e9-8954-0d9edb4c3683.jpg)
+
+![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/58382818-908d1b00-8001-11e9-8954-0d9edb4c3683.jpg)
 
 
 我时常带着这本口袋书放书包里，有时候有空拿出来看看翻翻，不一定有什么特意，随手一翻，然后不去想，就是感受。
@@ -309,7 +313,7 @@ present moment（当下）- 跟禅宗里活下当下有点类似了。
 
 > There is in every one of us, even those who seem to be most moderate, a type of desire that is terrible, wild, and lawless
 
-![centered](https://user-images.githubusercontent.com/491610/58382640-3723ec80-7fff-11e9-9709-9e66c5e70c7d.png)
+![centered](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/58382640-3723ec80-7fff-11e9-9709-9e66c5e70c7d.png)
 
 对于人来说特别，当他情绪高涨，自认为天下无敌（EGO），感觉良好，他会忽视规律或者道，他的EGO自我让其凌驾于客观事实，为什么了？ 感觉太好了，这种快感(euphoria), 短期极度充满自我，想气球一样，飘了起来，脱离了地面。好比到了一定高度遇到冷空气，不然破气下落摔下来。 他让丧失了理性的判断，overriding复写了你的大脑程序，某种程度上控制了你；人一旦产生妄想，就会违背自然规律而恣意妄为。
 
