@@ -24,7 +24,7 @@ tags: #tags go here: space-separated string
 圣地亚哥是一个很有特点的城市，周围被山脉包围，那种可以从家里可以看到远处的印第安山脉那种，周末登山干啥的很是平常。当然也不是每天都能看到了，因为圣地亚哥也有因为
 它的雾霾出名，有些时候，特别是秋冬天，可能就看不到远处的山脉，跟国内差不多那种。
 
-![img_6836](https://cloud.githubusercontent.com/assets/491610/7789810/5316e6cc-0245-11e5-8490-77e0709b4afe.JPG)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20150505chile/5316e6cc-0245-11e5-8490-77e0709b4afe.jpeg)
 
 
 ## 货币
@@ -34,7 +34,7 @@ tags: #tags go here: space-separated string
 
 一罐可乐大概是500到750比索，相当于人命币5元到7元左右。物价还是比国内高很多的，在南美来看也是挺高的，我提到下面饮食的时候会更多提到的。
 
-![img_6835](https://cloud.githubusercontent.com/assets/491610/7789814/6b0a4f4e-0245-11e5-8b98-6fa2f4ec94f8.JPG)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20150505chile/6b0a4f4e-0245-11e5-8b98-6fa2f4ec94f8.jpeg)
 
 ## 交通
 
@@ -55,7 +55,7 @@ tags: #tags go here: space-separated string
 
 推荐使用Google Map或者[Moovit](https://itunes.apple.com/us/app/moovit-live-transit-info-bus/id498477945?mt=8), 虽然有人推荐http://www.transantiago.cl 但是那个只有西班牙语，没有英文这个还是挺麻烦的。
 
-![img_6745](https://cloud.githubusercontent.com/assets/491610/7789815/82263c88-0245-11e5-84f2-ae77a8fd29f6.JPG)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20150505chile/82263c88-0245-11e5-84f2-ae77a8fd29f6.jpeg)
 
 ## 治安
 
@@ -66,7 +66,7 @@ tags: #tags go here: space-separated string
 其中一个周末我去了下这边比较有名的武器广场，这个还是比较乱得，因为智利的经济情况很不错，所以吸引了很多邻国的秘鲁人，其中有很多是非法过来的，基本上占据了这些有名的旅游景点。
 顺便推荐下武器广场旁边的前哥伦比亚博物馆，有很多关于南美和智利土著人的历史和文化介绍。
 
-![img_6859](https://cloud.githubusercontent.com/assets/491610/7789816/94e35e1e-0245-11e5-8424-c02c557584b4.JPG)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20150505chile/94e35e1e-0245-11e5-8424-c02c557584b4.jpeg)
 
 ## 人民
 
@@ -76,7 +76,7 @@ tags: #tags go here: space-separated string
 
 我参加过好几次家庭或者朋友烧烤，肉吃的真是嗨皮啊，让我打开眼界，从未吃过这么多肉。
 
-![sidemnu](https://cloud.githubusercontent.com/assets/491610/7789836/e95b29c2-0245-11e5-9a33-b298e82ef98b.jpg)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20150505chile/e95b29c2-0245-11e5-9a33-b298e82ef98b.jpg)
 
 ## 饮食
 
@@ -87,27 +87,27 @@ tags: #tags go here: space-separated string
 你能说出来的，都有。第一天到这边的晚上，同事他妈妈就做了一个三明治，里面一层的牛油果酱，别说味道还真是挺好吃的。在这里，基本就别想啥国内10块那种拉面啥了，基本上吃顿饭，大概
 四五十六七十块以上吧，比如subway,这边大概40快，而且味道实在不咋样。
 
-![img_6705](https://cloud.githubusercontent.com/assets/491610/7789844/0b7de5f8-0246-11e5-8b70-3da08f09072f.JPG)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20150505chile/0b7de5f8-0246-11e5-8b70-3da08f09072f.jpeg)
 
 去吃了办公室旁边的秘鲁菜，就是简单的一个小牛排加米饭薯条，还没点饮料，将近130块吧，后来去了跟同事整个妈妈妹妹老婆孩子姐姐去了远点的秘鲁菜，味道超级好，而且比
 这边还便宜。
 
-![img_6786](https://cloud.githubusercontent.com/assets/491610/7789842/04a6a328-0246-11e5-882b-b78d5e15f937.JPG)
-![img_6826](https://cloud.githubusercontent.com/assets/491610/7789840/01eaa9cc-0246-11e5-8735-51c90ad70bc5.JPG)
-![img_6829](https://cloud.githubusercontent.com/assets/491610/7789841/02a75a40-0246-11e5-85d0-d349b4653857.JPG)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20150505chile/04a6a328-0246-11e5-882b-b78d5e15f937.jpeg)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20150505chile/01eaa9cc-0246-11e5-8735-51c90ad70bc5.jpeg)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20150505chile/02a75a40-0246-11e5-85d0-d349b4653857.jpeg)
 
 这边我非常喜欢的特色食物就是：[Empanada](http://en.wikipedia.org/wiki/Empanada) 也是这边国民小吃。我基本上都在这边的面包店Castaño买的，这家店在圣地亚哥几乎
 是满大街都是，就像上海的全家啊之类的，非常多，里面有卖面包，饮料等等。Empanada有两种: 一种类似于咱们的生煎包，外面是被煎炸过得，脆脆的；另一种，外面是就是咱们那种卷，酥酥软软的。
 里面最多是起司(queso)，或者火腿（jambo)等等，味道非常好吃，极力推荐。
 
-![img_6747](https://cloud.githubusercontent.com/assets/491610/7789839/0044af32-0246-11e5-9eb4-da684cad9331.JPG)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20150505chile/0044af32-0246-11e5-9eb4-da684cad9331.jpeg)
 
 这边菜虽然比国内要贵，但是普遍分量都还是挺大的。另外需要注意的是，普遍都是会给小费的，大概是10%吧。
 
 智利最出名的就是红酒了，超市各种红酒，价格非常便宜，这边三四十快估计相当于国内百多块的酒了，非常好的酒。这边人也很喜欢喝pisco，度数更高点，所以很多人跟可乐混在一起，
 叫做[Piscola](http://en.wikipedia.org/wiki/Piscola), 味道还是不错的，但是后劲有点猛。
 
-![img_71961](https://cloud.githubusercontent.com/assets/491610/7789866/a0e9475e-0246-11e5-815d-fe6f22d66402.JPG)
+![img_6836](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20150505chile/a0e9475e-0246-11e5-815d-fe6f22d66402.jpeg)
 
 
 
