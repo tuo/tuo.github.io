@@ -265,6 +265,13 @@ tags: money,economics
 
 这个在今天还是非常有争议的。现在很多企业现在也都会鼓吹就业平等，包括种族平等性别平等，很多公司比强生也都会把客户的利益放在第一位其次才是股东的利益；其次弗里德曼的理论只在完美的市场场景（没有欺骗和欺诈的公开自由的竞争 - 这个可能么？）下发生；很多CEO的薪水相对普通员工相比简直是指数式的差别(300倍），他们貌似不管公司是否盈利给股东以好处，更多是自己的利益；大公司追求自己的利益花了大量的钱游说国会放松监管(请看2018年amazon亚马逊赤裸裸地威胁要停止建设新的大楼，成功说服了西雅图市长放弃一项来帮助城市流浪者的税收政策[Amazon Just Killed a Tax That Helps Homeless People](https://fortune.com/2018/06/12/amazon-just-killed-a-tax-that-helps-homeless-people/)）；
 
+
+* [2010 - Carl Levin questioning Daniel Sparks - Former Goldman Sachs Mortgages Department Head. - "How much of that shitty deal did you sell to your clients?" Goldman Sachs Hearing](https://www.youtube.com/watch?v=whlzFWwVv98&ab_channel=Attention101)
+
+* [2010 - CEO Richard Fuld got $483,800,000 to Bankrupt Leheman - Congress confronts Leheman CEO Richard Fuld on exorbitant compensation for bankrupting the company.](https://www.youtube.com/watch?v=L_0Y8OCAgk8&ab_channel=BadBureaucrat)
+
+
+
 再看一下按照弗里德曼的解释，那么美国目前社会的撕裂，应该是他希望看到的。为什么了，企业为了追求利润比如追求回报率更高人工成本更少的地区，而全球化正给了这样一个舞台，美国很多公司将制造业等等转移出人工成本昂贵的美国到东南亚和中国这种人工成本低的国家，这样一来，美国最能承载就业的制造业出现了空心化，比如五大湖的铁锈地带。这个去制造业和金融化的过程，使得利润源源不断流入美国的华尔街，大公司和高管，而之前蓬勃的中流砥柱的中产阶级面临着经济的苦难和传统核心社会文化的奔溃。这个理论看起来就是社会达尔文主义的经济版啊。
 
 客观而论，我们要考虑弗里德曼当时的历史背景，当时政府的管控特别多，监控和流程也是非常繁杂，确实一定程度造成了资源的错配，影响了经济的发展（还记得尼克松和后来福特卡特的工资物价控制么），高达70%的税率，政府的手勒的太紧；弗里德曼敢于在70年他有影响但是没有到后面语言滞涨得到验证时那种成为主流的影响力，敢于出来表达自己挑战一般传统的观点（僵化凯恩斯主义），还是值得钦佩的；但是后续自由市场发展打来的贫富分化不晓得是不是他也考虑到的了，要么太紧，要么太松，这个怎么讲了，只能说： ”没有绝对对错，凡事得有度“。
