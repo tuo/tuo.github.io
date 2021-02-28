@@ -289,4 +289,23 @@ tags: money,economics
 > It is true that the problems have not occurred in the last days, they have been accumulating for decades. It is also true that the different governments were not able to recognize this situation in all its magnitude. **This situation of inequity, of abuse, has already meant a genuine and authentic expression of millions and millions of Chileans**. I recognize this lack of vision and I apologize to my compatriots.
 
 
+写《新教伦理与资本主义精神》的马克斯·韦伯怎么看新教对于资本主义发展的促进了 - 从奥古斯丁的原罪《上帝之城》《忏悔录》（天主教的罗马教宗是上帝在俗世的唯一代理人）到马丁路德的“因信称义”再到加尔文主义的“预定论”，教徒不再是被动式的在充满罪恶的俗世消极的处世（只能通过忏悔和参加教会的仪式等待才能洗清自己的原罪，才可能死后上天堂，但是谁也不知道自己是否至善是上天堂-少数，还是至恶下地狱-少数，还是大多数中间的炼狱 - 所以有了赎罪券，类似于“花钱买功德”）
+
+ps: 1095年，在岌岌可危的东罗马帝国面对着博斯普鲁斯海峡对岸气势逼人的塞尔柱军队时，罗马教宗乌尔班二世在今天法国的克莱蒙召开了宗教大会，发表了著名的极具煽动性的演说，拉开了十字军东征的序幕：
+
+> 本着主赐予我的权柄，我郑重宣布：凡参加东征的人，他们死后的灵魂将直接升入天堂，不必在炼狱中经受煎熬；无力偿还债务的农民和城市的贫民，可免付欠债利息，出征超过一年的可免纳赋税。
+
+> 凡动身前往的人，假如在途中，不论在陆地或海上，或在反异教徒的战争中失去生命的，他们的罪愆将在那一瞬间获得赦免，并得到天国永不朽灭的荣耀。
+
+> 向着东方出发吧！不要犹豫，不要彷徨，为荣耀我主，去吧！
+
+
+
+到了加尔文主张上帝已经根据自己的逻辑选好了一部分人上天堂了，是他的子民（预定），在俗世你干什么都不能改变你是否死后上天堂还是下地狱或者还是中间熬死人的炼狱，这个上面教会等等都没有权利。听起来还是很消极，还是一种出世的概念，既然都是追求死后的上帝之城，那么现实世界还有什么意义了？ 加尔文这里就很巧妙的将上帝之城（来世）和罪恶之城（现世）结合起来了，他认为虽然上帝已经预先设定了人死后的场景，但是没人有可以知道上帝选了哪些人（奥古斯丁-三位一体，上帝是永恒的，超越时间，至善全知全能），也就是说上帝是超验的超越人逻辑可以理解的，那作为个体在俗世里，又无法无能揣摩上意，你怎么知道你是不是上帝选中的了（勒布朗詹姆斯 - The chosen one)？ 加尔文认为虽然不知道，但是被上帝选中的人肯定能给上帝带来荣耀(honor)，这里可以参考下帕斯卡的赌注与上帝存在的证明。也就是说假设你是被上帝真的选中了，那么你就代表了上帝的荣耀，那你必须证明带来荣耀（加光），而不是给上帝丢脸。而在俗世这个光荣耀没办法比较啊，但是金钱财富、名声、地位却都是实实在在可以衡量的；你说你一个乞丐，对着亿万富翁说，我觉得我是上帝选中的了，你不是，他人恐怕也很难承认；上帝是超验的，不能用逻辑推理，但是作为具有社会性的人在俗世确是可以设定逻辑和考察标准的。所以新教的教徒从此可以在俗世里放开手脚大胆奋斗努力追求财富等等来突显上帝在自己身上展示的荣耀之光。
+
+早期的资本主义有通过残酷的原始积累获取巨大的财富和极大的政治权利和地位，同时他们也将大量的财富用于建造学校、教堂和社会福利慈善机构等等（比如黑人运动里被推倒的爱德华·科尔斯顿的雕像的英国布里斯托，爱德华·科尔斯顿就是通过奴隶贸易发家的，后面大量的捐助了布里斯托市），获取了巨大的名声，同时部分教徒自己过着节制的生活清规戒律（参考富兰克林自传），目的就是为了凸显上帝通过他们展示出来的荣耀的光，他们正是上帝的选民。
+
+但是随着科技的发展和去愚昧去神秘主义化，宗教的影响力也是在下降，富人们好像不太相信这套东西了；富人们将更多钱投入到了延长寿命甚至永生的科技研究中[The Rich Will Outlive Us All Tech billionaires’ attempts to beat death will not democratize longevity](https://onezero.medium.com/what-happens-when-the-rich-live-decades-longer-than-the-rest-of-us-2dfec4a35b21)，硅谷和生物科技领域联手的兴起；著名的传记作者Walter Isaacson最近将要发布的一本书[《The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race 》](https://www.amazon.com/Code-Breaker-Jennifer-Doudna-Editing/dp/1982115858?&linkCode=sl1&tag=theratwal-20&linkId=b9d2209f940d36f7ab70ba2de0d5d031&language=en_US&ref_=as_li_ss_tl)，他在WSJ发表的一篇预热文章[《What Gene Editing Can Do for Humankind： The new biotechnology called CRISPR offers the prospect of defeating lethal viruses and curing genetic diseases, even as it raises serious moral questions》](https://www.wsj.com/articles/what-gene-editing-can-do-for-humankind-11613750317)提到了通过人类胚胎的基因编辑可以避免一些先天性的疾病比如镰形细胞贫血症（Sickle Cell Anemia），有希望可以大大减轻人类的痛苦。但是这样一来，也有人担心这些被“设计”的婴儿可以让富人相对于穷人有了遗传的优势，不仅有财富地位的，将来可能还有身体机能上的。
+
+
 <a href="./reflects-on-economics-money-part5.html">[2020年关于现代经济的一些思考(五)]</a>
