@@ -289,7 +289,7 @@ tags: money,economics
 > It is true that the problems have not occurred in the last days, they have been accumulating for decades. It is also true that the different governments were not able to recognize this situation in all its magnitude. **This situation of inequity, of abuse, has already meant a genuine and authentic expression of millions and millions of Chileans**. I recognize this lack of vision and I apologize to my compatriots.
 
 
-写《新教伦理与资本主义精神》的马克斯·韦伯怎么看新教对于资本主义发展的促进了 - 从奥古斯丁的原罪《上帝之城》《忏悔录》（中国古有孔融让梨美食，西方有奥古斯丁偷梨，奥古斯丁怎么看待自己为什么要偷梨了，不是为了吃，就是心痒手贱无聊刺激，跟亚当夏娃一样上帝什么都给了就是不安安稳稳的，所以人生来就带有罪恶啊 - 天主教的罗马教宗是上帝在俗世的唯一代理人）到马丁路德的“因信称义”再到加尔文主义的“预定论”，教徒不再是被动式的在充满罪恶的俗世消极的处世（只能通过忏悔和参加教会的仪式等待才能洗清自己的原罪，才可能死后上天堂，但是谁也不知道自己是否至善是上天堂-少数，还是至恶下地狱-少数，还是大多数中间的炼狱 - 所以有了赎罪券，类似于“花钱买功德”）
+写《新教伦理与资本主义精神》的马克斯·韦伯怎么看新教对于资本主义发展的促进了 - 从奥古斯丁的原罪《上帝之城》《忏悔录》（中国古有孔融让梨美食，西方有奥古斯丁偷梨，奥古斯丁怎么看待自己为什么要偷梨了，不是为了吃，就是心痒手贱无聊刺激，跟亚当夏娃一样上帝什么都给了就是不安安稳稳的，所以人生来就带有罪恶啊 - 天主教的罗马教宗是上帝在俗世的唯一代理人）到马丁路德的“因信称义”再到加尔文主义的“预定论”，教徒不再是被动式的在充满罪恶的俗世消极的处世（只能通过忏悔和参加教会的仪式等待才能洗清自己的原罪，才可能死后上天堂，但是谁也不知道自己是否至善是上天堂-少数，还是至恶下地狱-少数，还是大多数中间的炼狱,可以参考但丁《神曲》中宇宙的结构 - 所以有了赎罪券，类似于“花钱买功德”）
 
 ps: 1095年，在岌岌可危的东罗马帝国面对着博斯普鲁斯海峡对岸气势逼人的塞尔柱军队时，罗马教宗乌尔班二世在今天法国的克莱蒙召开了宗教大会，发表了著名的极具煽动性的演说，拉开了十字军东征的序幕：
 
