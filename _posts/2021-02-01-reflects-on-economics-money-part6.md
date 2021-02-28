@@ -147,4 +147,6 @@ tags: money,economics
 * Corporate debt nears a record $10 trillion, and borrowing binge poses new risks - The Washington Post [https://www.washingtonpost.com/business/economy/corporate-debt-nears-a-record-10-trillion-and-borrowing-binge-poses-new-risks/2019/11/29/1f86ba3e-114b-11ea-bf62-eadd5d11f559_story.html](https://www.washingtonpost.com/business/economy/corporate-debt-nears-a-record-10-trillion-and-borrowing-binge-poses-new-risks/2019/11/29/1f86ba3e-114b-11ea-bf62-eadd5d11f559_story.html)
 * Stock market ends year at record levels - The Washington Post [https://www.washingtonpost.com/business/2020/12/31/stock-market-record-2020/](https://www.washingtonpost.com/business/2020/12/31/stock-market-record-2020/)
 * Jason Zweig WJS Columns: [Jason Zweig - Investors Piled Into This Magical Money Machine. Now They’re Stuck.](https://www.wsj.com/articles/investors-piled-into-the-infinity-q-magical-money-machine-now-theyre-stuck-11614354037?mod=djintinvestor_t)
+* [Trump’s lawyer plays a video of Democrats and celebrities advocating violence at impeachment trial](https://www.youtube.com/watch?v=aj1Rwlztapg&ab_channel=ForbesBreakingNews)
+
 

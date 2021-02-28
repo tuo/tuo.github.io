@@ -310,9 +310,9 @@ ps: 1095年，在岌岌可危的东罗马帝国面对着博斯普鲁斯海峡对
 
 > “你们是世上的光。城立在山上，是不能隐藏的”
 
-呼吁建立起一个基督教徒的榜样的社会来彰显上帝对他们青睐，展示上帝透过他们散发的光芒，表示他们信奉的教派才是掌握真理的“纯正”的上帝选中的教派-正宗。(另一得说就是打击异端，打压其他教派，包括处理其他教派的顽固分子，使用非常手段打击对手，也是合服上帝心意的，只要最后可以增加上帝荣光，比如1660年贵格会的玛丽·巴雷特·戴尔被清教徒绞死在波士顿，和后来的自称`根据《摩门教》是耶稣基督最纯正的教会`的犹他州盐湖城的摩门教等等太多教派纷争迫害了)。
+呼吁建立起一个基督教徒的榜样的社会来彰显上帝对他们青睐，展示上帝透过他们散发的光芒，表示他们信奉的教派才是掌握真理的“纯正”的上帝选中的教派-正宗。(另一得说就是打击异端，打压其他教派，包括处理其他教派的顽固分子，使用非常手段打击对手，也是合服上帝心意的，只要最后可以增加上帝荣光，比如1660年贵格会的玛丽·巴雷特·戴尔被清教徒绞死在波士顿，和后来的自称`根据《摩门经》是耶稣基督最纯正的教会`的犹他州盐湖城的摩门教等等太多教派纷争迫害了)。
 
-早期的资本主义有通过残酷的原始积累获取巨大的财富和极大的政治权利和地位，同时他们也将大量的财富用于建造学校、教堂和社会福利慈善机构等等（比如黑人运动里被推倒的爱德华·科尔斯顿的雕像的英国布里斯托，爱德华·科尔斯顿就是通过奴隶贸易发家的，后面大量的捐助了布里斯托市），获取了巨大的名声，同时部分教徒自己过着节制的生活清规戒律（参考富兰克林自传），目的就是为了凸显上帝通过他们展示出来的荣耀的光，他们正是上帝的选民。
+早期的资本主义有通过残酷的原始积累获取巨大的财富和极大的政治权利和地位，同时他们也将大量的财富用于建造学校、教堂和社会福利慈善机构等等（比如黑人运动里被推倒的爱德华·科尔斯顿的雕像的英国布里斯托，爱德华·科尔斯顿就是通过奴隶贸易发家的，后面大量的捐助了布里斯托市），获取了巨大的名声，同时部分教徒自己过着节制的生活清规戒律（参考富兰克林自传），目的就是为了凸显上帝通过他们展示出来的荣耀的光，来证明他们正是上帝的选民。
 
 但是随着科技的发展和去愚昧去神秘主义化，宗教的影响力也是在下降，人们越来越世俗化，人们好像越来越不太相信这套东西了；富人们将更多钱投入到了延长寿命甚至永生的科技研究中[The Rich Will Outlive Us All Tech billionaires’ attempts to beat death will not democratize longevity](https://onezero.medium.com/what-happens-when-the-rich-live-decades-longer-than-the-rest-of-us-2dfec4a35b21)，硅谷和生物科技领域联手的兴起；著名的传记作者Walter Isaacson最近将要发布的一本书[《The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race 》](https://www.amazon.com/Code-Breaker-Jennifer-Doudna-Editing/dp/1982115858?&linkCode=sl1&tag=theratwal-20&linkId=b9d2209f940d36f7ab70ba2de0d5d031&language=en_US&ref_=as_li_ss_tl)，他在WSJ发表的一篇预热文章[《What Gene Editing Can Do for Humankind： The new biotechnology called CRISPR offers the prospect of defeating lethal viruses and curing genetic diseases, even as it raises serious moral questions》](https://www.wsj.com/articles/what-gene-editing-can-do-for-humankind-11613750317)提到了通过人类胚胎的基因编辑可以避免一些先天性的疾病比如镰形细胞贫血症（Sickle Cell Anemia），有希望可以大大减轻人类的痛苦。但是这样一来，也有人担心这些被“设计”的婴儿可以让富人相对于穷人有了遗传的优势，不仅有财富地位的，将来可能还有身体机能上的。
 
