@@ -89,7 +89,15 @@ tags: money,economics
 <hr/>
 
 
-2000年的美股的Dot-com bubble[互联网泡沫](https://baike.baidu.com/item/互联网泡沫)，一方面是投机互联网新技术（任何带有.com结尾都会被疯狂追捧），一方面美联储的低利息，还有就是自由化后监管缺失；2000年泡沫的代表就是宠物网[Pets.com](https://en.wikipedia.org/wiki/Pets.com),做网上宠物用品销售的，消费者导向”,“砸钱营销[A medley of Pets.com TV Commercials](https://www.youtube.com/watch?v=sICSyC9u5iI&ab_channel=NutsGum)，资不抵债，最后破产；2001年的财务造假而破产的安然事件严重打击了商业和投资者的信心；在互联网泡沫和911之后美联储不得不降息来保持经济的刺激，小布什宣布自1981年之后最大规模的减税方案，这些多出来的钱希望找到回报利率更高的投资项目，一方面国际方面经过之前的亚洲金融风暴之后新兴国家的收益不太行，所以美元也都回流到了美国。这些钱都流到哪里去了？房地产市场。
+2000年的美股的Dot-com bubble[互联网泡沫](https://baike.baidu.com/item/互联网泡沫)，一方面是投机互联网新技术（任何带有.com结尾都会被疯狂追捧），一方面美联储的低利息，还有就是自由化后监管缺失；2000年泡沫的代表就是宠物网[Pets.com](https://en.wikipedia.org/wiki/Pets.com),做网上宠物用品销售的，消费者导向”,“砸钱营销[A medley of Pets.com TV Commercials](https://www.youtube.com/watch?v=sICSyC9u5iI&ab_channel=NutsGum)，资不抵债，最后破产；2001年的财务造假而破产的安然事件严重打击了商业和投资者的信心；
+
+ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Historic Market Bubble](https://www.joincolossus.com/episodes/31390529/grantham-a-historic-market-bubble)里提到了他之前的2000年的dot.com泡泡的经历(类比1929年华尔街股市大崩盘前肯尼迪的父亲去擦皮鞋的时候，鞋童一遍擦鞋一遍对股票侃侃而谈，于是他回去想了想不对劲赶紧卖出了），里面就提到了Pets.com：
+
+>  “My favorite example from 2000 with lunchtime greasy spoons that we went into in Downtown Boston, and they all had quite a few television sets and they were all playing replays of the Celtics and the Pats. For a few months there in late '99, early 2000, they'd closed the sports ones and trends for them to CNBC. And we'd have talking heads talking about the latest pet.com's. That was terrific, that gave you just a month or two to plan accordingly, plan evasive action. And I would say we have passed the acceleration test brilliantly, and I would say we have passed the crazy behavior test brilliantly. And a lot of the craziest behavior actually taken place this year in January, February.”
+
+
+回到正题， 在互联网泡沫和911之后美联储不得不降息来保持经济的刺激，小布什宣布自1981年之后最大规模的减税方案，这些多出来的钱希望找到回报利率更高的投资项目，一方面国际方面经过之前的亚洲金融风暴之后新兴国家的收益不太行，所以美元也都回流到了美国。这些钱都流到哪里去了？房地产市场。
+
 ![homeprice](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/homeprice.jpg)
 
 来自达里奥的债务危机： 
