@@ -270,7 +270,7 @@ tags: money,economics
 
 * [2010 - CEO Richard Fuld got $483,800,000 to Bankrupt Leheman - Congress confronts Leheman CEO Richard Fuld on exorbitant compensation for bankrupting the company.](https://www.youtube.com/watch?v=L_0Y8OCAgk8&ab_channel=BadBureaucrat)
 
-
+08年经融危机中倒闭或者被救市的企业的高管依然拿着高额的薪资，而讽刺的是救助这些企业的钱却是普通老百姓来买单；这一幕有点类似资本主义早期1842年罗思柴尔德伯爵夫人佩戴价值150万法郎的珠宝出席奥尔良公爵的化妆舞会时，数以千计的饥民却从窗外走过的场景，甚至比这个更恶劣。
 
 再看一下按照弗里德曼的解释，那么美国目前社会的撕裂，应该是他希望看到的。为什么了，企业为了追求利润比如追求回报率更高人工成本更少的地区，而全球化正给了这样一个舞台，美国很多公司将制造业等等转移出人工成本昂贵的美国到东南亚和中国这种人工成本低的国家，这样一来，美国最能承载就业的制造业出现了空心化，比如五大湖的铁锈地带。这个去制造业和金融化的过程，使得利润源源不断流入美国的华尔街，大公司和高管，而之前蓬勃的中流砥柱的中产阶级面临着经济的苦难和传统核心社会文化的奔溃。这个理论看起来就是社会达尔文主义的经济版啊。
 
@@ -325,7 +325,7 @@ ps: 1095年，在岌岌可危的东罗马帝国面对着博斯普鲁斯海峡对
 > "(Money) is an excellent gift of God, answering the noblest ends. In the hands of his children, it is food for the hungry, drink for the thirsty, raiment for the naked. It gives to the traveler and the stranger where to lay his head. By it we may supply the place of a husband to the widow, and of a father for the fatherless; we may be a defense for the oppressed, a means of health to the sick, of ease to them that are in pain. It may be as eyes to the blind, as feet to the lame; yea, a lifter up from the gates of death."
 
 相比富人，宗教在穷人劳动人民更受追捧，富人们在经济基础优势上的理性和财富带来的独立性反倒让他们更容易偏离宗教。 托尔斯泰怎么对高尔基说的？：`少数人需要一个上帝，因为他们除了上帝以外什么东西都有了；多数人也需要一个上帝，因为他们什么东西都没有。`
-随着理性科学的发展，上帝也从人格神变成了自然神，到了尼采，进一步说的： 上帝已死。上帝打来的这个道德体系已经瓦解了，外部所依仗的终极价值衡量标准没了，人可以跳脱出来成为自己的主人，有了更多的自由但是也就需要为自己的行为负责，自己决定自己的一切，只有强者才能这样，因为弱者才会依附于外在把自己交出去给他人（没有上帝了），从此人成为了萨特说的被判了`"自由的无期徒刑”`。问题是少数人掌握更多的财富、更好的科学理性教育，上帝也就越加没有吸引力，自然而然的都想成为超人（意志的强者），主宰自己的命运，为什么自己的命运不能永恒了，即使不能永恒怎么确保我的后代可以保持或者扩大这种优势，成为超人之超人了？
+随着理性科学的发展，上帝也从人格神变成了自然神，到了尼采，进一步说的： 上帝已死。上帝带来的这个道德体系已经瓦解了，外部所依仗的终极价值衡量标准没了，人可以跳脱出来成为自己的主人，有了更多的自由但是也就需要为自己的行为负责，自己决定自己的一切，只有强者才能这样，因为弱者才会依附于外在把自己交出去给他人（没有上帝了），从此人成为了萨特说的被判了`"自由的无期徒刑”`。问题是少数人掌握更多的财富、更好的科学理性教育，上帝也就越加没有吸引力，自然而然的都想成为超人（意志的强者），主宰自己的命运，为什么自己的生命不能永恒了，即使不能永恒怎么确保我的后代可以保持或者扩大这种优势，成为超人之超人了？
 
 可以看到近些年来有硅谷大佬了比如Peter Thiel往身体里注入年轻人的血液的尝试、塞吉·法盖特（Serge Faguet）“生物黑客技术”（炼丹?)等等，富人们将更多钱投入到了永生的科技研发之中[The Rich Will Outlive Us All Tech billionaires’ attempts to beat death will not democratize longevity](https://onezero.medium.com/what-happens-when-the-rich-live-decades-longer-than-the-rest-of-us-2dfec4a35b21)，硅谷和生物科技领域联手的兴起，尝试打造”不死之身“；
 著名的传记作者Walter Isaacson最近将要发布的一本书[《The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race 》](https://www.amazon.com/Code-Breaker-Jennifer-Doudna-Editing/dp/1982115858?&linkCode=sl1&tag=theratwal-20&linkId=b9d2209f940d36f7ab70ba2de0d5d031&language=en_US&ref_=as_li_ss_tl)，他在WSJ发表的一篇预热文章[《What Gene Editing Can Do for Humankind： The new biotechnology called CRISPR offers the prospect of defeating lethal viruses and curing genetic diseases, even as it raises serious moral questions》](https://www.wsj.com/articles/what-gene-editing-can-do-for-humankind-11613750317)提到了通过人类胚胎的基因编辑可以避免一些先天性的疾病比如镰形细胞贫血症（Sickle Cell Anemia），有希望可以大大减轻人类的痛苦。但是这样一来，也有人担心这些被“设计”的婴儿可以让富人相对于穷人有了遗传的优势，不仅有财富地位的，将来可能还有身体机能上的。那么极有可能富人相对穷人除了后天在系统结构组织上的优势，可能还有先天上生物优势。
