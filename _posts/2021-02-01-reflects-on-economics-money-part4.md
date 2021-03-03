@@ -324,7 +324,7 @@ ps: 1095年，在岌岌可危的东罗马帝国面对着博斯普鲁斯海峡对
 
 > "(Money) is an excellent gift of God, answering the noblest ends. In the hands of his children, it is food for the hungry, drink for the thirsty, raiment for the naked. It gives to the traveler and the stranger where to lay his head. By it we may supply the place of a husband to the widow, and of a father for the fatherless; we may be a defense for the oppressed, a means of health to the sick, of ease to them that are in pain. It may be as eyes to the blind, as feet to the lame; yea, a lifter up from the gates of death."
 
-相比富人，宗教在穷人劳动人民更受追捧，富人们在经济基础优势上的理性和财富带来的独立性反倒让他们更容易偏离宗教。 托尔斯泰怎么对高尔基说的？：`少数人需要一个上帝，因为他们除了上帝以外什么东西都有了；多数人也需要一个上帝，因为他们什么东西都没有。`
+相比富人，宗教在穷人劳动人民更受追捧，富人们在经济基础优势上的理性和财富带来的独立性(清教徒巴克斯特Baxter看来财富带来的享受、怠惰和肉欲使人离弃了`神圣`生活的追求)反倒让他们更容易偏离宗教。 托尔斯泰怎么对高尔基说的？：`少数人需要一个上帝，因为他们除了上帝以外什么东西都有了；多数人也需要一个上帝，因为他们什么东西都没有。`
 随着理性科学的发展，上帝也从人格神变成了自然神，到了尼采，进一步说的： 上帝已死。上帝带来的这个道德体系已经瓦解了，外部所依仗的终极价值衡量标准没了，人可以跳脱出来成为自己的主人，有了更多的自由但是也就需要为自己的行为负责，自己决定自己的一切，只有强者才能这样，因为弱者才会依附于外在把自己交出去给他人（没有上帝了），从此人成为了萨特说的被判了`"自由的无期徒刑”`。问题是少数人掌握更多的财富、更好的科学理性教育，上帝也就越加没有吸引力，自然而然的都想成为超人（意志的强者），主宰自己的命运，为什么自己的生命不能永恒了，即使不能永恒怎么确保我的后代可以保持或者扩大这种优势，成为超人之超人了？
 
 可以看到近些年来有硅谷大佬了比如Peter Thiel往身体里注入年轻人的血液的尝试、塞吉·法盖特（Serge Faguet）“生物黑客技术”（炼丹?)等等，富人们将更多钱投入到了永生的科技研发之中[The Rich Will Outlive Us All Tech billionaires’ attempts to beat death will not democratize longevity](https://onezero.medium.com/what-happens-when-the-rich-live-decades-longer-than-the-rest-of-us-2dfec4a35b21)，硅谷和生物科技领域联手的兴起，尝试打造”不死之身“；
