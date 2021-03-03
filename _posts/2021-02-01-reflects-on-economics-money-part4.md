@@ -289,7 +289,7 @@ tags: money,economics
 > It is true that the problems have not occurred in the last days, they have been accumulating for decades. It is also true that the different governments were not able to recognize this situation in all its magnitude. **This situation of inequity, of abuse, has already meant a genuine and authentic expression of millions and millions of Chileans**. I recognize this lack of vision and I apologize to my compatriots.
 
 
-写《新教伦理与资本主义精神》的马克斯·韦伯怎么看新教对于资本主义发展的促进了 - 从奥古斯丁的原罪《上帝之城》《忏悔录》（中国古有孔融让梨美食，西方有奥古斯丁偷梨，奥古斯丁怎么看待自己为什么要偷梨了，不是为了吃，就是心痒手贱无聊刺激，跟亚当夏娃一样上帝什么都给了就是不安安稳稳的，所以人生来就带有罪恶啊 - 天主教的罗马教宗是上帝在俗世的唯一代理人）到马丁路德的“因信称义”再到加尔文主义的“预定论”，教徒不再是被动式的在充满罪恶的俗世消极的处世（只能通过忏悔和参加教会的仪式等待才能洗清自己的原罪，才可能死后上天堂，但是谁也不知道自己是否至善是上天堂-少数，还是至恶下地狱-少数，还是大多数中间的炼狱,可以参考14世纪的但丁《神曲》中宇宙的结构 - 所以有了赎罪券，类似于“花钱买功德”）
+写《新教伦理与资本主义精神》的马克斯·韦伯怎么看新教对于资本主义发展的促进了 - 从奥古斯丁的原罪《上帝之城》《忏悔录》（中国古有孔融让梨美食，西方有奥古斯丁偷梨，奥古斯丁怎么看待自己为什么要偷梨了，不是为了吃，就是心痒手贱无聊刺激，跟亚当夏娃一样上帝什么都给了就是不安安稳稳的，所以人生来就带有罪恶啊 - 天主教的罗马教宗是上帝在俗世的唯一代理人）到马丁路德的“因信称义”再到加尔文主义的“预定论”，教徒不再是被动式的在充满罪恶的俗世消极的处世（`超尘出世Weltfremdheit`-只能通过忏悔和参加教会的仪式等待才能洗清自己的原罪，才可能死后上天堂，但是谁也不知道自己是否至善是上天堂-少数，还是至恶下地狱-少数，还是大多数中间的炼狱,可以参考14世纪的但丁《神曲》中宇宙的结构 - 所以有了赎罪券，类似于“花钱买功德”）
 
 ![但丁神曲宇宙结构](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/dante_divine.jpg)
 
@@ -314,7 +314,7 @@ ps: 1095年，在岌岌可危的东罗马帝国面对着博斯普鲁斯海峡对
 
 早期的资本主义有通过残酷的原始积累获取巨大的财富和极大的政治权利和地位，财富是上帝赐予人的礼物，特别是勤劳的工作者的礼物，自身也保持着节俭来积累更多的财富。 同时他们也将大量的财富用于建造学校、教堂和社会福利慈善机构等等（比如黑人运动里被推倒的爱德华·科尔斯顿的雕像的英国布里斯托，爱德华·科尔斯顿就是通过奴隶贸易发家的，后面大量的捐助了布里斯托市的公共设施-建教堂、修路建桥等等慈善举动，布里斯托有大量的以科尔顿命名的设施），获取了巨大的名声，同时要求教徒过着节制的生活清规戒律（克己制欲望-比如富兰克林和克伦威尔），目的就是为了凸显上帝通过他们展示出来的荣耀的光，来证明他们正是上帝的选民。
 
-但是随着科技的发展和去愚昧去神秘主义化，宗教的影响力也是在下降，人们越来越世俗化，越来越不太相信这套东西了；教徒们克己制欲不断累积的财富，财富通过投资越来越多，当财富到了一定程度，除了慈善等开销来获取名声，始终还是要消费出去的，慢慢的从制欲到了纵欲，人的本性开始难以抵挡糖衣炮弹（压制的越厉害，爆发的也越厉害了），钱开始从手段变成了目的，一定程度上减少人们对于上帝的依赖，因为老话说有钱能使鬼推磨，宗教的虔诚度也就没那么高了。新教中其中一派循道宗Methodism的创始人卫斯理John Wesley就观察到了财富积累之后的情形：`凡是财富增加之处，其宗教精髓即同比例的减少`。他在1786年的[《Thoughts upon Methodism》](https://www.resourceumc.org/en/content/john-wesley-on-giving)提到了基督徒的财富观： 尽你所能的赚钱，尽你所的节省，也你所的给予捐助。
+但是随着科技的发展和去愚昧去神秘主义化，宗教的影响力也是在下降，人们越来越世俗化，越来越不太相信这套东西了；教徒们克己制欲不断累积的财富，财富通过投资越来越多，当财富到了一定程度，除了慈善等开销来获取名声，始终还是要消费出去的，慢慢的从制欲到了纵欲，人的本性开始难以抵挡糖衣炮弹（压制的越厉害，爆发的也越厉害了），钱开始从手段变成了目的，一定程度上减少人们对于上帝的依赖，因为老话说有钱能使鬼推磨，宗教的虔诚度也就没那么高了。新教中其中一派循道宗Methodism(*循道宗虽不是穷人的宗教，但是是为穷人服务的*)的创始人卫斯理John Wesley就观察到了财富积累之后的情形：`凡是财富增加之处，其宗教精髓即同比例的减少`。他在1786年的[《Thoughts upon Methodism》](https://www.resourceumc.org/en/content/john-wesley-on-giving)提到了基督徒的财富观： 尽你所能的赚钱，尽你所的节省，也你所的给予捐助。
 
 > "... What way, then, (I ask again) can we take, that our money may not sink us to the nethermost hell? There is one way, and there is no other under heaven. If those who 'gain all they can,' and 'save all they can,' will likewise 'give all they can;' then, the more they gain, the more they will grow in grace, and the more treasure they will lay up in heaven."
 
