@@ -29,7 +29,7 @@ tags: money,economics
 
 另外巴菲特支付了比百万美国人都还要低的联邦税，因为投资赚的钱(unearned income)的联邦税是低于那些工资和薪水的联邦税。因为巴菲特赚的钱大比例都来自股票投资，所以他的收入税是比较低的，按照比列来说，甚至低于他的秘书和员工（工资收入），这话听起来像是胡诌的，但是这确是巴菲特本人2011年纽约时报发了一篇[《请停止溺爱超级富豪Stop Coddling the Super-Rich》](https://www.nytimes.com/2011/08/15/opinion/stop-coddling-the-super-rich.html)说的，他呼吁富余的美国人应该缴费更高的税。2019年的这篇文章里列举出了超级富人逃税或者减少税的五种办法:[《Here are 5 ways the super-rich manage to pay lower taxes》](https://www.cnbc.com/2019/02/21/here-are-5-ways-the-super-rich-manage-to-pay-lower-taxes.html)，毫无疑问富人有更多的方式，精力和资源帮助他们减少税务的负担。
 
-如何更好的向富人征税[Vox - How to tax the rich, explained](https://www.vox.com/2019/3/19/18240377/estate-tax-wealth-tax-70-percent-warren-sanders-aoc)了？有议员Elizabeth Warren提议按照总资产的百分比来%2征收[常年财富税](https://www.vox.com/policy-and-politics/2019/1/24/18196275/elizabeth-warren-wealth-tax)（具体措施可以参考[A better way to tax the rich](https://www.youtube.com/watch?v=pTwPHuE_HrU&ab_channel=Vox)听起来很合理）; Sanders桑德斯认为是可以升高[房地产遗产税到77%](https://www.vox.com/2019/1/31/18205294/bernie-sanders-estate-tax-99-percent)；还有Alexandria Ocasio提出提高[顶部富豪的税率70%](https://www.vox.com/policy-and-politics/2019/1/4/18168431/alexandria-ocasio-cortez-70-percent)等等；21实际资本论的作者Thomas Piketty认为应该大幅度加税包括遗产税，税收应该是用来最大化公众的福利，所以你应该只从富人那里收税来推动社会的福利，甚至建一个全球联合起来统一制定向富人征税的合作机制，防止从一国跑到另外一国（比如这个作者的母国法国，奥朗德时代部分富人税一度高达75%，导致法国富豪纷纷跑到税率优惠的邻国瑞士） - 不过有点理想化了。听起来很合理，但是现实不太可能，正如某个评论里说的：即使美国政府有从富人加征税拿到了这么多钱，可能也不会用到上面提到的教育公共福利减少贫困，可能更多的还是用到军费上面。
+如何更好的向富人征税[Vox - How to tax the rich, explained](https://www.vox.com/2019/3/19/18240377/estate-tax-wealth-tax-70-percent-warren-sanders-aoc)了？有议员Elizabeth Warren提议按照总资产的百分比来%2征收[常年财富税](https://www.vox.com/policy-and-politics/2019/1/24/18196275/elizabeth-warren-wealth-tax)（具体措施可以参考[A better way to tax the rich](https://www.youtube.com/watch?v=pTwPHuE_HrU&ab_channel=Vox)听起来很合理）; Sanders桑德斯认为是可以升高[房地产遗产税到77%](https://www.vox.com/2019/1/31/18205294/bernie-sanders-estate-tax-99-percent)；还有Alexandria Ocasio提出提高[顶部富豪的税率70%](https://www.vox.com/policy-and-politics/2019/1/4/18168431/alexandria-ocasio-cortez-70-percent)等等；《21世纪资本论》的作者Thomas Piketty认为应该大幅度加税包括遗产税，税收应该是用来最大化公众的福利，所以你应该只从富人那里收税来推动社会的福利，甚至建一个全球联合起来统一制定向富人征税的合作机制，防止从一国跑到另外一国（比如这个作者的母国法国，奥朗德时代部分富人税一度高达75%，导致法国富豪纷纷跑到税率优惠的邻国瑞士） - 不过有点理想化了。听起来很合理，但是现实不太可能，正如某个评论里说的：即使美国政府有从富人加征税拿到了这么多钱，可能也不会用到上面提到的教育公共福利减少贫困，可能更多的还是用到军费上面。
 
 
 ## 疑问
@@ -299,9 +299,7 @@ QE会直接影响广义货币（商业银行）和基础货币(央行)。但是�
 
 问题是： 理论上我们需要把握在在中庸的平衡的，不偏不倚，各方都好的理性人，完美；实际上动物精神本能驱动着在情绪的极端（贪婪，恐惧）中像钟摆一样来回震荡，而在中间那个完美的平衡点的时刻只是非常短暂和不稳定的。
 
- 
-
-借用韦伯的观点总结就是： 形式合理性(工具理性)与实质合理性(价值理性)二者保持一致和谐的时间是短暂的，它们内在本质上不可避免的紧张对立矛盾意味中冲突才是长久的主题，不过人类作为先天具有理性的动物（总是尝试从动态变化的宇宙中观察希望得出可以预测的稳定的规律一样），总是希望得到一个静止的和谐平衡点，放开来看，这个平衡点是极其脆弱不可保持的。人的桎梏也是只是从之前的上帝换成了现代社会的商品机器 - 形式合理性和实质非理性的社会， 用金钱和欲望的链条亲手打造一个个将自己囚禁其中的铁笼（Iron Cage）。
+借用韦伯的观点总结就是： 形式合理性(工具理性)与实质合理性(价值理性)二者保持一致和谐的时间是短暂的，它们内在本质上不可避免的紧张对立矛盾意味中冲突才是长久的主题，不过人类作为先天具有理性的动物（总是尝试从动态变化的宇宙中观察希望得出可以预测的稳定的规律一样），总是希望得到一个静止的和谐平衡点，放开来看，这个平衡点是极其脆弱不可保持的。人的桎梏也是只是从之前的上帝换成了现代社会的商品机器 - 形式合理性和实质非理性的社会， 用金钱和欲望的链条亲手打造一个个将自己囚禁其中的铁笼（Iron Cage）。有兴趣可以看看1930s年代的喜剧大师查理卓别林的具有讽刺意味的经典之作-[《摩登时代》](https://baike.baidu.com/item/%E6%91%A9%E7%99%BB%E6%97%B6%E4%BB%A3/24410?fr=aladdin)（ps:不自觉的联想到了近期PDD最近如厕压力-员工们除了高强度工作以外，括约肌也得承受巨大压力）。
 
 > > “自从禁欲主义着手重新塑造尘世并树立起它在尘世的理想起，物质产品对人类的生存就开始获得了一种前所未有的控制力量，这力量不断增长，且不屈不挠。今天宗教禁欲主义的精神虽已逃出铁笼，但是，大获全胜的资本主义，依赖于机器的基础，已不再需要这种精神的支持了。……天职责任的观念，在我们的生活中也像死去的宗教信仰一样，只是幽灵般地徘徊着。……当天职观念已转化为经济冲动，……个人也就根本不会再试图找什么理由为之辩护了。"
 

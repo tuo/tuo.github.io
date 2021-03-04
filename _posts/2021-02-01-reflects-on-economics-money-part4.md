@@ -158,6 +158,8 @@ tags: money,economics
 
 比较惨的还有Millennial Generation千禧年一代（从1981到1996年出生的人）大约有大约有7200万多人(美国总人口也就三亿多）大概是20%左右总人口，占据了劳动力的最大部分的构成，这些人却只控制了4.6%的社会总财富。
 
+![https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/householdwealthgap.png](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/householdwealthgap.png)
+
 2021年1月30号最近的话有比较出名的wallstreetbets散户组团暴打华尔街巨头空头，甚至迫使华尔街资本控制的Robinhood居然限制了散户的只买不卖，这个事情甚至罕见了让美国民主共和两党的大佬都联合起来一致声讨Rohinhood就非常有戏剧性了。相当于华尔街基金们平时利用优势收个韭菜，结果没想到韭菜们集合起来有勇有谋的收割了华尔街，眼看就要破产了，就类似于拔网线搞这种无赖的操作，庄家在游戏中修改游戏规则，令人不屑。Robinhood本来是劫富济贫的，现在这个也太讽刺了。 具体可以看看[如何看待美国散户打爆华尔街大空头后被围攻，群聊被封，交易受限，媒体抨击，监管关注？此事后续会如何发展？](https://www.zhihu.com/question/441784921/answer/1703798744)和[如何看待 1 月 28 日美股游戏驿站 GME 被 Robinhood 等券商禁止买入，导致股价狂泻？](https://www.zhihu.com/question/441757711)。
 
 [彭博社亿万富豪指数Bloomberg Billionaires Index](https://www.bloomberg.com/billionaires/)列出世界上排名前500位富豪的总资产。今天2020月1月30号，目前Telsa马斯克超过Amazon贝佐斯20亿美元左右登顶全球最富裕的人，随后是MS比尔盖茨，LVMH的伯纳德·阿尔诺，Facebook扎克伯格，几乎前面都是科技类的。这一年里马斯克的特斯拉应该是最风光的，股票价格一路扶摇直上。世界上最富有的前10人在新冠期间财富增长了有5千多亿美元，主要得益于股票价格大幅度上升。尽管这些富人企业家因为自己超人的胆识，承受这不为人知的巨大压力和巨大的风险（马斯克后来披露特斯拉在2019年有一两个濒临破产，他本人自己因为在Joe Rogan的节目[Joe Rogan Experience #1169 - Elon Musk](https://www.youtube.com/watch?v=ycPr5-27vSI&ab_channel=PowerfulJRE)上公开抽大麻和私人生活被批评，来推动技术的革新，理当获得相应合理的的回报，但是问题是这个数目合理吗？在疫情期间有4千万提交失业申请的美国人，2019年美联储自己出的[报告](https://abcnews.go.com/US/10-americans-struggle-cover-400-emergency-expense-federal/story?id=63253846)显示甚至超过40%的美国人在银行拿不出$400现金美元应急。
@@ -263,7 +265,9 @@ tags: money,economics
 
 > But the doctrine of "social responsibility" taken seriously would extend the scope of the political mechanism to every human activity. It does not differ in philosophy from the most explicitly collective doctrine. It differs only by professing to believe that collectivist ends can be attained without collectivist means. That is why, in my book Capitalism and Freedom, I have called it a "fundamentally subversive doctrine" in a free society, and have said that in such a society, "**there is one and only one social responsibility of business--to use its resources and engage in activities designed to increase its profits so long as it stays within the rules of the game, which is to say, engages in open and free competition without deception or fraud.**" 
 
-这个在今天还是非常有争议的。现在很多企业现在也都会鼓吹就业平等，包括种族平等性别平等，很多公司比强生也都会把客户的利益放在第一位其次才是股东的利益；其次弗里德曼的理论只在完美的市场场景（没有欺骗和欺诈的公开自由的竞争 - 这个可能么？）下发生；很多CEO的薪水相对普通员工相比简直是指数式的差别(300倍），他们貌似不管公司是否盈利给股东以好处，更多是自己的利益；大公司追求自己的利益花了大量的钱游说国会放松监管(请看2018年amazon亚马逊赤裸裸地威胁要停止建设新的大楼，成功说服了西雅图市长放弃一项来帮助城市流浪者的税收政策[Amazon Just Killed a Tax That Helps Homeless People](https://fortune.com/2018/06/12/amazon-just-killed-a-tax-that-helps-homeless-people/)）；
+这个在今天还是非常有争议的。现在很多企业现在也都会鼓吹就业平等，包括种族平等性别平等，很多公司比强生也都会把客户的利益放在第一位其次才是股东的利益；其次弗里德曼的理论只在完美的市场场景（没有欺骗和欺诈的公开自由的竞争 - 这个可能么？）下发生；很多CEO的薪水相对普通员工相比简直是指数式的差别(320倍-[CEO compensation surged 14% in 2019 to $21.3 million - CEOs now earn 320 times as much as a typical worker](https://www.epi.org/publication/ceo-compensation-surged-14-in-2019-to-21-3-million-ceos-now-earn-320-times-as-much-as-a-typical-worker/)），他们貌似不管公司是否盈利给股东以好处，更多是自己的利益；大公司追求自己的利益花了大量的钱游说国会放松监管(请看2018年amazon亚马逊赤裸裸地威胁要停止建设新的大楼，成功说服了西雅图市长放弃一项来帮助城市流浪者的税收政策[Amazon Just Killed a Tax That Helps Homeless People](https://fortune.com/2018/06/12/amazon-just-killed-a-tax-that-helps-homeless-people/)）；
+
+> America is out of balance. CEOs earn 320 times the average worker. The top 10% of American households owns 70% of the country’s wealth.
 
 
 * [2010 - Carl Levin questioning Daniel Sparks - Former Goldman Sachs Mortgages Department Head. - "How much of that shitty deal did you sell to your clients?" Goldman Sachs Hearing](https://www.youtube.com/watch?v=whlzFWwVv98&ab_channel=Attention101)
@@ -271,6 +275,7 @@ tags: money,economics
 * [2010 - CEO Richard Fuld got $483,800,000 to Bankrupt Leheman - Congress confronts Leheman CEO Richard Fuld on exorbitant compensation for bankrupting the company.](https://www.youtube.com/watch?v=L_0Y8OCAgk8&ab_channel=BadBureaucrat)
 
 08年经融危机中倒闭或者被救市的企业的高管依然拿着高额的薪资，而讽刺的是救助这些企业的钱却是普通老百姓来买单；这一幕有点类似资本主义早期1842年罗思柴尔德伯爵夫人佩戴价值150万法郎的珠宝出席奥尔良公爵的化妆舞会时，数以千计的饥民却从窗外走过的场景，甚至比这个更恶劣。
+
 
 再看一下按照弗里德曼的解释，那么美国目前社会的撕裂，应该是他希望看到的。为什么了，企业为了追求利润比如追求回报率更高人工成本更少的地区，而全球化正给了这样一个舞台，美国很多公司将制造业等等转移出人工成本昂贵的美国到东南亚和中国这种人工成本低的国家，这样一来，美国最能承载就业的制造业出现了空心化，比如五大湖的铁锈地带。这个去制造业和金融化的过程，使得利润源源不断流入美国的华尔街，大公司和高管，而之前蓬勃的中流砥柱的中产阶级面临着经济的苦难和传统核心社会文化的奔溃。这个理论看起来就是社会达尔文主义的经济版啊。
 
@@ -306,13 +311,19 @@ ps: 1095年，在岌岌可危的东罗马帝国面对着博斯普鲁斯海峡对
 
 到了加尔文主张上帝已经根据自己的逻辑选好了一部分人上天堂了，是他的子民（预定），在俗世你干什么都不能改变你是否死后上天堂还是下地狱或者还是中间熬死人的炼狱，这个上面教会等等都没有权利。听起来还是很消极，还是一种出世的概念，既然都是追求死后的上帝之城，那么现实世界还有什么意义了？ 加尔文这里就很巧妙的将上帝之城（来世）和罪恶之城（现世）结合起来了，他认为虽然上帝已经预先设定了人死后的场景，但是没人有可以知道上帝选了哪些人（奥古斯丁-三位一体，上帝是永恒的，超越时间，至善全知全能），也就是说上帝是超验的超越人逻辑可以理解的，那作为个体在俗世里，又无法无能揣摩上意，你怎么知道你是不是上帝选中的了（勒布朗詹姆斯 - The chosen one)？ 加尔文认为虽然不知道，但是被上帝选中的人肯定能给上帝带来荣耀(honor)，这里可以参考下帕斯卡的赌注与上帝存在的证明。也就是说假设你是被上帝真的选中了，那么你就代表了上帝的荣耀，那你必须证明带来荣耀（加光），而不是给上帝丢脸。而在俗世这个光荣耀没办法比较啊，但是金钱财富、名声、地位却都是实实在在可以衡量的；你说你一个乞丐，对着亿万富翁说，我觉得我是上帝选中的了，你不是，他人恐怕也很难承认；上帝是超验的，不能用逻辑推理，但是作为具有社会性的人在俗世确是可以设定逻辑和考察标准的。所以新教的教徒从此可以在俗世里放开手脚大胆奋斗努力追求财富等等来突显上帝在自己身上展示的荣耀之光。
 
+
 1700年初躲避英国宗教迫害带领大批清教徒移民来到美国东海岸开辟新英格兰地区的领袖约翰·温思罗普引用[《马太福音》的一段5:14](https://wd.bible/bible/verse/mat.5.14.cunpt)话将新殖民新世界比喻为“山巅之城”，这段话是：
 
 > “你们是世上的光。城立在山上，是不能隐藏的”
 
 呼吁建立起一个基督教徒的榜样的社会来彰显上帝对他们青睐，展示上帝透过他们散发的光芒，表示他们信奉的教派才是掌握真理的“纯正”的上帝选中的教派-正宗。(另一得说就是打击异端，打压其他教派，包括处理其他教派的顽固分子，使用非常手段打击对手，也是合服上帝心意的，只要最后可以增加上帝荣光，比如1660年贵格会的玛丽·巴雷特·戴尔被清教徒绞死在波士顿，和后来的自称`根据《摩门经》是耶稣基督最纯正的教会`的犹他州盐湖城的摩门教等等太多教派纷争迫害了)。
 
+1843年卡尔马克思的[《黑格尔法哲学批判》导言](https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1843.htm)中提到：
+
+> 的确，路德战胜了信神的奴役制，只是因为他用信仰的奴隶制代替了它。他破除了对权威的信仰，却恢复了信仰的权威。他把僧侣变成了俗人，但又把俗人变成了僧侣。他把人从外在宗教中解放出来，但又把宗教变成了人的内在世界。他把肉体从锁链中解放出来，但又给人的心灵套上了锁链。
+
 早期的资本主义有通过残酷的原始积累获取巨大的财富和极大的政治权利和地位，财富是上帝赐予人的礼物，特别是勤劳的工作者的礼物，自身也保持着节俭来积累更多的财富。 同时他们也将大量的财富用于建造学校、教堂和社会福利慈善机构等等（比如黑人运动里被推倒的爱德华·科尔斯顿的雕像的英国布里斯托，爱德华·科尔斯顿就是通过奴隶贸易发家的，后面大量的捐助了布里斯托市的公共设施-建教堂、修路建桥等等慈善举动，布里斯托有大量的以科尔顿命名的设施），获取了巨大的名声，同时要求教徒过着节制的生活清规戒律（克己制欲望-比如富兰克林和克伦威尔），目的就是为了凸显上帝通过他们展示出来的荣耀的光，来证明他们正是上帝的选民。
+
 
 但是随着科技的发展和去愚昧去神秘主义化，宗教的影响力也是在下降，人们越来越世俗化，越来越不太相信这套东西了；教徒们克己制欲不断累积的财富，财富通过投资越来越多，当财富到了一定程度，除了慈善等开销来获取名声，始终还是要消费出去的，慢慢的从制欲到了纵欲，人的本性开始难以抵挡糖衣炮弹（压制的越厉害，爆发的也越厉害了），钱开始从手段变成了目的，一定程度上减少人们对于上帝的依赖，因为老话说有钱能使鬼推磨，宗教的虔诚度也就没那么高了。新教中其中一派循道宗Methodism(*循道宗虽不是穷人的宗教，但是是为穷人服务的*)的创始人卫斯理John Wesley就观察到了财富积累之后的情形：`凡是财富增加之处，其宗教精髓即同比例的减少`。他在1786年的[《Thoughts upon Methodism》](https://www.resourceumc.org/en/content/john-wesley-on-giving)提到了基督徒的财富观： 尽你所能的赚钱，尽你所的节省，也你所的给予捐助。
 
@@ -324,7 +335,8 @@ ps: 1095年，在岌岌可危的东罗马帝国面对着博斯普鲁斯海峡对
 
 > "(Money) is an excellent gift of God, answering the noblest ends. In the hands of his children, it is food for the hungry, drink for the thirsty, raiment for the naked. It gives to the traveler and the stranger where to lay his head. By it we may supply the place of a husband to the widow, and of a father for the fatherless; we may be a defense for the oppressed, a means of health to the sick, of ease to them that are in pain. It may be as eyes to the blind, as feet to the lame; yea, a lifter up from the gates of death."
 
-相比富人，宗教在穷人劳动人民更受追捧，富人们在经济基础优势上的理性和财富带来的独立性(清教徒巴克斯特Baxter看来财富带来的享受、怠惰和肉欲使人离弃了`神圣`生活的追求)反倒让他们更容易偏离宗教。 托尔斯泰怎么对高尔基说的？：`少数人需要一个上帝，因为他们除了上帝以外什么东西都有了；多数人也需要一个上帝，因为他们什么东西都没有。`
+相比富人，宗教在穷人劳动人民更受追捧，富人们在经济基础优势上的理性和财富带来的独立性(清教徒巴克斯特Baxter看来财富带来的享受、怠惰和肉欲使人离弃了`神圣`生活的追求)反倒让他们更容易偏离宗教。 托尔斯泰怎么对高尔基说的？：`少数人需要一个上帝，因为他们除了上帝以外什么东西都有了；多数人也需要一个上帝，因为他们什么东西都没有。`还是马克思1843年的那篇文章提到的：`宗教里的苦难既是现实的苦难的表现，又是对这种现实的苦难的抗议。宗教是被压迫生灵的叹息，是无情世界的感情，正像它是没有精神的制度的精神一样。宗教是人民的鸦片。废除作为人民幻想的幸福的宗教，也就是要求实现人民的现实的幸福。要求抛开关于自己处境的幻想，也就是要求抛开那需要幻想的处境。因此对宗教的批判就是对苦难世界－宗教是它们的灵光圈－的批判的胚胎。`
+
 随着理性科学的发展，上帝也从人格神变成了自然神，到了尼采，进一步说的： 上帝已死。上帝带来的这个道德体系已经瓦解了，外部所依仗的终极价值衡量标准没了，人可以跳脱出来成为自己的主人，有了更多的自由但是也就需要为自己的行为负责，自己决定自己的一切，只有强者才能这样，因为弱者才会依附于外在把自己交出去给他人（没有上帝了），从此人成为了萨特说的被判了`"自由的无期徒刑”`。问题是少数人掌握更多的财富、更好的科学理性教育，上帝也就越加没有吸引力，自然而然的都想成为超人（意志的强者），主宰自己的命运，为什么自己的生命不能永恒了，即使不能永恒怎么确保我的后代可以保持或者扩大这种优势，成为超人之超人了？
 
 可以看到近些年来有硅谷大佬了比如Peter Thiel往身体里注入年轻人的血液的尝试、塞吉·法盖特（Serge Faguet）“生物黑客技术”（炼丹?)等等，富人们将更多钱投入到了永生的科技研发之中[The Rich Will Outlive Us All Tech billionaires’ attempts to beat death will not democratize longevity](https://onezero.medium.com/what-happens-when-the-rich-live-decades-longer-than-the-rest-of-us-2dfec4a35b21)，硅谷和生物科技领域联手的兴起，尝试打造”不死之身“；
