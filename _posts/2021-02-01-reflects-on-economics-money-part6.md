@@ -148,7 +148,7 @@ tags: money,economics
 * Stock market ends year at record levels - The Washington Post [https://www.washingtonpost.com/business/2020/12/31/stock-market-record-2020/](https://www.washingtonpost.com/business/2020/12/31/stock-market-record-2020/)
 * Jason Zweig WJS Columns: [Jason Zweig - Investors Piled Into This Magical Money Machine. Now They’re Stuck.](https://www.wsj.com/articles/investors-piled-into-the-infinity-q-magical-money-machine-now-theyre-stuck-11614354037?mod=djintinvestor_t)
 * [Trump’s lawyer plays a video of Democrats and celebrities advocating violence at impeachment trial](https://www.youtube.com/watch?v=aj1Rwlztapg&ab_channel=ForbesBreakingNews)
-* [郑戈 | 马基雅维利的三副面孔](http://www.jingluecn.com/kanwu/bdzwxk/2017005/2018-02-11/13555.html)
+* [郑戈 - 马基雅维利的三副面孔](http://www.jingluecn.com/kanwu/bdzwxk/2017005/2018-02-11/13555.html)
 * [尼尔·波兹曼 - 娱乐至死](https://book.douban.com/subject/1062193/)
 * [Richard Feynman. Why.](https://www.youtube.com/watch?v=36GT2zI8lVA&ab_channel=firewalker)
 
