@@ -150,5 +150,6 @@ tags: money,economics
 * [Trump’s lawyer plays a video of Democrats and celebrities advocating violence at impeachment trial](https://www.youtube.com/watch?v=aj1Rwlztapg&ab_channel=ForbesBreakingNews)
 * [郑戈 | 马基雅维利的三副面孔](http://www.jingluecn.com/kanwu/bdzwxk/2017005/2018-02-11/13555.html)
 * [尼尔·波兹曼 - 娱乐至死](https://book.douban.com/subject/1062193/)
+* [Richard Feynman. Why.](https://www.youtube.com/watch?v=36GT2zI8lVA&ab_channel=firewalker)
 
 
