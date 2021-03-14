@@ -41,9 +41,7 @@ tags: money,economics
 
 > 当夜晚来临，我回到家，进入书房。在门槛处，我脱掉沾满泥土和秽物的工作服，穿上驻外使节的正装（因为他曾经做过驻外使节），端正仪容之后我进入往圣先贤的殿堂(书籍). 在那里，我受到热烈欢迎，然后我开始品尝那我觉得有养分的唯一食粮，如饥似渴地细嚼慢咽。我毫不腼腆地与他们交谈，让他们解释他们的行为，而他们总是不厌其烦的回答我。四个小时无忧无虑的时光就这样匆匆而过，我忘掉了所有的烦心事。我不再恐惧贫困或死亡。我的生命完全穿越了他们。 - Machiavelli，A letter to Francesco Vettori 
 
-他对于读书的热情和获取知识的热情也体现了他自己的一致反复提到的virtú。马基雅维利只是将大家默认不说的说了出来，这个作品在他生前都没有出版，直到他死后几十年之后才出版，有点像奥利乌斯的《沉思录》，他的本意应该也不是获得名声金钱或地位，从这个方面来讲看得出他认为这个只是非常态非常规的手段，不应该被普世流行。 
-
-正如[《Trump’s lawyer plays a video of Democrats and celebrities advocating violence at impeachment trial》](https://www.youtube.com/watch?v=aj1Rwlztapg&ab_channel=ForbesBreakingNews)说的：
+他对于读书的热情和获取知识的热情也体现了他自己的一致反复提到的virtú。正如[《Trump’s lawyer plays a video of Democrats and celebrities advocating violence at impeachment trial》](https://www.youtube.com/watch?v=aj1Rwlztapg&ab_channel=ForbesBreakingNews)说的：
 
 > “The election of Donald Trump did not create the left’s hate....it revealed it.”
 
