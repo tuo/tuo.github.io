@@ -203,7 +203,7 @@ btw: 少数精英亚裔在硅谷和精英阶级里的成功使得很多人幻想
 
 我可以理解感受亚裔想要融入的心情，毕竟每个人也都想过好的自己生活不是么？这个过程中身份认知造成困惑，感觉始终没有被真正接纳的沮丧，融入是不是意味着抛弃自己的身份认知了，甚至部分极端地鄙视憎恨自己受之父母的身体发肤了？
 
-希望亚裔还是多了解点历史，多学习点黑人运动，会哭的孩子有奶喝，回归集体主义，该团结的时候还是要团结下的，正如1962年[Malcolm X in Los Angeles May 5, 1962 Who taught you to hate yourself? full speech](https://youtu.be/kboP3AWCTkA?t=2160)在最后几分钟说的好：
+希望亚裔还是多了解点历史，多学习点黑人运动，会哭的孩子有奶喝，回归集体主义，该团结的时候还是要团结下的，正如1962年[Malcolm X in Los Angeles May 5, 1962 Who taught you to hate yourself? full speech](https://youtu.be/kboP3AWCTkA?t=2160)说的好：
 
 > "Who taught you to hate the texture of your hair? Who taught you to hate the color of your skin, to such extent that you bleach, to get like the white man? Who taught you to hate the shape of your nose and the shape of your lips? Who taught you to hate yourself from the top of your head to the soles of your feet? Who taught you to hate your own kind? Who taught you to hate the race that you belong to, so much so that you don’t want to be around each other?"
 
