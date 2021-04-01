@@ -205,7 +205,7 @@ btw: 少数精英亚裔在硅谷和精英阶级里的成功使得很多人幻想
 
 希望亚裔还是多了解点历史，多学习点黑人运动，会哭的孩子有奶喝，回归集体主义，该团结的时候还是要团结下的，正如1962年[Malcolm X in Los Angeles May 5, 1962 Who taught you to hate yourself? full speech](https://youtu.be/kboP3AWCTkA?t=2160)在最后几分钟说的好：
 
-> "Who taught you to hate the color of your skin? Who taught you to hate the texture of your hair? Who taught you to hate the shape of your nose and the shape of your lips? Who taught you to hate yourself from the top of your head to the soles of your feet? Who taught you to hate your own kind? Who taught you to hate the race that you belong to so much so that you don't want to be around each other?.."
+> "Who taught you to hate the texture of your hair? Who taught you to hate the color of your skin, to such extent that you bleach, to get like the white man? Who taught you to hate the shape of your nose and the shape of your lips? Who taught you to hate yourself from the top of your head to the soles of your feet? Who taught you to hate your own kind? Who taught you to hate the race that you belong to, so much so that you don’t want to be around each other?"
 
 回到正题，当经济恢复时，往往有着强大投资和购买力的富豪们，借助于政府的资源和自己的资源，可以在其中获得巨大的利益。关于这中间财富分配和资源分配我们可以借助于概率论，比如杨辉三角或者说高尔顿板。
 
