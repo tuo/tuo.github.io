@@ -151,5 +151,6 @@ tags: money,economics
 * [郑戈-马基雅维利的三副面孔](http://www.jingluecn.com/kanwu/bdzwxk/2017005/2018-02-11/13555.html)
 * [尼尔·波兹曼 - 娱乐至死](https://book.douban.com/subject/1062193/)
 * [The complete FUN TO IMAGINE with Richard Feynman - See new HD upload https://youtu.be/nYg6jzotiAc](https://www.youtube.com/watch?v=P1ww1IXRfTA&ab_channel=ChristopherSykes)
+* [The Roots Of Anti-Asian Racism](https://www.youtube.com/watch?v=yJI5veSM13Y&ab_channel=AJ%2B)
 
 
