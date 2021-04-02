@@ -152,5 +152,7 @@ tags: money,economics
 * [尼尔·波兹曼 - 娱乐至死](https://book.douban.com/subject/1062193/)
 * [The complete FUN TO IMAGINE with Richard Feynman - See new HD upload https://youtu.be/nYg6jzotiAc](https://www.youtube.com/watch?v=P1ww1IXRfTA&ab_channel=ChristopherSykes)
 * [The Roots Of Anti-Asian Racism](https://www.youtube.com/watch?v=yJI5veSM13Y&ab_channel=AJ%2B)
+* https://twitter.com/atrupar/status/1372203730481864713
+> "Yesterday was a really bad day for him and this is what he did" -- a law enforcement official explains Robert Aaron Long's decision to kill 8 people in a strange manner
 
 
