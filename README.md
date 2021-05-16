@@ -1,3 +1,7 @@
+## BLOG
+
+	www.tuohuang.info
+
 ## Jekyll 
 	
 	sudo gem install -n /usr/local/bin  rouge
