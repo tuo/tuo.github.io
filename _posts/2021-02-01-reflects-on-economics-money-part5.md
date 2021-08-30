@@ -31,7 +31,7 @@ tags: money,economics
 
 如何更好的向富人征税[Vox - How to tax the rich, explained](https://www.vox.com/2019/3/19/18240377/estate-tax-wealth-tax-70-percent-warren-sanders-aoc)了？有议员Elizabeth Warren提议按照总资产的百分比来%2征收[常年财富税](https://www.vox.com/policy-and-politics/2019/1/24/18196275/elizabeth-warren-wealth-tax)（具体措施可以参考[A better way to tax the rich](https://www.youtube.com/watch?v=pTwPHuE_HrU&ab_channel=Vox)听起来很合理）; Sanders桑德斯认为是可以升高[房地产遗产税到77%](https://www.vox.com/2019/1/31/18205294/bernie-sanders-estate-tax-99-percent)；还有Alexandria Ocasio提出提高[顶部富豪的税率70%](https://www.vox.com/policy-and-politics/2019/1/4/18168431/alexandria-ocasio-cortez-70-percent)等等；《21世纪资本论》的作者Thomas Piketty认为应该大幅度加税包括遗产税，税收应该是用来最大化公众的福利，所以你应该只从富人那里收税来推动社会的福利，甚至建一个全球联合起来统一制定向富人征税的合作机制，防止从一国跑到另外一国（比如这个作者的母国法国，奥朗德时代部分富人税一度高达75%，导致法国富豪纷纷跑到税率优惠的邻国瑞士） - 不过有点理想化了。听起来很合理，但是现实不太可能，正如某个评论里说的：即使美国政府有从富人加征税拿到了这么多钱，可能也不会用到上面提到的教育公共福利减少贫困，可能更多的还是用到军费上面。
 
-2021年Aug 5的文章[《Wealthy people are renouncing American citizenship》](https://www.axios.com/wealthy-people-are-renouncing-american-citizenship-67fbada4-e2e4-4699-b106-c986839f209d.html)提到：
+2021年Aug 5的文章[《Wealthy people are renouncing American citizenship》](https://www.axios.com/wealthy-people-are-renouncing-american-citizenship-67fbada4-e2e4-4699-b106-c986839f209d.html)提到为什么富人放弃美国国籍：
 
 > 世界上只有美国和厄立特里亚两个国家，是根据公民身份而不是居住地征税。只要你是美国人，不管住在哪里，都必须向美国政府交税。其它国家的规定是，本国公民如果住在其它国家，则无需向本国政府交税。
 
