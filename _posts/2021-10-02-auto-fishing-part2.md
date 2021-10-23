@@ -28,15 +28,29 @@ tags: fishing,life
 
 
 
-钩掉进石头里或者淤泥里，
+#### 如何钓鱼 - 刺鱼的成功率
 
 
 
-#### 如何钓鱼 - 自动刺鱼
+因为钓鱼过程中，无人值守， 不会有手竿那种看浮漂有信号就提竿刺鱼这个关键步骤，所以这一块如何被动刺鱼并提高准确性就是一个非常关键的步骤。在这个之前，需要最好有水下摄像来观察大鱼吃食咬钩的动作和习惯，特别是鲤鱼草鱼。
+
+
+
+（2021-10-23 11-29-04世图娱乐）和![ezgif-2-1dc0feef130c](/Users/tuo/Desktop/ezgif-2-1dc0feef130c.webp)
+
+这个油管的频道很多水下鲤鱼吃食咬钩的视频：Best carp underwater fishing compilation 2020 (High quality)https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing
+
+结合下来可以看到大鱼是大鱼是有原因的，吃食非常的谨慎，习惯性的从窝边开始，不是想象的直奔饵料集中的中部，而是比较零散的周边开始，
 
 
 
 
+
+
+
+
+
+钩掉进石头里或者淤泥里
 
 鱼的习性 （吐出） 参考youtube视频和实图鱼乐
 
@@ -143,3 +157,6 @@ tags: fishing,life
 
 https://www.freeingenergy.com/understanding-the-basics-of-electricity-by-thinking-of-it-as-water/
 
+https://www.youtube.com/watch?v=-UQjO4cWvbc&ab_channel=TaskaTVCZ%26SK
+
+https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing
