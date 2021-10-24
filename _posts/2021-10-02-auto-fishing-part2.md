@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "钓鱼的感想(二): 自动钓大鱼"
+title: "钓鱼的感想(二): 海竿钓大鱼"
 date: 2021-10-02 12:55:32 +0800
-published: false
+published: true
 tags: fishing,life
 ---
 
@@ -41,8 +41,6 @@ tags: fishing,life
 <video src='https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guonei.mp4' width=180/> | <video src='https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guowai.mp4' width=180/>
 
 
-
-（2021-10-23 11-29-04世图娱乐）和![ezgif-2-1dc0feef130c](/Users/tuo/Desktop/ezgif-2-1dc0feef130c.webp)
 
 这个油管的频道很多水下鲤鱼吃食咬钩的视频：[Best carp underwater fishing compilation 2020 (High quality)](https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing)
 
@@ -184,24 +182,9 @@ SIM800C输出： 接受AT指令，可以插入手机卡，进行电话、短信�
 
 #### 参考
 
-4种海竿抛投技巧（附视频）http://www.diaoyubo.com/haigan/1697.html
+* [Underfishiing youtube](https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing)
+* [Korda TV Carp Fishing](https://www.youtube.com/channel/UContEaeqonv1e131k03FyMA)
+* [欧鲤钓遣唐使](https://www.ixigua.com/home/105295209026/?utm_source=live_pc_anchor_profile)
+* [野钓海蓝的快乐生活](https://www.ixigua.com/home/2783601631429107)
+* [张二爹钓鲢鳙](https://www.douyin.com/user/MS4wLjABAAAAf-S_a1X0sPj4dnKp_NW0lQCK9AcVTp300hdaMY_gApg)
 
-
-
-张二爹钓鲢鳙
-
-https://www.freeingenergy.com/understanding-the-basics-of-electricity-by-thinking-of-it-as-water/
-
-https://www.youtube.com/watch?v=-UQjO4cWvbc&ab_channel=TaskaTVCZ%26SK
-
-https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing
-
-https://www.youtube.com/watch?v=im7_vGfYLLM&ab_channel=Underfishing
-
-
-
-矶钓技巧 完美版测水深!入矶新手福音 钓鱼海钓技巧https://www.douyin.com/video/6914478452494191875
-
-2种经典的棉线结绑法，矶钓、滑漂都能用，可代替太空豆 https://www.ixigua.com/7012144951844667918
-
-第7集 | 因为抢鲜玉米，两条草鱼打起来了！
