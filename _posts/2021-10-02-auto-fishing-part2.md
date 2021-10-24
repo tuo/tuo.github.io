@@ -34,8 +34,13 @@ tags: fishing,life
 
 因为钓鱼过程中，无人值守， 不会有手竿那种看浮漂有信号就提竿刺鱼这个关键步骤，所以这一块如何被动刺鱼并提高准确性就是一个非常关键的步骤。在这个之前，需要最好有水下摄像来观察大鱼吃食咬钩的动作和习惯，特别是鲤鱼草鱼。
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guonei.mp4)
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guowai.mp4)
+<video width="320" height="240" controls>
+  <source src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guonei.mp4" type="video/mp4">
+</video>
+<video width="320" height="240" controls>
+  <source src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guowai.mp4" type="video/mp4">
+</video>
+
 
 视频来自世图渔乐：[第7集  因为抢鲜玉米，两条草鱼打起来了](https://www.ixigua.com/6839100738707128840?logTag=b6f066c8f751847b0154)
 
@@ -51,17 +56,20 @@ tags: fishing,life
 
 手竿钓鱼或者海竿有人值守这个时候会反应在浮漂上会是浮漂的上下动作，这个时候人只要去提竿主动刺鱼就能比较好的刺鱼，提高命中率。但是如果是全程无人值守，那么就需要结合上述的观察发挥被动刺鱼的最大威力，争取做到：一击即中。
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/chuantong.gif)
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/chuantong.gif" height="200"/>
+
 
 那么这个传统的钓组模式就不是非常适合了，将玉米穿在钩子上，露出钩尖，没有人加以手动主动刺鱼，钩子和饵料是一体的，直上直下，没有太多角度的变化，难以保证鱼口在进食吐出时可以有机会刺到鱼的下嘴唇，将难以保证刺鱼的成功率。 所以从吃口来看，最后钩子和饵料可不是一体的或者说可以有些角度的变化而不是一条直线，这样可以让鱼在吸入吐出的时候，将钩子轻微的挂在或者带在下嘴唇，这样鱼一感觉异物不舒服，变化开始第一下最为猛烈地起身摇头想摆脱鱼钩，给到一个瞬时间猛烈的逃窜力。根据作用力与反作用力，如果可以利用这股鱼本身施加的力量，比如我们在线的八字环上绑定一个重量比较大的铅坨比如80-150克，反作用于钩上将鱼的下嘴唇打穿刺穿，那么这就比较稳妥和牢靠了，刺鱼的成功率也会提高 - 这个也就是国外的欧鲤钓钓法和国内四川地区的珠珠钓法。
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/oulidiao.jpg)
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/oulidiao.jpg" height="250"/>
+
 
 死铅，也就是固定死不能在线上移动位置的固定铅坠的办法，可以保证第一下鱼大力摆头时，牢牢地刺穿鱼的下嘴唇，但是这个时候瞬间子线所承受的力也是非常大的，所以子线要足够的粗，另外钩的强度要非常好，最好是有伊势尼那种钓大鱼的钩子的强度（否则容易钩子被拉直）；另外一个子线的长度也要稍微长点，但是不能是完全伸直没有余量，因为上面我们注意到鱼会不断的吸入吐出，所以鱼线最好不能奔的太直，否则一个微小的鱼线的张力就会让鱼还未完全吸入就会感觉到线的张力的异样就会立马吐出来，这就难以刺鱼；
 
 再看上面的图片和视频，可以看到鱼在第一次大摆头之后，还会有第二波第三波的摆头，但是幅度和力量都没有第一次那么大；虽然说力量没有第一次那么大，但是也会施加很多力在钩子和铅坠之间这段子线上面，而这一段是整个线组里比较薄弱的；如果可以在第二次三次后面的摆头中，可以让铅坠往主线上滑动，这样可以让钩和铅坠之间的线的长度拉长，这样受力就会被分散的更多，不容易出现子线被拉断同时也可以保护子线，延长使用寿命，同时鱼的嘴唇也不容易被拉豁豁（也就是鱼的嘴唇因为受力太大时间太长，导致嘴唇直接被钩拉的裂开了，下嘴巴被打烂了，然后跑鱼），进一步提高中鱼率。总结来说，也就是铅是锁死的（第一下有力的刺鱼），但是又没有完全锁死（后续滑动分散受力），这个度的把握还需要在实践中不断尝试。关于铅坠的松紧问题，有兴趣可以看看云贵地区常年用珠珠钓法的钓鱼人九哥这个[视频](https://v.douyin.com/Rd63tFU/ )。
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/jiuge_qianzui.webp)
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/jiuge_qianzui.webp" height="200"/>
+
 
 总的来说，通过观察大量水下大鱼进食和钓鱼的视频，借鉴欧鲤钓和四川珠珠钓法，这一步刺鱼算是有一个好的办法了。
 
