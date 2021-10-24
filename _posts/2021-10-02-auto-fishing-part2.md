@@ -34,9 +34,8 @@ tags: fishing,life
 
 因为钓鱼过程中，无人值守， 不会有手竿那种看浮漂有信号就提竿刺鱼这个关键步骤，所以这一块如何被动刺鱼并提高准确性就是一个非常关键的步骤。在这个之前，需要最好有水下摄像来观察大鱼吃食咬钩的动作和习惯，特别是鲤鱼草鱼。
 
-<video src='https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guonei.mp4'/>
-
-<video src='https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guowai.mp4' />
+![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guonei.mp4)
+![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guowai.mp4)
 
 视频来自世图渔乐：[第7集  因为抢鲜玉米，两条草鱼打起来了](https://www.ixigua.com/6839100738707128840?logTag=b6f066c8f751847b0154)
 
@@ -150,7 +149,7 @@ tags: fishing,life
 
 根据电商项目的经验，流量直接打到底层数据库上，那谁来都不好使，一般的改造思路中有一点是层层分流，形成一个漏斗状的流量分配，这样可以让每一层都能恰当好处的发挥其最大优势。有鉴于此，我能想到是一个办法是多放点风线，也就是放出去多点长度的线，这个不像是普通下面的海竿，放出去之后会把线拉紧（因为不这样的话，无法保证能够拉动竿稍，出发铃铛或者报警器报警），我们反其道行之，多放点线，不需要太紧，这样一是可以避免鱼蹭线，第二假设中鱼之后，最差的情况鱼往反向逃窜，形成最不利的180度拔河，也可以有足够的线的余量，这就相当于多余的安全绳的，理论上来说鱼也不是无限制的往前冲；第二个办法是加上一个强力的弹簧，在主线和树根地插的连接处，提供一个缓冲，鱼线系在弹簧的一端，在绕过绑在地插或者树根上，这样可以在不影响隐蔽的前提下提供泄力。
 
-（图片）
+![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/tanhuang.jpg)
 
 当然我觉得最好的，还是可以在地插上有一个迷你的渔轮，因为这块的线不需要太长，只是为了大鱼第一下发力的的缓冲而已，但是最好是金属的，质量比较好，直接绑到主线上，然后调节好泄力。
 
