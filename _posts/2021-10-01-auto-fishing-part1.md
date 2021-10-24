@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "钓鱼的感想(一): 手动钓大鱼"
+title: "钓鱼的感想(一): 手竿钓大鱼"
 date: 2021-10-01 12:55:32 +0800
 published: true
 tags: fishing,life

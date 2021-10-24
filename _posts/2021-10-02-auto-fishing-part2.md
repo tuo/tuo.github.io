@@ -34,11 +34,11 @@ tags: fishing,life
 
 因为钓鱼过程中，无人值守， 不会有手竿那种看浮漂有信号就提竿刺鱼这个关键步骤，所以这一块如何被动刺鱼并提高准确性就是一个非常关键的步骤。在这个之前，需要最好有水下摄像来观察大鱼吃食咬钩的动作和习惯，特别是鲤鱼草鱼。
 
-<video src='https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guonei.mp4' width=180/>
+<video src='https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guonei.mp4'/>
 
-<video src='https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guowai.mp4' width=180/
+<video src='https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guowai.mp4' />
 
-视频来自世图渔乐：[第7集  因为抢鲜玉米，两条草鱼打起来了！](https://www.ixigua.com/6839100738707128840?logTag=b6f066c8f751847b0154)
+视频来自世图渔乐：[第7集  因为抢鲜玉米，两条草鱼打起来了](https://www.ixigua.com/6839100738707128840?logTag=b6f066c8f751847b0154)
 
 这个油管的频道很多水下鲤鱼吃食咬钩的视频：[Best carp underwater fishing compilation 2020 (High quality)](https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing)
 
