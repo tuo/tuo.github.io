@@ -191,5 +191,6 @@ SIM800C输出： 接受AT指令，可以插入手机卡，进行电话、短信�
 * [Korda TV Carp Fishing](https://www.youtube.com/channel/UContEaeqonv1e131k03FyMA)
 * [欧鲤钓遣唐使](https://www.ixigua.com/home/105295209026/?utm_source=live_pc_anchor_profile)
 * [野钓海蓝的快乐生活](https://www.ixigua.com/home/2783601631429107)
+* [钓鱼人九哥](https://www.ixigua.com/home/101924583024/?list_entrance=search)
 * [张二爹钓鲢鳙](https://www.douyin.com/user/MS4wLjABAAAAf-S_a1X0sPj4dnKp_NW0lQCK9AcVTp300hdaMY_gApg)
 
