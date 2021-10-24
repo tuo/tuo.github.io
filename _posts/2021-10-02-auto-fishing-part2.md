@@ -164,9 +164,7 @@ tags: fishing,life
 
 有了上面这些基础知识的积累和分析之后，接下来就是如何加上自己个自动值守的装置，其实原理很简单。
 
-
-
-（TU简要的 + 那个球）
+![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/jiegou.jpg)
 
 ESP8266(微控制单元- MCU):  读取输入端角度或者加速度的变化，然后发送命令给到输出端(SIM800C)无线通信端。
 
