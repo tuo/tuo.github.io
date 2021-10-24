@@ -40,7 +40,7 @@ tags: fishing,life
 | :------: | :------: |
 <video src='https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guonei.mp4' width=180/> | <video src='https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guowai.mp4' width=180/>
 
-
+视频来自世图渔乐：[第7集 | 因为抢鲜玉米，两条草鱼打起来了！](https://www.ixigua.com/6839100738707128840?logTag=b6f066c8f751847b0154)
 
 这个油管的频道很多水下鲤鱼吃食咬钩的视频：[Best carp underwater fishing compilation 2020 (High quality)](https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing)
 
