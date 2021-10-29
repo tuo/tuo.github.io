@@ -144,6 +144,9 @@ tags: money,economics
 * 40% of Americans don’t have $400 in the bank for emergency expenses: Federal Reserve - ABC News [https://abcnews.go.com/US/10-americans-struggle-cover-400-emergency-expense-federal/story?id=63253846](https://abcnews.go.com/US/10-americans-struggle-cover-400-emergency-expense-federal/story?id=63253846)
 * FRB: H.4.1 Release-- Factors Affecting Reserve Balances --   Thursday, February 4, 2021 [https://www.federalreserve.gov/releases/h41/current/h41.htm](https://www.federalreserve.gov/releases/h41/current/h41.htm)
 * The Rich Can’t Get Richer Forever, Can They? - The New Yorker [https://www.newyorker.com/magazine/2019/09/02/the-rich-cant-get-richer-forever-can-they](https://www.newyorker.com/magazine/2019/09/02/the-rich-cant-get-richer-forever-can-they)
+* [Enclosing in God’s Name, Accumulating for
+Mankind: Money, Morality, and Accumulation
+in John Locke’s Theory of Property](https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=3253&context=soss_research)。
 * Corporate debt nears a record $10 trillion, and borrowing binge poses new risks - The Washington Post [https://www.washingtonpost.com/business/economy/corporate-debt-nears-a-record-10-trillion-and-borrowing-binge-poses-new-risks/2019/11/29/1f86ba3e-114b-11ea-bf62-eadd5d11f559_story.html](https://www.washingtonpost.com/business/economy/corporate-debt-nears-a-record-10-trillion-and-borrowing-binge-poses-new-risks/2019/11/29/1f86ba3e-114b-11ea-bf62-eadd5d11f559_story.html)
 * Stock market ends year at record levels - The Washington Post [https://www.washingtonpost.com/business/2020/12/31/stock-market-record-2020/](https://www.washingtonpost.com/business/2020/12/31/stock-market-record-2020/)
 * Jason Zweig WJS Columns: [Jason Zweig - Investors Piled Into This Magical Money Machine. Now They’re Stuck.](https://www.wsj.com/articles/investors-piled-into-the-infinity-q-magical-money-machine-now-theyre-stuck-11614354037?mod=djintinvestor_t)
@@ -153,6 +156,7 @@ tags: money,economics
 * [The complete FUN TO IMAGINE with Richard Feynman - See new HD upload https://youtu.be/nYg6jzotiAc](https://www.youtube.com/watch?v=P1ww1IXRfTA&ab_channel=ChristopherSykes)
 * [The Roots Of Anti-Asian Racism](https://www.youtube.com/watch?v=yJI5veSM13Y&ab_channel=AJ%2B)
 * https://twitter.com/atrupar/status/1372203730481864713
+
 > "Yesterday was a really bad day for him and this is what he did" -- a law enforcement official explains Robert Aaron Long's decision to kill 8 people in a strange manner
 
 
