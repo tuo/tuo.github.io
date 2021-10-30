@@ -276,13 +276,13 @@ MPU6050每隔2秒读一次数据，每隔1分钟发送一次HTTP请求，大概2
 
 关于这个球，浮漂球，是什么样子，我搜索了一下，只有一个[RoboSpace Sphero sprk+可编程机器人 教育入门遥控机器球](https://item.jd.com/41851228516.html)比较接近我的预想。
 
- <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/ball_minic.png" alt="ball_minic" style="zoom:50%;" />
+ <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/ball_minic2.png" alt="ball_minic" style="zoom:50%;" />
 
 但是可惜直径太小73MM，都不够放下电池盒子，要完整放得下，直径最少的10CM以上。
 
  淘宝没有现成的商品，只能找到比较相似的是这种球 -  [112扭扭蛋盒盲盒外壳圆形蛋高清透明扭蛋球奶白色球形模具可打开](https://item.taobao.com/item.htm?spm=2013.1.20141001.2.4183751eAivZdc&id=649502814052)，扭蛋机用来装展览展示的物品用的，中间有两个罗文，可以拧上和关闭，但是因为它的作用是为了展览，通用的模型，所以这个防水，也就是中间罗文并不严丝合缝，浸没在水里，毫无疑问肯定是要漏水的。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/ball_reference.png" alt="ball_reference" style="zoom:50%;" />
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/real_ball.jpg" alt="ball_reference" style="zoom:50%;" />
 
 第一个难题是防水。 关于中间拧紧和扭开的缝隙处的防水问题，我想到也许可以使用热胶枪解决。当把装置放入这个球并拧上之后，用热胶枪给缝隙处罗文处涂一层胶，放置一会干燥之后在下水，应该可以保持一定的防水效果。
 
