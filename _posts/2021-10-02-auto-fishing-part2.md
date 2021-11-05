@@ -117,7 +117,23 @@ tags: fishing,life
 
 >  中秋之后： 5-15米， 10-15比较多
 
-一般来说`5-8米深`比较合适的，当然这个也跟具体相关，比如环境是否安静等等。所以如果是随便乱抛，结果那个钓点刚好有个凸起，水深只有一米，那有大鱼活动的可能性就太低了，也就很有可能会浪费时间和精力。
+一般来说`4-8米深`比较合适的。但是这里也要具体对待，比如冬天就不一定是钓的越深越好，最好是找有障碍物的比如芦苇草丛、树木、石头堆或者断崖坎等等结构，大鱼喜欢在这些比较安全的地方活动，水深不一定特别深。冬天白天可以钓远一点，但是晚上可以在近岸好点。太深没吃的，太浅不安全。另外比如冬天温度低，鱼是冷血动物，进食欲望低，就要适当用小钩子，窝料的大小要小点，比如把玉米颗粒掰成两半，窝料的量要稍微小点，散一点，就不是跟夏天一样越多越大越好，否则容易死窝。
+
+![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/winter_veune.jpeg)
+
+<cite>Fox Carp Fishing Youtube: [CARP FISHING IN WINTER (Catch more on cold days)](https://www.youtube.com/watch?v=GUdfbnZ_Qu4&ab_channel=FoxInternationalCarpFishing)</cite>
+
+所以说一上来就随便乱抛，很有可能碰到那个钓点刚好有个凸起，水深只有一米或特别深，那有大鱼活动的可能性就太低了，也就很有可能会浪费时间和精力。
+
+`Talk is cheap, show me the code`。 有没有点切实的证据可以说明大鲤鱼在不同季节的温度、风速、气压下的活动轨迹，而不是凭经验或者自己的凭空推断了，毕竟年纪越大越感觉某些自以为是的经验靠不住-需要被像笛卡尔一样谨慎地审视？ 还真有，德国的一个渔业团队在一个自然水域的池塘湖泊里运用电子装备扫描追踪30-50条大鲤鱼在一年不同季节中的活动轨迹：
+
+![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carp_location_season.jpeg)
+
+<cite>source来源: IFishMan Youtube: [Wie verhalten sich Großkarpfen in einem natürlichen Gewässer? Hier der August
+](https://www.youtube.com/watch?v=cXRsnoPy4zw&ab_channel=IFishMan)</cite>
+
+有兴趣的可以去这个频道仔细观察下不同鱼种（除了鲤鱼之外还有其他的鱼）的活动轨迹和习惯。 从上面这些图片和频道上更加详细的视频观察到，就冬天而言，鱼不是在湖最深的西岸，而是在比较浅的东岸，不是一只两只，是聚集，还有喜欢在有一些障碍物和结构的地方活动（如果图片上没有点，就是因为鱼躲在了草丛或者树木或者石头下面，电子设备追踪不到，所以视频有时候只有几个圆圈，并没有看到所有的鱼）。
+
 
 再一个是，最好选择深浅交界之处，摸清楚哪里是缓坡哪里是急坡，有没有水草挂住。测量水深，我们可以借鉴台钓的调漂的想法，加一个浮漂比如大肚漂用太空豆别针挂在主线八字环之上。这里也是有一些技巧的，首先固定大肚漂的档，最好不要用太空豆，因为一般30-50米之后的水深应该是会在三米之外，所以抛竿的时候太空豆需要穿过杆子最上面那个最小的导环，这个时候就容易挂住导环，导致出线不顺畅，甚至损坏，所以这里建议用更小更丝滑的[棉线结](https://www.ixigua.com/7012144951844667918)作为太空豆的替代，借鉴矶竿钓组用 `半圆挡片+棉线结`或者`棉线豆`替换太空豆，这样减少阻力也更容易出线（棉线结是一个非常使用的小技巧，后面在精准抛竿中还会讲到）；再一个就是目测线长，铅坠到漂的这块线的长度来大致估算水深。最简单是目测，但是不方便不够特别准确，可以用[油漆笔](https://detail.tmall.com/item.htm?spm=a230r.1.14.16.643c605cBIVmrg&id=648545717528&ns=1&abbucket=17&skuId=4851001847958)在主线的前端每隔一米做一个标记，因为油漆标记不容易溶于水，所以即使在水中浸泡也不会褪色，这样直接看几个标记就知道确切的水深。
 
@@ -191,9 +207,10 @@ SIM800C输出： 接受AT指令，可以插入手机卡，进行电话、短信�
 
 #### 参考
 
-* [Underfishiing youtube](https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing)
-* [Korda TV Carp Fishing](https://www.youtube.com/channel/UContEaeqonv1e131k03FyMA)
+* [Underfishiing Youtube](https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing)
+* [Korda TV Carp Fishing Youtube](https://www.youtube.com/channel/UContEaeqonv1e131k03FyMA)
+* [IFishMan Youtube](https://www.youtube.com/channel/UCUz29_JLUn5sm5vGkPMaAvw)
 * [欧鲤钓遣唐使](https://www.ixigua.com/home/105295209026/?utm_source=live_pc_anchor_profile)
 * [野钓海蓝的快乐生活](https://www.ixigua.com/home/2783601631429107)
 * [钓鱼人九哥](https://www.ixigua.com/home/101924583024/?list_entrance=search)
-* [张二爹钓鲢鳙](https://www.douyin.com/user/MS4wLjABAAAAf-S_a1X0sPj4dnKp_NW0lQCK9AcVTp300hdaMY_gApg)
+* [李大毛-游钓中国官方频道](https://space.bilibili.com/430605282)
