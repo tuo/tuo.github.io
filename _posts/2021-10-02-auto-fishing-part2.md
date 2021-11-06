@@ -175,7 +175,7 @@ tags: fishing,life
 
 <cite>注意落水之前，窝料散开，形成一个直径1-3米的范围，多打几次，就可以形成一个比较大的散窝</cite>
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/custom_feeder.jpeg" style="zoom:67%;display:flex" />
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/custom_feeder.jpeg" style="display:flex" />
 
 <cite>自制简易打窝器： 娃哈哈瓶子+铅坠+椰奶的底盖</cite>
 
