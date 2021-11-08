@@ -245,8 +245,6 @@ SIM800C输出： 接受AT指令，可以插入手机卡，进行电话、短信�
 
 * [Underfishiing Youtube](https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing)
 * [Korda TV Carp Fishing Youtube](https://www.youtube.com/channel/UContEaeqonv1e131k03FyMA)
-* [CARPologyTV Carp Fishing Youtube](https://www.youtube.com/watch?v=ly5B5pH_qUs&ab_channel=CARPologyTVCarpFishing)
-* [Nash TV Carp Fishing](https://www.youtube.com/watch?v=D1XxjuPvYwc&ab_channel=NashTVCarpFishing)
 * [IFishMan Youtube](https://www.youtube.com/channel/UCUz29_JLUn5sm5vGkPMaAvw)
 * [欧鲤钓遣唐使](https://www.ixigua.com/home/105295209026/?utm_source=live_pc_anchor_profile)
 * [野钓海蓝的快乐生活](https://www.ixigua.com/home/2783601631429107)
