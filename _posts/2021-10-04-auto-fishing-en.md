@@ -87,13 +87,31 @@ Assess the terrain and lake's condition , like where it gots most trees , where 
 
 
 
-The day session you probably need const looking for signs of carp activity like rollover or direct eyesight, or bubble ereged from water. But in my case, that's not every helpful as the water is soooo big.
+The day session you probably need const looking for signs of carp activity like rollover or direct eyesight, or bubble ereged from water, sometime climb up and dowsn to get some peeks where they are.
+
+But in my case, that's not every helpful as the water is soooo big. I choose to close to bank for some reasons, during the night, the  surrounding could be quiet, fish are more likely staying the area that close to the bank for food.
 
 
 
-4 no mulit -rig, just one
+4 multi hooks(stinger-hook?) rig or single hook rig
+
+Here, in china, mostly angler using 串钩 or 爆炸钩 - i.e multi rigs along the lines-  to increase the chances to catch the fish. But that comes with problem: it is very easy for their hooks to get trapped with rocks or reefs/snags when they casting out or they drag the fish after got a bite. 
+
+https://fishingmagic.com/forums/threads/more-than-one-hook.239744/
+
+I guess differences we fishing mostly for pot & recreactonal, mostly people lives not close to sea. but like cpar fishing, mostly poplar in uk, they have more sea fishes with less bones like freshwater fishes.
+
+The biggest things I can see against using two hooks is the flailing hook that can get snagged when playing the fish and there is also the thing in if you get a break off...a fish would stand more of a chance in getting caught up we go to the extent of lead clips weak links etc....why would anyone want to add this as a factor???
 
 
+
+If you don't like the idea of two hook rigs then don't use them, but don't try to claim some sort of moral superiority for your choice.
+
+
+
+一般淡水鱼垂钓 coarse fishing
+
+bailey
 
 
 
