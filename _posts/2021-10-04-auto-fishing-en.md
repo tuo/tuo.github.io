@@ -27,13 +27,38 @@ Why?
 距离不用太远 
 没有人测试从24：00-0：06的情况
 
-
-
 My case: background with pole fishing but not that much expierence, no ice in winter
 
 in china, pole fish is the prevailing fish style. people like the feeling of fish's pwoer transmiting via line /rod all the way to the hand.(tremors). The pole they 're using from 3.6 to 10 meters, if you go small fish like Crucian carp.
 
 钓台钓椅伞
+
+reservoirs - The lake is very big like hundreds of acres. no one is feeding those fish, the fish is pretty much on its own, so the density is kinda low, not like high-stocked recreational fishery or syndicate.
+
+(水库图片)
+
+Here is some image in the lake, people are angling with 8.1 meters - 10 meter long pole rod, prefeed/bait with fermented corns like every day in the same swim of the lake, then fish at the that day. They try to fish further away from the bank at the side closing to the mountains - which is much deeper comparing to the opposite shallow side.
+
+(钓鱼玉米图片)
+
+By talking with local anglers, they said the big fish is very hard to catch, usually they could caught one , bigger one after several days of waiting.  They need prefeed regulary with large mount of corn(fermented, homemade or bought ), extremely patient when fishing(long time of boring wait for the bite)、also extremely concentraction on the sign change of marker float . But once they got the bite, the feeling is so rewarding that previous efforts and boring wating is allll worthy it. Esp for pole fishing, picking up the rod、 jerking the line 、 pull it hard and setting the hook when you saw the marker float suddely dipped in then play/fight the fish, the feeling of tremors pass through the line,  adrenaline inside you,  that  is most exciting part of angling.
+
+
+
+Reason people despise or look down the one using Rod（海竿或lure) are (here is link from angler tieba, sth like Angler subreddt(https://tieba.baidu.com/p/6348235004?red_tag=3265959682#128408796299l):
+
+* SurfRod is passive. one no need to always look at the marker float and there are lots of tricks on what kinda of marker float's movement relating to fish's behavior and what timing is the proper to pick up rod and jerk it ; second no setting the hook just wait util rod bell sound, the feel of hook set is missing .
+* Pole fish when play fish is much harder and much intensive comparing to 海竿, becase they dont' have spooler/reels. They got higher chance of losing the fish , i.e.g not being able to land the fish, but that difficulit means you 're gonna put lots of work and concentraion for this phase (you hhave no way to backdown like Caesar crossing Rubicon river ).That dedication leads to greater satisfiction and apprecation for the fish.
+* peple genreately setup lots of rod at one row like ( 3 ,4, 5,6 ..8) and multiple hooks in one rig, that sounds just for caughting the fish not for the fun of fishing process (爆炸钩创狗 - moral superiority); while pole fish you only have one or two rod(one sshorter rod for small fish, one longer rod for big fish) - each max only has two hooks
+* 
+
+
+
+
+
+
+
+
 
 
 
@@ -45,11 +70,19 @@ AUTOMATICALY VS normal CPAR DIALY SESION
 
 TIME：long(1-2days) vs short
 
-BAIT/PRE FEEDER: slow(last longer) - baiting method is different(chumming and laser focus/precise) vs fast
+FEEDER: slow(last longer) - baiting method is different(chumming and laser focus/precise) vs fast
+
+bait: corn vs boilet/peolliot/maggots
 
 MODEL : passsive(no angler nearby) vs active()
 
 FISHIN DISTANCE: short vs long (why counterintuitive)
+
+rod: no rod vs rod 
+
+bite alarm: automatical trigger vs normal bite alarm line trigger
+
+agnling pressure: low always, oppose to where mostly people fishing swim
 
 
 
@@ -131,6 +164,8 @@ for secreteiveness:
 
 
 setup rod/bait/feeder, setup the bite alarm device, hook those two, wait for 1-2 days, when got fish,  bite alarm device could give a call to my phone so that I could just go there and pickup and land the fish. well, every one minutes, send acc,x,y,z and tmeratorat to my backend , so that I could debug and check what's the temparuate looks liek and what time the fish got bite, to build a personal and model for fish's behavior. (ELK)
+
+start with small/easy, not overthinking beforehead (preoptimozation ), fail fast and get feedback loop quick
 
 
 
