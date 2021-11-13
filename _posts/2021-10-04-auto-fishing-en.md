@@ -52,13 +52,29 @@ Reason people despise or look down the one using Rod（海竿或lure) are (here 
 * peple genreately setup lots of rod at one row like ( 3 ,4, 5,6 ..8) and multiple hooks in one rig, that sounds just for caughting the fish not for the fun of fishing process (爆炸钩创狗 - moral superiority); while pole fish you only have one or two rod(one sshorter rod for small fish, one longer rod for big fish) - each max only has two hooks
 * 
 
-Pole fish involve smore dedication / concentraction /complex technique/tricks and shorter feedback loop during the angling process comparing to the Rod fish, which leads to why most people think that pole fishing is much funnier and more interesting than rod fish.
+Pole fish involve smore dedication / concentraction /complex technique/tricks and shorter feedback loop during the angling  comparing to the Rod fish, which leads to why most people think that pole fishing is much funnier and more interesting than rod fish.
 
+Yeah, above those do make sense to some extent.  Different style, different kinda of fun. Since we focus on catching big fish, not small ones, it is important to layout the differences:
 
+* waiting : both need to wait and wait for a long time.   海竿 you have bivvy or long chair to lay down comfortable. but pole fish you only got a chair, and need constantly stare at the float, it is kinda exgusting and not that comforatable.
 
+* chances:  big fish tends to stay away from bank in daytime, so if you fish far from bank, it generally is deepr, and has a better chance to locate big fish.THe rod they're using are at least 7.2m long, could be 8.1, 9.2, 10.0 , 11 meters long. Even with lines, it could maxi get around 20 meters far(actually not that far, because the water usally is kinda deep and take out some lines), and it is pretty trick to cast out without reels. But with 海竿，you could easily cast out like 30meter at least, with good ones, like 100 meters is not that hard.
 
+* Expense:  even the cheapest pole rod you could on taobao([奥西尼x7](https://item.taobao.com/item.htm?spm=a230r.1.14.25.23117b10Kpyfpn&id=641987583688&ns=1&abbucket=17#detail)) is gonna cost you 90-100 RMB like 15-16$.  But you could get a 2.7m rod and 5000 reels with around 45 RMB like 7-8$. With my experiment, that cheap combiniation(8 strands braided PE line 6.0/0.40mm/32KG with 100 meters long - price is 12RMB .i.e 2$) could  get me cast out like 40-50 meters in a breeze.(TODO: change to 4strands for more abrasion resistance, but no preoptimzation)
 
+* landing fish: because you got reels and has drag, it is much easier to fight/play the fish once got bite. While if you're using Pole rod, you have pretty much fixed length line, which leaves very little room for mistake. I have seen lots of people fail to land the fish, because it cast out fully without buffer or extra room for flexibility(again conventional wisdom: the further, the better). if the fish got the bite, felt the pain, ficerly move its head, it might go striaght oppose to bank direction(the line fish and rod is like 180 degree aligned). Under this case, you might not even has a chance to pick-up your rod,  end up in  tug-of-war (in chinese拔河) - i.e. fish go that way, you go this way -  and most of time it is the angler got tumbled and have to leave out the rod from hands if line is strong enough or most likely line breaks. Either case, the fish descends into the depths and leave you stare in disbelief(哦豁in chinese).
 
+  
+
+  
+
+实际钓大鱼没什么区别
+
+casting precisly:
+
+* limit by psychical  or line clip 
+
+  
 
 
 
