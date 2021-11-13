@@ -47,7 +47,7 @@ By talking with local anglers, they said the big fish is very hard to catch, usu
 
 Reason people despise or look down the one using Rod（海竿或lure) are (here is link from angler tieba, sth like Angler subreddt(https://tieba.baidu.com/p/6348235004?red_tag=3265959682#128408796299l):
 
-* SurfRod is passive. one no need to always look at the marker float and there are lots of tricks on what kinda of marker float's movement relating to fish's behavior and what timing is the proper to pick up rod and jerk it ; second no setting the hook just wait util rod bell sound, the feel of hook set is missing .
+* SurfRod is passive, like setup, leave it then just wait for the alarm. one no need to always look at the marker float and there are lots of tricks on what kinda of marker float's movement relating to fish's behavior and what timing is the proper to pick up rod and jerk it ; second no setting the hook just wait util rod bell sound, the feel of hook set is missing .
 * Pole fish when play fish is much harder and much intensive comparing to 海竿, becase they dont' have spooler/reels. They got higher chance of losing the fish , i.e.g not being able to land the fish, but that difficulit means you 're gonna put lots of work and concentraion for this phase (you hhave no way to backdown like Caesar crossing Rubicon river ).That dedication leads to greater satisfiction and apprecation for the fish.
 * peple genreately setup lots of rod at one row like ( 3 ,4, 5,6 ..8) and multiple hooks in one rig, that sounds just for caughting the fish not for the fun of fishing process (爆炸钩创狗 - moral superiority); while pole fish you only have one or two rod(one sshorter rod for small fish, one longer rod for big fish) - each max only has two hooks
 * 
