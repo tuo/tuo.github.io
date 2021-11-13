@@ -52,7 +52,7 @@ Reason people despise or look down the one using Rod（海竿或lure) are (here 
 * peple genreately setup lots of rod at one row like ( 3 ,4, 5,6 ..8) and multiple hooks in one rig, that sounds just for caughting the fish not for the fun of fishing process (爆炸钩创狗 - moral superiority); while pole fish you only have one or two rod(one sshorter rod for small fish, one longer rod for big fish) - each max only has two hooks
 * 
 
-
+Pole fish involve smore dedication / concentraction /complex technique/tricks and shorter feedback loop during the angling process comparing to the Rod fish, which leads to why most people think that pole fishing is much funnier and more interesting than rod fish.
 
 
 
