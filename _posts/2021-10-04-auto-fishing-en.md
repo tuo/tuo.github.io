@@ -67,8 +67,10 @@ Yeah, above those do make sense to some extent.  Different style, different kind
   
 
   
+  
+  
 
-实际钓大鱼没什么区别
+实际钓大鱼没什么区别, 钓大鱼只有守， 需要极大的耐心，有时候一天没有一口， 钓小鱼就有变化，饵料钓组频率的变化，钓大鱼不能有频率，不然吓走鱼。
 
 casting precisly:
 
