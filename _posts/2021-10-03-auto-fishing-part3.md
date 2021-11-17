@@ -307,9 +307,13 @@ angle_roll_output = angle_roll_output * 0.9 + angle_roll * 0.1;    //Take 90% of
 
 SIM800C可以通过AT指令发送命令，可以先连接电脑，调试一下基本的指令。这个时候需要一个USB-TTL调试模块、一个手机sim卡、可能还需要一个Nano卡槽和Sim800c模块。SIM800C插好手机卡，然后使用USB-TTL连接SIM800C然后插入电脑供电，观察到电源指示灯亮起之后，用跳线帽或者杜邦线将PWX和GND短接，给到一个低电平给PWX来出发启动模块，这个时候模块才会开始工作。调试时特别注意下LED闪灯频率，这个可以区分模块的工作状态。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/sim800_at.png" alt="sim800_at" style="zoom:67%;" />
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/sim800_usbttl.peg" alt="sim800_at" style="zoom:67%;" />
 
-这里Mac系统的串口调试工具建议使用[CoolTermMac](https://learn.sparkfun.com/tutorials/terminal-basics/coolterm-windows-mac-linux)，设置好串口设备的端口(Serial Port Options)、终端断行模式(Line Mode)和View ASCII文本显示。
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/sim800_coolterm.peg" alt="sim800_at" style="zoom:67%;" />
+
+这里Mac系统的串口调试工具建议使用[CoolTermMac](https://learn.sparkfun.com/tutorials/terminal-basics/coolterm-windows-mac-linux)，设置好串口设备的端口(Serial Port Options)的Port、终端断行模式(Line Mode)和View ASCII文本显示。
+
+特别要注意SIM卡和卡槽的方向： AT+CPIN? 可以查看SIM卡是否准备就绪，如果返回：ERROR，要么SIM卡插入方向错误，要么SIM卡异常。
 
 SIM800C可以接受哪些AT指令，建议大家参考下它的数据手册，但是中文的数据手册在线的没有找到，只有这个勉强能用[《SIM800C系列用户使用手册》](**https://pan.baidu.com/s/1skLxRI1**)，一般来说你购买的淘宝店家应该会给到你一份手册。我们这里用到的包括打电话和每个一分钟发送一次MPU6050采集的角速度加速度温度信息到服务器方便后续排查和调试。下面是连线示意和SIM800代码：
 
@@ -535,4 +539,4 @@ MPU6050每隔2秒读一次数据，每隔1分钟发送一次HTTP请求，大概2
 * [SIM800C GSM/GPRS HAT - Waveshare Wiki](https://www.waveshare.com/wiki/SIM800C_GSM/GPRS_HAT)
 * [SIM800C GSM GPRS模块 接CH340G/USB转串口线(USBTTL)电脑AT指令调试实现windows10 电脑发送短信](https://www.cnblogs.com/meetrice/p/14158449.html) 
   
-
+* [SIM800L 模块 使用AT命令打电话](https://blog.csdn.net/tcjy1000/article/details/112548136)
