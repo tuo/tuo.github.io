@@ -16,7 +16,7 @@ Why?
 * not that much time for day session ? (need work and away from big city)
 * second part of night (00:00 - 07:00)  - what's the behzvior carp ? any bite ? how likely ? what's temperature curve? , too dangerous and cold to sleep outside
 * free water ? big lake nature water  ( not small pond or paid fishery or syndicate)
-* complext bait or chemicals ? (magots for winter, boillet for summer ?) - corn (nothhing more, just corn)
+* test complext bait or chemicals ? (magots for winter, boillet for summer ?) - corn (nothhing more, just corn)
 
 
 
@@ -27,28 +27,28 @@ Why?
 距离不用太远 
 没有人测试从24：00-0：06的情况
 
-My case: background with pole fishing but not that much expierence, no ice in winter
+My angling background:  pole fishing but not that much expierence, no ice in winter
 
 in china, pole fish is the prevailing fish style. people like the feeling of fish's pwoer transmiting via line /rod all the way to the hand.(tremors). The pole they 're using from 3.6 to 10 meters, if you go small fish like Crucian carp.
 
 钓台钓椅伞
 
-reservoirs - The lake is very big like hundreds of acres. no one is feeding those fish, the fish is pretty much on its own, so the density is kinda low, not like high-stocked recreational fishery or syndicate.
+reservoirs - The lake is very big like hundreds of acres. no one is feeding those fish, the fish is pretty much on its own, so the density is kinda low, not like high-stocked recreational fishery or syndicate. The local fishery resource in China, in general, is pretty bad. Some people uses all kinds of destructive fishing practices to catch the fish - e.g - electro、net of mesh with small hole、firecrackers. In nature water, the fishery resource is mostly damaged to a extent that fish that with weight over 1.5Kg ~ 2.5KG could be called - BIG size fish. There are some fish with weight over 20kg - 50kg (last time, one of my friend caught a carp fish with 12KG using pole rod in reservoir), but that's pretty rare.
 
 (水库图片)
 
-Here is some image in the lake, people are angling with 8.1 meters - 10 meter long pole rod, prefeed/bait with fermented corns like every day in the same swim of the lake, then fish at the that day. They try to fish further away from the bank at the side closing to the mountains - which is much deeper comparing to the opposite shallow side.
+Here is some image in the lake. For big fish, people are angling with 8.1 meters - 10 meter long pole rod, prefeed/bait with fermented corns like every day in the same swim of the lake, then fish at the that day. For samll fish, 2.7m, 3.6m, 4.5m is pretty common. They try to fish further away from the bank at the side closing to the mountains - which is much deeper comparing to the opposite shallow side. 
 
 (钓鱼玉米图片)
 
-By talking with local anglers, they said the big fish is very hard to catch, usually they could caught one , bigger one after several days of waiting.  They need prefeed regulary with large mount of corn(fermented, homemade or bought ), extremely patient when fishing(long time of boring wait for the bite)、also extremely concentraction on the sign change of marker float . But once they got the bite, the feeling is so rewarding that previous efforts and boring wating is allll worthy it. Esp for pole fishing, picking up the rod、 jerking the line 、 pull it hard and setting the hook when you saw the marker float suddely dipped in then play/fight the fish, the feeling of tremors pass through the line,  adrenaline inside you,  that  is most exciting part of angling.
+By talking with local anglers , they said the big fish is very hard to catch, usually they could caught one , bigger one after several days of waiting.  They need prefeed regulary with large mount of corn(fermented, homemade or bought ), extremely patient when fishing(long time of boring wait for the bite)、also extremely concentraction on the sign change of marker float . But once they got the bite, the feeling is so rewarding that previous efforts and boring wating is allll worthy it. Esp for pole fishing, picking up the rod、 jerking the line 、 pull it hard and setting the hook when you saw the marker float suddely dipped in then play/fight the fish, the feeling of tremors pass through the line,  adrenaline inside you,  that  is most exciting part of angling.
 
 
 
 Reason people despise or look down the one using Rod（海竿或lure) are (here is link from angler tieba, sth like Angler subreddt(https://tieba.baidu.com/p/6348235004?red_tag=3265959682#128408796299l):
 
 * SurfRod is passive, like setup, leave it then just wait for the alarm. one no need to always look at the marker float and there are lots of tricks on what kinda of marker float's movement relating to fish's behavior and what timing is the proper to pick up rod and jerk it ; second no setting the hook just wait util rod bell sound, the feel of hook set is missing .
-* Pole fish when play fish is much harder and much intensive comparing to 海竿, becase they dont' have spooler/reels. They got higher chance of losing the fish , i.e.g not being able to land the fish, but that difficulit means you 're gonna put lots of work and concentraion for this phase (you hhave no way to backdown like Caesar crossing Rubicon river ).That dedication leads to greater satisfiction and apprecation for the fish.
+* Pole fish when play fish is much harder and more intensive comparing to 海竿, becase they dont' have spooler/reels. They got higher chance of losing the fish , i.e.g not being able to land the fish, but that difficulit means you 're gonna put lots of work and concentraion for this phase (you have no way to backdown like Caesar crossing Rubicon river ).That dedication leads to greater satisfiction and apprecation for the angling.
 * peple genreately setup lots of rod at one row like ( 3 ,4, 5,6 ..8) and multiple hooks in one rig, that sounds just for caughting the fish not for the fun of fishing process (爆炸钩创狗 - moral superiority); while pole fish you only have one or two rod(one sshorter rod for small fish, one longer rod for big fish) - each max only has two hooks
 * 
 
@@ -58,17 +58,53 @@ Yeah, above those do make sense to some extent.  Different style, different kind
 
 * waiting : both need to wait and wait for a long time.   海竿 you have bivvy or long chair to lay down comfortable. but pole fish you only got a chair, and need constantly stare at the float, it is kinda exgusting and not that comforatable.
 
-* chances:  big fish tends to stay away from bank in daytime, so if you fish far from bank, it generally is deepr, and has a better chance to locate big fish.THe rod they're using are at least 7.2m long, could be 8.1, 9.2, 10.0 , 11 meters long. Even with lines, it could maxi get around 20 meters far(actually not that far, because the water usally is kinda deep and take out some lines), and it is pretty trick to cast out without reels. But with 海竿，you could easily cast out like 30meter at least, with good ones, like 100 meters is not that hard.
+* chances:  big fish tends to stay away from bank in daytime, so if you fish far from bank, it generally is deepr, and has a better chance to locate big fish.THe rod they're using are at least 7.2m long, could be 8.1, 9.2, 10.0 , 11 meters long. Even with lines, it could maxi get around 20 meters far(actually not that far, because the water usally is kinda deep and take out some lines), and it is pretty trick to cast out without reels. But with 海竿，you could easily cast out like 30meter at least, with good ones, like 70-80 meters is not that hard.
 
 * Expense:  even the cheapest pole rod you could on taobao([奥西尼x7](https://item.taobao.com/item.htm?spm=a230r.1.14.25.23117b10Kpyfpn&id=641987583688&ns=1&abbucket=17#detail)) is gonna cost you 90-100 RMB like 15-16$.  But you could get a 2.7m rod and 5000 reels with around 45 RMB like 7-8$. With my experiment, that cheap combiniation(8 strands braided PE line 6.0/0.40mm/32KG with 100 meters long - price is 12RMB .i.e 2$) could  get me cast out like 40-50 meters in a breeze.(TODO: change to 4strands for more abrasion resistance, but no preoptimzation)
 
-* landing fish: because you got reels and has drag, it is much easier to fight/play the fish once got bite. While if you're using Pole rod, you have pretty much fixed length line, which leaves very little room for mistake. I have seen lots of people fail to land the fish, because it cast out fully without buffer or extra room for flexibility(again conventional wisdom: the further, the better). if the fish got the bite, felt the pain, ficerly move its head, it might go striaght oppose to bank direction(the line fish and rod is like 180 degree aligned). Under this case, you might not even has a chance to pick-up your rod,  end up in  tug-of-war (in chinese拔河) - i.e. fish go that way, you go this way -  and most of time it is the angler got tumbled and have to leave out the rod from hands if line is strong enough or most likely line breaks. Either case, the fish descends into the depths and leave you stare in disbelief(哦豁oh ho - in chinese - i.e. - bosh/wicked).
+* landing fish: because you got reels and has drag, it is much easier to fight/play the fish once got bite. While if you're using Pole rod, you have pretty much fixed length line, which leaves very little room for mistake. I have seen lots of people fail to land the fish, because it cast out fully without buffer or extra room for flexibility(again conventional wisdom: the further, the better). if the fish got the bite, felt the pain, ficerly shake its head, it might go striaght oppose to bank direction(the line fish and rod is like 180 degree aligned). Under this case, you might not even has a chance to pick-up your rod,  end up in  tug-of-war (in chinese拔河) - i.e. fish go that way, you go this way -  and most of time it is the angler got tumbled and have to leave out the rod from hands if line is strong enough or most likely line breaks. Either case, the fish descends into the depths and leave you stare in disbelief(哦豁oh ho - in chinese - i.e. - bosh/wicked).
 
   
 
+
+So far, we have compared pole fish and sur fish, and each has its own pros and cons.
+
+
+
+Pole fihs : marker float, analyza lake bed terriain and mersuare water depth.
+
+Sur rod:  distance,easier to fight fish and land fish; comfortable
+
+
+
+The fish strategy for my case would be a combination of pole fish and surf fish, but more inclined to suf fish. The distance is between pole fish and suf fish, neither too close nor too far.
+
+
+
+AIMING: 
+
+* reservoir : big nature water 
+
+* target: 1.5KG - 15KG 
+
+* time:  1-2 days consecutive
+
+* mode: passive and automatical
+
+* baid/feed strategy: setup once and leave it untouched
+
+* secretiveness:  detecting device should be small enough to be camouflaged and not easily be able to spot
+
+* mobility : device and whole fish tackle should be easily to be assemble or dis-assemble
+
   
-  
-  
+
+```markdown
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+```
 
 实际钓大鱼没什么区别, 钓大鱼只有守， 需要极大的耐心，有时候一天没有一口， 钓小鱼就有变化，饵料钓组频率的变化，钓大鱼不能有频率，不然吓走鱼。
 
@@ -80,7 +116,7 @@ casting precisly:
 
 
 
-target: 20-25 g fish max, 
+target: 1.5KG-15 KG fish max, 
 
 
 

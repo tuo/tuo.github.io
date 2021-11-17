@@ -225,13 +225,5 @@ code.highlighter-rouge {
 strong {
   color: #333333d9;
 }
-blockquote {
-    border-left: 4px solid #D6D6D6;
-    background: #F0F0F0;
-    margin: 0px;
-    padding-top: 8px;
-    color: #797979;
-    /* padding-bottom: 1px; */
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+
+
