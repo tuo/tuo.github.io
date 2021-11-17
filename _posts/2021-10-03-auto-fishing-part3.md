@@ -117,7 +117,106 @@ NodeMCU还是非常好上手的，特别是自带了wifi模块，可以尝试从
 
 找好了MPU6050的设备地址，接下来I2C写入： 就是找到对应的寄存器地址往其中写入设置合适的初始值，这里有电源管理、陀螺仪的满量程范围、加速度传感器的满量程范围。后面两个会影响到后续读取出来数值的计算，建议可以对照着数据手册看。I2C读取： 主要是陀螺仪数据输出寄存器、加速度传感器数据输出寄存器以及温度传感器数据输出寄存器，分别获取陀螺仪（in  degree/seconds unit)、加速度（ in g unit）和温度（ in degree/celcius）的原始数据，要注意它的单位。
 
-<script src="https://gist.github.com/tuo/f86c40beca754c779e3b62a7aca39eed.js"></script>
+```lua
+-- https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf
+id  = 0 
+scl = 7 
+sda = 6 
+MPU6050SlaveAddress = 0x68
+AccelScaleFactor = 4096;  --8g/s
+GyroScaleFactor = 65.5; -- ± 500 °/s
+
+MPU6050_REGISTER_SMPLRT_DIV   =  0x19
+MPU6050_REGISTER_USER_CTRL    =  0x6A
+MPU6050_REGISTER_PWR_MGMT_1   =  0x6B
+MPU6050_REGISTER_PWR_MGMT_2   =  0x6C
+MPU6050_REGISTER_CONFIG       =  0x1A
+MPU6050_REGISTER_GYRO_CONFIG  =  0x1B
+MPU6050_REGISTER_ACCEL_CONFIG =  0x1C
+MPU6050_REGISTER_FIFO_EN      =  0x23
+MPU6050_REGISTER_INT_ENABLE   =  0x38
+MPU6050_REGISTER_ACCEL_XOUT_H =  0x3B
+MPU6050_REGISTER_SIGNAL_PATH_RESET  = 0x68
+ 
+function I2C_Write(deviceAddress, regAddress, data)
+    i2c.start(id)       -- send start condition
+    if (i2c.address(id, deviceAddress, i2c.TRANSMITTER))-- set slave address and transmit direction
+    then
+        print("write")
+        i2c.write(id, regAddress)  -- write address to slave
+        i2c.write(id, data)  -- write data to slave
+        i2c.stop(id)    -- send stop condition
+    else
+        print("I2C_Write fails")
+    end
+end
+
+function I2C_Read(deviceAddress, regAddress, SizeOfDataToRead)
+    response = 0;
+    i2c.start(id)       -- send start condition
+    if (i2c.address(id, deviceAddress, i2c.TRANSMITTER))-- set slave address and transmit direction
+    then
+        i2c.write(id, regAddress)  -- write address to slave
+        i2c.stop(id)    -- send stop condition
+        i2c.start(id)   -- send start condition
+        i2c.address(id, deviceAddress, i2c.RECEIVER)-- set slave address and receive direction
+        response = i2c.read(id, SizeOfDataToRead)   -- read defined length response from slave
+        i2c.stop(id)    -- send stop condition
+        return response
+    else
+        print("I2C_Read fails")
+    end
+    return response
+end
+
+function unsignTosigned16bit(num)   -- convert unsigned 16-bit no. to signed 16-bit no.
+    if num > 32768 then 
+        num = num - 65536
+    end
+    return num
+end
+function MPU6050_Init() --configure MPU6050
+    tmr.delay(150000) -- delay for 150 ms
+    I2C_Write(MPU6050SlaveAddress, MPU6050_REGISTER_SMPLRT_DIV, 0x07)
+    I2C_Write(MPU6050SlaveAddress, MPU6050_REGISTER_PWR_MGMT_1, 0x01)
+    I2C_Write(MPU6050SlaveAddress, MPU6050_REGISTER_PWR_MGMT_2, 0x00)
+    I2C_Write(MPU6050SlaveAddress, MPU6050_REGISTER_CONFIG, 0x00)
+    I2C_Write(MPU6050SlaveAddress, MPU6050_REGISTER_GYRO_CONFIG, 0x08)-- set +/-500 degree/second full scale
+    I2C_Write(MPU6050SlaveAddress, MPU6050_REGISTER_ACCEL_CONFIG, 0x10)-- set +/- 8g full scale  
+    I2C_Write(MPU6050SlaveAddress, MPU6050_REGISTER_FIFO_EN, 0x00)
+    I2C_Write(MPU6050SlaveAddress, MPU6050_REGISTER_INT_ENABLE, 0x01)
+    I2C_Write(MPU6050SlaveAddress, MPU6050_REGISTER_SIGNAL_PATH_RESET, 0x00)
+    I2C_Write(MPU6050SlaveAddress, MPU6050_REGISTER_USER_CTRL, 0x00)
+end
+i2c.setup(id, sda, scl, i2c.SLOW)   -- initialize i2c
+MPU6050_Init()
+tmr.delay(1000)]
+
+while true do   --read and print accelero, gyro and temperature value    
+    data = I2C_Read(MPU6050SlaveAddress, MPU6050_REGISTER_ACCEL_XOUT_H, 14)
+    AccelX = unsignTosigned16bit((bit.bor(bit.lshift(string.byte(data, 1), 8), string.byte(data, 2))))
+    AccelY = unsignTosigned16bit((bit.bor(bit.lshift(string.byte(data, 3), 8), string.byte(data, 4))))
+    AccelZ = unsignTosigned16bit((bit.bor(bit.lshift(string.byte(data, 5), 8), string.byte(data, 6))))
+    Temperature = unsignTosigned16bit(bit.bor(bit.lshift(string.byte(data,7), 8), string.byte(data,8)))
+    GyroX = unsignTosigned16bit((bit.bor(bit.lshift(string.byte(data, 9), 8), string.byte(data, 10))))
+    GyroY = unsignTosigned16bit((bit.bor(bit.lshift(string.byte(data, 11), 8), string.byte(data, 12))))
+    GyroZ = unsignTosigned16bit((bit.bor(bit.lshift(string.byte(data, 13), 8), string.byte(data, 14))))
+ 
+    -- ACC in g unit, Temp  in degree/celcius, Gyro in degree/celcius
+    AccelX = AccelX/AccelScaleFactor   -- divide each with their sensitivity scale factor
+    AccelY = AccelY/AccelScaleFactor
+    AccelZ = AccelZ/AccelScaleFactor
+    Temperature = Temperature/340.0+36.53-- temperature formula
+    GyroX = GyroX/GyroScaleFactor
+    GyroY = GyroY/GyroScaleFactor
+    GyroZ = GyroZ/GyroScaleFactor
+    
+    print(string.format("TUO-Ax:%.3g Ay:%.3g Az:%.3g T:%.3g Gx:%.3g Gy:%.3g Gz:%.3g",
+                        AccelX, AccelY, AccelZ, Temperature, GyroX, GyroY, GyroZ))
+    tmr.delay(100000)   -- 100ms timer delay
+end
+```
+<cite>参考[mpuTest.lua](https://github.com/NorthernMan54/homebridge-wssensor/blob/master/nodemcu/mpuTest.lua)</cite>
 
 最后看看ESP8266是如何跟MPU6050的连线的：
 
@@ -137,11 +236,43 @@ NodeMCU还是非常好上手的，特别是自带了wifi模块，可以尝试从
 
 可以取其中一段核心代码片段看看：
 
-<script src="https://gist.github.com/tuo/cc403c024cdd1cd2c68965772f8376d6.js"></script>
+```c
+//source: http://www.brokking.net/imu.html MPU-6050 6dof IMU for auto-leveling multicopters
+
+//Gyro angle calculations: 0.0000611 = 1 / (250Hz / 65.5)
+angle_pitch += gyro_x * 0.0000611; //Calculate the traveled pitch angle and add this to the angle_pitch variable
+angle_roll += gyro_y * 0.0000611;  //Calculate the traveled roll angle and add this to the angle_roll variable
+
+//0.000001066 = 0.0000611 * (3.142(PI) / 180degr) The Arduino sin function is in radians
+angle_pitch += angle_roll * sin(gyro_z * 0.000001066); //If the IMU has yawed transfer the roll angle to the pitch angel
+angle_roll -= angle_pitch * sin(gyro_z * 0.000001066); //If the IMU has yawed transfer the pitch angle to the roll angel
+
+//Accelerometer angle calculations
+acc_total_vector = sqrt((acc_x * acc_x) + (acc_y * acc_y) + (acc_z * acc_z)); //Calculate the total accelerometer vector
+//57.296 = 1 / (3.142 / 180) The Arduino asin function is in radians
+angle_pitch_acc = asin((float)acc_y / acc_total_vector) * 57.296; //Calculate the pitch angle
+angle_roll_acc = asin((float)acc_x / acc_total_vector) * -57.296; //Calculate the roll angle
+
+//Place the MPU-6050 spirit level and note the values in the following two lines for calibration
+angle_pitch_acc -= 0.0; //Accelerometer calibration value for pitch
+angle_roll_acc -= 0.0;  //Accelerometer calibration value for roll
+
+if (set_gyro_angles){  //If the IMU is already started
+    angle_pitch = angle_pitch * 0.9996 + angle_pitch_acc * 0.0004; //Correct the drift of the gyro pitch angle with the accelerometer pitch angle
+    angle_roll = angle_roll * 0.9996 + angle_roll_acc * 0.0004;  //Correct the drift of the gyro roll angle with the accelerometer roll angle
+}else{  //At first start
+    angle_pitch = angle_pitch_acc; //Set the gyro pitch angle equal to the accelerometer pitch angle
+    angle_roll = angle_roll_acc;   //Set the gyro roll angle equal to the accelerometer roll angle
+    set_gyro_angles = true;        //Set the IMU started flag
+}
+//To dampen the pitch and roll angles a complementary filter is used
+angle_pitch_output = angle_pitch_output * 0.9 + angle_pitch * 0.1; //Take 90% of the output pitch value and add 10% of the raw pitch value
+angle_roll_output = angle_roll_output * 0.9 + angle_roll * 0.1;    //Take 90% of the output roll value and add 10% of the raw roll value
+```
 
 <cite>来自上面的[MPU-6050 6dof IMU for auto-leveling multicopters](http://www.brokking.net/imu.html)</cite>
 
-这里有几个函数并不在NodeMCU对应的Lua版本支持之中。[How is NodeMCU Lua different to standard Lua?](https://nodemcu.readthedocs.io/en/dev/lua-developer-faq/#how-is-nodemcu-lua-different-to-standard-lua) 提到*math*这个标准库是被忽略没有包含进去的，所以这个sin/cos/asin/acos/atan2都是没有的，只能是自己手动写一个lua的标准math库的函数： [A COUPLE OF MATH FUNCTIONS (SINE, COSINE, ATAN, LN, TRUNC) - For NodeMCU LUA](https://www.esp8266.com/viewtopic.php?p=87536).
+这里有几个函数并不在NodeMCU对应的Lua版本支持之中。[How is NodeMCU Lua different to standard Lua?](https://nodemcu.readthedocs.io/en/dev/lua-developer-faq/#how-is-nodemcu-lua-different-to-standard-lua) 提到*math*这个标准库是被忽略没有包含进去的，所以这个sin/cos/asin/acos/atan2都是没有的，只能是自己手动写一个lua的标准math库的函数.
 
 所以这里就体现出来用原始点的C/C++写的好处来了，Arduio社区资料非常丰富，关于计算Roll, Yaw, Pitch这块，论坛里有非常多的讨论和代码，比如[Converting Raw data from MPU 6050 to YAW,PITCH AND ROLL](https://forum.arduino.cc/t/converting-raw-data-from-mpu-6050-to-yaw-pitch-and-roll/465354)、[Converting rotation angles from MPU6050 to roll/pitch/yaw](https://forum.arduino.cc/t/converting-rotation-angles-from-mpu6050-to-roll-pitch-yaw/392641)、 [YAW Calculation from MPU6050](https://forum.arduino.cc/t/yaw-calculation-from-mpu6050/317028)等等，都是基于Arduino用C/C++所写；另外有很多代码和功能甚至封装了起来，作为独立的库提供到用户使用 ，这篇文章里[《Gyro (Position) sensors (MPU6050) with Arduino – How to access Pitch, Roll and Yaw angles》](https://www.xtronical.com/mpu6050/)编译封装了一个单独的库 [rfetick/MPU6050_light](https://github.com/rfetick/MPU6050_ligh)，只需要在头部导入`#include <MPU6050_light.h>`，直接可以通过*mpu.getAngleX()*、*mpu.getAngleY()*、*mpu.getAngleZ()*直接拿到对应的角度，开箱即用。这个在NodeMCU和MicroPython这块，还是没有对应的那么成熟丰富的社区的。
 
@@ -192,7 +323,52 @@ SIM800C可以接受哪些AT指令，建议大家参考下它的数据手册，�
 >
 > VCC <-> VBAT
 
-<script src="https://gist.github.com/tuo/67b6826971d63fd5fba7f81795083c2d.js"></script>
+代码：
+
+```lua
+---- Create new software UART with baudrate of 9600, D2 as Tx pin and D3 as Rx pin
+function writeCMD(s, cmd)
+    print("\n"..tostring(tmr.now())..": send cmd", cmd);    
+    s:write(cmd.."\n");   
+end
+
+function sim_setup()
+    if not s then 
+        print("\n"..tostring(tmr.now())..": initilized su\n");
+        s = softuart.setup(9600, 2, 3)
+        s:on("data", "\n", function(data)
+          local txt = string.gsub(data, "[\r\n]", "")
+          print("\n"..tostring(tmr.now())..": receive from uart:", txt)
+          local pattern = "^HTTPACTION"
+          if txt:find(pattern) ~= nil then
+              print("\n"..tostring(tmr.now())..": RECIEVED HTTP ACTION DONE:", txt)
+              writeCMD(s, 'AT+HTTPTERM')
+    --          writeCMD(s, 'AT+SAPBR=0,1')
+          end       
+        end)
+    else
+      print("\n"..tostring(tmr.now())..": existed su\n");  
+    end
+end
+function sim_send(txt)
+    writeCMD(s, 'AT+SAPBR=3,1,"Contype","GPRS"')
+    writeCMD(s, 'AT+SAPBR=3,1,"APN","CMNET"')
+    writeCMD(s, 'AT+SAPBR=1,1')
+    writeCMD(s, 'AT+SAPBR=2,1')
+    writeCMD(s, 'AT+HTTPINIT')
+    writeCMD(s, 'AT+HTTPPARA="CID",1')
+    local url = "xxxx.com/api/dashboard?time="..tostring(tmr.now().."&txt="..txt)
+    writeCMD(s, 'AT+HTTPPARA="URL","'..url..'"')
+    writeCMD(s, 'AT+HTTPACTION=0')
+    s:write(0x1a);  
+end
+
+function sim_call()   
+    writeCMD(s, 'ATD186xxxx5235;')    
+end
+```
+
+<cite>代码在gist上面: [sim800_http.lua](https://gist.github.com/tuo/67b6826971d63fd5fba7f81795083c2d)</cite>
 
 这里将MPU6050的信息拼成一个字符串txt，然后直接通过最简单的GET方法，发送到后端，在后端可以看到如下日志：
 
