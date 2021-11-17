@@ -313,7 +313,7 @@ SIM800C可以通过AT指令发送命令，可以先连接电脑，调试一下�
 
 这里Mac系统的串口调试工具建议使用[CoolTermMac](https://learn.sparkfun.com/tutorials/terminal-basics/coolterm-windows-mac-linux)，设置好串口设备的端口(Serial Port Options)的Port、终端断行模式(Line Mode)和View ASCII文本显示。
 
-特别要注意SIM卡和卡槽的方向： AT+CPIN? 可以查看SIM卡是否准备就绪，如果返回：ERROR，要么SIM卡插入方向错误，要么SIM卡异常。
+特别要注意SIM卡和卡槽的方向： AT+CPIN? 可以查看SIM卡是否准备就绪，如果返回：ERROR，要么SIM卡插入方向错误，要么SIM卡异常。 同时请确认手机卡是否启用了无线网络，否则http请求无法成功。
 
 SIM800C可以接受哪些AT指令，建议大家参考下它的数据手册，但是中文的数据手册在线的没有找到，只有这个勉强能用[《SIM800C系列用户使用手册》](**https://pan.baidu.com/s/1skLxRI1**)，一般来说你购买的淘宝店家应该会给到你一份手册。我们这里用到的包括打电话和每个一分钟发送一次MPU6050采集的角速度加速度温度信息到服务器方便后续排查和调试。下面是连线示意和SIM800代码：
 
