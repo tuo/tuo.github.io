@@ -14,7 +14,7 @@ Why?
 
 * winter - cold freezing ?(bivvy not even good enough)
 * not that much time for day session ? (need work and away from big city)
-* second part of night (00:00 - 07:00)  - what's the behzvior carp ? any bite ? how likely ? what's temperature curve? , too dangerous and cold to sleep outside
+* second part of night (00:00 - 07:00)  - what's the behzvior carp ? any bite ? how likely ? what's temperature curve? , too dangerous and cold to sleep outside （传统观念：都说冬天鱼冷些动物，新城代谢低，那么下半夜了，温度的低的时候，会不会有草鲤鱼上钩了？）
 * free water ? big lake nature water  ( not small pond or paid fishery or syndicate)
 * test complext bait or chemicals ? (magots for winter, boillet for summer ?) - corn (nothhing more, just corn)
 
@@ -79,9 +79,9 @@ Sur rod:  distance,easier to fight fish and land fish; comfortable
 
 The fish strategy for my case would be a combination of pole fish and surf fish, but more inclined to suf fish. The distance is between pole fish and suf fish, neither too close nor too far.
 
+#### ===conditions
 
-
-AIMING: 
+conditions: 
 
 * reservoir : big nature water 
 
@@ -108,11 +108,29 @@ AIMING:
 
 实际钓大鱼没什么区别, 钓大鱼只有守， 需要极大的耐心，有时候一天没有一口， 钓小鱼就有变化，饵料钓组频率的变化，钓大鱼不能有频率，不然吓走鱼。
 
+
+
+台钓装备图（西天取经 - 娄底那个钓鱼） - 国外欧鲤钓图（独轮车，庄鹏，咖啡） 
+
+太复杂
+
+而且水库下去特别苦难（山，稻田）
+
+complicted and comemrcial  -  就像教会的繁杂的仪式 ，回到早期基督教简洁的 - balance the thing (not too comeral/complext, yet simple joy of angling) - alchemist - all kinds of chemist/oil/hemo(mainline) _ maybe just try bread first, then other facny later
+
+
+
+
+
 casting precisly:
 
 * limit by psychical  or line clip 
 
   
+
+differences to carp fishing:
+
+* 水库图片山或者稻田，no way to use barrow or bivvy (too heavy)
 
 
 
