@@ -127,11 +127,27 @@ Here is some graphcs that germany fishery lab did on a nature water pond/lake. T
 
 That just shows how we project what we think on behalf of the fish. What you think fish should do != what fish does on its own. You can't know what fish is thinking(suppose it has a thinking in whatever you might named it  - dao/god/natura naturans), instead you could only guess from their behaviors.  To anaylze behaviors and actions,  we could borrow from Francias Bacon's scientifc method.  Namely put our prejudices 、preconception and old sayings/claims under inspection, careful observation on the fact,   tabulation and classification on factors that possibly lead to the fact，setup experiments to verify etc - investigative method to form a empirical study which not based on ideas and theories. don't get me wrong，I'm not saying that you should overwhelm yourself with everything by yourself (the earth is flat)- some you could stand on the shoulder of gaint.  A good way is to identify what's [hard science and soft science](https://en.wikipedia.org/wiki/Hard_and_soft_science).  Angling is pretty much like sociology and economics, it is very hard to do a controlled experiment - there are simply too many factors involved and isolation becames pretty much impossilbe to do. You could angle with same bait/same fish tackle, in same swim , in same season and pretty much same sunny day, same temperature/wind from weather report, but very likely you have different results - to say the least - maybe a full fishing keepnet or just blank - never you got same result.
 
-From my experience and ponder-over, sometimes , as angler, maybe we need shift our perspective from chasing after certaintiy(conventional wisdom) to getting along with probability and statistics - i.e - uncertaninty. I will elaborate more on this.
+From my experience and ponder-over, sometimes , as angler, maybe we need shift our perspective from chasing after certaintiy(conventional wisdom) to getting along with probability and statistics - i.e - uncertaninty. I will elaborate more on this in following secions.
 
-However shifted to thinking in terms of probabiliy and statistics, doesn't mean  you dont' wahter you want to or clueless or dont need any logic and reasoning. Well, quite to the contrary, you need do your homework(If there is one silverbullet) like what Joel Greenblat said in [<<The Little Book That Beats the Market>>](https://www.amazon.com/Little-Book-Still-Beats-Market/dp/0470624159) -  it requires careful design the experiment based on as much as possibly pre-collected data at your hand, welly and thourlghy analyzed , then took a reasonable guess. (ps: well, you just angle for first couple of times,  you might got the beginner's luck - you could laught at me - but hey - your sample size is too small...)
+However shifted to thinking in terms of probabiliy and statistics, doesn't mean  you dont' wahter you want to or just being clueless like headless chicken or dont need any logic and reasoning. Well, quite to the contrary, you need do your homework(If there is one silverbullet) like what Joel Greenblat said in [<<The Little Book That Beats the Market>>](https://www.amazon.com/Little-Book-Still-Beats-Market/dp/0470624159) -  it requires careful design the experiment based on as much as possibly pre-collected data at your hand, welly and thourlghy analyzed , then took a reasonable guess. (ps: well, you just angle for first couple of times,  you might got the beginner's luck - you could laught at me - but hey bloke - your sample size is too small...)
+
+In my case, the depth of the mountain side is like 5-6 meters deep from about 4-5 meters close to bank. It could even deeper farther way. On the other side , the shallow side, is like 2-3 meters deep from 4-5 meters - since I only do pole fish  and never use surf rod bebfore. I have no idea bout about what's depth of 20-30 - 50 meters away. Given what I know, it looks 3-8 meters depth could be a good ballkpark for winter from shallow side to try out first.
 
 
+
+**Distance**
+
+
+
+I saw lots of angler with surf rod, casting out extremely long distance and spend lots of time waiting on the bank, but they dont' want to spend a few casts to test out the water depth and lake bed terrain of fish spot. They just go there,  fill up the feeder and cast out whereever they want.
+
+
+
+be water - lixiaolong
+
+
+
+bait Nassim_Nicholas_Taleb
 
 
 
@@ -162,6 +178,8 @@ maggot 冬天 在小池塘了， 那么肯定更有用 效果更好。
 
 
 Chod rig 为什么国内不用， 人会吃塑料么？半夜这么冷， 鱼会吃么？ 深水大鱼
+
+foundmentatls - casting out accurely 
 
 
 
