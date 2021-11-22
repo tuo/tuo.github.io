@@ -79,25 +79,105 @@ Sur rod:  distance,easier to fight fish and land fish; comfortable
 
 The fish strategy for my case would be a combination of pole fish and surf fish, but more inclined to suf fish. The distance is between pole fish and suf fish, neither too close nor too far.
 
-#### ===conditions
+#### ===Target
 
 conditions: 
 
-* reservoir : big nature water 
-
+* reservoir : low stocked big nature water - still water
 * target: 1.5KG - 15KG 
-
 * time:  1-2 days consecutive
-
-* mode: passive and automatical
-
-* baid/feed strategy: setup once and leave it untouched
-
+* unmanned/unattended:  passive and automatical
+* baid/feed strategy: setup once, no middle of add more baiting/feeding 
 * secretiveness:  detecting device should be small enough to be camouflaged and not easily be able to spot
-
 * mobility : device and whole fish tackle should be easily to be assemble or dis-assemble
+* setup: first cast out with rod and reel; then pull main line out of reel and rod and attatch to tent peg; carefully setup trigger between the main line and device.
 
-  
+Quick Summary: setup feeder/bait, cast out and link with tent pegs,  setup the bite alarm device, hook the trigger between mainline and device.  Leave it for 1-2 days. When got bite from fish,  the strength will trigger alarm, hence give a call to my phone so that I could just go there and pickup and land the fish. But we also need some hearbeat to know that device is running properly. Every one minutes,  it send a http request to my backend which log its timstamp and whether it got triggered or not.  With this data,  later we could analyze what time it got bite and what temperature from online historical weather data.
+
+
+
+### Angling strategy
+
+It is always good to draw some inspiration from existing carp fishing strategys like pole fishing and day session of carp fishing. 
+
+*A beard well lathered is half shaved.*
+
+**Swim/Location**: The first thing you need is to analyze the terrian of where you fish - read water. Either take a walk aroud the water area, or searching its google map statelite image, or asking from local angler, just try figure out the general terrin of water you're gonna fish. No rush to drop you rods. For picking the right swim, it is always good to have direct eye sight of fish rollover or buble of stiring mud. And most of time, you want to stay away from those with high angling pressures from the bank. In winter, generaly you want your fish spot is closing to snags or something structure(weed beds、fallen trees 、overhanging vegetation or rocks) that provide safer places to hide for a school of fish instead of open water.
+
+(here is the lake genenral shape )
+
+The left side is the deep water area with mountains sliding into water very sharply, that right side is kinda shallow  full of debris left from submerged rice field. Most poeple will pick the left side with deeper open-water and less snags but rocky, and I barely see anyone fishing on the rice field side.  But I decided to go from the rice fields, the reasons are:  1. Even though it has snags like debris of rotten rice plants,  it doesn't do that much damage comparing to rocky strucuture , considering it is unmanned and unattended. When fish got the bite, felt the pain, it is gonna drag the line to whereever it felt safe - which mostly is full of snags or deep water so to say. A rocky structure would be much easier to cut the line due to its sharpness than some softy rotten debris could.  2. Helicopter or chod rig could help lift up the hook from lake bed and present nicely without being buried in the debris  -  interestinly I have never seen anyone of pole fish use chod rig or sort of before.
+
+**Depth**: Another key is to select appropriate water depth for fishing spot. Often we've heard people saying: "The deeper the better", for deep water could hide big size fish. Also some says " You should pick margins - where shallow water meets deeper water - a sharp drop-off or deep channel". Some says "in winter/autumn, go for deep, in spring&summer, go for shallow". This is just very confusing. After talked with some local angler with different level's angling experience, pretty much everyone gives  different opinons - there is just no consensus.  Here is a quick comparison from what they say:
+
+| shallow water              | deep water         |
+| -------------------------- | ------------------ |
+| more food                  | less food          |
+| not that safer, more noisy | Safer, quieter     |
+| high oxygen content        | low oxygen content |
+| warm                       | cold               |
+
+While the last one about water temperature, there are kinda opposite for summer and winter. In summer, surface of water is warm, the bottom is cold; but in winter, vice versa.*On the one* hand,  It looks like every saying has its right points, but on the other hand, it seems it somehow contradicts with others. So the middle water column (the one shallow meets deeper) is the correct one to go ?  This just intrigued me - I spent some time reseaching and watched lots of carp fish videos of both China and outside China.
+
+(Fishery genemry IFishman)
+
+Talk is cheap. Show me the code. 
+
+Here is some graphcs that germany fishery lab did on a nature water pond/lake. They marked different types of fish with different electronic instrument(show in different colors), track their signals of activity across the whole year and got some interesting data. For example, in winter, you might think the fish will hide in the deepest part of lake, but it turns out they all huddle together on the shallow border(reminiscence of stock operator - oops, no - winter time of elementary school - we all huddle togher at the corner of classroom in a american football way). Another interesting observation,  we might think as the temperature and oxygen levels drops to the lowest point during the midnight, to that extent, that  fish will simply stop all kindas activity -  statue of sluggish. However the graphic shows they actually are still moving around during what we perceived as "the worst time of day".  That just blows my mind.
+
+That just shows how we project what we think on behalf of the fish. What you think fish should do != what fish does on its own. You can't know what fish is thinking(suppose it has a thinking in whatever you might named it  - dao/god/natura naturans), instead you could only guess from their behaviors.  To anaylze behaviors and actions,  we could borrow from Francias Bacon's scientifc method.  Namely put our prejudices 、preconception and old sayings/claims under inspection, careful observation on the fact,   tabulation and classification on factors that possibly lead to the fact，setup experiments to verify etc - investigative method to form a empirical study which not based on ideas and theories. don't get me wrong，I'm not saying that you should overwhelm yourself with everything by yourself (the earth is flat)- some you could stand on the shoulder of gaint.  A good way is to identify what's [hard science and soft science](https://en.wikipedia.org/wiki/Hard_and_soft_science).  Angling is pretty much like sociology and economics, it is very hard to do a controlled experiment - there are simply too many factors involved and isolation becames pretty much impossilbe to do. You could angle with same bait/same fish tackle, in same swim , in same season and pretty much same sunny day, same temperature/wind from weather report, but very likely you have different results - to say the least - maybe a full fishing keepnet or just blank - never you got same result.
+
+From my experience and ponder-over, sometimes , as angler, maybe we need shift our perspective from chasing after certaintiy(conventional wisdom) to getting along with probability and statistics - i.e - uncertaninty. I will elaborate more on this.
+
+However shifted to thinking in terms of probabiliy and statistics, doesn't mean  you dont' wahter you want to or clueless or dont need any logic and reasoning. Well, quite to the contrary, you need do your homework(If there is one silverbullet) like what Joel Greenblat said in [<<The Little Book That Beats the Market>>](https://www.amazon.com/Little-Book-Still-Beats-Market/dp/0470624159) -  it requires careful design the experiment based on as much as possibly pre-collected data at your hand, welly and thourlghy analyzed , then took a reasonable guess. (ps: well, you just angle for first couple of times,  you might got the beginner's luck - you could laught at me - but hey - your sample size is too small...)
+
+
+
+
+
+ 
+
+Here are some common explation on fish acivity:  water temperature and oxygen content.  High barometric pressure forces more oxygen into water
+
+
+
+Angling is about emprical mostly of you, share/learn with others ,but in the end, it is you to put it into action under your unique situation/condition and get the feedback and figuring our your strategy and framework. It is not rock science, it deson't mea you ndont need do your homework. you simply need to know what you're doing.
+
+
+
+Conventional wisdom
+
+russel chicken / silter bullet
+
+
+
+context, part of context, not all ; but those only effective on specifc context (when you know whtat youre'd ooing, ) and most rookbie has no clue and no patience to do their epxierenent hor homework, they want ti quick . that quick satifisction 
+
+
+
+hemp oil不一定就合适，需要看当地周边的环境 比如有reef，那么芦苇可能是最简单好用或者Mulberry。 - 
+
+maggot 冬天 在小池塘了， 那么肯定更有用 效果更好。
+
+
+
+Chod rig 为什么国内不用， 人会吃塑料么？半夜这么冷， 鱼会吃么？ 深水大鱼
+
+
+
+start with small, basics 
+
+
+
+
+
+no man is constant checking it , could happen in the midnight or sometime you're sleeping, and it could some time for you to go the swim/bank. 
+
+Fish could drag the lines/hooks anywhere that fish feel safe. And most likely coudl be one with snags, like rocks/reefs/.
+
+you need to ensure thereis not much sngas around there; second you need ensure it won't cause significate pain for the fish, liek you could just drop the sinker so it won't add too much burden/pain to the fish (little resisitance(drop off sinker))
+
+
 
 ```markdown
 | First Header  | Second Header |
@@ -111,6 +191,8 @@ conditions:
 
 
 台钓装备图（西天取经 - 娄底那个钓鱼） - 国外欧鲤钓图（独轮车，庄鹏，咖啡） 
+
+
 
 太复杂
 
