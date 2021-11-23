@@ -153,6 +153,12 @@ I have chosen the distance like 20-30 meters far away from the bank. Since my fo
 
 
 
+start with small, sillverbullet. (maggos is mostly time waorks bettern than non-live baits like corns bolleit.)
+
+LINE clip - not need, baut encomoy it his alreaby pprohibiti me to cast  farther.
+
+
+
 be water - lixiaolong
 
 
