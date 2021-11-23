@@ -62,7 +62,7 @@ Yeah, above those do make sense to some extent.  Different style, different kind
 
 * Expense:  even the cheapest pole rod you could on taobao([奥西尼x7](https://item.taobao.com/item.htm?spm=a230r.1.14.25.23117b10Kpyfpn&id=641987583688&ns=1&abbucket=17#detail)) is gonna cost you 90-100 RMB like 15-16$.  But you could get a 2.7m rod and 5000 reels with around 45 RMB like 7-8$. With my experiment, that cheap combiniation(8 strands braided PE line 6.0/0.40mm/32KG with 100 meters long - price is 12RMB .i.e 2$) could  get me cast out like 40-50 meters in a breeze.(TODO: change to 4strands for more abrasion resistance, but no preoptimzation)
 
-* landing fish: because you got reels and has drag, it is much easier to fight/play the fish once got bite. While if you're using Pole rod, you have pretty much fixed length line, which leaves very little room for mistake. I have seen lots of people fail to land the fish, because it cast out fully without buffer or extra room for flexibility(again conventional wisdom: the further, the better). if the fish got the bite, felt the pain, ficerly shake its head, it might go striaght oppose to bank direction(the line fish and rod is like 180 degree aligned). Under this case, you might not even has a chance to pick-up your rod,  end up in  tug-of-war (in chinese拔河) - i.e. fish go that way, you go this way -  and most of time it is the angler got tumbled and have to leave out the rod from hands if line is strong enough or most likely line breaks. Either case, the fish descends into the depths and leave you stare in disbelief(哦豁oh ho - in chinese - i.e. - bosh/wicked).
+* landing fish: because you got reels and has drag, it is much easier to fight/play the fish once got bite. While if you're using Pole rod, you have pretty much fixed length line, which leaves very little room for mistake. I have seen lots of people fail to land the fish, because it cast out fully without buffer or extra room for flexibility(again conventional wisdom: the further, the better). if the fish got the bite, felt the pain, flail - e.g - ficerly shake its head, it might go striaght oppose to bank direction(the line fish and rod is like 180 degree aligned). Under this case, you might not even has a chance to pick-up your rod,  end up in  tug-of-war (in chinese拔河) - i.e. fish go that way, you go this way -  and most of time it is the angler got tumbled and have to leave out the rod from hands if line is strong enough or most likely line breaks. Either case, the fish descends into the depths and leave you stare in disbelief(哦豁oh ho - in chinese - i.e. - bosh/wicked).
 
   
 
@@ -137,9 +137,27 @@ In my case, the depth of the mountain side is like 5-6 meters deep from about 4-
 
 **Distance**
 
+Along the previsouly mentioned old saying "The deeper the better", there is another corresponding old saying "The further the better" for casting. Conventional wisdom or those old sayings are good start point at first,  but never it shall be treated as something like doctrine. Those sayings are generally short , high condensed, and concise abstractions , well, at the sacrifice of leaving out full context and details of specific cases. They are best served as guidance(outward), and you need to dig it out by yourself(inward) - Turning outward guidances into intward experience. As Bruce Lee says in <<Enter the dragon>>：
+
+>  "Don't think. FEEEEEEEEL! It's like a finger pointing away to the moon. Do not concentrate on the finger or you will miss all of the heavenly glory!"
+
+If you're doing pole fishing, you know from probiliity perspective, the longer the rod and line, the higher chance you could catch big size fish. Why? because often the closer to bank, typically the shallower the water would be,  espec in day time, more noisy it would be - which is not a safe place for big fish to hide. Even so, veteran anglers still would cast out a couple of rods to test depth around the target fish spot -left,right, front or back -  to get a better idea about the lakebed terrain. This is very nature for pole fishing since it has marker floating and it is quite easy to test out the water depth from disntance of 2 meter - 10 meters. But for surf rod fishing it is little bit tricky, for it doesn't have a marker floating buit-in.  I saw lots of surf rod anglers  casting out extremely long distance and spend lots of time waiting on the bank, but yet,  they didn't wanna just spend a few casts to test out the water depth and lake bed terrain of fish spot beforehand. They just go there,  fill up the feeder and cast out whereever they want, then just wait like "I'm done with work on my side, it is the fish - your turn to bite".  Yes, they still coud get a bite from fish and caught it , no doubt.  But hmmm, lets take another proablbity game -  basetketball as exmaple , the goal of shooting  is to get basketball throught he hoop and score. Well think about it is the last shot - a possible buzzbeater,  there are two game plans from coache - one is Micachel Jordan or Kobe Byrant is taking the shot , if they got the cold hands(look : self-proclaimed GOAT [🐑](https://emojipedia.org/ewe/)Lebron James only got 8 points in the nba finals...) and it is highly possible for them to miss it; another is a nobody like me taking the shot, if I got the hot hand(every dog has its day), I might hit it.  But nonobyd would think I'm better than Micachel or Kobe, because they could do it consistently and with solid fundamentals of pyshican and mental - some of them is from hard-work training and desire to strieve for greatness and push theirself ot the limit . So just because it is a paobolity game full of randoms, it is aslo eactly why we need build our firmly well-sturcture reasonging from our experincen and observation during prepration([22 times practice](https://www.espn.com/nba/story/_/id/29143112/the-little-known-story-allen-iverson-practice-rant) practice praice, watch video tapes, polish skills), setup flexiible/continuous feedback loop during process(mieache jordan turning from altehic dunker -air jordan -  to ellite fade-away jumper in his late years)，lower the expectation for the outcome - Let the chips fall where they may.
+
+So what's the fundentmtls here? cast out accuraccly . just pracice, you dont' need exact same spot,  some offset is perfectine fine - Remember it is not rock sicence.  For me, It didn't took me long to  be able to cast accurenty like 30 meter disnace with 1-3 meters radius offset.  I found it is extemly useful to record the moves of your casting in video. You could see your posture,movmenet and adjust accordingly which is much much viidely than texts.  
 
 
-I saw lots of angler with surf rod, casting out extremely long distance and spend lots of time waiting on the bank, but they dont' want to spend a few casts to test out the water depth and lake bed terrain of fish spot. They just go there,  fill up the feeder and cast out whereever they want.
+
+
+
+
+
+there could be very fewwwww times  that  my dog-day's shooting percentage could higher than  Micachel Jordan or Kobe Byrant's worst day's(Lebron only got 8 points in nba finals...) . But the different
+
+
+
+ Part of why they are doing so is cast long distance with accuracy is pretty challenging, practiceing this boring casting techniques seems pretty useless.
+
+
 
 
 
@@ -217,6 +235,10 @@ you need to ensure thereis not much sngas around there; second you need ensure i
 而且水库下去特别苦难（山，稻田）
 
 complicted and comemrcial  -  就像教会的繁杂的仪式 ，回到早期基督教简洁的 - balance the thing (not too comeral/complext, yet simple joy of angling) - alchemist - all kinds of chemist/oil/hemo(mainline) _ maybe just try bread first, then other facny later
+
+chrismas authorizy - dareel peck (hontest) for mainljine  but i like admin penning more ; want a sure answer, but no sure anwser for angler.
+
+
 
 
 
@@ -362,3 +384,5 @@ As we shall see, the difference is one of emphasis and execution rather than of 
 https://book.douban.com/subject/1443526/
 
 人类在一堕落时就同时失去他们的天真状态和对于自然万物的统治权。但是这两宗损失就是在此生中也是能够得到某种部分的补救的：前者要靠宗教和信仰，后者则靠技术和科学。
+
+**#32 Finger Pointing Away to the Moon**https://brucelee.com/podcast-blog/2017/2/8/32-finger-pointing-to-the-moon
