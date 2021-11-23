@@ -151,7 +151,7 @@ I have chosen the distance like 20-30 meters far away from the bank. Since my fo
 
 ## BAIT/Feeder
 
-
+有芦苇的 ，可能芦苇更好； 但是如果经常投喂，那么鱼的习惯性口味也会变好相应的变化。
 
 start with small, sillverbullet. (maggos is mostly time waorks bettern than non-live baits like corns bolleit.)
 
