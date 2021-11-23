@@ -145,17 +145,7 @@ If you're doing pole fishing, you know from probiliity perspective, the longer t
 
 So what's the fundentmtls here? cast out accuraccly . just pracice, you dont' need exact same spot,  some offset is perfectine fine - Remember it is not rock sicence.  For me, It didn't took me long to  be able to cast accurenty like 30 meter disnace with 1-3 meters radius offset.  I found it is extemly useful to record the moves of your casting in video. You could see your posture,movmenet and adjust accordingly which is much much viidely than texts.  
 
-
-
-
-
-
-
-there could be very fewwwww times  that  my dog-day's shooting percentage could higher than  Micachel Jordan or Kobe Byrant's worst day's(Lebron only got 8 points in nba finals...) . But the different
-
-
-
- Part of why they are doing so is cast long distance with accuracy is pretty challenging, practiceing this boring casting techniques seems pretty useless.
+I have chosen the distance like 20-30 meters far away from the bank. Since my focus is on fish's nocturnal behaviors, and night is quieter than day time, also based on what I know from above depth section,  my assumption is that big fish will be morely likely to go to shallow water that close to bank where it could have more food to feed.
 
 
 
