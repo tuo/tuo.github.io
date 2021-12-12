@@ -188,14 +188,13 @@ After picked the bait for feeding, next thing is about the feeding strategy. Obi
 
 图片（打窝中心）
 
-Basically we have the fish spot in the center, and feeding, i.e - corn- is evenly scattered around it forming a cricle with 3-5 meter radius. Loose chumming could possibly attract further fishes in a longer distance than precise baiting, as it could cover bigger and wider water area by its falvors and scents. Then we use pva bags or pva mesh to precisely bait right in the center this circle. Well this seems pretty ideal, first tricky part is how to get chumming like what hands do but in a far longer distance ? Slingshot、Spod、 pva bags/mesh、 gaint throwing sticks/baiting spoon even fishing bait boat couldn't do that easily.
+Basically we have the fish spot in the center, and feeding, i.e - corn- is evenly scattered around it forming a cricle with 3-5 meter radius. Loose chumming could possibly attract further fishes in a longer distance than precise baiting, as it could cover bigger and wider water area by its falvors and scents. Then we use pva bags or pva mesh to precisely bait right in the center this circle. Well this seems pretty ideal, the tricky part is how to get chumming like what hands can do but in a longer distance ? Slingshot、Spod、 pva bags/mesh、 gaint throwing sticks/baiting spoon even fishing bait boat couldn't do that easily.
 
 
+图片- 打窝的图片和视频
 
 
-
-
-
+In above picture and videos, that is a home-made spod with bottle and a lead. You could see that the corns inside the bottle will be detached from the lead/sinker benehter it as it is falling and is about to hit the water. Those dry corns has a lighter weigh comparing to the lead and will split out and be scattered into the water - inside a circle of 3-5 meters. The downside is the baiting inside it need to be light/dry and also it won't cast out very far away given its bad aerodynamic shape. But it fits my case - actually that's exactly my intention to not fish from a very long distance. Everything has its pros and cons, just like coding or system or archecture design, you need analyze the situation first to get a big picture,then weighs between different apporaches, prioritize and comes to a trade-off.
 
 
 
@@ -436,6 +435,12 @@ Fishing is the probablity game, very much like investing in stock market.
 
 Preparation(with efforts) + Randomneess = 
 
+
+保证鱼不容脱钩发力
+
+* 泄力 - 比如弹簧 或者橡皮筋 rubber band or fabric latex
+* 铅坠 - 活动 - 这样鱼不会那么会摆动
+* 缓冲 - 加多10米的线在岸上
 
 
 
