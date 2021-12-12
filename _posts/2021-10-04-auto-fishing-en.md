@@ -1,6 +1,7 @@
 ---
 rlayout: post
-title: "Auto Carp Fishing"
+title: "Auto Carp Fishing part one - fishing strategy"
+title: "Auto Carp Fishing part two - make it automatic"
 date: 2021-10-04 12:55:32 +0800
 published: false
 tags: fishing,life
@@ -43,6 +44,21 @@ Here is some image in the lake. For big fish, people are angling with 8.1 meters
 (钓鱼玉米图片)
 
 By talking with local anglers , they said the big fish is very hard to catch, usually they could caught one , bigger one after several days of waiting.  They need prefeed regulary with large mount of corn(fermented, homemade or bought ), extremely patient when fishing(long time of boring wait for the bite)、also extremely concentraction on the sign change of marker float . But once they got the bite, the feeling is so rewarding that previous efforts and boring wating is allll worthy it. Esp for pole fishing, picking up the rod、 jerking the line 、 pull it hard and setting the hook when you saw the marker float suddely dipped in then play/fight the fish, the feeling of tremors pass through the line,  adrenaline inside you,  that  is most exciting part of angling.
+
+
+---TODO：  这个地方有点多余，可以 举例 台钓目前的装备复杂 和 海竿国外笨重的推车帐篷 一堆乱七八糟 - 配件多而且贵 -  需要这样么？ 
+
+（对比台钓的装备和海欧鲤钓的状态- 独轮车） 
+
+太扯了 ，难道就没有办法 keep it simple ？ （小时候就只要一个cane pole, 一个dough 现在什么乱七八糟）
+
+![](/Users/tuo/Desktop/Screenshot 2021-12-10 at 11.38.28.png)
+台钓- 8.1米的都得上千- 一两千 - 最低也得300吧？
+
+台钓装备图（西天取经 - 娄底那个钓鱼） - 国外欧鲤钓图（独轮车，庄鹏，咖啡） 
+而且水库下去特别苦难（山，稻田）太复杂
+complicted and comemrcial  -  就像教会的繁杂的仪式 ，回到早期基督教简洁的 - balance the thing (not too comeral/complext, yet simple joy of angling) - alchemist - all kinds of chemist/oil/hemo(mainline) _ maybe just try bread first, then other facny later
+
 
 
 
@@ -293,13 +309,7 @@ you need to ensure thereis not much sngas around there; second you need ensure i
 
 
 台钓装备图（西天取经 - 娄底那个钓鱼） - 国外欧鲤钓图（独轮车，庄鹏，咖啡） 
-
-
-
-太复杂
-
-而且水库下去特别苦难（山，稻田）
-
+而且水库下去特别苦难（山，稻田）太复杂
 complicted and comemrcial  -  就像教会的繁杂的仪式 ，回到早期基督教简洁的 - balance the thing (not too comeral/complext, yet simple joy of angling) - alchemist - all kinds of chemist/oil/hemo(mainline) _ maybe just try bread first, then other facny later
 
 chrismas authorizy - dareel peck (hontest) for mainljine  but i like admin penning more ; want a sure answer, but no sure anwser for angler.
