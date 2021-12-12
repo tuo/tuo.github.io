@@ -181,7 +181,13 @@ Still you can buy those branded ones, no problem , but just dont trap yourself i
 
 And that comes with the second thought pattern. They shows you the empirical success without talking about context or primary affecting factors - how carp fish uses their eyesight. Like in some video they says pink colored boilies is bettern than yellow ones and it is helping them catch more fishes - go get the pinks. But they leave out the stats like what time and what kinda of water condition in terms of visibiliy like full of sediments or clear one - those relates to the eyesight. Just because i have this empircal success, you 're gonna have the same success if you copy my fishing strategy - hmmmm?
 
-I have a better but not-welcomed disclaimer to offer: `Do your homework and maybe try this?`
+To conclude, rice - from obeervation of rcie field ,  and feed corn (or maize) -  from local anglers,  is picked for the carp bait. Cleary I don't want wait for hours to get small fish bite , so the rice or pellets or small particles will be excluded. Since I'm gonna leave it under the water for 1-2 days, those bait shouldn't be easily dissovled. So big solid particle like feed corn is a perfect fit and most important part is it is juuuust so cheap. Buy some feed corn, soak it and boil it, if you'd like - not necessary- could try experiment by adding some molasses or alcohols like Baileys or Tsingtao beer or hemp oil later.(Who knows! I have some Turmeric&Curry&Coriander&Garam masala powder left from last time trying cook indian food, and I might add those to test out)
+
+
+
+
+
+
 
 
 

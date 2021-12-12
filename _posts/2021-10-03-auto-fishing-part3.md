@@ -484,7 +484,7 @@ MPU6050每隔2秒读一次数据，每隔1分钟发送一次HTTP请求，大概2
 
 > 223.104.210.120 - - [12/Dec/2021:16:36:14 +0800] "GET /api/dashboard?time=305340902&idx=542,collided=false HTTP/1.1" 301 169 "-" "SIMCOM_MODULE"
 
-poling every 1 seconds form switch; sending every 3 minutes gps signals - 2500mAh - support like 25-26 hours
+poling every 1 seconds form switch; se	nding every 3 minutes gps signals - 2500mAh - support like 25-26 hours
 
 
 ## 淘宝购买的部件清单
