@@ -184,6 +184,13 @@ And that comes with the second thought pattern. They shows you the empirical suc
 To conclude, rice - from obeervation of rcie field ,  and feed corn (or maize) -  from local anglers,  is picked as candidates for the carp bait. Cleary I don't want wait for hours to get small fish bite , so the rice or pellets or small particles will be excluded. Since I'm gonna leave it under the water for 1-2 days, those bait shouldn't be easily dissovled. So big solid particle like feed corn is a perfect fit and most important part is it is juuuust so cheap and so simple to prepare. Buy some feed corn, soak it and boil it, if you'd like - not necessary- could try experiment by adding some molasses or alcohols like Baileys or Tsingtao beer or hemp oil later.(Who knows! I have some Turmeric&Curry&Coriander&Garam masala powder left from last time trying cook indian food, and I might add those to test out)
 
 
+After picked the bait for feeding, next thing is about the feeding strategy. Obiviously most reasonable one is to take little bit time to just chumming some baits to same spot every day(like one week or one month) before you really get your rods out and start fishing. But is is impossible for me as I only got 4-7 days holiday break and I really dont' want spend too much time on the bank to fish - I only got one hour break each day to go outdoors for fishing(family first) - that's exactly why I come up with an idea about auto carp fishing. To make it up, I decide to choose one fishing spot and bait there instead of moving around the lake on the bank. Here is my two cents on how to effectively attract fish in big nature water by feeding/baiting:
+
+图片（打窝中心）
+
+Basically we have the fish spot in the center, and feeding, i.e - corn- is evenly scattered around it forming a cricle with 3-5 meter radius. Loose chumming could possibly attract further fishes in a longer distance than precise baiting, as it could cover bigger and wider water area by its falvors and scents. Then we use pva bags or pva mesh to precisely bait right in the center this circle. Well this seems pretty ideal, first tricky part is how to get chumming like what hands do but in a far longer distance ? Slingshot、Spod、 pva bags/mesh、 gaint throwing sticks/baiting spoon even fishing bait boat couldn't do that easily.
+
+
 
 
 
