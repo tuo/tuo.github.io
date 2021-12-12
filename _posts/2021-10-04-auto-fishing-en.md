@@ -154,10 +154,46 @@ Then what's some fundentmtls here? cast out accuraccly . just pracice, you dont'
 
 Casting out a couple of times  also help you get a great detail on the lakebed of fish spot  - is it gravel、rocky or weedy or silty ? Flat or sharp dropoff ?  How you gonna choose right rig strategy for it. Fish might get sacred and flee away by the sound of lead hitting the water surface, but some underwater video experiment shows those fish will slowly get back to search for the food. It is not a big deal in my case, as I have lots of time and patience for it while sitting cozily at the home wiith heating on and drinking my [Longjing/Dragon Well tea](https://en.wikipedia.org/wiki/Longjing_tea) - How wicked is that ! :)
 
-I have chosen the distance like 20-30 meters far away from the bank. Since my focus is on fish's nocturnal behaviors, and night is quieter than day time, also based on what I know from above depth section,  my assumption is that big fish will be morely likely to go to shallow water that close to bank where it could have more food to feed.
+I have chosen the distance like 20-30 meters far away from the bank. Since my focus is on fish's nocturnal behaviors, and night is quieter than day time, also based on what I know from above depth section, hence my assumption is that big fish will be morely likely to go to shallow water that close to bank where it could have more food to feed.
 
 
 ## BAIT/Feeder
+
+Basically how could we attract the fish into the swim? Well, the fish use mostly following senses to detect and indentify whehter something is good to eat or not : smell、taste、sight. Fish have a pretty good olfactory system to sense any dissolved substance in the water ,and they could recognize the smell of  amino acids and others having nutritional value. Chemoreception - They could taste, esp for carp, they sucks in a big mouth of silt and other detritus -  when they smell or feel via taste buds from their barbules, pectoral and pelvic fins of the eatable like bloodworm/corn etc - palatal taste organ in the mouth trap the food against the bottom of the mouth and expell non-food through gills(almost 90% got ejected). Also they have sensitive eyes, could see in lower light levels under the water and detetct changes in light and movement above the water - so camouflage like Rambo, anglers! However, their habit of feeding in the sediments on the bottom searching for small buried food items has required them to rely on highly developed senses of smell and taste.
+
+
+Generally the feeding habit of carp is most fixed and stable like routine - eat what is plentiful - but sometime they will break it or at least try to discover new food sources. It is a dynamic process. Mostly stable-better chance, sometimes dynamic - slim chance. Consider that the reservoir which has lots of rice field/reed/mulberry tree around it, then most likely the rice/reed/mulbeery will get you better chance to get a bite consistently comparing to other food like corn that fish never see it before. On the other hand, if you prefeeding the same spot with lots of corn regularly over a long period of time, the feeding behavior of fish might change accordingly. The carp is not one-track minded, they're open to adapt their feeding habit if it works.
+
+With those being said, it is always good to spend sometime beforehand looking at the surrounding of fishing location、talking to local angler to get a good idea about what kinda feeding/baiting feed are best for. Some anglers boast about the effectiveness of flavoured baits esp in those commercial videos - it is like the silver bullet for y'all. Touting how good the flavors or scents are with a vareity of chemicals from some alchemist 、how pink color of boilies  performs better than yellow - `buy me you stupid angler,then you will be as wicked as me`. There are two common thought patterns:
+
+* 1. If I feel good about it, then the fish must be feel the same like I feel, then the fish must feel good about too, hence go bite it.
+
+* 2. It works for me for a couple of times, then it must work for you too.
+
+The first one - induction - seems very strightforward , but with a short ponder,  shows it is flawed. The middle premise just couldn't stand. I saw lots of angler smell the bait, but come on, you need also taste the bait too, but no one did that :)  If the bait smells good, then they will think it could attract more fish than those which smells bad. Even though the way that those modlecurles trasmitting throught air is different from those tramsinting thought water, let alone different receptors betwen human being and fish, adding scents and flavors does attract the fish. but the question here is how to measure its effectiveness.`sola dosis facit venenum` - how much is approrate to be defined as a natural flvor and scent level for the fish. It has some range, isn't ?
+Is it always "the more the better"? to how much it could just backfire?
+Be be fair, those question are kinda difficult to find answers(or proably couldn't) and demand those "Charismatic leadership" 、 so-called carp fishing masters in the promoting videos from commerical fish tackle brands to put a disclaimer at the beginning - saying *"I'm not 100% sure about whether this fancy bait will work  - so you could buy this expensive one but it didn't work at all or even getting worse - and I just have no idea"*  - is kinda picky. But given human kinda are just natureally likes imitating as beginners, and nothging is more straightforwarnd、 intuitve and easier to reach  widely like videos , they're likly to copy what those teachter does , i.e. buy whatever tackles those masters are using and master's tackles and equiqments are damn pricy! They want to get their `hello world` running as soon as possible to get thrills, hey nobody is gonna read pages of document to get exact details of it - and I have no problem with that people are making money out of it.
+
+Either you dont' put up your effort and do your homework (expierment - retrospection/adjustment -expierment) and you pay with high price, or you pay with cheaper price, then put up your effort and do your homework. the second one in longer term is way more feasible/possible to have all planets aligned and hit the jackpot. Because those commerical baiting are just general abstractons by leaving out specfical details and contexts, you have to try different ones to try to match the context in your individual case: Up -> Bottom vs Bottom -> Up.
+
+Still you can buy those branded ones, no problem , but just dont trap yourself into the mindset that you need to buy the most fancy and most expensive ones to get most bites. Fishing has a context, each is different. And context has so many factors, that baiting is just one of them and no one factor is over others by a crazy margin - if yes, then it only means it is just a snapshot. 
+
+And that comes with the second thought pattern. They shows you the empirical success without talking about context or primary affecting factors - how carp fish uses their eyesight. Like in some video they says pink colored boilies is bettern than yellow ones and it is helping them catch more fishes - go get the pinks. But they leave out the stats like what time and what kinda of water condition in terms of visibiliy like full of sediments or clear one - those relates to the eyesight. Just because i have this empircal success, you 're gonna have the same success if you copy my fishing strategy - hmmmm?
+
+I have a better disclaimer to offer: `Do your homework and maybe try this?`
+
+
+
+
+
+
+
+
+
+premise is ?induction
+
+
+Boast
 
 studying carp habits and behaviours
 
@@ -404,3 +440,6 @@ https://book.douban.com/subject/1443526/
 
 ESP8266 Deep Sleep with Arduino IDE (NodeMCU)
 https://randomnerdtutorials.com/esp8266-deep-sleep-with-arduino-ide/
+
+https://www.carpology.net/article/features/the-truth-about-a-carps-sense-of-smell/
+http://www.carp-fishing-tactics.com/science-carp-senses.html
