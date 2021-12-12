@@ -29,7 +29,7 @@ Why?
 
 My angling background:  pole fishing but not that much expierence, no ice in winter
 
-in china, pole fish is the prevailing fish style, like 90% in my hometown. people like the feeling of fish's pwoer transmiting via line /rod all the way to the hand.(tremors). It feels like a monster on your pole and feel of fighting with the fish is so wicked and satisfying when I got a grass carp  like 7-8 lb using pole .
+in china, pole fish is the prevailing fish style, like 90% in my hometown. people like the feeling of fish's pwoer transmiting via line /rod all the way to the hand.(tremors). It feels like a monster on your pole and feel of fighting with the fish is so wicked and satisfying when I got a grass carp  like 7-8 lb using 5.4 meters long pole and sweet corn.
 
 图片我着的鱼(脚盘）
 
@@ -441,6 +441,7 @@ Preparation(with efforts) + Randomneess =
 * 泄力 - 比如弹簧 或者橡皮筋 rubber band or fabric latex
 * 铅坠 - 活动 - 这样鱼不会那么会摆动
 * 缓冲 - 加多10米的线在岸上
+* open water, less snags or structure (rock formations/too much weedy)
 
 
 
