@@ -474,6 +474,19 @@ MPU6050每隔2秒读一次数据，每隔1分钟发送一次HTTP请求，大概2
 
 不过这些都可以在后面慢慢实验，在过程中不断修正，一些工具比如胶水、扭蛋球等等都在路上，后面我也会保持这篇文章的及时更新。
 
+
+## 更新 后续一
+
+用触碰式开关YL-99替代mpu6050六轴感应- 使用橡皮筋增加缓冲，可以延长碰撞的时间，
+
+
+> 223.104.210.120 - - [11/Dec/2021:14:52:07 +0800] "GET /api/dashboard?time=3878805&idx=init%20colided:false HTTP/1.1" 301 169 "-" "SIMCOM_MODULE"
+
+> 223.104.210.120 - - [12/Dec/2021:16:36:14 +0800] "GET /api/dashboard?time=305340902&idx=542,collided=false HTTP/1.1" 301 169 "-" "SIMCOM_MODULE"
+
+poling every 1 seconds form switch; sending every 3 minutes gps signals - 2500mAh - support like 25-26 hours
+
+
 ## 淘宝购买的部件清单
 
 没有找到所有的，但是差不多都在这了，总体价格最后没多少钱，基本上都是性价比不错的,PDD里买的物件的质量比我想象的好 :)

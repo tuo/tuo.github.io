@@ -442,3 +442,5 @@ https://randomnerdtutorials.com/esp8266-deep-sleep-with-arduino-ide/
 
 https://www.carpology.net/article/features/the-truth-about-a-carps-sense-of-smell/
 http://www.carp-fishing-tactics.com/science-carp-senses.html
+
+https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing
