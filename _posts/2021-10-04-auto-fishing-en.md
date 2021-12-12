@@ -29,9 +29,10 @@ Why?
 
 My angling background:  pole fishing but not that much expierence, no ice in winter
 
-in china, pole fish is the prevailing fish style. people like the feeling of fish's pwoer transmiting via line /rod all the way to the hand.(tremors). The pole they 're using from 3.6 to 10 meters, if you go small fish like Crucian carp.
+in china, pole fish is the prevailing fish style, like 90% in my hometown. people like the feeling of fish's pwoer transmiting via line /rod all the way to the hand.(tremors). It feels like a monster on your pole and feel of fighting with the fish is so wicked and satisfying when I got a grass carp  like 7-8 lb using pole .
 
-钓台钓椅伞
+图片我着的鱼(脚盘）
+
 
 reservoirs - The lake is very big like hundreds of acres. no one is feeding those fish, the fish is pretty much on its own, so the density is kinda low, not like high-stocked recreational fishery or syndicate. The local fishery resource in China, in general, is pretty bad. Some people uses all kinds of destructive fishing practices to catch the fish - e.g - electro、net of mesh with small hole、firecrackers. In nature water, the fishery resource is mostly damaged to a extent that fish that with weight over 1.5Kg ~ 2.5KG could be called - BIG size fish. There are some fish with weight over 20kg - 50kg (last time, one of my friend caught a carp fish with 12KG using pole rod in reservoir), but that's pretty rare. The type of carp here is almost all grass/common with super super rarely you could get a mirror, let alone any black/scaly carp type.
 
@@ -104,9 +105,9 @@ It is always good to draw some inspiration from existing carp fishing strategys 
 
 **Swim/Location**: The first thing you need is to analyze the terrian of where you fish - read water. Either take a walk aroud the water area, or searching its google map statelite image, or asking from local angler, just try figure out the general terrin of water you're gonna fish. No rush to drop you rods. For picking the right swim, it is always good to have direct eye sight of fish rollover or buble of stiring mud. And most of time, you want to stay away from those with high angling pressures from the bank. In winter, generaly you want your fish spot is closing to snags or something structure(weed beds、fallen trees 、overhanging vegetation or rocks) that provide safer places to hide for a school of fish instead of open water.
 
-(here is the lake genenral shape )
+(here is the lake genenral shape ) 标识点位 钓点
 
-The left side is the deep water area with mountains sliding into water very sharply, that right side is kinda shallow  full of debris left from submerged rice field. Most poeple will pick the left side with deeper open-water and less snags but rocky, and I barely see anyone fishing on the rice field side.  But I decided to go from the rice fields, the reasons are:  1. Even though it has snags like debris of rotten rice plants,  it doesn't do that much damage comparing to rocky strucuture , considering it is unmanned and unattended. When fish got the bite, felt the pain, it is gonna drag the line to whereever it felt safe - which mostly is full of snags or deep water so to say. A rocky structure would be much easier to cut the line due to its sharpness than some softy rotten debris could.  2. Helicopter or chod rig could help lift up the hook from lake bed and present nicely without being buried in the debris  -  interestinly I have never seen anyone of pole fish use chod rig or sort of before.
+The left side is the deep water area with mountains sliding into water very sharply, that right side is kinda shallow  full of debris left from submerged rice field. Most poeple will pick the left side with deeper open-water and less snags but rocky at the margin, and I barely see anyone fishing on the rice field side.  But I decided to go from the rice fields, the reasons are:  1. Even though it has snags like debris of rotten rice plants,  it doesn't do that much damage comparing to rocky strucuture , considering it is unmanned and unattended. When fish got the bite, felt the pain, it is gonna drag the line to whereever it felt safe - which mostly is full of snags or deep water so to say. A rocky structure would be much easier to cut the line due to its sharpness than some softy rotten debris could.  2. Helicopter or chod rig could help lift up the hook from lake bed and present nicely without being buried in the debris  -  interestinly I have never seen anyone of pole fish use chod rig or sort of before.
 
 **Depth**: Another key is to select appropriate water depth for fishing spot. Often we've heard people saying: "The deeper the better", for deep water could hide big size fish. Also some says " You should pick margins - where shallow water meets deeper water - a sharp drop-off or deep channel". Some says "in winter/autumn, go for deep, in spring&summer, go for shallow". This is just very confusing. After talked with some local angler with different level's angling experience, pretty much everyone gives  different opinons - there is just no consensus.  Here is a quick comparison from what they say:
 
@@ -129,7 +130,7 @@ That just shows how we project what we think on behalf of the fish. What you thi
 
 From my experience and ponder-over, sometimes , as angler, maybe we need shift our perspective from chasing after certaintiy(conventional wisdom) to getting along with probability and statistics - i.e - uncertaninty. I will elaborate more on this in following secions.
 
-However shifted to thinking in terms of probabiliy and statistics, doesn't mean  you dont' wahter you want to or just being clueless like headless chicken or dont need any logic and reasoning. Well, quite to the contrary, you need do your homework(If there is one silverbullet) like what Joel Greenblat said in [<<The Little Book That Beats the Market>>](https://www.amazon.com/Little-Book-Still-Beats-Market/dp/0470624159) -  it requires careful design the experiment based on as much as possibly pre-collected data at your hand, welly and thourlghy analyzed , then took a reasonable guess. (ps: well, you just angle for first couple of times,  you might got the beginner's luck - you could laught at me - but hey bloke - your sample size is too small...)
+However shifted to thinking in terms of probabiliy and statistics, doesn't mean  you dont' wahter you want to or just being clueless like headless chicken or dont need any logic and reasoning. Well, quite to the contrary, you need do your homework(If there is one silverbullet) like what Joel Greenblat said in [<<The Little Book That Beats the Market>>](https://www.amazon.com/Little-Book-Still-Beats-Market/dp/0470624159) -  it requires careful design the experiment based on as much as possibly pre-collected data at your hand, welly and thourlghy analyzed , then took a reasonable guess, apply it via some trial and error. (ps: well, you just angle for first couple of times,  you might got the beginner's luck - you could laught at me - but hey bloke - your sample size is too small...)
 
 In my case, the depth of the mountain side is like 5-6 meters deep from about 4-5 meters close to bank. It could even deeper farther way. On the other side , the shallow side, is like 2-3 meters deep from 4-5 meters - since I only do pole fish  and never use surf rod bebfore. I have no idea bout about what's depth of 20-30 - 50 meters away. Given what I know, it looks 3-8 meters depth could be a good ballkpark for winter from shallow side to try out first.
 
@@ -143,20 +144,23 @@ Along the previsouly mentioned old saying "The deeper the better", there is anot
 
 If you're doing pole fishing, you know from probiliity perspective, the longer the rod and line, the higher chance you could catch big size fish. Why? because often the closer to bank, typically the shallower the water would be,  espec in day time, more noisy it would be - which is not a safe place for big fish(Carp is really smarter and more spooky than what you think they might be) to hide. Even so, veteran anglers still would cast out a couple of rods to test depth around the target fish spot -left,right, front or back -  to get a better idea about the lakebed terrain. This is very nature for pole fishing since it has marker floating and it is quite easy to test out the water depth from disntance of 2 meter - 10 meters. But for surf rod fishing it is little bit tricky, for it doesn't have a marker floating buit-in.  
 
-I saw lots of surf rod anglers just rush to start fishing - cast out extremely long distance without much thought as soon as they arrived at the lake, and spend lots of time waiting on the bank, yet they didn't wanna just spend a few casts to test out the water depth and lake bed terrain of fish spot beforehand. They just go there, mount the hookbait and cast out whereever they want, then just wait like "I'm done with work on my side, it is the fish - your turn to bite".  Yes, they still coud get a bite from fish and caught it , no doubt.  But hmmm, lets take another proablbity game -  basetketball as exmaple , the goal of shooting  is to get basketball throught he hoop and score. Well think about it is the last shot - a possible buzzbeater,  there are two game plans from coache - one is Micachel Jordan or Kobe Byrant is taking the shot , if they got the cold hands(look : self-proclaimed GOAT [🐑](https://emojipedia.org/ewe/)Lebron James only got 8 points in the nba finals...) and it is highly possible for them to miss it; another is a nobody like me taking the shot, if I got the hot hand(every dog has its day), I might hit it.  But nonobyd would think I'm better than Micachel or Kobe, because they could do it consistently and with solid fundamentals of pyshican and mental - some of them is from hard-work training and desire to strieve for greatness and push theirself ot the limit . 
+It is not uncommon for some surf rod anglers just to rush to start fishing - cast out extremely long distance without much thought as soon as they arrived at the lake, and spend lots of time waiting on the bank, yet they didn't wanna just spend a few casts to test out the water depth and lake bed terrain of fish spot beforehand. They just go there, mount the hookbait and cast out whereever they want, then just wait like "I'm done with work on my side, it is the fish - your turn to bite".  Yes, they still coud get a bite from fish and caught it , no doubt.  But hmmm, lets take another proablbity game -  basetketball as exmaple , the goal of shooting  is to get basketball throught he hoop and score. Well think about it is the last shot - a possible buzzbeater,  there are two game plans from coache - one is Micachel Jordan or Kobe Byrant is taking the shot , if they got the cold hands(look : self-proclaimed GOAT [🐑](https://emojipedia.org/ewe/)Lebron James only got 8 points in the nba finals...) and it is highly possible for them to miss it; another is a nobody like me taking the shot, if I got the hot hand(every dog has its day), I might hit it.  But nonobyd would think I'm better than Micachel or Kobe, because they could do it consistently and with solid fundamentals of pyshican and mental - some of them is from hard-work training and desire to strieve for greatness and push theirself ot the limit . 
 
 So just because it is a paobolity game full of randoms, it is aslo eactly why we need build our firmly well-sturcture reasonging from our experincen and observation during prepration(Cephas - lay the groundwork), setup open/continuous feedback loop during process(mieache jordan develop from early days altehic dunker -air jordan -  into an ellite fade-away jumper in his late years)，lower the expectation for the outcome - Let the chips fall where they may. And be aware of that temptation and emotion of yourself, try to know yourself better.
 
 (JOE BEMIDE TRUSTYH TE PROCESS) https://www.google.com.hk/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcER-eH6iMjI&psig=AOvVaw2EF8AfMqIP7LI9An4dxxjW&ust=1637812183129000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCLCkof-LsPQCFQAAAAAdAAAAABAi
 
-Then what's the fundentmtls here? cast out accuraccly . just pracice, you dont' need exact same spot,  some offset is perfectine fine - Remember it is not rock sicence.  For me, It didn't took me long to  be able to cast accurenty like 30 meter disnace with 1-3 meters radius offset.  I found it is extemly useful to record the moves of your casting in video. You could see your posture,movmenet and adjust accordingly - [The Dunning-Kruger effect](https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740) - what you think of yourself is probably not what you really are.
+Then what's some fundentmtls here? cast out accuraccly . just pracice, you dont' need exact same spot,  some offset is perfectine fine - Remember it is not rock sicence.  For me, It didn't took me long to  be able to cast accurenty like 30 meter disnace with 1-3 meters radius in that vicinity.  I found it is extemly useful to record the moves of your casting in video. You could see your posture,movmenet and adjust accordingly - [The Dunning-Kruger effect](https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740) - what you think of yourself is probably not what you really are.
 
-Casting out a couple of times  also help you get a great detail on the lakebed of fish spot  - is it gravel、rocky or weedy ? Flat or sharp dropoff ?  How you gonna choose right rig strategy for it. Fish might get sacred and flee away by the sound of lead hitting the water surface, but some underwater video experiment shows those fish will slowly get back to search for the food. It is not a big deal in my case, as I have lots of time and patience for it while sitting cozily at the home and drinking my [Longjing/Dragon Well tea](https://en.wikipedia.org/wiki/Longjing_tea) - How wicked is that ! :)
+Casting out a couple of times  also help you get a great detail on the lakebed of fish spot  - is it gravel、rocky or weedy or silty ? Flat or sharp dropoff ?  How you gonna choose right rig strategy for it. Fish might get sacred and flee away by the sound of lead hitting the water surface, but some underwater video experiment shows those fish will slowly get back to search for the food. It is not a big deal in my case, as I have lots of time and patience for it while sitting cozily at the home wiith heating on and drinking my [Longjing/Dragon Well tea](https://en.wikipedia.org/wiki/Longjing_tea) - How wicked is that ! :)
 
 I have chosen the distance like 20-30 meters far away from the bank. Since my focus is on fish's nocturnal behaviors, and night is quieter than day time, also based on what I know from above depth section,  my assumption is that big fish will be morely likely to go to shallow water that close to bank where it could have more food to feed.
 
 
 ## BAIT/Feeder
+
+studying carp habits and behaviours
+
 Attract fish to your swim - 
 
 method feeder or feeder bait cage
@@ -167,7 +171,7 @@ start with small, sillverbullet. (maggos is mostly time waorks bettern than non-
 
 LINE clip - not need, baut encomoy it his alreaby pprohibiti me to cast  farther.
 
-
+Many people treat it like some sort of beauty tip that they learned out of a magazine.
 
 be water - lixiaolong
 
@@ -204,6 +208,9 @@ maggot 冬天 在小池塘了， 那么肯定更有用 效果更好。
 
 
 Chod rig 为什么国内不用， 人会吃塑料么？半夜这么冷， 鱼会吃么？ 深水大鱼
+
+
+装备太复杂了 ， 显示水库图片和装备图片 - 
 
 foundmentatls - casting out accurely 
 
@@ -394,3 +401,6 @@ https://book.douban.com/subject/1443526/
 人类在一堕落时就同时失去他们的天真状态和对于自然万物的统治权。但是这两宗损失就是在此生中也是能够得到某种部分的补救的：前者要靠宗教和信仰，后者则靠技术和科学。
 
 **#32 Finger Pointing Away to the Moon**https://brucelee.com/podcast-blog/2017/2/8/32-finger-pointing-to-the-moon
+
+ESP8266 Deep Sleep with Arduino IDE (NodeMCU)
+https://randomnerdtutorials.com/esp8266-deep-sleep-with-arduino-ide/
