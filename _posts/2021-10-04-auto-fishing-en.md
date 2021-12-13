@@ -168,7 +168,7 @@ So just because it is a paobolity game full of randoms, it is aslo eactly why we
 
 Then what's some fundentmtls here? cast out accuraccly . just pracice, you dont' need exact same spot,  some offset is perfectine fine - Remember it is not rock sicence.  For me, It didn't took me long to  be able to cast accurenty like 30 meter disnace with 1-3 meters radius in that vicinity.  I found it is extemly useful to record the moves of your casting in video. You could see your posture,movmenet and adjust accordingly - [The Dunning-Kruger effect](https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740) - what you think of yourself is probably not what you really are.
 
-Casting out a couple of times  also help you get a great detail on the lakebed of fish spot  - is it gravel、rocky or weedy or silty ? Flat or sharp dropoff ?  How you gonna choose right rig strategy for it. Fish might get sacred and flee away by the sound of lead hitting the water surface, but some underwater video experiment shows those fish will slowly get back to search for the food. It is not a big deal in my case, as I have lots of time and patience for it while sitting cozily at the home wiith heating on and drinking my [Longjing/Dragon Well tea](https://en.wikipedia.org/wiki/Longjing_tea) - How wicked is that ! :)
+Casting out a couple of times  also help you get a great detail on the lakebed of fish spot  - is it gravel、rocky or weedy or silty ? Flat or sharp dropoff ?  How you gonna choose right rig strategy for it. Fish might get sacred and flee away by the sound of lead hitting the water surface, but some underwater video experiment shows those fish will slowly get back to search for the food. It is not a big deal in my case, as I have lots of time and patience for it while chilling cozily out at home with heating on and drinking my Longjing/Dragon Well tea - vibe 😎🤞 :)
 
 I have chosen the distance like 20-30 meters far away from the bank. Since my focus is on fish's nocturnal behaviors, and night is quieter than day time, also based on what I know from above depth section, hence my assumption is that big fish will be morely likely to go to shallow water that close to bank where it could have more food to feed.
 
@@ -213,12 +213,24 @@ Basically we have the fish spot in the center, and feeding, i.e - corn- is evenl
 In above picture and videos, that is a home-made spod with bottle and a lead. You could see that the corns inside the bottle will be detached from the lead/sinker benehter it as it is falling and is about to hit the water. Those dry corns has a lighter weigh comparing to the lead and will split out and be scattered into the water - inside a circle of 3-5 meters. The downside is the baiting inside it need to be light/dry and also it won't cast out very far away given its bad aerodynamic shape. But it fits my case - actually that's exactly my intention to not fish from a very long distance. Everything has its pros and cons, just like coding or system or archecture design, you need analyze the situation first to get a big picture,then weighs between different apporaches, prioritize and comes to a trade-off.
 
 
-### --------
+## Rigs 
+
+A quick recap on the fish tackles : 2.7 meters long rod、braided line with size of 8 and 8 strands、a slim bobber float(just for testing depth)、80g~2.8oz sinker、 hair rig of big size 4 circle hook with pop-ups buoyant bait、smaller size 7 Izu Iseni hook for bottom bait with feed corn. To be honest, I have some doubt on using fake bait like plastic corn as bait. Only middle part of China in Sichuan and Chongqing use similar fake bait, but not my hometown or province - like never. Most people here rarely use any kinda pop-ups bait or circle hook, instead they are inclined to use bottom bait with iseni hook for big-size fish. For people fishing with pole, they only use maximum two hooks for each. However for people fishing with rod and reel, they just use a fewww hooks - chinese way of understatement. Let's take a look at two most frequently used hook patterns:
+
+ 串钩 or 爆炸钩 图片
+ ps I guess in us/uk it is called something like gang/party hooks? [(Christmas party in Downing Street while London was in strict lockdown)](https://www.youtube.com/watch?v=RfTsLjdb3Mc&ab_channel=CNN) :) 
+
+ 
+The logic is pretty straightforward: more hooks means more bites. Despite of the so-claimed moral superiority of using fewer hooks from some people - as long as it doesn't voilate the local regulations, I don't see any problem with that. On the flip side of more hooks is that it means hooks has higher chances getting trapped in snags or structure forms like rocks/reefs/weed when angler cast out or play the fish. If you use it in open water which has less snags and have a pretty good understanding on the condition of the lakebed, then go for it. But I have mountain reserovir with lots of snags like rocks and weed, plus non-attended, so 
+
+
+
+ 
+ 
+
+
 
 start 
-
-
-
 
 
 premise is ?induction
@@ -477,3 +489,7 @@ https://www.carpology.net/article/features/the-truth-about-a-carps-sense-of-smel
 http://www.carp-fishing-tactics.com/science-carp-senses.html
 
 https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing
+
+Psychology of Human Misjudgment https://fs.blog/great-talks/psychology-human-misjudgment/
+
+https://carphideout.co.uk/carp-rigs/
