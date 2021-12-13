@@ -219,13 +219,13 @@ A quick recap on the fish tackles : 2.7 meters long rod、braided line with size
 
  串钩 or 爆炸钩 图片
  ps I guess in us/uk it is called something like gang/party hooks? [(Christmas party in Downing Street while London was in strict lockdown)](https://www.youtube.com/watch?v=RfTsLjdb3Mc&ab_channel=CNN) :) 
-
  
-The logic is pretty straightforward: more hooks means more bites. Despite of the so-claimed moral superiority of using fewer hooks from some people - as long as it doesn't voilate the local regulations, I don't see any problem with that. On the flip side of more hooks is that it means hooks has higher chances getting trapped in snags or structure forms like rocks/reefs/weed when angler cast out or play the fish. If you use it in open water which has less snags and have a pretty good understanding on the condition of the lakebed, then go for it. But I have mountain reserovir with lots of snags like rocks and weed, plus non-attended, so 
+The logic is pretty straightforward: more hooks more bites. Despite of the so-claimed moral superiority of using fewer hooks from some people - as long as it doesn't voilate the local regulations, I don't see any problem with that. On the flip side of more hooks is that it means hooks has higher chances getting trapped in snags or structure forms like rocks/reefs/weed when angler cast out or play the fish. If you use it in open water which has less snags and have a pretty good understanding on the condition of the lakebed, then go for it. But I have mountain reserovir with lots of snags like rocks and weed, plus a design of non-attended angling, so multi-hooks seems not a good option. Ideally one hook but as I said, I never use pop-up bait with fake corn before , so I want to do a experiment and compare it with common bottom bait with feed corn side by side.
 
+图片 pop-up rig 和 pvg bag里面的钩子
 
+Apart from adding more hooks to increase the odds, adding more rods could get higher chance - 3 rods looks good.
 
- 
  
 
 
