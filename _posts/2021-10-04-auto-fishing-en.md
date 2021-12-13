@@ -215,18 +215,22 @@ In above picture and videos, that is a home-made spod with bottle and a lead. Yo
 
 ## Rigs 
 
-A quick recap on the fish tackles : 2.7 meters long rod、braided line with size of 8 and 8 strands、a slim bobber float(just for testing depth)、80g~2.8oz sinker、 hair rig of big size 4 circle hook with pop-ups buoyant bait、smaller size 7 Izu Iseni hook for bottom bait with feed corn. To be honest, I have some doubt on using fake bait like plastic corn as bait. Only middle part of China in Sichuan and Chongqing use similar fake bait, but not my hometown or province - like never. Most people here rarely use any kinda pop-ups bait or circle hook, instead they are inclined to use bottom bait with iseni hook for big-size fish. For people fishing with pole, they only use maximum two hooks for each. However for people fishing with rod and reel, they just use a fewww hooks - chinese way of understatement. Let's take a look at two most frequently used hook patterns:
+A quick recap on the fish tackles : 2.7 meters long rod、braided line with size of 8 and 8 strands、a slim bobber float(just for testing depth)、80g~2.8oz sinker、 hair rig of big size 4 circle hook with pop-ups buoyant bait、smaller size 7 Izu Iseni hook for bottom bait with feed corn. To be honest, I have some doubt on using fake bait like plastic corn as bait.
+
+Only middle part of China in Sichuan and Chongqing use similar fake bait, but not my hometown or province - like never. Most people here rarely use any kinda pop-ups bait or circle hook, instead they are inclined to use bottom bait with iseni hook for big-size fish. For people fishing with pole, they only use maximum two hooks for each. However for people fishing with rod and reel, they just use a fewww hooks - chinese way of understatement. Let's take a look at two most frequently used hook patterns:
 
  串钩 or 爆炸钩 图片
- ps I guess in us/uk it is called something like gang/party hooks? [(Christmas party in Downing Street while London was in strict lockdown)](https://www.youtube.com/watch?v=RfTsLjdb3Mc&ab_channel=CNN) :) 
+ ps1: I guess in us/uk it is called something like gang/party hooks? [(Christmas party in Downing Street while London was in strict lockdown)](https://www.youtube.com/watch?v=RfTsLjdb3Mc&ab_channel=CNN) :) 
+ ps2: update - later I found it is called sth like flapper or clipped down rig for sea fishing as it is illegal to have more 2 hooks for freshwater in uk?
  
-The logic is pretty straightforward: more hooks more bites. Despite of the so-claimed moral superiority of using fewer hooks from some people - as long as it doesn't voilate the local regulations, I don't see any problem with that. On the flip side of more hooks is that it means hooks has higher chances getting trapped in snags or structure forms like rocks/reefs/weed when angler cast out or play the fish. If you use it in open water which has less snags and have a pretty good understanding on the condition of the lakebed, then go for it. But I have mountain reserovir with lots of snags like rocks and weed, plus a design of non-attended angling, so multi-hooks seems not a good option. Ideally one hook but as I said, I never use pop-up bait with fake corn before , so I want to do a experiment and compare it with common bottom bait with feed corn side by side.
+The logic is pretty straightforward: more hooks more bites. Despite of the so-claimed moral superiority of using fewer hooks from some people - as long as it doesn't voilate the local regulations, I don't see any problem with that. On the flip side of more hooks is that it means hooks has higher chances getting trapped in snags or structure forms like rocks/reefs/weed when angler cast out or play the fish. If you use it in open water which has less snags and have a pretty good understanding on the condition of the lakebed, then go for it. But I have mountain reserovir with lots of snags like rocks and weed, plus a design of non-attended angling, so multi-hooks seems not a good option. Ideally one hook but as I said, I never use pop-up bait with fake corn before , so I want to do a experiment and compare it with common bottom bait with feed corn side by side. Even though techniquly fish is not `eating` the fake plastic corn but more like `chewing` - they just try out the possible food through their mouth and expell it out, I'm still inquisitive to just, by myself, to catch some fishes in order to verify this popular saying:  "If I dont' eat plastics, how come fish will eat it ?"
+
 
 图片 pop-up rig 和 pvg bag里面的钩子
 
-Apart from adding more hooks to increase the odds, adding more rods could get higher chance - 3 rods looks good.
+Apart from adding more hooks to increase the odds, adding more rods could also get greater chance - 3 rods looks good.
 
- 
+---
 
 
 
