@@ -15,88 +15,54 @@ Why?
 
 * winter - cold freezing ?(bivvy not even good enough)
 * not that much time for day session ? (need work and away from big city)
-* second part of night (00:00 - 07:00)  - what's the behzvior carp ? any bite ? how likely ? what's temperature curve? , too dangerous and cold to sleep outside （传统观念：都说冬天鱼冷些动物，新城代谢低，那么下半夜了，温度的低的时候，会不会有草鲤鱼上钩了？）
+* second half of the night (00:00 - 07:00)  - what's the behzvior carp ? any bite ? how likely ? what's temperature curve? , too dangerous and cold to sleep outside （传统观念：都说冬天鱼冷些动物，新城代谢低，那么下半夜了，温度的低的时候，会不会有草鲤鱼上钩了？）
 * free water ? big lake nature water  ( not small pond or paid fishery or syndicate)
 * test complext bait or chemicals ? (magots for winter, boillet for summer ?) - corn (nothhing more, just corn)
 
 
-
-铅坠改造- 托底
-窝料 - 散窝 
-一个触底，一个浮起（泡沫） 水溶袋的问题， 水溶网不融化
-芝麻油+玉米粉 替代
-距离不用太远 
-没有人测试从24：00-0：06的情况
-
 My angling background:  pole fishing but not that much expierence, no ice in winter
 
-in china, pole fish is the prevailing fish style, like 90% in my hometown. people like the feeling of fish's pwoer transmiting via line /rod all the way to the hand.(tremors). It feels like a monster on your pole and feel of fighting with the fish is so wicked and satisfying when I got a grass carp  like 7-8 lb using 5.4 meters long pole and sweet corn.
+in china, pole fish is the prevailing fish style. People like the feeling of fish's pwoer transmiting via line /rod all the way to the hand.(tremors). It is like a monster on your pole and feel of fighting with the fish is so wicked and satisfying when I got a grass carp  like 7-8 lb using 5.4 meters long pole and sweet corn.
 
 图片我着的鱼(脚盘）
 
 
 reservoirs - The lake is very big like hundreds of acres. no one is feeding those fish, the fish is pretty much on its own, so the density is kinda low, not like high-stocked recreational fishery or syndicate. The local fishery resource in China, in general, is pretty bad. Some people uses all kinds of destructive fishing practices to catch the fish - e.g - electro、net of mesh with small hole、firecrackers. In nature water, the fishery resource is mostly damaged to a extent that fish that with weight over 1.5Kg ~ 2.5KG could be called - BIG size fish. There are some fish with weight over 20kg - 50kg (last time, one of my friend caught a carp fish with 12KG using pole rod in reservoir), but that's pretty rare. The type of carp here is almost all grass/common with super super rarely you could get a mirror, let alone any black/scaly carp type.
 
-(水库图片)
+(水库图片) 手写
 
 Here is some image in the lake. For big fish, people are angling with 8.1 meters - 10 meter long pole rod, prefeed/bait with fermented corns like every day in the same swim of the lake, then fish at the that day. For samll fish, 2.7m, 3.6m, 4.5m is pretty common. They try to fish further away from the bank at the side closing to the mountains - which is much deeper comparing to the opposite shallow side. 
 
 (钓鱼玉米图片)
 
-By talking with local anglers , they said the big fish is very hard to catch, usually they could caught one , bigger one after several days of waiting.  They need prefeed regulary with large mount of corn(fermented, homemade or bought ), extremely patient when fishing(long time of boring wait for the bite)、also extremely concentraction on the sign change of marker float . But once they got the bite, the feeling is so rewarding that previous efforts and boring wating is allll worthy it. Esp for pole fishing, picking up the rod、 jerking the line 、 pull it hard and setting the hook when you saw the marker float suddely dipped in then play/fight the fish, the feeling of tremors pass through the line,  adrenaline inside you,  that  is most exciting part of angling.
+By talking with local anglers , they said the big fish is very hard to catch, usually they could caught one , bigger one after several days of waiting.  They need prefeed regulary with large mount of corn(fermented, homemade or bought ), extremely patient when fishing(long time of boring wait for the bite)、also extremely concentraction on the bobble floater. But once they got the bite, the feeling is so rewarding that previous efforts and boring wating is allll worthy it. Esp for pole fishing, picking up the rod、 jerking the line 、 pull it hard and setting the hook when you saw the marker float suddely dipped in then play/fight the fish, the feeling of tremors pass through the line,  adrenaline inside you,  that  is most exciting part of angling.
 
+However fishing with rods and reels has a great adavnage for big size fish over fishing with pole. It could cast out a longer distance and possibly reach out to more fishes. Another important advice from veteran anglers is that you better pick a quiet time to fish as they are spooky and sensitive to any noise from the bank.
 
----TODO：  这个地方有点多余，可以 举例 台钓目前的装备复杂 和 海竿国外笨重的推车帐篷 一堆乱七八糟 - 配件多而且贵 -  需要这样么？ 
+I still remember when I was a kid, I use self-made bamboo pole and earthworm that digged out of my backyard to catch fish which is pretty effective and simple. Nowdays it is jaw-dropping to know that fishing gears and equiments are getting so complicted and segemnted,coming with so many variations. Take a look at the pole fish gears in China and correspondings in West:
 
-（对比台钓的装备和海欧鲤钓的状态- 独轮车） 
+[](/Users/tuo/Desktop/Screenshot 2021-12-10 at 11.38.28.png)
+图片-钓台
 
-太扯了 ，难道就没有办法 keep it simple ？ （小时候就只要一个cane pole, 一个dough 现在什么乱七八糟）
+For pole fishing: A 7.2 meter telescopic pole is at least 300 RMB for moderate quality, 1000RMB0-2000RMB for good ones.They are tons of components and accessories: [fishing platform](https://www.aliexpress.com/item/1005002382124941.html)、[multifunctional fishing box](https://www.aliexpress.com/item/1005003307267441.html)、[fishing bucket](https://www.aliexpress.com/item/4000096264484.html)、[fishing chair](https://www.aliexpress.com/item/1005003186497852.html)、[fish umbrella/brolly](https://www.aliexpress.com/item/1005002868486443.html)、fishing bag etc.
 
-![](/Users/tuo/Desktop/Screenshot 2021-12-10 at 11.38.28.png)
-台钓- 8.1米的都得上千- 一两千 - 最低也得300吧？
+图片-钓鱼取经 - 杨 （对比台钓的装备和海欧鲤钓的状态- 独轮车） 
 
-台钓装备图（西天取经 - 娄底那个钓鱼） - 国外欧鲤钓图（独轮车，庄鹏，咖啡） 
-而且水库下去特别苦难（山，稻田）太复杂
-complicted and comemrcial  -  就像教会的繁杂的仪式 ，回到早期基督教简洁的 - balance the thing (not too comeral/complext, yet simple joy of angling) - alchemist - all kinds of chemist/oil/hemo(mainline) _ maybe just try bread first, then other facny later
+Those gears add up lots of weight and they are not easy to carry around. Look the mountains and rice field around that revoriro, I'm pretty sure by the time I got to the bank, I'm already exhausted. I thought the chinese way is somehow maximalistic. Guess what? Western carp fish is just a little bit more maximalistic :) 
 
+图片 - 帐篷 咖啡 独轮车
 
+A wheelbarrow - I thought angling is about minimlistic and keep it simple, until some Fox/Korda/Nash/Gardner/Mainline angler of carp fish comes with a wheelbarrow and point to all kindas gears(mat、bivvy、CAMO COOL BAGS, bait belts, coffee maker、tea press、kettle、stove、dinner set and cookare sets etc) inside it smirking and saying:  "oh my gawd, dear comrade，my young boke, how dare you? I'm the true minimalist with just one item".
 
+Well, based on my coding experice, plus some insiprations from other areas like playing basketball/learning Spanish etc, the impluse- a intense emtion - of using or adopting new tech or langeuage or framework, or imitating whatever those masters use in videos, could be served as a clue to remind you whether you have a good picture and understanding over it without falling into traps of tunnel vision effect. You just need to be aware of that and you have options to step back to study basics 、 break big one into small pieces、figure out those piece roughly, then back to high level again to priortize. High priority ones is probably not that thrilling like low priority ones(Think about the letter `R` in Spanish - that's like the least important part for any beginners yet most people will simply give up learning spanish just because they can't pronunciate it after a couple of times trying).
 
-Reason people despise or look down the one using Rod（海竿或lure) are (here is link from angler tieba, sth like Angler subreddt(https://tieba.baidu.com/p/6348235004?red_tag=3265959682#128408796299l):
+To find someones' balance point between the simplicity and pureness of joy from primitivism(lack of options- scarcity) and more possiblities yet more expensive&cumbersome from commericials(overwhelmed - surplus) is kinda ideal but difficult - you need weigh the pros and cons through trial and error.
 
-* SurfRod is passive, like setup, leave it then just wait for the alarm. one no need to always look at the marker float and there are lots of tricks on what kinda of marker float's movement relating to fish's behavior and what timing is the proper to pick up rod and jerk it ; second no setting the hook just wait util rod bell sound, the feel of hook set is missing .
-* Pole fish when play fish is much harder and more intensive comparing to 海竿, becase they dont' have spooler/reels. They got higher chance of losing the fish , i.e.g not being able to land the fish, but that difficulit means you 're gonna put lots of work and concentraion for this phase (you have no way to backdown like Caesar crossing Rubicon river ).That dedication leads to greater satisfiction and apprecation for the angling.
-* peple genreately setup lots of rod at one row like ( 3 ,4, 5,6 ..8) and multiple hooks in one rig, that sounds just for caughting the fish not for the fun of fishing process (爆炸钩创狗 - moral superiority); while pole fish you only have one or two rod(one sshorter rod for small fish, one longer rod for big fish) - each max only has two hooks
-* 
-
-Pole fish involve smore dedication / concentraction /complex technique/tricks and shorter feedback loop during the angling  comparing to the Rod fish, which leads to why most people think that pole fishing is much funnier and more interesting than rod fish.
-
-Yeah, above those do make sense to some extent.  Different style, different kinda of fun. Since we focus on catching big fish, not small ones, it is important to layout the differences:
-
-* waiting : both need to wait and wait for a long time.   海竿 you have bivvy or long chair to lay down comfortable. but pole fish you only got a chair, and need constantly stare at the float, it is kinda exgusting and not that comforatable.
-
-* chances:  big fish tends to stay away from bank in daytime, so if you fish far from bank, it generally is deepr, and has a better chance to locate big fish.THe rod they're using are at least 7.2m long, could be 8.1, 9.2, 10.0 , 11 meters long. Even with lines, it could maxi get around 20 meters far(actually not that far, because the water usally is kinda deep and take out some lines), and it is pretty trick to cast out without reels. But with 海竿，you could easily cast out like 30meter at least, with good ones, like 70-80 meters is not that hard.
-
-* Expense:  even the cheapest pole rod you could on taobao([奥西尼x7](https://item.taobao.com/item.htm?spm=a230r.1.14.25.23117b10Kpyfpn&id=641987583688&ns=1&abbucket=17#detail)) is gonna cost you 90-100 RMB like 15-16$.  But you could get a 2.7m rod and 5000 reels with around 45 RMB like 7-8$. With my experiment, that cheap combiniation(8 strands braided PE line 6.0/0.40mm/32KG with 100 meters long - price is 12RMB .i.e 2$) could  get me cast out like 30-40 meters in a breeze.(TODO: change to 4strands for more abrasion resistance, but no preoptimzation)
-
-* landing fish: because you got reels and has drag, it is much easier to fight/play the fish once got bite. While if you're using Pole rod, you have pretty much fixed length line, which leaves very little room for mistake. I have seen lots of people fail to land the fish, because it cast out fully without buffer or extra room for flexibility(again conventional wisdom: the further, the better). if the fish got the bite, felt the pain, flail - e.g - ficerly shake its head, it might go striaght oppose to bank direction(the line fish and rod is like 180 degree aligned). Under this case, you might not even has a chance to pick-up your rod,  end up in  tug-of-war (in chinese拔河) - i.e. fish go that way, you go this way -  and most of time it is the angler got tumbled and have to leave out the rod from hands if line is strong enough or most likely line breaks. Either case, the fish descends into the depths and leave you stare in disbelief(哦豁oh ho - in chinese - i.e. - bosh/wicked).
-
-  
-
-
-So far, we have compared pole fish and sur fish, and each has its own pros and cons.
+Hence i want to get my hands dirty as simple and economical as possible, no need for much comfort as it is non-attended hence no alarm、boat、bivvy、chair、brolly、coffee maker.... and barrow&trolley. The basic fish tackle combo is 2.7 meter rod($4~24RMB)、5000 reel($3-$4~20RMB)、100 meter long braide fishing line of size 6($2~12RMB).In the following sections, I will break down on what fishing strategy I 'gonna use for my fishing scernario and you could see why I choose that combo.
 
 
 
-Pole fihs : marker float, analyza lake bed terriain and mersuare water depth.
-
-Sur rod:  distance,easier to fight fish and land fish; comfortable
-
-
-
-The fish strategy for my case would be a combination of pole fish and surf fish, but more inclined to suf fish. The distance is between pole fish and suf fish, neither too close nor too far.
-
-#### ===Target
+## Do my homeowrk
 
 conditions: 
 
@@ -112,12 +78,9 @@ conditions:
 Quick Summary: setup feeder/bait, cast out and link with tent pegs,  setup the bite alarm device, hook the trigger between mainline and device.  Leave it for 1-2 days. When got bite from fish,  the strength will trigger alarm, hence give a call to my phone so that I could just go there and pickup and land the fish. But we also need some hearbeat to know that device is running properly. Every one minutes,  it send a http request to my backend which log its timstamp and whether it got triggered or not.  With this data,  later we could analyze what time it got bite and what temperature from online historical weather data.
 
 
-
 ### Angling strategy
 
-It is always good to draw some inspiration from existing carp fishing strategys like pole fishing and day session of carp fishing. 
-
-*A beard well lathered is half shaved.*
+*A beard well lathered is half shaved.* It is always good to draw some inspiration from existing carp fishing strategys like pole fishing and carp fishing. 
 
 **Swim/Location**: The first thing you need is to analyze the terrian of where you fish - read water. Either take a walk aroud the water area, or searching its google map statelite image, or asking from local angler, just try figure out the general terrin of water you're gonna fish. No rush to drop you rods. For picking the right swim, it is always good to have direct eye sight of fish rollover or buble of stiring mud. And most of time, you want to stay away from those with high angling pressures from the bank. In winter, generaly you want your fish spot is closing to snags or something structure(weed beds、fallen trees 、overhanging vegetation or rocks) that provide safer places to hide for a school of fish instead of open water.
 
@@ -170,7 +133,7 @@ Then what's some fundentmtls here? cast out accuraccly . just pracice, you dont'
 
 Casting out a couple of times  also help you get a great detail on the lakebed of fish spot  - is it gravel、rocky or weedy or silty ? Flat or sharp dropoff ?  How you gonna choose right rig strategy for it. Fish might get sacred and flee away by the sound of lead hitting the water surface, but some underwater video experiment shows those fish will slowly get back to search for the food. It is not a big deal in my case, as I have lots of time and patience for it while chilling cozily out at home with heating on and drinking my Longjing/Dragon Well tea - vibe 😎🤞 :)
 
-I have chosen the distance like 20-30 meters far away from the bank. Since my focus is on fish's nocturnal behaviors, and night is quieter than day time, also based on what I know from above depth section, hence my assumption is that big fish will be morely likely to go to shallow water that close to bank where it could have more food to feed.
+I have chosen the distance like 20-30 meters far away from the bank. And 2.7 meters long rod with 5000 reel did a pretty good job considering the thickness of the fihsing line(line size 8). Since my focus is on fish's nocturnal behaviors, and night is quieter than day time, also based on what I know from above depth section, hence my assumption is that big fish will be morely likely to go to shallow water that close to bank where it could have more food to feed.
 
 
 ## BAIT/Feeder
@@ -215,7 +178,7 @@ In above picture and videos, that is a home-made spod with bottle and a lead. Yo
 
 ## Rigs 
 
-A quick recap on the fish tackles : 2.7 meters long rod、braided line with size of 8 and 8 strands、a slim bobber float(just for testing depth)、80g~2.8oz sinker、 hair rig of big size 4 circle hook with pop-ups buoyant bait、smaller size 7 Izu Iseni hook for bottom bait with feed corn. To be honest, I have some doubt on using fake bait like plastic corn as bait.
+A quick recap on the fish tackles : 2.7 meters long rod、5000 reel、braided line with size of 8 and 8 strands、a slim bobber float(just for testing depth)、80g~2.8oz sinker、 hair rig of big size 4 circle hook with pop-ups buoyant bait、smaller size 7 Izu Iseni hook for bottom bait with feed corn. To be honest, I have some doubt on using fake bait like plastic corn as bait.
 
 Only middle part of China in Sichuan and Chongqing use similar fake bait, but not my hometown or province - like never. Most people here rarely use any kinda pop-ups bait or circle hook, instead they are inclined to use bottom bait with iseni hook for big-size fish. For people fishing with pole, they only use maximum two hooks for each. However for people fishing with rod and reel, they just use a fewww hooks - chinese way of understatement. Let's take a look at two most frequently used hook patterns:
 
@@ -240,257 +203,17 @@ In this article we have covered the angling strategy that we're gonn ause for th
 
 
 
-start 
-
-
-premise is ?induction
-
-
-Boast
-
-studying carp habits and behaviours
-
-Attract fish to your swim - 
-
-method feeder or feeder bait cage
-
-有芦苇的 ，可能芦苇更好； 但是如果经常投喂，那么鱼的习惯性口味也会变好相应的变化。
-
-start with small, sillverbullet. (maggos is mostly time waorks bettern than non-live baits like corns bolleit.)
-
-LINE clip - not need, baut encomoy it his alreaby pprohibiti me to cast  farther.
-
-Many people treat it like some sort of beauty tip that they learned out of a magazine.
-
-be water - lixiaolong
-
-
-
-bait Nassim_Nicholas_Taleb
-
-
-
- 
-
-Here are some common explation on fish acivity:  water temperature and oxygen content.  High barometric pressure forces more oxygen into water
-
-
-
-Angling is about emprical mostly of you, share/learn with others ,but in the end, it is you to put it into action under your unique situation/condition and get the feedback and figuring our your strategy and framework. It is not rock science, it deson't mea you ndont need do your homework. you simply need to know what you're doing.
-
-
-
-Conventional wisdom
-
-russel chicken / silter bullet
-
-
-
-context, part of context, not all ; but those only effective on specifc context (when you know whtat youre'd ooing, ) and most rookbie has no clue and no patience to do their epxierenent hor homework, they want ti quick . that quick satifisction 
-
-
-
-hemp oil不一定就合适，需要看当地周边的环境 比如有reef，那么芦苇可能是最简单好用或者Mulberry。 - 
-
-maggot 冬天 在小池塘了， 那么肯定更有用 效果更好。
-
-
-
-Chod rig 为什么国内不用， 人会吃塑料么？半夜这么冷， 鱼会吃么？ 深水大鱼
-
-
-装备太复杂了 ， 显示水库图片和装备图片 - 
-
-foundmentatls - casting out accurely 
-
-
-
-start with small, basics 
-
-
-
-
-
-no man is constant checking it , could happen in the midnight or sometime you're sleeping, and it could some time for you to go the swim/bank. 
-
-Fish could drag the lines/hooks anywhere that fish feel safe. And most likely coudl be one with snags, like rocks/reefs/.
-
-you need to ensure thereis not much sngas around there; second you need ensure it won't cause significate pain for the fish, liek you could just drop the sinker so it won't add too much burden/pain to the fish (little resisitance(drop off sinker))
-
-
-
-```markdown
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-```
-
-实际钓大鱼没什么区别, 钓大鱼只有守， 需要极大的耐心，有时候一天没有一口， 钓小鱼就有变化，饵料钓组频率的变化，钓大鱼不能有频率，不然吓走鱼。
-
-
-
-台钓装备图（西天取经 - 娄底那个钓鱼） - 国外欧鲤钓图（独轮车，庄鹏，咖啡） 
-而且水库下去特别苦难（山，稻田）太复杂
-complicted and comemrcial  -  就像教会的繁杂的仪式 ，回到早期基督教简洁的 - balance the thing (not too comeral/complext, yet simple joy of angling) - alchemist - all kinds of chemist/oil/hemo(mainline) _ maybe just try bread first, then other facny later
-
-chrismas authorizy - dareel peck (hontest) for mainljine  but i like admin penning more ; want a sure answer, but no sure anwser for angler.
-
-
-
-
-
-
-
-casting precisly:
-
-* limit by psychical  or line clip 
-
-  
-
-differences to carp fishing:
-
-* 水库图片山或者稻田，no way to use barrow or bivvy (too heavy)
-
-
-
-target: 1.5KG-15 KG fish max, 
-
-
-
-AUTOMATICALY VS normal CPAR DIALY SESION
-
-TIME：long(1-2days) vs short
-
-FEEDER: slow(last longer) - baiting method is different(chumming and laser focus/precise) vs fast
-
-bait: corn vs boilet/peolliot/maggots
-
-MODEL : passsive(no angler nearby) vs active()
-
-FISHIN DISTANCE: short vs long (why counterintuitive)
-
-rod: no rod vs rod 
-
-bite alarm: automatical trigger vs normal bite alarm line trigger
-
-agnling pressure: low always, oppose to where mostly people fishing swim
-
-
-
-open water(less snags) + shallow water(not always deepest) + close to bank 
-
-day time : hiding the deep water or near snags like structure of rocks/reefs (safety)  - noisy 
-
-night time: go to the shadllow water (close to bank) to get food - quiet
-
-
-
-1. why open water
-
-图片（选址）
-
-no man is constant checking it , could happen in the midnight or sometime you're sleeping, and it could some time for you to go the swim/bank. 
-
-Fish could drag the lines/hooks anywhere that fish feel safe. And most likely coudl be one with snags, like rocks/reefs/.
-
-you need to ensure thereis not much sngas around there; second you need ensure it won't cause significate pain for the fish, liek you could just drop the sinker so it won't add too much burden/pain to the fish (little resisitance(drop off sinker))
-
-
-
-2.  shallow water(not always deepest)s
-
-deepeest is the best ?
-
-https://www.youtube.com/watch?v=viAFhejwoSM&ab_channel=IFishMan
-
- It is important to see that the big carp are not set in the deepest part of the lake.
-
-Now comes December - the carp start again shortly before St. Nicholas. What on earth are the carp doing on the shallow border, and why aren't they at the deepest point in the western basin?
-
-
-
-Winter the water is cold, yeah, it got deeper mostly it si warmer. but there is another case like pile of reefs, their termp is higher that open water. shallow water generally has more food compaing to deep water. so it need has some depth but not that much deeper needed. based on the lake you fish, rule of thumb would 3-8 meters.
-
-3. close to the bank 
-
-​	Here comes antoher conventional thought. YOu awalys need to fish furthest possile, as if the big fish is hiding in the center of the lake. Yes, somehow make senese, but not that much.  YOU need ask question first: where possile the fish is in this particular lake or pond ?
-
-Assess the terrain and lake's condition , like where it gots most trees , where it go the reefs or farms or whatever. what ttime and termparua/season you're fishing, if is summer, probably it won' matter much as fish is very active; in winter, you mostly want find snags or reefs (that possiblly more inclined to be close to the bank). SO find the spot, then cast it.
-
-
-
-The day session you probably need const looking for signs of carp activity like rollover or direct eyesight, or bubble ereged from water, sometime climb up and dowsn to get some peeks where they are.
-
-But in my case, that's not every helpful as the water is soooo big. I choose to close to bank for some reasons, during the night, the  surrounding could be quiet, fish are more likely staying the area that close to the bank for food.
-
-
-
-4 multi hooks(stinger-hook?) rig or single hook rig
-
-Here, in china, mostly angler using 串钩 or 爆炸钩 - i.e multi rigs along the lines-  to increase the chances to catch the fish. But that comes with problem: it is very easy for their hooks to get trapped with rocks or reefs/snags when they casting out or they drag the fish after got a bite. 
-
-https://fishingmagic.com/forums/threads/more-than-one-hook.239744/
-
-I guess differences we fishing mostly for pot & recreactonal, mostly people lives not close to sea. but like cpar fishing, mostly poplar in uk, they have more sea fishes with less bones like freshwater fishes.
-
-The biggest things I can see against using two hooks is the flailing hook that can get snagged when playing the fish and there is also the thing in if you get a break off...a fish would stand more of a chance in getting caught up we go to the extent of lead clips weak links etc....why would anyone want to add this as a factor???
-
-
-
-If you don't like the idea of two hook rigs then don't use them, but don't try to claim some sort of moral superiority for your choice.
-
-
-
-一般淡水鱼垂钓 coarse fishing
-
-bailey
-
-
-
-for secreteiveness:
-
-* no rod
-* device for detecting(bite alarm) https://www.google.com.hk/search?q=carp+fishing+alarm&oq=carp+fishing+alarm&aqs=chrome..69i57.5996j0j7&sourceid=chrome&ie=UTF-8
-
-
-
-setup rod/bait/feeder, setup the bite alarm device, hook those two, wait for 1-2 days, when got fish,  bite alarm device could give a call to my phone so that I could just go there and pickup and land the fish. well, every one minutes, send acc,x,y,z and tmeratorat to my backend , so that I could debug and check what's the temparuate looks liek and what time the fish got bite, to build a personal and model for fish's behavior. (ELK)
-
-start with small/easy, not overthinking beforehead (preoptimozation ), fail fast and get feedback loop quick
-
-
-
-
-
-
-
-Fishing is the probablity game, very much like investing in stock market.
-
-Preparation(with efforts) + Randomneess = 
-
-
 保证鱼不容脱钩发力
 
 * 泄力 - 比如弹簧 或者橡皮筋 rubber band or fabric latex
 * 铅坠 - 活动 - 这样鱼不会那么会摆动
-* 缓冲 - 加多10米的线在岸上
+* 缓冲 - 加多10米的线在岸上 冬天鱼的活力没那么好 metabolism
 * open water, less snags or structure (rock formations/too much weedy)
 
 
 
 
 
-
-https://www.cambridge.org/core/books/abs/philosophical-concepts-in-physics/aristotle-and-francis-bacon/E58B90F9925419F0DDE475C58C85A38D
-
-As we shall see, the difference is one of emphasis and execution rather than of principle. Aristotle favors the discussion of general principles that can be arrived at on the basis of an intuitive grasp of natures, while Bacon stresses the importance of slow and careful induction from specific cases.
-
-https://book.douban.com/subject/1443526/
-
-人类在一堕落时就同时失去他们的天真状态和对于自然万物的统治权。但是这两宗损失就是在此生中也是能够得到某种部分的补救的：前者要靠宗教和信仰，后者则靠技术和科学。
-
-**#32 Finger Pointing Away to the Moon**https://brucelee.com/podcast-blog/2017/2/8/32-finger-pointing-to-the-moon
 
 ESP8266 Deep Sleep with Arduino IDE (NodeMCU)
 https://randomnerdtutorials.com/esp8266-deep-sleep-with-arduino-ide/
@@ -503,3 +226,6 @@ https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing
 Psychology of Human Misjudgment https://fs.blog/great-talks/psychology-human-misjudgment/
 
 https://carphideout.co.uk/carp-rigs/
+
+
+take a look at the cheap products from [Fox Tradeshow 2021 | CARP FISHING](https://www.youtube.com/watch?v=jr-rYz0MuhE&t=200s&ab_channel=FoxInternationalCarpFishing) 
