@@ -125,7 +125,8 @@ But we also need some hearbeat to know that device is running properly. Every on
 
 ### Angling strategy
 
-I might still borrow some tips and tricks from enourpean carp fishing. Carp fishing in China, esp wild carp in wild water - in my case a big reservior - its behaviors are quite idfferent from enourpean style as Enourpean are primarily fishing in stocked ponds either commercial fishery or sydnicate that farm-raised carp has no predators.
+I might still borrow some tips and tricks from enourpean carp fishing. Carp fishing in China, esp wild carp in wild water - in my case a big reservior - its behaviors are quite idfferent from enourpean style as Enourpean are primarily fishing in stocked ponds either commercial fishery or sydnicate that farm-raised carp has no predators. The fishing resource in China is worse than the US. I have watched some US carp fishing vidoes(some chinese people cane poling in Califormnia and catch lots of carp fish with good size) , which its wild water is more simmilar to my case but the density there is still much higher than here. I challenge those carp fish master come to China and put their skills in test on the real battlefield :)
+
 
 
 
