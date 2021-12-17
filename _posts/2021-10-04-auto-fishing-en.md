@@ -84,11 +84,33 @@ Fishing is not rocket science(see [hard science and soft science](https://en.wik
 
 There is just a idffernet level of randomness. 
 
-Factors above the iceber are the ones we could observe from our expericences. Some factors are more general and universal, some are quite idfferent to differente speices of fish. Those are the ones at least we could study and learn to figure something plausible out like patterns to improve our chances. To some extent, fishing is a bit rocket science and you can do your homework with reasoning. You can get wisdom and theories from reading books、watching videos、taking with expirenced anglers - very effective way to build up your understanding about the fishing. A good example would be fish anatomy and behaviors patterns - know the fish you're angling at - is it bottom fishing or surface fishing? what water column it prefers? how it feeds? how it find foods? what temperature it likes? etc. Even for carp, there are so many different kinds of carp and its behavior might vary a lot, e.g, it would be extremely low chance to use corn what grass carp likes a lot to get any bighead carp a bite. 
+Factors above the iceber are the ones we could observe from our expericences. Some factors are more general and universal, some are quite idfferent to differente speices of fish. Those are the ones at least we could study and learn to figure something plausible out like patterns to improve our chances. To some extent, fishing is a bit rocket science and you can do your homework with reasoning. You can get wisdom and theories from reading books、watching videos、taking with expirenced anglers - very effective way to build up your understanding about the fishing. A good example would be fish anatomy and behaviors patterns - know the fish you're angling at - is it bottom fishing or surface fishing? what water column it prefers? how it feeds? how it find foods? what temperature it likes? etc. Even for carp, there are so many different kinds of carp and its behavior might vary a lot, e.g, it would be extremely low chance to use corn what grass carp likes a lot to get any bighead carp a bite. There are some nice carp underwater fishing compilations on Youtube like [Underfishing
+- Best carp underwater fishing compilation 2020 (High quality)](https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing) showing how carp got caught in front of camera.
 
-The iceber under the water is a big X - sometimes we called it "luck" - it shows the limits of our knowledge.Its randomness is beyond our undstanding. It reminds us the our logic/reasoning that built on top of it is inherently not that stable as we might think and open to changes from undernethat it. 
+The iceber under the water is a big X - sometimes we called it "luck" - it shows the limits of our knowledge.Its randomness is beyond our undstanding. It reminds us the our logic/reasoning that built on top of it is inherently not that stable as we might think and open to changes from undernethat it. Hence we could answer some question like "what one single factor could stand out significatnlty over thoses in this equation?"  The answer is no.  Unless you fish in a controlled fine-tunned condition like a vaccum pond, you might have one factor over others. But that justa pplied to taht specific case. No silver bullet for software enginering, no magic chart pattern of technical analysis for investment, no magic bait, no super bait. Additionaly it reveals that those best practices or golden tips or rules of thumbs from others are just their summary of their past expiernce which are not tested by your personal experince. Their context might be(for sure)  differnet from yours subjectively and objectively. You can have two same icebergs, arn't you? 
 
-Hence, those best practices or golden tips or rules of thumbs from others are just theories which are not tested by your personal experince - their context might be(for sure)  differnet from yours. You can have two same icebergs, arn't you? 
+To turn other people's experience and theory(outside) to yours(innerizing), you need to do it by yourself, in your own personal expericen. How? through trial and error. Dont'get me wrong, those guidances serve greately as a starting point or sth to fallback on when you just have no clue, but never it should be taken as doctine or sth forever true. Fishing is dynamic process and just about being personal. If you want consistency in longer time over randomness, then you cant count on the bginner's luck or finding some magic shortcut. You should do your homework and put in effects and times will build it up. Once we know the probability - nature of randomness, get yourself right in one go by buying expenive stuff from or imtating those so-called masters in the videos simply not gonna work. You want do trial and error many times in a budge and affordable way to figure out your fishing style and strategy that fits your specfic case.
+
+It sounds like software development/lean startup/investment and other things, the idea is same: keep agile, fail fast, embracing changes. 
+
+> Do your homework(Foundamentals) + Luck
+> 
+> dedicated + open minded
+
+The dyanmic and probabilistic nature of fishing process means you need prepare yourself up with a good mindset. Sometimes you did your homework hardly but no luck turning out to be fruitless, a blank. At some other times, you not doing your homework but still great luck, turning out to be a good catch.
+
+
+
+
+
+
+
+
+
+, little by little to build up consistency.
+
+ Good angler or pro anglers they get to their consistency by taking lots of time and effort and 
+
 
 
 It takes a long time to build up those knowleges and practices to get a good consistency rate. 
@@ -217,6 +239,8 @@ I have chosen the distance like 20-30 meters far away from the bank. And 2.7 met
 
 
 ## BAIT/Feeder
+
+blind-sided by commercial baits
 
 Basically how could we attract the fish into the swim? Well, the fish use mostly following senses to detect and indentify whehter something is good to eat or not : smell、taste、sight. Fish have a pretty good olfactory system to sense any dissolved substance in the water ,and they could recognize the smell of  amino acids and others having nutritional value. It has showed that carp has thousands of chemoreceptors in their mouth on their barbels and even on the outside of their mouth and under their chin down to their neck. Chemoreception - They could taste, esp for carp, they sucks in a big mouth of silt and other detritus -  when they smell or feel via taste buds from their barbules, pectoral and pelvic fins of the eatable like bloodworm/corn etc - palatal taste organ in the mouth trap the food against the bottom of the mouth and expell non-food through gills(almost 90% got ejected). Also they have sensitive eyes, could see in lower light levels under the water and detetct changes in light and movement above the water - so camouflage like Rambo, anglers! However, their habit of feeding in the sediments on the bottom searching for small buried food items has required them to rely on highly developed senses of smell and taste.
 
