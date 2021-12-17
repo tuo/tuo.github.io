@@ -15,7 +15,7 @@ Why?
 
 * winter - cold freezing ?(bivvy not even good enough)
 * not that much time for day session ? (need work and away from big city)
-* second half of the night (00:00 - 07:00)  - what's the behzvior carp ? any bite ? how likely ? what's temperature curve? , too dangerous and cold to sleep outside （传统观念：都说冬天鱼冷些动物，新城代谢低，那么下半夜了，温度的低的时候，会不会有草鲤鱼上钩了？）
+* second half of the night (00:00 - 07:00)  - what's the behzvior carp ? any bite ? how likely ? what's temperature curve? , too dangerous and cold to sleep outside （传统观念：都说冬天鱼冷些动物，新城代谢低，那么下半夜了，温度的低的时候，会不会有草鲤鱼上钩了？）It is said that larger fishes are more active at night and dawn.
 * free water ? big lake nature water  ( not small pond or paid fishery or syndicate)
 * test complext bait or chemicals ? (magots for winter, boillet for summer ?) - corn (nothhing more, just corn)
 
@@ -27,11 +27,11 @@ in china, pole fish is the prevailing fish style. People like the feeling of fis
 图片我着的鱼(脚盘）
 
 
-reservoirs - The lake is very big like hundreds of acres. no one is feeding those fish, the fish is pretty much on its own, so the density is kinda low, not like high-stocked recreational fishery or syndicate. The local fishery resource in China, in general, is pretty bad. Some people uses all kinds of destructive fishing practices to catch the fish - e.g - electro、net of mesh with small hole、firecrackers. In nature water, the fishery resource is mostly damaged to a extent that fish that with weight over 1.5Kg ~ 2.5KG could be called - BIG size fish. There are some fish with weight over 20kg - 50kg (last time, one of my friend caught a carp fish with 12KG using pole rod in reservoir), but that's pretty rare. The type of carp here is almost all grass/common with super super rarely you could get a mirror, let alone any black/scaly carp type.
+Reservoir - The lake is very big like hundreds of acres. no one is feeding those fish, the fish is pretty much on its own, so the density is kinda low, not like high-stocked recreational fishery or syndicate. The local fishery resource in China, in general, is pretty bad. Some people uses all kinds of destructive fishing practices to catch the fish - e.g - electro、net of mesh with small hole、firecrackers. In nature water, the fishery resource is mostly damaged to a extent that fish that with weight over 1.5Kg ~ 2.5KG could be called - BIG size fish. There are some fish with weight over 20kg - 50kg (last time, one of my friend caught a carp fish with 12KG using pole rod in reservoir), but that's pretty rare. The type of carp here is almost all grass/common with super super rarely you could get a mirror, let alone any black/scaly carp type.
 
 (水库图片) 手写
 
-Here is some image in the lake. For big fish, people are angling with 8.1 meters - 10 meter long pole rod, prefeed/bait with fermented corns like every day in the same swim of the lake, then fish at the that day. For samll fish, 2.7m, 3.6m, 4.5m is pretty common. They try to fish further away from the bank at the side closing to the mountains - which is much deeper comparing to the opposite shallow side. 
+Here is some image in the lake. For big fish, people are angling with 8.1 meters - 10 meter long pole rod, prefeed/bait with feed corns like every day in the same swim of the lake, then fish at the that day. For samll fish, 2.7m, 3.6m, 4.5m is pretty common. They try to fish further away from the bank at the side closing to the mountains - which is much deeper comparing to the opposite shallow side. 
 
 (钓鱼玉米图片)
 
@@ -50,13 +50,83 @@ For pole fishing: A 7.2 meter telescopic pole is at least 300 RMB for moderate q
 
 Those gears add up lots of weight and they are not easy to carry around. Look the mountains and rice field around that revoriro, I'm pretty sure by the time I got to the bank, I'm already exhausted. I thought the chinese way is somehow maximalistic. Guess what? Western carp fish is just a little bit more maximalistic :) 
 
-图片 - 帐篷 咖啡 独轮车
+图片 - 帐篷 咖啡 独轮车(前面图片文章)
+ps: Meister Eckhart - The more we have the less we own.
+
+
 ps just take a look tat those brnad website and its price - dman, it is not for budget aka rip off
 
 take a look at the budget products from [Fox Tradeshow 2021 | CARP FISHING](https://www.youtube.com/watch?v=jr-rYz0MuhE&t=200s&ab_channel=FoxInternationalCarpFishing) 
 
 
-A wheelbarrow - I thought angling is about minimlistic and keep it simple, until some Fox/Korda/Nash/Gardner/Mainline angler of carp fish comes with a wheelbarrow and point to all kindas gears(mat、bivvy、CAMO COOL BAGS, bait belts, coffee maker、tea press、kettle、stove、dinner set and cookare sets etc) inside it smirking and saying:  "oh my gawd, dear comrade，my young boke, how dare you? I'm the true minimalist with just one item".
+A wheelbarrow - I thought angling is about minimlistic and keep it simple, until some Fox/Korda/Nash/Gardner/Mainline angler of carp fish comes with a wheelbarrow and point to all kindas gears(mat、bivvy、CAMO COOL BAGS, bait belts, coffee maker、tea press、kettle、stove、dinner set and cookare sets etc) inside it smirking and saying:  "oh my gawd, dear comrade，my young bloke, how dare you? I'm the true minimalist - just one item".
+
+
+Surely, good equiqments tackles and gears could bring better angling epxerince, some edges and more comfotaable when angling - unless you know what're doing. Like a double-edged sword, it comes with pros and cons. Those equiqtmens really make it so cumbersome to move around, even demoralizing, just take a look the moutains and rice field in my case - how steep the slope is in moutain side and how close those rice fields are laid out next to each other like a grid.  
+
+水库图片和山体和稻田
+
+
+Those commerical tackle compainies mainly targets recreational fishery like pond or farm-raised syndicate, not for wild fishing. Isn't recreational fishing supposed to be simple , lightweight and relaxing instead of a ...a barrow? Early Churchch Fathers and later Meister Eckhart, must feel kinda of offended by the Roman Curia's long and boring church services , ceremonies and rites (In nomine Patris, et Filii, et Spiritu Sancti. Amen - people just couldn't bear with it, so much so that they coined a word in Spanish for it: santiamén).
+
+Unless you're professional angler or anglers that have a lot of time, just fishing for the fun and blending in with nature to be like a Dionysian of Nietzsche during precious break, then fishing in wild water is the way to go and really no need for top-notch gears/baits to get started.
+
+Here is my humble opion on why?
+
+## Fishing Explained 
+
+
+Fishing is not rocket science(see [hard science and soft science](https://en.wikipedia.org/wiki/Hard_and_soft_science)). It is pretty much like sociology and economics - dealing with probability and statistics. it is very hard to do a controlled experiment because there are simply too many factors involved and isolation becames pretty much impossilbe to do so. That's a pretty important shift in perspective, just like investment and sports, from 100% certainty to uncertainty and odds of randomness.
+
+(冰山图片)
+
+	Catch Rate = water temperature + barometric pressure +sunny/cloudy + wind(Windward/leeward) + season/timing + water bodies(pond/rivers/lakes vs still/flowing/creek/current) + waterbed(gravel/weedy) + terrain(depth/basin/drop off) + food source + bait flavors/scents + speice of fish + ... 
+
+There is just a idffernet level of randomness. 
+
+Factors above the iceber are the ones we could observe from our expericences. Some factors are more general and universal, some are quite idfferent to differente speices of fish. Those are the ones at least we could study and learn to figure something plausible out like patterns to improve our chances. To some extent, fishing is a bit rocket science and you can do your homework with reasoning. You can get wisdom and theories from reading books、watching videos、taking with expirenced anglers - very effective way to build up your understanding about the fishing. A good example would be fish anatomy and behaviors patterns - know the fish you're angling at - is it bottom fishing or surface fishing? what water column it prefers? how it feeds? how it find foods? what temperature it likes? etc. Even for carp, there are so many different kinds of carp and its behavior might vary a lot, e.g, it would be extremely low chance to use corn what grass carp likes a lot to get any bighead carp a bite. 
+
+The iceber under the water is a big X - sometimes we called it "luck" - it shows the limits of our knowledge.Its randomness is beyond our undstanding. It reminds us the our logic/reasoning that built on top of it is inherently not that stable as we might think and open to changes from undernethat it. 
+
+Hence, those best practices or golden tips or rules of thumbs from others are just theories which are not tested by your personal experince - their context might be(for sure)  differnet from yours. You can have two same icebergs, arn't you? 
+
+
+It takes a long time to build up those knowleges and practices to get a good consistency rate. 
+
+
+But those are just theory, on the paper, you also need to do it by yourself.
+
+
+ it could served a good guidence to start with when you have no idea.
+
+
+Before got blind-sided by commercial baits in 
+
+
+
+The equation which factor will palyout out in wather ocndiont ? It depends.
+
+
+ by reading/watching/talking from others or doing it through person experices.
+
+
+
+
+
+And the ones under the iceberg - the big one - is what we dont' know. 
+
+
+ 
+You could angle with same bait/same fish tackle, in same swim , in same season and pretty much same sunny day, same temperature/wind from weather report, but very likely you have different results - to say the least - maybe a full fishing keepnet or just blank - never you got same result.
+
+
+
+
+From my experience and ponder-over, sometimes , as angler, maybe we need shift our perspective from chasing after certaintiy(conventional wisdom) to getting along with probability and statistics - i.e - uncertaninty. I will elaborate more on this in following secions.
+
+However shifted to thinking in terms of probabiliy and statistics, d
+
+
 
 Well, based on my coding experice, plus some insiprations from other areas like playing basketball/learning Spanish etc, the impluse- a intense emtion - of using or adopting new tech or langeuage or framework, or imitating whatever those masters use in videos, could be served as a clue to remind you whether you have a good picture and understanding over it without falling into traps of tunnel vision effect. You just need to be aware of that and you have options to step back to study basics 、 break big one into small pieces、figure out those piece roughly, then back to high level again to priortize. High priority ones is probably not that thrilling like low priority ones(Think about the letter `R` in Spanish - that's like the least important part for any beginners yet most people will simply give up learning spanish just because they can't pronunciate it after a couple of times trying).
 
@@ -64,13 +134,17 @@ To find someones' balance point between the simplicity and pureness of joy from 
 
 Hence i want to get my hands dirty as simple and economical as possible, no need for much comfort as it is non-attended hence no alarm、boat、bivvy、chair、brolly、coffee maker.... and barrow&trolley. The basic fish tackle combo is 2.7 meter rod($4~24RMB)、5000 reel($3-$4~20RMB)、100 meter long braide fishing line of size 6($2~12RMB).In the following sections, I will break down on what fishing strategy I 'gonna use for my fishing scernario and you could see why I choose that combo.
 
+In the bginner, tryilanderro, fail fast and cheap way. after you got some idea about your personal fishing style, buy the ones that fit in. (not necessary awlays the most epesnisve ones).,  THat should safve you lots of money and still have lots of fun during the process - more sustatianble in longer turn.
+
+abrasion resistance
+
 
 
 ## Do my homeowrk
 
 conditions: 
 
-* reservoir : low stocked big nature water - still water
+* reservoir : low stocked big nature water - wild water
 * target: 1.5KG - 15KG 
 * time:  1-2 days consecutive
 * unmanned/unattended:  passive and automatical
@@ -79,7 +153,7 @@ conditions:
 * mobility : device and whole fish tackle should be easily to be assemble or dis-assemble
 * setup: first cast out with rod and reel; then pull main line out of reel and rod and attatch to tent peg; carefully setup trigger between the main line and device.
 
-Quick Summary: setup feeder/bait, cast out and link with tent pegs,  setup the bite alarm device, hook the trigger between mainline and device.  Leave it for 1-2 days. When got bite from fish,  the strength will trigger alarm, hence give a call to my phone so that I could just go there and pickup and land the fish. But we also need some hearbeat to know that device is running properly. Every one minutes,  it send a http request to my backend which log its timstamp and whether it got triggered or not.  With this data,  later we could analyze what time it got bite and what temperature from online historical weather data.
+Quick Summary: setup feeder/bait, cast out and link with tent pegs,  setup the bite alarm device, hook the trigger between mainline and device.  Leave it for 1-2 days. When got bite from fish,  the strength will trigger alarm, hence give a call to my phone so that I could just go there and pickup and land the fish. But we also need some hearbeat to know that device is running properly. Every one minutes,  it send a http request to my backend server which log its timstamp and whether it got triggered or not.  With this data,  later we could know what time it got bite and what temperature it is.
 
 
 ### Angling strategy
@@ -90,7 +164,9 @@ Quick Summary: setup feeder/bait, cast out and link with tent pegs,  setup the b
 
 (here is the lake genenral shape ) 标识点位 钓点
 
-The left side is the deep water area with mountains sliding into water very sharply, that right side is kinda shallow  full of debris left from submerged rice field. Most poeple will pick the left side with deeper open-water and less snags but rocky at the margin, and I barely see anyone fishing on the rice field side.  But I decided to go from the rice fields, the reasons are:  1. Even though it has snags like debris of rotten rice plants,  it doesn't do that much damage comparing to rocky strucuture , considering it is unmanned and unattended. When fish got the bite, felt the pain, it is gonna drag the line to whereever it felt safe - which mostly is full of snags or deep water so to say. A rocky structure would be much easier to cut the line due to its sharpness than some softy rotten debris could.  2. Helicopter or chod rig could help lift up the hook from lake bed and present nicely without being buried in the debris  -  interestinly I have never seen anyone of pole fish use chod rig or sort of before.
+图片 0- fishing 地图 （选位置）
+
+The left side is the deep water area with mountains sliding into water very sharply, that right side is kinda shallow  full of debris left from submerged rice field. Most poeple will pick the left side with deeper open-water and less snags but rocky at the margin, and I barely see anyone fishing on the rice field side.  But I decided to go from the rice fields, the reasons are:  1. Even though it has snags like debris of rotten rice plants,  it doesn't do that much damage comparing to rocky strucuture , considering it is unmanned and unattended. When fish got the bite, felt the pain(I'm not sure it is called pain, I guess "danger" is better here?), it is gonna drag the line to whereever it felt safe - which mostly is full of snags or deep water so to say. A rocky structure would be much easier to cut the line due to its sharpness than some softy rotten debris could.  2. Helicopter or chod rig could help lift up the hook from lake bed and present nicely without being buried in the debris  -  interestinly I have never seen anyone of pole fish use chod rig or sort of before.
 
 **Depth**: Another key is to select appropriate water depth for fishing spot. Often we've heard people saying: "The deeper the better", for deep water could hide big size fish. Also some says " You should pick margins - where shallow water meets deeper water - a sharp drop-off or deep channel". Some says "in winter/autumn, go for deep, in spring&summer, go for shallow". This is just very confusing. After talked with some local angler with different level's angling experience, pretty much everyone gives  different opinons - there is just no consensus.  Here is a quick comparison from what they say:
 
@@ -101,13 +177,13 @@ The left side is the deep water area with mountains sliding into water very shar
 | high oxygen content        | low oxygen content |
 | warm                       | cold               |
 
-Rule of thumb: water temperature and oxgen content is two key factors dictating fish feed activity . While the last one about water temperature, there are kinda opposite for summer and winter. In summer, surface of water is warm, the bottom is cold; but in winter, vice versa.*On the one* hand,  It looks like every saying has its right points, but on the other hand, it seems it somehow contradicts with others. So the middle water column (the one shallow meets deeper) is the correct one to go ?  This just intrigued me - I spent some time reseaching and watched lots of carp fish videos of both China and outside China.
+Rule of thumb: water temperature and oxgen content is two key factors dictating fish feed activity . While the last one about water temperature, there are kinda opposite for summer and winter. In summer, surface of water is warm, the bottom is cold; but in winter, vice versa.*On the one* hand,  It looks like every saying has its right points, but on the other hand, it seems it somehow contradicts with others. So the middle water column (the one shallow meets deeper) is the correct one to go ?  This just intrigued me - I spent some time reseaching and watched lots of carp fish videos of both inside China and outside China.
 
 (Fishery genemry IFishman)
 
 Talk is cheap. Show me the code. 
 
-Here is some graphcs that germany fishery lab did on a nature water pond/lake. They marked different types of fish with different electronic instrument(show in different colors), track their signals of activity across the whole year and got some interesting data. For example, in winter, you might think the fish will hide in the deepest part of lake, but it turns out they all huddle together on the shallow border(reminiscence of stock operator - oops, no - winter time of elementary school - we all huddle togher at the corner of classroom in a american football way). Another interesting observation,  we might think as the temperature and oxygen levels drops to the lowest point during the midnight, to that extent, that  fish will simply stop all kindas activity -  statue of sluggish. However the graphic shows they actually are still moving around during what we perceived as "the worst time of day".  That just blows my mind.
+Here is some graphcs that germany fishery lab did on a nature water pond/lake. They marked different types of fish with different electronic instrument(show in different colors), track their signals of activity across the whole year and got some interesting data. For example, in winter, you might think the fish will hide in the deepest part of lake, but it turns out they all huddle together on the shallow border(reminiscence of stock operator - oops, no - winter time of elementary school - we all huddle togher at the corner of classroom in a american football way). Another interesting observation,  we might think as the temperature and oxygen levels drops to the lowest point during the midnight, to that extent, that  fish will simply stop all kindas activity -  statue of sluggish. However the graphic shows they actually are still moving around during what we perceived as "the worst time of day".
 
 That just shows how we project what we think on behalf of the fish. What you think fish should do != what fish does on its own. You can't know what fish is thinking(suppose it has a thinking in whatever you might named it  - dao/god/natura naturans), instead you could only guess from their behaviors.  To anaylze behaviors and actions,  we could borrow from Francias Bacon's scientifc method.  Namely put our prejudices 、preconception and old sayings/claims under inspection, careful observation on the fact,   tabulation and classification on factors that possibly lead to the fact，setup experiments to verify etc - investigative method to form a empirical study which not based on ideas and theories. don't get me wrong，I'm not saying that you should overwhelm yourself with everything by yourself (the earth is flat)- some you could stand on the shoulder of gaint.  A good way is to identify what's [hard science and soft science](https://en.wikipedia.org/wiki/Hard_and_soft_science).  Angling is pretty much like sociology and economics, it is very hard to do a controlled experiment - there are simply too many factors involved and isolation becames pretty much impossilbe to do. You could angle with same bait/same fish tackle, in same swim , in same season and pretty much same sunny day, same temperature/wind from weather report, but very likely you have different results - to say the least - maybe a full fishing keepnet or just blank - never you got same result.
 
@@ -158,6 +234,8 @@ Is it always "the more the better"? to how much it could just backfire?(Some Wu 
 
 Be be fair, those question are kinda difficult to find answers(or proably couldn't) and demand those "Charismatic leadership" 、 so-called carp fishing masters in the promoting videos from commerical fish tackle brands to put a disclaimer at the beginning - saying *"I'm not 100% sure about whether this fancy bait will work  - so you could buy this expensive one but it didn't work at all or even getting worse - and I just have no idea"*  - is kinda picky. But given human kinda are just natureally likes imitating as beginners, and nothging is more straightforwarnd、 intuitve and easier to reach  widely like videos , they're likly to copy what those teachter does , i.e. buy whatever tackles those masters are using and master's tackles and equiqments are damn pricy! They want to get their `hello world` running as soon as possible to get thrills, hey nobody is gonna read pages of document to get exact details of it - and I have no problem with that people are making money out of it.(Hey, I'not a contemporary cynicism and do like [franknesss from Adam Penning](https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing) among other carp fishing masters).
 
+
+
 Either you dont' put up your effort and do your homework (expierment - retrospection/adjustment -expierment) and you pay with high price, or you pay with cheaper price, then put up your effort and do your homework. the second one in longer term is way more feasible/possible to have all planets aligned and hit the jackpot. Because those commerical baiting are just general abstractons by leaving out specfical details and contexts, you have to try different ones to try to match the context in your individual case: Up -> Bottom vs Bottom -> Up.
 
 Still you can buy those branded ones, no problem , but just dont trap yourself into the mindset that you need to buy the most fancy and most expensive ones to get most bites. Fishing has a context, each is different. And context has so many factors, that baiting is just one of them and no one factor is over others by a crazy margin - if yes, then it only means it is just a snapshot. 
@@ -195,7 +273,9 @@ The logic is pretty straightforward: more hooks more bites. Despite of the so-cl
 
 图片 pop-up rig 和 pvg bag里面的钩子
 
-Apart from adding more hooks to increase the odds, adding more rods could also get greater chance - 3 rods looks good.
+Apart from adding more hooks to increase the odds, adding more rods could also get greater chance - 3 rods looks good (no matter how great your setup your rig and how fmailiar you're with the lakebed conditions, it could still happen that your lines and hooks got tangled when casting or got a bad presentation somehow when landing on the lakebed).
+
+1 for 10-15, 2 - 25-34, 3: 50 above
 
 ---
 
