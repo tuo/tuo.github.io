@@ -87,9 +87,11 @@ There is just a idffernet level of randomness.
 Factors above the iceber are the ones we could observe from our expericences. Some factors are more general and universal, some are quite idfferent to differente speices of fish. Those are the ones at least we could study and learn to figure something plausible out like patterns to improve our chances. To some extent, fishing is a bit rocket science and you can do your homework with reasoning. You can get wisdom and theories from reading books、watching videos、taking with expirenced anglers - very effective way to build up your understanding about the fishing. A good example would be fish anatomy and behaviors patterns - know the fish you're angling at - is it bottom fishing or surface fishing? what water column it prefers? how it feeds? how it find foods? what temperature it likes? etc. Even for carp, there are so many different kinds of carp and its behavior might vary a lot, e.g, it would be extremely low chance to use corn what grass carp likes a lot to get any bighead carp a bite. There are some nice carp underwater fishing compilations on Youtube like [Underfishing
 - Best carp underwater fishing compilation 2020 (High quality)](https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing) showing how carp got caught in front of camera.
 
-The iceber under the water is a big X - sometimes we called it "luck" - it shows the limits of our knowledge.Its randomness is beyond our undstanding. It reminds us the our logic/reasoning that built on top of it is inherently not that stable as we might think and open to changes from undernethat it. Hence we could answer some question like "what one single factor could stand out significatnlty over thoses in this equation?"  The answer is no.  Unless you fish in a controlled fine-tunned condition like a vaccum pond, you might have one factor over others. But that justa pplied to taht specific case. No silver bullet for software enginering, no magic chart pattern of technical analysis for investment, no magic bait, no super bait. Additionaly it reveals that those best practices or golden tips or rules of thumbs from others are just their summary of their past expiernce which are not tested by your personal experince. Their context might be(for sure)  differnet from yours subjectively and objectively. You can have two same icebergs, arn't you? 
+The iceber under the water is a big X - sometimes we called it "luck" - it shows the limits of our knowledge.Its randomness is beyond our undstanding. It reminds us the our logic/reasoning that built on top of it is inherently not that stable as we might think and open to changes from undernethat it. Hence we could answer some question like "what one single factor could stand out significatnlty over thoses in this equation?"  The answer is no.  Unless you fish in a controlled fine-tunned condition like a vaccum pond, you might have one factor over others. But that justa pplied to taht specific case,and it would be practically impossible to actually determine with wild fishing.
 
-To turn other people's experience and theory(outside) to yours(innerizing), you need to do it by yourself, in your own personal expericen. How? through trial and error. Dont'get me wrong, those guidances serve greately as a starting point or sth to fallback on when you just have no clue, but never it should be taken as doctine or sth forever true. Fishing is dynamic process and just about being personal. If you want consistency in longer time over randomness, then you cant count on the bginner's luck or finding some magic shortcut. You should do your homework and put in effects and times will build it up. Once we know the probability - nature of randomness, get yourself right in one go by buying expenive stuff from or imtating those so-called masters in the videos simply not gonna work. You want do trial and error many times in a budge and affordable way to figure out your fishing style and strategy that fits your specfic case.
+No silver bullet for software enginering, no magic chart pattern of technical analysis for investment, no magic bait, no super bait. Additionaly it reveals that those best practices or golden tips or rules of thumbs from others are just their summary of their past expiernce which are not tested by your personal experince. Their context might be(for sure)  differnet from yours subjectively and objectively. You can have two same icebergs, arn't you? 
+
+To turn other people's experience and theory(outside) to yours(innerizing), you need to do it by yourself, in your own personal expericen. How? through trial and error and learn from it, remember no books or videos and nothing could substitute for your personal experience. Dont'get me wrong, those guidances serve greately as a starting point or sth to fallback on when you just have no clue, but never it should be taken as doctine or sth forever true. Fishing is dynamic process and just about being personal. If you want consistency in longer time over randomness, then you cant count on the bginner's luck or finding some magic shortcut. You should do your homework and put in effects and times will build it up. Once we know the probability - nature of randomness, get yourself right in one go by buying expenive stuff from or imtating those so-called masters in the videos simply not gonna work. You want do trial and error many times in a budge and affordable way to figure out your fishing style and strategy that fits your specfic case.
 
 It sounds like software development/lean startup/investment and other things, the idea is same: keep agile, fail fast, embracing changes. 
 
@@ -97,88 +99,43 @@ It sounds like software development/lean startup/investment and other things, th
 > 
 > dedicated + open minded
 
-The dyanmic and probabilistic nature of fishing process means you need prepare yourself up with a good mindset. Sometimes you did your homework hardly but no luck turning out to be fruitless, a blank. At some other times, you not doing your homework but still great luck, turning out to be a good catch.
+The dyanmic and probabilistic nature of fishing process means you need prepare yourself up with a good mindset. Sometimes you did your homework hardly but no luck turning out to be fruitless, a blank. At some other times, you not doing your homework but still great luck, turning out to be a good catch.The outcome is sth you can't control, but the process is sth you can contrl  kinda of and be enjoyed. Angling always has offered something to learn about, through it , you learn not just that - fishing outside -  but also yourself, and build up some awareness of your person identiy (self) and appreicate and reconnect with the beauty and serenity of the nature. To me, I personally like fishing in nature water, and that is really relaxing.
+
+
+In the following sections, I will break down on my personal fishing scenario and analyze what kinda strategy would fit.
 
 
 
+## Fishing background
 
-
-
-
-
-
-, little by little to build up consistency.
-
- Good angler or pro anglers they get to their consistency by taking lots of time and effort and 
-
-
-
-It takes a long time to build up those knowleges and practices to get a good consistency rate. 
-
-
-But those are just theory, on the paper, you also need to do it by yourself.
-
-
- it could served a good guidence to start with when you have no idea.
-
-
-Before got blind-sided by commercial baits in 
-
-
-
-The equation which factor will palyout out in wather ocndiont ? It depends.
-
-
- by reading/watching/talking from others or doing it through person experices.
-
-
-
-
-
-And the ones under the iceberg - the big one - is what we dont' know. 
-
-
- 
-You could angle with same bait/same fish tackle, in same swim , in same season and pretty much same sunny day, same temperature/wind from weather report, but very likely you have different results - to say the least - maybe a full fishing keepnet or just blank - never you got same result.
-
-
-
-
-From my experience and ponder-over, sometimes , as angler, maybe we need shift our perspective from chasing after certaintiy(conventional wisdom) to getting along with probability and statistics - i.e - uncertaninty. I will elaborate more on this in following secions.
-
-However shifted to thinking in terms of probabiliy and statistics, d
-
-
-
-Well, based on my coding experice, plus some insiprations from other areas like playing basketball/learning Spanish etc, the impluse- a intense emtion - of using or adopting new tech or langeuage or framework, or imitating whatever those masters use in videos, could be served as a clue to remind you whether you have a good picture and understanding over it without falling into traps of tunnel vision effect. You just need to be aware of that and you have options to step back to study basics 、 break big one into small pieces、figure out those piece roughly, then back to high level again to priortize. High priority ones is probably not that thrilling like low priority ones(Think about the letter `R` in Spanish - that's like the least important part for any beginners yet most people will simply give up learning spanish just because they can't pronunciate it after a couple of times trying).
-
-To find someones' balance point between the simplicity and pureness of joy from primitivism(lack of options- scarcity) and more possiblities yet more expensive&cumbersome from commericials(overwhelmed - surplus) is kinda ideal but difficult - you need weigh the pros and cons through trial and error.
-
-Hence i want to get my hands dirty as simple and economical as possible, no need for much comfort as it is non-attended hence no alarm、boat、bivvy、chair、brolly、coffee maker.... and barrow&trolley. The basic fish tackle combo is 2.7 meter rod($4~24RMB)、5000 reel($3-$4~20RMB)、100 meter long braide fishing line of size 6($2~12RMB).In the following sections, I will break down on what fishing strategy I 'gonna use for my fishing scernario and you could see why I choose that combo.
-
-In the bginner, tryilanderro, fail fast and cheap way. after you got some idea about your personal fishing style, buy the ones that fit in. (not necessary awlays the most epesnisve ones).,  THat should safve you lots of money and still have lots of fun during the process - more sustatianble in longer turn.
-
-abrasion resistance
-
-
-
-## Do my homeowrk
-
-conditions: 
+some requirements and conditions of this fishing case: 
 
 * reservoir : low stocked big nature water - wild water
 * target: 1.5KG - 15KG 
 * time:  1-2 days consecutive
-* unmanned/unattended:  passive and automatical
-* baid/feed strategy: setup once, no middle of add more baiting/feeding 
-* secretiveness:  detecting device should be small enough to be camouflaged and not easily be able to spot
+* unmanned/unattended:  automatical
+* baiting/feeding strategy: pre-baiting/feeding once and no halfway baiting/feeding
+* secretiveness:  detecting device should be small enough to be camouflaged and not easily be able to spot from the bank
 * mobility : device and whole fish tackle should be easily to be assemble or dis-assemble
-* setup: first cast out with rod and reel; then pull main line out of reel and rod and attatch to tent peg; carefully setup trigger between the main line and device.
 
-Quick Summary: setup feeder/bait, cast out and link with tent pegs,  setup the bite alarm device, hook the trigger between mainline and device.  Leave it for 1-2 days. When got bite from fish,  the strength will trigger alarm, hence give a call to my phone so that I could just go there and pickup and land the fish. But we also need some hearbeat to know that device is running properly. Every one minutes,  it send a http request to my backend server which log its timstamp and whether it got triggered or not.  With this data,  later we could know what time it got bite and what temperature it is.
+Quick Summary: prebait and hook the bait, cast out, take down the fishing line from reel, knot with tent pegs on the bank. Then setup the bite detecting device, link the trigger between fishing line and device. Leave it for 1-2 days. When got bite from fish,  the strength of fish fleeing way on the fishing line, will trigger alarm, hence give a call to my phone so that I could just go there and pickup and land the fish. 
+
+But we also need some hearbeat to know that device is running properly. Every one minutes,  it send a http request to my backend server which log its timstamp and whether it got triggered or not.  With this data,  later we could know what time it got bite and what temperature it is.
 
 
 ### Angling strategy
+
+I might still borrow some tips and tricks from enourpean carp fishing. Carp fishing in China, esp wild carp in wild water - in my case a big reservior - its behaviors are quite idfferent from enourpean style as Enourpean are primarily fishing in stocked ponds either commercial fishery or sydnicate that farm-raised carp has no predators.
+
+
+
+
+
+
+you could have berst gait best rod and reel, the beest gear all that stuff doens't make a lick of difference if you're not putting your bait in front of a fish.
+
+they consitently catch fish not bcause they have a a srecret/magic bait. thjey just konw to how to find the ffish and put their bait in front of the fish.
+
 
 *A beard well lathered is half shaved.* It is always good to draw some inspiration from existing carp fishing strategys like pole fishing and carp fishing. 
 
