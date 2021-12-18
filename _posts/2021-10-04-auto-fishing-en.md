@@ -162,7 +162,7 @@ Also carp are spooky and very sensitive to noise, which is why most anglers here
 
 The left side is the deep water area with mountains sliding into water very sharply, that right side is kinda shallow  full of debris left from submerged rice field. Most local anglers will pick the left side with deeper open-water and less snags but kinda rocky at the margin, and I barely see anyone fishing on the rice field side. But I decided to go from the rice field side where I heard a big sound of fish jumping. Other reasons are: 
 
- 1. Even though it has snags like debris of rotten rice plants,  it doesn't do that much damage comparing to rocky strucuture , considering it is unmanned and unattended. When fish got the bite, felt the pain(I'm not sure it is called pain, I guess "danger" is better here?), it is gonna drag the line to whereever it felt safe - which mostly is full of snags or deep water so to say. A rocky structure would be much easier to cut the line due to its sharpness than some softy rotten debris could. I forgot to mention I bought 100 meter long braide fishing line of line size 6 with 8 strands - maybe 4 strands is even better here - which should provide a pretty good abrasion resistance aganist aquatic plants.
+ 1. Even though it has snags like debris of rotten rice plants,  it doesn't do that much damage comparing to rocky strucuture , considering it is unmanned and unattended. When fish got the bite, felt the pain(I'm not sure it is called pain, I guess "danger" is better here?), it is gonna drag the line to whereever it felt safe - which mostly is full of snags or deep water so to say. A rocky structure would be much easier to cut the line due to its sharpness than some softy rotten debris could. I forgot to mention I bought 100 meter long braide fishing line of line size 8 with 8 strands - maybe 4 strands is even better here - which should provide a pretty good abrasion resistance aganist aquatic plants.
 
  2. Helicopter or chod rig could help lift up the hook from lake bed and present nicely without being buried in the debris.
 
@@ -206,26 +206,16 @@ It is not uncommon for some surfrod anglers just to rush to start fishing - in a
 
 Think about 100 meters far away with depth of 30 centermeters vs 50 meters away with depth of 3 meters given we know the basic depths of this lake. What's the chances of big size carp showing up in those two cases?
 
-It is important to cast out a couple of rods to test depth around the target fish spot - left,right, front or back -  to get a better idea about the lakebed neary the spot , is it a slope or sharpe drop-off or basin? Don't exaggerate one factor too much - you really dont need to cast out to 150 meters away most of the time.
+It is important to cast out a couple of rods to test depth around the target fish spot - left,right, front or back -  to get a better idea about the lakebed shape neary the spot , is it flat, a slope or sharpe drop-off or basin? Don't exaggerate one factor too much - you really dont need to cast out to 150 meters away most of the time.
 
+Cane pole fishing has one advantage over fishing with rod & reels, that is it is pretty easier to get cast out accurely in the pretty much same spot. Any deviation on the bank could be magnified many folds in 20,30,50 even 100 meters away. So you need practice casting techniques to gain some accuracy and there are lots of tutorials on the internet. You dont' need exact same spot, some offset is perfectine fine. For me, It didn't took me long to  be able to cast accurenty like 30 meter disnace with 1-3 meters radius in that vicinity.I found it is extemly useful to record the moves of your casting in video. You could see your posture,movmenet and adjust accordingly - [The Dunning-Kruger effect](https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740) - what you think of yourself is probably not what you really are. 
 
-
-
-
-It is not uncommon for some surf rod anglers just to rush to start fishing - cast out extremely long distance without much thought as soon as they arrived at the lake, and spend lots of time waiting on the bank, yet they didn't wanna just spend a few casts to test out the water depth and lake bed terrain of fish spot beforehand. They just go there, mount the hookbait and cast out whereever they want, then just wait like "I'm done with work on my side, it is the fish - your turn to bite".  Yes, they still coud get a bite from fish and caught it , no doubt.  But hmmm, lets take another proablbity game -  basetketball as exmaple , the goal of shooting  is to get basketball throught he hoop and score. Well think about it is the last shot - a possible buzzbeater,  there are two game plans from coache - one is Micachel Jordan or Kobe Byrant is taking the shot , if they got the cold hands(look : self-proclaimed GOAT [🐑](https://emojipedia.org/ewe/)Lebron James only got 8 points in the nba finals...) and it is highly possible for them to miss it; another is a nobody like me taking the shot, if I got the hot hand(every dog has its day), I might hit it.  But nonobyd would think I'm better than Micachel or Kobe, because they could do it consistently and with solid fundamentals of pyshican and mental - some of them is from hard-work training and desire to strieve for greatness and push theirself ot the limit . 
-
-So just because it is a paobolity game full of randoms, it is aslo eactly why we need build our firmly well-sturcture reasonging from our experincen and observation during prepration(Cephas - lay the groundwork), setup open/continuous feedback loop during process(mieache jordan develop from early days altehic dunker -air jordan -  into an ellite fade-away jumper in his late years)，lower the expectation for the outcome - Let the chips fall where they may. And be aware of that temptation and emotion of yourself, try to know yourself better.
-
-(JOE BEMIDE TRUSTYH TE PROCESS) https://www.google.com.hk/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcER-eH6iMjI&psig=AOvVaw2EF8AfMqIP7LI9An4dxxjW&ust=1637812183129000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCLCkof-LsPQCFQAAAAAdAAAAABAi
-
-Then what's some fundentmtls here? cast out accuraccly . just pracice, you dont' need exact same spot,  some offset is perfectine fine - Remember it is not rock sicence.  For me, It didn't took me long to  be able to cast accurenty like 30 meter disnace with 1-3 meters radius in that vicinity.  I found it is extemly useful to record the moves of your casting in video. You could see your posture,movmenet and adjust accordingly - [The Dunning-Kruger effect](https://www.verywellmind.com/an-overview-of-the-dunning-kruger-effect-4160740) - what you think of yourself is probably not what you really are.
-
-Casting out a couple of times  also help you get a great detail on the lakebed of fish spot  - is it gravel、rocky or weedy or silty ? Flat or sharp dropoff ?  How you gonna choose right rig strategy for it. Fish might get sacred and flee away by the sound of lead hitting the water surface, but some underwater video experiment shows those fish will slowly get back to search for the food. It is not a big deal in my case, as I have lots of time and patience for it while chilling cozily out at home with heating on and drinking my Longjing/Dragon Well tea - vibe 😎🤞 :)
+Also it help you get a great detail on the lakebed condition of fish spot  - is it gravel、rocky or weedy or silty? How you gonna choose right rig strategy for it. Fish might get sacred and flee away by the sound of lead hitting the water surface, but some underwater video experiment shows those fish will slowly get back to search for the food. It is not a big deal in my case, as I have lots of time and patience for it while chilling cozily out at home with heating on and drinking my Longjing/Dragon Well tea - vibe 😎🤞 :)
 
 I have chosen the distance like 20-30 meters far away from the bank. And 2.7 meters long rod with 5000 reel did a pretty good job considering the thickness of the fihsing line(line size 8). Since my focus is on fish's nocturnal behaviors, and night is quieter than day time, also based on what I know from above depth section, hence my assumption is that big fish will be morely likely to go to shallow water that close to bank where it could have more food to feed.
 
 
-## BAIT/Feeder
+### Baiting/Feeding
 
 blind-sided by commercial baits
 
@@ -323,3 +313,7 @@ Psychology of Human Misjudgment https://fs.blog/great-talks/psychology-human-mis
 https://carphideout.co.uk/carp-rigs/
 https://www.carpology.net/article/bait/how-to-get-more-out-of-pva-bags/
 https://www.harrissportsmail.com/uk/blog/measure-water-depth
+HOW TO CAST A CARP ROD ACCURATELY
+https://www.anglingtimes.co.uk/advice/tackle/how-to-cast-a-carp-rod-accurately/
+How To Cast More Accurately When Fishing
+https://www.youtube.com/watch?v=wtc_oa77aFM&ab_channel=FishingTutorials
