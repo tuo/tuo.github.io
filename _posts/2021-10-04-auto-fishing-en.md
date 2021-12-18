@@ -1,14 +1,13 @@
 ---
-rlayout: post
+layout: post
 title: "Auto Carp Fishing part one - fishing strategy"
-title: "Auto Carp Fishing part two - make it automatic"
-date: 2021-10-04 12:55:32 +0800
-published: false
+date: 2021-12-04 12:55:32 +0800
+published: true
 tags: fishing,life
 ---
 
+//title: "Auto Carp Fishing part two - make it automatic"
 Auto carp fishing
-
 
 
 Why?
@@ -20,14 +19,20 @@ Why?
 * simple bait will work ? no need for test complext bait or chemicals ? (magots for winter, boillet for summer ?) - corn (nothhing more, just corn)
 
 
-My angling background:  pole fishing but not that much expierence, no ice in winter
+I only have some pole fishing experiences, but not that much. In China, pole fishing is the prevailing fish style. People like the feeling of adrenaline rush when there is a fish on your pole. I still remember how wicked and satisfying the feeling is when I got a grass carp like 7-8 lb using 5.4 meters long pole and sweet corn.
 
-in china, pole fish is the prevailing fish style. People like the feeling of fish's pwoer transmiting via line /rod all the way to the hand.(tremors). It is like a monster on your pole and feel of fighting with the fish is so wicked and satisfying when I got a grass carp  like 7-8 lb using 5.4 meters long pole and sweet corn.
+<img src="/Users/tuo/Desktop/_wip3-production__2021_12_17_175410/out/my_catches.jpg" style="zoom:50%;display:flex;" />
 
-图片我着的鱼(脚盘）
+<cite>Left side is the grass carp(3-5lb/7-8lb), top right is the crucian carp (2lb, weight over 1lb is considered as big one for curcian carp), bottom right is the pond)</cite>
 
+But when I switched from pond to nature water like big lake - reservoir, I had so many blanks. I start to realize how difficult it is to catch a big size fish there. And the pattern in pond fishing is totally different from the wild water fishing. No one is feeding those fishes and density is very low. So most people go to high-stocked recreational fishery or syndicate for fun instead of nature water. The low density is because fishery resource here is kinda getting destroyed somehow. There used to have all kinds of destructive fishing practices to catch the fish - e.g - electro、net of mesh with small hole、firecrackers - which is not sustainable. But it is getting better as life is improving and people and goverment start to realize they need protect the nature resources(An unprecedented 10-year fishing moratorium was issued in January 2020, covering 332 conservation areas in the Yangtze River basin.) It is a process.
 
-Reservoir - The lake is very big like hundreds of acres. no one is feeding those fish, the fish is pretty much on its own, so the density is kinda low, not like high-stocked recreational fishery or syndicate. The local fishery resource in China, in general, is pretty bad. Some people uses all kinds of destructive fishing practices to catch the fish - e.g - electro、net of mesh with small hole、firecrackers. In nature water, the fishery resource is mostly damaged to a extent that fish that with weight over 1.5Kg ~ 2.5KG could be called - BIG size fish. There are some fish with weight over 20kg - 50kg (last time, one of my friend caught a carp fish with 12KG using pole rod in reservoir), but that's pretty rare. The type of carp here is almost all grass/common with super super rarely you could get a mirror, let alone any black/scaly carp type.
+(水库图片) 手写
+
+And I could say that fish that with weight over 1.5Kg ~ 2.5KG could be called - BIG size fish here. There are some fish with weight over 20kg - 50kg (last time, one of my friend caught a grass carp over 12KG~24LB using pole in this reservoir), but that's pretty rare. The type of carp here is almost all grass/common with super super rarely you could get a mirror, let alone any black/scaly carp type.
+
+After I observed from and talked with those local anglers here, they are angling with 8.1 meters - 10 meter long telescopic pole, prefeed/prebait with feed corns like every day in the same swim, then start fishing all the day. Going blank is not uncommon, they might catch big one after waiting for weeks.
+
 
 (水库图片) 手写
 
