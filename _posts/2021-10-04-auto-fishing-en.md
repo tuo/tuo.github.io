@@ -269,7 +269,7 @@ Apart from adding more hooks to increase the odds, adding more rods could also g
 
 ---
 
-## Wrap-up
+# Wrap-up
 
 In this article we have covered the angling strategy that we're gonn ause for the carp fishing , tailed to the unique fishing scenario and non-attended fishing style. Those are the buildingblocks for next chapter, which we're gonna elaborate on device - how to setup the trigger, read whether got a bite from fish and call my cellphone to notify.
 
