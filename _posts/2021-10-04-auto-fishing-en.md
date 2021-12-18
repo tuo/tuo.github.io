@@ -77,6 +77,8 @@ Here is my humble opion on why?
 
 ## Fishing Explained 
 
+>  “In our reasonings, there are all imaginable degrees of assurance—from the highest certainty to the lowest species of moral evidence. A wise man, therefore, proportions his belief to the evidence.” - David Hume
+
 
 Fishing is not rocket science(see [hard science and soft science](https://en.wikipedia.org/wiki/Hard_and_soft_science)). It is pretty much like sociology and economics - dealing with probability and statistics. it is very hard to do a controlled experiment because there are simply too many factors involved and isolation becames pretty much impossilbe to do so. That's a pretty important shift in perspective, just like investment and sports, from 100% certainty to uncertainty and odds of randomness.
 
@@ -93,7 +95,8 @@ The iceber under the water is a big X - sometimes we called it "luck" - it shows
 
 No silver bullet for software enginering, no magic chart pattern of technical analysis for investment, no magic bait, no super bait. Additionaly it reveals that those best practices or golden tips or rules of thumbs from others are just their summary of their past expiernce which are not tested by your personal experince. Their context might be(for sure)  differnet from yours subjectively and objectively. You can have two same icebergs, arn't you? 
 
-To turn other people's experience and theory(outside) to yours(innerizing), you need to do it by yourself, in your own personal expericen. How? through trial and error and learn from it, remember no books or videos and nothing could substitute for your personal experience. Dont'get me wrong, those guidances serve greately as a starting point or sth to fallback on when you just have no clue, but never it should be taken as doctine or sth forever true. Fishing is dynamic process and just about being personal. If you want consistency in longer time over randomness, then you cant count on the bginner's luck or finding some magic shortcut. You should do your homework and put in effects and times will build it up. Once we know the probability - nature of randomness, get yourself right in one go by buying expenive stuff from or imtating those so-called masters in the videos simply not gonna work. You want do trial and error many times in a budge and affordable way to figure out your fishing style and strategy that fits your specfic case.
+
+To turn other people's experience and theory(outside) to yours(innerizing), you need to do it by yourself, in your own personal expericen. How? through trial and error and learn from it, remember no books or videos and nothing could substitute for your personal experience. Dont'get me wrong, those guidances serve greately as a starting point or sth to fallback on when you just have no clue, but never it should be taken as doctine or sth forever true. Fishing is dynamic process and just about being personal. If you want consistency in longer time over randomness, then you cant count on the bginner's luck or finding some magic shortcut. You should do your homework - for example like what Joel Greenblat said in [<<The Little Book That Beats the Market>>](https://www.amazon.com/Little-Book-Still-Beats-Market/dp/0470624159) -  and put in effects and times will build it up. Once we know the probability - nature of randomness, get yourself right in one go by buying expenive stuff from or imtating those - in Max Weber's term, [Charismatic authority](https://en.wikipedia.org/wiki/Charismatic_authority) alike - masters displayed in the videos of commerical tackle companies simply not gonna work. You want do trial and error many times in a budge and affordable way to figure out your fishing style and strategy that fits your specfic case.
 
 It sounds like software development/lean startup/investment and other things, the idea is same: keep agile, fail fast, embracing changes. 
 
@@ -109,6 +112,8 @@ ps: next time, when you buy lottery and hope to win, ask yourself this: Am I gon
 Big size fishes are more spooky and pretty smart in nature water. Just like anglers need put in work and wait for all planets to align to get a bite, those fishes also need have all the X factors aligned perfectly to growing to that size.
 
 The unpredictability is sth you can't control, but the process is sth you can contrl  kinda of and be enjoyed. Angling always has offered something to learn about, through it , you learn not just that - fishing outside -  but also yourself, and build up some awareness of your person identiy (self) and appreicate and reconnect with the beauty and serenity of the nature. To me, I personally like fishing in nature water, and that is really relaxing.
+
+So I'd suggest those commerical tackle companies could put one-liner as a disclaimer to show their frankness/deep respect/sincere care for fishing in their promotion videos on the youtube: `"It depends!"`
 
 
 ## Fishing Scenario
@@ -131,27 +136,23 @@ Keywwords: wild water、big-size carp、automatical, winter、night and dawn(fis
 
 Why I got this idea at the begining? : I have seen lots of local anglers(some of my friends) spending lots of time on the bank just waiting for bite using pole. And in carp fishing of UK/US this got little bit better with bivvy/coffee maker/cookware etc esp in the ranning and snowing days but just too cumbersome&expensive to carry around. Still stay up whole night in the wild doesn't seem to be a relaxing and comfortable experience. Fishing in the second half of night is pretty rare to see and possible a quite new territory to explore just out of my curiosity. That's eaxctly why I got this idea: non-attened carp fishing. 
 
-Before I jump right to the automatical part - trigger device and how it works, I need do my homework and analyze what kinda fishing strategy would fit in overall big picture.
+Before I jump right to the automatical part - trigger device and how it works, like an old sayings "A beard well lathered is half shaved", I need analyze what kinda fishing strategy would fit in overall big picture ().
 
-### Angling strategy
+## Fishing Strategy
 
-I might still borrow some tips and tricks from enourpean carp fishing. Carp fishing in China, esp wild carp in wild water - in my case a big reservior - its behaviors are quite idfferent from enourpean style as Enourpean are primarily fishing in stocked ponds either commercial fishery or sydnicate that farm-raised carp has no predators. The fishing resource in China is worse than the US. I have watched some US carp fishing vidoes(some chinese people cane poling in Califormnia and catch lots of carp fish with good size) , which its wild water is more simmilar to my case but the density there is still much higher than here. I dare challenge those carp fishings masters come to China and test themselves on the real battlefield :)
+I learned many tips and techniques from enourpean carp fishing through videos and books. However carp fishing in China, esp wild carp in wild water - in my case a big reservior - its behaviors are quite idfferent from enourpean style as Enourpean are primarily fishing in stocked ponds either commercial fishery or sydnicate that farm-raised carp has no predators. The fishing resource in China is worse than the US. I have watched some US carp fishing vidoes(some chinese people cane poling in Califormnia and catch lots of carp fish with good size) , which its wild water is more simmilar to my case but the density there is still much higher than here. I dare challenge those carp fishings masters come to China and test themselves on the real battlefield :)
 
+As said previsouly, there is no secret bait, no magic gear that will surely give you a bite. Even if you have best rod and reel、most expensive bait、fanciest and most elegant barrow in the world, all that stuff doesn't make a lick of differnce if you're not putting your bait in front of the fish.
 
+One big factor of consistent catch is just find where fish are, esp in the winter. Location is crucial!
 
+**Swim/Location**: The first thing you need is to analyze the terrain of where you fish - read water. Either take a walk aroud the water area, or searching its google map statelite image, or asking from local angler, just try figure out the general terrain of water you're gonna angle at. No rush to drop you rods. For picking the right swim/spot, it is always good to have direct eyesight of fish rollover or bubbles from stiring mud. 
 
+Generaly you want your fish spot is closing to snags or something with structure(weed、fallen/sunken trees 、overhanging vegetation or rocks) that provide safer places to hide for a school of fish instead of open water. In summer, the fish might spread all over the water and location might not be that important, but in winter, they tend to school up and it is up to you to find the fish. Carp fact: carp is cold-blooded therefore their movements and the activity is dictated by on water temperature.
 
-you could have berst gait best rod and reel, the beest gear all that stuff doens't make a lick of difference if you're not putting your bait in front of a fish.
-
-they consitently catch fish not bcause they have a a srecret/magic bait. thjey just konw to how to find the ffish and put their bait in front of the fish.
-
-
-*A beard well lathered is half shaved.* It is always good to draw some inspiration from existing carp fishing strategys like pole fishing and carp fishing. 
-
-**Swim/Location**: The first thing you need is to analyze the terrian of where you fish - read water. Either take a walk aroud the water area, or searching its google map statelite image, or asking from local angler, just try figure out the general terrin of water you're gonna fish. No rush to drop you rods. For picking the right swim, it is always good to have direct eye sight of fish rollover or buble of stiring mud. And most of time, you want to stay away from those with high angling pressures from the bank. In winter, generaly you want your fish spot is closing to snags or something structure(weed beds、fallen trees 、overhanging vegetation or rocks) that provide safer places to hide for a school of fish instead of open water.
+Also carp are spooky and very sensitive to noise, which is why most anglers here prefer to fish at evening or night in summertime as much as they can depsite of some anoying nocturnal animals like bugs and insects and possibly snakes. Generally you want to stay away from those swims with high angling pressures from the bank.
 
 (here is the lake genenral shape ) 标识点位 钓点
-
 图片 0- fishing 地图 （选位置）
 
 The left side is the deep water area with mountains sliding into water very sharply, that right side is kinda shallow  full of debris left from submerged rice field. Most poeple will pick the left side with deeper open-water and less snags but rocky at the margin, and I barely see anyone fishing on the rice field side.  But I decided to go from the rice fields, the reasons are:  1. Even though it has snags like debris of rotten rice plants,  it doesn't do that much damage comparing to rocky strucuture , considering it is unmanned and unattended. When fish got the bite, felt the pain(I'm not sure it is called pain, I guess "danger" is better here?), it is gonna drag the line to whereever it felt safe - which mostly is full of snags or deep water so to say. A rocky structure would be much easier to cut the line due to its sharpness than some softy rotten debris could.  2. Helicopter or chod rig could help lift up the hook from lake bed and present nicely without being buried in the debris  -  interestinly I have never seen anyone of pole fish use chod rig or sort of before.
