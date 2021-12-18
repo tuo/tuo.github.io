@@ -94,8 +94,7 @@ Factors like iceberg above the water are the ones we could observe from our expe
 
 The iceber under the water is a big X - sometimes we called it "luck" - it shows the limits of our knowledge.Its randomness is beyond our undstanding. It reminds us the our logic/reasoning that built on top of it is inherently not that stable as we might think and open to changes from undernethat it. Hence we could answer some question like "what one single factor could stand out significatnlty over thoses in this equation?"  The answer is no.  Unless you fish in a controlled fine-tunned condition like a vaccum pond, you might have one factor over others. But that justa pplied to taht specific case,and it would be practically impossible to actually determine with wild fishing.
 
-No silver bullet for software enginering, no magic chart pattern of technical analysis for investment, no magic bait, no super bait. Additionaly it reveals that those best practices or golden tips or rules of thumbs from others are just their summary of their past expiernce which are not tested by your personal experince. Their context might be(for sure)  differnet from yours subjectively and objectively. You can have two same icebergs, arn't you? 
-
+No silver bullet for software enginering, no magic chart pattern of technical analysis for investment, no magic bait, no super bait. Additionaly it reveals that those best practices or golden tips or rules of thumbs from others are just their summary of their past expiernce which are not tested by your personal experience. Their context might be(for sure) different from yours subjectively and objectively. You can not have two same icebergs, can you?
 
 To turn other people's experience and theory(outside) to yours(innerizing), you need to do it by yourself, in your own personal expericen. How? through trial and error and learn from it, remember no books or videos and nothing could substitute for your personal experience. Dont'get me wrong, those guidances serve greately as a starting point or sth to fallback on when you just have no clue, but never it should be taken as doctine or sth forever true. Fishing is dynamic process and just about being personal. If you want consistency in longer time over randomness, then you cant count on the bginner's luck or finding some magic shortcut. You should do your homework - for example like what Joel Greenblat said in [<<The Little Book That Beats the Market>>](https://www.amazon.com/Little-Book-Still-Beats-Market/dp/0470624159) -  and put in effects and times will build it up. Once we know the probability - nature of randomness, get yourself right in one go by buying expenive stuff from or imtating those - in Max Weber's term, [Charismatic authority](https://en.wikipedia.org/wiki/Charismatic_authority) alike - masters displayed in the videos of commerical tackle companies simply not gonna work. You want do trial and error many times in a budge and affordable way to figure out your fishing style and strategy that fits your specfic case.
 
@@ -156,11 +155,11 @@ One big factor of consistent catch is just find where fish are, esp in the winte
 
 The first thing you need is to analyze the terrain of where you fish - read water. Either take a walk aroud the water area, or searching its google map statelite image, or asking from local angler, just try figure out the general terrain of water you're gonna angle at. No rush to drop you rods. For picking the right swim/spot, it is always good to have direct eyesight of fish rollover or bubbles from stiring mud. 
 
+![](/assets/carp_fishing_en1/fish_road.jpg)
+
+<cite>The rectangle area is a fishing road which Darrell Peck found through google maps. You could clearly see its color is different from two sides. source: [Korda Thinking Tackle OD 4 EP2: Danny Fairbrass & Darrell Peck | Carp Fishing 2021](https://youtu.be/UpvKqrCXKqM?t=666)</cite>
+
 Generaly you want your fish spot is closing to snags or something with structure(weed、fallen/sunken trees、overhanging vegetation or rocks) that provide safer places to hide for a school of fish instead of open water. In summer, the fish might spread all over the water and location might not be that important, but in winter, they tend to school up and it is up to you to find the fish. Carp fact: carp is cold-blooded therefore their movements and the activity is dictated by on water temperature.
-
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/winter_veune.jpeg)
-
-<cite>Fox Carp Fishing Youtube: [CARP FISHING IN WINTER (Catch more on cold days)](https://www.youtube.com/watch?v=GUdfbnZ_Qu4&ab_channel=FoxInternationalCarpFishing)</cite>
 
 Also carp are spooky and very sensitive to noise, which is why most anglers here prefer to fish at evening or night in summertime as much as they can depsite of some anoying nocturnal animals like bugs and insects and possibly snakes. Generally you want to stay away from those swims with high angling pressures from the bank.
 
@@ -183,8 +182,10 @@ Generally big size prefer to stay in some depth for the safety but shallow water
 
 All of that seems reasonable but kinda abstract though, can we put some digital/electronic tracking devices/tags on the carps and track its activity, just like tracking whales via satellite tags([Whale Telemetry Group](https://mmi.oregonstate.edu/wtg)), to hopefully get some insights on its behavior? Big data is the hype, how about some big data from carps?
 
-(Fishery genemry carp fish telemetry IFishman)
-ps: Fishery germany 
+![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carp_location_season.jpeg)
+
+<cite>source: IFishMan Youtube: [Wie verhalten sich Großkarpfen in einem natürlichen Gewässer? Hier der August
+](https://www.youtube.com/watch?v=cXRsnoPy4zw&ab_channel=IFishMan). I highly recommend checking other videos of this youtube channel even though it is in German. Pay attention to its experimentatal conditions.</cite>
 
 Here is some graphcs that germany fishery lab did on a nature water pond/lake. They marked different types of fish with different electronic tags(show in different colors), track their signals of activity across the whole year and got some interesting data to analyze for its behavior. For example, in winter, you might think the fish will hide in the deepest part of lake, but it turns out they all huddle together on the shallow border (Reminiscence of ...a stock operator - oops, no -the winter time of my elementary school - we all huddle together and push/squeeze each other at the corner of classroom in a american football way to just get a little bit warmer. kinda like [Passenger Squeezes Onto Tokyo Subway During Rush Hour
 ](https://www.youtube.com/watch?v=1R0FanSTyOw&ab_channel=Storyful) and this [People stuffed onto a train in Tokyo, Japan (train stuffing Tokyo)](https://www.youtube.com/watch?v=E7kor5nHtZQ&ab_channel=TheFatFinger) :)
@@ -204,7 +205,11 @@ About the methods to plumb the depths, no advanced Sonar or Depth Finder or Fish
 
 Along the previsouly mentioned old saying "The deeper the better", there is another saying "The further the better". And it does make some sense. If you have done pole fishing before, then you know, that the longer the rod and line, the higher chance you could catch big size fish. Why? because often the closer to bank, typically the shallower the water would be, espec in day time, more noisy it would be. But how far it should be? is it the further the better? Well not always, you also need think in terms of whole lakebed shape and surrounding conditions from a bird's-eye view.
 
-For axmple, (图片） 有障碍物和中心
+
+![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/winter_veune.jpeg)
+
+<cite>Fox Carp Fishing Youtube: [CARP FISHING IN WINTER (Catch more on cold days)](https://www.youtube.com/watch?v=GUdfbnZ_Qu4&ab_channel=FoxInternationalCarpFishing)</cite>
+
 
 In above picture, the center of lake is deeper than the ones close to be bank. But it is not the best one to fish in the wintertime as it doesn't have any covers. Covers like reeds/lotus/trees could provide warmer shelter comparing to the open water. Even if you couldn't find any covers, and it is not necessary to just focus on the distance - you have to think about the depth and other factors. 
 
@@ -322,3 +327,6 @@ https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing
 
 8 Carp bait recipes - Homemade carp bait - How to catch carp
 https://www.youtube.com/watch?v=R4FNckAmMuY&ab_channel=CatfishandCarp
+
+Darrell Peck UK PB 50lb+ Common | Cracking the Coconut | Carp Fishing Korda 2018
+https://www.youtube.com/watch?v=E1QkF1ME-qE&ab_channel=KordaTVCarpFishing
