@@ -146,7 +146,9 @@ As said previsouly, there is no secret bait, no magic gear that will surely give
 
 One big factor of consistent catch is just find where fish are, esp in the winter. Location is crucial!
 
-**Swim/Location**: The first thing you need is to analyze the terrain of where you fish - read water. Either take a walk aroud the water area, or searching its google map statelite image, or asking from local angler, just try figure out the general terrain of water you're gonna angle at. No rush to drop you rods. For picking the right swim/spot, it is always good to have direct eyesight of fish rollover or bubbles from stiring mud. 
+### Swim/Location
+
+The first thing you need is to analyze the terrain of where you fish - read water. Either take a walk aroud the water area, or searching its google map statelite image, or asking from local angler, just try figure out the general terrain of water you're gonna angle at. No rush to drop you rods. For picking the right swim/spot, it is always good to have direct eyesight of fish rollover or bubbles from stiring mud. 
 
 Generaly you want your fish spot is closing to snags or something with structure(weed、fallen/sunken trees 、overhanging vegetation or rocks) that provide safer places to hide for a school of fish instead of open water. In summer, the fish might spread all over the water and location might not be that important, but in winter, they tend to school up and it is up to you to find the fish. Carp fact: carp is cold-blooded therefore their movements and the activity is dictated by on water temperature.
 
@@ -155,9 +157,16 @@ Also carp are spooky and very sensitive to noise, which is why most anglers here
 (here is the lake genenral shape ) 标识点位 钓点
 图片 0- fishing 地图 （选位置）
 
-The left side is the deep water area with mountains sliding into water very sharply, that right side is kinda shallow  full of debris left from submerged rice field. Most poeple will pick the left side with deeper open-water and less snags but rocky at the margin, and I barely see anyone fishing on the rice field side.  But I decided to go from the rice fields, the reasons are:  1. Even though it has snags like debris of rotten rice plants,  it doesn't do that much damage comparing to rocky strucuture , considering it is unmanned and unattended. When fish got the bite, felt the pain(I'm not sure it is called pain, I guess "danger" is better here?), it is gonna drag the line to whereever it felt safe - which mostly is full of snags or deep water so to say. A rocky structure would be much easier to cut the line due to its sharpness than some softy rotten debris could.  2. Helicopter or chod rig could help lift up the hook from lake bed and present nicely without being buried in the debris  -  interestinly I have never seen anyone of pole fish use chod rig or sort of before.
+The left side is the deep water area with mountains sliding into water very sharply, that right side is kinda shallow  full of debris left from submerged rice field. Most local anglers will pick the left side with deeper open-water and less snags but kinda rocky at the margin, and I barely see anyone fishing on the rice field side. But I decided to go from the rice field side where I heard a big sound of fish jumping. Other reasons are: 
 
-**Depth**: Another key is to select appropriate water depth for fishing spot. Often we've heard people saying: "The deeper the better", for deep water could hide big size fish. Also some says " You should pick margins - where shallow water meets deeper water - a sharp drop-off or deep channel". Some says "in winter/autumn, go for deep, in spring&summer, go for shallow". This is just very confusing. After talked with some local angler with different level's angling experience, pretty much everyone gives  different opinons - there is just no consensus.  Here is a quick comparison from what they say:
+ 1. Even though it has snags like debris of rotten rice plants,  it doesn't do that much damage comparing to rocky strucuture , considering it is unmanned and unattended. When fish got the bite, felt the pain(I'm not sure it is called pain, I guess "danger" is better here?), it is gonna drag the line to whereever it felt safe - which mostly is full of snags or deep water so to say. A rocky structure would be much easier to cut the line due to its sharpness than some softy rotten debris could. I forgot to mention I bought 100 meter long braide fishing line of line size 6 with 8 strands - maybe 4 strands is even better here - which should provide a pretty good abrasion resistance aganist aquatic plants.
+
+ 2. Helicopter or chod rig could help lift up the hook from lake bed and present nicely without being buried in the debris.
+
+
+### Water Depth
+
+Another key is to select appropriate water depth for fishing spot. Often we've heard people saying: "The deeper the better", for deep water could hide big size fish. Also some says " You should pick margins - where shallow water meets deeper water - a sharp drop-off or deep channel". Some says "in winter/autumn, go for deep, in spring&summer, go for shallow". This is just very confusing. After talked with some local angler with different level's angling experience, pretty much everyone gives  different opinons - there is just no consensus.  Here is a quick comparison from what they say:
 
 | shallow water              | deep water         |
 | -------------------------- | ------------------ |
