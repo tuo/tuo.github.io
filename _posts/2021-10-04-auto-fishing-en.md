@@ -248,13 +248,25 @@ Back to my case, rice - from obervation of rcie field, and feed corn (or maize) 
 
 After picked the bait for feeding, next thing is about the feeding strategy. Obiviously most reasonable one is to take little bit time to just chum some baits to same spot every day(like one week or one month) before you really get your rods out and start fishing. But is is impossible for me as I only got 4-7 days holiday break and I really dont' want spend too much time on the bank to fish - I only got one hour break each day to go outdoors for fishing(family first) - that's exactly why I come up with an idea about auto carp fishing. To make it up, I decide to choose one fishing spot and bait there instead of moving around the lake on the bank. Here is my two cents on how to effectively attract fish in big nature water by feeding/baiting:
 
-图片（打窝中心）
+<img src="/assets/carp_fishing_en1/dawo_en.jpeg" style="zoom:67%;display:flex" />
+
 
 Basically we have the fish spot in the center, and feeding, i.e - corn- is evenly scattered around it forming a cricle with 3-5 meter radius. Loose chumming could possibly attract further fishes in a longer distance than precise baiting, as it could cover bigger and wider water area by its falvors and scents. Then we use pva bags or pva mesh to precisely bait right in the center this circle. Well this seems pretty ideal, the tricky part is how to get chumming like what hands can do but in a longer distance ? Slingshot、Spod、 pva bags/mesh、 gaint throwing sticks/baiting spoon even fishing bait boat couldn't do that easily.
 
 
-图片- 打窝的图片和视频
+<div style="display:flex">
+<video  controls style="display:flex">
+  <source src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/casting_feed.mp4" type="video/mp4">
+</video>
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/casting_feed.gif" style="" />
 
+</div>
+
+<cite>Just pay attention to scattering when it is about to hit the water. </cite>
+
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/custom_feeder.jpeg" style="display:flex" />
+
+<cite>Self-made Spod: a Gatorade-like bottle、a lead and some glues.</cite>
 
 In above picture and videos, that is a home-made spod with bottle and a lead. You could see that the corns inside the bottle will be detached from the lead/sinker beneath it as it is falling and is about to hit the water. Those dry corns has a lighter weight comparing to the lead and will split out and be scattered into the water - inside a circle of radius like 3-5 meters. The downside is the baiting inside it need to be light/dry and also it won't cast out very far away given its bad aerodynamic shape. But it fits my case - actually that's exactly my intention to not fish from a very long distance - a good compromise.
 
