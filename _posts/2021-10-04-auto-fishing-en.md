@@ -68,6 +68,8 @@ Surely, good equiqments tackles and gears could bring better angling epxerince, 
 
 水库图片和山体和稻田
 
+ps: don't tell me that somebody fancy carrying a barrow of big/heavy gears around when they fish here
+
 
 Those commerical tackle compainies mainly targets recreational fishery like pond or farm-raised syndicate, not for wild fishing. Isn't recreational fishing supposed to be simple , lightweight and relaxing instead of a ...a barrow? Early Churchch Fathers and later Meister Eckhart, must feel kinda of offended by the Roman Curia's long and boring church services , ceremonies and rites (In nomine Patris, et Filii, et Spiritu Sancti. Amen - people just couldn't bear with it, so much so that they coined a word in Spanish for it: santiamén).
 
@@ -166,22 +168,22 @@ The left side is the deep water area with mountains sliding into water very shar
 
 ### Water Depth
 
-Another key is to select appropriate water depth for fishing spot. Often we've heard people saying: "The deeper the better", for deep water could hide big size fish. Also some says " You should pick margins - where shallow water meets deeper water - a sharp drop-off or deep channel". Some says "in winter/autumn, go for deep, in spring&summer, go for shallow". This is just very confusing. After talked with some local angler with different level's angling experience, pretty much everyone gives  different opinons - there is just no consensus.  Here is a quick comparison from what they say:
+Knowing how deep the water is can be essential to fishing. Often we've heard people saying: "The deeper the better", for deep water could hide big size fish. Also some says " You should pick margins - where shallow water meets deeper water - a sharp drop-off or deep channel". Some says "in winter/autumn, go for deep, in spring&summer, go for shallow". There are lots of different and even contradictory views in regard to depth. Our experience tells us that water depth relates to water temperature and oxgen content. But what's relationship between those those? There are lots of water depth on fishing activity research on internet , for example, [Effects of Water Temperature and Depth on the Catch Rate and Catch per Unit Effort for Mirror Carp (Cyprinus carpio) caught by Gillnets](http://researcherslinks.com/current-issues/Effects-Water-Temperature-Depth-Catch-Rate-Catch-Unit-Effort-Mirror-Carp-Cyprinus-carpio-caught-Gillnets/20/1/441/html), could shed some light. Also it shows that relationship is pretty complex and can be subject to changes of other factors. In summer, surface of water is warm, the bottom is cold; but in winter, it is the opposite. 
 
-| shallow water              | deep water         |
-| -------------------------- | ------------------ |
-| more food                  | less food          |
-| not that safer, more noisy | Safer, quieter     |
-| high oxygen content        | low oxygen content |
-| warm                       | cold               |
+Generally big size prefer to stay in some depth for the safety but shallow water  -like close to the bank-is more likely to hold more food sources. Some underwater diving videos shows that some fish like to stay in some depth with some structure to hide. That depth depends on water quality、overall water depth in the lake and seasons. You better talk to local angers to get idea about overal depth like how deep is deepest part. 
 
-Rule of thumb: water temperature and oxgen content is two key factors dictating fish feed activity . While the last one about water temperature, there are kinda opposite for summer and winter. In summer, surface of water is warm, the bottom is cold; but in winter, vice versa.*On the one* hand,  It looks like every saying has its right points, but on the other hand, it seems it somehow contradicts with others. So the middle water column (the one shallow meets deeper) is the correct one to go ?  This just intrigued me - I spent some time reseaching and watched lots of carp fish videos of both inside China and outside China.
+> Talk is cheap. Show me the code. 
 
-(Fishery genemry IFishman)
+All of that seems reasonable but kinda abstract though, can we put some digital/electronic tracking devices/tags on the carps and track its activity, just like tracking whales via satellite tags([Whale Telemetry Group](https://mmi.oregonstate.edu/wtg)), to hopefully get some insights on its behavior? Big data is the hype, how about some big data from carps?
 
-Talk is cheap. Show me the code. 
+(Fishery genemry carp fish telemetry IFishman)
+ps: Fishery germany 
 
-Here is some graphcs that germany fishery lab did on a nature water pond/lake. They marked different types of fish with different electronic instrument(show in different colors), track their signals of activity across the whole year and got some interesting data. For example, in winter, you might think the fish will hide in the deepest part of lake, but it turns out they all huddle together on the shallow border(reminiscence of stock operator - oops, no - winter time of elementary school - we all huddle togher at the corner of classroom in a american football way). Another interesting observation,  we might think as the temperature and oxygen levels drops to the lowest point during the midnight, to that extent, that  fish will simply stop all kindas activity -  statue of sluggish. However the graphic shows they actually are still moving around during what we perceived as "the worst time of day".
+Here is some graphcs that germany fishery lab did on a nature water pond/lake. They marked different types of fish with different electronic tags(show in different colors), track their signals of activity across the whole year and got some interesting data to analyze for its behavior. For example, in winter, you might think the fish will hide in the deepest part of lake, but it turns out they all huddle together on the shallow border (Reminiscence of ...a stock operator - oops, no -the winter time of my elementary school - we all huddle together and push/squeeze each other at the corner of classroom in a american football way to just get a little bit warmer. kinda like [Passenger Squeezes Onto Tokyo Subway During Rush Hour
+](https://www.youtube.com/watch?v=1R0FanSTyOw&ab_channel=Storyful) and this [People stuffed onto a train in Tokyo, Japan (train stuffing Tokyo)](https://www.youtube.com/watch?v=E7kor5nHtZQ&ab_channel=TheFatFinger) :)
+
+
+Another interesting observation,  we might think as the temperature and oxygen levels drops to the lowest point during the midnight, to that extent, that  fish will simply stop all kindas activity -  statue of sluggish. However the graphic shows they actually are still moving around during what we perceived as "the worst time of day".
 
 That just shows how we project what we think on behalf of the fish. What you think fish should do != what fish does on its own. You can't know what fish is thinking(suppose it has a thinking in whatever you might named it  - dao/god/natura naturans), instead you could only guess from their behaviors.  To anaylze behaviors and actions,  we could borrow from Francias Bacon's scientifc method.  Namely put our prejudices 、preconception and old sayings/claims under inspection, careful observation on the fact,   tabulation and classification on factors that possibly lead to the fact，setup experiments to verify etc - investigative method to form a empirical study which not based on ideas and theories. don't get me wrong，I'm not saying that you should overwhelm yourself with everything by yourself (the earth is flat)- some you could stand on the shoulder of gaint.  A good way is to identify what's [hard science and soft science](https://en.wikipedia.org/wiki/Hard_and_soft_science).  Angling is pretty much like sociology and economics, it is very hard to do a controlled experiment - there are simply too many factors involved and isolation becames pretty much impossilbe to do. You could angle with same bait/same fish tackle, in same swim , in same season and pretty much same sunny day, same temperature/wind from weather report, but very likely you have different results - to say the least - maybe a full fishing keepnet or just blank - never you got same result.
 
