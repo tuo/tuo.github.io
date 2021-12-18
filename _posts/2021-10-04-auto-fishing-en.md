@@ -64,7 +64,7 @@ Surely, good equiqments tackles and gears could bring better angling epxerince, 
 
 ![](/assets/carp_fishing_en1/tough_road.jpg)
 
-<cite>ps: Even though I'm pretty back to primitivism with just single fishing bag and a washbasin for fish and as possible trash bin, I still feel little bit exhausted when climbing up and downs. Don't tell me that somebody fancy carrying a barrow of big/heavy gears around in here.
+<cite>ps: Even though I'm pretty back to primitivism with just single fishing bag and a washbasin for fish and as possible trash bin, I still feel little bit exhausted when climbing up and downs. Don't tell me that somebody fancy carrying a barrow of heavy gears around in here.
 </cite>
 
 Those commerical tackle compainies mainly targets recreational fishery like pond or farm-raised syndicate, not for wild fishing. Isn't recreational fishing supposed to be simple , lightweight and relaxing instead of a ...a barrow? Early Churchch Fathers and later Meister Eckhart, must feel kinda of offended by the Roman Curia's long and boring church services , ceremonies and rites (In nomine Patris, et Filii, et Spiritu Sancti. Amen - people just couldn't bear with it, so much so that they coined a word in Spanish for it: santiamén).
@@ -80,7 +80,7 @@ Here is my humble opion on why?
 
 Fishing is not rocket science(see [hard science and soft science](https://en.wikipedia.org/wiki/Hard_and_soft_science)). It is pretty much like sociology and economics - dealing with probability and statistics. it is very hard to do a controlled experiment because there are simply too many factors involved and isolation becames pretty much impossilbe to do so. That's a pretty important shift in perspective, just like investment and sports, from 100% certainty to uncertainty and odds of randomness.
 
-(冰山图片)
+![](/assets/carp_fishing_en1/iceberg.jpg)
 
 	Catch Rate = water temperature + barometric pressure +sunny/cloudy + wind(Windward/leeward) + season/timing + water bodies(pond/rivers/lakes vs still/flowing/creek/current) + waterbed(gravel/weedy) + terrain(depth/basin/drop off) + food source + bait flavors/scents + speice of fish + ... 
 
