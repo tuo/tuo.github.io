@@ -82,12 +82,15 @@ Fishing is not rocket science(see [hard science and soft science](https://en.wik
 
 ![](/assets/carp_fishing_en1/iceberg.jpg)
 
+<cite>According to Freud (1915), the unconscious mind is the primary source of human behavior. Like an iceberg, the most important part of the mind is the part you cannot see - [Freud and the Unconscious Mind](https://www.simplypsychology.org/unconscious-mind.html)</cite>
+
+Now think about the catch rate and its factors:
+
 	Catch Rate = water temperature + barometric pressure +sunny/cloudy + wind(Windward/leeward) + season/timing + water bodies(pond/rivers/lakes vs still/flowing/creek/current) + waterbed(gravel/weedy) + terrain(depth/basin/drop off) + food source + bait flavors/scents + speice of fish + ... 
 
-There is just a idffernet level of randomness. 
+There is just a whole lots of levels of randomness inside it.
 
-Factors above the iceber are the ones we could observe from our expericences. Some factors are more general and universal, some are quite idfferent to differente speices of fish. Those are the ones at least we could study and learn to figure something plausible out like patterns to improve our chances. To some extent, fishing is a bit rocket science and you can do your homework with reasoning. You can get wisdom and theories from reading books、watching videos、taking with expirenced anglers - very effective way to build up your understanding about the fishing. A good example would be fish anatomy and behaviors patterns - know the fish you're angling at - is it bottom fishing or surface fishing? what water column it prefers? how it feeds? how it find foods? what temperature it likes? etc. Even for carp, there are so many different kinds of carp and its behavior might vary a lot, e.g, it would be extremely low chance to use corn what grass carp likes a lot to get any bighead carp a bite. There are some nice carp underwater fishing compilations on Youtube like [Underfishing
-- Best carp underwater fishing compilation 2020 (High quality)](https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing) showing how carp got caught in front of camera.
+Factors like iceberg above the water are the ones we could observe from our expericences. Some factors are more general and universal, some are quite idfferent to differente speices of fish. Those are the ones at least we could study and learn to figure something plausible out like patterns to improve our chances. To some extent, fishing is a bit rocket science and you can do your homework with reasoning. You can get wisdom and theories from reading books、watching videos、taking with expirenced anglers - very effective way to build up your understanding about the fishing. A good example would be fish anatomy and behaviors patterns - know the fish you're angling at - is it bottom fishing or surface fishing? what water column it prefers? how it feeds? how it find foods? what temperature it likes? etc. Even for carp, there are so many different kinds of carp and its behavior might vary a lot, e.g, it would be extremely low chance to use corn what grass carp likes a lot to get any bighead carp a bite. There are some nice carp underwater fishing compilations on Youtube like [<Underfishing Best carp underwater fishing compilation 2020 (High quality)>](https://www.youtube.com/watch?v=GGKLmPr6kSg&ab_channel=Underfishing) showing how carp got caught in front of camera.
 
 The iceber under the water is a big X - sometimes we called it "luck" - it shows the limits of our knowledge.Its randomness is beyond our undstanding. It reminds us the our logic/reasoning that built on top of it is inherently not that stable as we might think and open to changes from undernethat it. Hence we could answer some question like "what one single factor could stand out significatnlty over thoses in this equation?"  The answer is no.  Unless you fish in a controlled fine-tunned condition like a vaccum pond, you might have one factor over others. But that justa pplied to taht specific case,and it would be practically impossible to actually determine with wild fishing.
 
@@ -98,14 +101,19 @@ To turn other people's experience and theory(outside) to yours(innerizing), you 
 
 It sounds like software development/lean startup/investment and other things, the idea is same: keep agile, fail fast, embracing changes. 
 
+> :
+> 
 > Do your homework(Foundamentals) + Luck
 > 
-> dedicated + open minded
+> Dedicated + Open minded
 
 The dyanmic and probabilistic nature of fishing process means you need prepare yourself up with a good mindset. Sometimes, you not doing your homework but still great luck, turning out to be a good catch. At some other times, you did your homework hardly but no luck turning out to be fruitless, a blank. That blank is very common for fising big size fish in nature wild water, like [gaussian distribution](https://en.wikipedia.org/wiki/Normal_distribution) for studying human behavior in sociology, just think about how many extremely tall guys you have met. To illustrate that, I put a  [Galton Board]() to get an idea of the normal distribution emerge from a random drop of ball-bearings.
 
-[图片Galton Board】
-ps: next time, when you buy lottery and hope to win, ask yourself this: Am I gonna get struck by lightning right now?
+![galton](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/galton.gif)
+
+<cite>ps: next time, when you buy lottery and hope to win, ask yourself this: Am I gonna get struck by lightning right now? 
+source：Galton board form PhysicsFun: https://www.instagram.com/p/B5qLb2DlZPA/?hl=en。</cite>
+
 
 Big size fishes are more spooky and pretty smart in nature water. Just like anglers need put in work and wait for all planets to align to get a bite, those fishes also need have all the X factors aligned perfectly to growing to that size.
 
@@ -113,7 +121,6 @@ The unpredictability is sth you can't control, but the process is sth you can co
 
 So I'd suggest those commerical tackle companies could put one-liner as a disclaimer to show their frankness/deep respect/sincere care for fishing in their promotion videos on the youtube: `"It depends!"`
 
-ps: I like 
 
 ## Fishing Scenario
 
@@ -133,7 +140,7 @@ But we also need some hearbeat to know that device is running properly. Every on
 
 Keywwords: wild water、big-size carp、automatical, winter、night and dawn(fish behavior).
 
-Why I got this idea at the begining? : I have seen lots of local anglers(some of my friends) spending lots of time on the bank just waiting for bite using pole. And in carp fishing of UK/US this got little bit better with bivvy/coffee maker/cookware etc esp in the ranning and snowing days but just too cumbersome&expensive to carry around. Still stay up whole night in the wild doesn't seem to be a relaxing and comfortable experience. Fishing in the second half of night is pretty rare to see and possible a quite new territory to explore just out of my curiosity. That's eaxctly why I got this idea: non-attened carp fishing. 
+A quick recap: As previsouly said, I have seen lots of local anglers(some of my friends) spending lots of time on the bank just waiting for bite using pole. And in carp fishing of UK/US this got little bit better with bivvy/coffee maker/cookware etc esp in the ranning and snowing days but just too cumbersome&expensive to carry around. Still stay up whole night in the wild doesn't seem to be a relaxing and comfortable experience. Fishing in the second half of night is pretty rare to see and possible a quite new territory to explore just out of my curiosity. That's exactly why I got this idea: non-attened carp fishing. 
 
 Before I jump right to the automatical part - trigger device and how it works, like an old sayings "A beard well lathered is half shaved", I need analyze what kinda fishing strategy would fit in overall big picture ().
 
@@ -149,14 +156,17 @@ One big factor of consistent catch is just find where fish are, esp in the winte
 
 The first thing you need is to analyze the terrain of where you fish - read water. Either take a walk aroud the water area, or searching its google map statelite image, or asking from local angler, just try figure out the general terrain of water you're gonna angle at. No rush to drop you rods. For picking the right swim/spot, it is always good to have direct eyesight of fish rollover or bubbles from stiring mud. 
 
-Generaly you want your fish spot is closing to snags or something with structure(weed、fallen/sunken trees 、overhanging vegetation or rocks) that provide safer places to hide for a school of fish instead of open water. In summer, the fish might spread all over the water and location might not be that important, but in winter, they tend to school up and it is up to you to find the fish. Carp fact: carp is cold-blooded therefore their movements and the activity is dictated by on water temperature.
+Generaly you want your fish spot is closing to snags or something with structure(weed、fallen/sunken trees、overhanging vegetation or rocks) that provide safer places to hide for a school of fish instead of open water. In summer, the fish might spread all over the water and location might not be that important, but in winter, they tend to school up and it is up to you to find the fish. Carp fact: carp is cold-blooded therefore their movements and the activity is dictated by on water temperature.
+
+![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/winter_veune.jpeg)
+
+<cite>Fox Carp Fishing Youtube: [CARP FISHING IN WINTER (Catch more on cold days)](https://www.youtube.com/watch?v=GUdfbnZ_Qu4&ab_channel=FoxInternationalCarpFishing)</cite>
 
 Also carp are spooky and very sensitive to noise, which is why most anglers here prefer to fish at evening or night in summertime as much as they can depsite of some anoying nocturnal animals like bugs and insects and possibly snakes. Generally you want to stay away from those swims with high angling pressures from the bank.
 
-(here is the lake genenral shape ) 标识点位 钓点
-图片 0- fishing 地图 （选位置）
+![](/assets/carp_fishing_en1/reservior_shape.jpg)
 
-The left side is the deep water area with mountains sliding into water very sharply, that right side is kinda shallow  full of debris left from submerged rice field. Most local anglers will pick the left side with deeper open-water and less snags but kinda rocky at the margin, and I barely see anyone fishing on the rice field side. But I decided to go from the rice field side where I heard a big sound of fish jumping. Other reasons are: 
+The south side is the deep water area with mountains sliding into water very sharply, that north side is kinda shallow full of debris left from submerged rice field. Most local anglers will pick the south side with deeper open-water and less snags but kinda rocky at the margin, and I barely see anyone fishing on the rice field side. But I decided to go from the rice field side where I heard a big sound of fish jumping. Other reasons are: 
 
  1. Even though it has snags like debris of rotten rice plants,  it doesn't do that much damage comparing to rocky strucuture , considering it is unmanned and unattended. When fish got the bite, felt the pain(I'm not sure it is called pain, I guess "danger" is better here?), it is gonna drag the line to whereever it felt safe - which mostly is full of snags or deep water so to say. A rocky structure would be much easier to cut the line due to its sharpness than some softy rotten debris could. I forgot to mention I bought 100 meter long braide fishing line of line size 8 with 8 strands - maybe 4 strands is even better here - which should provide a pretty good abrasion resistance aganist aquatic plants.
 
