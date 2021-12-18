@@ -2,7 +2,7 @@
 layout: post
 title: "Auto Carp Fishing part one - fishing strategy"
 date: 2021-12-04 12:55:32 +0800
-published: true
+published: false
 tags: fishing,life
 ---
 
@@ -292,17 +292,12 @@ I'm using pvg bags to embed the hook with bottom bait. Since I have two hooks an
 
 Apart from adding more hooks to increase the odds, adding more rods could also get greater chance - 3 rods looks good (no matter how great your setup your rig and how fmailiar you're with the lakebed conditions, it could still happen that your lines and hooks got tangled when casting or got a bad presentation somehow when landing on the lakebed).
 
-1 for 10-15, 2 - 25-34, 3: 50 above
-
----
-
 # Wrap-up
 
 In this article we have covered the angling strategy that we're gonn ause for the carp fishing , tailed to the unique fishing scenario and non-attended fishing style. Those are the buildingblocks for next chapter, which we're gonna elaborate on device - how to setup the trigger, read whether got a bite from fish and call my cellphone to notify.
 
 
-
-保证鱼不容脱钩发力
+TODO: 保证鱼不容脱钩发力
 
 * 泄力 - 比如弹簧 或者橡皮筋 rubber band or fabric latex
 * 铅坠 - 活动 - 这样鱼不会那么会摆动
@@ -310,12 +305,8 @@ In this article we have covered the angling strategy that we're gonn ause for th
 * open water, less snags or structure (rock formations/too much weedy)
 
 
+## References
 
-
-
-
-ESP8266 Deep Sleep with Arduino IDE (NodeMCU)
-https://randomnerdtutorials.com/esp8266-deep-sleep-with-arduino-ide/
 
 https://www.carpology.net/article/features/the-truth-about-a-carps-sense-of-smell/
 http://www.carp-fishing-tactics.com/science-carp-senses.html
