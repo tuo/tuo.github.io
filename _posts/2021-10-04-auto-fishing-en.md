@@ -37,37 +37,35 @@ After I observed from and talked with those local anglers here, they are angling
 An idea just popped into my head. How about making this waiting process kinda non-attended? Then in raniny days or on snowing/windy days, or cold times like second half of the night and dawn, the fishing is just happening there and you dont need to stay on the bank (even though surfrod fishing could be more comfortable and less concentration required comparing to pole fishing). So your time could be freed up to do other things and when fish got a bite, it triggers something and notify you via something like Wechat/Telegram or just a call - like interrupts in MCU.
 
 
-## Fishing Philosophy
+## Norway Fishing Industry/Vibe
 
 I still remember when I was a kid, I use self-made bamboo pole and earthworm that digged out of my backyard to catch fish which is pretty effective and simple. Nowdays it is jaw-dropping to know that fishing gears and equiments are getting so complicted and segemnted,coming with so many variations. Take a look at the pole fish gears in China and correspondings in West:
 
-[](/Users/tuo/Desktop/Screenshot 2021-12-10 at 11.38.28.png)
-图片-钓台
+![](/assets/carp_fishing_en1/pole_fishing.jpg)
+<cite> click to see bigger picture</cite>
 
-For pole fishing: A 7.2 meter telescopic pole is at least 300 RMB for moderate quality, 1000RMB0-2000RMB for good ones.They are tons of components and accessories: [fishing platform](https://www.aliexpress.com/item/1005002382124941.html)、[multifunctional fishing box](https://www.aliexpress.com/item/1005003307267441.html)、[fishing bucket](https://www.aliexpress.com/item/4000096264484.html)、[fishing chair](https://www.aliexpress.com/item/1005003186497852.html)、[fish umbrella/brolly](https://www.aliexpress.com/item/1005002868486443.html)、fishing bag etc.
+For pole fishing: A 7.2 meter telescopic pole is at least 300 RMB for moderate quality, 1000RMB0-2000RMB for good ones.They are tons of components and accessories: [fishing platform](https://www.aliexpress.com/item/1005002382124941.html)、[multifunctional fishing box](https://www.aliexpress.com/item/1005003307267441.html)、[fishing bucket](https://www.aliexpress.com/item/4000096264484.html)、[fishing chair](https://www.aliexpress.com/item/1005003186497852.html)、[fish umbrella/brolly](https://www.aliexpress.com/item/1005002868486443.html)、fishing bag etc. The fishing platform is especially heavy if you 're buying cheap one that made by metal.
 
-图片-钓鱼取经 - 杨 （对比台钓的装备和海欧鲤钓的状态- 独轮车） 
+![](/assets/carp_fishing_en1/pole_fishing_gears.jpg)
 
 Those gears add up lots of weight and they are not easy to carry around. Look the mountains and rice field around that revoriro, I'm pretty sure by the time I got to the bank, I'm already exhausted. I thought the chinese way is somehow maximalistic. Guess what? Western carp fish is just a little bit more maximalistic :) 
 
-图片 - 帐篷 咖啡 独轮车(前面图片文章)
-ps: Meister Eckhart - The more we have the less we own.
+![](/assets/carp_fishing_en1/european_fishing.jpg)
+<cite>ps: I heard Meister Eckhart whispering: *The more we have the less we own.* </cite>
 
+![](/assets/carp_fishing_en1/barrow.jpg)
 
-ps just take a look tat those brnad website and its price - dman, it is not for budget aka rip off
+<cite>Fox Carp Fishing Youtube: [CARP FISHING IN WINTER (Catch more on cold days)](https://www.youtube.com/watch?v=GUdfbnZ_Qu4&ab_channel=FoxInternationalCarpFishing)
+</cite>
 
-take a look at the budget products from [Fox Tradeshow 2021 | CARP FISHING](https://www.youtube.com/watch?v=jr-rYz0MuhE&t=200s&ab_channel=FoxInternationalCarpFishing) 
+A wheelbarrow - I thought angling is about minimlistic and keep it simple, until some Fox/Korda/Nash/Gardner/Mainline angler of carp fish comes with a wheelbarrow and point to all kindas gears(mat、bivvy、camo cool bags、 bait belts, coffee maker、tea press、kettle、stove、dinner set and cookare sets etc) inside it smirking and saying:  "oh my gawd, dear comrade，my young bloke, how dare you? I'm the true minimalist - just one item".
 
+Surely, good equiqments tackles and gears could bring better angling epxerince, some edges and more comfotaable when angling - unless you know what're doing. Like a double-edged sword, it comes with pros and cons. Those equipments really make it so cumbersome to move around, even demoralizing, just take a look the moutains and rice field in my case - how steep the slope is in moutain side and how close those rice fields are laid out next to each other like a grid.  
 
-A wheelbarrow - I thought angling is about minimlistic and keep it simple, until some Fox/Korda/Nash/Gardner/Mainline angler of carp fish comes with a wheelbarrow and point to all kindas gears(mat、bivvy、CAMO COOL BAGS, bait belts, coffee maker、tea press、kettle、stove、dinner set and cookare sets etc) inside it smirking and saying:  "oh my gawd, dear comrade，my young bloke, how dare you? I'm the true minimalist - just one item".
+![](/assets/carp_fishing_en1/tough_road.jpg)
 
-
-Surely, good equiqments tackles and gears could bring better angling epxerince, some edges and more comfotaable when angling - unless you know what're doing. Like a double-edged sword, it comes with pros and cons. Those equiqtmens really make it so cumbersome to move around, even demoralizing, just take a look the moutains and rice field in my case - how steep the slope is in moutain side and how close those rice fields are laid out next to each other like a grid.  
-
-水库图片和山体和稻田
-
-ps: don't tell me that somebody fancy carrying a barrow of big/heavy gears around when they fish here
-
+<cite>ps: Even though I'm pretty back to primitivism with just single fishing bag and a washbasin for fish and as possible trash bin, I still feel little bit exhausted when climbing up and downs. Don't tell me that somebody fancy carrying a barrow of big/heavy gears around in here.
+</cite>
 
 Those commerical tackle compainies mainly targets recreational fishery like pond or farm-raised syndicate, not for wild fishing. Isn't recreational fishing supposed to be simple , lightweight and relaxing instead of a ...a barrow? Early Churchch Fathers and later Meister Eckhart, must feel kinda of offended by the Roman Curia's long and boring church services , ceremonies and rites (In nomine Patris, et Filii, et Spiritu Sancti. Amen - people just couldn't bear with it, so much so that they coined a word in Spanish for it: santiamén).
 
