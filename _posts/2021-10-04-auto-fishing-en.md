@@ -248,9 +248,9 @@ Basically we have the fish spot in the center, and feeding, i.e - corn- is evenl
 In above picture and videos, that is a home-made spod with bottle and a lead. You could see that the corns inside the bottle will be detached from the lead/sinker beneath it as it is falling and is about to hit the water. Those dry corns has a lighter weight comparing to the lead and will split out and be scattered into the water - inside a circle of radius like 3-5 meters. The downside is the baiting inside it need to be light/dry and also it won't cast out very far away given its bad aerodynamic shape. But it fits my case - actually that's exactly my intention to not fish from a very long distance - a good compromise.
 
 
-## Rigs 
+### Rigs 
 
-A quick recap on the fish tackles : 2.7 meters long rod、5000 reel、braided line with size of 8 and 8 strands、a slim bobber float(just for testing depth)、80g~2.8oz sinker、 hair rig of big size 4 circle hook with pop-ups buoyant bait、smaller size 7 Izu Iseni hook for bottom bait with feed corn. To be honest, I have some doubt on using fake bait like plastic corn as bait even thought it has a great advanage here: Fish couldn't steal it and no need to rebait the hook.
+A quick recap on the fish tackles : 2.7 meters long rod($4~24RMB)、5000 reel($3-$4~20RMB")、braided line with size of 8 and 8 strands($2~12RMB)、a slim bobber float($1~6RMB)、80g~2.8oz sinker($0.5~3RMB)、 hair rig of big size 4 circle hook with pop-ups buoyant bait、smaller size 7 Izu Iseni hook for bottom bait with feed corn. To be honest, I have some doubt on using fake bait like plastic corn as bait even thought it has a great advanage here: Fish couldn't steal it and no need to rebait the hook.
 
 Only middle part of China in Sichuan and Chongqing use similar fake bait, but not my hometown or province - like never. Most people here rarely use any kinda pop-ups bait or circle hook, instead they are inclined to use bottom bait with iseni hook for big-size fish. For people fishing with pole, they only use maximum two hooks for each. However for people fishing with rod and reel, they just use a fewww hooks. Let's take a look at two most frequently used hook patterns:
 
@@ -272,8 +272,6 @@ Apart from adding more hooks to increase the odds, adding more rods could also g
 ## Wrap-up
 
 In this article we have covered the angling strategy that we're gonn ause for the carp fishing , tailed to the unique fishing scenario and non-attended fishing style. Those are the buildingblocks for next chapter, which we're gonna elaborate on device - how to setup the trigger, read whether got a bite from fish and call my cellphone to notify.
-
-
 
 
 
