@@ -200,7 +200,11 @@ Along the previsouly mentioned old saying "The deeper the better", there is anot
 
 For axmple, (图片） 有障碍物和中心
 
-In above picture, the center of lake is deeper than the ones close to be bank. But it is not the best one to fish in the wintertime as it doesn't have any covers. Covers like reeds/lotus/trees could provide warmer shelter comparing to the open water. Even if you couldn't find any covers, and it is not necessary to just focus on the distance - you have to think about the depth and other factors. Think about 100 meters far away with depth of 30 centermeters vs 50 meters away with depth of 3 meters given we know the basic depths of this lake. What's the chances of big size carp showing up in those two cases?
+In above picture, the center of lake is deeper than the ones close to be bank. But it is not the best one to fish in the wintertime as it doesn't have any covers. Covers like reeds/lotus/trees could provide warmer shelter comparing to the open water. Even if you couldn't find any covers, and it is not necessary to just focus on the distance - you have to think about the depth and other factors. 
+
+It is not uncommon for some surfrod anglers just to rush to start fishing - in a hurry to put up bait, cast out extremely long distance without much thought as soon as they arrived at the lake. Afterwards they spend lots of time waiting on the bank, yet they didn't wanna just spend a few casts to test out the water depth and conditions beforehand. They just go there, mount the hookbait and cast out whereever they want, then just wait like "I'm done with work on my side, it is the fish - your turn to bite". Yes, they still coud get a bite from fish and caught it from time to time, but just no consistency could be gained.
+
+Think about 100 meters far away with depth of 30 centermeters vs 50 meters away with depth of 3 meters given we know the basic depths of this lake. What's the chances of big size carp showing up in those two cases?
 
 It is important to cast out a couple of rods to test depth around the target fish spot - left,right, front or back -  to get a better idea about the lakebed neary the spot , is it a slope or sharpe drop-off or basin? Don't exaggerate one factor too much - you really dont need to cast out to 150 meters away most of the time.
 
