@@ -27,24 +27,17 @@ I only have some pole fishing experiences, but not that much. In China, pole fis
 
 But when I switched from pond to nature water like big lake - reservoir, I had so many blanks. I start to realize how difficult it is to catch a big size fish there. And the pattern in pond fishing is totally different from the wild water fishing. No one is feeding those fishes and density is very low. So most people go to high-stocked recreational fishery or syndicate for fun instead of nature water. The low density is because fishery resource here is kinda getting destroyed somehow. There used to have all kinds of destructive fishing practices to catch the fish - e.g - electro、net of mesh with small hole、firecrackers - which is not sustainable. But it is getting better as life is improving and people and goverment start to realize they need protect the nature resources(An unprecedented 10-year fishing moratorium was issued in January 2020, covering 332 conservation areas in the Yangtze River basin.) It is a process.
 
-(水库图片) 手写
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211001fishing/shuiku.jpg" style="zoom:50%;display:flex;" />
+
 
 And I could say that fish that with weight over 1.5Kg ~ 2.5KG could be called - BIG size fish here. There are some fish with weight over 20kg - 50kg (last time, one of my friend caught a grass carp over 12KG~24LB using pole in this reservoir), but that's pretty rare. The type of carp here is almost all grass/common with super super rarely you could get a mirror, let alone any black/scaly carp type.
 
-After I observed from and talked with those local anglers here, they are angling with 8.1 meters - 10 meter long telescopic pole, prefeed/prebait with feed corns like every day in the same swim, then start fishing all the day. Going blank is not uncommon, they might catch big one after waiting for weeks.
+After I observed from and talked with those local anglers here, they are angling with 8.1 meters - 10 meter long telescopic pole, prefeed/prebait with feed corns like every day in the same swim, then start fishing all the day. Going blank is not uncommon, and they might catch big one after waiting for weeks. Sometimes they are also trying surf rod to casting out with longer distance with pack bait and rebait every two hours but still no luck. There was a time when I tried fishing with 5.4 meters pole with corn on the bank of the reservior, I saw two anglers nearby me using 10 - 12 meters pole just keep baiting with spoon and rebait their hook and the whole afternoon, no a single bite and they ended up with just playing their phones :) 
+
+An idea just popped into my head. How about making this waiting process kinda non-attended? Then in raniny days or on snowing/windy days, or cold times like second half of the night and dawn, the fishing is just happening there and you dont need to stay on the bank (even though surfrod fishing could be more comfortable and less concentration required comparing to pole fishing). So your time could be freed up to do other things and when fish got a bite, it triggers something and notify you via something like Wechat/Telegram or just a call - like interrupts in MCU.
 
 
-(水库图片) 手写
-
-Here is some image in the lake. For big fish, people are angling with 8.1 meters - 10 meter long pole rod, prefeed/bait with feed corns like every day in the same swim of the lake, then fish at the that day. For samll fish, 2.7m, 3.6m, 4.5m is pretty common. They try to fish further away from the bank at the side closing to the mountains - which is much deeper comparing to the opposite shallow side. 
-
-(钓鱼玉米图片)
-
-By talking with local anglers , they said the big fish is very hard to catch, usually they could caught one , bigger one after several days of waiting.  They need prefeed regulary with large mount of corn(fermented, homemade or bought ), extremely patient when fishing(long time of boring wait for the bite)、also extremely concentraction on the bobble floater. 
-
-But once they got the bite, the feeling is so rewarding that previous efforts and boring wating is allll worthy it. Esp for pole fishing, picking up the rod、 jerking the line 、 pull it hard and setting the hook when you saw the marker float suddely dipped in then play/fight the fish, the feeling of tremors pass through the line,  adrenaline inside you,  that  is most exciting part of angling.
-
-However fishing with rods and reels has a great adavnage for big size fish over fishing with pole. It could cast out a longer distance and possibly reach out to more fishes. A
+## Fishing Philosophy
 
 I still remember when I was a kid, I use self-made bamboo pole and earthworm that digged out of my backyard to catch fish which is pretty effective and simple. Nowdays it is jaw-dropping to know that fishing gears and equiments are getting so complicted and segemnted,coming with so many variations. Take a look at the pole fish gears in China and correspondings in West:
 
