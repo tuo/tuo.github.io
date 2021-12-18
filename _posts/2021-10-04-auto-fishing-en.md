@@ -263,6 +263,9 @@ The logic is pretty straightforward: more hooks more bites. Despite of the so-cl
 
 图片 pop-up rig 和 pvg bag里面的钩子
 
+
+I'm using pvg bags to embed the hook with bottom bait. Since I have two hooks and with differnet line length, in order to not tangle with each other, I intentionly not put the inline lead into pvg bag - it also give more room for bait. Then how to prevent the pva bag fall off the line when casting out (the bag is heavy with corns)? I use a hook snap to hook the top of bag to the swivel. Just tie off the top of pva bag with extra licks is strong enough to hold the strength of gravity from hook snap when casting. I test it a couple of times and it works pretty good. I have bottom hook presented nicely blending with a pile of corn bait, and a pop-up hook a few centermeters away from it.
+
 Apart from adding more hooks to increase the odds, adding more rods could also get greater chance - 3 rods looks good (no matter how great your setup your rig and how fmailiar you're with the lakebed conditions, it could still happen that your lines and hooks got tangled when casting or got a bad presentation somehow when landing on the lakebed).
 
 1 for 10-15, 2 - 25-34, 3: 50 above
@@ -310,3 +313,6 @@ https://www.youtube.com/watch?v=JUsS7gE69IE&ab_channel=CatfishandCarp
 https://www.youtube.com/watch?v=SDmw3IjRx54&ab_channel=CatfishandCarp
 
 https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing
+
+8 Carp bait recipes - Homemade carp bait - How to catch carp
+https://www.youtube.com/watch?v=R4FNckAmMuY&ab_channel=CatfishandCarp
