@@ -17,7 +17,7 @@ Why?
 * not that much time for day session ? (need work and away from big city)
 * second half of the night (00:00 - 07:00)  - what's the behzvior carp ? any bite ? how likely ? what's temperature curve? , too dangerous and cold to sleep outside （传统观念：都说冬天鱼冷些动物，新城代谢低，那么下半夜了，温度的低的时候，会不会有草鲤鱼上钩了？）It is said that larger fishes are more active at night and dawn.
 * free water ? big lake nature water  ( not small pond or paid fishery or syndicate)
-* test complext bait or chemicals ? (magots for winter, boillet for summer ?) - corn (nothhing more, just corn)
+* simple bait will work ? no need for test complext bait or chemicals ? (magots for winter, boillet for summer ?) - corn (nothhing more, just corn)
 
 
 My angling background:  pole fishing but not that much expierence, no ice in winter
@@ -35,9 +35,11 @@ Here is some image in the lake. For big fish, people are angling with 8.1 meters
 
 (钓鱼玉米图片)
 
-By talking with local anglers , they said the big fish is very hard to catch, usually they could caught one , bigger one after several days of waiting.  They need prefeed regulary with large mount of corn(fermented, homemade or bought ), extremely patient when fishing(long time of boring wait for the bite)、also extremely concentraction on the bobble floater. But once they got the bite, the feeling is so rewarding that previous efforts and boring wating is allll worthy it. Esp for pole fishing, picking up the rod、 jerking the line 、 pull it hard and setting the hook when you saw the marker float suddely dipped in then play/fight the fish, the feeling of tremors pass through the line,  adrenaline inside you,  that  is most exciting part of angling.
+By talking with local anglers , they said the big fish is very hard to catch, usually they could caught one , bigger one after several days of waiting.  They need prefeed regulary with large mount of corn(fermented, homemade or bought ), extremely patient when fishing(long time of boring wait for the bite)、also extremely concentraction on the bobble floater. 
 
-However fishing with rods and reels has a great adavnage for big size fish over fishing with pole. It could cast out a longer distance and possibly reach out to more fishes. Another important advice from veteran anglers is that you better pick a quiet time to fish as they are spooky and sensitive to any noise from the bank.
+But once they got the bite, the feeling is so rewarding that previous efforts and boring wating is allll worthy it. Esp for pole fishing, picking up the rod、 jerking the line 、 pull it hard and setting the hook when you saw the marker float suddely dipped in then play/fight the fish, the feeling of tremors pass through the line,  adrenaline inside you,  that  is most exciting part of angling.
+
+However fishing with rods and reels has a great adavnage for big size fish over fishing with pole. It could cast out a longer distance and possibly reach out to more fishes. Another important advice from veteran anglers is that you better pick a quiet time to fish as they are spooky and sensitive to any noise from the bank. 
 
 I still remember when I was a kid, I use self-made bamboo pole and earthworm that digged out of my backyard to catch fish which is pretty effective and simple. Nowdays it is jaw-dropping to know that fishing gears and equiments are getting so complicted and segemnted,coming with so many variations. Take a look at the pole fish gears in China and correspondings in West:
 
@@ -99,19 +101,22 @@ It sounds like software development/lean startup/investment and other things, th
 > 
 > dedicated + open minded
 
-The dyanmic and probabilistic nature of fishing process means you need prepare yourself up with a good mindset. Sometimes you did your homework hardly but no luck turning out to be fruitless, a blank. At some other times, you not doing your homework but still great luck, turning out to be a good catch.The outcome is sth you can't control, but the process is sth you can contrl  kinda of and be enjoyed. Angling always has offered something to learn about, through it , you learn not just that - fishing outside -  but also yourself, and build up some awareness of your person identiy (self) and appreicate and reconnect with the beauty and serenity of the nature. To me, I personally like fishing in nature water, and that is really relaxing.
+The dyanmic and probabilistic nature of fishing process means you need prepare yourself up with a good mindset. Sometimes, you not doing your homework but still great luck, turning out to be a good catch. At some other times, you did your homework hardly but no luck turning out to be fruitless, a blank. That blank is very common for fising big size fish in nature wild water, like [gaussian distribution](https://en.wikipedia.org/wiki/Normal_distribution) for studying human behavior in sociology, just think about how many extremely tall guys you have met. To illustrate that, I put a  [Galton Board]() to get an idea of the normal distribution emerge from a random drop of ball-bearings.
+
+[图片Galton Board】
+ps: next time, when you buy lottery and hope to win, ask yourself this: Am I gonna get struck by lightning right now?
+
+Big size fishes are more spooky and pretty smart in nature water. Just like anglers need put in work and wait for all planets to align to get a bite, those fishes also need have all the X factors aligned perfectly to growing to that size.
+
+The unpredictability is sth you can't control, but the process is sth you can contrl  kinda of and be enjoyed. Angling always has offered something to learn about, through it , you learn not just that - fishing outside -  but also yourself, and build up some awareness of your person identiy (self) and appreicate and reconnect with the beauty and serenity of the nature. To me, I personally like fishing in nature water, and that is really relaxing.
 
 
-In the following sections, I will break down on my personal fishing scenario and analyze what kinda strategy would fit.
-
-
-
-## Fishing background
+## Fishing Scenario
 
 some requirements and conditions of this fishing case: 
 
 * reservoir : low stocked big nature water - wild water
-* target: 1.5KG - 15KG 
+* target: big size fish with 1.5KG - 15KG 
 * time:  1-2 days consecutive
 * unmanned/unattended:  automatical
 * baiting/feeding strategy: pre-baiting/feeding once and no halfway baiting/feeding
@@ -122,12 +127,15 @@ Quick Summary: prebait and hook the bait, cast out, take down the fishing line f
 
 But we also need some hearbeat to know that device is running properly. Every one minutes,  it send a http request to my backend server which log its timstamp and whether it got triggered or not.  With this data,  later we could know what time it got bite and what temperature it is.
 
+Keywwords: wild water、big-size carp、automatical, winter、night and dawn(fish behavior).
+
+Why I got this idea at the begining? : I have seen lots of local anglers(some of my friends) spending lots of time on the bank just waiting for bite using pole. And in carp fishing of UK/US this got little bit better with bivvy/coffee maker/cookware etc esp in the ranning and snowing days but just too cumbersome&expensive to carry around. Still stay up whole night in the wild doesn't seem to be a relaxing and comfortable experience. Fishing in the second half of night is pretty rare to see and possible a quite new territory to explore just out of my curiosity. That's eaxctly why I got this idea: non-attened carp fishing. 
+
+Before I jump right to the automatical part - trigger device and how it works, I need do my homework and analyze what kinda fishing strategy would fit in overall big picture.
 
 ### Angling strategy
 
-I might still borrow some tips and tricks from enourpean carp fishing. Carp fishing in China, esp wild carp in wild water - in my case a big reservior - its behaviors are quite idfferent from enourpean style as Enourpean are primarily fishing in stocked ponds either commercial fishery or sydnicate that farm-raised carp has no predators. The fishing resource in China is worse than the US. I have watched some US carp fishing vidoes(some chinese people cane poling in Califormnia and catch lots of carp fish with good size) , which its wild water is more simmilar to my case but the density there is still much higher than here. I challenge those carp fish master come to China and put their skills in test on the real battlefield :)
-
-
+I might still borrow some tips and tricks from enourpean carp fishing. Carp fishing in China, esp wild carp in wild water - in my case a big reservior - its behaviors are quite idfferent from enourpean style as Enourpean are primarily fishing in stocked ponds either commercial fishery or sydnicate that farm-raised carp has no predators. The fishing resource in China is worse than the US. I have watched some US carp fishing vidoes(some chinese people cane poling in Califormnia and catch lots of carp fish with good size) , which its wild water is more simmilar to my case but the density there is still much higher than here. I dare challenge those carp fishings masters come to China and test themselves on the real battlefield :)
 
 
 
