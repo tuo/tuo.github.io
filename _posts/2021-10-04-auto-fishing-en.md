@@ -39,7 +39,7 @@ By talking with local anglers , they said the big fish is very hard to catch, us
 
 But once they got the bite, the feeling is so rewarding that previous efforts and boring wating is allll worthy it. Esp for pole fishing, picking up the rod、 jerking the line 、 pull it hard and setting the hook when you saw the marker float suddely dipped in then play/fight the fish, the feeling of tremors pass through the line,  adrenaline inside you,  that  is most exciting part of angling.
 
-However fishing with rods and reels has a great adavnage for big size fish over fishing with pole. It could cast out a longer distance and possibly reach out to more fishes. Another important advice from veteran anglers is that you better pick a quiet time to fish as they are spooky and sensitive to any noise from the bank. 
+However fishing with rods and reels has a great adavnage for big size fish over fishing with pole. It could cast out a longer distance and possibly reach out to more fishes. A
 
 I still remember when I was a kid, I use self-made bamboo pole and earthworm that digged out of my backyard to catch fish which is pretty effective and simple. Nowdays it is jaw-dropping to know that fishing gears and equiments are getting so complicted and segemnted,coming with so many variations. Take a look at the pole fish gears in China and correspondings in West:
 
@@ -117,6 +117,7 @@ The unpredictability is sth you can't control, but the process is sth you can co
 
 So I'd suggest those commerical tackle companies could put one-liner as a disclaimer to show their frankness/deep respect/sincere care for fishing in their promotion videos on the youtube: `"It depends!"`
 
+ps: I like 
 
 ## Fishing Scenario
 
@@ -183,25 +184,29 @@ Here is some graphcs that germany fishery lab did on a nature water pond/lake. T
 ](https://www.youtube.com/watch?v=1R0FanSTyOw&ab_channel=Storyful) and this [People stuffed onto a train in Tokyo, Japan (train stuffing Tokyo)](https://www.youtube.com/watch?v=E7kor5nHtZQ&ab_channel=TheFatFinger) :)
 
 
-Another interesting observation,  we might think as the temperature and oxygen levels drops to the lowest point during the midnight, to that extent, that  fish will simply stop all kindas activity -  statue of sluggish. However the graphic shows they actually are still moving around during what we perceived as "the worst time of day".
+Another interesting observation,  we might think as the temperature and oxygen levels drops to the lowest point during the midnight, to that extent, that fish will simply stop all kindas activity -  Sleeping Ariadne, a statue of sluggish. However the graphic shows they actually are still moving around during what we perceived as "the worst time of day".
 
-That just shows how we project what we think on behalf of the fish. What you think fish should do != what fish does on its own. You can't know what fish is thinking(suppose it has a thinking in whatever you might named it  - dao/god/natura naturans), instead you could only guess from their behaviors.  To anaylze behaviors and actions,  we could borrow from Francias Bacon's scientifc method.  Namely put our prejudices 、preconception and old sayings/claims under inspection, careful observation on the fact,   tabulation and classification on factors that possibly lead to the fact，setup experiments to verify etc - investigative method to form a empirical study which not based on ideas and theories. don't get me wrong，I'm not saying that you should overwhelm yourself with everything by yourself (the earth is flat)- some you could stand on the shoulder of gaint.  A good way is to identify what's [hard science and soft science](https://en.wikipedia.org/wiki/Hard_and_soft_science).  Angling is pretty much like sociology and economics, it is very hard to do a controlled experiment - there are simply too many factors involved and isolation becames pretty much impossilbe to do. You could angle with same bait/same fish tackle, in same swim , in same season and pretty much same sunny day, same temperature/wind from weather report, but very likely you have different results - to say the least - maybe a full fishing keepnet or just blank - never you got same result.
-
-From my experience and ponder-over, sometimes , as angler, maybe we need shift our perspective from chasing after certaintiy(conventional wisdom) to getting along with probability and statistics - i.e - uncertaninty. I will elaborate more on this in following secions.
-
-However shifted to thinking in terms of probabiliy and statistics, doesn't mean  you dont' wahter you want to or just being clueless like headless chicken or dont need any logic and reasoning. Well, quite to the contrary, you need do your homework(If there is one silverbullet) like what Joel Greenblat said in [<<The Little Book That Beats the Market>>](https://www.amazon.com/Little-Book-Still-Beats-Market/dp/0470624159) -  it requires careful design the experiment based on as much as possibly pre-collected data at your hand, welly and thourlghy analyzed , then took a reasonable guess, apply it via some trial and error. (ps: well, you just angle for first couple of times,  you might got the beginner's luck - you could laught at me - but hey bloke - your sample size is too small...)
-
-In my case, the depth of the mountain side is like 5-6 meters deep from about 4-5 meters close to bank. It could even deeper farther way. On the other side , the shallow side, is like 2-3 meters deep from 4-5 meters - since I only do pole fish  and never use surf rod bebfore. I have no idea bout about what's depth of 20-30 - 50 meters away. Given what I know, it looks 3-8 meters depth could be a good ballkpark for winter from shallow side to try out first.
+That just shows how we by defaut just like to put carp in ourselves shoes. What you think fish should do based on your personal/human experience and feeling != what fish does in its own way. You can't know what fish is thinking(suppose it has a thinking in whatever you might named it  - dao/god/natura naturans), instead you could only guess from their behaviors. That's always a good reminder esp when you're watching those commercials touting how good they are.
 
 
+In my case, the depth of the mountain side is like 5-6 meters deep from about 4-5 meters close to bank. It could even deeper farther way. On the other side , the shallow side, is like 2-3 meters deep from 4-5 meters - since I only do pole fish  and never use surf rod before. I have no idea about what's depth of 20-30 - 50 meters away. Given what I know, it seems that 3-8 meters depth could be a good starting point for winter from shallow side to try out first.
 
-**Distance**
+About the methods to plumb the depths, no advanced Sonar or Depth Finder or Fish Finder needed, just use old-fashioned way in cane pole fishing - fishing line with a sinker and a bobble float - cast out a couple of times and adjust bobble's position along the line to get a ballpark. It is simple and cheap to do but just a little bit time-consuming.
 
-Along the previsouly mentioned old saying "The deeper the better", there is another corresponding old saying "The further the better" for casting. Conventional wisdom or those old sayings are good start point at first,  but never it shall be treated as something like doctrine. Those sayings are generally short , high condensed, and concise abstractions , well, at the sacrifice of leaving out full context and details of specific cases. They are best served as guidance(outward), and you need to dig it out by yourself(inward) - Turning outward guidances into intward experience. As Bruce Lee says in <<Enter the dragon>>：
 
->  "Don't think. FEEEEEEEEL! It's like a finger pointing away to the moon. Do not concentrate on the finger or you will miss all of the heavenly glory!"
+### Distance
 
-If you're doing pole fishing, you know from probiliity perspective, the longer the rod and line, the higher chance you could catch big size fish. Why? because often the closer to bank, typically the shallower the water would be,  espec in day time, more noisy it would be - which is not a safe place for big fish(Carp is really smarter and more spooky than what you think they might be) to hide. Even so, veteran anglers still would cast out a couple of rods to test depth around the target fish spot -left,right, front or back -  to get a better idea about the lakebed terrain. This is very nature for pole fishing since it has marker floating and it is quite easy to test out the water depth from disntance of 2 meter - 10 meters. But for surf rod fishing it is little bit tricky, for it doesn't have a marker floating buit-in.  
+Along the previsouly mentioned old saying "The deeper the better", there is another saying "The further the better". And it does make some sense. If you have done pole fishing before, then you know, that the longer the rod and line, the higher chance you could catch big size fish. Why? because often the closer to bank, typically the shallower the water would be, espec in day time, more noisy it would be. But how far it should be? is it the further the better? Well not always, you also need think in terms of whole lakebed shape and surrounding conditions from a bird's-eye view.
+
+For axmple, (图片） 有障碍物和中心
+
+In above picture, the center of lake is deeper than the ones close to be bank. But it is not the best one to fish in the wintertime as it doesn't have any covers. Covers like reeds/lotus/trees could provide warmer shelter comparing to the open water. Even if you couldn't find any covers, and it is not necessary to just focus on the distance - you have to think about the depth and other factors. Think about 100 meters far away with depth of 30 centermeters vs 50 meters away with depth of 3 meters given we know the basic depths of this lake. What's the chances of big size carp showing up in those two cases?
+
+It is important to cast out a couple of rods to test depth around the target fish spot - left,right, front or back -  to get a better idea about the lakebed neary the spot , is it a slope or sharpe drop-off or basin? Don't exaggerate one factor too much - you really dont need to cast out to 150 meters away most of the time.
+
+
+
+
 
 It is not uncommon for some surf rod anglers just to rush to start fishing - cast out extremely long distance without much thought as soon as they arrived at the lake, and spend lots of time waiting on the bank, yet they didn't wanna just spend a few casts to test out the water depth and lake bed terrain of fish spot beforehand. They just go there, mount the hookbait and cast out whereever they want, then just wait like "I'm done with work on my side, it is the fish - your turn to bite".  Yes, they still coud get a bite from fish and caught it , no doubt.  But hmmm, lets take another proablbity game -  basetketball as exmaple , the goal of shooting  is to get basketball throught he hoop and score. Well think about it is the last shot - a possible buzzbeater,  there are two game plans from coache - one is Micachel Jordan or Kobe Byrant is taking the shot , if they got the cold hands(look : self-proclaimed GOAT [🐑](https://emojipedia.org/ewe/)Lebron James only got 8 points in the nba finals...) and it is highly possible for them to miss it; another is a nobody like me taking the shot, if I got the hot hand(every dog has its day), I might hit it.  But nonobyd would think I'm better than Micachel or Kobe, because they could do it consistently and with solid fundamentals of pyshican and mental - some of them is from hard-work training and desire to strieve for greatness and push theirself ot the limit . 
 
@@ -313,3 +318,4 @@ Psychology of Human Misjudgment https://fs.blog/great-talks/psychology-human-mis
 
 https://carphideout.co.uk/carp-rigs/
 https://www.carpology.net/article/bait/how-to-get-more-out-of-pva-bags/
+https://www.harrissportsmail.com/uk/blog/measure-water-depth
