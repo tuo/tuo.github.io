@@ -40,7 +40,7 @@ After I observed from and talked with those local anglers here, they are angling
 An idea just popped into my head. How about making this waiting process kinda non-attended? Then in rainy days or on snowing/windy days or cold times like the second half of the night and dawn, the fishing is just happening there and you don't need to stay on the bank (even though surf rod fishing could be more comfortable and less concentration required comparing to pole fishing). So your time could be freed up to do other things and when fish got a bite, it triggers something and notify you via something like Wechat/Telegram or just a call - like interrupts in MCU.
 
 
-## Norway Fishing Industry/Vibe
+## Nowadays Fishing Industry/Vibe
 
 I still remember when I was a kid, I use a self-made bamboo pole and earthworm that dug out of my backyard to catch fish which is pretty effective and simple. Nowadays it is jaw-dropping to know that fishing gears and equipment are getting so complicated and segmented, coming with so many variations. Take a look at the pole fish gears in China and correspondings in the West:
 
