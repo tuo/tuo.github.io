@@ -22,7 +22,7 @@ But when I switched from pond to nature water like big lake - reservoir, I had s
 
 <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/reservior.jpg" style="zoom:80%;display:flex;" />
 
-<cite>Good nature view and there also has paragliding there. Top left I'm trying fishing the bighead carp with 5.4 pole.</cite>
+<cite>Good nature view and there also has paragliding there. Top left I'm trying fishing the bighead carp with 5.4 pole. BTW: I'm coming from the central part of China, Hunan Province.</cite>
 
 
 And I could say that fish that with weight over 1.5Kg ~ 2.5KG could be called - BIG size fish here. There are some fish with weight over 20kg - 50kg (last time, one of my friend caught a grass carp over 12KG~24LB using pole in this reservoir), but that's pretty rare. The type of carp here is almost all grass/common with super super rarely you could get a mirror, let alone any black/scaly carp type.
