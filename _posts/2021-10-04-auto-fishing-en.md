@@ -6,10 +6,13 @@ published: false
 tags: fishing, life
 ---
 
+
+I always have the following questions and impressions on fishing big-size carps:
+ 
 * winter - cold freezing? (bivvy is not even good enough)
 * not that much time for day session? (need work and away from the big city)
 * the second half of the night (00:00 - 07:00) - Low temperature, low metabolism. what's the behavior of carp? any bite? how likely? It is said that larger fishes are more active at night and dawn.
-* wild water  big lake nature water ( not small pond or commercial fishery or syndicate)
+* wild water? big lake nature water (not small pond or commercial fishery or syndicate)
 * simple baits will work? need for fancy and expensive commercial baits?
 
 I only have some pole fishing experience, but not that much. In China, pole fishing is the prevailing fish style. People like the feeling of an adrenaline rush when there is a fish on your pole. I still remember how wicked and satisfying the feeling is when I got a grass carp like 7-8 lb using 5.4 meters long pole and sweet corn.
@@ -137,7 +140,7 @@ But we also need some heartbeat to know that the device is running properly. Eve
 
 Keywords: wild water、big-size carp、automatical, winter、night, and dawn(fish behavior).
 
-A quick recap: As previously said, I have seen lots of local anglers(some of my friends) spending lots of time on the bank just waiting for a bite using the pole. And in carp fishing of UK/US this got a little bit better with bivvy/coffee maker/cookware etc esp in the raining and snowing days but just too cumbersome&expensive to carry around. Still staying up the whole night in the wild doesn't seem to be a relaxing and comfortable experience. Fishing in the second half of the night is pretty rare to see and possibly a quite new territory to explore just out of my curiosity. That's exactly why I got this idea: non-attended carp fishing. 
+A quick recap: As previously said, I have seen lots of local anglers(some of my friends) spending lots of time on the bank just waiting for a bite using the pole. And in carp fishing of UK/US this got a little bit better with bivvy/coffee maker/cookware etc esp in the raining and snowing days but just too cumbersome&expensive to carry around. Still staying up the whole night in the wild doesn't seem to be a relaxing and comfortable experience. Fishing in the second half of the night is pretty rare to see. It is just so intriguing to me and possibly a quite new territory to explore about fish's nocturnal behavior. That's exactly why I got this idea: non-attended carp fishing. 
 
 Before I jump right to the automatical part - trigger device and how it works, like an old saying "A beard well lathered is half shaved", I need to analyze what kinda fishing strategy would fit in the overall big picture.
 
