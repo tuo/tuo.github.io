@@ -260,6 +260,10 @@ Feel the same urge of just imitating or copying whatever those glowing/shining m
 
 Back to my case, rice - from observation of rice field, and feed corn (or maize) -  from local anglers, is picked as candidates for the carp bait. Clearly, I don't want to wait for hours to get small nuisance fish bites, so the rice or pellets or small particles will be excluded. Since I'm gonna leave it under the water for 1-2 days(no rebait), those baits shouldn't be easily dissolved or lose their liveness like live bait. So no pack bait/method feeder is gonna be used here. The big solid particles like feed corn(its hard kernel) is a perfect fit and the most important part is it is on a budget and so simple to prepare. Buy some feed corn, soak it and boil it, if you'd like - not necessary- could try an experiment by adding some molasses or alcohols like Baileys or Tsingtao beer or hemp oil later.(Who knows! I have some Turmeric&Curry&Coriander&Garam masala powder left from last time trying to cook Indian food, and I might add those to test out). One downside of it is that adding those sugar or powder additives could make corn ferment quickly and rot faster.
 
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/cinamumo.jpg" style="zoom:50%;display:flex;" />
+
+<cite>There are a lot of Cinnamomum camphora trees on the mountain. Maybe we could try prefeeding/prebaiting with its ripe seed. It has a very strong natural scent if you leave it for a few days. It is kinda hard to put it up on the hook as it has a pretty hard kernel</cite>
+
 After picking the bait for feeding, the next thing is about the feeding strategy. The most reasonable one is to take a little bit of time to just chum some baits to the same spot every day(like one week or one month) before you get your rods out and start fishing. But it is impossible for me as I only got 4-7 days holiday break and I don't want to spend too much time on the bank to fish - I only got one hour break each day to go outdoors for fishing(family first) - that's exactly why I come up with an idea about auto carp fishing. To make it up, I decide to choose one fishing spot and bait there instead of moving around the lake on the bank. Here is my two cents on how to effectively attract fish in big nature water by feeding/baiting:
 
 <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/dawo_en.jpeg" style="zoom:67%;display:flex" />
@@ -286,7 +290,7 @@ In the above picture and videos, that is a homemade spod with a bottle and a lea
 
 ### Rigs 
 
-A quick recap on the fish tackles: 2.7 meters long rod($4~24RMB)、5000 reels ($3-$4~20RMB")、braided line with the size of 8 and 8 strands($2~12RMB)、a slim bobber float($1~6RMB)、80g~2.8oz sinker($0.5~3RMB)、 hair rig of big size 4 circle hook with pop-ups buoyant bait、smaller size 7 Izu Iseni hook for bottom bait with feed corn. To be honest, I have some doubt about using fake bait like plastic corn as bait even though it has a great advantage here: Fish couldn't steal it, and no need to rebait the hook.
+A quick recap on the fish tackles: 2.7 meters long rod($4~27RMB)、5000 reels ($3-$4~20RMB")、braided line with the size of 8 and 8 strands($2~12RMB)、a slim bobber float($1~6RMB)、80g~2.8oz sinker($0.5~3RMB)、 hair rig of big size 4 circle hook with pop-ups buoyant bait、smaller size 7 Izu Iseni hook for bottom bait with feed corn. To be honest, I have some doubt about using fake bait like plastic corn as bait even though it has a great advantage here: Fish couldn't steal it, and no need to rebait the hook.
 
 The only southwest part of China in Sichuan and Chongqing use similar fake bait, but not my hometown or province - like never. Most people here rarely use any kinda pop-ups bait or circle hook, instead, they are inclined to use bottom bait with iseni hook for big-size fish. For people fishing with a pole, they only use a maximum of two hooks for each. However, for people fishing with rod and reel, they just use a few hooks. Let's take a look at two or three most frequently used multi-hook patterns:
 
@@ -307,10 +311,20 @@ Apart from adding more hooks to increase the odds, adding more rods could also g
 
 In this article, we have covered the angling strategy that we're gonna use for the carp fishing, tailed to the unique fishing scenario and non-attended fishing style. Those are the building blocks for the next chapter, which we're gonna elaborate on the device - how to set up the trigger, read whether got a bite from fish, and call my cellphone to notify.
 
+# My Gears' Price
+
+"Wait, I'm just from [Fox International Products](https://www.foxint.com/home/products/?mobile=true),[Korda](https://www.anglingdirect.co.uk/fishing-tackle-brands/korda?page=1)(I feel Korda offers some cheap ones, not sure) and [Gardener](https://gardnertackle.co.uk/products/). Don't fool me, show the real price of those gears. How could it be possible to have such decent quality with low price?"
+
+Well, there you go: 
+
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/my_gears.jpg" style="zoom:100%;display:flex;" />
+
+<cite>I bought from Pinduoduo(PDD) and Taobao(TB). Actually, the most expensive one is the rigs. I don't think I need 6 hooks therefore it could be even cheaper.</cite>
+
 
 ## References
 
-Some misc books:
+Some good reads:
 
 * [Charlie Munger: Psychology of Human Misjudgment](https://fs.blog/great-talks/psychology-human-misjudgment/)
 * [David Hume: An Enquiry Concerning Human Understanding](https://en.wikipedia.org/wiki/An_Enquiry_Concerning_Human_Understanding)
