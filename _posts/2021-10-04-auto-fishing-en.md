@@ -2,7 +2,7 @@
 layout: post
 title: "Auto Carp Fishing Part 1 - Fishing Basics"
 date: 2021-12-04 12:55:32 +0800
-published: false
+published: true
 tags: fishing, life
 ---
 
@@ -237,7 +237,7 @@ With those being said, it is always good to spend sometime beforehand looking at
 
 How do they define whether it is good or not? I saw lots of angler smell the bait, but come on, you need also taste(just give a chew and expell it out) the bait too, but no one did that :)  If the bait smells good for them, then they will think it could attract more fish than those which smells bad. Even though the way that those molecules trasmitting through air is different from those trasmitting through water, let alone different receptors and mechanism between human being and fish. Ask you this: **How do you know for carp, which sense is more important and plays a bigger role ? olfactory or gustatory ?** It seems like most people thinking the answer is the olfactory sense based on what I previously saw. Well I did some googling and found some research on this topic and in this paper [<<Feeding stimulants in an omnivorous species, crucian carp Carassius carassius>>](https://www.sciencedirect.com/science/article/pii/S2352513416300576) , it mentioned some experiments on feeding stimulants and it shows that conventional thinking is possibly wrong (at least under that experiment):
 
-《图片》
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/fish_research.png" style="zoom:50%;display:flex;" />
 
 <cite>Take it as some reference. Do your experiment and try it out, just don't fall into this automatic and non-examined thinking pattern</cite>
 
@@ -299,14 +299,6 @@ Apart from adding more hooks to increase the odds, adding more rods could also g
 In this article we have covered the angling strategy that we're gonn ause for the carp fishing , tailed to the unique fishing scenario and non-attended fishing style. Those are the buildingblocks for next chapter, which we're gonna elaborate on device - how to setup the trigger, read whether got a bite from fish and call my cellphone to notify.
 
 
-TODO: 保证鱼不容脱钩发力
-
-* 泄力 - 比如弹簧 或者橡皮筋 rubber band or fabric latex
-* 铅坠 - 活动 - 这样鱼不会那么会摆动
-* 缓冲 - 加多10米的线在岸上 冬天鱼的活力没那么好 metabolism
-* open water, less snags or structure (rock formations/too much weedy)
-
-
 ## References
 
 Some misc books:
@@ -323,9 +315,7 @@ Some good ones and recommended:
 * Telemetry of all kindas fishes with good visual information: [Youtube Channel: IFishMan](https://www.youtube.com/channel/UCUz29_JLUn5sm5vGkPMaAvw)
 * Comparing to commercial tackle makers, I enjoy a lot more from individual's full angling journey. Catfish and Carp from US is just such a good yet down to earth one. [Youtube Channel: Catfish and Carp](https://www.youtube.com/channel/UCzWn_gTaXyH5Idyo8Raf7_A)
 * [Outside with Tom](https://www.youtube.com/c/OutsidewithTom/videos) is another angler from Texas. Fun to watch.
-* Even though I don't quite like the UK's branded videos. There guy one exception: [Adam Penning](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing) 
-
-
+* Even though I don't quite like the UK's branded videos. This guy is one exception: [Adam Penning](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing) 
 
 Others articles and books on carp fishing:
 
