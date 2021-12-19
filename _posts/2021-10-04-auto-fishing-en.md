@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Auto Carp Fishing Part 1 - Fishing Basics"
+title: "Auto Carp Fishing Part 1 - Catch Big Carp In China"
 date: 2021-12-04 12:55:32 +0800
 published: true
 tags: fishing, life
@@ -9,7 +9,7 @@ tags: fishing, life
 
 I always have the following questions and impressions on fishing big-size carps:
  
-* winter - cold freezing? (bivvy is not even good enough)
+* winter - cold freezing? (bivvy is not even good enough so people just hang up their rods)
 * not that much time for day session? (need work and away from the big city)
 * the second half of the night (00:00 - 07:00) - Low temperature, low metabolism. what's the behavior of carp? any bite? how likely? It is said that larger fishes are more active at night and dawn.
 * wild water? big lake nature water (not small pond or commercial fishery or syndicate)
@@ -31,6 +31,11 @@ But when I switched from pond to nature water like a big lake - reservoir, I had
 And I could say that fish that with a weight over 1.5Kg ~ 2.5KG could be called - BIG size fish here. There are some fish with a weight of over 20kg - 50kg (last time, one of my friends caught a grass carp over 12KG~24LB using a pole in this reservoir), but that's pretty rare. The type of carp here is almost all grass/common with super rarely you could get a mirror, let alone any black/scaly carp type.
 
 After I observed from and talked with those local anglers here, they are angling with 8.1 meters - 10-meter long telescopic pole, prefeed/prebait with feed corns like every day in the same swim, then start fishing all the day. Going blank is not uncommon, and they might catch a big one after waiting for weeks. Sometimes they are also trying surf rod to casting out with long distance with pack bait and rebait every two hours but still no luck. There was a time when I tried fishing with 5.4 meters pole with corn on the bank of the reservoir, I saw two anglers nearby me using 10 - 12 meters pole just keep baiting with a spoon and rebait their hook and the whole afternoon, no single bite and they ended up with just playing their phones :) 
+
+<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/fishing_spirit.jpg" style="zoom:80%;display:flex;" />
+
+<cite>Winter fishing under minus 20 degree. That's the angling spirit of Chinese anglers! No bivvy, no coffee maker, no tea kettle, no barrow, just a kinda genuine and pure form of primitivism in the name of Dionysus :)  </cite>
+<cite>video source: [https://v.douyin.com/8JRKLm8/](https://v.douyin.com/8JRKLm8/) </cite>
 
 An idea just popped into my head. How about making this waiting process kinda non-attended? Then in rainy days or on snowing/windy days or cold times like the second half of the night and dawn, the fishing is just happening there and you don't need to stay on the bank (even though surf rod fishing could be more comfortable and less concentration required comparing to pole fishing). So your time could be freed up to do other things and when fish got a bite, it triggers something and notify you via something like Wechat/Telegram or just a call - like interrupts in MCU.
 
@@ -64,10 +69,10 @@ Surely, good equipment tackles and gears could bring better angling experience, 
 
 <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/tough_road.jpg" style="zoom:50%;display:flex;" />
 
-<cite>ps: Even though I'm pretty back to primitivism with just a single fishing bag and a washbasin for fish and as a possible trash bin, I still feel a little bit exhausted when climbing up and downs. Don't tell me that somebody fancy carrying a barrow of heavy gears around in here.
+<cite>ps: Even though I'm pretty much a minimalist with just a single fishing bag and a washbasin for fish and as a possible trash bin, I still feel a little bit exhausted when climbing up and downs. Don't tell me that somebody fancy carrying a barrow of heavy gears around in here.
 </cite>
 
-Those commercial tackle companies mainly target recreational fisheries like ponds or farm-raised syndicates, not for wild fishing. Isn't recreational fishing supposed to be simple, lightweight, and relaxing instead of a ...a barrow? Early Church Fathers and later Meister Eckhart, must feel kind of offended by the Roman Curia's long and boring church services, ceremonies, and rites (In nomine Patris, et Filii, et Spiritu Sancti. Amen - people just couldn't bear with it, so much so that they coined a word in Spanish for it: santiamén).
+Those commercial tackle companies mainly target recreational fisheries like ponds or farm-raised syndicates, not for wild fishing. Isn't recreational fishing supposed to be simple, lightweight, and relaxing instead of a ...a barrow? Early Church Fathers and later Meister Eckhart, must feel kind of offended by the Roman Curia's long and boring church services, ceremonies, and rites (In nomine Patris, et Filii, et Spiritu Sancti. Amen - people just couldn't bear with it, so much so that they coined a word with the last two words - Sancti. Amen -  in Spanish for it: santiamén).
 
 Unless you're a professional angler or angler that have a lot of time, just fishing for the fun and blending in with nature to be like a Dionysian of Nietzsche during the precious break, then fishing in wild water is the way to go and no need for top-notch gears/baits to get started.
 
