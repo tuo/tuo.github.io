@@ -327,9 +327,9 @@ Others articles and books on carp fishing:
 * [HOW TO CAST A CARP ROD ACCURATELY](https://www.anglingtimes.co.uk/advice/tackle/how-to-cast-a-carp-rod-accurately/)
 * [How To Cast More Accurately When Fishing](https://www.youtube.com/watch?v=wtc_oa77aFM&ab_channel=FishingTutorials)
 * [How to Catch Carp - Best Bait Recipe: Cured Corn](https://www.youtube.com/watch?v=JUsS7gE69IE&ab_channel=CatfishandCarp)
-* [Darrell Peck UK PB 50lb+ Common | Cracking the Coconut | Carp Fishing Korda 2018](https://www.youtube.com/watch?v=E1QkF1ME-qE&ab_channel=KordaTVCarpFishing)
+* [Darrell Peck UK PB 50lb Common - Fishing Korda 2018](https://www.youtube.com/watch?v=E1QkF1ME-qE&ab_channel=KordaTVCarpFishing)
 * [The TRUTH About Carp Bait - Does Bait REALLY Matter? (USA Carp Fishing)](https://www.youtube.com/watch?v=w6UEuhNxcNY&ab_channel=OutsidewithTom)
-* [THROWBACK! Winter Carp Fishing Day Sessions with Adam Penning | Part 1](https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing)
+* [THROWBACK! Winter Carp Fishing Day Sessions with Adam Penning - Part 1](https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing)
 * [An American Carp Fishing Experience (Wild Carp Fishing)](https://www.youtube.com/watch?v=URxWuKeeYQA&ab_channel=OutsidewithTom)
 * [How Adam Penning Approaches Autumn Carp Fishing](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing)
  
