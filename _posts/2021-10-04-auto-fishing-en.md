@@ -153,6 +153,17 @@ Before I jump right to the automatical part - trigger device and how it works, l
 
 I learned many tips and techniques from European carp fishing through videos and books. However carp fishing in China, esp wild carp in wild water - in my case a big reservoir - its behaviors are quite different from European style as Enourpean are primarily fishing in stocked ponds either commercial fishery or syndicate that farm-raised carp has no predators. The fishing resource in China is worse than in the US. I have watched some US carp fishing videos(some Chinese people cane poling in California and catch lots of carp fish with good size), which its wild water is more similar to my case but the density there is still much higher than here. I dare challenge those carp fishings masters to come to China and test themselves on the real battlefield :)
 
+A not very accurate and kinda close summary of fishing conditions in three regions:
+
+```
+| Region     | Water           | Density         |
+| ---------- | --------------- | --------------- |
+| UK(Europe) | Paid fishery    | High Stocked    |
+| US         | Wild/free water | Medium Stocked  |
+| China      | Wild/free water | Low Stocked     |
+```
+ 
+
 Ps: US fishing style is the closer Chinese one, not that fancy like UK's. I prefer to watch carp videos from US anglers as their fishing strategy(more lightweight) and conditions(wild water) and personal journey(no so-called masters just individual anglers who likes fishing) are kinda similar to ours here, instead of the UK where lots of tackle companies(commercials are too on-the-nose).
 
 As said previously, there is no secret bait, no magic gear that will surely give you a bite. Even if you have the best rod and reel、most expensive bait、fanciest and most elegant barrow in the world, all that stuff doesn't make a lick of difference if you're not putting your bait in front of the fish.
