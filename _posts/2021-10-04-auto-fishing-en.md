@@ -3,16 +3,16 @@ layout: post
 title: "Auto Carp Fishing Part 1 - Fishing Basics"
 date: 2021-12-04 12:55:32 +0800
 published: false
-tags: fishing,life
+tags: fishing, life
 ---
 
-* winter - cold freezing ?(bivvy not even good enough)
-* not that much time for day session ? (need work and away from big city)
-* second half of the night (00:00 - 07:00) - Low temperature, low metabolism. what's the behavior of carp ? any bite ? how likely? It is said that larger fishes are more active at night and dawn.
-* wild water ? big lake nature water ( not small pond or commericial fishery or syndicate)
-* simple baits will work ? need for fancy and expensive commercial baits?
+* winter - cold freezing ? (bivvy not even good enough)
+* not that much time for day session? (need work and away from big city)
+* the second half of the night (00:00 - 07:00) - Low temperature, low metabolism. what's the behavior of carp? any bite? how likely? It is said that larger fishes are more active at night and dawn.
+* wild water  big lake nature water ( not small pond or commercial fishery or syndicate)
+* simple baits will work? need for fancy and expensive commercial baits?
 
-I only have some pole fishing experiences, but not that much. In China, pole fishing is the prevailing fish style. People like the feeling of adrenaline rush when there is a fish on your pole. I still remember how wicked and satisfying the feeling is when I got a grass carp like 7-8 lb using 5.4 meters long pole and sweet corn.
+I only have some pole fishing experience, but not that much. In China, pole fishing is the prevailing fish style. People like the feeling of an adrenaline rush when there is a fish on your pole. I still remember how wicked and satisfying the feeling is when I got a grass carp like 7-8 lb using 5.4 meters long pole and sweet corn.
 
 <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/my_catches.jpg" style="zoom:50%;display:flex;" />
 
@@ -144,6 +144,8 @@ Before I jump right to the automatical part - trigger device and how it works, l
 
 I learned many tips and techniques from enourpean carp fishing through videos and books. However carp fishing in China, esp wild carp in wild water - in my case a big reservior - its behaviors are quite idfferent from enourpean style as Enourpean are primarily fishing in stocked ponds either commercial fishery or sydnicate that farm-raised carp has no predators. The fishing resource in China is worse than the US. I have watched some US carp fishing vidoes(some chinese people cane poling in Califormnia and catch lots of carp fish with good size) , which its wild water is more simmilar to my case but the density there is still much higher than here. I dare challenge those carp fishings masters come to China and test themselves on the real battlefield :)
 
+Ps: US fishing style is closer Chinese one, not that fancy like UK's. I prefer to watch carp videos from US anglers as their fishing strategy(more lightweight) and conditions(wild water) and personal journey(no so-called masters just individual anglers who likes fishing) are kinda simimlar to ours here, instead of UK where lots of tackle companies(commercials are too on-the-nose).
+
 As said previsouly, there is no secret bait, no magic gear that will surely give you a bite. Even if you have best rod and reel、most expensive bait、fanciest and most elegant barrow in the world, all that stuff doesn't make a lick of differnce if you're not putting your bait in front of the fish.
 
 One big factor of consistent catch is just find where fish are, esp in the winter. Location is crucial!
@@ -233,20 +235,25 @@ Generally the feeding habit of carp is most fixed and stable like routine - eat 
 
 With those being said, it is always good to spend sometime beforehand looking at the surrounding of fishing location、talking to local angler to get a good idea about what kinda feeding/baiting feed are best for. Some anglers boast about the effectiveness of some baits with certain flavors or scents. They tend to promote and show how good they are based on their experience so it must be good for others too,  without realizing it could be just a cognitive trap or bais: `"Rules for me, not for thee"`.
 
-How do they define whether it is good or not? I saw lots of angler smell the bait, but come on, you need also taste the bait too, but no one did that :)  If the bait smells good for them, then they will think it could attract more fish than those which smells bad. Even though the way that those molecules trasmitting through air is different from those trasmitting through water, let alone different receptors and mechanism between human being and fish. `sola dosis facit venenum` - how much is the approriate one to be defined as a natural flavor and scent level for the fish? It should have some range, isn't it?
-Is it always "the more the better"? To how much it could just backfire? Some flavors or scents or chemicals which works well for fish in separate form, but when got mixed together could have a totally negative effect on the fish.
+How do they define whether it is good or not? I saw lots of angler smell the bait, but come on, you need also taste(just give a chew and expell it out) the bait too, but no one did that :)  If the bait smells good for them, then they will think it could attract more fish than those which smells bad. Even though the way that those molecules trasmitting through air is different from those trasmitting through water, let alone different receptors and mechanism between human being and fish. Ask you this: **How do you know for carp, which sense is more important and plays a bigger role ? olfactory or gustatory ?** It seems like most people thinking the answer is the olfactory sense based on what I previously saw. Well I did some googling and found some research on this topic and in this paper [<<Feeding stimulants in an omnivorous species, crucian carp Carassius carassius>>](https://www.sciencedirect.com/science/article/pii/S2352513416300576) , it mentioned some experiments on feeding stimulants and it shows that conventional thinking is possibly wrong (at least under that experiment):
+
+《图片》
+
+<cite>Take it as some reference. Do your experiment and try it out, just don't fall into this automatic and non-examined thinking pattern</cite>
+
+
+Another question is :  `sola dosis facit venenum` - how much is the approriate one to be defined as a natural flavor and scent level for the fish? It should have some range, isn't it?
+Is it always "the more the better"? To how much it could just backfire and get a reverse effect? It is important to know what kind of molecules have either effect. Let alone some flavors or scents or chemicals which works well and stimulate for fish in separate form, but when got mixed together could be a deterrent that have a totally negative effect on the fish.
 
 Some [Wu Wei/Taoism](https://en.wikipedia.org/wiki/Wu_wei) wisdom and a saying from Jesse Livemore - *Money is made by sitting, not trading*,  if you don't know the mechanisam and its chemical of all those additives, then dont' add it. You don't need to react to that urge to take any excrescent action do sth extra to give your more pseudo aka "Out of Thin Air" confidence or just make you feel better. How? by cultivating some awareness to learn more about yourself.
 
 Feel the same urge of just imitating or copying whatever those glowing/shining masters do in the videos, no need to look up to them and blindly accept everything from what they say. Put everything on the table and examine it, debunk some myth from those chrismastic authority in a logic way. For bait, you could use homemade ones with lots of options like panko、bread crumb、instant oat meal、grits、cereal、bird seeds、feed corns、grains mixing with some jello gelatin/molasses/beer. Those are natural ingredients and cheap and easy to find. Sweetcorn is very juciy and perfect for fishing during summer. Sweetcorn is my favorite and you could buy the canned sweetcorn and cream for the winter. Boilies are also pretty good which made of doughs - easy to keep,no stinks, convient - it keeps small fish away and help you catch the big size fish.You could also buy commercial ones and it is not big deal. I'not a contemporary cynicism and hate every commercials.I do like the style and franknesss from [Adam Penning](https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing) among other carp anglers.
-
 
 Back to my case, rice - from obervation of rcie field, and feed corn (or maize) -  from local anglers, is picked as candidates for the carp bait. Cleary I don't want wait for hours to get small nuisance fish bite , so the rice or pellets or small particles will be excluded. Since I'm gonna leave it under the water for 1-2 days(no rebait), those bait shouldn't be easily dissovled or lose its liveness like live bait. So no pack bait/method feeder is gonna be used here. Big solid particle like feed corn(its hard kernel) is a perfect fit and most important part is it is on a budget and so simple to prepare. Buy some feed corn, soak it and boil it, if you'd like - not necessary- could try experiment by adding some molasses or alcohols like Baileys or Tsingtao beer or hemp oil later.(Who knows! I have some Turmeric&Curry&Coriander&Garam masala powder left from last time trying cook indian food, and I might add those to test out). One downside of it is that adding those sugar or powder additives could make corn ferment quickly and rot faster.
 
 After picked the bait for feeding, next thing is about the feeding strategy. Obiviously most reasonable one is to take little bit time to just chum some baits to same spot every day(like one week or one month) before you really get your rods out and start fishing. But is is impossible for me as I only got 4-7 days holiday break and I really dont' want spend too much time on the bank to fish - I only got one hour break each day to go outdoors for fishing(family first) - that's exactly why I come up with an idea about auto carp fishing. To make it up, I decide to choose one fishing spot and bait there instead of moving around the lake on the bank. Here is my two cents on how to effectively attract fish in big nature water by feeding/baiting:
 
 <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/dawo_en.jpeg" style="zoom:67%;display:flex" />
-
 
 Basically we have the fish spot in the center, and feeding, i.e - corn- is evenly scattered around it forming a cricle with 3-5 meter radius. Loose chumming could possibly attract further fishes in a longer distance than precise baiting, as it could cover bigger and wider water area by its falvors and scents. Then we use pva bags or pva mesh to precisely bait right in the center this circle. Well this seems pretty ideal, the tricky part is how to get chumming like what hands can do but in a longer distance ? Slingshot、Spod、 pva bags/mesh、 gaint throwing sticks/baiting spoon even fishing bait boat couldn't do that easily.
 
@@ -302,30 +309,38 @@ TODO: 保证鱼不容脱钩发力
 
 ## References
 
+Some misc books:
 
-https://www.carpology.net/article/features/the-truth-about-a-carps-sense-of-smell/
-http://www.carp-fishing-tactics.com/science-carp-senses.html
+* [Charlie Munger: Psychology of Human Misjudgment](https://fs.blog/great-talks/psychology-human-misjudgment/)
+* [David Hume: An Enquiry Concerning Human Understanding](https://en.wikipedia.org/wiki/An_Enquiry_Concerning_Human_Understanding)
+* [Meister Eckhart: Selected Writings](https://www.amazon.com/Selected-Writings-Penguin-Classics-Meister/dp/0140433430)
+* [Nassim Nicholas: Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets ](https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219)
 
-https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing
+Some good ones and recommended:
 
-Psychology of Human Misjudgment https://fs.blog/great-talks/psychology-human-misjudgment/
+* A small pdf from Texas gov: [Take Me Fishing: A Basic Guide for the Beginning Angler](https://tpwd.texas.gov/publications/pwdpubs/media/pwd_bk_k0700_0639d.pdf)
+* Best underwater camera footages of carp feeding and caught!: [Youtube Channel: Underfishing](https://www.youtube.com/channel/UCnxjgkiDyGjJEcg2waDytqg)
+* Telemetry of all kindas fishes with good visual information: [Youtube Channel: IFishMan](https://www.youtube.com/channel/UCUz29_JLUn5sm5vGkPMaAvw)
+* Comparing to commercial tackle makers, I enjoy a lot more from individual's full angling journey. Catfish and Carp from US is just such a good yet down to earth one. [Youtube Channel: Catfish and Carp](https://www.youtube.com/channel/UCzWn_gTaXyH5Idyo8Raf7_A)
+* [Outside with Tom](https://www.youtube.com/c/OutsidewithTom/videos) is another angler from Texas. Fun to watch.
+* Even though I don't quite like the UK's branded videos. There guy one exception: [Adam Penning](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing) 
 
-https://carphideout.co.uk/carp-rigs/
-https://www.carpology.net/article/bait/how-to-get-more-out-of-pva-bags/
-https://www.harrissportsmail.com/uk/blog/measure-water-depth
-HOW TO CAST A CARP ROD ACCURATELY
-https://www.anglingtimes.co.uk/advice/tackle/how-to-cast-a-carp-rod-accurately/
-How To Cast More Accurately When Fishing
-https://www.youtube.com/watch?v=wtc_oa77aFM&ab_channel=FishingTutorials
 
-https://www.youtube.com/watch?v=JUsS7gE69IE&ab_channel=CatfishandCarp
-5 Best Carp Baits - How to Catch Carp - Carp Bait recipes and Tricks.
-https://www.youtube.com/watch?v=SDmw3IjRx54&ab_channel=CatfishandCarp
 
-https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing
+Others articles and books on carp fishing:
 
-8 Carp bait recipes - Homemade carp bait - How to catch carp
-https://www.youtube.com/watch?v=R4FNckAmMuY&ab_channel=CatfishandCarp
+* [How do carp smell?](https://www.carpology.net/article/features/how-do-carp-smell-/)
+* [A carp sense's smell](https://www.carpology.net/article/features/the-truth-about-a-carps-sense-of-smell/)
+* [10 BEST CARP RIGS & SETUPS (2021 WITH DIAGRAMS)](https://carphideout.co.uk/carp-rigs/)
+* [HOW TO GET MORE OUT OF PVA BAGS](https://www.carpology.net/article/bait/how-to-get-more-out-of-pva-bags/)
+* [HOW TO MEASURE WATER DEPTH WHEN FISHING](https://www.harrissportsmail.com/uk/blog/measure-water-depth)
+* [HOW TO CAST A CARP ROD ACCURATELY](https://www.anglingtimes.co.uk/advice/tackle/how-to-cast-a-carp-rod-accurately/)
+* [How To Cast More Accurately When Fishing](https://www.youtube.com/watch?v=wtc_oa77aFM&ab_channel=FishingTutorials)
+* [How to Catch Carp - Best Bait Recipe: Cured Corn](https://www.youtube.com/watch?v=JUsS7gE69IE&ab_channel=CatfishandCarp)
+* [Darrell Peck UK PB 50lb+ Common | Cracking the Coconut | Carp Fishing Korda 2018](https://www.youtube.com/watch?v=E1QkF1ME-qE&ab_channel=KordaTVCarpFishing)
+* [The TRUTH About Carp Bait - Does Bait REALLY Matter? (USA Carp Fishing)](https://www.youtube.com/watch?v=w6UEuhNxcNY&ab_channel=OutsidewithTom)
+* [THROWBACK! Winter Carp Fishing Day Sessions with Adam Penning | Part 1](https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing)
+* [An American Carp Fishing Experience (Wild Carp Fishing)](https://www.youtube.com/watch?v=URxWuKeeYQA&ab_channel=OutsidewithTom)
+* [How Adam Penning Approaches Autumn Carp Fishing](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing)
+ 
 
-Darrell Peck UK PB 50lb+ Common | Cracking the Coconut | Carp Fishing Korda 2018
-https://www.youtube.com/watch?v=E1QkF1ME-qE&ab_channel=KordaTVCarpFishing
