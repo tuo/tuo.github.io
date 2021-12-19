@@ -63,9 +63,9 @@ Those gears add up lots of weight and they are not easy to carry around. Look at
 <cite>Fox Carp Fishing Youtube: [CARP FISHING IN WINTER (Catch more on cold days)](https://www.youtube.com/watch?v=GUdfbnZ_Qu4&ab_channel=FoxInternationalCarpFishing)
 </cite>
 
-A wheelbarrow - I thought angling is about minimalistic and keeping it simple until some Fox/Korda/Nash/Gardner/Mainline angler of carp fish comes with a wheelbarrow and point to all kindas gears(mat、bivvy、camo cool bags、 bait belts, coffee maker、tea press、kettle、stove、dinner set and cookware sets, etc) inside it smirking and saying:  "Oh my Gawd, dear comrade，my young bloke, how dare you? I'm the true minimalist - just one item".
+A wheelbarrow - I thought angling is about minimalistic and keeping it simple until some Fox/Korda/Nash/Gardner/Mainline angler of carp fish comes with a wheelbarrow and point to all kindas gears(mat、bivvy、camo cool bags、 bait belts, coffee maker、tea press、kettle、stove、dinner set and cookware sets, etc) inside it smirking and saying:  "Oh my Gawd, dear comrade，my young bloke, how dare you? I'm the true minimalist - just one item - the barrow! Horray :)".
 
-Surely, good equipment tackles and gears could bring better angling experience, some edges, and more comfortable when angling - unless you know what're doing. Like a double-edged sword, it comes with pros and cons. Those types of equipment make it so cumbersome to move around, even demoralizing, just take a look at the mountains and rice fields in my case - how steep the slope is in the mountainside and how close those rice fields are laid out next to each other like a grid.  
+Surely, good types of equipment, tackles, and gears could bring better angling experience, some edges, and more comfortable when angling - unless you know what're doing. Like a double-edged sword, it comes with pros and cons. Those types of equipment make it so cumbersome to move around, even demoralizing, just take a look at the mountains and rice fields in my case - how steep the slope is in the mountainside and how close those rice fields are laid out next to each other like a grid.  
 
 <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/tough_road.jpg" style="zoom:50%;display:flex;" />
 
