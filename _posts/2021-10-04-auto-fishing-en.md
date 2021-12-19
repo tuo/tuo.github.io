@@ -262,7 +262,7 @@ Back to my case, rice - from observation of rice field, and feed corn (or maize)
 
 <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/cinamumo.jpg" style="zoom:50%;display:flex;" />
 
-<cite>There are a lot of Cinnamomum camphora trees on the mountain. Maybe we could try prefeeding/prebaiting with its ripe seed. It has a very strong natural scent if you leave it for a few days. It is kinda hard to put it up on the hook as it has a pretty hard kernel</cite>
+<cite>There are a lot of Cinnamomum camphora trees on the mountain. Maybe we could try prefeeding/prebaiting with its ripe seed. It has a very strong natural scent if you leave it for a few days. It is kinda tricky to put it up on the hook as it has a pretty hard kernel</cite>
 
 After picking the bait for feeding, the next thing is about the feeding strategy. The most reasonable one is to take a little bit of time to just chum some baits to the same spot every day(like one week or one month) before you get your rods out and start fishing. But it is impossible for me as I only got 4-7 days holiday break and I don't want to spend too much time on the bank to fish - I only got one hour break each day to go outdoors for fishing(family first) - that's exactly why I come up with an idea about auto carp fishing. To make it up, I decide to choose one fishing spot and bait there instead of moving around the lake on the bank. Here is my two cents on how to effectively attract fish in big nature water by feeding/baiting:
 
