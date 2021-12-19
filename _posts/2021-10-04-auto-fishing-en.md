@@ -351,7 +351,7 @@ Some good ones and recommended:
 * Telemetry of all kindas fishes with good visual information: [Youtube Channel: IFishMan](https://www.youtube.com/channel/UCUz29_JLUn5sm5vGkPMaAvw)
 * Compared to commercial tackle makers, I enjoy a lot more from an individual's full angling journey. Catfish and Carp from the US is just such a good yet down-to-earth one. [Youtube Channel: Catfish and Carp](https://www.youtube.com/channel/UCzWn_gTaXyH5Idyo8Raf7_A)
 * [Outside with Tom](https://www.youtube.com/c/OutsidewithTom/videos) is another angler from Texas. Fun to watch.
-* Even though I don't quite like the styles of the UK's branded videos, I admitted that I learned quite a lot from them. Just give them some credibility.  [Adam Penning](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing) from CARPologyTV and [Darren Peck](https://www.youtube.com/watch?v=E1QkF1ME-qE&t=38s&ab_channel=KordaTVCarpFishing) from Korda are fun to watch.
+* Even though I am not a big fan of the styles of the UK's branded videos, I admitted that I learned quite a lot from them. Just give them some credibility.  [Adam Penning](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing) from CARPologyTV and [Darren Peck](https://www.youtube.com/watch?v=E1QkF1ME-qE&t=38s&ab_channel=KordaTVCarpFishing) from Korda are fun to watch.
 
 Others articles and books on carp fishing:
 
