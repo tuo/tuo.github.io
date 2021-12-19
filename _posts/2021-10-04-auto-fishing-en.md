@@ -266,7 +266,7 @@ Basically we have the fish spot in the center, and feeding, i.e - corn- is evenl
 
 </div>
 
-<cite>Just pay attention to scattering when it is about to hit the water. </cite>
+<cite>Just pay attention to scattering when it is about to hit the water.(ps: who said there is absolutely no good quality one for cheap chinese product? My rod and reel is like 40 RMB - $7 in total) and I have tried casting lots of times with 100g lead and a pva bag of corns yet it still didn't break) </cite>
 
 <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/custom_feeder.jpeg" style="display:flex" />
 
