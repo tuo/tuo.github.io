@@ -3,7 +3,7 @@ layout: post
 title: "Auto Carp Fishing Part 1 - Catch Big Carp In China"
 date: 2021-12-04 12:55:32 +0800
 published: true
-tags: fishing, life
+tags: fishing
 ---
 
 
