@@ -73,7 +73,7 @@ Surely, good types of equipment, tackles, and gears could bring better angling e
 
 Those commercial tackle companies mainly target recreational fisheries like ponds or farm-raised syndicates, not for wild fishing. Isn't recreational fishing supposed to be simple, lightweight, and relaxing instead of a ...a barrow? Early Church Fathers and later Meister Eckhart, must feel kind of offended by the Roman Curia's long and boring church services, ceremonies, and rites (In nomine Patris, et Filii, et Spiritu Sancti. Amen - people just couldn't bear with it, so much so that they coined a word with the last two words - Sancti. Amen -  in Spanish for it: santiamén).
 
-Unless you're a professional angler or angler that have a lot of time, just fishing for the fun and blending in with nature to be like a Dionysian of Nietzsche during the precious break, then fishing in wild water is the way to go and no need for top-notch gears/baits to get started.
+Unless you're a professional angler or angler that have a lot of time, just fishing for the fun and blending in with nature to be like a Dionysian of Nietzsche during the precious break, then fishing in wild water is a no-brainer. And it doesn't need top-notch gears/baits to get started.
 
 Here is my humble opinion on why?
 
