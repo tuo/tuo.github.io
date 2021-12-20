@@ -285,11 +285,11 @@ After picking the bait for feeding, the next thing is about the feeding strategy
 Basically, we have the fish spot in the center, and feeding, i.e - corn- is evenly scattered around it forming a circle with 3-5 meter radius. Loose chumming could possibly attract further fish in a longer distance than precise baiting, as it could cover a bigger and wider water area by its flavors and scents. Then we use pva bags or pva mesh to precisely bait right in the center of this circle. Well, this seems pretty ideal, the tricky part is how to get chumming like what hands can do but in a long distance? Slingshot、Spod、 pva bags/mesh、 gaint throwing sticks/baiting spoon even fishing bait boats couldn't do that easily.
 
 
-<div style="display:flex">
-<video  controls style="display:flex">
+<div style="display:inline-flex">
+<video  controls style="display:inline-flex;width:50%;">
   <source src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/casting_feed.mp4" type="video/mp4">
 </video>
-<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/casting_feed.gif" style="" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/casting_feed.gif" style="display:inline-flex;width:50%;" />
 
 </div>
 
@@ -315,7 +315,10 @@ The only southwest part of China in Sichuan and Chongqing use similar fake bait,
  
 The logic is pretty straightforward: more hooks more bites. Despite the so-claimed moral superiority of using fewer hooks from some people - as long as it doesn't violate the local regulations, I don't see any problem with that. On the flip side of more hooks is that it means hooks have higher chances of getting trapped in snags or structure forms like rocks/reefs/weed when anglers cast out or play the fish. If you use it in open water which has fewer snags and have a pretty good understanding of the condition of the lakebed, then go for it. But I have a mountain reservoir with lots of snags like rocks and weed, plus a design of non-attended angling, so multi-hooks seem not a good option. Ideally one hook but as I said, I never use pop-up bait with fake corn before, so I want to do an experiment and compare it with common bottom bait with feed corn side by side. Even though technically fish is not `eating` the fake plastic corn but more like `chewing` - they just try out the possible food through their mouth and expel it out, I'm still very curious to just, by myself, to catch some fishes to test out popular saying:  "If I don't eat plastics, how come fish will eat it ?"
 
-<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/rig.jpg" style="zoom:100%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/rig_pva.jpg" style="zoom:100%;display:flex;" />
+
+<cite>The hook snap is also linked to the swivel just like what bottom hook does but hook length of bottom one is longer than the hook snap. So when we cast out, the hook snap is gonna take all the force and pva bag won't fall off.</cite>
+
 
 I'm using pvg bags to embed the hook with bottom bait. Since I have two hooks and with different line lengths, to not tangle with each other, I intentionally did not put the inline lead into pvg bag - it also gives more room for bait. Then how to prevent the pva bag fall off the line when casting out (the bag is heavy with corns)? I use a hook snap to hook the top of the bag(the tie part) to the swivel. Just tie off the top of pva bag with extra licks and twist it is strong enough to hold the strength of gravity from hook snap when casting because, by this design, the force is not applied to the fishing line but on the hook snap. I test it a couple of times and it works pretty well. I have a bottom hook presented nicely blending with a pile of corn bait, and a pop-up hook that is a few centimeters away from it. After watching some underwater fishing feeding videos, it looks like big carp always start with outside from the perimeter cautiously. I am intrigued to know which hook it is gonna pick up first in my case.
 
