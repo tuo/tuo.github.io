@@ -36,7 +36,7 @@ After I observed from and talked with those local anglers here, they are angling
 <cite>Winter fishing under minus 20 degree, no kidding! That's the angling spirit of Chinese anglers! No bivvy, no coffee maker, no tea kettle, no barrow, just a kinda genuine and pure form of primitivism in the name of Dionysus :)  </cite>
 <cite>video source: [https://v.douyin.com/8JRKLm8/](https://v.douyin.com/8JRKLm8/) </cite>
 
-An idea just popped into my head. How about making this waiting process kinda non-attended? Then in rainy days or on snowing/windy days or cold times like the second half of the night and dawn, the fishing is just happening there and you don't need to stay on the bank (even though surf rod fishing could be more comfortable and less concentration required comparing to pole fishing). So your time could be freed up to do other things and when fish got a bite, it triggers something and notify you via something like Wechat/Telegram or just a call - like interrupts in MCU.
+An idea just popped into my head. How about making this waiting process kinda non-attended? Then in rainy days or on snowing/windy days or cold times like the second half of the night and dawn, the fishing is just happening there and you don't need to stay on the bank (even though surf rod fishing could be more comfortable and less concentration required comparing to pole fishing). So your time could be freed up to do other things and when fish got a bite, it triggers something and notify you via something like Wechat/Telegram or just a call - like [interrupts](https://en.wikipedia.org/wiki/Interrupt) in MCU(Microcontroller Unit).
 
 
 ## Nowadays Fishing Industry/Vibe
