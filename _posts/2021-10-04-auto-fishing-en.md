@@ -286,10 +286,10 @@ Basically, we have the fish spot in the center, and feeding, i.e - corn- is even
 
 
 <div style="display:inline-flex">
-<video  controls style="display:inline-flex;width:50%;">
+<video  controls style="display:inline-flex;width:48%;">
   <source src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/casting_feed.mp4" type="video/mp4">
 </video>
-<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/casting_feed.gif" style="display:inline-flex;width:50%;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/casting_feed.gif" style="display:inline-flex;margin-left:2%;width:48%;" />
 
 </div>
 
@@ -321,6 +321,37 @@ The logic is pretty straightforward: more hooks more bites. Despite the so-claim
 
 
 I'm using pvg bags to embed the hook with bottom bait. Since I have two hooks and with different line lengths, to not tangle with each other, I intentionally did not put the inline lead into pvg bag - it also gives more room for bait. Then how to prevent the pva bag fall off the line when casting out (the bag is heavy with corns)? I use a hook snap to hook the top of the bag(the tie part) to the swivel. Just tie off the top of pva bag with extra licks and twist it is strong enough to hold the strength of gravity from hook snap when casting because, by this design, the force is not applied to the fishing line but on the hook snap. I test it a couple of times and it works pretty well. I have a bottom hook presented nicely blending with a pile of corn bait, and a pop-up hook that is a few centimeters away from it. After watching some underwater fishing feeding videos, it looks like big carp always start with outside from the perimeter cautiously. I am intrigued to know which hook it is gonna pick up first in my case.
+  
+
+Now you wonder what's white powder and oil inside the pva in the above picture? That's actually pretty interesting. Some bait companies are touting how magic that bait liquid or like say "smart liquid" that could super charge your bait or whatever. Yet how they could prove it? Here is the video that they show it in the glass water vessel and brag how good it presents: [<SEEING IS BELIEVING! Epic Smart Liquid Reaction! Mainline Baits Carp Fishing TV>](https://www.youtube.com/watch?v=nuLf23cXVbE&ab_channel=MainlineBaitsCarpFishingTV). 
+Yes, it has some liquid cloud releasing in the water and going up and downs through different water column. Looks nice and wicked! But as this comment and author's reply shows:
+
+
+	Damien Chambers (1 year ago) : 
+	I’m all up for adding an additional edge to my baiting approach , my main concern in some cases , could this process of a smokey looking halo and rising up to the surface not also have the opposite affect of spooking very wary fish.
+
+	Mainline Baits Carp Fishing TV : 
+	HI Damien - good comment. Throughout the testing period we didn't encounter any situations or problems such as this. General opinion is that carp are likely to be attracted to clouds and this kind of attraction as they are when other fish stir up the lake bed or water inflows and strong winds/undertows colour up water. It'll be interesting to know what you think after trying this out.
+
+It looks like the maker is not very sure about and his confidence comes from this black-box `"testing period"` and `"General opinion"`. *SEEING IS BELIEVING!* really? What you see as good one then it must be good too for the carp? I'm kinda skeptical on that. No details or context or data of their testing period has been reveale. They just show how great it visually in water and to me, this is not very persuasive. How big role it would play among other factors? Does it work in wild water? flow water? What time is the best to add and how much it should add? Yet somehow, indescribably, they're putting very exaggerating titles with so much certainty and confidence for other videos of this kinda liquid too.
+
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/smart_liquid2.jpg" style="zoom:100%;display:flex;" />
+
+<cite>It is a magic and indescribable smart liquid yet not sure how it really works</cite>
+
+I did some experiment too. With some research, I have choosen the corn powder(500g -6RMB - $1), wheat bran(500g - 6RMB - $1), and hemp oil(250ML - 9RMB ~$1.5) and mix it and give it right moisture. Then put it in a pva bag and throw it to a water vessel and test it how it looks and whether it could have those small particles moving around the watercolumns.
+
+
+<div style="display:inline-flex">
+<video  controls style="display:inline-flex;width:48%;">
+  <source src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/groundbait_propagate.mov" type="video/mp4">
+</video>
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/groundbait_propagate2.gif" style="display:inline-flex;margin-left:2%;width:48%;" />
+</div>
+
+<cite>Click the left to watch the video. I couldn't put the longer video version but it shows how it works under that water.</cite>
+
+It looks pretty good and it last pretty long time in that still water tank. Well, I'm not sure about whether it is gonna work or not, but it shows it could get some effects similiar to the commercial one. It doesn't have that kinda halo but you never know whether that halo could make spooky carp to shy away. Anyway,  the key here is you need to try it out by yourself and tweak a little here and there to get it work in your case. And those Smart Liquids is not cheap to play around like what I made by myself. One bottle of this `indescribable` 250ml is gonna cost you around $14.95 or £12.50 like 100RMB and it is just liquid additive. Nothing else, mate!
 
 Apart from adding more hooks to increase the odds, adding more rods could also get a greater chance - 3 rods look good (no matter how great you set up your rig and how familiar you're with the lakebed conditions, it could still happen that your lines and hooks got tangled when casting or got a bad presentation somehow when landing on the lakebed).
 
