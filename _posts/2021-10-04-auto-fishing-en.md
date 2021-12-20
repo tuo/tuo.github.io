@@ -362,7 +362,7 @@ In this article, we have covered the angling strategy that we're gonna use for t
 
 # My Gears' Price
 
-"Wait, I'm just from [Fox International Products](https://www.foxint.com/home/products/?mobile=true),[Korda](https://www.anglingdirect.co.uk/fishing-tackle-brands/korda?page=1)(I feel Korda offers some cheap ones, not sure) and [Gardener](https://gardnertackle.co.uk/products/). Don't fool me, show the real price of those gears. How could it be possible to have such decent quality with low price?"
+*"Wait, I'm just from [Fox International Products](https://www.foxint.com/home/products/?mobile=true), [Korda](https://www.anglingdirect.co.uk/fishing-tackle-brands/korda?page=1)(I feel Korda offers some cheap ones, not sure) and [Gardener](https://gardnertackle.co.uk/products/). Don't fool me, show the real price of those gears. How could it be possible to have such decent quality with low price?"*
 
 Well, there you go, in total like 120RMB - $20: 
 
