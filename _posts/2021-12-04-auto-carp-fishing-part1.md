@@ -339,7 +339,7 @@ It looks like the maker is not very sure about and his confidence comes from thi
 
 <cite>AVOIDING THE HYPE, UK PEOPLE. DON"T FORGET WHAT DAVID HUME TEACHED</cite>
 
-I did a experiment too. With some research, I have chosen corn powder(500g -6RMB - $1), wheat bran(500g - 6RMB - $1), and hemp oil(250ML - 9RMB ~$1.5) and mixed it and give it the right moisture. Then put it in a pva bag and throw it into a water vessel and test how it looks and whether it could have those small particles moving around the water columns.
+I did a experiment too. With some research, I have chosen corn powder(500g -6RMB - $1), wheat bran(500g - 6RMB - $1), and hemp oil(250ML - 9RMB ~$1.5) and mixed it and give it the right moisture. Then put it in a pva bag and sink it down in a water vessel and test how it looks and whether it could have those small particles moving around the water columns.
 
 
 <div style="display:inline-flex">
