@@ -51,7 +51,7 @@ tags: #docker
 
 记下来。
 
-![aliyun](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/29531111-a777c1c6-86d9-11e7-8c20-8638b9f64664.png)
+![aliyun](http://d2h13boa5ecwll.cloudfront.net/misc/29531111-a777c1c6-86d9-11e7-8c20-8638b9f64664.png)
 
 ## 创建machine
 <hr/>
@@ -111,7 +111,7 @@ tags: #docker
 
 你可以抓取一些常用的镜像，比如`docker pull node`:
 
-![pulling](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/29531112-a777c3a6-86d9-11e7-9c00-43cdb932984b.gif)
+![pulling](http://d2h13boa5ecwll.cloudfront.net/misc/29531112-a777c3a6-86d9-11e7-9c00-43cdb932984b.gif)
 
     ⇒  docker images
     REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE

@@ -13,12 +13,12 @@ tags: 树莓派，流光溢彩，Raspberry pi
 
 <div>
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/9a979cbc-c815-11e5-8391-43263f5d6a90.jpeg" align="left" height="300" width="300" style="margin-left: 130px !important;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/9a979cbc-c815-11e5-8391-43263f5d6a90.jpeg" align="left" height="300" width="300" style="margin-left: 130px !important;" />
 
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/9bfe1a4a-c815-11e5-8d21-5b010a31dfdd.jpeg" align="left" height="400" width="400" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/9bfe1a4a-c815-11e5-8d21-5b010a31dfdd.jpeg" align="left" height="400" width="400" />
 <br/>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/63867068-c81a-11e5-9a48-b47e21a56b40.png" align="middle" height="500" width="667" style="margin-left: 145px !important;"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/63867068-c81a-11e5-9a48-b47e21a56b40.png" align="middle" height="500" width="667" style="margin-left: 145px !important;"/>
 
 </div>
 <br/>
@@ -31,11 +31,11 @@ tags: 树莓派，流光溢彩，Raspberry pi
 到了动手的环节了， 我们会将LED灯带布线到电视机后面。LED灯带背面有双面胶，将其拨开就可以贴在电视机上面了。我们先从电视机的右边（站在电视机前面面对电视机来看的右边）开始，分成3段，右边->上边->左边，逆时针方向将其布好到电视机上。这里需要保证每一段上面的LED灯带的箭头是一致的。
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/f51f8b20-c54c-11e5-8514-d9110217fa6e.jpeg" align="middle" height="500" width="667" style="margin-left: 145px !important;"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/f51f8b20-c54c-11e5-8514-d9110217fa6e.jpeg" align="middle" height="500" width="667" style="margin-left: 145px !important;"/>
 <br/>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/691d1512-c54b-11e5-90a9-2ce717334a17.jpeg" align="left" height="300" width="300" style="margin-left: 0px !important;" />
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/5a90b424-c81e-11e5-9836-2326d0aceaf2.jpeg" align="left" height="300" width="300"  />
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/56cd60de-c81f-11e5-855b-8b52f36c53d5.jpeg" align="left" height="300" width="300"  />
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/691d1512-c54b-11e5-90a9-2ce717334a17.jpeg" align="left" height="300" width="300" style="margin-left: 0px !important;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/5a90b424-c81e-11e5-9836-2326d0aceaf2.jpeg" align="left" height="300" width="300"  />
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/56cd60de-c81f-11e5-855b-8b52f36c53d5.jpeg" align="left" height="300" width="300"  />
 </div>
 
 <div style="clear:both;">
@@ -51,10 +51,10 @@ tags: 树莓派，流光溢彩，Raspberry pi
 这里先上一张连线图，在[Phillip Burgess](https://learn.adafruit.com/assets/1589)的基础上，我修改了一下：
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/80ef7bde-c821-11e5-8c98-d0094c83c205.png" align="middle" height="416" width="800" style="margin-left: 0px !important;"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/80ef7bde-c821-11e5-8c98-d0094c83c205.png" align="middle" height="416" width="800" style="margin-left: 0px !important;"/>
 <br></br>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/78fd691c-c822-11e5-8458-93ba138fd62f.jpg" align="left" height="400" width="400" style="margin-left: 0px !important;" />
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/aa6c5a9e-c822-11e5-9693-ddaa5cac4e32.jpg" align="left" height="400" width="400"  />
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/78fd691c-c822-11e5-8458-93ba138fd62f.jpg" align="left" height="400" width="400" style="margin-left: 0px !important;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/aa6c5a9e-c822-11e5-9693-ddaa5cac4e32.jpg" align="left" height="400" width="400"  />
 </div>
 <div style="clear:both;"></div>
 <br/>
@@ -65,7 +65,7 @@ tags: 树莓派，流光溢彩，Raspberry pi
 <hr/>
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/750f5ec0-c54b-11e5-806a-4bf6bdac0f88.jpeg" align="middle" height="416" width="800" style="margin-left: 0px !important;"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/750f5ec0-c54b-11e5-806a-4bf6bdac0f88.jpeg" align="middle" height="416" width="800" style="margin-left: 0px !important;"/>
 </div>
 
 最后我们把其他组件按顺序都连接起来。
@@ -81,8 +81,8 @@ tags: 树莓派，流光溢彩，Raspberry pi
 第一次启动需要你用键盘配置下语言，时区等。
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/705c33b2-c825-11e5-9c20-13b2bb610fe5.png" align="left" height="400" width="400" style="margin-left: 0px !important;" />
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/704d4564-c825-11e5-9ed0-67011daefec5.png" align="left" height="400" width="400"  style="margin-left: 20px !important;"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/705c33b2-c825-11e5-9c20-13b2bb610fe5.png" align="left" height="400" width="400" style="margin-left: 0px !important;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/704d4564-c825-11e5-9ed0-67011daefec5.png" align="left" height="400" width="400"  style="margin-left: 20px !important;"/>
 </div>
 
 <div style="clear:both;"/>
@@ -128,7 +128,7 @@ sudo vi /boot/config.txt（然后末尾添加此行：dtparam=spi=on)
 看看是否都亮红色，比如下图我这里是贴上电视机前先测试的：
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/122d4966-c54b-11e5-8288-d9e75e949eca.jpeg" align="left" height="400" width="400"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/122d4966-c54b-11e5-8288-d9e75e949eca.jpeg" align="left" height="400" width="400"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -163,8 +163,8 @@ sudo vi /boot/config.txt（然后末尾添加此行：dtparam=spi=on)
 
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/6d6521c4-c54a-11e5-9b40-07e57e6fddc9.png" align="left" height="400" width="400"/>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/6cd5a300-c54a-11e5-9814-8575ed143069.png" align="left" height="400" width="400" style="margin-left: 20px !important;"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/6d6521c4-c54a-11e5-9b40-07e57e6fddc9.png" align="left" height="400" width="400"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/6cd5a300-c54a-11e5-9814-8575ed143069.png" align="left" height="400" width="400" style="margin-left: 20px !important;"/>
 </div>
 <div style="clear:both;"/>
 
@@ -182,7 +182,7 @@ sudo hyperion-v4l2 --width -1 --height -1 --crop-top 10 --crop-left 30 --crop-bo
 到了配置Hyperion的时候了，你可以通过Hyerion的图形化工具来配置。工具的文档[Hyerion Configuration](https://github.com/tvdzwan/hyperion/wiki/Configuration)有详细的工具使用说明，先下载工具[HyperCon_ssh.jar](https://raw.github.com/tvdzwan/hypercon/master/deploy/HyperCon_ssh.jar). 下载到本地之后运行**java -jar HyperCon_ssh.jar**：
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/839201b0-c54a-11e5-95ea-ecd44d8b7976.png" align="left" height="593" width="1000"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/839201b0-c54a-11e5-95ea-ecd44d8b7976.png" align="left" height="593" width="1000"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -199,7 +199,7 @@ sudo hyperion-v4l2 --width -1 --height -1 --crop-top 10 --crop-left 30 --crop-bo
 后面的Horizontal depth等等可以保持默认。
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/459a7aca-c830-11e5-9ec9-bc6c51f6d77f.png" align="left" height="593" width="1000"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/459a7aca-c830-11e5-9ec9-bc6c51f6d77f.png" align="left" height="593" width="1000"/>
 </div>
 <div style="clear:both;"/>
 <br/>

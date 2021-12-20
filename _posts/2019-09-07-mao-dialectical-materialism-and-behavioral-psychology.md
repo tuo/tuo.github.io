@@ -75,7 +75,7 @@ An old-school tool that rivals its digital competitors](https://forge.medium.com
 他自己平时一直收集段子，其中还有一个花招是在闲暇时在索引卡上写一些 One-Liner(很短的笑话，效果出奇的好), 在 Reagan Libray 的一篇纪录片[Ronald Reagan's one-liners](https://youtu.be/HA7sP47e8tA?t=146)里提到他的这个习惯：
 
 
-![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190903maodial/99895922-9632f200-2cc6-11eb-9968-8b3b552ff57d.png)
+![Framework List](http://d2h13boa5ecwll.cloudfront.net/20190903maodial/99895922-9632f200-2cc6-11eb-9968-8b3b552ff57d.png)
 
 
 记笔记还是挺好的习惯的。
@@ -95,9 +95,9 @@ An old-school tool that rivals its digital competitors](https://forge.medium.com
 #### 实践
 
 
-![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190903maodial/64469847-dfebf700-d16b-11e9-946d-78e3b647a349.jpg)
+![Framework List](http://d2h13boa5ecwll.cloudfront.net/20190903maodial/64469847-dfebf700-d16b-11e9-946d-78e3b647a349.jpg)
 
-![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190903maodial/64469865-41ac6100-d16c-11e9-9662-82a19fe90918.jpg)
+![Framework List](http://d2h13boa5ecwll.cloudfront.net/20190903maodial/64469865-41ac6100-d16c-11e9-9662-82a19fe90918.jpg)
 
 > 毛泽东说：“向着最坏的一种可能性做准备是完全必要的，但这不是抛弃好的可能性，而正是为着争取好的可能性并使之变为现实性的一个条件。”毛泽东在战争指导中，往往立足于战争的最坏的可能性，并设法创造条件，争取最好的可能性。
 
@@ -105,13 +105,13 @@ An old-school tool that rivals its digital competitors](https://forge.medium.com
 
 > 你们的根本出发点应放在最困难的情况上，依情况发展，如援敌进得慢，而攻城进展顺利，又有内应条件，则可考虑增强攻城兵力，先攻城，后打援；如援敌进得快，则应以全力先打援，后攻城。
 
-![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190903maodial/64469850-e11d2400-d16b-11e9-9dd3-76ac594baffd.jpg)
+![Framework List](http://d2h13boa5ecwll.cloudfront.net/20190903maodial/64469850-e11d2400-d16b-11e9-9dd3-76ac594baffd.jpg)
 
 联系实际，比如开发之中，除了自己学习变好，在项目紧张之中，还需要给新手的程序员制定好他的学习计划，并且花时间追踪，帮助他成长。看似是花费了实现更多项目的可能，但是实际上这是防守中的进攻，进攻中的防守，有了这个我们的防御和进攻会更犀利，从大局上讲，是非常划得来的。真的进攻不是一定在于一定要一直往前冲，退一步可能是为了走的更快更长远。
 
 Ps: 这里可以贴上我给新手程序员其中之一回顾并制定的如何培养好的习惯，包括学习思考总结，最重要是构建好的认知体系，应对不断变化的可能。以己度人，必须思考如何让他变得更优秀，应对除了程序代码之外的能力，最重要是学会主动思考和好的习惯来应对生活，对他的人生也会有帮助，其中也会给我带来很多启发，一举两得。
 
-![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190903maodial/64469849-e0848d80-d16b-11e9-8493-172183b6d839.jpg)
+![Framework List](http://d2h13boa5ecwll.cloudfront.net/20190903maodial/64469849-e0848d80-d16b-11e9-8493-172183b6d839.jpg)
 
 
 > 实践、认识、再实践、再认识，这样形式，循环往复以至无穷，而实践和认识之每一循环的内容，都比较地进到了高一级的程度。
@@ -159,7 +159,7 @@ Ps: 这里可以贴上我给新手程序员其中之一回顾并制定的如何�
 人们通常形成第一系统的印象，比如我觉得 xxx,有了这个看法，然后去搜索片面的对自己第一系统产生的想法有利的客观证据或条件，而有意忽视或者不愿意（可能找借口）来寻找跟这个看法相反的客观事实。为啥了？因为我们祖先这样省力能更好的的生存在危险遍布的非洲的大草原上，大部分情况下。
 
 
-![Framework List](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20190903maodial/64469881-80dab200-d16c-11e9-8837-6f78caf80be9.jpg)
+![Framework List](http://d2h13boa5ecwll.cloudfront.net/20190903maodial/64469881-80dab200-d16c-11e9-8837-6f78caf80be9.jpg)
 
 我们的本能在这个年代受到的很大的冲击，本能是需要检视的，不能放任其控制我们的思维过程。银行 or 国家 Too big too fail,不存在的，本能 Too long to fail, 更加不存在，我们需要实事求是，灵活变动。
 

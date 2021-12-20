@@ -9,11 +9,11 @@ tags: 树莓派，流光溢彩，Raspberry pi
 最近翻出了很久之前买的树莓派(2012 第一代的)， 一看搁那也没有什么用，加上最近整了个PS4，于是想如何把树莓派利用起来然后跟PS4搭配起来整点啥。网上搜了搜，淘宝上买了些配件，自己回来琢磨了下决定搞一个流光溢彩Ambilight.最后弄出来的效果还是不错的，下面是两张调试后之后的效果图(还有些颜色需要调调，但是大概差不多):
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/4d360382-c54a-11e5-950e-99917eef37a1.jpeg" align="middle" height="800" width="800" style="display: block;" >
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/4d360382-c54a-11e5-950e-99917eef37a1.jpeg" align="middle" height="800" width="800" style="display: block;" >
 
 <br/>
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/3d1f5a58-c783-11e5-8c7e-b543301ce642.png" align="middle" height="800" width="800" style="display: block;" >
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/3d1f5a58-c783-11e5-8c7e-b543301ce642.png" align="middle" height="800" width="800" style="display: block;" >
 
 </div>
 <br/>
@@ -26,7 +26,7 @@ tags: 树莓派，流光溢彩，Raspberry pi
 以本码农多年挖坑填坑的惨痛经历来看，开始的理论文档虽然比较枯燥点，但是对后面实践会有很大的帮助。
 先上一张原理流程图（引用自http://bite-in.com/?p=9,我在这上面注释了下）：
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/cad7a32a-c786-11e5-9322-0821996a2e80.jpeg" align="middle" height="600" width="600" style="display: block;" >
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/cad7a32a-c786-11e5-9322-0821996a2e80.jpeg" align="middle" height="600" width="600" style="display: block;" >
 </div>
 <br/>
 Ambilight原理其实很简单，首先您需要一个视频源，比如我这里是PS4，是IPTV，是电脑等等，这里必须是HDMI的高清信号源。接下来需要个HDMI的分配器1进2出，进的一端连接到信号源，出的两个端口，一个连接到电视，另外一个给树莓派来处理。但是你不能直接将HDMI信号给树莓派使用，暂时目前没有办法抓取HDMI信号，所以得退回使用传统的AV模拟信号，所以这里需要个将HDMI转AV的转换器.这里拿到视频Video信号之后，需要一个USB视频帧抓取器，也就是USB接口的视频采集卡，将视频信号转换为USB输出，输入给树莓派。树莓派拿到视频帧信息之后，可以根据预先的配置信息，这里比如有多少个LED灯，方向，色值，颜色转换，频率等等，输出到LED灯带，进而使其按照我们的设想来发光。
@@ -40,7 +40,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * Raspberry Pi(树莓派)： 树莓派是这个实验中最核心的部分，作为控制中心。我的树莓派是2012年时在官方[Elements 14](http://cn.element14.com/raspberrypi-boards)买的，当时的配置是256M内存，各项配置远远没有现在高，但是貌似价格也没有太大幅度的涨价。因为树莓派的操作系统是存储在从外部的闪存卡中。所以记住同时买一个8G的闪存卡还有一个读卡器。（价格：250左右）
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/1fec1e60-c834-11e5-9cec-05e039031765.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/1fec1e60-c834-11e5-9cec-05e039031765.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -48,7 +48,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * LED灯带:这个是比较关键的零件，我使用的是5V的WS2801型号，这个型号是比较基本和简单的。我量过我的电视上+左+右（因为一般来说底边是不需要发光的），所以买了3米。[淘宝链接](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.oA67Yc&id=524231976847&_u=uc8grg44335),选取`白色裸管`，价格：39.9 * 3 = 120。
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/e6f40d10-c834-11e5-82fc-2caf5dfb20a3.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/e6f40d10-c834-11e5-82fc-2caf5dfb20a3.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -56,7 +56,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * HDMI分配器1进2出：需要将一个高清信号渠道分解到两个。 [淘宝链接](https://detail.tmall.com/item.htm?id=37175115047&spm=a1z09.2.0.0.oA67Yc&_u=uc8grg49cb0) 价格：58
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/202d95d4-c834-11e5-90a1-391c412bfdd8.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/202d95d4-c834-11e5-90a1-391c412bfdd8.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -64,7 +64,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * USB视频采集卡: 这里我们使用基于STK1160的EasyCap DC60型号。[淘宝链接](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.oA67Yc&id=16201083207&_u=uc8grg43036) 价格： 24
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/21790270-c834-11e5-8804-0d66fa6bdf47.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/21790270-c834-11e5-8804-0d66fa6bdf47.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -73,7 +73,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * HDMI转AV线转换器： 高清信号转模拟信号，就需要顶多带几米的LED灯带，也不需要高清信号那么奢侈，模拟信号刚好。[淘宝链接](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.Hagliz&id=522842971813&_u=uc8grg40942) 价格：68
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/202eb98c-c834-11e5-9f30-59504b30a68e.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/202eb98c-c834-11e5-9f30-59504b30a68e.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -81,7 +81,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * DC 5V/8A电源一个：记住这个电压非常关键，本实验中所有耗电组件额定电压是5V。如果你只是要带LED灯带，这个足够了。 但是如果你想像我一样，希望用一个电源供给所有的组件，比如LED灯带，树莓派，HDMI分配器，以及HDMI转AV的转换器，那其实我发现买的功率不是很够带动所有的组件，买一个5V/12A 或者 5V/20A的会比较稳妥，我后面会描述如何计算功率来选取合适的电源。 [淘宝链接](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.Hagliz&id=525650598251&_u=uc8grg438f7) 价格： 30.
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/6776a4bc-c834-11e5-94d6-3f4c7f44d92f.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/6776a4bc-c834-11e5-94d6-3f4c7f44d92f.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -91,7 +91,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * AV公对公直通头： 需要将视频采集卡和HDMI转AV线转换器连接起来。[淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.144.bfGq9d&id=40743240102&ns=1&abbucket=5#detail) 价格: 4
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/202da560-c834-11e5-94a2-06441862eebf.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/202da560-c834-11e5-94a2-06441862eebf.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -99,7 +99,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * 杜邦线 公对母 公对公：杜邦线可以帮助连接树莓派和LED灯带，以及LED灯带分解和焊接。[淘宝链接](https://detail.tmall.com/item.htm?id=21555044507&ali_refid=a3_430583_1006:1106005875:N:%E6%9D%9C%E9%82%A6%E7%BA%BF:6d3d28cb03feaf6adca31ae0c1dacbe7&ali_trackid=1_6d3d28cb03feaf6adca31ae0c1dacbe7&spm=a230r.1.14.1.wtPjjh&skuId=3108837394481)
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/21759a4a-c834-11e5-8002-04bb44f700c7.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/21759a4a-c834-11e5-8002-04bb44f700c7.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -108,7 +108,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * DC电源插座5.5-2.1mm 母头: 这里我们需要将它和LED灯带的供电接头连接起来实现对灯带的供电。[淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.23.uszV7w&id=525229013449&ns=1&abbucket=5#detail)
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/205178c8-c834-11e5-86f1-d6b4b304404e.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/205178c8-c834-11e5-86f1-d6b4b304404e.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -117,7 +117,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * DC母头转Micro USB: 实现对树莓派供电。（如果你不是集中一起供电，这个不是必选的）[淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.20.xZnjnh&id=523792521607&ns=1&abbucket=5#detail)
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/205869ee-c834-11e5-86d8-6a6a86844e18.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/205869ee-c834-11e5-86d8-6a6a86844e18.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -125,7 +125,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * DC母头转Mini USB: 实现对HDMI2AV转换器供电。（如果你不是集中一起供电，这个不是必选的）[淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.22.C2GN7E&id=43482296304&ns=1&abbucket=5#detail)
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/205b6cd4-c834-11e5-8453-a602352f7635.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/205b6cd4-c834-11e5-8453-a602352f7635.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>
@@ -134,7 +134,7 @@ Ambilight原理其实很简单，首先您需要一个视频源，比如我这�
 * DC电源分线一拖四：将电源转4路，供给树莓派，LED灯带，HDMI2AV, HDMI分配器。（如果你不是集中一起供电，这个不是必选的） [淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.56.upUcMJ&id=523898222188&ns=1&abbucket=5#detail)
 
 <div>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/ambelight/205b6d4c-c834-11e5-9418-e90c5f170f22.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/ambelight/205b6d4c-c834-11e5-9418-e90c5f170f22.jpeg" align="left" height="300" width="300" style="margin-left:24px !important"/>
 </div>
 <div style="clear:both;"/>
 <br/>

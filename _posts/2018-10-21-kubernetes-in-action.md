@@ -18,10 +18,10 @@ tags: #docker, #Kubernetes
 当然跑个本地单机能让你基本了解，但是很多东西没办法真的模拟真实的的多节点的情况。比对了下，大致一般两种，一种是自建的，还有一种是用云服务商提供的。可以参考[阿里云 Kubernetes vs. 自建 Kubernetes](https://help.aliyun.com/document_detail/86420.html)
 
 
-![自建不容易](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/47267351-39a7fa80-d575-11e8-861c-12f545de4e01.png)
+![自建不容易](http://d2h13boa5ecwll.cloudfront.net/misc/47267351-39a7fa80-d575-11e8-861c-12f545de4e01.png)
 
 亚马逊AWS有[EKS](https://aws.amazon.com/eks/)，Google有[GKE](https://cloud.google.com/kubernetes-engine/)，听起来是挺不错的，但是问题是直接用云的了， 一方面比较贵，特别是阿里云，master node必须3个，加上两个node,随便一下一个月就一万多快，坑爹；另外一方面自建能够帮助更好的理解kubernetes（虽然碰到很多坑 NAS, EIP, ELB, ALB, EBS) 算了下， 假设咱模拟的话 至少一个master节点+两个node节点，这才是一个体面的集群，也符合咱体面程序员的最低要求。大致看了看，发现[kops](https://github.com/kubernetes/kops)仓库的帖子的讨论里[Estimated costs for smallest cluster on AWS & GCE?](https://github.com/kubernetes/kops/issues/4867)谈到了
-![aws 价格](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/47267330-de760800-d574-11e8-8dec-c8229b7fdb4c.png)
+![aws 价格](http://d2h13boa5ecwll.cloudfront.net/misc/47267330-de760800-d574-11e8-8dec-c8229b7fdb4c.png)
 看起来还蛮便宜啊，一个月$150美元，包括3台t3.medium的机子加上128G EBS存储, 一个ELB(负载均衡)还有10MB的s3存储（需要存储集群的配置和元数据）。感觉可以搞一把试试。
 
 
@@ -40,7 +40,7 @@ tags: #docker, #Kubernetes
 这里--node-size和--master-size选择是明确的指定了*t2.micro* 也就是免费级别[AWS Free Tier](https://aws.amazon.com/free/), 理论上说免费一个节点一个月，因为我们创建了3个，所以可能咱们只能玩1/3个月，后面就需要收费了， 但是相比之前$150那个t3.medium还是便宜不少，虽然只有一个CPU，后面试了试，也没什么问题（GPU和内存都没有爆，即使创建了很多Pod),但是什么ELB就得收费了尽管便宜, s3有5G足够够用。
 
 
-![untitled-1](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/47267713-221f4080-d57a-11e8-97c9-8d9df7c4bf48.jpg)
+![untitled-1](http://d2h13boa5ecwll.cloudfront.net/misc/47267713-221f4080-d57a-11e8-97c9-8d9df7c4bf48.jpg)
 
 
 跑完之后，运行 **kops validate cluster**, 应该看到上面的输出，然后去AWS的console里验证一下有没有三个ec2实例运行。
@@ -49,7 +49,7 @@ tags: #docker, #Kubernetes
 
 
 
-<img width="800" alt="screen shot 2018-10-18 at 19 51 38" src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/47267810-3dd71680-d57b-11e8-88db-b789d8f33f37.png">
+<img width="800" alt="screen shot 2018-10-18 at 19 51 38" src="http://d2h13boa5ecwll.cloudfront.net/misc/47267810-3dd71680-d57b-11e8-88db-b789d8f33f37.png">
 
 
 
@@ -78,9 +78,9 @@ tags: #docker, #Kubernetes
 正如之前你看到的那么多kuberenetes的核心概念，还包括物理上的各种技术网络存储服务器通讯等等，官方文档还是无法一步一步带你入门深入串起来来更好的理解，而不是被这些术语给淹没掉。而kubernetes的核心概念： 一个是imperative,一个是abstraction/encapsulation. 封装底层实现的细节， 比如deployment -> replicasets -> pods 等等从而暴露出最简单明了而且风格统一的操作命令，这个封装还包括物理上的。
 
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/47267938-e6d24100-d57c-11e8-91d4-b7957352b397.png)
-<img width="801" alt="screen shot 2018-10-21 at 22 25 38" src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/47268183-467e1b80-d580-11e8-8f90-e99bbcb612ef.png">
-<img width="753" alt="screen shot 2018-10-21 at 22 25 27" src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/47268184-467e1b80-d580-11e8-92dd-f7f8f4190343.png">
+![](http://d2h13boa5ecwll.cloudfront.net/misc/47267938-e6d24100-d57c-11e8-91d4-b7957352b397.png)
+<img width="801" alt="screen shot 2018-10-21 at 22 25 38" src="http://d2h13boa5ecwll.cloudfront.net/misc/47268183-467e1b80-d580-11e8-8f90-e99bbcb612ef.png">
+<img width="753" alt="screen shot 2018-10-21 at 22 25 27" src="http://d2h13boa5ecwll.cloudfront.net/misc/47268184-467e1b80-d580-11e8-92dd-f7f8f4190343.png">
 
 
 PDF里我做了很多笔记，但是太多了，无法贴上来，总而言之这本书应该非常适合入门。动手完helloworld自后，在看这本书，感觉很多东西都豁然开朗。 这本书你应该只需要读前两部分，大概是接近300页英文左右，后面一部分讲的是内核和实现，后面有经验了可以反过头来阅读。
@@ -89,7 +89,7 @@ PDF里我做了很多笔记，但是太多了，无法贴上来，总而言之�
 
 ## 花费
 
-![cost](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/47268065-9956d380-d57e-11e8-868b-22947bc0d112.png)
+![cost](http://d2h13boa5ecwll.cloudfront.net/misc/47268065-9956d380-d57e-11e8-868b-22947bc0d112.png)
 
 
 大家可以看看3台EC2其实只跑了188个小时，离750小时还是差蛮多的；EBS是我测试PersistentVolume一部分； 这里面有一个ELB（Elastic Load Balancing)的计费有点意思。
@@ -104,7 +104,7 @@ PDF里我做了很多笔记，但是太多了，无法贴上来，总而言之�
 怎么办了？ 这里要提到上面截图里有一个Ingress.
 
 
-![kubernetes_with_ingress_aws](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/47268147-b17b2280-d57f-11e8-804c-b4760d46b916.png)
+![kubernetes_with_ingress_aws](http://d2h13boa5ecwll.cloudfront.net/misc/47268147-b17b2280-d57f-11e8-804c-b4760d46b916.png)
 
 相当于ELB和Service中间加了一层. 这样减少ELB的使用，甚至一个就可以了。
 

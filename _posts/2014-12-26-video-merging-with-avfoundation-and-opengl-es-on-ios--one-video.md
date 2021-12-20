@@ -13,12 +13,12 @@ To illustrate that:
 
 <h2 style="text-align:center">Before</h2>
 
-![screen shot 2014-12-26 at 11 43 21 pm](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/2e7120aa-8d59-11e4-82c9-551b332c251e.png)
+![screen shot 2014-12-26 at 11 43 21 pm](http://d2h13boa5ecwll.cloudfront.net/misc/2e7120aa-8d59-11e4-82c9-551b332c251e.png)
 
 <h2 style="text-align:center">After</h2>
 
 
-![screen shot 2014-12-26 at 11 42 26 pm](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/4cc203da-8d59-11e4-9876-d10e5c59185f.png)
+![screen shot 2014-12-26 at 11 42 26 pm](http://d2h13boa5ecwll.cloudfront.net/misc/4cc203da-8d59-11e4-9876-d10e5c59185f.png)
 
 
 <br/>
@@ -52,7 +52,7 @@ In step5(*kick off recording*), we will pull each frame from reader, then upload
 
 
 
-![workflow](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/469de488-8ed0-11e4-8f47-2fd925a4f654.jpg)
+![workflow](http://d2h13boa5ecwll.cloudfront.net/misc/469de488-8ed0-11e4-8f47-2fd925a4f654.jpg)
 
 # Setup
 <hr/>

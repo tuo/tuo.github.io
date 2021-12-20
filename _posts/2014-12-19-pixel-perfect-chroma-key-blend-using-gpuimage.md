@@ -13,23 +13,23 @@ The reason is that if you look into the OpenGL ES GLSL code in [GPUImageChromaKe
 Then you probably wonder how [Action Movie FX](https://itunes.apple.com/us/app/action-movie-fx/id489321253?mt=8) got this pixel-perfect blending video. After some hack, I got a clear idea about it. Following is the diagram:
 
 <div style="text-align:center; width:400px;height:400px; margin:0 auto" markdown="1">
-![source video](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/67878f7a-879e-11e4-89ad-618555878d02.png)
+![source video](http://d2h13boa5ecwll.cloudfront.net/misc/67878f7a-879e-11e4-89ad-618555878d02.png)
 </div>
 <h1 style="text-align:center">+</h1>
 
 <div style="text-align:center; width:400px;height:400px; margin:0 auto" markdown="1">
-![Alpha video](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/cc1b5d0a-879d-11e4-9a03-c7c4398ed12e.png):
+![Alpha video](http://d2h13boa5ecwll.cloudfront.net/misc/cc1b5d0a-879d-11e4-9a03-c7c4398ed12e.png):
 </div>
 <h1 style="text-align:center">+</h1>
 <div style="text-align:center; width:400px;height:400px; margin:0 auto" markdown="1">
-![FX video](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/cc1d6172-879d-11e4-8029-d62a38c96df0.png):
+![FX video](http://d2h13boa5ecwll.cloudfront.net/misc/cc1d6172-879d-11e4-8029-d62a38c96df0.png):
 </div>
 
 <h1 style="text-align:center">=</h1>
 
 <div style="text-align:center; width:400px;height:400px; margin:0 auto; margin-bottom:30px" markdown="1">
 
-![blended video](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/2ef0e490-879e-11e4-9390-a70e4839d74c.png)
+![blended video](http://d2h13boa5ecwll.cloudfront.net/misc/2ef0e490-879e-11e4-9390-a70e4839d74c.png)
 
 </div>
 

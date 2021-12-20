@@ -35,10 +35,10 @@ tags: fishing,life
 因为钓鱼过程中，无人值守， 不会有手竿那种看浮漂有信号就提竿刺鱼这个主动步骤，所以这一块如何被动刺鱼并提高准确性就是一个非常关键的环节。在这个之前，需要最好有水下摄像来观察大鱼吃食咬钩的动作和习惯，特别是鲤鱼草鱼。
 
 <video width="320" height="240" controls>
-  <source src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guonei.mp4" type="video/mp4">
+  <source src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/carpfishing_guonei.mp4" type="video/mp4">
 </video>
 <video width="320" height="240" controls>
-  <source src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfishing_guowai.mp4" type="video/mp4">
+  <source src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/carpfishing_guowai.mp4" type="video/mp4">
 </video>
 
 
@@ -56,16 +56,16 @@ tags: fishing,life
 
 手竿钓鱼或者海竿有人值守这个时候会反应在浮漂上会是浮漂的上下动作，这个时候人只要去提竿主动刺鱼就能比较好的刺鱼，提高命中率。但是如果是全程无人值守，那么就需要结合上述的观察发挥被动刺鱼的最大威力，争取做到：一击即中。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/chuantong.gif" style="zoom:50%;display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/chuantong.gif" style="zoom:50%;display:flex" />
 
 
 上面的传统的钓组模式，这也是传统海钓串钩的模式，就不是非常适合了，将玉米穿在钩子上，露出钩尖，钩子和饵料是一体的，直上直下，没有太多角度的变化，难以保证鱼口在进食吐出时可以有机会刺到鱼的下嘴唇，刺鱼的成功率就不会太高。从吃口来看，最好钩子和饵料不是一体的或者说可以有些角度的变化，带一点弧线而不是一条直线，这样可以让鱼在吸入吐出的时候，这个弧度角度可以将钩子轻微的挂在或者带在下嘴唇，这样鱼一感觉异物不舒服有危险时，开始第一下最为猛烈地起身摇头想摆脱鱼钩，给到一个瞬时间猛烈的逃窜力。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/oulidiao_how.jpg" style="zoom:67%;display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/oulidiao_how.jpg" style="zoom:67%;display:flex" />
 
 根据作用力与反作用力，如果可以利用这股鱼本身施加的力量，比如离钩子不远的线上某个点（八字环附近），绑上一个重量比较大的铅坨比如80-150克，那么这个反作用力会作用到钩上，将鱼的下嘴唇打穿刺穿，这一下的力量足以牢牢的挂住鱼，刺鱼的成功率也会提高 - 这个也就是国外的欧鲤钓钓法和国内四川地区的珠珠钓法。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/oulidiao.jpg?t=1" style="zoom: 50%;display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/oulidiao.jpg?t=1" style="zoom: 50%;display:flex" />
 
 
 死铅，也就是固定死不能在线上移动位置的固定铅坠的办法，可以保证第一下鱼大力摆头时，牢牢地刺穿鱼的下嘴唇，但是这个时候瞬间子线所承受的力也是非常大的，所以子线要足够的粗，另外钩的强度要非常好，最好是有伊势尼那种钓大鱼的钩子的强度（否则容易钩子被拉直）；另外一个子线的长度也要稍微长点，但是不能是完全伸直没有余量，因为上面我们注意到鱼会不断的吸入吐出，所以鱼线最好不能绷的太直，否则一个微小的鱼线的张力就会让鱼还未完全吸入就会感觉到线的张力的异样就会立马吐出来，这就难以刺鱼。
@@ -73,7 +73,7 @@ tags: fishing,life
 
 再看上面的视频，可以看到鱼在第一次大摆头之后，还会有第二波第三波的摆头，但是幅度和力量都没有第一次那么大；虽然说力量没有第一次那么大，但是也会施加很多力在钩子和铅坠之间这段子线上面，而这一段是整个线组里比较薄弱的；如果可以在第二次三次后面的摆头中，可以让铅坠往主线上滑动，这样可以让钩和铅坠之间的线的长度拉长，这样受力就会被分散的更多，不容易出现子线被拉断同时也可以保护子线，延长使用寿命，同时鱼的嘴唇也不容易被拉豁豁（也就是鱼的嘴唇因为受力太大时间太长，导致嘴唇直接被钩拉的裂开了，下嘴巴被打烂了，然后跑鱼），进一步提高中鱼率。总结来说，也就是铅是锁死的（第一下有力的刺鱼），但是又没有完全锁死（后续滑动分散受力），这个度的把握还需要在实践中不断尝试。关于铅坠的松紧问题，有兴趣可以看看云贵地区常年用珠珠钓法的钓鱼人九哥:。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/jiuge_qianzui.webp" style='height:300px;display:flex'/>
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/jiuge_qianzui.webp" style='height:300px;display:flex'/>
 
 <cite>来源：[钓鱼人九哥 - 做得不好仅供参考，高手不要喷我](https://v.douyin.com/RAVW4DV/)</cite>
 
@@ -86,7 +86,7 @@ tags: fishing,life
 
 用单钩确实可以减小溜鱼阶段挂底的可能性，但是抛竿和收杆仍然会有不小挂底的概率。平躺的钩子，容易陷入在石头缝隙里，同时如果淤泥水草多点的，钩子甚至直接陷入了淤泥里，根本看不到。要更好减小挂底率，也为了保证在淤泥水草多的地方钩子不躺底，可以借鉴上面提到的欧鲤鱼钓和珠珠钓的反底钓法，也是钩子不是平躺着的，是借助钩子上的丸饵或者塑料浮球将钩子带起来浮起来。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/oulidaio_hook.jpg" style="zoom:50%;display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/oulidaio_hook.jpg" style="zoom:50%;display:flex" />
 
 欧鲤钓主要还是在国外比较流行，简单说就是假饵浮球的反底钓。网上有各种评论欧鲤钓，其中常见的有一种：
 
@@ -94,7 +94,7 @@ tags: fishing,life
 
 这个说法也确实有些道理，国外的鲤鱼特别大，是肥壮的那种，肥的壮的甚至有点带纹身鳞片黑黑的common/scaly那种，略微有点吓人（你可以在油管上搜一下carp fish，可以看到封面上各种`肿胀不堪的鲤鱼`，跟国内的比较苗条或者说也有大体的但是形状不会那么奇怪的肥）， 另外国外地广人稀，亚洲鲤鱼甚至一度成为了入侵物种，繁殖能力max, 密度肯定是比国内高，以我的经验看，在国内3-5斤以上的鱼就可以算是大个体鱼了。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carpfish_guowai.jpg" style="zoom:67%;display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/carpfish_guowai.jpg" style="zoom:67%;display:flex" />
 
 那么是不是欧鲤钓就不值一看了？ 肯定也不是，研究背后的钓法逻辑，其实看到四川的珠珠钓法其实差不多，说明这个逻辑是成立的，起码是有值得学习借鉴之处的。这里说的`不吃这套`，主要是这个浮球假饵，因为要产生浮力，必然主要是塑料，这个问题就变成了：*“我们人都不会吃塑料，鱼会吃塑料了？肯定是扯淡嘛“*。 但是看似理所当然的直觉，却可能只是人的惯性思维而已，到底是不是这样了，鱼是通过视觉、味觉还是什么的来判断可不可吃了，其实只要观察一下网上那些水下摄像的视频再结合四川地区流行的珠珠钓法的基本原理，就可以大致知道这个问题的答案：鱼会不会吃假饵问题不重要，但是鱼会有好奇心，尝试看看这个能不能吃，吃进去吐出来，只有这个动作就可以让钓鱼的逻辑成立。这里有一个珠珠钓法的视频[（钓鱼这么久，我还是第一次听说不用饵就能钓鱼，上鱼全凭小珠子）](https://www.ixigua.com/6835034257656644099)，欧鲤钓的[（欧鲤钓不行？
 ）](https://www.ixigua.com/6950827647890883113)，还有人尝试过假饵+真饵，也有单独尝试过只有假饵，也有中鱼（当然这里要排除个体的因素，最好是有区域性的，这样从概率上才能一定证实这个钓法确实可行）。
@@ -123,7 +123,7 @@ tags: fishing,life
 
 一般来说`4-8米深`比较合适的。但是这里也要具体对待，比如冬天就不一定是钓的越深越好，最好是找有障碍物的比如芦苇草丛、树木、石头堆或者断崖坎等等结构，大鱼喜欢在这些比较安全的地方活动，水深不一定特别深。冬天白天可以钓远一点，但是晚上可以在近岸好点。太深没吃的，太浅不安全。另外比如冬天温度低，鱼是冷血动物，进食欲望低，就要适当用小钩子，窝料的大小要小点，比如把玉米颗粒掰成两半，窝料的量要稍微小点，散一点，就不是跟夏天一样越多越大越好，否则容易死窝。
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/winter_veune.jpeg)
+![](http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/winter_veune.jpeg)
 
 <cite>Fox Carp Fishing Youtube: [CARP FISHING IN WINTER (Catch more on cold days)](https://www.youtube.com/watch?v=GUdfbnZ_Qu4&ab_channel=FoxInternationalCarpFishing)</cite>
 
@@ -131,7 +131,7 @@ tags: fishing,life
 
 `Talk is cheap, show me the code`。 有没有点切实的证据可以说明大鲤鱼在不同季节的温度、风速、气压下的活动轨迹，而不是凭经验或者自己的凭空推断了，毕竟年纪越大越感觉某些自以为是的经验靠不住-需要被像笛卡尔一样谨慎地审视？ 还真有，德国的一个渔业团队在一个自然水域的池塘湖泊里运用电子装备扫描追踪30-50条大鲤鱼在一年不同季节中的活动轨迹：
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carp_location_season.jpeg)
+![](http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/carp_location_season.jpeg)
 
 <cite>source来源: IFishMan Youtube: [Wie verhalten sich Großkarpfen in einem natürlichen Gewässer? Hier der August
 ](https://www.youtube.com/watch?v=cXRsnoPy4zw&ab_channel=IFishMan)</cite>
@@ -163,7 +163,7 @@ tags: fishing,life
 
 我们先看看打窝的需要，因为打窝不是要打到一个精确点（不像手竿），大水面的话，最好是粗中有细，细中有粗。就是说最好先打一个比较散的窝点，最好是以钓点为圆心，半径为3-5米的范围内，这个散窝的目的在于利用窝料的穿透力，先在大范围地吸引鱼，给鱼一个信号，这边有吃的；然后在这个圆圈的差不多的中间，打一个精准的小窝和我们的钩饵。 大窝比较分散，中间的小窝比较密集，这样鱼进入大窝之后，慢慢的从周边吃，直到我们的小窝和钩饵。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/dawo.jpg" style="zoom:67%;display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/dawo.jpg" style="zoom:67%;display:flex" />
 
 怎么打一个半径几米的散窝了？这块可以借鉴下下面几个钓友的视频[（海竿远投续窝有难度？教你一招搞定）](https://v.ixigua.com/RLh84DX/)、[（海竿专用打窝器，钓鲤鱼必备，比买的更好用）](https://www.ixigua.com/6913891316023853575)、[（野钓鲤鱼神器，钓鲤鱼如探囊取物，鱼竿差点被大鱼拉跑）](https://v.ixigua.com/RLhg3bK/)，用类似娃哈哈瓶子和翻版铅块，可以让海竿抛出去之后在快要到钓点时候窝料散落出来，形成一个大概三到五米的半径的区域。
 
@@ -171,15 +171,15 @@ tags: fishing,life
 
 <div style="display:flex">
 <video  controls style="display:flex">
-  <source src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/casting_feed.mp4" type="video/mp4">
+  <source src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/casting_feed.mp4" type="video/mp4">
 </video>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/casting_feed.gif" style="" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/casting_feed.gif" style="" />
 
 </div>
 
 <cite>注意落水之前，窝料散开，形成一个直径1-3米的范围，多打几次，就可以形成一个比较大的散窝</cite>
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/custom_feeder.jpeg" style="display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/custom_feeder.jpeg" style="display:flex" />
 
 <cite>自制简易打窝器： 娃哈哈瓶子+铅坠+椰奶的底盖。忽略里面的蚕豆，用来打窝实验的，比玉米便宜。</cite>
 
@@ -189,7 +189,7 @@ tags: fishing,life
 
 好多评论说水溶网融化太快，太垃圾，而且装不了湿饵，这个就是多此一举，其实了面对问题，对着淘宝卖家发泄差评、无能狂怒之后了，可以试试想想这东西是啥原理，有没有理解对，这样即使有问题不足，也许可以想其他办法绕过去。水溶网不同水温深度溶化速度不一样，稍微了解下水溶网溶化的原理，转个弯就行，溶化快因为网与水接触的太快，如果可以稍微隔绝下，就可以延长时间，另外做个试验就可以证实水溶网溶水但是不溶解油的，所以可以用比如芝麻油在网的表面涂上一层油，再不行，在面粉里裹两下，绝对可以延迟水与网接触的时间，延长水溶的时间，保证尽可能到底才化。装不了湿饵，是的，因为水溶网遇水就溶，直接装湿饵肯定有问题，但是可以把湿饵搞点面粉啥的稍微吸水一下，还可以在湿饵的表面涂点盐或者将湿饵浸泡在高点浓度的盐水之中再去装网，都可以保证水溶网的状态和正常使用。（老实说这些技巧淘宝商家应该写一份提示给到买家，这样买家不用走弯路，可见淘宝卖家其实也没有实战过，不了解钓鱼的实际应用场景和碰到的问题）
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/shuirong.jpg" style="zoom:67%;display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/shuirong.jpg" style="zoom:67%;display:flex" />
 
 至此精确抛竿指的就是： 能打出30-50米远的钓点，误差范围为3米左右。
 
@@ -213,9 +213,9 @@ tags: fishing,life
 
 根据电商项目的经验，流量直接打到底层数据库上，那谁来都不好使，一般的改造思路中有一点是层层分流，形成一个漏斗状的流量分配，这样可以让每一层都能恰当好处的发挥其最大优势。有鉴于此，我能想到是一个办法是多放点风线，也就是放出去多点长度的线，这个不像是普通下面的海竿，放出去之后会把线拉紧（因为不这样的话，无法保证能够拉动竿稍，出发铃铛或者报警器报警），我们反其道行之，多放点线，不需要太紧，这样一是可以避免鱼蹭线，第二假设中鱼之后，最差的情况鱼往反向逃窜，形成最不利的180度拔河，也可以有足够的线的余量，这就相当于多余的安全绳的，理论上来说鱼也不是无限制的往前冲；第二个办法是加上一个强力的弹簧，在主线和树根地插的连接处，提供一个缓冲，鱼线系在弹簧的一端，在绕过绑在地插或者树根上，这样可以在不影响隐蔽的前提下提供泄力。
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/tanhuang.jpg)
+![](http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/tanhuang.jpg)
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2%2Ffish_trigger.gif)
+![](http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2%2Ffish_trigger.gif)
 
 当然我觉得最好的，还是可以在地插上有一个迷你的渔轮，因为这块的线不需要太长，只是为了大鱼第一下发力的的缓冲而已，但是最好是金属的，质量比较好，直接绑到主线上，然后调节好泄力，但是这个比较麻烦点。
 
@@ -223,7 +223,7 @@ tags: fishing,life
 
 有了上面这些基础知识的积累和分析之后，接下来就是如何加上自动值守的装置，其实原理很简单。
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/jiegou.jpg)
+![](http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/jiegou.jpg)
 
 ESP8266(微控制单元- MCU):  读取输入端角度或者加速度的变化，然后发送命令给到输出端(SIM800C)无线通信端。
 

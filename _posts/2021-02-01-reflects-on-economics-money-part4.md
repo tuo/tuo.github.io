@@ -7,7 +7,7 @@ tags: money,economics
 ---
 2020年3月份鉴于新冠疫情的原因美股连续几次熔断，美联储从3月15号开始首先开始常规的降息0.25%，降低贴现率0.0%，降低了[对银行的资本要求](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20200401a.htm)，重启08年的QE包括购买长期国债和抵押担保债券Mortgage-Backed Security (MBS)等等。
 
-![excess_reserve](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/excess_reserve.jpg)
+![excess_reserve](http://d2h13boa5ecwll.cloudfront.net/20210201eco/excess_reserve.jpg)
 
 如上图，存款机构（银行等）已经在美联储储备银行存了很多的钱了，这些钱机构并没有像美联储预想的那样流通到市场中去，而这些机构因为担心外面的风险等，反而更愿意存在美联储来获得利息。所以货币的传导机制出现了问题，但是美联储没有办法代替人家做决定，只能是间接的影响，而外面市场里则资金匮乏，大量投资者撤回投资手持现金坐上壁观，导致需要卖的没有了买家，而公司也面临着融不到资金周转困难，及其有可能恶化到影响日常的生产活动导致裁员降薪等等陷入更困难的境地。
 
@@ -19,7 +19,7 @@ tags: money,economics
 
 大量的人卖出债券换回现金，出现美元荒，导致公司融资困难。那么这些公司债券怎么运作的了？上面不是提到了一级和二级么？可以参考克利夫兰美联储分部[《The Fed’s Secondary Market Corporate Credit Facility, explained》](https://www.clevelandfed.org/newsroom-and-events/infographics-library/smccf.aspx)有解释和图表：
 
-![somo](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/somo.jpg)
+![somo](http://d2h13boa5ecwll.cloudfront.net/20210201eco/somo.jpg)
 
 一级市场还是比较小而且量级比较大；二级市场比较广泛量级小，一级卖给二级；但是像上面总结报告里所说：
 
@@ -33,7 +33,7 @@ tags: money,economics
 
 4月9号[《April 09, 2020 Federal Reserve takes additional actions to provide up to $2.3 trillion in loans to support the economy》](https://www.federalreserve.gov/newsevents/pressreleases/monetary20200409a.htm)，扩大到了在3月份22号之前是投资级别，然后3月22号之后信用下降到垃圾级别的的公司债券(称为[Fallen Angel](https://www.investopedia.com/terms/f/fallenangel.asp))同时还有那些暴露在以高风险高回报的公司债券为主要投资对象的ETF。 主要目的是降低公司债券的回报率激增从而降低公司的借债成本（大量入等待卖出无人买，导致公债券没有要），最重要的是要显示美联储对市场稳定的坚定承诺，给市场以信心。随后确实比如垃圾债券市场的收益率大幅度下跌，公司融资成本显著降低。
 
-![junk_yield](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/junk_yield.jpg)
+![junk_yield](http://d2h13boa5ecwll.cloudfront.net/20210201eco/junk_yield.jpg)
 
 直到5月12号美联储借助黑石BlockRock的专业知识来帮助其购买公司债券ETFs，几家主要的ETF比如先锋[Vanguard](https://advisors.vanguard.com/insights/article/whatsgoodforthefedmayalsobegoodforinvestors)/黑石BlockRock旗下的iShares。[Fed Reveals Which Bond ETFs It Purchased](https://www.thinkadvisor.com/2020/06/01/fed-reveals-which-bond-etfs-it-purchased/)有5月19号的详细的购买列表，引用其中一段：
 
@@ -47,7 +47,7 @@ tags: money,economics
 
 美联储买了哪些公司了？主要是汽车行业和科技行业。包括苹果，电信和几家在美国有分部有下属部门（subsidiaries）的国际汽车制造商。
 
-![bond_issuer](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/bond_issuer.jpg)
+![bond_issuer](http://d2h13boa5ecwll.cloudfront.net/20210201eco/bond_issuer.jpg)
 
 大众，丰田，AT&T(美国电话电报公司-第二大电信供应商)，戴姆勒，Verizon威瑞森通讯，苹果，通用电气，宝马，微软，福特还有通用汽车，迪士尼，沃尔玛等等都还是比较出名的，后续还加入了可口可乐等等。美联储Jerome Powell 认为尽管目前借钱的成本已经比较低，但是鉴于新冠和快速恢复经济，还坚持购买公司债券，帮助公司需要现金来支付工人，坚定需要继续这么做，降低企业融资的成本。问题也看的出来，比如像苹果这种现金流很充分的特别优质的公司（现金奶牛），包括微软，甲骨文听起来不像是缺钱的公司。特别是苹果，在2020年8月09号宣布第三季度财报里显示，第三季度苹果的营业收入较去年同比增长11%，至597亿美元，本财年的前三个季度中收入增长了7%，达到2098亿美元；同时苹果在过去六个月（3-8）一直在不断回购股票（第三季度中回购了160亿美元的股票，全年回购的总价值达到了552亿美元，占该公司今年前三个季度所产生的运营现金的90%）。
 
@@ -94,7 +94,7 @@ tags: money,economics
 
 利益放大，风险也放大了。2017年杠杆收购企业中，公司的债务是其收入的6.6倍，杠杆融资市场规模高达1万亿，1.2万亿垃圾债券，3万亿将将在垃圾债券评价上的投资级别债券（如果一旦下调，就是垃圾债Fallen Angel).
 
-![coporate_debt](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/coporate_debt.jpg)
+![coporate_debt](http://d2h13boa5ecwll.cloudfront.net/20210201eco/coporate_debt.jpg)
 
 
 非金融部门的债券飞涨，比如上面的AT&T有1740亿债务，Verizon有1130亿债务。这些公司的债券就像08年的次级贷一样被打包糅合变成ETF在市场上卖给投资者。有些公司，通过低成本的借贷，上杠杆进行公司收购，用发生在将来美好的“利润”来进吸引投资者进行融资或者买入股票等其他高风险高回报的投资，同时将部分钱用来给高管CEO等发高工资，类似于击鼓传花的庞氏骗局。这些垃圾评级公司靠着再融资 - `Refinancing (a method of paying a debt by borrowing additional money thus creating a second debt in order to pay the first` - 靠着借钱来付债务)来左右腾挪其债务而避免其需要还清债务的义务（根本就达不到），而人们因为所有其他的有回报的投资的回报率都在普遍下降，所以人们更多投入相对高回报的债务投机中。
@@ -119,7 +119,7 @@ tags: money,economics
 
 而跟08年bailout银行等一样美联储在危机里出手bailout了这些公司。这些公司理论上如果按照自然流程，是会在危机里被清算，拍卖的拍卖来释放给投资的钱（虽然不多可能），倒闭的倒闭，要么处置不良资产或者资产调整结构重组，释放占用资源，短期可能有痛苦，长期看是好的，但是现在这些垃圾公司依然可以靠着美联储的这些救助勉强漂浮着（美联储的目的是打破多米诺骨牌效应，阻止水波想涟漪一样四处扩散，但是他也无法具体判断哪些公司影响小而可以倒，哪些不能，只能一刀切），占用了市场资源，使得那些具体竞争力有更好发展的公司没办法拿到更多资源，资源错配，影响了自由市场经济的那只无形的手的效用。这些企业就跟日本90年代那些银行是一样的，被称为僵尸企业或[僵尸银行(zombie bank)](https://www.investopedia.com/terms/z/zombie-bank.asp)， 日本过了30年，很多僵尸银行在账目上依然有很大比例的不良资产。
 
-![2020_covid_timline](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/2020_covid_timline.jpg)
+![2020_covid_timline](http://d2h13boa5ecwll.cloudfront.net/20210201eco/2020_covid_timline.jpg)
 
 这是截止2020年11月30号摩根整理的美联储应对新冠病毒的一些列措施的时间线，[PDF的详细来源](https://am.jpmorgan.com/content/dam/jpm-am-aem/global/en/institutional/insights/portfolio-insights/fixed-income/Fed-reserve-response-timeline.pdf)。
 
@@ -148,17 +148,17 @@ tags: money,economics
 
 根据美联储从1989年到2020年采集美国家庭财富分配数据[《Distribution of Household Wealth in the U.S. since 1989》](https://www.federalreserve.gov/releases/z1/dataviz/dfa/distribute/table/)来看，到2020年第三季度，美国的家庭财富分配比例是这样：
 
-![wealth_gap](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/wealth_gap.jpg)
+![wealth_gap](http://d2h13boa5ecwll.cloudfront.net/20210201eco/wealth_gap.jpg)
 
 底层50%的家庭只占总财富的%2；上层10%的家庭财富占比从1989年60.9%上升到了69%；特别富余的1%的财富占比人从1989年的23.7%上升到了30.%；而底层50%的人的财富占比从3.6%降到了1.9%。
 
-![equaity](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/equaity.jpg)
+![equaity](http://d2h13boa5ecwll.cloudfront.net/20210201eco/equaity.jpg)
 
 这是不同财富阶级对于公司股票证券和共同基金的才有比例情况，右上角和左下角两个极值比较有意思。越穷的人股票证券这些资产越少，而且富裕的人持有公司股票或者基金等等的更多。最富裕的1%的人拥有超过50%的公司证券和基金，接下来9%的人拥有超过1/3的位置 - 也就是最富裕的10%的人拥有了超过88%的股份！
 
 比较惨的还有Millennial Generation千禧年一代（从1981到1996年出生的人）大约有大约有7200万多人(美国总人口也就三亿多）大概是20%左右总人口，占据了劳动力的最大部分的构成，这些人却只控制了4.6%的社会总财富。
 
-![https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/householdwealthgap.png](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/householdwealthgap.png)
+![http://d2h13boa5ecwll.cloudfront.net/20210201eco/householdwealthgap.png](http://d2h13boa5ecwll.cloudfront.net/20210201eco/householdwealthgap.png)
 
 2021年1月30号最近的话有比较出名的wallstreetbets散户组团暴打华尔街巨头空头，甚至迫使华尔街资本控制的Robinhood居然限制了散户的只买不卖，这个事情甚至罕见了让美国民主共和两党的大佬都联合起来一致声讨Rohinhood就非常有戏剧性了。相当于华尔街基金们平时利用优势收个韭菜，结果没想到韭菜们集合起来有勇有谋的收割了华尔街，眼看就要破产了，就类似于拔网线搞这种无赖的操作，庄家在游戏中修改游戏规则，令人不屑。Robinhood本来是劫富济贫的，现在这个也太讽刺了。 具体可以看看[如何看待美国散户打爆华尔街大空头后被围攻，群聊被封，交易受限，媒体抨击，监管关注？此事后续会如何发展？](https://www.zhihu.com/question/441784921/answer/1703798744)和[如何看待 1 月 28 日美股游戏驿站 GME 被 Robinhood 等券商禁止买入，导致股价狂泻？](https://www.zhihu.com/question/441757711)。
 
@@ -177,7 +177,7 @@ tags: money,economics
 
 每当发生危机，钱总是先留到信用高的地方，然后一层层留到底层。谁会是信用高的了？大公司大银行有优质资产抵押的；谁会是低的？入不敷出没钱没房没稳定的工作，餐馆打工还有低收入的个体经营者；这些人在危机发生震荡时，大公司大银行有更多的缓冲；但是个人低收入者，特别是上面美联储自己的调查提到4/10都拿不出400美元的应急款，粤语中的手停口停，一点犯错的空间都没有，连生计都是问题；
 
-![2020_tosmall](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/2020_tosmall.jpg)
+![2020_tosmall](http://d2h13boa5ecwll.cloudfront.net/20210201eco/2020_tosmall.jpg)
 
 
 我们看看2020年五月引发BLM运动的[乔治.弗洛伊德事件的起因](https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E5%BC%97%E6%B4%9B%E4%BC%8A%E5%BE%B7%E4%B9%8B%E6%AD%BB)：
@@ -191,7 +191,7 @@ btw: 少数精英亚裔在硅谷和精英阶级里的成功使得很多人幻想
 美国常说是民族的大熔炉，包容各个民族的不同，这话某些情形是对的，但是也意味着你不要忘记相同和融合的前提是不同，过度强调同，甚至忽视本身同的前提是本质的不同，甚至拿这个都成普世价值不变的真理就有问题了，当形势和背景发生变化时，是不是一直都会是`同>不同`了？
 经济形势好的时候，人人都还可以，大家还可以忍住自己人性的兽性本性，维持着所谓的道德和普世价值，标榜鼓吹自我优越（John Locke洛克-自然状态人性善）；当形势不好的时候，就可难说了，历史上的案列太多，什么所谓的道德标榜，还不是回到了丛林法则(Thomas Hobbes霍布斯-自然状态人性恶），每个人都想以邻为壑，发泄压力（再加上特朗普不断的用中国病毒来重复洗脑乌合之众，久而久之成为了大众的潜意识，这种状态下理性让位于生存的原始欲望感性），总的挑一个软柿子来作为替罪羔羊吧(scapegoat)，这里面组成的不同的成分哪些是比较弱的？ 一边是软柿子，一边是带刺的，选哪个了？ 亚裔内部派系林立，一团散沙，各有各的想法目的（不像黑人没有非洲可以回的去了），也只有当亚裔普遍面临生存危机的时候，才能有偶尔零星的团结，可以预见的是风头过去之后，还是老样子。
 
-![https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/the-chinese-question-18-2-1871.jpeg](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/the-chinese-question-18-2-1871.jpeg)
+![http://d2h13boa5ecwll.cloudfront.net/20210201eco/the-chinese-question-18-2-1871.jpeg](http://d2h13boa5ecwll.cloudfront.net/20210201eco/the-chinese-question-18-2-1871.jpeg)
 <cite>来源: https://thomasnastcartoons.com/</cite>
 
 杨安泽对于自己族人-华人和亚裔的历史的知识更是相当匮乏的，他可能都不知道王清福这个人。如果我们回顾下华人在美国的历史，这里我就拿有”美国政治漫画之父”的托马斯纳斯特Thomas Nast在1871年在Harp Weekly上面发表的["The Chinese Question"- (Columbia.--"Hands off, gentlemen! America means fair play for all men.")](https://www.harpweek.com/09Cartoon/BrowseByDateCartoon.asp?Month=February&Date=18)的漫画看看吧。这个背景当时大量的猪仔或是被骗或是因为逃难亦或是为了更好的生活离开家人追梦到了旧金山，大量的廉价的来自中国的劳动力进入美国，跟之前1830年-1840年之间因为饥荒和战乱等等逃到美国的信奉天主教的爱尔兰人和德国人，发生了竞争，引起了爱尔兰人的极度不满，抢了他们的工作饭碗。爱尔兰人刚到美国时候跟中国人一样，都是从事被当地人鄙视的看不起的底层工作，现在以爱尔兰文化出名的波士顿当时还发生了针对天主教爱尔兰人的迫害，这些引发了爱尔兰人对如何保护自己的思考，还的是要投票要有政治权利和影响力，通过人多齐心投票来争取自己族群的利益，改善了自己的地位。但是这些人看到后面一大波中国人过来抢了他们工作，比如太平洋铁路，做的比他们还好价格比他们还便宜，立马就通过自己刚争取到的政治权益打压更弱势的中国人，全然忘记了自己当初刚到美国时时怎么受到迫害的，最臭名昭著的就是爱尔兰移民[丹尼斯Denis Kearney](https://en.wikipedia.org/wiki/Denis_Kearney)每一次演说结束都会煽动`”无论如何，华人必须离开”结束。(“And whatever happens, the Chinese must go”）`， 对于华人的仇恨运动anti-chinese也是越来越升级，口头上更加直言不讳，行动上也越来越暴力，成效也是越来越成功，两党也是争相响应”民意“，1882国会还是通过臭名昭著的排华法案Chinese Exclusion Act 。
@@ -209,13 +209,13 @@ btw: 少数精英亚裔在硅谷和精英阶级里的成功使得很多人幻想
 
 回到正题，当经济恢复时，往往有着强大投资和购买力的富豪们，借助于政府的资源和自己的资源，可以在其中获得巨大的利益。关于这中间财富分配和资源分配我们可以借助于概率论，比如杨辉三角或者说高尔顿板。
 
-![galton](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/galton.gif)
+![galton](http://d2h13boa5ecwll.cloudfront.net/20210201eco/galton.gif)
 
 <cite>来源：Galton board form PhysicsFun: https://www.instagram.com/p/B5qLb2DlZPA/?hl=en。</cite>
 
 可以借助于杨辉三角理解下，到达中间的球的路劲比旁边的位置的要多 - 这样代表比如都美联储在上面放水时候，他设想的是每个位置获得差不多的理想情况，但是实际可能是：
 
-![trickle](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/trickle.jpg)
+![trickle](http://d2h13boa5ecwll.cloudfront.net/20210201eco/trickle.jpg)
 
 <cite>来源: https://twitter.com/cwalsh516/status/1095026717184352256</cite>
 
@@ -225,7 +225,7 @@ btw: 少数精英亚裔在硅谷和精英阶级里的成功使得很多人幻想
 
 2020年的技术类的IPO公司数量超过了2001年，比较出名的饿了么DoorDash和传统的Airbnb，Snowflake等在第一个交易日就几乎都涨幅超过100%，这三家公司是最大IPO价格增长的前10名 - 也就是说股票上市前的定价在第一天交易就被追捧，上涨幅度之大令人咂舌[2020Dec IPO Mania Sweeps Over Robinhood Crowd and Stokes a 111% Rally](https://www.bloomberg.com/news/articles/2020-12-12/ipo-mania-sweeps-over-robinhood-crowd-and-stokes-a-111-rally)。
 
-![ipo_frenze](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/ipo_frenze.jpg)
+![ipo_frenze](http://d2h13boa5ecwll.cloudfront.net/20210201eco/ipo_frenze.jpg)
 
 举个例子有多疯狂，Airbnb上市定的价格是68， 老板Brian Chesky在接受[Bloomberg电视节目直播采访](https://twitter.com/business/status/1337069727500427267)时候得知第一天上市交易股票价格翻倍时(收盘时价格$144)，他甚至震惊的一度支支吾吾哑口无言（momentarily speechless）。他怎么说的了？
 
@@ -254,7 +254,7 @@ btw: 少数精英亚裔在硅谷和精英阶级里的成功使得很多人幻想
 
 他本人投资过比特币，并和他人在油管上公开辩论，今年的比特币飞涨也让他的声誉高涨， Social Capital的CEO，金州勇士的老板之一。Chamath Palihapitiya初始股东可以以价格是$0.002美元每股的价格持有20%的股票，其他在市场的投资者只能用$10美元的价格购买剩下的80%.
 
-![spac](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/spac.jpg)
+![spac](http://d2h13boa5ecwll.cloudfront.net/20210201eco/spac.jpg)
 
 从2020年九月份[2020-Sep - Chamath Palihapitiya unveils $4.8 billion SPAC deal for real estate startup Opendoor](https://www.youtube.com/watch?v=PSPZ42Wpg4k&ab_channel=CNBCTelevision)他的方向是进军房地产行业，简化和方便流程，目标是围绕着千禧一代，他的目标是找到类似亚马逊和特斯拉相似的可以复制的商业模式。
 
@@ -270,7 +270,7 @@ btw: 少数精英亚裔在硅谷和精英阶级里的成功使得很多人幻想
 
 从1980年新自由主义兴起之后的美国社会财富分配，引用达里奥的债务危机中的图片：
 
-![us_netwealth](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/us_netwealth.jpg)
+![us_netwealth](http://d2h13boa5ecwll.cloudfront.net/20210201eco/us_netwealth.jpg)
 
 贫富差距在拉大，当然不当是美联储放水导致的了，还有很多其他因素，科技金融创新，全球化进程等等。但是看得的出来美联储救市应该说并没有劫富济贫，反而是有些拉大财富差距的促进作用。弗里德曼的新自由主义在1970年之后特开始有影响力，到了1980年之后被广泛的实施，他所在芝加哥大学的部门后来出了30个诺贝尔经济学奖得主，也使得他是最有影响力的经济学家。弗里德曼的新自由主义跟目前的贫富差距有没有直接关系了？
 
@@ -322,7 +322,7 @@ btw: 少数精英亚裔在硅谷和精英阶级里的成功使得很多人幻想
 
 写《新教伦理与资本主义精神》的马克斯·韦伯怎么看新教对于资本主义发展的促进了 - 从奥古斯丁的原罪《上帝之城》《忏悔录》（中国古有孔融让梨美食，西方有奥古斯丁偷梨，奥古斯丁怎么看待自己为什么要偷梨了，不是为了吃，就是心痒手贱无聊刺激，跟亚当夏娃一样上帝什么都给了就是不安安稳稳的，所以人生来就带有罪恶啊 - 天主教的罗马教宗是上帝在俗世的唯一代理人）到马丁路德的“因信称义”再到加尔文主义的“预定论”，教徒不再是被动式的在充满罪恶的俗世消极的处世（`超尘出世Weltfremdheit`-只能通过忏悔和参加教会的仪式等待才能洗清自己的原罪，才可能死后上天堂，但是谁也不知道自己是否至善是上天堂-少数，还是至恶下地狱-少数，还是大多数中间的炼狱,可以参考14世纪的但丁《神曲》中宇宙的结构 - 所以有了赎罪券，类似于“花钱买功德”）
 
-![但丁神曲宇宙结构](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/dante_divine.jpg)
+![但丁神曲宇宙结构](http://d2h13boa5ecwll.cloudfront.net/20210201eco/dante_divine.jpg)
 
 
 ps: 1095年，在岌岌可危的东罗马帝国面对着博斯普鲁斯海峡对岸气势逼人的塞尔柱军队时，罗马教宗乌尔班二世在今天法国的克莱蒙召开了宗教大会，发表了著名的极具煽动性的演说，拉开了十字军东征的序幕：

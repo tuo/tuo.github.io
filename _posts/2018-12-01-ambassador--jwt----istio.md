@@ -16,7 +16,7 @@ tags: #tags go here: space-separated string
 
 具体可以参考官方的文档说明: [Kubernetes Concept: Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
 
-![20180730173812](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/49329075-f6e63300-f5b4-11e8-9e91-cec93eb20c2e.png)
+![20180730173812](http://d2h13boa5ecwll.cloudfront.net/misc/49329075-f6e63300-f5b4-11e8-9e91-cec93eb20c2e.png)
 
 
 那么具体实现的便是ingress controller了。
@@ -63,7 +63,7 @@ Ingress-Nginx应该说能大部分满足我们的需求，而且nginx一开始�
 [https://www.nginx.com/products/nginx/#compare-versions](https://www.nginx.com/products/nginx/#compare-versions)
 
 
-![Nginx vs Nginx Plus](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/49329335-f8fdc100-f5b7-11e8-8c76-0cd394d27995.png)
+![Nginx vs Nginx Plus](http://d2h13boa5ecwll.cloudfront.net/misc/49329335-f8fdc100-f5b7-11e8-8c76-0cd394d27995.png)
 
 
 这里我们看到Nginx Plus还是有有一些是Nginx没有的，但是这里我们看到Kubernete Ingress Controller是支持的，但是不支持比如JWT Authentication；而作为一个微服务场景，特别是主要以API为主要实现方式的场景里，认证Authentiction是非常重要的一环，而[JWT(JSON Web Token)](https://auth0.com/docs/jwt)就是用来保护授权我们API的访问的。 
@@ -75,7 +75,7 @@ Ingress-Nginx应该说能大部分满足我们的需求，而且nginx一开始�
 
 ### [Envoy](https://www.envoyproxy.io/) by Lyft
 
-![0_p2o7fpqs2ruyxh9a](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/49329429-b6d57f00-f5b9-11e8-9728-aa9f57cfa9fc.png)
+![0_p2o7fpqs2ruyxh9a](http://d2h13boa5ecwll.cloudfront.net/misc/49329429-b6d57f00-f5b9-11e8-9728-aa9f57cfa9fc.png)
 
 简单的说envoy就是为微服务量身订造的，更加适合微服务的架构和体系。它的作者在这篇文章[Our Move to Envoy](https://blog.turbinelabs.io/our-move-to-envoy-bfeb08aa822d)详细说明为什么创作它的理由。 [Envoy: 7 months later](https://eng.lyft.com/envoy-7-months-later-41986c2fd443):
 
@@ -123,7 +123,7 @@ Ambassador是基于Envoy的API Gateway实现。安装还是蛮简单的： 部�
 
 好在我们看到其中的一个章节：[The External Authentication Service](https://www.getambassador.io/reference/services/auth-service/)
 
-![auth-flow](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/49329594-598efd00-f5bc-11e8-841f-95080b962913.png)
+![auth-flow](http://d2h13boa5ecwll.cloudfront.net/misc/49329594-598efd00-f5bc-11e8-841f-95080b962913.png)
 
 首先我们写一个JWT的decode的middleware:
 
@@ -294,7 +294,7 @@ Fine-grained control of traffic behavior with rich routing rules, retries, failo
 
 
 
-![Istio structure](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/istioarch.svg)
+![Istio structure](http://d2h13boa5ecwll.cloudfront.net/misc/istioarch.svg)
 
 这里的Proxy就是基于Envoy的，基本上作为sidecar拦截所宿主的service的网络通信并且向pilot中央报告，然后根据规则等等(mixer)做出服务查找通信等等。
 

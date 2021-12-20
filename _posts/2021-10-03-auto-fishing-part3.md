@@ -14,12 +14,12 @@ tags: fishing,life
 
 **第一种是借鉴无杆钓鱼的经验**。无竿钓鱼就没有浮漂，直接将主线的一端绑在岸边的树根或者木棍地插上。可以在主线和地插连接的地方，加一个弹簧，这个弹簧是倾斜接近垂直地放置，当鱼咬钩拉动鱼线，这个拉力会让弹簧往上抬起来，从而形成一个角度差和瞬间的加速度。假设有这么一个装置可以安在弹簧上，并检测角度差值，当这个角度差超过一定的阈值，就会形成触发，可以认为是中鱼。
 
-![sketch_bank](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/sketch_bank.jpg)
+![sketch_bank](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sketch_bank.jpg)
 
 
 **第二种是借鉴手竿钓底的经验**。手竿钓底，一般都会有一个找底调漂的环节。之后当鱼咬钩，就会拉动浮漂上下运动。一般来说是大鱼的话，浮漂的表现的话就是一个*大黑漂* - 浮漂有一个猛烈和迅速的向下的运动，直接浸没到水中。假设有这么一个装置可以安装在这样一个足够大的浮漂的内部，并检测z轴的加速度变化，当这个加速度的变化值超过一定的阈值，就会形成触发，可以认为是中鱼。
 
-![sketch_float](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/sketch_float.jpg)
+![sketch_float](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sketch_float.jpg)
 
 这两种各自的优势和困难所在：
 
@@ -52,13 +52,13 @@ tags: fishing,life
 
 这两者来说，第一个相对第二个在实现难度来说还是简单一点，再一个结合我在夏天拍摄的水库岸边的情况（岸边树木草比较多，适合隐蔽），所以选择第一种方案作为切入点。装置势必要体积要小，同时续航起码需要支持一两天，像上一篇博客简要提到的，包括三个部分：陀螺仪(方向)或加速度(角度)的检测的传感器(输入）、中央微处理控制单元模块（大脑）、无线通信模块（输出）。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/angle_change.jpg" alt="angle_change" style="zoom:50%;display: flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/angle_change.jpg" alt="angle_change" style="zoom:50%;display: flex;" />
 
 <cite>当鱼线被拉动，此时弹簧从垂直状态被拉起形成一个夹角，弹簧还可以提供缓冲，防止硬怼硬</cite>
 
 看一下模拟中鱼的动图：
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2%2Ffish_trigger.gif)
+![](http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2%2Ffish_trigger.gif)
 
 ## ESP8266 微控制单元
 
@@ -68,15 +68,15 @@ MCU，微控制单元也叫单片微型计算机， 或者简单点说单片机�
 
 单片机有很多选择，树莓派Rasperry Pi、Arduino(Uno)、51单片机、STM32等等。树莓派太贵，最低两百多，针对我们的场景显得有点大材小用；Arduino也是前些年非常流行的开发板，C/C++语言开发；51单片机、STM32也是出现在各个教材的经典基本通用单片机/开发板，这些也都不错。但是近些年却非常流行一款国产乐鑫的[ESP8266](https://www.espressif.com/zh-hans/products/services)系列模组，面向物联网的高性价比（10多块钱）、高度集成的自带WIFI的开发板，比较适合我们这个场景。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/tb_nodemcu.png" alt="Screenshot 2021-10-29 at 14.32.51" style="zoom:50%;display: flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/tb_nodemcu.png" alt="Screenshot 2021-10-29 at 14.32.51" style="zoom:50%;display: flex;" />
 
 这里买的是*ESP8266串口WIFI模块 NodeMCU Lua V3物联网开发板 CH340 CP2102*中的CH340版本，CH340代表是USB串口驱动的型号。这里后续的代码和操作也都是是在Mac的系统上，先去这里[CH340 Drivers for Windows, Mac and Linux](http://www.wch.cn/downloads/CH341SER_MAC_ZIP.html)下载并安装好对应系统的驱动。用microusb连接板子和电脑之后，去到终端输入ls /dev/tty.*记住对应的设备名称。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/lsdevtty.png" alt="lsdevtty" style="zoom:33%;display: flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/lsdevtty.png" alt="lsdevtty" style="zoom:33%;display: flex;" />
 
 NodeMCU 是一款开源的物联网开发平台，支持各种固件系统，比如淘宝上提到*NodeMCU Lua V3*，也就是基于脚本语言Lua的NodeMCU，还有其他比较流行的MicroPython(Python)、Mongoose OS(NodeJS)等等。这些在系统底层的基础上加了一个解释器，可以直接修改代码而快速的调试，而不用每次改动都编译为底层汇编字节码并上传Flash，后者这样开发调试的速度实在太慢了。
 
-![nodemculua](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/nodemculua.png)
+![nodemculua](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/nodemculua.png)
 
 <cite>左边是解释器的原理，右边是传统编译上传的终端输出，速度感人</cite>
 
@@ -90,7 +90,7 @@ NodeMCU 是一款开源的物联网开发平台，支持各种固件系统，比
 
 **第二步 编程调试**。推荐的编程环境是ESPlorer IDE，直接运行下载来的JAR包即可。唯一在MAC上面要注意的问题是： 串口设备下拉表里无法选择目标ESP8266的设备，需要去设置settings，手动固定死ESP8266对应的串口设备名称。编程的IDE支持相当简陋，推荐VSCode，然后稍微注意下左下角的save/send to esp按钮，用来上传导入或保存lua代码文件到开发板之后，右边的FS info可列出出来当前单片机上的lua文件都有哪些。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/ESPlorerIDE_advanced.jpeg" alt="ESPlorerIDE_advanced" style="zoom:50%;display: flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/ESPlorerIDE_advanced.jpeg" alt="ESPlorerIDE_advanced" style="zoom:50%;display: flex;" />
 
 要注意的是，nodemcu上电复位后会自动执行init.lua 这个入口文件。如果没有的话， 右边串口终端会输出  *can't open init.lua*，手动创建一个init.lua,在里面引用其他的模块或者文件-这里是处理mpu6050和sim800C的代码即可，可以参考官方文档的[init.lua说明](https://nodemcu.readthedocs.io/en/release/upload/#initlua)。
 
@@ -99,7 +99,7 @@ NodeMCU还是非常好上手的，特别是自带了wifi模块，可以尝试从
 
 ## MPU6050 - 角度加速度六轴传感器
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/tb_mpu6050.png" alt="Screenshot 2021-10-29 at 14.35.47" style="zoom:67%;display: flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/tb_mpu6050.png" alt="Screenshot 2021-10-29 at 14.35.47" style="zoom:67%;display: flex;" />
 
 从上面购买的名字可以看到-*MPU-6050模块 三轴加速度 三轴陀螺仪 6DOF模块 GY-521 六轴姿态*，包含了加速度、陀螺仪很温度检测的功能，能帮助做倾斜角度的检测，价格也很便宜5-6块左右，当然还可以选择功能更全带卡尔曼滤波算法的JY61模块，但是目前没有啥必要。
 
@@ -111,7 +111,7 @@ NodeMCU还是非常好上手的，特别是自带了wifi模块，可以尝试从
 
 关于I2C可以这么比喻，与之通信的传感器或者元器件相当于一个快递柜（比如蜂巢或者京东），每个快递柜有很多格子，每个格子可以放东西，这个东西可以是快递人放的，收货人去取，也可以是寄货人放的，快递员去取。当你需要给这个元器件设置它的一些属性时，你就往预定的对应的格子存东西 - 写入(Write)。元器件往某些特定格子读取这些设置随后运行中产生了数据就放到了其他的一些格子中。当你需要从元器件读取某些数据时，你就去对应的格子取里面的货物即可 - 读取(Read)。每个格子都有它的编号，这个快递柜也是有它自己的编号。对应过来，这些格子就是寄存器，你只需要去它的数据手册里找到对应的寄存器的说明即可，而快递柜的编号也就是该传感器的I2C从机设备的地址，这个高7位是固定的，也就是默认的`0x68`，最后一位由引脚AD0决定。
 
-![Screenshot 2021-10-27 at 19.40.32](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/register_slave_addr.png)
+![Screenshot 2021-10-27 at 19.40.32](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/register_slave_addr.png)
 
 <cite>来自MPU6050的技术手册在4.32章节，MPU6050有很多地方需要查看技术手册 </cite>
 
@@ -220,17 +220,17 @@ end
 
 最后看看ESP8266是如何跟MPU6050的连线的：
 
-![mpu6050_wire_final copy](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/mpu_2_mcu.png)
+![mpu6050_wire_final copy](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/mpu_2_mcu.png)
 
 <cite>注意接地和正极VCC别搞错了，否则容易损坏，建议给杜邦线设计专门用途的颜色，比如正极是红色，接地是黑色等等</cite>
 
 这里实际中要把这个传感器贴在弹簧上，其实只需要关注acc一个x轴上面即可，每个一秒钟读取数据，观察是否大于某一个阈值。
 
-![ESPlorer_Output_window](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/esplore_output.png)
+![ESPlorer_Output_window](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/esplore_output.png)
 
 如果要想实现第二种设置，也就是将单片机放到浮漂球内部，就需要获取在z轴方向的加速度变化，这种情况跟上面的差不多，基本都是简单原始获取的值就足够用了。
 
-![rollpitchyaw](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/rollpitchyaw.png)
+![rollpitchyaw](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/rollpitchyaw.png)
 
 如果需要做一些复杂的姿态解算，那就需要复杂点的向量计算。这两个文章[《MPU-6050 6dof IMU tutorial for auto-leveling quadcopters with Arduino source code - Part 1》](https://www.youtube.com/watch?v=4BoIE8YQwM8&t=636s&ab_channel=JoopBrokking) 和[《MPU-6050 6dof IMU tutorial for auto-leveling quadcopters with Arduino source code - Part 2》](https://www.youtube.com/watch?v=j-kE0AMEWy4&ab_channel=JoopBrokking)非常详细解释了MPU6050工作原理，以及如何过滤噪音，和平衡角度等等比较高级的用法，作者的最终目的用这个来控制无人机，精确度要求高，值得学习下。
 
@@ -301,15 +301,15 @@ angle_roll_output = angle_roll_output * 0.9 + angle_roll * 0.1;    //Take 90% of
 
 实际上NB-IoT模块却不便宜，我们对比下基于2G的GRPS模块Sim800c、基于NB-IoT替换sim800c的SIM7020C和4G Cat1的Air724U
 
-![sim800_all](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/tb_sim800_all.png)
+![sim800_all](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/tb_sim800_all.png)
 
 结合这个项目需求来看，那还是sim800c比较划算，如果预算够的话，建议上右边两个。
 
 SIM800C可以通过AT指令发送命令，可以先连接电脑，调试一下基本的指令。这个时候需要一个USB-TTL调试模块、一个手机sim卡、可能还需要一个Nano卡槽和Sim800c模块。SIM800C插好手机卡，然后使用USB-TTL连接SIM800C然后插入电脑供电，观察到电源指示灯亮起之后，用跳线帽或者杜邦线将PWX和GND短接，给到一个低电平给PWX来出发启动模块，这个时候模块才会开始工作。调试时特别注意下LED闪灯频率，这个可以区分模块的工作状态。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/sim800_usbttl.jpeg" alt="sim800_at" style="zoom:67%;display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sim800_usbttl.jpeg" alt="sim800_at" style="zoom:67%;display:flex" />
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/sim800_coolterm.jpeg" alt="sim800_at" style="zoom:80%;display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sim800_coolterm.jpeg" alt="sim800_at" style="zoom:80%;display:flex" />
 
 这里Mac系统的串口调试工具建议使用[CoolTermMac](https://learn.sparkfun.com/tutorials/terminal-basics/coolterm-windows-mac-linux)，设置好串口设备的端口(Serial Port Options)的Port、终端断行模式(Line Mode)和View ASCII文本显示。
 
@@ -376,7 +376,7 @@ end
 
 这里将MPU6050的信息拼成一个字符串txt，然后直接通过最简单的GET方法，发送到后端，在后端可以看到如下日志：
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/server_log_check.png)
+![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/server_log_check.png)
 
 可以看到当我把MPU6050贴在弹簧上，模拟被鱼拉动而将弹簧抬起来的时候，在acc_x上面有一个明显的差值，这个差值多调试几次就可以找到合适的出发阈值。
 
@@ -390,7 +390,7 @@ SIM800跟ESP8266 MCU通信是通过TTL电平的方式，也就是高电位是1�
 
 查阅ESP8266的[技术手册datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_cn.pdf)在第19页的5.1电气特性这块可以知道：
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/sim800_datasheet.png" alt="Screenshot 2021-10-28 at 17.57.51" style="zoom:33%;display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sim800_datasheet.png" alt="Screenshot 2021-10-28 at 17.57.51" style="zoom:33%;display:flex" />
 
 <cite>虽然这里是ESP8266的技术手册，但是需要指出的是，后续SIM800技术手册也是非常重要的，里面提到了一些常见的问题和解决思路，需要特别注意的点，里面就已经写的清楚明白了</cite>
 
@@ -420,14 +420,14 @@ SIM800跟ESP8266 MCU通信是通过TTL电平的方式，也就是高电位是1�
 
 
 
-![full_wire](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/wire_sketch.png)
+![full_wire](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/wire_sketch.png)
 
 
 这里展示完整的各个模块连接起来完整的样子，同时我们将*init.lua*修改下加上读取mpu6050的加速度角度值，和发送sim800c的代码，（完整代码在github [tuo/auto_carp_fishing](https://github.com/tuo/auto_carp_fishing))就算基本完成了。
 
 可以看到我们使用两个单独的3.7v的18650的电池（一个电池大概8-9块），一个单独给sim800C供电，一个是给MCU ESP8266单片机；要注意电池连接单片机上的引脚应该是VBAT，而不是VCC。 VCC是板载的电压，设计是不能超过3.3V，而18650的输出是3.7V ，所以要接到VBAT/VIN(5v)这个引脚。
 
-![fullwired2](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/real_wire.jpg)
+![fullwired2](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/real_wire.jpg)
 
 
 
@@ -450,19 +450,19 @@ MPU6050每隔2秒读一次数据，每隔1分钟发送一次HTTP请求，大概2
 
 但是当我买好了海竿渔轮鱼线钩子，并调试好了装置，准备去水库边大干一场时候，当时已经是9-10月份，发现水库的水退了巨多，此时已经水离岸边的上面的树木草丛那块有好大一段距离，都是碎石，人可以很方便的走来走去，架设装置的难度太高了，找不到合适的地点。
 
-![season_change](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/season_change.png)
+![season_change](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/season_change.png)
 
 无奈，只能选择第二种难度更高的方案。第二个方案有一个关键性的问题就是：装置需要安在浮漂里面，这个浮漂必须容易打开取出来，然后还能放进去，并且在水里能密封放水。
 
 关于这个球，浮漂球，是什么样子，我搜索了一下，只有一个[RoboSpace Sphero sprk+可编程机器人 教育入门遥控机器球](https://item.jd.com/41851228516.html)比较接近我的预想。
 
- <img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/ball_minic2.png" alt="ball_minic" style="zoom:50%;" />
+ <img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/ball_minic2.png" alt="ball_minic" style="zoom:50%;" />
 
 但是可惜直径太小73MM，都不够放下电池盒子，要完整放得下，直径最少的10CM以上。
 
  淘宝没有现成的商品，只能找到比较相似的是这种球 -  [112扭扭蛋盒盲盒外壳圆形蛋高清透明扭蛋球奶白色球形模具可打开](https://item.taobao.com/item.htm?spm=2013.1.20141001.2.4183751eAivZdc&id=649502814052)，扭蛋机用来装展览展示的物品用的，中间有两个罗文，可以拧上和关闭，但是因为它的作用是为了展览，通用的模型，所以这个防水，也就是中间罗文并不严丝合缝，浸没在水里，毫无疑问肯定是要漏水的。
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/real_ball.jpg" alt="ball_reference" style="zoom:50%;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/real_ball.jpg" alt="ball_reference" style="zoom:50%;" />
 
 第一个难题是防水。 关于中间拧紧和扭开的缝隙处的防水问题，我想到也许可以使用热胶枪解决。当把装置放入这个球并拧上之后，用热胶枪给缝隙处罗文处涂一层胶，放置一会干燥之后在下水，应该可以保持一定的防水效果。
 
@@ -491,7 +491,7 @@ poling every 1 seconds form switch; se	nding every 3 minutes gps signals - 2500m
 
 没有找到所有的，但是差不多都在这了，总体价格最后没多少钱，基本上都是性价比不错的,PDD里买的物件的质量比我想象的好 :)
 
-![](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211003fishingpart3/taobao_all1.jpg)
+![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/taobao_all1.jpg)
 
 
 

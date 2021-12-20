@@ -9,7 +9,7 @@ tags: money,economics
  刚刚过去的2020年应该说是灾难危机的一年，非常特别的一年，当一月份还在为科比意外去世惋惜时，新冠病毒，黑人运动BLM,，种族歧视，美国大选还有三月份的股市连续崩盘熔断，经济放缓，失业率暴增，随后的美联储救市，财政刺激，在美国新冠死亡人数不断创新高的情况，股市一路高歌猛进，中间也有黄金的暴涨，到了年尾有比特币的暴涨，贫富差距加大。 大选上，特朗普在普遍媒体民调不看好的情况（[甚至90%上会败给拜登](https://projects.economist.com/us-2020-forecast/president) )，结果出其意料的跟拜登不相上下，后面一系列指控选举舞弊（Stop the steal），甚至在今年1月6号发生了支持者冲突国会的暴力事件，拜登斥责[某些共和党人像是纳粹的宣传部长](https://thehill.com/homenews/administration/533449-biden-says-cruz-other-republicans-responsible-for-big-lie-that-fueled)，而特朗普也被社交媒体禁言 - 党派分裂的趋势越来越强。作为程序员可能尽管个人跟经济打的交道不多，但是每天都能接触到很多经济方面的术语”放水“、”比特币“、"股市“、”熔断“、”黄金“、”美联储”、“央行”、“通胀”等等，这些社会热点被动输入到我的大脑中，很多时候就是一看而仅此而已。之前难得有空在老家待了一阵，突然想起来之前一直狂轰乱炸的那些文字概念，回头一想，可能是一个学习了解新事物-货币和经济运行机制-的好机会。毕竟我们每天都跟钱打交道，却是很少去思考现象背后的运行的规则是怎么样的，这是个好机会重新挖掘一下自己的已有的知识，有哪些持有的印象概念是对的，有哪些肤浅的，整理归纳顺便学习新的知识，应该是蛮有意思的。我个人不是经济专业的，没有系统学过经济方面的知识，文章里写下的就是我私下觉得有趣然后花了点时间慢慢看学习，结合自己的实际观察，吸收总结归纳的一些见解，应该是有很多疏漏，可以指正的。
 
  
-![covidcases_all](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/covidcases_all.jpg)
+![covidcases_all](http://d2h13boa5ecwll.cloudfront.net/20210201eco/covidcases_all.jpg)
 
 
 截止到2021年2月3号，根据[https://covidtracking.com/](https://covidtracking.com/)美国确诊的新冠病毒病例有二千六百万人，死人总人数四十四万。
@@ -37,15 +37,15 @@ tags: money,economics
 
 自1158年以来英国一直流行的银为主的标准，铸币也是按照金银含量大小的不同分为了不同的单位，类似1英镑=20先令=240便士。
 
-![1686-Guinea-elephant-and-castle-James-II](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/1686-Guinea-elephant-and-castle-James-II.jpg)
+![1686-Guinea-elephant-and-castle-James-II](http://d2h13boa5ecwll.cloudfront.net/20210201eco/1686-Guinea-elephant-and-castle-James-II.jpg)
 
 比如英国国王詹姆斯二世时期的[“基尼”金币Guinea](https://en.wikipedia.org/wiki/Guinea_(coin))铸造于1685-1688期间，重8.4克，直径25-26mm,纯度大概在0.9094，一英镑。	正面是国王的头像，然后四周被环绕的字是 iacobvs ii dei gratia ("James II by the grace of God")詹姆斯二世承自上帝的荣耀，反面是十字形状的带皇冠的盾牌。基尼是因为金来自非洲的产金国几内亚（Guinea）。这样看这纹理和文字工艺复杂度(有兴趣可以看看现在人民币如何防伪[回形针 - Vol.099 造假币为什么这么难？](https://www.youtube.com/watch?v=5Kmcvm09iRU&ab_channel=%E5%9B%9E%E5%BD%A2%E9%92%88PaperClip)，以当时的条件，普通人要熔化造假也挺难的，难怪后面不断的重新铸币发币了。这些是英国历史上发行的金银币，可以看看硬币上的花纹雕刻和图案：[Coin Gallery](https://en.wikipedia.org/wiki/Guinea_(coin))
 
- ![coin_gallery](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/coin_gallery.jpg)
+ ![coin_gallery](http://d2h13boa5ecwll.cloudfront.net/20210201eco/coin_gallery.jpg)
 
 17世纪英国人将金银等贵金属存放到金匠铺（为什么是金匠而不是国家官方某个地方了？查理一世威胁苏格兰改成新教仪式，想发动战争但是议会拒绝征税，他强行霸占控制了当时英国人普遍存金子的地方”伦敦塔”-牛顿后来担任的皇家铸币厂所在地，结果自然人们都纷纷转而存到私人的金铺里），那里时会收到到金匠给的一张类似存款仓库收据，这张收据可以被转让，也可以由储户凭该收据去金铺兑换金银币，金铺收取一定手续费保管费。本票（Promissory notes）也就出在这个，大概意思是： 发票人谁谁有固定数目的金条（多少钱）给到谁谁持票人（Bearer）， 然后拥有人可以通过签字将单转让给其他人，只要上面还有空间就可以无限转手。 `(I promise to pay the bearer on demand the sum of... 跟当前我们的借条开头一样的)`.本票[来源](https://www.glabarre.com/item/1773_Insurance_Promissory_Note_Bond/2793/c78)：
 
-![promissory_note2](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/promissory_note2.jpg)
+![promissory_note2](http://d2h13boa5ecwll.cloudfront.net/20210201eco/promissory_note2.jpg)
 
 
 私人合同，是没有法律效应的，纯靠对金铺的信任， 所以如果金铺主人财务状况好，守诚信，那么他更容易收到储户的信任。但是私人合同出现了法律纠纷时候怎么办？ 谁来做调停人？ 这些问题迫使议会通过了1704年的[《PROMISSORY NOTES ACT OF 1704 本票法案》](https://encyclopedia-of-money.blogspot.com/2011/10/promissory-notes-act-of-1704-england.html):
@@ -57,23 +57,23 @@ tags: money,economics
 
 下面是英格兰银行发行的第一张5英镑的钞票,两面的。（[来自英格兰银行官方历史时间线 - The first £5 note - Bank of England](https://www.telegraph.co.uk/finance/currency/10298868/A-history-of-the-British-banknote.html)）
 
-![5poundbanknote](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/5poundbanknote.jpg)
+![5poundbanknote](http://d2h13boa5ecwll.cloudfront.net/20210201eco/5poundbanknote.jpg)
 
 插一句话就是美国各个殖民地也都发行自己的纸钞，形成了各具特色的设计方案，这篇文章[《The Ornate Charm of American Currency from the 1700s》](https://www.atlasobscura.com/articles/the-ornate-charm-of-american-currency-from-the-1700s)详细介绍了不同种的钞票风格，还挺有美感的。下面是特拉华州殖民地的一张4先令的背面(A four shilling note from Colonial Delaware - back side):
 
-![4shilling](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/4shilling.jpg)
+![4shilling](http://d2h13boa5ecwll.cloudfront.net/20210201eco/4shilling.jpg)
 
 
 可以看到各种各样的雕刻方案和花纹，同时也有的写着 `“To Counterfeit, is Death."`来恐吓下面胆敢造假币者。 后面独立战争期间大陆联盟（Continental Congress）也发行自己的正式的大陆联盟币。下图是3美元的大陆币，画的跟鬼画符似得A three dollar Continental bill. (图片来自: [National Numismatic Collection/Public Domain](/assets/3dollar.jpg))
 
-![3dollar](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/3dollar.jpg)
+![3dollar](http://d2h13boa5ecwll.cloudfront.net/20210201eco/3dollar.jpg)
 
 
 跟历史上的战争一样， 因为独立战争举债，Continental currency超发贬值。战争之后，大陆币贬值如此厉害（有了[Worthless Continentals](https://www.investopedia.com/terms/c/continentals.asp)垃圾大陆币一说），以至于人们拒绝接受大陆币来购买商品或贸易。贬值导致的物价飞涨和需要支付大量的战争债务，为了稳定经济和解决政府债务问题，汉密尔顿提出了建立一个国家银行的想法。也直接导致了第一美国银行的建立，同时为了恢复国家信用和清除劣币，跟历史一样，有劣币那就重新发新货币，同时通过了[1792《铸币法案》](https://zh.wikipedia.org/wiki/1792%E5%B9%B4%E9%93%B8%E5%B8%81%E6%B3%95%E6%A1%88)规定银元是衡量其他货币的基础，银和金的比列是15：1，实行[金银复本位制](https://baike.baidu.com/item/金银复本位制)，将用硬币替换掉流通的纸币直到美国内战的爆发前。
 
 1694年光荣革命之后为了建造更多的战舰加强海上力量和法国抗衡，英王迫切需要资金流，于是创立了[英格兰银行(Bank of England)](https://www.bankofengland.co.uk/about/history) -宗旨是：`promote the public Good and Benefit of our People`。它是一家私人的银行，股东持有股份，帮助政府融资，政府发布特许证(Royal Charter of 1694)背书，当然英王也是原始股东,来发行政府债券式的钞票(Banknote against the government bonds)来向公众融资借钱。民众借钱给政府钱，得到发型的票据(note)，上面注明利息(%8每年)，这个票据可以被转让，通过这个方式政府很快在12天里筹集到了一百多万的英镑，一般用来建造海军，也奠定后续英国的海上霸权地位。
 
-![bankofengland](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/bankofengland.jpg)
+![bankofengland](http://d2h13boa5ecwll.cloudfront.net/20210201eco/bankofengland.jpg)
 
 
 这个时候如何衡量一个国家是否强大了，这个时候主要还是人口数量和土地疆域。1800年前的欧洲社会正如马尔萨斯观察到的人口和土地的矛盾是不可调和的，要么你有更多人口，更多竞争，而土地生产资料不足，生产关系在工业革命之前普遍没有啥进展的情况下，那么只能是通过宗教战争瘟疫等等来平衡人口和土地的关系。法国是欧洲传统的大陆强国大国，英国作为岛国小国，土地面积狭小，且不经过海洋的话无法拓展，只能是跟法国竞争来获取更多的海外殖民地，让海外殖民地来养本土，降低本土的国内矛盾。
@@ -84,7 +84,7 @@ tags: money,economics
 
 与此同时，多年来以银为标准的本位制也发生了变化，1696年牛顿担任皇家铸币厂的总监。当时一个是白银在使用过程中存在的耗损严重等问题，另外劣币假币充斥、良币被贮存了起来，这些情况牛顿想扭转重新确定以白银为本位的新币，他打击私自销熔银币、伪造劣币等，同时还需要从民间收集白银来融化铸造新币。还有一个突出问题是英国的金银价格比列跟欧洲大陆国家的不一致，导致了严重的套利。当时金银有一个兑换比，英国比其他欧洲的都要高。
 
-![gold_england_eruope](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/gold_england_eruope.jpg)
+![gold_england_eruope](http://d2h13boa5ecwll.cloudfront.net/20210201eco/gold_england_eruope.jpg)
 
 
 比如上面极端假设情况，英国1黄金对10白银，法国1黄对1银。 我在英国用1盎司黄金还的10盎司银子，然后去法国将10盎司换成10黄金，在运回英国，那么我就赚了到10-1=9黄金的差价。 英国黄金越来越多，白银流失；法国白银越来也多，黄金流失；这就使得英国国内白银币质量越来越差，整体社会中的货币供给量减少，使得人们转而到了质量更好的”基尼”金币上。 牛顿很快意识到了英国金银兑换比率的问题，同时白银国内没有足量供铸造用了，因而他建议将金银兑换跟欧洲接轨。
@@ -93,7 +93,7 @@ tags: money,economics
 
 > “自基尼（金币）被铸造以来，就一直处于被高估的状态，在以银币为本位货币下的英格兰，基尼的被高估导致金银兑换比失衡。而在欧洲大陆各国，银币的价值较高，这就造成我国国内的银币外流，而国外的金币不断流向英格兰……因此，将1基尼定为21先令Shilling才是合理的。”
 
-![newton](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/newton.jpg)
+![newton](http://d2h13boa5ecwll.cloudfront.net/20210201eco/newton.jpg)
 
 英国议会认可的牛顿的提议， 牛顿的报告也让英国实质性地进入金币位制时代，这一年成为货币史上一个重要的事件。
 
@@ -108,7 +108,7 @@ tags: money,economics
 
 金本位的好处是每个国家都可以将自己国家的货币设计跟黄金的兑换比例，然后只要换算一下就可以得到跟英镑的数目，非常稳定固定的的货币体系，极大方便了当时日益增长的贸易交换和国际投资等等。
 
-![pound](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/pound.jpg)
+![pound](http://d2h13boa5ecwll.cloudfront.net/20210201eco/pound.jpg)
 
 有意思的是，理论上和常识是上这些钞票是跟黄金对应的-但实际并没有100%覆盖，也就是不是一张纸钞会有对应量的黄金。实际上1913年的美国美联储法律要求的是40%覆盖即期票据，而1910年英国是46%，德国是54%，也并不是真正的1比1对应关系。
 
@@ -119,11 +119,11 @@ tags: money,economics
 
 政府收入来源大部分是税收，关税和消费税； 但是这个时候明显战争的开销明确超过了实际可印制的钱（来自税）， 绿皮币 - *[Greenback](https://en.wikipedia.org/wiki/Greenback_(1860s_money))*
 
-![greenbacks](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/greenbacks.jpg)
+![greenbacks](http://d2h13boa5ecwll.cloudfront.net/20210201eco/greenbacks.jpg)
 
 绿皮币没有利息，但是可以兑换为金银币（on demand见票即付），而且可以用来支付关税。但是很快就发现没有足够的金银来兑换绿皮纸钞，所以1861年政府暂停了兑换，随后拒绝了硬币兑换。事实上1861年财政部花费了2350万美元，但是只有580万收入，入不敷出；好在内战林肯赢了，绿皮币的价格得到了回升，但是货币超发相对金币贬值还是不争的事实，如果要回到金本位就得减少货币印刷，但是要会到重建产生负面影响，通货紧缩，失业率增加；只能是慢慢减少发币(同时减少其他货币流通，1873年的《**Coinage Act of 1873**》停止铸造银币，废弃了流通中银币，也被称为[Crime of ‘73](https://www.investopedia.com/terms/c/crime-1873.asp)），同时通过投资铁路等等刺激经济发展，得到更多的经济产出，从而提升货币的购买力（新增钱多生产货品少->新增钱少生产货品多)，直到近1880年才回到金本位，这里大概花了15年才回到当初的购买力水平。这个中间需要一个慢慢尝试的过程，而且是内战(外部条件几乎无变化)；相比后来英国一战后立马回到金本位的做法，急于求成了.
 
-![civilwar_recovery](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/civilwar_recovery.jpg)
+![civilwar_recovery](http://d2h13boa5ecwll.cloudfront.net/20210201eco/civilwar_recovery.jpg)
 
 
 <a href="./reflects-on-economics-money-part2.html">[2020年关于现代经济的一些思考(二)]</a>

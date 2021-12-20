@@ -12,14 +12,14 @@ Here is one screenshot of one frame from final video using GPUImage on iPad2:
 
 
 
-![ipad2 gpualphablend framenotsynced](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/48a1cf26-8edd-11e4-97ed-f8809269acf9.png)
+![ipad2 gpualphablend framenotsynced](http://d2h13boa5ecwll.cloudfront.net/misc/48a1cf26-8edd-11e4-97ed-f8809269acf9.png)
 
 
 You could clearly tell that the frame is not perfectly synced.
 
 Here is the one from my implementation:
  
-![ipad2 customblend png](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/4641740c-8edd-11e4-8bfc-0270c4e90cb3.png)
+![ipad2 customblend png](http://d2h13boa5ecwll.cloudfront.net/misc/4641740c-8edd-11e4-8bfc-0270c4e90cb3.png)
 
 Note: the complete code is on github: [ThreeVidoes-AlphaChannelBlend/](https://github.com/tuo/AVFoundationOpenGLESVideoProcessing/tree/master/ThreeVidoes-AlphaChannelBlend). In sample code, I have also implemented how to do chroma key using GPUImage, so that you could compare side by side.  
 

@@ -44,7 +44,7 @@ Open XCode, try **"Product -> Profile"**, select **OpenGL ES Analyzer** in instr
 
 Here is the result we got:
 
-![instrument_openglesanalyzer_result](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/de0b583a-98c8-11e4-988d-5465152803c7.png)
+![instrument_openglesanalyzer_result](http://d2h13boa5ecwll.cloudfront.net/misc/de0b583a-98c8-11e4-988d-5465152803c7.png)
 
 
 We could list all those points:

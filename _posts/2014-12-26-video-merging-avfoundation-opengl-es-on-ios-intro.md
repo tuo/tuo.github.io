@@ -28,7 +28,7 @@ and final video got some freeze frames.This however, from my experience, it rela
 
 
 
-![jackie_chan_by_rober_raik-d4cly01](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/6aa4d738-8d54-11e4-8745-95e8c82121f3.png)
+![jackie_chan_by_rober_raik-d4cly01](http://d2h13boa5ecwll.cloudfront.net/misc/6aa4d738-8d54-11e4-8745-95e8c82121f3.png)
 
 
 # &nbsp;&nbsp;&nbsp;&nbsp;New Approach
@@ -150,7 +150,7 @@ But this is not enough yet, we need some way to upload image to GPU, which in Op
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After that, you need be careful as we also need use avassetwrite to write to final video, which uses [AVAssetWriterInputPixelBufferAdaptor](https://developer.apple.com/library/mac/documentation/AVFoundation/Reference/AVAssetWriterInputPixelBufferAdaptor_Class/index.html) to append pixels that pulls from GPU ram. That requires a proper setup on avassetwriter.
 
 
-![rage comic crazy](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/misc/ce63efbc-8d53-11e4-8d38-f5a577933cea.png)
+![rage comic crazy](http://d2h13boa5ecwll.cloudfront.net/misc/ce63efbc-8d53-11e4-8d38-f5a577933cea.png)
 
 
 

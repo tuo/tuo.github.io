@@ -12,7 +12,7 @@ tags: money,economics
 
 自从尼克松之后的福特和卡特两节总统内，高通胀高失业率和经济停滞一直是一个问题。有意思的是现在全世界都陷入了通缩的节奏，那个时候通胀确实给美国人带来了非常痛苦的回忆，两相对比令人唏嘘。为了控制通货膨胀，他两都实验了[自愿的价格薪资控制指导Voluntary Wwage-Price Guidelines](https://www.washingtonpost.com/archive/business/1978/10/01/carter-appears-headed-toward-wage-price-guidelines/e16e4ce7-bc2c-41cc-bd3f-aa8c1dabb265/)，不是尼克松的必须的强制的mandate，只是提供了建议和指导,看起来有进步。福特还搞了一个公众运动叫”[鞭笞通胀Whip Inflation Now!](https://en.wikipedia.org/wiki/Whip_inflation_now)“
 
-![whipinflation](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/whipinflation.jpg)
+![whipinflation](http://d2h13boa5ecwll.cloudfront.net/20210201eco/whipinflation.jpg)
 
 
 这也有点幽默的，但是他两的措施都没有效果，相反更像是通胀鞭打他们的屁股。美联储这边，一直以来没有办法完成他的经济目标，也造成了一定程度的信任危机。
@@ -76,7 +76,7 @@ tags: money,economics
 
 关于减税的问题，里根认为削减税收，当然政府的收入下降，但是因为减税企业能得到额外的钱可以用于投资和雇人扩大再生产，那么如果基数足够大的话，新增的这些产品和雇员所带来的税收可以弥补减税的那部分。这个减税的幅度和收益的关系就可以通过[拉弗曲线(*Laffer* *Curve*)](https://www.thebalance.com/what-is-the-laffer-curve-explanation-3305566)来得到：
 
-![tax_benefit](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/tax_benefit.jpg)
+![tax_benefit](http://d2h13boa5ecwll.cloudfront.net/20210201eco/tax_benefit.jpg)
 
 
 一部分观点是一开始税率太高，大幅度减税确实可以达到这个双赢，但是一旦税收到了后面在使用这个策略结果效果就一定好了。盲目减税不一定能带来好的效果。
@@ -84,7 +84,7 @@ tags: money,economics
 这个也被称为[涓滴经济学Trickle-Down Economics ](https://www.thebalance.com/trickle-down-economics-theory-effect-does-it-work-3305572)， 通过减税-高级税也就是富人税([Vox - How tax brackets actually work](https://www.youtube.com/watch/VJhsjUPDulw), 美国按照收入不同分等级，指的是高档收入人和大企业，大投资人大银行等等的税收）可以让企业招人扩大生产，银行可以放贷更多钱，投资者可以买更多企业的股票或者公司，所有这些最后都会实惠到底层的工人。这些工人也会花费他们的工资来驱动需求的增加和经济的增长。但是这个理论和制度也都是作用范围的，里根时期70%的税收确实太高，所以减税的驱动效果很好；但是一开始有效果并不代表一直用都会好，超过某个平衡点时，可能带来的不是好处更多是坏处了 - 企业家开始衡量拿钱投入生产的回报跟其他途径的回报相比哪个更合算。从里根到小布什到特朗普，随着税率越来越低，我们看到减税的效果对经济增长的助力作用明显减弱。
 
 里根开启的金融管制的放松，包括放开储蓄银行的低利息限制和存款比列的限制，进一步资产证券化-其预先的设想是让更多美国人容易付得起获得房屋。这些储蓄银行因为利息太低无法吸引客户，只能是拿着储户的钱偷偷去投资高风险高收益的金融产品。资产证券化，比如住房抵押贷款支持证券（MBS）这一时期得到极大的发展。大概原理如下图：
-![mbs](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/mbs.jpg)
+![mbs](http://d2h13boa5ecwll.cloudfront.net/20210201eco/mbs.jpg)
 购房人找银行借款30年100万，这里面假设收取的利息每年加起来总共是10万块，也就是银行这100W块30年的总的回报是10W，需要等待很多年才能把钱收回来，这中间没办法可以都放贷给其他人。如果这家银行只有100W，那么只能给一个贷款，也就是只要一个人才能买房。但是如果银行说，这样吧我这个打包一下给第三方金融机构，把购房人的每期的利息本金等等都给第三方，第三方在把这个分配打包证券等等卖给需要的投资者。银行让利比如10万回报中给5万的给第三方，第三方将这5W中4W作为利息给到投资者，这样一来银行快速收回了钱还有回报（100W+5W），它可以放贷给另外一个需要的人；第三方的投资者拿到了5W的投资回报；购房人也拥有房屋 - 一举三得。从这来看这个金融创新最开始确实很好，但是为什么到了08年却成为了大问题了？监管松懈，过渡金融化创新。
 
 里根的金融松管到了克林顿这里进一步扩大，克林顿认为这些纷繁的监督管控条目限制了金融的发展和创新，比如我们之前提到的1933年的银行法案[《格拉斯-斯蒂格尔法案（Glass-Steagall Act）》](https://zh.wikipedia.org/wiki/%E6%A0%BC%E6%8B%89%E6%96%AF-%E6%96%AF%E8%92%82%E6%A0%BC%E5%B0%94%E6%B3%95%E6%A1%88)中分离商业储蓄银行和投资银行业务，目的是限制投机。从1980年之后金融银行业一直游说政府废除《格拉斯—斯蒂格尔法》，始终未成功，直到1999年比尔克林顿签署法案废除了该法案[Gramm–Leach–Bliley Act](https://en.wikipedia.org/wiki/Gramm–Leach–Bliley_Act)， 这样一来商业银行就可以同时作为投资保险银行，银行兼并的寡头时代来临，也促进了08年金融危机的发生。花旗银行作为储蓄商业银行可以用储户的存款来投资证券化的资产博弈-MBS抵押贷款证券和[债务担保证券CDO](https://zh.wikipedia.org/wiki/%E5%82%B5%E5%8B%99%E6%93%94%E4%BF%9D%E8%AD%89%E5%88%B8)。一年之后2000年 [J.P. Morgan & Co](https://en.wikipedia.org/wiki/J.P._Morgan_%26_Co.)和[Chase Manhattan Corporation](https://en.wikipedia.org/wiki/Chase_Bank)合并成为了JP Morgan Chase摩根大通。
@@ -120,7 +120,7 @@ ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Histor
 
 回到正题， 在互联网泡沫和911之后美联储不得不降息来保持经济的刺激，小布什宣布自1981年之后最大规模的减税方案，这些多出来的钱希望找到回报利率更高的投资项目，一方面国际方面经过之前的亚洲金融风暴之后新兴国家的收益不太行，所以美元也都回流到了美国。这些钱都流到哪里去了？房地产市场。
 
-![homeprice](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/homeprice.jpg)
+![homeprice](http://d2h13boa5ecwll.cloudfront.net/20210201eco/homeprice.jpg)
 
 来自达里奥的债务危机： 
 
@@ -128,7 +128,7 @@ ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Histor
 
 但是我们贷款买房这种银行需要审查贷款人的条件的，比如这个人的收入水平，拥有的资产，否则还不起贷款就麻烦了。但是这些能带的起款的优质客户相对来说太少了，如果房价一直上涨的话（从2000年到2006年一直都是），那么其实这个人是否还的起利息有没有条件似乎就不是那么重要了。本来这些非优质客户的贷款（次级贷），一开始是这些银行才会玩的， 这样堵高风险但是回报率更高，并且当房价看起来一直再涨，这些银行会越加大胆的上杠杆；这样一来这些政府支持GSE的共用性的放贷机构比如两房- 房利美和房地美，为了跟他们竞争，也不得不跟上，开始接受更多的次级贷。
 
-![morgate](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/morgate.jpg)
+![morgate](http://d2h13boa5ecwll.cloudfront.net/20210201eco/morgate.jpg)
 
 为了规避金融监管，银行还会利用金融创新`影子银行ShadowBanks`在银行之外吸收更多的人放款，因为这些不在银行监管之内，那么这些获取贷款的人条件更送，进一步加剧了次级贷的泛滥。美联储盯着通货膨胀率和结业率两个目标，但是这种情况下跟1989年日本是一样的，居民消费价格水平并没有升高，因为钱都流入了资产房地产里，这样一来美联储并没有察觉太多通胀的（有轻微的因为能源输入性涨价的通胀但是问题不大），也没觉得经济有什么问题。
 
@@ -142,7 +142,7 @@ ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Histor
 
 其中如何吸引更多人购买了？哪怕是没钱的人？实际上在房价一直上涨的期间，他们如果他们家的宠物可以贷款的话，我相信他们都会给贷。来一张他们如何吸引购房者又可以让购房者不必担心资质的问题的照片。
 
-![lending2007](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/lending2007.jpg)
+![lending2007](http://d2h13boa5ecwll.cloudfront.net/20210201eco/lending2007.jpg)
 
 我们可以看到1.无需文件的贷款(no-document，你不用提供一堆工作和收入证明的文档)；2.一开始的利息很低1% - 实际为[可调利率抵押贷款ARMs](https://baike.baidu.com/item/%E5%8F%AF%E8%B0%83%E5%88%A9%E7%8E%87%E6%8A%B5%E6%8A%BC%E8%B4%B7%E6%AC%BE/6719448?fr=aladdin); 3.批准率很高,4/5通过率；4.没有提前的花费（首付）; 5.[“还息不还本” Interest only loan ](https://www.sohu.com/a/194216617_99939278); 6.「不查收入（stated income) - 收入你自己填
 
@@ -150,7 +150,7 @@ ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Histor
 
 这些人的钱是拿到了，但是投资者也不是傻子，这些钱是有风险的。怎么处理这个矛盾了？这里面有很多非常复杂的术语和套路，简单的说是以钱生钱，放大杠杆，跟之前马云的蚂蚁金融的差不多，空转套利，很少一部分才会流入实体当中。我推荐看看这个视频[The Crisis of Credit Visualized - HD](https://www.youtube.com/watch?v=bx_LWm6_6tA&t=26s&ab_channel=graphixmdp)和李永乐的[《蚂蚁金服如何把30亿变成3000亿？资产证券化如何导致美国次贷危机？》](https://www.youtube.com/watch?v=JhSKLEkrV0c&t=99s)
 
-![2008crisis](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/2008crisis.jpg)
+![2008crisis](http://d2h13boa5ecwll.cloudfront.net/20210201eco/2008crisis.jpg)
 
 <cite>图片来源：http://m.wjw.cn/baoxian/news-742504.html</cite>
 
@@ -167,7 +167,7 @@ ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Histor
 但是美国股市听了这话，在4月到5月继续上涨，创了历史新高。
 
 就雷曼兄弟来说，150多年历史的雷曼兄弟一直扮演着中间人角色（借钱方企业和出钱投资方个人联系起来） 一直在每个时代都正确的押宝，1850-60年的棉花，世界末转向金融新生的高风险企业比如零售retail（Sears, Woolworth, Macys)， 然后一直转向新的行业比如电影(Paramount派拉蒙 &Fox福克斯),然后是航空业(环球航空公司twa),然后消费品和汽车（福特Ford)，技术(intel因特尔)雷曼兄弟几乎都是在行业刚起步风险高的时候正确的时间进入，推动了行业的快速发展，自己也一步步壮大， 成为一家非常出名的投资银行。2000年之后然后雷曼兄弟大规模押宝房贷-次级贷， 上涨的房价使得他们的利润不断上身，以至于他们在06-07的利润达到了高峰，07年利润高达4.5亿（几乎是五年前的4.5倍），不过反过来进一步强化他们押宝次级贷，低利率低成本的借钱而后不断上杠杆。
-![lehman_brothers](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/lehman_brothers.jpg)
+![lehman_brothers](http://d2h13boa5ecwll.cloudfront.net/20210201eco/lehman_brothers.jpg)
 
 但是利率上升，自然短期利率的调整会有严重的影响，比如可调利率抵押贷款和还息不还本，会加重还不起贷款的情况，同时利率传导到长期的按揭利率(这个需要时间，但是期望预期已经成立)，让资金从长周期的资产投资中抽出来，导致资产价格的下跌，也就是房地产价格的下跌。还不起贷款，房价下跌，投行和保险都会跟着下跌，就像是恶性循环，直接引爆政整个金融市场。随后股市暴跌，金融市场奔溃，贝尔斯登可能挤兑要倒闭，其他花旗和美林面临着巨额的坏账， 银行投行保险机构等等可能一家家被清算。
 
@@ -219,7 +219,7 @@ ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Histor
 
 > 历史总是那么相似，在面临大萧条的时候，选择释放天量流动性并且压低利率价格，成了政府以及央行一致行动的决策。这一次美联储出台的是量化宽松。我们从下图看到，货币供应在1929年大萧条之后出现了巨大的增长，并且伴随着利率水平见底。而这一次同样出现了巨大的增长，同样伴随着利率水平的见底。
 
-![moneysupply_ir](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/moneysupply_ir.jpg)
+![moneysupply_ir](http://d2h13boa5ecwll.cloudfront.net/20210201eco/moneysupply_ir.jpg)
 
 但是问题跟02年他碰到的问题差不多， 美联储货币政策的常规武器打光了，但是对于恶化不见好转的经济形势还是没有啥太大效果，去哪里找速效救心丸了？
 
@@ -233,7 +233,7 @@ ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Histor
 
 回报率(yield)等于每年的利息收入除以纸面价格，假设你第一天去买了一个政府债券纸面价格标注(face value/par value)的是$1000，市场竞价之后也是$1000(market value)买到，每年支付利息收入(coupon)是$60，那么回报率就是60/1000 = 6%. 但是第二天这个纸面价值$1000也是会在交易投资中变化（市场价值），如果价格下跌，比如$950，那么你这个时候买新的就有60/950=6.3%，回报率上升。这个有什么关系了？如果我只能持有到到期结束，但是债券是可以转手买卖的(transferable/tradeable)。也也是说我第一天买的实际上相当于没有保值，通货膨胀了，债券的价值降低了，毕竟拿到了同样的利息收入，但是第二天购买的人少支付$50；相反如果第二天债券价格升高，也就是新买的人支付更多比如$1050，那么相对来说回报率就会降低(5.7%)，也就没有那么吸引人去购买，换句话说老的持有者的价值升值；
 
-![bond_yield](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/bond_yield.gif)
+![bond_yield](http://d2h13boa5ecwll.cloudfront.net/20210201eco/bond_yield.gif)
 
 <cite>图片来源： https://www.finpipe.com/bond-teeter-totter/</cite>
 
@@ -247,7 +247,7 @@ ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Histor
 
 > At the time, it was not known how profound an effect that statement would have. But the accord marked the start of the development of a strong free market in government securities, which continues today. In addition, the debate over the consequences of interest rate pegging marked a shift in thinking at the Fed. Monetary policymakers began focusing actively on bank reserves and the control of money creation in order to stabilize the purchasing power of the dollar. But most important, by establishing the central bank’s independence from fiscal concerns, the accord set the stage for the development of modern monetary policy.
 
-![yieldcurve](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/yieldcurve.jpg)
+![yieldcurve](http://d2h13boa5ecwll.cloudfront.net/20210201eco/yieldcurve.jpg)
 <cite>来自wsj: [Why Investors Are Obsessed With the Inverted Yield Curve](https://www.youtube.com/watch?v=bItazfbSptI&ab_channel=CNBCCNBCVerified)</cite>
 
 
@@ -259,7 +259,7 @@ ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Histor
 
 正常情况长期的比如10年的回报率是大于短期比如2年的回报率的，但是如果经济情况不景气，投资者的信心不足，可能会购买更多的长期债，造成长期利率下滑；如果经济情况得不到改善，则可能有更多人慢慢涌入这个长期债券，导致价格进一步升高，回报率下降，后买的人更加觉得要赶紧购买来保值；同时一般经济危机时美联储都会下调短期利率，这样一来也会使得长期利率慢慢更低；这个时候一般来说是两者双双下跌，但是某种情况下长期跌的比短期还多，也就是出现了[利率倒挂Inverted Yield Curve](https://www.investopedia.com/terms/i/invertedyieldcurve.asp)，变成右边比左边还低的情况。普遍认为这是不好的情况，标明公司的融资的难度越来越高，这些金融机构的利润也会受损，更重要的是这个倒挂跟随后的历史上的很多危机都能对应上。下图是2019年2月份的来自[WSJ](https://www.youtube.com/watch?v=bItazfbSptI&ab_channel=CNBCCNBCVerified)：
 
-![inveredcurve](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/inveredcurve.jpg)
+![inveredcurve](http://d2h13boa5ecwll.cloudfront.net/20210201eco/inveredcurve.jpg)
 
 当然经济学是一个模糊的学科，肯定不能靠单一指标预测的，没有银弹。
 
@@ -285,7 +285,7 @@ ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Histor
 
 为了救市，伯南克在07年九月份到2008十二月，把基准利率从5.25%一下子降到了接近于0。美联储不断在公开市场一级市场prime dealer（主要是几个大银行）购买短期国债将reserve钱给到这些银行。 还记得之前讲的主要银行需要在美联储储备银行里保留一定比列的[准备金reserve requirement](https://www.investopedia.com/terms/r/requiredreserves.asp)基本是10%（这里面实际比这个复杂），超过10%的叫做[多余储备excess reserves](https://www.investopedia.com/terms/e/excess_reserves.asp). 基础储备（低于10%的部分）是有利息(interest on reserves - IOR)， 然后2006年制定法规规定了多余储备也会利息(interest on excess reserves - IOER)，美联储通过指定这个利息值可以调控货币，也是货币政策的常规工具。这几家垄断行一级银行拿到钱reserve notes，会去更大的二级市场里去购买给比如其他小银行，金融机构，对冲基金和个人等这些人手中的国债，从而将钱从美联储转移到更大的人群中，这样就实现了货币的供给，这些人可以用来投资更有前途回报更高的领域比如股票公司债券等等，方便社会融资和经济的发展。毕竟银行靠什么赚钱？放贷。
 
-![fed_archtecture](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/fed_archtecture.jpg)
+![fed_archtecture](http://d2h13boa5ecwll.cloudfront.net/20210201eco/fed_archtecture.jpg)
 
 如图所示，美联储向一级银行购买国债的利息一般来说没有一级银行向二级市场收的利息多，所以一级银行一般来收乐意转手赚取利息差，同时还能配合美联储的工作。但是如果经济不太行的情况，比如美联储已经将基础利率降到了几乎为零，一级银行已非常低的成本拿到了很多钱，但是还有一个问题，我可能拿够了补充基础储备的数了（达到了准备金利率），那我为什么还要多付利息去拿更多钱的了？因为外面风险大回报低，还不如拿在手里，如果可以，为什么要付多余的借钱的利息，虽然很低了。所以美联储可以相对而言提升下储备利息，这样银行有动机拿更多的钱在手中，这样也许可以增加比如[REPO](https://www.investopedia.com/ask/answers/041615/what-difference-between-repurchase-agreement-and-reverse-repurchase-agreement.asp)或者社会临时需要用钱的渠道。
 
@@ -295,7 +295,7 @@ ps: 上面提到的Jeremy Grantham在2021年说有一个[超级大泡泡A Histor
 
 回到正题，结合这张短长期利率图表和伯南克的如何应对危机的讲座视频和PPT([Chairman Bernanke's College Lecture Series - Lecture04 - The Aftermath of the Crisis](https://www.federalreserve.gov/aboutthefed/educational-tools/lecture-series-the-aftermath-of-the-crisis.htm)):
 
-![interest_passing](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/interest_passing.jpg)
+![interest_passing](http://d2h13boa5ecwll.cloudfront.net/20210201eco/interest_passing.jpg)
 
 
 鉴于短期利率已经到底，常规武器已经用完，但是经济形势还未好转，担心通货紧缩的风险加大。美联储换了思路，借鉴了前期日本的非常规武器的实验的经验，决定开启目标式的量化宽松。
@@ -353,7 +353,7 @@ QE3和QE4跟QE1、QE2区别在于每月购买，没有设置一个资金上限�
 
 投资银行等等其他机构配合银行，保险，评级机构等等设计复杂的金融衍生品，同时过渡的使用杠杆，使其获利。杠杆越大，收益也越大；同时也面临高风险，一旦出现问题，则杠杆会放大风险，使得公司陷入财务困境甚至破产等等，同时因为其金融机构之间复杂的交叉联系，非常容易放大到整个经融市场甚至全球，而这些机构最后被政府救助，大而不倒。什么是杠杆了？
 
-![leverage](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/leverage.jpg)
+![leverage](http://d2h13boa5ecwll.cloudfront.net/20210201eco/leverage.jpg)
 
 上图看，假设我有2W块，如果我不用杠杆放大，那么投资的股票或者其他一般情况下比如上涨5%或者下跌1%，我只能得到其对应的回报或者损失，也就是+1000或者-200。如果这个人使用了杠杆放大了倍数，比如5倍，那么股票还是上涨5%或者下跌1%，但是其回报和损失都会放大5倍，也就是+5000和-1000. 借钱给这个人放杠杆的人一方面收取一定利息回扣，同时如果股票下跌，他会确包在亏完本金的时候叫停交易，比如如果亏到了2W，那么放杠杆的人会强行平仓，这样他借出去的钱有保证。 
 
@@ -369,7 +369,7 @@ QE3和QE4跟QE1、QE2区别在于每月购买，没有设置一个资金上限�
 
 ##### QE实际的效果如何了？
 
-![weird_qe](https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/weird_qe.jpg)
+![weird_qe](http://d2h13boa5ecwll.cloudfront.net/20210201eco/weird_qe.jpg)
 
 上图里看到通货膨胀和m2的货币供应量没有明显上升，同时银行在储备银行的多余储备却激增。这说明什么了？ 我们看看之前BOJ在上面2002年提到关于[A. Purpose behind Quantitative Easing Measures and Their Effectiveness](https://www.boj.or.jp/en/announcements/press/koen_2002/ko0212c.htm/#i2-1:~:text=The%20third%20finding%20is%20that%20abundant,of%20the%20monetary%20easing%20measures%20themselves.)中提到的：
 
