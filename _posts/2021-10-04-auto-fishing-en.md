@@ -118,7 +118,7 @@ The dynamic and probabilistic nature of the fishing process means you need to pr
 source： Galton board form PhysicsFun: https://www.instagram.com/p/B5qLb2DlZPA/?hl=en。</cite>
 
 
-Big size fishes are more spooky and pretty smart in nature water. Just like anglers need to put in work and wait for all planets to align to get a bite, those fishes also need to have all the X factors aligned perfectly to grow to that size.
+Big size carps are more spooky and pretty smart in nature water. Just like anglers need to put in work and wait for all planets to align to get a bite, those fishes also need to have all the X factors aligned perfectly to grow to that size.
 
 The unpredictability is sth you can't control, but the process is sth you can control kinda and be enjoyed. Angling always has offered something to learn about, through it, you learn not just that - fishing outside -  but also yourself, and build up some awareness of your identity (self) and appreciate and reconnect with the beauty and serenity of nature. To me, I like fishing in nature water, and that is relaxing.
 
