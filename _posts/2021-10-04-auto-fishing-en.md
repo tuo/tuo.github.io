@@ -17,13 +17,13 @@ I always have the following questions and impressions on fishing big-size carps:
 
 I only have some pole fishing experience, but not that much. In China, pole fishing is the prevailing fish style. People like the feeling of an adrenaline rush when there is a fish on your pole. I still remember how wicked and satisfying the feeling is when I got a grass carp like 7-8 lb using 5.4 meters long pole and sweet corn.
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/my_catches.jpg" style="zoom:50%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/my_catches.jpg" style="zoom:50%;display:flex;" />
 
 <cite>Left side is the grass carp(3-5lb/7-8lb), top right is the crucian carp (2lb, weight over 1lb is considered as big one for crucian carp), bottom right is the pond)</cite>
 
 But when I switched from pond to nature water like a big lake - reservoir, I had so many blanks. I start to realize how difficult it is to catch a big size fish there. And the pattern in pond fishing is quite different from wild water fishing. No one is feeding those fishes and density is very low. So most people go to high-stocked recreational fisheries or syndicates for fun instead of natural water. The low density is because fishery resource here is kinda getting destroyed somehow. There used to have all kinds of destructive fishing practices to catch the fish - e.g - electro、net of mesh with small holes 、firecrackers - which is not sustainable. But it is getting better as life is improving and people and the governments start to realize they need to protect the natural resources(An unprecedented 10-year fishing moratorium was issued in January 2020, covering 332 conservation areas in the Yangtze River basin.) It is a process.
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/reservior.jpg" style="zoom:80%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/reservior.jpg" style="zoom:80%;display:flex;" />
 
 <cite>Good nature view and there also has paragliding there. Top left I'm trying fishing the bighead carp with a 5.4 pole. BTW: I'm coming from the central part of China, Hunan Province.</cite>
 
@@ -31,7 +31,7 @@ And I could say that fish that with a weight over 1.5Kg ~ 2.5KG could be called 
 
 After I observed from and talked with those local anglers here, they are angling with 8.1 meters - 10-meter long telescopic pole, prefeed/prebait with feed corns like every day in the same swim, then start fishing all the day. Going blank is not uncommon, and they might catch a big one after waiting for weeks. Sometimes they are also trying surf rod to casting out with long distance with pack bait and rebait every two hours but still no luck. There was a time when I tried fishing with 5.4 meters pole with corn on the bank of the reservoir, I saw two anglers nearby me using 10 - 12 meters pole just keep baiting with a spoon and rebait their hook and the whole afternoon, no single bite and they ended up with just playing their phones :) 
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/fishing_spirit.jpg" style="zoom:80%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/fishing_spirit.jpg" style="zoom:80%;display:flex;" />
 
 <cite>Winter fishing under minus 20 degree, no kidding! That's the angling spirit of Chinese anglers! No bivvy, no coffee maker, no tea kettle, no barrow, just a kinda genuine and pure form of primitivism in the name of Dionysus :)  </cite>
 <cite>video source: [https://v.douyin.com/8JRKLm8/](https://v.douyin.com/8JRKLm8/) </cite>
@@ -43,21 +43,21 @@ An idea just popped into my head. How about making this waiting process kinda no
 
 I still remember when I was a kid, I use a self-made bamboo pole and earthworm that dug out of my backyard to catch fish which is pretty effective and simple. Nowadays it is jaw-dropping to know that fishing gears and equipment are getting so complicated and segmented, coming with so many variations. Take a look at the pole fish gears in China and correspondings in the West:
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/pole_fishing.jpg" style="zoom:40%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/pole_fishing.jpg" style="zoom:40%;display:flex;" />
 
 <cite>Pole fishing gears and its prices. Click to see bigger picture</cite>
 
 For pole fishing: A 7.2-meter telescopic pole is at least 300 RMB for moderate quality, 1000RMB0-2000RMB for good ones.They are tons of components and accessories: [fishing platform](https://www.aliexpress.com/item/1005002382124941.html)、[multifunctional fishing box](https://www.aliexpress.com/item/1005003307267441.html)、[fishing bucket](https://www.aliexpress.com/item/4000096264484.html)、[fishing chair](https://www.aliexpress.com/item/1005003186497852.html)、[fish umbrella/brolly](https://www.aliexpress.com/item/1005002868486443.html)、fishing bag etc. The fishing platform is especially heavy if you're buying a cheap one made of metal.
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/pole_fishing_gears.jpg" style="zoom:80%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/pole_fishing_gears.jpg" style="zoom:80%;display:flex;" />
 <cite>How anglers in China carrying around with their gears. Gonna improvise by turning fishing pole to carrying pole in the top left - a good way to test out its quality though :)</cite>
 
 Those gears add up lots of weight and they are not easy to carry around. Look at the mountains and rice field around that reservoir, I'm pretty sure by the time I got to the bank, I'm already exhausted. I thought the Chinese way is somehow maximalistic. Guess what? Western carp fish is just a little bit more maximalistic :) 
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/european_fishing.jpg" style="zoom:25%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/european_fishing.jpg" style="zoom:25%;display:flex;" />
 <cite>ps: I heard Meister Eckhart whispering: *The more we have the less we own.* </cite>
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/barrow.jpg" style="zoom:60%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/barrow.jpg" style="zoom:60%;display:flex;" />
 
 <cite>Fox Carp Fishing Youtube: [CARP FISHING IN WINTER (Catch more on cold days)](https://www.youtube.com/watch?v=GUdfbnZ_Qu4&ab_channel=FoxInternationalCarpFishing)
 </cite>
@@ -66,7 +66,7 @@ A wheelbarrow - I thought angling is about minimalistic and keeping it simple un
 
 Surely, good types of equipment, tackles, and gears could bring better angling experience, some edges, and more comfortable when angling - unless you know what're doing. Like a double-edged sword, it comes with pros and cons. Those types of equipment make it so cumbersome to move around, even demoralizing, just take a look at the mountains and rice fields in my case - how steep the slope is in the mountainside and how close those rice fields are laid out next to each other like a grid.  
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/tough_road.jpg" style="zoom:50%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/tough_road.jpg" style="zoom:50%;display:flex;" />
 
 <cite>ps: Even though I'm pretty much a minimalist with just a single fishing bag and a washbasin for fish and as a possible trash bin, I still feel a little bit exhausted when climbing up and downs. Don't tell me that somebody fancy carrying a barrow of heavy gears around in here.
 </cite>
@@ -84,7 +84,7 @@ Here is my humble opinion on why?
 
 Fishing is not rocket science(see [hard science and soft science](https://en.wikipedia.org/wiki/Hard_and_soft_science)). It is pretty much like sociology and economics - dealing with probability and statistics. it is very hard to do a controlled experiment because there are simply too many factors involved and isolation becomes pretty much impossible to do so. That's a pretty important shift in perspective, just like investment and sports, from 100% certainty to uncertainty and odds of randomness.
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/iceberg.jpg" style="zoom:40%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/iceberg.jpg" style="zoom:40%;display:flex;" />
 
 <cite>According to Freud (1915), the unconscious mind is the primary source of human behavior. Like an iceberg, the most important part of the mind is the part you cannot see - [Freud and the Unconscious Mind](https://www.simplypsychology.org/unconscious-mind.html)</cite>
 
@@ -112,7 +112,7 @@ It sounds like software development/lean startup/investment and other things, th
 
 The dynamic and probabilistic nature of the fishing process means you need to prepare yourself up with a good mindset. Sometimes, you not doing your homework but still great luck, turning out to be a good catch. At some other times, you did your homework hardly but no luck turning out to be fruitless a blank. That blank is very common for fishing big-size fish in natural wild water, like [gaussian distribution](https://en.wikipedia.org/wiki/Normal_distribution) for studying human behavior in sociology, just think about how many extremely tall guys you have met. To illustrate that, I put a  [Galton Board]() to get an idea of the normal distribution emerging from a random drop of ball-bearings.
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20210201eco/galton.gif" style="zoom:100%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20210201eco/galton.gif" style="zoom:100%;display:flex;" />
 
 <cite>ps: next time, when you buy lottery and hope to win, ask yourself this: Am I gonna get struck by lightning right now? 
 source： Galton board form PhysicsFun: https://www.instagram.com/p/B5qLb2DlZPA/?hl=en。</cite>
@@ -172,7 +172,7 @@ One big factor of the consistent catch is just finding where fish are, esp in th
 
 The first thing you need is to analyze the terrain of where you fish - read water. Either take a walk around the water area, or search its google map satellite image, or ask from the local angler, just try to figure out the general terrain of water you're gonna angle at. No rush to drop your rods. For picking the right swim/spot, it is always good to have direct eyesight of fish rollover or bubbles from stirring mud. 
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/fish_road.jpg" style="zoom:40%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/fish_road.jpg" style="zoom:40%;display:flex;" />
 
 <cite>The rectangle area is a fishing road which Darrell Peck found through google maps. You could see its color is different from two sides. source: [Korda Thinking Tackle OD 4 EP2: Danny Fairbrass & Darrell Peck | Carp Fishing 2021](https://youtu.be/UpvKqrCXKqM?t=666)</cite>
 
@@ -180,7 +180,7 @@ Generally, you want your fish spot is closing to snags or something with structu
 
 Also, carp are spooky and very sensitive to noise, which is why most anglers here prefer to fish in the evening or night in the summertime as much as they can despite some annoying nocturnal animals like bugs and insects, and possibly snakes. Commonly, you want to stay away from those swims with high angling pressures from the bank.
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/reservior_shape.jpg" style="zoom:40%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/reservior_shape.jpg" style="zoom:40%;display:flex;" />
 
 The south side is the deepwater area with mountains sliding into the water very sharply, that north side is kinda shallow full of debris left from submerged rice field. Most local anglers will pick the south side with deeper open-water and fewer snags but kinda rocky at the margin, and I barely see anyone fishing on the rice field side. But I decided to go from the rice field side where I heard a big sound of fish jumping. Other reasons are: 
 
@@ -199,7 +199,7 @@ Generally, big sizes prefer to stay in some depth for safety but shallow water  
 
 All of that seems reasonable but kinda abstract though, can we put some digital/electronic tracking devices/tags on the carps and track its activity, just like tracking whales via satellite tags([Whale Telemetry Group](https://mmi.oregonstate.edu/wtg)), to hopefully get some insights on its behavior? Big data is the hype, how about some big data from carps?
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/carp_location_season.jpeg" style="zoom:50%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/carp_location_season.jpeg" style="zoom:50%;display:flex;" />
 
 <cite>source: IFishMan Youtube: [Wie verhalten sich Großkarpfen in einem natürlichen Gewässer? Hier der August
 ](https://www.youtube.com/watch?v=cXRsnoPy4zw&ab_channel=IFishMan). I highly recommend checking other videos of this youtube channel even though it is in German. Pay attention to its experimental conditions.</cite>
@@ -223,7 +223,7 @@ About the methods to plumb the depths, no advanced Sonar or Depth Finder or Fish
 Along with the previously mentioned old saying "The deeper the better", there is another saying "The further the better". And it does make some sense. If you have done pole fishing before, then you know, that the longer the rod and line, the higher chance you could catch big size fish. Why? because often the closest to the bank, typically the shallower the water would be, especially in the daytime, noisier it would be. But how far it should be? is it the further the better? Well not always, you also need to think in terms of the whole lakebed shape and surrounding conditions from a bird's-eye view.
 
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/winter_veune.jpeg" style="zoom:100%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/winter_veune.jpeg" style="zoom:100%;display:flex;" />
 
 <cite>Fox Carp Fishing Youtube: [CARP FISHING IN WINTER (Catch more on cold days)](https://www.youtube.com/watch?v=GUdfbnZ_Qu4&ab_channel=FoxInternationalCarpFishing)</cite>
 
@@ -257,7 +257,7 @@ How do they define whether it is good or not? I saw lots of anglers smell the ba
 
 The way we speak our native lanuage is so deeply ingrained into our mind and we don't even realize that autonomous system. Most of time it works as we expected, but not always. Sometimes you need think outside the box to break that autonomous pattern. Now ask you this: **How do you know for carp, which sense is more important and plays a bigger role? olfactory or gustatory ?** It seems like most people think the answer is the olfactory sense based on what I previously saw. Well I did some googling and found some research on this topic and in this paper [<<Feeding stimulants in an omnivorous species, crucian carp Carassius carassius>>](https://www.sciencedirect.com/science/article/pii/S2352513416300576) , it mentioned some experiments on feeding stimulants and it shows that conventional thinking is possibly wrong (at least under that experiment):
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/fish_research.png" style="zoom:50%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/fish_research.png" style="zoom:50%;display:flex;" />
 
 <cite>Take it as some reference. Do your experiment and try it out, just don't fall into this automatic and non-examined thinking pattern</cite>
 
@@ -274,28 +274,28 @@ Back to my case, rice - from observation of rice field, and feed corn (or maize)
 
 The big solid particles like feed corn(its hard kernel) is a perfect fit and the most important part is it is on a budget and so simple to prepare. Buy some feed corn, soak it and boil it, if you'd like - not necessary- could try an experiment by adding some molasses or alcohols like Baileys or Tsingtao beer or hemp oil later.(Who knows! I have some Turmeric&Curry&Coriander&Garam masala powder left from last time trying to cook Indian food, and I might add those to test out). One downside of it is that adding those sugar or powder additives could make corn ferment quickly and rot faster.
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/cinamumo.jpg" style="zoom:50%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/cinamumo.jpg" style="zoom:50%;display:flex;" />
 
 <cite>There are a lot of Cinnamomum camphora trees on the mountain. Maybe we could try prefeeding/prebaiting with its ripe seed. It has a very strong natural scent if you leave it for a few days. It is kinda tricky to put it up on the hook as it has a pretty hard kernel</cite>
 
 After picking the bait for feeding, the next thing is about the feeding strategy. The most reasonable one is to take a little bit of time to just chum some baits to the same spot every day(like one week or one month) before you get your rods out and start fishing. But it is impossible for me as I only got 4-7 days holiday break and I don't want to spend too much time on the bank to fish - I only got one hour break each day to go outdoors for fishing(family first) - that's exactly why I come up with an idea about auto carp fishing. To make it up, I decide to choose one fishing spot and bait there instead of moving around the lake on the bank. Here is my two cents on how to effectively attract fish in big nature water by feeding/baiting:
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/dawo_en.jpeg" style="zoom:67%;display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/dawo_en.jpeg" style="zoom:67%;display:flex" />
 
 Basically, we have the fish spot in the center, and feeding, i.e - corn- is evenly scattered around it forming a circle with 3-5 meter radius. Loose chumming could possibly attract further fish in a longer distance than precise baiting, as it could cover a bigger and wider water area by its flavors and scents. Then we use pva bags or pva mesh to precisely bait right in the center of this circle. Well, this seems pretty ideal, the tricky part is how to get chumming like what hands can do but in a long distance? Slingshot、Spod、 pva bags/mesh、 gaint throwing sticks/baiting spoon even fishing bait boats couldn't do that easily.
 
 
 <div style="display:flex">
 <video  controls style="display:flex">
-  <source src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/casting_feed.mp4" type="video/mp4">
+  <source src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/casting_feed.mp4" type="video/mp4">
 </video>
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/casting_feed.gif" style="" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/casting_feed.gif" style="" />
 
 </div>
 
 <cite>Just pay attention to scattering when it is about to hit the water.(ps: who said there is absolutely no good quality one for cheap Chinese product? My rod and reel is like 40 RMB - $7 in total) and I have tried casting lots of times with 100g lead and a pva bag(7x14) of corns yet it still didn't break) </cite>
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211002fishingpart2/custom_feeder.jpeg" style="display:flex" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/custom_feeder.jpeg" style="display:flex" />
 
 <cite>Self-made Spod: a Gatorade-like bottle、a lead and some glues.</cite>
 
@@ -309,13 +309,13 @@ A quick recap on the fish tackles: 2.7 meters long rod($4~27RMB)、5000 reels ($
 The only southwest part of China in Sichuan and Chongqing use similar fake bait, but not my hometown or province - like never. Most people here rarely use any kinda pop-ups bait or circle hook, instead, they are inclined to use bottom bait with iseni hook for big-size fish. For people fishing with a pole, they only use a maximum of two hooks for each. However, for people fishing with rod and reel, they just use a few hooks. Let's take a look at two or three most frequently used multi-hook patterns:
 
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/multi_hooks.jpg" style="zoom:100%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/multi_hooks.jpg" style="zoom:100%;display:flex;" />
  
 <cite>I guess in us/uk it is called something like gang/party hooks? [(Christmas party in Downing Street while London was in strict lockdown)](https://www.youtube.com/watch?v=RfTsLjdb3Mc&ab_channel=CNN) :) </cite>
  
 The logic is pretty straightforward: more hooks more bites. Despite the so-claimed moral superiority of using fewer hooks from some people - as long as it doesn't violate the local regulations, I don't see any problem with that. On the flip side of more hooks is that it means hooks have higher chances of getting trapped in snags or structure forms like rocks/reefs/weed when anglers cast out or play the fish. If you use it in open water which has fewer snags and have a pretty good understanding of the condition of the lakebed, then go for it. But I have a mountain reservoir with lots of snags like rocks and weed, plus a design of non-attended angling, so multi-hooks seem not a good option. Ideally one hook but as I said, I never use pop-up bait with fake corn before, so I want to do an experiment and compare it with common bottom bait with feed corn side by side. Even though technically fish is not `eating` the fake plastic corn but more like `chewing` - they just try out the possible food through their mouth and expel it out, I'm still very curious to just, by myself, to catch some fishes to test out popular saying:  "If I don't eat plastics, how come fish will eat it ?"
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/rig.jpg" style="zoom:100%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/rig.jpg" style="zoom:100%;display:flex;" />
 
 I'm using pvg bags to embed the hook with bottom bait. Since I have two hooks and with different line lengths, to not tangle with each other, I intentionally did not put the inline lead into pvg bag - it also gives more room for bait. Then how to prevent the pva bag fall off the line when casting out (the bag is heavy with corns)? I use a hook snap to hook the top of the bag(the tie part) to the swivel. Just tie off the top of pva bag with extra licks and twist it is strong enough to hold the strength of gravity from hook snap when casting because, by this design, the force is not applied to the fishing line but on the hook snap. I test it a couple of times and it works pretty well. I have a bottom hook presented nicely blending with a pile of corn bait, and a pop-up hook that is a few centimeters away from it. After watching some underwater fishing feeding videos, it looks like big carp always start with outside from the perimeter cautiously. I am intrigued to know which hook it is gonna pick up first in my case.
 
@@ -331,7 +331,7 @@ In this article, we have covered the angling strategy that we're gonna use for t
 
 Well, there you go, in total like 120RMB - $20: 
 
-<img src="https://blog-1255311287.cos.ap-shanghai.myqcloud.com/20211201autofishingpart1/my_gears.jpg" style="zoom:100%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/my_gears.jpg" style="zoom:100%;display:flex;" />
 
 <cite>I bought from Pinduoduo(PDD) and Taobao(TB). Actually, the most expensive one is the rigs. I don't think I need 6 hooks therefore it could be even cheaper.</cite>
 
