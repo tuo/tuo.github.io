@@ -333,7 +333,7 @@ Yes, it has some liquid cloud releasing in the water and going up and downs thro
 	Mainline Baits Carp Fishing TV : 
 	HI Damien - good comment. Throughout the testing period we didn't encounter any situations or problems such as this. General opinion is that carp are likely to be attracted to clouds and this kind of attraction as they are when other fish stir up the lake bed or water inflows and strong winds/undertows colour up water. It'll be interesting to know what you think after trying this out.
 
-It looks like the maker is not very sure about and his confidence comes from this black-box *"testing period"* and *"General opinion"*. *SEEING IS BELIEVING!* really? What you see as a good one then it must be good too for the carp? I'm kinda skeptical about that. No details or context or data of their testing period has been revealed. They just show how great it is visually in water and to me, this is not very persuasive. How big a role it would play among other factors? Does it work in wild water? flow water? What time is the best to add and how much it should add? Yet somehow, *indescribably*, they're putting very exaggerating titles with so much certainty and confidence for other videos of this kinda liquid too.
+It looks like the maker is not very sure about and his confidence comes from this black-box *"testing period"* and *"General opinion"*. *SEEING IS BELIEVING!* really? What you see as a good one then it must be good too for the carp? I'm kinda skeptical about that. No details or context or data of their testing period has been revealed. They just show how great it is visually in water and to me, this is not very persuasive. How big a role it would play among other factors? Does it work in wild water? flow water? What time is the best to add and how much it should add? Yet somehow, *indescribably*, they - the alchemist - are putting the very exaggerating titles with so much certainty and confidence for other videos of this same kinda liquid.
 
 <img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/smart_liquid2.jpg" style="zoom:100%;display:flex;" />
 
@@ -352,6 +352,22 @@ I did a experiment too. With some research, I have chosen corn powder(500g -6RMB
 <cite>Click the left to watch the video. Look at the movements of the wheat bran. That is like an experiment I did the first time. Pretty sure it could get better later</cite>
 
 It looks pretty good and it lasts a pretty long time in that still water tank. Well, I'm not sure about whether it is gonna work or not, but it shows it could get some effects similar to the commercial one. It doesn't have that kinda halo but you never know whether that halo could make spooky carp shy away. Anyway,  the key here is you need to try it out by yourself and tweak it a little here and there to get it to work in your case. And those Smart Liquids are not cheap to play around like what I made. One bottle of this *indescribable* 250ml is gonna cost you around $14.95 or £12.50 like 100RMB and it is just a liquid additive. Nothing else, mate!
+
+A poem from [Edgar Allan Poe](https://en.wikipedia.org/wiki/Eldorado_(poem)) for anyone searching for the indescribable magic bait (Eldorado):
+
+	And, as his strength   
+	Failed him at length,
+	He met a pilgrim shadow—   
+	‘Shadow,’ said he,   
+	‘Where can it be—
+	This land of Eldorado?’
+	
+	‘Over the Mountains
+	Of the Moon,
+	Down the Valley of the Shadow,   
+	Ride, boldly ride,’
+	The shade replied,—
+	‘If you seek for Eldorado!’
 
 
 Apart from adding more hooks to increase the odds, adding more rods could also get a greater chance - 3 rods look good (no matter how great you set up your rig and how familiar you're with the lakebed conditions, it could still happen that your lines and hooks got tangled when casting or got a bad presentation somehow when landing on the lakebed).
@@ -405,5 +421,6 @@ Others articles and books on carp fishing:
 * [THROWBACK! Winter Carp Fishing Day Sessions with Adam Penning - Part 1](https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing)
 * [An American Carp Fishing Experience (Wild Carp Fishing)](https://www.youtube.com/watch?v=URxWuKeeYQA&ab_channel=OutsidewithTom)
 * [How Adam Penning Approaches Autumn Carp Fishing](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing)
+* [Eldorado Poem by Edgar Allan Poe - animation / analysis](https://www.youtube.com/watch?v=c0XhZw3ShvM&list=FLZcZrQxJBMfI-xP2vwCaEoQ&index=8&ab_channel=Shaun)
  
 
