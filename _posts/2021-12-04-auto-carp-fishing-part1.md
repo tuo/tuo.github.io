@@ -351,7 +351,7 @@ I did a experiment too. With some research, I have chosen corn powder(500g -6RMB
 
 <cite>Click the left to watch the video. Look at the movements of the wheat bran. That is like an experiment I did the first time. Pretty sure it could get better later</cite>
 
-It looks pretty good and it lasts a pretty long time in that still water tank. Well, I'm not sure about whether it is gonna work or not, but it shows it could get some effects similar to the commercial one. It doesn't have that kinda halo but you never know whether that halo could make spooky carp shy away. Anyway,  the key here is you need to try it out by yourself and tweak it a little here and there to get it to work in your case. And those Smart Liquids are not cheap to play around like what I made. One bottle of this *indescribable* 250ml is gonna cost you around $14.95 or £12.50 like 100RMB and it is just a liquid additive. Nothing else, mate!
+It looks pretty good and it lasts a pretty long time in that still water tank. Well, I'm not sure about whether it is gonna work or not, but it shows it could get some effects similar to the commercial one. It doesn't have that kinda halo but you never know whether that halo could make spooky carp shy away. Anyway,  the key here is you need to try it out by yourself and tweak it a little here and there to get it to work in your case. And those Smart Liquids are not cheap to play around like what I made. One bottle of this *indescribable* 250ml is gonna cost you around $14.95 or £12.50 like 100RMB and it is just a liquid additive. Nothing else, mate! How affordable it is!
 
 A poem from [Edgar Allan Poe](https://en.wikipedia.org/wiki/Eldorado_(poem)) for anyone searching for the indescribable magic bait (Eldorado):
 
