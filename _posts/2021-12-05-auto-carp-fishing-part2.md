@@ -112,9 +112,18 @@ TODO: 保证鱼不容脱钩发力
 * open water, less snags or structure (rock formations/too much weedy)
 
 
-https://medium.com/geekculture/a-complete-guide-on-how-to-create-an-iot-product-62241640c49b
+
 
 提高： 用中断， 但是没有heartbeat
 用poll简单，有hearbeat, 但是费电
+
+
+
+
+### REFERENCE
+
+https://medium.com/geekculture/a-complete-guide-on-how-to-create-an-iot-product-62241640c49b
+https://towardsdatascience.com/a-comprehensive-guide-to-start-building-an-iot-product-ba32dfb91c7a
+https://blog.particle.io/building-an-iot-device/
 
 
