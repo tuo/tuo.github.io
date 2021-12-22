@@ -134,8 +134,8 @@ some requirements and conditions of this fishing case:
 * time:  1-2 days consecutive
 * unmanned/unattended:  automatical
 * baiting/feeding strategy: pre-baiting/feeding once and no halfway rebate
-* secretiveness:  detecting device should be small enough to be camouflaged and not easily be able to spot from the bank
-* mobility: device and whole fish tackle should be easy to be assemble or disassemble
+* stealthiness: device should be small enough to be camouflaged so that it won't easily get spotted from the bank
+* mobility: device and whole fish tackle should be easy to be assemble or disassemble - easy deployment
 
 Quick Summary: prebait and hook the bait, cast out, take down the fishing line from the reel, knot with tent pegs on the bank. Then set up the bite detecting device, link the trigger between the fishing line and device. Leave it for 1-2 days. When got bitten by fish,  the strength of fish fleeing way on the fishing line will trigger an alarm, hence giving a call to my phone so that I could just go there and pick up and land the fish. 
 
@@ -311,7 +311,8 @@ The only southwest part of China in Sichuan and Chongqing use similar fake bait,
 
 <img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/multi_hooks.jpg" style="zoom:100%;display:flex;" />
  
-<cite>I guess in us/uk it is called something like gang/party hooks? [(Christmas party in Downing Street while London was in strict lockdown)](https://www.youtube.com/watch?v=RfTsLjdb3Mc&ab_channel=CNN) :) </cite>
+<cite>I guess in us/uk it is called something like gang/party hooks? [(Christmas party in Downing Street while London was in strict lockdown)](https://www.youtube.com/watch?v=RfTsLjdb3Mc&ab_channel=CNN) and [The story of 10 Downing Street Christmas Party last December - BBC News
+](https://www.youtube.com/watch?v=MYSd439R-WE&ab_channel=BBCNews) :) </cite>
  
 The logic is pretty straightforward: more hooks more bites. Despite the so-claimed moral superiority of using fewer hooks from some people - as long as it doesn't violate the local regulations, I don't see any problem with that. On the flip side of more hooks is that it means hooks have higher chances of getting trapped in snags or structure forms like rocks/reefs/weed when anglers cast out or play the fish. If you use it in open water which has fewer snags and have a pretty good understanding of the condition of the lakebed, then go for it. But I have a mountain reservoir with lots of snags like rocks and weed, plus a design of non-attended angling, so multi-hooks seem not a good option. Ideally one hook but as I said, I never use pop-up bait with fake corn before, so I want to do an experiment and compare it with common bottom bait with feed corn side by side. Even though technically fish is not *eating* the fake plastic corn but more like *chewing* - they just try out the possible food through their mouth and expel it out, I'm still very curious to just, by myself, to catch some fishes to test out popular saying:  "If I don't eat plastics, how come fish will eat it ?"
 
@@ -333,7 +334,7 @@ Yes, it has some liquid cloud releasing in the water and going up and downs thro
 	Mainline Baits Carp Fishing TV : 
 	HI Damien - good comment. Throughout the testing period we didn't encounter any situations or problems such as this. General opinion is that carp are likely to be attracted to clouds and this kind of attraction as they are when other fish stir up the lake bed or water inflows and strong winds/undertows colour up water. It'll be interesting to know what you think after trying this out.
 
-It looks like the maker is not very sure about and his confidence comes from this black-box *"testing period"* and *"General opinion"*. *SEEING IS BELIEVING!* really? What you see as a good one then it must be good too for the carp? I'm kinda skeptical about that. No details or context or data of their testing period has been revealed. They just show how great it is visually in water and to me, this is not very persuasive. How big a role it would play among other factors? Does it work in wild water? flow water? What time is the best to add and how much it should add? Yet somehow, *indescribably*, they - the alchemist - are putting the very exaggerating titles with so much certainty and confidence for other videos of this same kinda liquid.
+It looks like the seller is not very sure and his confidence comes from this black-box *"testing period"* and *"General opinion"*. *SEEING IS BELIEVING!* really? What you see as a good one then it must be good too for the carp? I'm kinda skeptical about that unfounded non-hard evidence. No details or context or data of their testing period has been revealed to back up his views. They just show how great it is visually in water and to me, this is not very persuasive. How big a role it would play among other factors? Does it work in wild water? flow water? What time is the best to add and how much it should add? Yet somehow, *indescribably*, they - the alchemist - are putting the exaggerated rhetoric in those titles with so much certainty and confidence for other videos of this same kinda liquid.
 
 <img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/smart_liquid2.jpg" style="zoom:100%;display:flex;" />
 
