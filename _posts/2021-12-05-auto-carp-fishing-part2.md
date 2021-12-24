@@ -2,7 +2,7 @@
 layout: post
 title: "Auto Carp Fishing Part 2 - Make it Smart"
 date: 2021-12-04 12:55:32 +0800
-published: false
+published: true
 tags: fishing,carp,china,angling,carp fishing,rigs,hooks
 ---
 
@@ -21,10 +21,8 @@ That's kinda the idea of what I want to do but it is not smart and stealthy enou
 
  * Smartness.
 
-The bite alarm basically works like a walkie talkie([Two-way Radio](https://en.wikipedia.org/wiki/Two-way_radio)). The transmitter - the alarm on the rod pod - sends a radio transmissiona which can be picked up by a reciever best through its antenna. The useful direct range of a two-way radio system depends on lots of radio propagation conditions, basically kinda limited. But I don't want to have it limited by some distance like 150 meters, I just want it to be as freely used as how we use our smartphones. Also that style of vibration or beep sound is just boring and archaic, how about some custom Ringtone from phone in my pocket, e.g, something that every angler would wish they could say to the carps:
- 
- when they set up the bite alarm and hope any carp would give a bite:
-
+The bite alarm basically works like a walkie talkie([Two-way Radio](https://en.wikipedia.org/wiki/Two-way_radio)). The transmitter - the alarm on the rod pod - sends a radio transmissiona which can be picked up by a reciever best through its antenna. The useful direct range of a two-way radio system depends on lots of radio propagation conditions, basically kinda limited. But I don't want to have it limited by some distance like 150 meters, I just want it to be as freely used as how we use our smartphones. Also that style of vibration or beep sound is just boring and archaic, how about some custom Ringtone from phone in my pocket, e.g, knock on wood, something that every angler would wish they could say to the carps:
+  
 > Hey, I just met you, and this is crazy. But here's my number, so call me maybe. 
 
  Yeah, [<Call Me Maybe>](https://www.youtube.com/watch?v=fWNaR-rxAic&ab_channel=CarlyRaeJepsenVEVO) from Carly Rae Jepsen.  vibe :) Just be smart enough to give me a call when it detects the bites.
@@ -99,9 +97,9 @@ A rule of thumb for IoT development is to always have its datasheet something li
 
 ## MCU - ESP8266
 
-Consider central processor/unit as the brain which is consisted by a hardware and software. Based on this central unit there are microcontroller-based IoT boards like Arduino/ESP8266/STM32F and microprocessor-based boards like Raspberry Pi. But how much processing power it needs for our case? Not much. Surely Rasperry PI is a overkill. Between the Arduino Uno and NodeMCU ESP8266, the esp8266 is the no-brainer. Arduino Uno board, which was used to be dominant player in previsouly years, doesn't have Wi-Fi capability built-in, has a voltage of operation of 5V, a pyschizie size 69 mmx53 mm. Nowadays, [NodeMCU ESP8266](https://www.espressif.com/en/products/socs/esp8266) board, which comes from a Chinese company [Espressif](https://www.espressif.com/en/company/about-espressif), is the most popular one which comes with Wi-Fi built-in (extremely convient to get started and play with sth), a voltage of operation of 3.3V(less power and current consumption means power source could have more options hence cost is lower), a smaller size 58mmx31mm (easier to fit onto breadboard and have a smaller overall case size to be more stealthy). Look at its price on Taobao:
+Consider central processor/unit as the brain which is consisted by a hardware and software. Based on this central unit there are microcontroller-based IoT boards like Arduino/ESP8266/STM32F and microprocessor-based boards like Raspberry Pi. But how much processing power it needs for our case? Not much. Surely Rasperry PI is a overkill. Between the Arduino Uno and NodeMCU ESP8266, the esp8266 is the no-brainer. Arduino Uno board, which was used to be dominant player in previsouly years, despite having a very mature and huge community, doesn't have Wi-Fi capability built-in, has a voltage of operation of 5V, a pyschizie size 69 mmx53 mm. Nowadays, [NodeMCU ESP8266](https://www.espressif.com/en/products/socs/esp8266) board, which comes from a Chinese company [Espressif](https://www.espressif.com/en/company/about-espressif), is the most popular one which comes with Wi-Fi built-in (extremely convient to get started and play with sth), a voltage of operation of 3.3V(less power and current consumption means power source could have more options hence cost is lower), a smaller size 58mmx31mm (easier to fit onto breadboard and have a smaller overall case size to be more stealthy). Look at its price on Taobao:
 
-价格图片
+价格图片 
 
 <cite>NodeMCU ESP8266 vs Arudio Uno R3 </cite>
  
@@ -121,7 +119,11 @@ Run the jar file of *ESPlorer IDE* to open the programming gui. The only problem
 
 The entrance file of NodeMCU is the `init.lua` where we're gonna import files from senor and actuator and code some trigger logic here.
 
+TODO: pin脚图
+
 ## Sensor - MPU-6050
+
+价格图片
 
 The senor module for detecting the angle and acceleration is the GY-521 [MPU-6050](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/) which is six-axis (Gyro + Accelerometer) + embedded temperature sensor motion tracking device.
 
@@ -139,7 +141,32 @@ Here is the code snippet for getting gyropscope in degrees/secdons unit, acceler
 
 <script src="https://gist.github.com/tuo/f86c40beca754c779e3b62a7aca39eed.js"></script>
 
-The mpu-6050 features a user-programmable gyro full-scale range of ±250, ±500, ±1000, and ±2000 °/sec (dps), and a user-programmable accelerometer full-scale range of ±2g, ±4g, ±8g, and ±16g, which could be found in its datasheet. You could get more advanced one like Yaw/Pitch/Roll from arduino forum or someone use it to control a drone . But the above raw output already suffice in my case.
+The mpu-6050 features a user-programmable gyro full-scale range of ±250, ±500, ±1000, and ±2000 °/sec (dps), and a user-programmable accelerometer full-scale range of ±2g, ±4g, ±8g, and ±16g, which could be found in its datasheet. You could get more advanced one like Yaw/Pitch/Roll from arduino forum or someone use it to control a drone. But the above one suffice in my case.
+
+![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/esplore_output.png)
+
+## Actuator - SIM800C
+
+In terms of the connectivity, we need take a look at the environment that we will be putting the device in. There is no way it could have WIFI on the bank of the lake. Ideally we want it could make a phone call and send network request just like our mobile phones. A module that has the [GSM](https://en.wikipedia.org/wiki/GSM) for voice calling and sms, and the [GPRS](https://en.wikipedia.org/wiki/General_Packet_Radio_Service) for celullar data transfer, would be a good fit. 
+
+The frequence of network request is quite low - heartbeat rate could be like very 1 minute. No privacy or security concerns here. A HTTP get/post request would work. And the data it needs to send is very small. No video streaming, no need for low latency, so the 3G,4G,5G is kinda overqualified, the best one here is the vintage 2G cellular network.
+
+
+
+Connectivity is the key factor which makes the whole thing alive.
+
+There are a few good options on which network you can use, and you can mix more than one in your architecture (you will probably need to do it): protocols like ZigBee, Bluetooth, LoRaWan, WiFi, Ethernet, LTE, 5G, etc.\
+
+WiFi: suitable for indoor facilities like home and office IoT devices
+GSM/GPRS: for outdoors standalone devices
+
+IRMPVOEMNT: NB-IoT 
+NB-IoT: Narrow Band IoT is a cellular communication technology specially designed to power IoT communication, very low power
+
+Communication Protocols t: http : most easy to pick up, has lots of overhead, not synchronous, ideal for single requests, not continuous communication
+
+
+
 
 
 Andreas, Thank-you for all your excellent tutorial videos, I have learned a great deal. I have had many years of bench experience and like you  have used similar wire color coding schemes. The key point is to be consistent with the color code of all your projects.
@@ -351,7 +378,7 @@ https://www.youtube.com/watch?v=PWn5pm_HWTM&ab_channel=CaptainQuinn
 
 [MPU6050 datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)
 [ESP8266 Technical Reference](https://www.espressif.com/sites/default/files/documentation/esp8266-technical_reference_en.pdf)
-
+* [SIM800C Datasheet技术手册](https://www.elecrow.com/download/SIM800C_Hardware_Design_V1.02.pdf)
 
 NODEMCU ESP8266 VS ARDUINO UNO https://www.electroniclinic.com/nodemcu-esp8266-vs-arduino-uno/
 
@@ -364,3 +391,6 @@ The Engineering Mindset
 How ELECTRICITY works - working principle
 https://www.youtube.com/watch?v=mc979OhitAg&ab_channel=TheEngineeringMindset
 
+
+
+[《MPU-6050 6dof IMU tutorial for auto-leveling quadcopters with Arduino - Part 1》](https://www.youtube.com/watch?v=4BoIE8YQwM8&t=636s&ab_channel=JoopBrokking) 和[《MPU-6050 6dof IMU tutorial for auto-leveling quadcopters with Arduino - Part 2》](https://www.youtube.com/watch?v=j-kE0AMEWy4&ab_channel=JoopBrokking)
