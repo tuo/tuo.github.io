@@ -59,8 +59,7 @@ Those gears add up lots of weight and they are not easy to carry around. Look at
 
 <img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/barrow.jpg" style="zoom:60%;display:flex;" />
 
-<cite>Fox Carp Fishing Youtube: [CARP FISHING IN WINTER (Catch more on cold days)](https://www.youtube.com/watch?v=GUdfbnZ_Qu4&ab_channel=FoxInternationalCarpFishing)
-</cite>
+<cite>Fox Carp Fishing Youtube: [CARP FISHING IN WINTER (Catch more on cold days)](https://www.youtube.com/watch?v=GUdfbnZ_Qu4&ab_channel=FoxInternationalCarpFishing) <br/> &nbsp;&nbsp;A [Nash Trax Evo MK2 Barrow](https://www.anglingdirect.co.uk/nash-trax-mk2-evo?queryID=f0c8d17f77ecd6662583c3f0833a530c&objectID=55922&indexName=live_ad_uk_products) could cost you £279.99 = 2300RMB. Battery supported [Nash Power Barrow](https://www.youtube.com/watch?v=N5GfNewm_Ag&ab_channel=CARPologyTVCarpFishing) around £900 = 7000RMB! That angler must have the most anglingg spirit given how weak he is and have to use a battery powed barrow to move around :)</cite>
 
 A wheelbarrow - I thought angling is about minimalistic and keeping it simple until some Fox/Korda/Nash/Gardner/Mainline angler of carp fish comes with a wheelbarrow and point to all kindas gears(mat、bivvy、camo cool bags、 bait belts, coffee maker、tea press、kettle、stove、dinner set and cookware sets, etc) inside it smirking and saying:  "Oh my Gawd, dear comrade，my young bloke, how dare you? I'm the true minimalist - just one item - the barrow! Horray :)".
 
@@ -68,7 +67,7 @@ Surely, good types of equipment, tackles, and gears could bring better angling e
 
 <img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart1/tough_road.jpg" style="zoom:50%;display:flex;" />
 
-<cite>ps: Even though I'm pretty much a minimalist with just a single fishing bag and a washbasin for fish and as a possible trash bin, I still feel a little bit exhausted when climbing up and downs. Don't tell me that somebody fancy carrying a barrow of heavy gears around in here.
+<cite>ps: Even though I'm pretty much a minimalist with just a single fishing bag and a washbasin for fish and as a possible trash bin, I still feel a little bit exhausted when climbing up and downs. Don't tell me that somebody fancy carrying a barrow of heavy gears around in here. Hope someday Nash/Fox would come up with a helicopter for anglers.
 </cite>
 
 Those commercial tackle companies mainly target recreational fisheries like ponds or farm-raised syndicates, not for wild fishing. Isn't recreational fishing supposed to be simple, lightweight, and relaxing instead of a ...a barrow? Early Church Fathers and later Meister Eckhart, must feel kind of offended by the Roman Curia's long and boring church services, ceremonies, and rites (*In nomine Patris, et Filii, et Spiritu Sancti. Amen* - people just couldn't bear with it, so much so that they coined a word with the last two words - Sancti. Amen -  in Spanish for it: santiamén).
@@ -404,7 +403,7 @@ Some good ones and recommended:
 * Telemetry of all kindas fishes with good visual information: [Youtube Channel: IFishMan](https://www.youtube.com/channel/UCUz29_JLUn5sm5vGkPMaAvw)
 * Compared to commercial tackle makers, I enjoy a lot more from an individual's full angling journey. Catfish and Carp from the US is just such a good yet down-to-earth one. [Youtube Channel: Catfish and Carp](https://www.youtube.com/channel/UCzWn_gTaXyH5Idyo8Raf7_A)
 * [Outside with Tom](https://www.youtube.com/c/OutsidewithTom/videos) is another angler from US. Fun to watch.
-* Even though I am not a big fan of the styles of the UK's branded videos, I admit that I learned quite a lot from them. Just give them some credits.  [Adam Penning](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing) from CARPologyTV and [Darren Peck](https://www.youtube.com/watch?v=E1QkF1ME-qE&t=38s&ab_channel=KordaTVCarpFishing) from Korda are fun to watch.
+* Those UK fishing commercials are eye-opening and mind-blowing. Well, even though I am not a big fan of the styles of the UK's branded videos, I have to say that I learned quite a lot from them. Just give them some credits though. [Adam Penning](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing) from CARPologyTV and [Darren Peck](https://www.youtube.com/watch?v=E1QkF1ME-qE&t=38s&ab_channel=KordaTVCarpFishing) from Korda are fun to watch.
 
 
 Others articles and books on carp fishing:
@@ -423,5 +422,6 @@ Others articles and books on carp fishing:
 * [An American Carp Fishing Experience (Wild Carp Fishing)](https://www.youtube.com/watch?v=URxWuKeeYQA&ab_channel=OutsidewithTom)
 * [How Adam Penning Approaches Autumn Carp Fishing](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing)
 * [Eldorado Poem by Edgar Allan Poe - animation / analysis](https://www.youtube.com/watch?v=c0XhZw3ShvM&list=FLZcZrQxJBMfI-xP2vwCaEoQ&index=8&ab_channel=Shaun)
- 
-
+* [Ultimate Guide to Carp Fishing Rigs](https://anglingbuddies.com/carp-fishing-rigs/ultimate-guide-to-carp-fishing-rigs/)
+* [Spod and Spomb Tutorial with tips and techniques for carp fishing](https://www.youtube.com/watch?v=VBB_SIhIlv8&ab_channel=BrianWingard)
+* Good british sarcasm. Money power first. [CARPologyTV: Nash Gives Power To The People! - Once you’ve tried a £900 = 7000RMB Nash Power Barrow you’ll want one!](https://www.carpology.net/article/reviews/nash-gives-power-to-the-people/) 
