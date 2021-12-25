@@ -2,7 +2,7 @@
 layout: post
 title: "Auto Carp Fishing Part 2 - Make it Smart"
 date: 2021-12-04 12:55:32 +0800
-published: true
+published: false
 tags: fishing,carp,china,angling,carp fishing,rigs,hooks
 ---
 
