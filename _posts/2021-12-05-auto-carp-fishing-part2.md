@@ -2,7 +2,7 @@
 layout: post
 title: "Auto Carp Fishing Part 2 - Make it Smart"
 date: 2021-12-04 12:55:32 +0800
-published: false
+published: true
 tags: fishing,carp,china,angling,carp fishing,rigs,hooks
 ---
 
@@ -232,6 +232,7 @@ As you could see, the wires are pretty messy. When I try to do a mini test, I fo
 If we just revisit why we choose the MPU-6050 as the sensor at the very beginning，given we have chosen the onshore strategy, it looks like it could be replaced with an easier one. The fish tugs the fishing line, how could we use that force to trigger something? If you put "sensor" on the Taobao or Ebay, you could find lots of sensors with differnt purposes. A [YL-99 collision switch senor](https://www.ebay.com/itm/172922682069)(2.4RMB - $0.4):
 
 ![collision.jpg](assets/20211201autofishingpart2/collision.jpg)
+<cite>(The yellow rubber is not needed)</cite>
 
 A collision switch could detect force on it and when force is strong enough to push it to be closed, it outputs a low voltage (0), otherwise a high voltage(1).
 
@@ -245,7 +246,6 @@ The new schematics and breadboard wiring sketch:
 
 ![wire_compact.jpg](assets/20211201autofishingpart2/wire_compact.jpg)
 
-
 Here is the finished case:
 
 ![finishedcase](assets/20211201autofishingpart2/finishedcase.jpg)
@@ -255,20 +255,26 @@ Here is the finished case:
 
 Then we need some test to see whether or not it would work and how long the battery life could last. Here is the demo video I record to test:
 
-视频 自己
+
+<video  controls style="display:inline-flex;width:100%;">
+  <source src="assets/20211201autofishingpart2/bite_demo_home.mp4" type="video/mp4">
+</video>
+
 
 <cite>Imagine the left side is the fishing line, you just tie the device to fishing line with sewing thread.(The yellow rubber is not needed)</cite>
 
 There is a saying in software enginering that when you try to demo to other people, it usally breaks. So I brought it to the office and did a presentation to my colleuages:
 
-视频 办公室
+<video  controls style="display:inline-flex;width:100%;">
+  <source src="assets/20211201autofishingpart2/bite_demo_office.mp4" type="video/mp4">
+</video>
 <cite></cite>
 
 I made some adjustment in the init.lua. First when it starts, it send a txt saying *init* to backend, then send every 10 seconds for the first 5 minutes, so I could know whether it is properly set up and runnig ok. Then it sends heartbeat request with collision detection result every 30 seconds. The collsion poll is every 20 milliseconds, if once the collision is detected, it will call me in a interval of 0, 2, 4 minutes - three times.
 
 I also installed the [JuiceSSH](https://juicessh.com/)(a free SSH client for Android) on my phone so that I could check its long anytime anywhere. And the log would also give me a clue if the call is not made somehow.
 
-图片 juice ssh
+![juicesshlog.jpg](assets/20211201autofishingpart2/juicesshlog.jpg)
 
 But with 20 milliseconds poll interval(I assume the force is applied in a very short amout of time) and heartbeat every 30 seconds, the 2500 mAh battery for powering up the MCU get quickly dye out, however not for the Sim800C. The polling frequency is just too high. But if we slow down the frequence and do a quick tug, the collision sensor won't even detect it. How could we do with that?
 
@@ -288,17 +294,18 @@ With the all work done, it is good time to put it in real test. I happened to ha
 
 I casted out, connected the fishing mainline to the staked tent pegs, then link mainline with device using a thread, and carefully disguised the device and tent pegs with rocks on the top of it. I looked at the ssh console, all good, so I just went back home around 3PM afternoon.
 
-图片 - 布置
+![lake_setup.jpg](assets/20211201autofishingpart2/lake_setup.jpg)
 
 <cite>I'm pretty happy with the stealthness. You basically couldn't recognize it even if you pass it by. </cite>
 
 The monring of the second day, around 7:50Am, I got three calls in my phones.I was pretty excited and rushed to the bank imaging how big the fish could be.By the time I got to the bank, I was just jaw-dropping to see three or four ducks sitting right on the spot where I set up my device and trigger. I was like "oh shit, no way" :)
 
-图片 -  鸭子
+![lake_duck.jpg](assets/20211201autofishingpart2/lake_duck.jpg)
 
 I went to check my lines and bite alarm device. It turned out the fishing line and the trigger thread got twisted in a totally chaos.
 
-图片 - 线被鸭子搅在一起
+
+![twist_duck.jpg](assets/20211201autofishingpart2/twist_duck.jpg)
 
 No wonder it got trigged! I did notice those ducks that afternoon when I set up.Then I changed with another pair of battery and moved the whole set to another venue that ducks couldn't reach easily.
 
@@ -315,62 +322,33 @@ Possible replace 2G with NB-IoT. No need real sim card, you could just use e-sim
 ### Source Code and Datasheets
 
 * Source Code on Github (C&Lua)： [tuo/auto_carp_fishing](https://github.com/tuo/auto_carp_fishing)
-
 * [ESP8266 Technical Reference](https://www.espressif.com/sites/default/files/documentation/esp8266-technical_reference_en.pdf)
-
 * [SIM800C Datasheet](https://www.elecrow.com/download/SIM800C_Hardware_Design_V1.02.pdf)
-
 * [MPU6050 Datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)
-
-
 
 ### References
 
+Some good blogs and forums:
+
+* [Last Minute Engineers](https://lastminuteengineers.com/)
+* [The IOT Projects](https://theiotprojects.com/)
+* [Arduino Forum](https://forum.arduino.cc/)
+
+Some good youtube channels:
+
+* [Andreas Spiess](https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ)
+* [The Engineering Mindset](https://www.youtube.com/watch?v=mc979OhitAg&ab_channel=TheEngineeringMindset)
 
 
-https://medium.com/geekculture/a-complete-guide-on-how-to-create-an-iot-product-62241640c49b
-https://towardsdatascience.com/a-comprehensive-guide-to-start-building-an-iot-product-ba32dfb91c7a
-https://blog.particle.io/building-an-iot-device/
-
-
-/var/folders/zj/rd6p8_fx1rd6k171c2qn703w0000gn/T/TemporaryItems/(A Document Being Saved By screencaptureui 42)/Screenshot 2021-12-23 at 12.17.57.png
-
-TODO: 高亮 esim 不需要实体卡， 电压电流要求更低， 但是无法打电话 
-
-Highlight its good
-
-A short yet good coverage on the cases of NB-IoT [NB-IoT Commercial Premier Use Case Library](https://www.gsma.com/iot/wp-content/uploads/2017/12/NB-IoT-Commercial-Premier-Use-case-Library-1.0_Layout_171110.pdf) by HuaWei
-
-https://www.harrissportsmail.com/uk/blog/set-up-bite-alarm
-
-https://improvedcarpangling.com/what-is-a-carp-fishing-bite-alarm/
-
-
-https://www.youtube.com/watch?v=zSG_YubWIE8&ab_channel=TheCargoCultCaf%C3%A9
-
-https://www.youtube.com/watch?v=PWn5pm_HWTM&ab_channel=CaptainQuinn
-
-
-[MPU6050 datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)
-[ESP8266 Technical Reference](https://www.espressif.com/sites/default/files/documentation/esp8266-technical_reference_en.pdf)
-* [SIM800C Datasheet技术手册](https://www.elecrow.com/download/SIM800C_Hardware_Design_V1.02.pdf)
-
-NODEMCU ESP8266 VS ARDUINO UNO https://www.electroniclinic.com/nodemcu-esp8266-vs-arduino-uno/
-
-
-[#12 Five Tricks for working with Dupont wires](https://www.youtube.com/watch?v=eI3fxTH6f6I&ab_channel=AndreasSpiess)
-
-https://medium.com/geekculture/microcontroller-connection-protocols-w1-i2c-spi-uart-7625ad013e60
-
-The Engineering Mindset
-How ELECTRICITY works - working principle
-https://www.youtube.com/watch?v=mc979OhitAg&ab_channel=TheEngineeringMindset
-
-
-
-[《MPU-6050 6dof IMU tutorial for auto-leveling quadcopters with Arduino - Part 1》](https://www.youtube.com/watch?v=4BoIE8YQwM8&t=636s&ab_channel=JoopBrokking) 和[《MPU-6050 6dof IMU tutorial for auto-leveling quadcopters with Arduino - Part 2》](https://www.youtube.com/watch?v=j-kE0AMEWy4&ab_channel=JoopBrokking)
-
-https://www.waveshare.com/wiki/SIM800C_GSM/GPRS_HAT
-
-
-[<#64 What is the Ideal Battery Technology to Power 3.3V Devices like the ESP8266?>](https://www.youtube.com/watch?v=heD1zw3bMhw&t=105s&ab_channel=AndreasSpiess)
+Some good articles:
+* [A Complete Guide on How to Create an IoT Product](https://medium.com/geekculture/a-complete-guide-on-how-to-create-an-iot-product-62241640c49b)
+* [A Comprehensive Guide to Start Building an IoT Product](https://towardsdatascience.com/a-comprehensive-guide-to-start-building-an-iot-product-ba32dfb91c7a)
+* A short yet good coverage on the cases of NB-IoT [NB-IoT Commercial Premier Use Case Library](https://www.gsma.com/iot/wp-content/uploads/2017/12/NB-IoT-Commercial-Premier-Use-case-Library-1.0_Layout_171110.pdf) by HuaWei
+* [NODEMCU ESP8266 VS ARDUINO UNO](https://www.electroniclinic.com/nodemcu-esp8266-vs-arduino-uno/)
+* [#12 Five Tricks for working with Dupont wires](https://www.youtube.com/watch?v=eI3fxTH6f6I&ab_channel=AndreasSpiess)
+* [Microcontroller Connection Protocols: W1, I2C, SPI, UART](https://medium.com/geekculture/microcontroller-connection-protocols-w1-i2c-spi-uart-7625ad013e60)
+* [How ELECTRICITY works - working principle](https://www.youtube.com/watch?v=mc979OhitAg&ab_channel=TheEngineeringMindset)
+* [《MPU-6050 6dof IMU tutorial for auto-leveling quadcopters with Arduino - Part 1》](https://www.youtube.com/watch?v=4BoIE8YQwM8&t=636s&ab_channel=JoopBrokking) 
+* [《MPU-6050 6dof IMU tutorial for auto-leveling quadcopters with Arduino - Part 2》](https://www.youtube.com/watch?v=j-kE0AMEWy4&ab_channel=JoopBrokking)
+* [SIM800C GSM/GPRS HAT](https://www.waveshare.com/wiki/SIM800C_GSM/GPRS_HAT)
+* [<#64 What is the Ideal Battery Technology to Power 3.3V Devices like the ESP8266?>](https://www.youtube.com/watch?v=heD1zw3bMhw&t=105s&ab_channel=AndreasSpiess)
