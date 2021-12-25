@@ -319,6 +319,12 @@ The polling style could be changed to using interrupts. Together with the sleep 
 
 Possible replace 2G with NB-IoT. No need real sim card, you could just use e-simcard. So you won't be too worried when your device is stolean by someone else therefore they got your sim card and inserted to their phone and do some bad things. The downside is it can't make voice call (could be resolved by calling Twilio api to make calls from them) and the module SIM7020C is a little bit more expensive.
 
+### Prices
+
+Only the battery part is kinda expensive (over 20RMB). Actually 2000 mAh for SIM800C and 2600 mAh for MCU is good enough.
+
+![all_gears.jpg.jpg](assets/20211201autofishingpart2/all_gears.jpg)
+
 ### Source Code and Datasheets
 
 * Source Code on Github (C&Lua)： [tuo/auto_carp_fishing](https://github.com/tuo/auto_carp_fishing)
