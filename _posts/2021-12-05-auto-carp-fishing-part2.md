@@ -279,13 +279,47 @@ Yes, we'gonna use the extension spring, to use its elasticity to create some ten
 
 > 223.104.210.120 - - [12/Dec/2021:16:36:14 +0800] "GET /api/dashboard?time=305340902&idx=542,collided=false HTTP/1.1" 301 169 "-" "SIMCOM_MODULE"
 
-Polling every 1 seconds form switch; sending every 3 minutes heartbeat - 2500mAh - it could last like 25-26 hours; for 3200 mAh it could last 36-38 hours. 
+Polling every 1 seconds form switch; sending every 3 minutes heartbeat - 2500mAh - it could last like 25-26 hours; for 3200 mAh it could last 36-38 hours. Not too bad!
+
+## Real Test
+
+With the all work done, it is good time to put it in real test. I happened to have two three days off and so I went back home. And in that reservoir, the water has dropped down so much, so the rice field side is just full of mud and I just picked the mountainside for fishing. 
+
+I casted out, connected the fishing mainline to the staked tent pegs, then link mainline with device using a thread, and carefully disguised the device and tent pegs with rocks on the top of it. I looked at the ssh console, all good, so I just went back home around 3PM afternoon.
+
+图片 - 布置
+
+<cite>I'm pretty happy with the stealthness. You basically couldn't recognize it even if you pass it by. </cite>
+
+The monring of the second day, around 7:50Am, I got three calls in my phones.I was pretty excited and rushed to the bank imaging how big the fish could be.By the time I got to the bank, I was just jaw-dropping to see three or four ducks sitting right on the spot where I set up my device and trigger. I was like "oh shit, no way" :)
+
+图片 -  鸭子
+
+I went to check my lines and bite alarm device. It turned out the fishing line and the trigger thread got twisted in a totally chaos.
+
+图片 - 线被鸭子搅在一起
+
+No wonder it got trigged! I did notice those ducks that afternoon when I set up.Then I changed with another pair of battery and moved the whole set to another venue that ducks couldn't reach easily.
+
+That later two days it turned to be blank. I wasn't disappointed since I knew this was a brand vuene, had only one set of rod&reel&line&rig, and esp in winter, it was pretty tricky to get a bite.Instead, the process of trial-and-error has so much fun and I definitely will keep trying it out if later I have another holidays. Keep tunned!
+
+## Improvements
+
+There are some possible improvements we could do. Add extra 20 meters lines between the tent pegs and main line to give it extra buffer when fish is tugging the line. Also could add some rubber band to the tent peg to counter the force of the fish to simulate what rod does. The lead and sinker need to be slidable within some range if not droppable, to alleviate the panic of the fish after got a bite.
+
+The polling style could be changed to using interrupts. Together with the sleep mode of Esp8266, you could make the battery lasts very long time. But the downside is you won't get the heartbeat http request.
+
+Possible replace 2G with NB-IoT. No need real sim card, you could just use e-simcard. So you won't be too worried when your device is stolean by someone else therefore they got your sim card and inserted to their phone and do some bad things. The downside is it can't make voice call (could be resolved by calling Twilio api to make calls from them) and the module SIM7020C is more expensive.
 
 
 
 
+Some improvements are 
 
-
+* 泄力 - 比如弹簧 或者橡皮筋 rubber band or fabric latex
+* 铅坠 - 活动 - 这样鱼不会那么会摆动
+* 缓冲 - 加多10米的线在岸上 冬天鱼的活力没那么好 metabolism
+* open water, less snags or structure (rock formations/too much weedy)
 
 
 
