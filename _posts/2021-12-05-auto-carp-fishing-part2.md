@@ -139,7 +139,8 @@ You might wonder what does the sda and scl mean? Here is a very important topic 
 
 Here is the code snippet for getting gyropscope in degrees/secdons unit, acceleration in g unit and  termperature in degree/celcius. The main flow is setup resolutions like unit you like to measure in, then inside a loop, retrieves its data and convert with proper scale factor or formula based on the configurations.
 
-<script src="https://gist.github.com/tuo/f86c40beca754c779e3b62a7aca39eed.js"></script>
+<!-- 
+<script src="https://gist.github.com/tuo/f86c40beca754c779e3b62a7aca39eed.js"></script> -->
 
 The mpu-6050 features a user-programmable gyro full-scale range of ±250, ±500, ±1000, and ±2000 °/sec (dps), and a user-programmable accelerometer full-scale range of ±2g, ±4g, ±8g, and ±16g, which could be found in its datasheet. You could get more advanced one like Yaw/Pitch/Roll from arduino forum or someone use it to control a drone. But the above one suffice in my case.
 
@@ -223,6 +224,71 @@ I have been using 3.7v Li-ion Battery solution for over two-three months with si
 That means we have two 18650 batteries: one for the Esp8266 and MPU-6050, one for the sim800c. Here is the final schematics:
 
 ![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/wire_sketch.png)
+
+
+## Case Design
+
+Here is the final wires of the device:
+
+![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/real_wire.jpg)
+
+As you could see, the wires are pretty messy. When I try to do a mini test, I found it was so hard to put all the wires/modules inside a case. Also there is a problem with putting the sensor(mpu-6050) on the spring coil of fishing set, and connect to the MCU inside the device case with non-flexible dupont lines. The mpu-6050 chip is not easy to bind onto the spring coil and get a steady and same position/angle everytime. What's even worse, 4 wire of dupont lines imposes a constraint on how we arrange the fishing set and bite alarm device.It is not like regular thread like sewing one which is soft and flexible and easy to twist and extend. Lastly, not only the device box(the case) need to be waterproof, but also the sensor MPU-6050 need to be waterproof. In software term, as what Uncle Bob Martin would say in one of his book [Agile Software Development, Principles, Patterns, and Practices](https://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445), those modules are not loosely coupled and highly cohesive - They expose too much its internal details that caller shouldn't just be bothered.
+
+If we just revisit why we choose the MPU-6050 as the sensor at the very beginning，given we have chosen the onshore strategy, it looks like it could be replaced with an easier one. The fish tugs the fishing line, how could we use that force to trigger something? If you put "sensor" on the Taobao or Ebay, you could find lots of sensors with differnt purposes. A [YL-99 collision switch senor](https://www.ebay.com/itm/172922682069)(2.4RMB - $0.4):
+
+图片 yl-99 - 拉动示意图
+
+A collision switch could detect force on it and when force is strong enough to push it to be closed, it outputs a low voltage (0), otherwise a high voltage(1).
+
+With this collsion switch as the sensor, we could pack the whole modules inside a standlone case then use a sewing thread to connect the device to the fishing line. Now the connecting way is easy and flexiable, hence we could put the fishing sets and device anywhere separately I'd like to based on the environment.
+
+Next is how to deal with the messy rampant wires to make it neat and tidy so that it could fit inside a case as small as possible. First, I bought different standard sizes of breadboard and try how to fit diffent modules inside it. Second, I measured the approximate dimension(11cm*15cm*3cm) that it would take and bought differnt sizes of PVC plastic cases. And none of the case would perfectly fit, so I have to cut it with scissors and drill a hole with soldering iron in the side of the box to put the trigger line through.
+
+Here is the finished case:
+图片
+
+The new schematics and breadboard wiring sketch:
+图片
+
+## Demo Test
+
+Then we need some test to see whether or not it would work and how long the battery life could last. Here is the demo video I record to test:
+
+视频 自己
+
+<cite>Imagine the left side is the fishing line, you just tie the device to fishing line with sewing thread.(The yellow rubber is not needed)</cite>
+
+There is a saying in software enginering that when you try to demo to other people, it usally breaks. So I brought it to the office and did a presentation to my colleuages:
+
+视频 办公室
+<cite></cite>
+
+I made some adjustment in the init.lua. First when it starts, it send a txt saying *init* to backend, then send every 10 seconds for the first 5 minutes, so I could know whether it is properly set up and runnig ok. Then it sends heartbeat request with collision detection result every 30 seconds. The collsion poll is every 20 milliseconds, if once the collision is detected, it will call me in a interval of 0, 2, 4 minutes - three times.
+
+I also installed the [JuiceSSH](https://juicessh.com/)(a free SSH client for Android) on my phone so that I could check its long anytime anywhere. And the log would also give me a clue if the call is not made somehow.
+
+图片 juice ssh
+
+But with 20 milliseconds poll interval(I assume the force is applied in a very short amout of time) and heartbeat every 30 seconds, the 2500 mAh battery for powering up the MCU get quickly dye out, however not for the Sim800C. The polling frequency is just too high. But if we slow down the frequence and do a quick tug, the collision sensor won't even detect it. How could we do with that?
+
+There is a similar topic in algorithms: [Time-Space Trade-Off](https://www.geeksforgeeks.org/time-space-trade-off-in-algorithms/). To solve it, either in less time and by using more space, or in very little space by spending a long amount of time.
+
+Yes, we'gonna use the extension spring, to use its elasticity to create some tension to absorb the strength or force to buy us some time for detecting intervals. Here I add one rubber band on the end of the sensor length line.With this, I could adjust the polling interval to 1 seconds (1 second is too high, this could 2 seconds even 5 seconds or 10 seconds in my mini experiment but this number should be set by the real scenario later but yeah this tweak does show it is possible to detect correctly in a long poll interval).
+
+> 223.104.210.120 - - [11/Dec/2021:14:52:07 +0800] "GET /api/dashboard?time=3878805&idx=init%20colided:false HTTP/1.1" 301 169 "-" "SIMCOM_MODULE"
+
+> 223.104.210.120 - - [12/Dec/2021:16:36:14 +0800] "GET /api/dashboard?time=305340902&idx=542,collided=false HTTP/1.1" 301 169 "-" "SIMCOM_MODULE"
+
+Polling every 1 seconds form switch; sending every 3 minutes heartbeat - 2500mAh - it could last like 25-26 hours; for 3200 mAh it could last 36-38 hours. 
+
+
+
+
+
+
+
+
+
 
 
 SIM800C could be debugged separately with a USB-TTL
