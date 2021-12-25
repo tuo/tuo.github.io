@@ -8,12 +8,11 @@ tags: fishing,carp,china,angling,carp fishing,rigs,hooks
 
 Let's take a look at what's the common bite alarms with its smartness of "tell you when you've got a bite":
 
-铃铛 + 海竿报警器+遥控器
-<cite>Simplest one is </cite>
+![Bite Alarm](assets/20211201autofishingpart2/bite_alarm.jpg)
 
-When a fish gets a bite and tugs at the fishing line, it would apply a force on the fishing line which makes the rod tip bend or vibrate. The simplest bite alarm is a fishing bell like twin bells, just clamp to the rod tip. The upside is that the fishing bells are cheap, lightweight, no battery needed; the downside is it is not that sensitive, also the sound is not that loud enough so you could only stay close to where that rod and bells are. Anyway it does what it need to do. Here in China, it is widely used. The advanced one is the bite alarm with alarm transmitter(base) and reciever(remote), with a adjustable volume, tone, and sensitivity. The alarm transmitter is like bell which placed on the rod pod or rod rest kinda bells, however the alarm reciever is a wireless companion device like mobile phones which could pick up the signal from the alarm transmitter and alerts you by vibrating, lighting up, or emitting a beep themselves with a range of some 50-150 meters(A decent bite alarm reciever like [JRC Radar CX Receiver](https://www.anglingdirect.co.uk/jrc-radar-cx-receiver-multi-led?queryID=dc78e1ec703826dcff83ad6abf562048&objectID=55637&indexName=live_ad_uk_products) £53.99, its range could be 150 meters) . The range would depend on conditions, for exmaple, how many obstacles in the way. It gives you some freedom so that you could others thing away from the rods like making a coffee and tidying up your barrow.
+<cite>Simplest one is the left bottom one - the bells. The bottom right one is the alarm reciever. The middle one is the bite alarm base. </cite>
 
-https://www.anglingdirect.co.uk/fishing-tackle/bite-alarms
+When a fish gets a bite and tugs at the fishing line, it would apply a force on the fishing line which makes the rod tip bend or vibrate. The simplest bite alarm is a fishing bell like twin bells, just clamp to the rod tip. The upside is that the fishing bells are cheap, lightweight, no battery needed; the downside is it is not that sensitive, also the sound is not that loud enough so you could only stay close to where that rod and bells are. Anyway it does what it need to do. Here in China, it is widely used. The advanced one is the bite alarm with alarm transmitter(base) and reciever(remote), with a adjustable volume, tone, and sensitivity. The alarm transmitter is like bell which placed on the rod pod or rod rest kinda bells, however the alarm reciever is a wireless companion device like mobile phones which could pick up the signal from the alarm transmitter and alerts you by vibrating, lighting up, or emitting a beep themselves with a range of some 50-150 meters(A decent bite alarm reciever like [JRC Radar CX Receiver](https://www.anglingdirect.co.uk/jrc-radar-cx-receiver-multi-led?queryID=dc78e1ec703826dcff83ad6abf562048&objectID=55637&indexName=live_ad_uk_products) £53.99 = 450RMB, its range could be 150 meters) . The range would depend on conditions, for exmaple, how many obstacles in the way. It gives you some freedom so that you could others thing away from the rods like making a coffee and tidying up your barrow.
 
 If you're not worried about your rods/reels got stolen and your home is like in 150 meters range to where you're fishing, then after you could cast out rods and set up the bite alarm, you could just go back home and enjoy yourself.
 
@@ -83,7 +82,9 @@ After weighing trade-offs between onshore and offshore approaches, onshore one s
 
 ## Mechanism 
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/jiegou.jpg)
+![Bite Alarm](assets/20211201autofishingpart2/jiegou.jpg)
+
+<!-- ![](http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/jiegou.jpg) -->
 
 * sensor input: data collecting, detect physical change of angle and acceleration and convert to digital/analog signal. 
 * mcu coodirnator: either poll the input senor or via interrupts to get data and check see if it meets the criteria. If yes, send commands to an actuator output to perform some physical actions.
@@ -99,7 +100,7 @@ A rule of thumb for IoT development is to always have its datasheet something li
 
 Consider central processor/unit as the brain which is consisted by a hardware and software. Based on this central unit there are microcontroller-based IoT boards like Arduino/ESP8266/STM32F and microprocessor-based boards like Raspberry Pi. But how much processing power it needs for our case? Not much. Surely Rasperry PI is a overkill. Between the Arduino Uno and NodeMCU ESP8266, the esp8266 is the no-brainer. Arduino Uno board, which was used to be dominant player in previsouly years, despite having a very mature and vibrant community, doesn't have Wi-Fi capability built-in, has a voltage of operation of 5V, a pyschizie size 69 mmx53 mm. Nowadays, [NodeMCU ESP8266](https://www.espressif.com/en/products/socs/esp8266) board, which comes from a Chinese company [Espressif](https://www.espressif.com/en/company/about-espressif), is the most popular one which comes with Wi-Fi built-in (extremely convient to get started and play with sth), a voltage of operation of 3.3V(less power and current consumption means power source could have more options hence cost is lower), a smaller size 58mmx31mm (easier to fit onto breadboard and have a smaller overall case size to be more stealthy). Look at its price on Taobao:
 
-价格图片 
+![mcu_price](assets/20211201autofishingpart2/mcu_price.jpg)
 
 <cite>NodeMCU ESP8266 vs Arudio Uno R3 </cite>
  
@@ -107,7 +108,7 @@ Apart from that, ESP8266 could be programmed with C/C++ in Arduino IDE just like
 
 ![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/nodemculua.png)
 <cite>Left picture source: [#240 Time to Say Goodbye to Arduino and Go On to Micropython/ Adafruit Circuitpython?
-](https://www.youtube.com/watch?v=m1miwCJtxeM&ab_channel=AndreasSpiess) from Andreas Spiess. <br/>&nbsp; On the the right side you could see it took me 4.6 seconds to get led blinking code compile&upload</cite>
+](https://www.youtube.com/watch?v=m1miwCJtxeM&ab_channel=AndreasSpiess) from Andreas Spiess. <br/>&nbsp; On the the right side you could see it took me 4.6 seconds to get led blinking code compile&upload in Arduino IDE</cite>
 
 Everytime you debug in Arduino IDE is kinda painful, you write in C/C++ code, compile, build and upload to board and this process could take some time even if you tuned some paramter like *Tools -> Upload Speed* to the max. But with those flashed firmware installed on the board first, you could just write the code in the language you'd like and save it then it got instantly executed on the board. Some language(tailored, not full set of feature) and its firmware for ESP8266 are: Lua based [NodeMCU](https://nodemcu.readthedocs.io/en/release/), Python based [MicroPython](https://micropython.org/), JavaScript based [Mongoose OS](https://mongoose-os.com/). That should be the agile way of iot development :)
 
@@ -117,13 +118,9 @@ Run the jar file of *ESPlorer IDE* to open the programming gui. The only problem
 
 ![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/ESPlorerIDE_advanced.jpeg)
 
-The entrance file of NodeMCU is the `init.lua` where we're gonna import files from senor and actuator and code some trigger logic here.
-
-TODO: pin脚图
+The entrance file of NodeMCU is the *init.lua* where we're gonna import files from senor and actuator and code some trigger logic here.
 
 ## Sensor - MPU-6050
-
-价格图片
 
 The senor module for detecting the angle and acceleration is the GY-521 [MPU-6050](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/) which is six-axis (Gyro + Accelerometer) + embedded temperature sensor motion tracking device.
 
@@ -137,10 +134,7 @@ You might wonder what does the sda and scl mean? Here is a very important topic 
 ![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/register_slave_addr.png)
 <cite>来自MPU6050的技术手册在4.32章节，MPU6050有很多地方需要查看技术手册</cite>
 
-Here is the code snippet for getting gyropscope in degrees/secdons unit, acceleration in g unit and  termperature in degree/celcius. The main flow is setup resolutions like unit you like to measure in, then inside a loop, retrieves its data and convert with proper scale factor or formula based on the configurations.
-
-<!-- 
-<script src="https://gist.github.com/tuo/f86c40beca754c779e3b62a7aca39eed.js"></script> -->
+Here is the [code snippet](https://gist.github.com/tuo/f86c40beca754c779e3b62a7aca39eed.js) for getting gyropscope in degrees/secdons unit, acceleration in g unit and  termperature in degree/celcius. The main flow is setup resolutions like unit you like to measure in, then inside a loop, retrieves its data and convert with proper scale factor or formula based on the configurations.
 
 The mpu-6050 features a user-programmable gyro full-scale range of ±250, ±500, ±1000, and ±2000 °/sec (dps), and a user-programmable accelerometer full-scale range of ±2g, ±4g, ±8g, and ±16g, which could be found in its datasheet. You could get more advanced one like Yaw/Pitch/Roll from arduino forum or someone use it to control a drone. But the above one suffice in my case.
 
@@ -186,7 +180,8 @@ Connections and code snippet should be like below:
     VBAT (SIM800C) - VCC (MCU)
         
 
-<script src="https://gist.github.com/tuo/67b6826971d63fd5fba7f81795083c2d.js"></script>
+TODO: here my code snippet, you could check out more on my github sourc repo.
+<!-- <script src="https://gist.github.com/tuo/67b6826971d63fd5fba7f81795083c2d.js"></script> -->
 
 Here we send a http GET with *txt* parameter to some url. The txt is the string literal of content from MPU-6050 sensor.From the Nginx log of backend server, we could see following log:
 
@@ -203,7 +198,7 @@ For example, You could use 2 cells of 1.5v Alkaline non-rechargeable battery(1.5
 
 So it is always good to check its specs and datasheet.
 
-图片
+![sim800c_power](assets/20211201autofishingpart2/sim800c_power.png)
 
 <cite> Page 17 in chapter *4.1 Power Supply* of sim800c [datasheet](https://www.elecrow.com/download/SIM800C_Hardware_Design_V1.02.pdf)</cite>
 
@@ -236,7 +231,7 @@ As you could see, the wires are pretty messy. When I try to do a mini test, I fo
 
 If we just revisit why we choose the MPU-6050 as the sensor at the very beginning，given we have chosen the onshore strategy, it looks like it could be replaced with an easier one. The fish tugs the fishing line, how could we use that force to trigger something? If you put "sensor" on the Taobao or Ebay, you could find lots of sensors with differnt purposes. A [YL-99 collision switch senor](https://www.ebay.com/itm/172922682069)(2.4RMB - $0.4):
 
-图片 yl-99 - 拉动示意图
+![collision.jpg](assets/20211201autofishingpart2/collision.jpg)
 
 A collision switch could detect force on it and when force is strong enough to push it to be closed, it outputs a low voltage (0), otherwise a high voltage(1).
 
@@ -244,11 +239,17 @@ With this collsion switch as the sensor, we could pack the whole modules inside 
 
 Next is how to deal with the messy rampant wires to make it neat and tidy so that it could fit inside a case as small as possible. First, I bought different standard sizes of breadboard and try how to fit diffent modules inside it. Second, I measured the approximate dimension(11cm*15cm*3cm) that it would take and bought differnt sizes of PVC plastic cases. And none of the case would perfectly fit, so I have to cut it with scissors and drill a hole with soldering iron in the side of the box to put the trigger line through.
 
-Here is the finished case:
-图片
+![hole_case.jpg](assets/20211201autofishingpart2/hole_case.jpg)
 
 The new schematics and breadboard wiring sketch:
-图片
+
+![wire_compact.jpg](assets/20211201autofishingpart2/wire_compact.jpg)
+
+
+Here is the finished case:
+
+![finishedcase](assets/20211201autofishingpart2/finishedcase.jpg)
+
 
 ## Demo Test
 
@@ -311,212 +312,21 @@ The polling style could be changed to using interrupts. Together with the sleep 
 
 Possible replace 2G with NB-IoT. No need real sim card, you could just use e-simcard. So you won't be too worried when your device is stolean by someone else therefore they got your sim card and inserted to their phone and do some bad things. The downside is it can't make voice call (could be resolved by calling Twilio api to make calls from them) and the module SIM7020C is a little bit more expensive.
 
+### Source Code and Datasheets
 
+* Source Code on Github (C&Lua)： [tuo/auto_carp_fishing](https://github.com/tuo/auto_carp_fishing)
 
+* [ESP8266 Technical Reference](https://www.espressif.com/sites/default/files/documentation/esp8266-technical_reference_en.pdf)
 
-Some improvements are 
+* [SIM800C Datasheet](https://www.elecrow.com/download/SIM800C_Hardware_Design_V1.02.pdf)
 
-* 泄力 - 比如弹簧 或者橡皮筋 rubber band or fabric latex
-* 铅坠 - 活动 - 这样鱼不会那么会摆动
-* 缓冲 - 加多10米的线在岸上 冬天鱼的活力没那么好 metabolism
-* open water, less snags or structure (rock formations/too much weedy)
+* [MPU6050 Datasheet](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)
 
 
 
+### References
 
 
-SIM800C could be debugged separately with a USB-TTL
-
-
-Connectivity is the key factor which makes the whole thing alive.
-
-There are a few good options on which network you can use, and you can mix more than one in your architecture (you will probably need to do it): protocols like ZigBee, Bluetooth, LoRaWan, WiFi, Ethernet, LTE, 5G, etc.\
-
-WiFi: suitable for indoor facilities like home and office IoT devices
-GSM/GPRS: for outdoors standalone devices
-
-IRMPVOEMNT: NB-IoT 
-NB-IoT: Narrow Band IoT is a cellular communication technology specially designed to power IoT communication, very low power
-
-
-
-
-So we only have one IO pin
-
-Microcontrollers based
-Arduino Uno, Mega: easy to develop and lots of pins to connect peripherals, great for prototyping
-ESP8266 / ESP32 boards: has WiFi and Bluetooth connectivity, low cost (ESP8266 costs around $3), plenty of resources to develop
-STM32F series boards: complex to develop, production-friendly and easily manufactured, most widely used in production
-Microprocessor-based :
-Raspberry Pi: great community, easy to develop, can run OS like Linux, windows
-Beagle bone: open source board, can put android, ubuntu and other Linux, has built-in flash storage
-
-These pins are IO pins which are used to connect to any sensors or actuators you want to use
-
-So just pick a board that suits your requirements and using these IO pins you can use any sensors as you like. Any sensor you pick would most probably be compatible with all the boards.
-
-
-muc product software:
-Since the code needs to be compiled specifically for the microcontroller or microprocessor and due to lack of OS like Linux, Windows which abstracts the hardware variations, the software and tools that will be used to develop greatly depends on the chip you select. Though there are multiple frameworks that try to support a lot of chips. like Arduino Framework: 
-
-Arduino Framework: supports a variety of boards and chips like all the Arduino, ESP8266, ESP32, STM32 chips
-
-
-
-
-I never heard that thing before when learning with ardunio a couple of years ago. I never did something with some practical usage with ardunio after lighting up some leds, just like what I did with Rasperry PI.
-
-seperat eof conversn; like modulration ; connect/link those two modular is shoudl easy to setup.
-
-Calculating the Volume of a box
-
-
- 
-铃铛+ alarm head and alarm reciver.
-
-Sensors
-If you want to measure something, you will need a sensor. The sensor is responsible for converting the physical variable you want to measure into an electrical signal that will be read by the computer.
-
-
-问题和解决： 一开始不用橡皮筋，出发时间很短， 无法保证1秒钟， 需要延迟 最好是用橡皮经
-
-
-
-Processor
-All the sensors, actuators, and indicators will need to be controlled. And here enters the processing unit. We have a wide range of options, from a simple Arduino microcontroller to an advanced AI mini-PC.
-
-* howmany I/Os:
-* processin gpower
-
-MCU:
-
-desktop，laptop, rasppery pi, adrudio , esp8266
-
-no need for high-end microprocessor 
-
-
-commmunication between device and server is single directional, so thatis much esaier, just send out message from device. No control side.
-Trasnmit of data is small, latency is fine, not video no audio, just smallb ytes of http data. and some call.
-
-
-
-
-
-uusing mpu6050 but it turns out to be overkill
-
-
-SIM:
-
-Actuators
-If you want that your product performs an action, like open a door, you will need an actuator. In simple terms, a “mover”.
-For example, if you are designing a home garden product, you might want to use a solenoid to water the plant automatically when the soil humidity gets below a certain level.
-
-
-Input Power: how much power your actuator demands to work. This might be a problem when all you have is a battery to power your whole system. Or you will need a dedicated circuit to drive your motor, for example.
-Installation: depending on your actuator, you might need to develop a system to avoid vibration, for example.
-
-
-
-
-
-
-
-SIM KA
-
-Impovement: using esim card(couldn't call) and nb-iot is better - sim7020c
-
-
-
-
-Power is key to consider: what is the input voltage or the current it drains to operate. This can be crucial if your product needs to use batteries, for example.
-Resolution
-Operation : it is the range your sensor can work, both environment and variable itself. For example, if you want to measure the current of a motor that will work on Antarctica, it will need to support working in temperatures below 0ºC. And if your current will never be above 30A, it does not make sense to use a sensor that will read only up to 20A.
-
-Power
-We’ve talked a lot about power. It is a crucial factor to your product, and depending on where you are going to use it, it can be a limitation to what other devices you are going to choose.
-
-If you need to include batteries (because it will be moving around or on the field), the amount of time it will need to run exclusively on it is a crucial factor. Imagine having to change the batteries on a weather buoy device that is in the middle of the ocean every day.
-
-电池 18360 为什么不用纽扣电池
-
- This can lead to damages to your devices or a momentary malfunctioning that can cause real problems. There are systems to mitigate this kind of problem, like UPS, voltage regulator, power banks, etc.
- 
-> Note: be careful with some operations of your device, specially those involving wireless transmission, that consumes a lot of power. This increase the load and, depending on the source you are using, can cause a momentary voltage drop that might cause your device to reset or not work properly.
-
-Connectivity
-
-There are a few good options on which network you can use, and you can mix more than one in your architecture (you will probably need to do it): protocols like ZigBee, Bluetooth, LoRaWan, WiFi, Ethernet, LTE, 5G, etc.\
-
-WiFi: suitable for indoor facilities like home and office IoT devices
-GSM/GPRS: for outdoors standalone devices
-
-IRMPVOEMNT: NB-IoT 
-NB-IoT: Narrow Band IoT is a cellular communication technology specially designed to power IoT communication, very low power
-
-Communication Protocols t: http : most easy to pick up, has lots of overhead, not synchronous, ideal for single requests, not continuous communication
-
-
-Design
-Now that you have chosen your sensors, your processor, and created an application, you need to put all that into a case. It will not cause a good impression to send your product with some wires or batteries appearing. It might even cause some damages to the user.
-A nice and well-designed case can be difference from another similar product. For some applications, like home automation, a round, colorful, light case can be OK. For others, like mining industries, you will need a little more robust and resistance.
-
-Assembly: since you have a lot of parts that you need to put together, you have to think about how to assembly all inside your case. It doesn’t matter if it is you or your customer that will assembly, an easy process can save a lot of time.
-
-
-Cloud Platform
-
- It also should maintain the status, health of all the field devices.
-
-HTTP - bettern than https
-
-just nginx and log with juicy ssh , being able to look via my arndoi phone. If Ineed to check its status, 
-
-extend: wechat or sth
-
-
-
-
-Datasheet: a short document that informs the user what are the operation conditions, the limits, dimensions, and features of your product.
-
----
-
-Interaction (indicators and buttons)
-Another part of an IoT product is the interaction with the user. It is important for the user to know what is the status of your product. If it is functioning, if it has an error, or if it needs any action to continuing.
-
------- put in a case, not just with wires scattering there an there. and to stay sthealy to minize size of box.
-
-bread board; customize it - find proper pvc/pe box and cut it to fit it. 
-
-
-问题和解决： 一开始每个15秒钟发送一次，过了五分钟之后，每隔3分钟发送一次
-
-
-
-TODO: 保证鱼不容脱钩发力
-
-* 泄力 - 比如弹簧 或者橡皮筋 rubber band or fabric latex
-* 铅坠 - 活动 - 这样鱼不会那么会摆动
-* 缓冲 - 加多10米的线在岸上 冬天鱼的活力没那么好 metabolism
-* open water, less snags or structure (rock formations/too much weedy)
-
-
-
-
-提高： 用中断， 但是没有heartbeat
-用poll简单，有hearbeat, 但是费电
-
-
-鱼线要slack一点点，不用太紧. 留一点余地， 然后用石头压住Water: In rivers or canals with boat traffic or debris, you can get a lot of false alarms just from the flow of the water. That’s when you want to turn the sensitivity down.
-
-Wind: While you can control your own setup, the wind will probably dictate the sensitivity setting more than anything else. Remember that the direction and speed can change at any time, so you may have to adjust the setting during throughout the session.
-
-sewing thread 
-With the kind of thread sewing clothes
-Thread or a thread is a long very thin piece of a material such as cotton, nylon, or silk, especially one that is used in sewing.
-
-
-
-### REFERENCE
 
 https://medium.com/geekculture/a-complete-guide-on-how-to-create-an-iot-product-62241640c49b
 https://towardsdatascience.com/a-comprehensive-guide-to-start-building-an-iot-product-ba32dfb91c7a
