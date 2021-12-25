@@ -8,7 +8,7 @@ tags: fishing,carp,china,angling,carp fishing,rigs,hooks
 
 Let's take a look at what's the common bite alarms with its smartness of "tell you when you've got a bite":
 
-![Bite Alarm](assets/20211201autofishingpart2/bite_alarm.jpg)
+<img src="assets/20211201autofishingpart2/bite_alarm.jpg" style="zoom:50%;display:flex;" />
 
 <cite>Simplest one is the left bottom one - the bells. The bottom right one is the alarm reciever. The middle one is the bite alarm base. </cite>
 
@@ -34,17 +34,17 @@ Leave your eye-catching rods and reels, usually the most expensive fishing tackl
 
 There are basically two ways when coming to how we seutp the bite alarm, tent stakes with the fishing main line: 
 
-![sketch_bank](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sketch_bank.jpg)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sketch_bank.jpg" style="zoom:50%;display:flex;" />
 <cite>onshore</cite>
 
-![sketch_float](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sketch_float.jpg)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sketch_float.jpg" style="zoom:50%;display:flex;" />
 <cite>offshore</cite>
 
 We could put the bite alarm device on the bank or wrap it in a ball-shape buoyant floater. They share the same idea the sensor part of device could detech some gryposcope or acceraltor changes: either like in first case you put the senor on the inclined spring and once fish tug the line, the spring will be lifted up and senor could get that angle changes; or in the second case, the senor inside the float ball would detech a vertical acceleration（z-axis) when the fishing line is tugged from the bottom.
 
 To make it more vividly, I did a little expierment to simulate a fish bite like follwing gif:
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2%2Ffish_trigger.gif)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2%2Ffish_trigger.gif" style="zoom:100%;display:flex;" />
 
 Both has pros and cons. The offshore approach's pros:
 
@@ -60,7 +60,7 @@ its cons:
 * the casting process gonna be more complicted
 * gonna pretty much loose the device, fishing lines and rigs when it got snagged on the bottom 
 
-![offshore spike](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/real_ball.jpg)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/real_ball.jpg" style="zoom:50%;display:flex;" />
 <cite>I have tried a couple of pe or pvc products with sphere shape like Gashapon and AB glues but the water resistance stil remains a big headache. No existing product that suits my need could be found on taobao. </cite>
 
 
@@ -76,15 +76,13 @@ its cons:
 * precision of bite signal is not that good given the long distance of fishing line.
 * the disguise requires a kinda blending with sourroundings.
 
-![onshore approach](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/angle_change.jpg)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/angle_change.jpg" style="zoom:30%;display:flex;" />
 
 After weighing trade-offs between onshore and offshore approaches, onshore one seems to be a good start point as it is simpler and materially lower demanded. Next, let's dive into the detailed mechanism.
 
 ## Mechanism 
 
-![Bite Alarm](assets/20211201autofishingpart2/jiegou.jpg)
-
-<!-- ![](http://d2h13boa5ecwll.cloudfront.net/20211002fishingpart2/jiegou.jpg) -->
+<img src="assets/20211201autofishingpart2/jiegou.jpg" style="zoom:60%;display:flex;" />
 
 * sensor input: data collecting, detect physical change of angle and acceleration and convert to digital/analog signal. 
 * mcu coodirnator: either poll the input senor or via interrupts to get data and check see if it meets the criteria. If yes, send commands to an actuator output to perform some physical actions.
@@ -100,13 +98,14 @@ A rule of thumb for IoT development is to always have its datasheet something li
 
 Consider central processor/unit as the brain which is consisted by a hardware and software. Based on this central unit there are microcontroller-based IoT boards like Arduino/ESP8266/STM32F and microprocessor-based boards like Raspberry Pi. But how much processing power it needs for our case? Not much. Surely Rasperry PI is a overkill. Between the Arduino Uno and NodeMCU ESP8266, the esp8266 is the no-brainer. Arduino Uno board, which was used to be dominant player in previsouly years, despite having a very mature and vibrant community, doesn't have Wi-Fi capability built-in, has a voltage of operation of 5V, a pyschizie size 69 mmx53 mm. Nowadays, [NodeMCU ESP8266](https://www.espressif.com/en/products/socs/esp8266) board, which comes from a Chinese company [Espressif](https://www.espressif.com/en/company/about-espressif), is the most popular one which comes with Wi-Fi built-in (extremely convient to get started and play with sth), a voltage of operation of 3.3V(less power and current consumption means power source could have more options hence cost is lower), a smaller size 58mmx31mm (easier to fit onto breadboard and have a smaller overall case size to be more stealthy). Look at its price on Taobao:
 
-![mcu_price](assets/20211201autofishingpart2/mcu_price.jpg)
+<img src="assets/20211201autofishingpart2/mcu_price.jpg" style="zoom:80%;display:flex;" />
 
 <cite>NodeMCU ESP8266 vs Arudio Uno R3 </cite>
  
 Apart from that, ESP8266 could be programmed with C/C++ in Arduino IDE just like Arduino Uno. Even though generally bare-metal boards and chips don't have a operation system, ESP8266 is one heck of IoT microcontroller - it does provide capability to install some firmwares on the top of the [Espressif Non-OS SDK for ESP8266](https://www.espressif.com/en/tags/non-os-sdk) to abstract and simplify the development process.
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/nodemculua.png)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/nodemculua.png" style="zoom:90%;display:flex;" />
+
 <cite>Left picture source: [#240 Time to Say Goodbye to Arduino and Go On to Micropython/ Adafruit Circuitpython?
 ](https://www.youtube.com/watch?v=m1miwCJtxeM&ab_channel=AndreasSpiess) from Andreas Spiess. <br/>&nbsp; On the the right side you could see it took me 4.6 seconds to get led blinking code compile&upload in Arduino IDE</cite>
 
@@ -116,7 +115,8 @@ After install the CH340 driver for mac, go to [NodeMCU custom builds](https://no
 
 Run the jar file of *ESPlorer IDE* to open the programming gui. The only problem with this on Mac is the serial port of the device sometimes doesn't show up in the top right dropdown list, even though it is recogized by the system(*"ls /dev/tty.\*"*). I have to go to settings and manually set the serial port of the device.
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/ESPlorerIDE_advanced.jpeg)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/ESPlorerIDE_advanced.jpeg" alt="ESPlorerIDE_advanced" style="zoom:50%;display: flex;" />
+
 
 The entrance file of NodeMCU is the *init.lua* where we're gonna import files from senor and actuator and code some trigger logic here.
 
@@ -126,19 +126,20 @@ The senor module for detecting the angle and acceleration is the GY-521 [MPU-605
 
 We're just gonna use 4 pins from MPU6050: sda, scl, gnd, vcc. Here is how I wire it with MCU Esp8266 and its schematics:
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/mpu_2_mcu.png)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/mpu_2_mcu.png" style="zoom:80%;display:flex;" />
+
 <cite>A good tip is have your wire color coding schemes, for exmaple a brighter color red/orange for vcc positive, a darker color black/blue for ground or earth.<br/> &nbsp; more on: [#12 Five Tricks for working with Dupont wires](https://www.youtube.com/watch?v=eI3fxTH6f6I&ab_channel=AndreasSpiess)</cite>
 
 You might wonder what does the sda and scl mean? Here is a very important topic - [serial communication](https://en.wikipedia.org/wiki/Serial_communication). In order to be as verstile as possible to commuicate with all kinds of peripherals like sensors and actuators, it has a varaitey of forms of communication - it could be analog (voltage or current) or digital (using a protocol like I2C or SPI or UART). Each protocol has its own requirements , limits and use cases. What MPU-6050 communicates is a [I2C(Inter-Integrated-Circuit)](https://en.wikipedia.org/wiki/I%C2%B2C) 2-Wire protocol. The two wires are serial data (SDA) and serial clock (SCL). The I2C device has some register addresses for system bus to look up. That's something got mentioned on its datasheet.
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/register_slave_addr.png)
-<cite>来自MPU6050的技术手册在4.32章节，MPU6050有很多地方需要查看技术手册</cite>
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/register_slave_addr.png" style="zoom:40%;display:flex;" />
+<cite>Chapter 4.32 in datasheet of mpu6050</cite>
 
 Here is the [code snippet](https://gist.github.com/tuo/f86c40beca754c779e3b62a7aca39eed.js) for getting gyropscope in degrees/secdons unit, acceleration in g unit and  termperature in degree/celcius. The main flow is setup resolutions like unit you like to measure in, then inside a loop, retrieves its data and convert with proper scale factor or formula based on the configurations.
 
 The mpu-6050 features a user-programmable gyro full-scale range of ±250, ±500, ±1000, and ±2000 °/sec (dps), and a user-programmable accelerometer full-scale range of ±2g, ±4g, ±8g, and ±16g, which could be found in its datasheet. You could get more advanced one like Yaw/Pitch/Roll from arduino forum or someone use it to control a drone. But the above one suffice in my case.
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/esplore_output.png)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/esplore_output.png" style="zoom:50%;display:flex;" />
 
 ## Actuator - SIM800C
 
@@ -146,7 +147,7 @@ In terms of the connectivity, we need take a look at the environment that we wil
 
 The frequence of network request is quite low - heartbeat rate could be like very 1 minute. No privacy or security concerns here. A HTTP get/post request would work. And the data it needs to send is very small. No video streaming, no need for low latency, so the 3G,4G,5G is kinda overqualified, the best one here is the vintage 2G cellular network.
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/tb_sim800_all.png)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/tb_sim800_all.png" style="zoom:60%;display:flex;" />
 
 <cite>2G is kinda dying out in China. If you'd like you could have NB-IOT as an alternative. SIM7020C is a perfect subsistute for SIM800C, with same dimension and same layout.</cite>
 
@@ -154,23 +155,23 @@ The frequence of network request is quite low - heartbeat rate could be like ver
 
 You could debug this module with AT commands(Here is the [SIM800 Series_AT Command Manual_V1.12](https://www.elecrow.com/wiki/images/2/20/SIM800_Series_AT_Command_Manual_V1.09.pdf)) via a USB-TTL converter to connect to your laptop. After connected, using a wire to shorten the PWX pin on the GND on the sim800c board so that the module could start.
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sim800_usbttl.jpeg)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sim800_usbttl.jpeg" style="zoom:50%;display:flex;" />
 
 <cite>Pay attenton the direction and the side of sim card when inserting into the slot</cite>
 
 Then we could try AT commands in [CoolTermMac](https://learn.sparkfun.com/tutorials/terminal-basics/coolterm-windows-mac-linux) on Mac, just choose serial port in *Serial Port Options*, choose Line Mode in *Terminal Mode* and switch from *View Hex* to *View ASCII*.
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sim800_coolterm.jpeg)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sim800_coolterm.jpeg" style="zoom:60%;display:flex;" />
 
 <cite>A couple of useful at commands to try out: *AT+CPIN?* check if sim card is ready; *AT+COPS?* to check which operator it is registered; *AT+CREG?* to request network registration status; *AT+CSQ* to show network signal quality; *ATDXxxxxx;* to call some phone number</cite>
 
 The most important debugging tool for SIM800c is the network LED on the top right side of the SIM800C indicating the status of the cellular network. It has different blinking rate. When powed up, the led will blink every 1 seconds to indicate that it is actively searching for cellular base station therefore not connected to cellular network yet. When it has made contact with the cellular network & can send/receive voice and SMS, all is good, it will blank every 3 seconds. 
 
-![](https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/Netlight-LED-Blinking-Finding-Network-Connection.gif)
+<img src="assets/20211201autofishingpart2/led_find.gif" style="zoom:80%;display:flex;" />
 
-![](https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/Netlight-LED-Blinking-Network-Connection-Established.gif)
+<img src="assets/20211201autofishingpart2/led_connected.gif" style="zoom:80%;display:flex;" />
 
-<cite>SIM800L is pretty much same to SIM800C.https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/</cite>
+<cite>SIM800L is pretty much same to SIM800C. source: https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/</cite>
 
 Connections and code snippet should be like below:
 
@@ -180,12 +181,9 @@ Connections and code snippet should be like below:
     VBAT (SIM800C) - VCC (MCU)
         
 
-TODO: here my code snippet, you could check out more on my github sourc repo.
-<!-- <script src="https://gist.github.com/tuo/67b6826971d63fd5fba7f81795083c2d.js"></script> -->
+Here is my [code snippet](https://gist.github.com/tuo/67b6826971d63fd5fba7f81795083c2d), you could check out more on my github sourc repo. We send a http GET with *txt* parameter to some url. The txt is the string literal of content from MPU-6050 sensor.From the Nginx log of backend server, we could see following log:
 
-Here we send a http GET with *txt* parameter to some url. The txt is the string literal of content from MPU-6050 sensor.From the Nginx log of backend server, we could see following log:
-
-![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/server_log_check.png)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/server_log_check.png" style="zoom:100%;display:flex;" />
 
 As you see, when I put the MPU-6050 on the inclined spring and lift the spring up, from the log, I could see a sudden jump for *ax*, which I could tell whether something happened or not.
 
@@ -198,7 +196,7 @@ For example, You could use 2 cells of 1.5v Alkaline non-rechargeable battery(1.5
 
 So it is always good to check its specs and datasheet.
 
-![sim800c_power](assets/20211201autofishingpart2/sim800c_power.png)
+<img src="assets/20211201autofishingpart2/sim800c_power.png" style="zoom:80%;display:flex;" />
 
 <cite> Page 17 in chapter *4.1 Power Supply* of sim800c [datasheet](https://www.elecrow.com/download/SIM800C_Hardware_Design_V1.02.pdf)</cite>
 
@@ -218,20 +216,19 @@ I have been using 3.7v Li-ion Battery solution for over two-three months with si
 
 That means we have two 18650 batteries: one for the Esp8266 and MPU-6050, one for the sim800c. Here is the final schematics:
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/wire_sketch.png)
-
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/wire_sketch.png" style="zoom:90%;display:flex;" />
 
 ## Case Design
 
 Here is the final wires of the device:
 
-![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/real_wire.jpg)
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/real_wire.jpg" style="zoom:50%;display:flex;" />
 
 As you could see, the wires are pretty messy. When I try to do a mini test, I found it was so hard to put all the wires/modules inside a case. Also there is a problem with putting the sensor(mpu-6050) on the spring coil of fishing set, and connect to the MCU inside the device case with non-flexible dupont lines. The mpu-6050 chip is not easy to bind onto the spring coil and get a steady and same position/angle everytime. What's even worse, 4 wire of dupont lines imposes a constraint on how we arrange the fishing set and bite alarm device.It is not like regular thread like sewing one which is soft and flexible and easy to twist and extend. Lastly, not only the device box(the case) need to be waterproof, but also the sensor MPU-6050 need to be waterproof. In software term, as what Uncle Bob Martin would say in one of his book [Agile Software Development, Principles, Patterns, and Practices](https://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445), those modules are not loosely coupled and highly cohesive - They expose too much its internal details that caller shouldn't just be bothered.
 
 If we just revisit why we choose the MPU-6050 as the sensor at the very beginning，given we have chosen the onshore strategy, it looks like it could be replaced with an easier one. The fish tugs the fishing line, how could we use that force to trigger something? If you put "sensor" on the Taobao or Ebay, you could find lots of sensors with differnt purposes. A [YL-99 collision switch senor](https://www.ebay.com/itm/172922682069)(2.4RMB - $0.4):
 
-![collision.jpg](assets/20211201autofishingpart2/collision.jpg)
+<img src="assets/20211201autofishingpart2/collision.jpg" style="zoom:60%;display:flex;" />
 <cite>(The yellow rubber is not needed)</cite>
 
 A collision switch could detect force on it and when force is strong enough to push it to be closed, it outputs a low voltage (0), otherwise a high voltage(1).
@@ -240,15 +237,15 @@ With this collsion switch as the sensor, we could pack the whole modules inside 
 
 Next is how to deal with the messy rampant wires to make it neat and tidy so that it could fit inside a case as small as possible. First, I bought different standard sizes of breadboard and try how to fit diffent modules inside it. Second, I measured the approximate dimension(11cm*15cm*3cm) that it would take and bought differnt sizes of PVC plastic cases. And none of the case would perfectly fit, so I have to cut it with scissors and drill a hole with soldering iron in the side of the box to put the trigger line through.
 
-![hole_case.jpg](assets/20211201autofishingpart2/hole_case.jpg)
+<img src="assets/20211201autofishingpart2/hole_case.jpg" style="zoom:40%;display:flex;" />
 
 The new schematics and breadboard wiring sketch:
 
-![wire_compact.jpg](assets/20211201autofishingpart2/wire_compact.jpg)
+<img src="assets/20211201autofishingpart2/wire_compact.jpg" style="zoom:60%;display:flex;" />
 
 Here is the finished case:
 
-![finishedcase](assets/20211201autofishingpart2/finishedcase.jpg)
+<img src="assets/20211201autofishingpart2/finishedcase.jpg" style="zoom:60%;display:flex;" />
 
 
 ## Demo Test
@@ -256,7 +253,7 @@ Here is the finished case:
 Then we need some test to see whether or not it would work and how long the battery life could last. Here is the demo video I record to test:
 
 
-<video  controls style="display:inline-flex;width:100%;">
+<video  controls style="display:flex;width:320px;">
   <source src="assets/20211201autofishingpart2/bite_demo_home.mp4" type="video/mp4">
 </video>
 
@@ -274,7 +271,7 @@ I made some adjustment in the init.lua. First when it starts, it send a txt sayi
 
 I also installed the [JuiceSSH](https://juicessh.com/)(a free SSH client for Android) on my phone so that I could check its long anytime anywhere. And the log would also give me a clue if the call is not made somehow.
 
-![juicesshlog.jpg](assets/20211201autofishingpart2/juicesshlog.jpg)
+<img src="assets/20211201autofishingpart2/juicesshlog.jpg" style="zoom:40%;display:flex;" />
 
 But with 20 milliseconds poll interval(I assume the force is applied in a very short amout of time) and heartbeat every 30 seconds, the 2500 mAh battery for powering up the MCU get quickly dye out, however not for the Sim800C. The polling frequency is just too high. But if we slow down the frequence and do a quick tug, the collision sensor won't even detect it. How could we do with that?
 
@@ -294,18 +291,18 @@ With the all work done, it is good time to put it in real test. I happened to ha
 
 I casted out, connected the fishing mainline to the staked tent pegs, then link mainline with device using a thread, and carefully disguised the device and tent pegs with rocks on the top of it. I looked at the ssh console, all good, so I just went back home around 3PM afternoon.
 
-![lake_setup.jpg](assets/20211201autofishingpart2/lake_setup.jpg)
+<img src="assets/20211201autofishingpart2/lake_setup.jpg" style="zoom:100%;display:flex;" />
 
 <cite>I'm pretty happy with the stealthness. You basically couldn't recognize it even if you pass it by. </cite>
 
 The monring of the second day, around 7:50Am, I got three calls in my phones.I was pretty excited and rushed to the bank imaging how big the fish could be.By the time I got to the bank, I was just jaw-dropping to see three or four ducks sitting right on the spot where I set up my device and trigger. I was like "oh shit, no way" :)
 
-![lake_duck.jpg](assets/20211201autofishingpart2/lake_duck.jpg)
+<img src="assets/20211201autofishingpart2/lake_duck.jpg" style="zoom:50%;display:flex;" />
 
 I went to check my lines and bite alarm device. It turned out the fishing line and the trigger thread got twisted in a totally chaos.
 
 
-![twist_duck.jpg](assets/20211201autofishingpart2/twist_duck.jpg)
+<img src="assets/20211201autofishingpart2/twist_duck.jpg" style="zoom:50%;display:flex;" />
 
 No wonder it got trigged! I did notice those ducks that afternoon when I set up.Then I changed with another pair of battery and moved the whole set to another venue that ducks couldn't reach easily.
 
@@ -323,7 +320,7 @@ Possible replace 2G with NB-IoT. No need real sim card, you could just use e-sim
 
 Only the battery part is kinda expensive (over 20RMB). Actually 2000 mAh for SIM800C and 2600 mAh for MCU is good enough.
 
-![all_gears.jpg.jpg](assets/20211201autofishingpart2/all_gears.jpg)
+<img src="assets/20211201autofishingpart2/all_gears.jpg" style="zoom:100%;display:flex;" />
 
 ### Source Code and Datasheets
 
