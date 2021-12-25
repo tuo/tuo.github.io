@@ -238,7 +238,7 @@ A collision switch could detect force on it and when force is strong enough to p
 
 With this collsion switch as the sensor, we could pack the whole modules inside a standlone case then use a sewing thread to connect the device to the fishing line. Now the connecting way is easy and flexiable, hence we could put the fishing sets and device anywhere separately I'd like to based on the environment.
 
-Next is how to deal with the messy rampant wires to make it neat and tidy so that it could fit inside a case as small as possible. First, I bought different standard sizes of breadboard and try how to fit diffent modules inside it. Second, I measured the approximate dimension(11cm*15cm*3cm) that it would take and bought differnt sizes of PVC plastic cases. And none of the case would perfectly fit, so I have to cut it with scissors and drill a hole with soldering iron in the side of the box to put the trigger line through.
+Next is how to deal with the messy rampant wires to make it neat and tidy so that it could fit inside a case as small as possible. First, I bought different standard sizes of breadboard and try how to fit diffent modules inside it. Second, I measured the approximate dimension(11cm X 15cm X 3cm) that it would take and bought differnt sizes of PVC plastic cases. And none of the case would perfectly fit, so I have to cut it with scissors and drill a hole with soldering iron in the side of the box to put the trigger line through.
 
 <img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/hole_case.jpg" style="zoom:40%;display:flex;" />
 
