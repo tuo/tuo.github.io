@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Auto Carp Fishing Part 2 - Make it Smart"
+title: "Auto Carp Fishing Part 2 - Make it Smart and Non-Attended"
 date: 2021-12-04 12:55:32 +0800
 published: false
 tags: fishing,carp,china,angling,carp fishing,rigs,hooks
@@ -8,7 +8,7 @@ tags: fishing,carp,china,angling,carp fishing,rigs,hooks
 
 Let's take a look at what's the common bite alarms with its smartness of "tell you when you've got a bite":
 
-<img src="assets/20211201autofishingpart2/bite_alarm.jpg" style="zoom:50%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/bite_alarm.jpg" style="zoom:50%;display:flex;" />
 
 <cite>Simplest one is the left bottom one - the bells. The bottom right one is the alarm reciever. The middle one is the bite alarm base. </cite>
 
@@ -82,7 +82,7 @@ After weighing trade-offs between onshore and offshore approaches, onshore one s
 
 ## Mechanism 
 
-<img src="assets/20211201autofishingpart2/jiegou.jpg" style="zoom:60%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/jiegou.jpg" style="zoom:60%;display:flex;" />
 
 * sensor input: data collecting, detect physical change of angle and acceleration and convert to digital/analog signal. 
 * mcu coodirnator: either poll the input senor or via interrupts to get data and check see if it meets the criteria. If yes, send commands to an actuator output to perform some physical actions.
@@ -98,7 +98,7 @@ A rule of thumb for IoT development is to always have its datasheet something li
 
 Consider central processor/unit as the brain which is consisted by a hardware and software. Based on this central unit there are microcontroller-based IoT boards like Arduino/ESP8266/STM32F and microprocessor-based boards like Raspberry Pi. But how much processing power it needs for our case? Not much. Surely Rasperry PI is a overkill. Between the Arduino Uno and NodeMCU ESP8266, the esp8266 is the no-brainer. Arduino Uno board, which was used to be dominant player in previsouly years, despite having a very mature and vibrant community, doesn't have Wi-Fi capability built-in, has a voltage of operation of 5V, a pyschizie size 69 mmx53 mm. Nowadays, [NodeMCU ESP8266](https://www.espressif.com/en/products/socs/esp8266) board, which comes from a Chinese company [Espressif](https://www.espressif.com/en/company/about-espressif), is the most popular one which comes with Wi-Fi built-in (extremely convient to get started and play with sth), a voltage of operation of 3.3V(less power and current consumption means power source could have more options hence cost is lower), a smaller size 58mmx31mm (easier to fit onto breadboard and have a smaller overall case size to be more stealthy). Look at its price on Taobao:
 
-<img src="assets/20211201autofishingpart2/mcu_price.jpg" style="zoom:80%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/mcu_price.jpg" style="zoom:80%;display:flex;" />
 
 <cite>NodeMCU ESP8266 vs Arudio Uno R3 </cite>
  
@@ -167,9 +167,12 @@ Then we could try AT commands in [CoolTermMac](https://learn.sparkfun.com/tutori
 
 The most important debugging tool for SIM800c is the network LED on the top right side of the SIM800C indicating the status of the cellular network. It has different blinking rate. When powed up, the led will blink every 1 seconds to indicate that it is actively searching for cellular base station therefore not connected to cellular network yet. When it has made contact with the cellular network & can send/receive voice and SMS, all is good, it will blank every 3 seconds. 
 
-<img src="assets/20211201autofishingpart2/led_find.gif" style="zoom:80%;display:flex;" />
+<div style="display:inline-flex">
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/led_find.gif" style="zoom:80%;display:inline-flex;width:40%;" />
 
-<img src="assets/20211201autofishingpart2/led_connected.gif" style="zoom:80%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/led_connected.gif" style="zoom:80%;display:inline-flex;margin-left:20%;width:40%;" />
+</div>
+
 
 <cite>SIM800L is pretty much same to SIM800C. source: https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/</cite>
 
@@ -196,7 +199,7 @@ For example, You could use 2 cells of 1.5v Alkaline non-rechargeable battery(1.5
 
 So it is always good to check its specs and datasheet.
 
-<img src="assets/20211201autofishingpart2/sim800c_power.png" style="zoom:80%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/sim800c_power.png" style="zoom:80%;display:flex;" />
 
 <cite> Page 17 in chapter *4.1 Power Supply* of sim800c [datasheet](https://www.elecrow.com/download/SIM800C_Hardware_Design_V1.02.pdf)</cite>
 
@@ -228,7 +231,7 @@ As you could see, the wires are pretty messy. When I try to do a mini test, I fo
 
 If we just revisit why we choose the MPU-6050 as the sensor at the very beginning，given we have chosen the onshore strategy, it looks like it could be replaced with an easier one. The fish tugs the fishing line, how could we use that force to trigger something? If you put "sensor" on the Taobao or Ebay, you could find lots of sensors with differnt purposes. A [YL-99 collision switch senor](https://www.ebay.com/itm/172922682069)(2.4RMB - $0.4):
 
-<img src="assets/20211201autofishingpart2/collision.jpg" style="zoom:60%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/collision.jpg" style="zoom:60%;display:flex;" />
 <cite>(The yellow rubber is not needed)</cite>
 
 A collision switch could detect force on it and when force is strong enough to push it to be closed, it outputs a low voltage (0), otherwise a high voltage(1).
@@ -237,15 +240,15 @@ With this collsion switch as the sensor, we could pack the whole modules inside 
 
 Next is how to deal with the messy rampant wires to make it neat and tidy so that it could fit inside a case as small as possible. First, I bought different standard sizes of breadboard and try how to fit diffent modules inside it. Second, I measured the approximate dimension(11cm*15cm*3cm) that it would take and bought differnt sizes of PVC plastic cases. And none of the case would perfectly fit, so I have to cut it with scissors and drill a hole with soldering iron in the side of the box to put the trigger line through.
 
-<img src="assets/20211201autofishingpart2/hole_case.jpg" style="zoom:40%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/hole_case.jpg" style="zoom:40%;display:flex;" />
 
 The new schematics and breadboard wiring sketch:
 
-<img src="assets/20211201autofishingpart2/wire_compact.jpg" style="zoom:60%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/wire_compact.jpg" style="zoom:60%;display:flex;" />
 
 Here is the finished case:
 
-<img src="assets/20211201autofishingpart2/finishedcase.jpg" style="zoom:60%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/finishedcase.jpg" style="zoom:60%;display:flex;" />
 
 
 ## Demo Test
@@ -254,7 +257,7 @@ Then we need some test to see whether or not it would work and how long the batt
 
 
 <video  controls style="display:flex;width:320px;">
-  <source src="assets/20211201autofishingpart2/bite_demo_home.mp4" type="video/mp4">
+  <source src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/bite_demo_home.mp4" type="video/mp4">
 </video>
 
 
@@ -263,7 +266,7 @@ Then we need some test to see whether or not it would work and how long the batt
 There is a saying in software enginering that when you try to demo to other people, it usally breaks. So I brought it to the office and did a presentation to my colleuages:
 
 <video  controls style="display:inline-flex;width:100%;">
-  <source src="assets/20211201autofishingpart2/bite_demo_office.mp4" type="video/mp4">
+  <source src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/bite_demo_office.mp4" type="video/mp4">
 </video>
 <cite></cite>
 
@@ -271,7 +274,7 @@ I made some adjustment in the init.lua. First when it starts, it send a txt sayi
 
 I also installed the [JuiceSSH](https://juicessh.com/)(a free SSH client for Android) on my phone so that I could check its long anytime anywhere. And the log would also give me a clue if the call is not made somehow.
 
-<img src="assets/20211201autofishingpart2/juicesshlog.jpg" style="zoom:40%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/juicesshlog.jpg" style="zoom:40%;display:flex;" />
 
 But with 20 milliseconds poll interval(I assume the force is applied in a very short amout of time) and heartbeat every 30 seconds, the 2500 mAh battery for powering up the MCU get quickly dye out, however not for the Sim800C. The polling frequency is just too high. But if we slow down the frequence and do a quick tug, the collision sensor won't even detect it. How could we do with that?
 
@@ -291,18 +294,18 @@ With the all work done, it is good time to put it in real test. I happened to ha
 
 I casted out, connected the fishing mainline to the staked tent pegs, then link mainline with device using a thread, and carefully disguised the device and tent pegs with rocks on the top of it. I looked at the ssh console, all good, so I just went back home around 3PM afternoon.
 
-<img src="assets/20211201autofishingpart2/lake_setup.jpg" style="zoom:100%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/lake_setup.jpg" style="zoom:100%;display:flex;" />
 
 <cite>I'm pretty happy with the stealthness. You basically couldn't recognize it even if you pass it by. </cite>
 
 The monring of the second day, around 7:50Am, I got three calls in my phones.I was pretty excited and rushed to the bank imaging how big the fish could be.By the time I got to the bank, I was just jaw-dropping to see three or four ducks sitting right on the spot where I set up my device and trigger. I was like "oh shit, no way" :)
 
-<img src="assets/20211201autofishingpart2/lake_duck.jpg" style="zoom:50%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/lake_duck.jpg" style="zoom:50%;display:flex;" />
 
 I went to check my lines and bite alarm device. It turned out the fishing line and the trigger thread got twisted in a totally chaos.
 
 
-<img src="assets/20211201autofishingpart2/twist_duck.jpg" style="zoom:50%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/twist_duck.jpg" style="zoom:50%;display:flex;" />
 
 No wonder it got trigged! I did notice those ducks that afternoon when I set up.Then I changed with another pair of battery and moved the whole set to another venue that ducks couldn't reach easily.
 
@@ -320,7 +323,7 @@ Possible replace 2G with NB-IoT. No need real sim card, you could just use e-sim
 
 Only the battery part is kinda expensive (over 20RMB). Actually 2000 mAh for SIM800C and 2600 mAh for MCU is good enough.
 
-<img src="assets/20211201autofishingpart2/all_gears.jpg" style="zoom:100%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/all_gears.jpg" style="zoom:100%;display:flex;" />
 
 ### Source Code and Datasheets
 
