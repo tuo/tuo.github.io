@@ -2,7 +2,7 @@
 layout: post
 title: "Auto Carp Fishing Part 2 - Make it Smart"
 date: 2021-12-04 12:55:32 +0800
-published: false
+published: true
 tags: fishing,carp,china,angling,carp fishing,rigs,hooks
 ---
 
@@ -97,7 +97,7 @@ A rule of thumb for IoT development is to always have its datasheet something li
 
 ## MCU - ESP8266
 
-Consider central processor/unit as the brain which is consisted by a hardware and software. Based on this central unit there are microcontroller-based IoT boards like Arduino/ESP8266/STM32F and microprocessor-based boards like Raspberry Pi. But how much processing power it needs for our case? Not much. Surely Rasperry PI is a overkill. Between the Arduino Uno and NodeMCU ESP8266, the esp8266 is the no-brainer. Arduino Uno board, which was used to be dominant player in previsouly years, despite having a very mature and huge community, doesn't have Wi-Fi capability built-in, has a voltage of operation of 5V, a pyschizie size 69 mmx53 mm. Nowadays, [NodeMCU ESP8266](https://www.espressif.com/en/products/socs/esp8266) board, which comes from a Chinese company [Espressif](https://www.espressif.com/en/company/about-espressif), is the most popular one which comes with Wi-Fi built-in (extremely convient to get started and play with sth), a voltage of operation of 3.3V(less power and current consumption means power source could have more options hence cost is lower), a smaller size 58mmx31mm (easier to fit onto breadboard and have a smaller overall case size to be more stealthy). Look at its price on Taobao:
+Consider central processor/unit as the brain which is consisted by a hardware and software. Based on this central unit there are microcontroller-based IoT boards like Arduino/ESP8266/STM32F and microprocessor-based boards like Raspberry Pi. But how much processing power it needs for our case? Not much. Surely Rasperry PI is a overkill. Between the Arduino Uno and NodeMCU ESP8266, the esp8266 is the no-brainer. Arduino Uno board, which was used to be dominant player in previsouly years, despite having a very mature and vibrant community, doesn't have Wi-Fi capability built-in, has a voltage of operation of 5V, a pyschizie size 69 mmx53 mm. Nowadays, [NodeMCU ESP8266](https://www.espressif.com/en/products/socs/esp8266) board, which comes from a Chinese company [Espressif](https://www.espressif.com/en/company/about-espressif), is the most popular one which comes with Wi-Fi built-in (extremely convient to get started and play with sth), a voltage of operation of 3.3V(less power and current consumption means power source could have more options hence cost is lower), a smaller size 58mmx31mm (easier to fit onto breadboard and have a smaller overall case size to be more stealthy). Look at its price on Taobao:
 
 价格图片 
 
@@ -151,6 +151,65 @@ In terms of the connectivity, we need take a look at the environment that we wil
 
 The frequence of network request is quite low - heartbeat rate could be like very 1 minute. No privacy or security concerns here. A HTTP get/post request would work. And the data it needs to send is very small. No video streaming, no need for low latency, so the 3G,4G,5G is kinda overqualified, the best one here is the vintage 2G cellular network.
 
+![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/tb_sim800_all.png)
+
+<cite>2G is kinda dying out in China. If you'd like you could have NB-IOT as an alternative. SIM7020C is a perfect subsistute for SIM800C, with same dimension and same layout.</cite>
+
+[SIM800C](https://www.simcom.com/product/SIM800C.html) is a quad-band GSM/GPRS module in a LCC type which supports GPRS up to 85.6kbps data transfer. SIM800C has one SIM card interface. It integrates TCP/IP protocol.SIM800 can be controlled/configured using simple AT commands. MCU can send AT commands over the [UART interface](https://nodemcu.readthedocs.io/en/release/modules/uart/) and control the SIM800. It can be used for sending/receiving messages, making calls, sending/receiving data over the internet, etc. 
+
+You could debug this module with AT commands(Here is the [SIM800 Series_AT Command Manual_V1.12](https://www.elecrow.com/wiki/images/2/20/SIM800_Series_AT_Command_Manual_V1.09.pdf)) via a USB-TTL converter to connect to your laptop. After connected, using a wire to shorten the PWX pin on the GND on the sim800c board so that the module could start.
+
+![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sim800_usbttl.jpeg)
+
+<cite>Pay attenton the direction and the side of sim card when inserting into the slot</cite>
+
+Then we could try AT commands in [CoolTermMac](https://learn.sparkfun.com/tutorials/terminal-basics/coolterm-windows-mac-linux) on Mac, just choose serial port in *Serial Port Options*, choose Line Mode in *Terminal Mode* and switch from *View Hex* to *View ASCII*.
+
+![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/sim800_coolterm.jpeg)
+
+<cite>A couple of useful at commands to try out: *AT+CPIN?* check if sim card is ready; *AT+COPS?* to check which operator it is registered; *AT+CREG?* to request network registration status; *AT+CSQ* to show network signal quality; *ATDXxxxxx;* to call some phone number</cite>
+
+The most important debugging tool for SIM800c is the network LED on the top right side of the SIM800C indicating the status of the cellular network. It has different blinking rate. When powed up, the led will blink every 1 seconds to indicate that it is actively searching for cellular base station therefore not connected to cellular network yet. When it has made contact with the cellular network & can send/receive voice and SMS, all is good, it will blank every 3 seconds. 
+
+![](https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/Netlight-LED-Blinking-Finding-Network-Connection.gif)
+
+![](https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/Netlight-LED-Blinking-Network-Connection-Established.gif)
+
+<cite>SIM800L is pretty much same to SIM800C.https://lastminuteengineers.com/sim800l-gsm-module-arduino-tutorial/</cite>
+
+Connections and code snippet should be like below:
+
+    TX (SIM800C)-RX (D3)
+    RX (SIM800C)-TX (D2)
+    GND (SIM800C) - GND (MCU)
+    VBAT (SIM800C) - VCC (MCU)
+        
+
+<script src="https://gist.github.com/tuo/67b6826971d63fd5fba7f81795083c2d.js"></script>
+
+Here we send a http GET with *txt* parameter to some url. The txt is the string literal of content from MPU-6050 sensor.From the Nginx log of backend server, we could see following log:
+
+![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/server_log_check.png)
+
+As you see, when I put the MPU-6050 on the inclined spring and lift the spring up, from the log, I could see a sudden jump for *ax*, which I could tell whether something happened or not.
+
+### SIM800C Instability
+
+There are lots of people in the forum or on the youtube complaining about the stability issue of SIM800. They ususally get some wierld problems like the module keeps shutting down or the network led light blinks in a chaotic way and it won't just function in a stable way. And I also had this problem too, as you see, from above,how I wire and connect the module with MCU.
+
+Power and current requirements and its consumption is often the most important part of IoT development. The NodeMCU - according its [datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf), page 7, its operating voltage requirement is from 2.5v to 3.6v and inbuilt LDO voltage regulator of 3.3v - and the sensor, is powered by the one single battery of 18650 3.7v. The power source is another interesting and important topic also for IoT development and lots of factors need put into consideration. 18650 is based Lithium-Ion and the most commonly used one and it is rechargable. You could use expensive one like Lipo based battery. Basically you need provide a voltage that is neither too high that over the module's upper limit nor too low like battery is keep discharging and its voltage falls under that desirable voltage of the module making the module keeps shutting down. 
+For example, You could use 2 cells of 1.5v Alkaline non-rechargeable battery(1.5v * 2 = 3v), but it is like in the low side of the specfication(2.5v-3.6v) and it would waste 50% of the energy of the battery; Or you could use 3 cells of AAA battery (1.5v * 3 = 4.5v), but 4.5v is way over the up limit of the specs (3.6v), therefore you need some LDO regulator to drop the voltage. So for non-rechargable battery, you kinda end up with some engery wasting or introducing some complexity. More on the battery supply options for ESP8266, there is a pretty good video from Andreas Spiess on [<#64 What is the Ideal Battery Technology to Power 3.3V Devices like the ESP8266?>](https://www.youtube.com/watch?v=heD1zw3bMhw&t=105s&ab_channel=AndreasSpiess).
+
+So it is always good to check its specs and datasheet.
+
+
+
+
+
+
+
+
+SIM800C could be debugged separately with a USB-TTL
 
 
 Connectivity is the key factor which makes the whole thing alive.
@@ -162,16 +221,6 @@ GSM/GPRS: for outdoors standalone devices
 
 IRMPVOEMNT: NB-IoT 
 NB-IoT: Narrow Band IoT is a cellular communication technology specially designed to power IoT communication, very low power
-
-Communication Protocols t: http : most easy to pick up, has lots of overhead, not synchronous, ideal for single requests, not continuous communication
-
-
-
-
-
-Andreas, Thank-you for all your excellent tutorial videos, I have learned a great deal. I have had many years of bench experience and like you  have used similar wire color coding schemes. The key point is to be consistent with the color code of all your projects.
- I have always used brown for low and blue for VCC,  (my rationale ) brown = earth or ground, Blue = sky or high (for the VCC voltage) .I'm not sure if this conflicts with European ac standard though?
-
 
 
 
@@ -394,3 +443,8 @@ https://www.youtube.com/watch?v=mc979OhitAg&ab_channel=TheEngineeringMindset
 
 
 [《MPU-6050 6dof IMU tutorial for auto-leveling quadcopters with Arduino - Part 1》](https://www.youtube.com/watch?v=4BoIE8YQwM8&t=636s&ab_channel=JoopBrokking) 和[《MPU-6050 6dof IMU tutorial for auto-leveling quadcopters with Arduino - Part 2》](https://www.youtube.com/watch?v=j-kE0AMEWy4&ab_channel=JoopBrokking)
+
+https://www.waveshare.com/wiki/SIM800C_GSM/GPRS_HAT
+
+
+[<#64 What is the Ideal Battery Technology to Power 3.3V Devices like the ESP8266?>](https://www.youtube.com/watch?v=heD1zw3bMhw&t=105s&ab_channel=AndreasSpiess)
