@@ -2,7 +2,7 @@
 layout: post
 title: "Auto Carp Fishing Part 2 - Make it Smart"
 date: 2021-12-04 12:55:32 +0800
-published: false
+published: true
 tags: fishing,carp,china,angling,carp fishing,rigs,hooks
 ---
 
@@ -202,11 +202,27 @@ For example, You could use 2 cells of 1.5v Alkaline non-rechargeable battery(1.5
 
 So it is always good to check its specs and datasheet.
 
+图片
 
+<cite> Page 17 in chapter *4.1 Power Supply* of sim800c [datasheet](https://www.elecrow.com/download/SIM800C_Hardware_Design_V1.02.pdf)</cite>
 
+In most of time, the current consumption is not that much. But during the transmission burst, the current draw could reach to 2A. If the power supply couldn't source 2A of surge current, its voltage will drop out and if it falls under 3V, the module will be shut down automically.
 
+In the datasheet, it suggests two approaches to work around this.(See, the datasheet not only just lists the specs but also provides solutions :))
 
+* ##### 5v LDO (low dropout regulator)
 
+Use 5v power source like power bank etc, then use 2A-rated DC-DC [Buck Converter](https://en.wikipedia.org/wiki/Buck_converter) like [LM2596](https://www.onsemi.com/pdf/datasheet/lm2596-d.pdf)(a 3.0A Step-down switching regulator, 2.33RMB ~ 0.3$), connect it to VBAT pin on Sim800C.
+
+* ##### 3.7v Li-ion Battery (Recommended)
+
+Li-ion battery like 18650 3.7v is perfect for the SIM800 module. 2000mAh(could be even smaller), the most commonly seen one, is good enough to provide the correct voltage range even during 2 Amp surge.
+
+I have been using 3.7v Li-ion Battery solution for over two-three months with sim800c and it just works perfectly.
+
+That means we have two 18650 batteries: one for the Esp8266 and MPU-6050, one for the sim800c. Here is the final schematics:
+
+![](http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/wire_sketch.png)
 
 
 SIM800C could be debugged separately with a USB-TTL
