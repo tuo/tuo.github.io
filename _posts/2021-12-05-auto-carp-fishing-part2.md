@@ -2,7 +2,7 @@
 layout: post
 title: "Auto Carp Fishing Part 2 - Make it Smart"
 date: 2021-12-04 12:55:32 +0800
-published: false
+published: true
 tags: fishing,carp,china,angling,carp fishing,rigs,hooks
 ---
 
@@ -309,7 +309,7 @@ There are some possible improvements we could do. Add extra 20 meters lines betw
 
 The polling style could be changed to using interrupts. Together with the sleep mode of Esp8266, you could make the battery lasts very long time. But the downside is you won't get the heartbeat http request.
 
-Possible replace 2G with NB-IoT. No need real sim card, you could just use e-simcard. So you won't be too worried when your device is stolean by someone else therefore they got your sim card and inserted to their phone and do some bad things. The downside is it can't make voice call (could be resolved by calling Twilio api to make calls from them) and the module SIM7020C is more expensive.
+Possible replace 2G with NB-IoT. No need real sim card, you could just use e-simcard. So you won't be too worried when your device is stolean by someone else therefore they got your sim card and inserted to their phone and do some bad things. The downside is it can't make voice call (could be resolved by calling Twilio api to make calls from them) and the module SIM7020C is a little bit more expensive.
 
 
 
