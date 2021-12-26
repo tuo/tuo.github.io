@@ -423,10 +423,10 @@ Others articles and books on carp fishing:
 * [THROWBACK! Winter Carp Fishing Day Sessions with Adam Penning - Part 1](https://www.youtube.com/watch?v=VLiArMvlfpg&ab_channel=CARPologyTVCarpFishing)
 * [An American Carp Fishing Experience (Wild Carp Fishing)](https://www.youtube.com/watch?v=URxWuKeeYQA&ab_channel=OutsidewithTom)
 * [How Adam Penning Approaches Autumn Carp Fishing](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing)
-[Catfish and Carp: Carp Fishing USA - Carp Fishing in the US vs Europe - Fishing VLOG and channel updates.](https://www.youtube.com/watch?v=WBbqedLXq1M&ab_channel=CatfishandCarp)
 * [Eldorado Poem by Edgar Allan Poe - animation / analysis](https://www.youtube.com/watch?v=c0XhZw3ShvM&list=FLZcZrQxJBMfI-xP2vwCaEoQ&index=8&ab_channel=Shaun)
 * [Ultimate Guide to Carp Fishing Rigs](https://anglingbuddies.com/carp-fishing-rigs/ultimate-guide-to-carp-fishing-rigs/)
 * [Spod and Spomb Tutorial with tips and techniques for carp fishing](https://www.youtube.com/watch?v=VBB_SIhIlv8&ab_channel=BrianWingard)
 * [CARPologyTV: Nash Gives Power To The People! - Once you’ve tried a £900 = 7000RMB Nash Power Barrow you’ll want one!](https://www.carpology.net/article/reviews/nash-gives-power-to-the-people/) 
+* [Catfish and Carp: Carp Fishing USA - Carp Fishing in the US vs Europe - Fishing VLOG and channel updates.](https://www.youtube.com/watch?v=WBbqedLXq1M&ab_channel=CatfishandCarp)
 
 
