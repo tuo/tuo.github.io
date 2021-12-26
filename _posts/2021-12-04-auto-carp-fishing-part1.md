@@ -410,6 +410,9 @@ Some good ones and recommended:
 
 Others articles and books on carp fishing:
 
+* [Catfish and Carp: Carp Fishing USA - Carp Fishing in the US vs Europe - Fishing VLOG and channel updates.](https://www.youtube.com/watch?v=WBbqedLXq1M&ab_channel=CatfishandCarp)
+
+
 * [How do carp smell?](https://www.carpology.net/article/features/how-do-carp-smell-/)
 * [A carp sense's smell](https://www.carpology.net/article/features/the-truth-about-a-carps-sense-of-smell/)
 * [10 BEST CARP RIGS & SETUPS (2021 WITH DIAGRAMS)](https://carphideout.co.uk/carp-rigs/)
@@ -427,6 +430,6 @@ Others articles and books on carp fishing:
 * [Ultimate Guide to Carp Fishing Rigs](https://anglingbuddies.com/carp-fishing-rigs/ultimate-guide-to-carp-fishing-rigs/)
 * [Spod and Spomb Tutorial with tips and techniques for carp fishing](https://www.youtube.com/watch?v=VBB_SIhIlv8&ab_channel=BrianWingard)
 * [CARPologyTV: Nash Gives Power To The People! - Once you’ve tried a £900 = 7000RMB Nash Power Barrow you’ll want one!](https://www.carpology.net/article/reviews/nash-gives-power-to-the-people/) 
-* [Catfish and Carp: Carp Fishing USA - Carp Fishing in the US vs Europe - Fishing VLOG and channel updates.](https://www.youtube.com/watch?v=WBbqedLXq1M&ab_channel=CatfishandCarp)
+
 
 
