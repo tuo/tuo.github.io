@@ -402,9 +402,9 @@ I went to check my lines and bite alarm device. It turned out the fishing line a
 
 <img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/twist_duck.jpg" style="zoom:50%;display:flex;" />
 
-No wonder it got trigged! I did notice those ducks that afternoon when I set up. Then I changed with another pair of batteries and moved the whole set to another venue that ducks couldn't reach easily.
+No wonder it got trigged! I did not notice those ducks that afternoon when I set up. Then I changed with another pair of batteries and moved the whole set to another venue that ducks couldn't reach easily.
 
-That later two days it turned to be blank. I wasn't disappointed since I knew this was a brand venue, had only one set of rod&reel&line&rig, and esp in winter, it was pretty tricky to get a bite. Instead, the process of trial-and-error has so much fun and I definitely will keep trying it out if later I have another holiday. Keep tuned!
+That later two days it turned to be blank. I wasn't disappointed since I knew this was a brand new venue, had only one set of rod&reel&line&rig, and esp in winter, it was pretty tricky to get a bite. Instead, the process of trial-and-error has so much fun and I definitely will keep trying it out if later I have another holiday. Keep tuned!
 
 ## Improvements
 
