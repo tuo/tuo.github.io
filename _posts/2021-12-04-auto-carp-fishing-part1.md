@@ -103,14 +103,16 @@ No silver bullet for software engineering, no magic chart pattern of technical a
 
 To turn other people's experience and theory(outward) to yours(inward), you need to do it by yourself, in your experience. How? through trial and error and learn from it, remember no books or videos, and nothing could substitute for your personal experience. Don't get me wrong, those guidances serve greatly as a starting point or sth to fall back on when you just have no clue, but never it should be taken as doctrine or sth forever true. Fishing is a dynamic process and just about being personal. If you want consistency in longer time over randomness, then you cant count on the beginner's luck or find some magic shortcut. You should do your homework - for example like what Joel Greenblat said in [<<The Little Book That Beats the Market>>](https://www.amazon.com/Little-Book-Still-Beats-Market/dp/0470624159) -  and put in effects and times will build it up. Once we know the probability - nature of randomness, get yourself right in one go by buying expensive stuff from or imitating those - in Max Weber's term, [Charismatic authority](https://en.wikipedia.org/wiki/Charismatic_authority) alike - masters displayed in the videos of commercial tackle companies simply not gonna work. You want to do trial and error many times in a budget and affordable way to figure out your fishing style and strategy that fits your specific case.
 
+> “Truth is not to be found in a book. Independent inquiry is needed in your search for truth, not dependence on anyone else’s view or a mere book. Furthermore, such a book merely presents another barrier to progress in your search for truth.” -- Bruce Lee
+
 It sounds like software development/lean startup/investment and other things, the idea is the same: keep agile, fail fast, embracing changes. 
 
 > :
 > 
-> Do your homework(Fundamentals) + Luck
+> * Do your homework(Fundamentals) + Luck
 > 
-> Dedicated + Open-minded
-
+> * Dedicated + Open-minded
+ 
 The dynamic and probabilistic nature of the fishing process means you need to prepare yourself up with a good mindset. Sometimes, you not doing your homework but still great luck, turning out to be a good catch. At some other times, you did your homework hardly but no luck turning out to be fruitless a blank. That blank is very common for fishing big-size fish in natural wild water, like [gaussian distribution](https://en.wikipedia.org/wiki/Normal_distribution) for studying human behavior in sociology, just think about how many extremely tall guys you have met. To illustrate that, I put a  [Galton Board]() to get an idea of the normal distribution emerging from a random drop of ball-bearings.
 
 <img src="http://d2h13boa5ecwll.cloudfront.net/20210201eco/galton.gif" style="zoom:100%;display:flex;" />
@@ -263,7 +265,7 @@ The way we speak our native lanuage is so deeply ingrained into our mind and we 
 <cite>Take it as some reference. Do your experiment and try it out, just don't fall into this automatic and non-examined thinking pattern</cite>
 
 
-Another question is:  `sola dosis facit venenum` - how much is the appropriate one to be defined as a natural flavor and scent level for the fish? It should have some range, isn't it?
+Another question is: *sola dosis facit venenum* - how much is the appropriate one to be defined as a natural flavor and scent level for the fish? It should have some range, isn't it?
 Is it always "the more the better"? To how much it could just backfire and get a reverse effect? It is important to know what kind of molecules have either effect. Let alone some flavors or scents or chemicals which work well and stimulate for fish in a separate form, but when got mixed could be a deterrent that has a negative effect on the fish.
 
 Some [Wu Wei/Taoism](https://en.wikipedia.org/wiki/Wu_wei) wisdom and a saying from Jesse Livemore - *Money is made by sitting, not trading*,  if you don't know the mechanism and its chemical of all those additives, then don't add it. You don't need to react to that urge to take any excrescent action do sth extra to give your more pseudo aka "Out of Thin Air" confidence or just make you feel better. Maybe It is a good chance ot cultivate some awareness to learn more about yourself.
@@ -377,6 +379,10 @@ Apart from adding more hooks to increase the odds, adding more rods could also g
 # Wrap-up
 
 In this article, we have covered the angling strategy that we're gonna use for the carp fishing, tailed to the unique fishing scenario and non-attended fishing style. Those are the building blocks for the next chapter, which we're gonna elaborate on the device - how to set up the trigger, read whether got a bite from fish, and call my cellphone to notify.
+
+> “The truth and the Way exhibit in the simple everyday movements. Because of this, many miss it (if there is any secret, it is missed by seeking). If there is any secret, one must have lost it by striving for it. The truth is here but men want to decorate the simple truth – the snake with feet.”
+
+"Be Water, My Friend" - keep learning!
 
 # My Gears' Price
 

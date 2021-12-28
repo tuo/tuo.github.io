@@ -184,7 +184,47 @@ Connections and code snippets should be like below:
     VBAT (SIM800C) - VCC (MCU)
         
 
-Here is my [code snippet](https://gist.github.com/tuo/67b6826971d63fd5fba7f81795083c2d), you could check out more on my github source repo. We send an http GET with *txt* parameter to some url. The txt is the string literal of content from MPU-6050 sensor. From the Nginx log of the backend server, we could see the following log:
+Here is my [code snippet](https://gist.github.com/tuo/67b6826971d63fd5fba7f81795083c2d), you could check out more on my github source repo.
+
+```lua
+---- Create new software UART with baudrate of 9600, D2 as Tx pin and D3 as Rx pin
+function writeCMD(s, cmd)
+    print("\n"..tostring(tmr.now())..": send cmd", cmd);    
+    s:write(cmd.."\n");   
+end
+
+function sim_setup()
+    if not s then 
+        print("\n"..tostring(tmr.now())..": initilized su\n");
+        s = softuart.setup(9600, 2, 3)
+        s:on("data", "\n", function(data)
+          local txt = string.gsub(data, "[\r\n]", "")
+          print("\n"..tostring(tmr.now())..": receive from uart:", txt)            
+        end)
+    else
+      print("\n"..tostring(tmr.now())..": existed su\n");  
+    end
+end
+
+function sim_send(txt)
+    writeCMD(s, 'AT+SAPBR=3,1,"Contype","GPRS"')
+    writeCMD(s, 'AT+SAPBR=3,1,"APN","CMNET"')
+    writeCMD(s, 'AT+SAPBR=1,1')
+    writeCMD(s, 'AT+SAPBR=2,1')
+    writeCMD(s, 'AT+HTTPINIT')
+    writeCMD(s, 'AT+HTTPPARA="CID",1')
+    local url = "http://xxxx.com/api/heartbeat?time="..tostring(tmr.now().."&txt="..txt)
+    writeCMD(s, 'AT+HTTPPARA="URL","'..url..'"')
+    writeCMD(s, 'AT+HTTPACTION=0')
+    s:write(0x1a);  
+end
+
+function sim_call()   
+    writeCMD(s, 'ATD186xxxx5235;')    
+end
+```
+
+We send an http GET with *txt* parameter to some url. The txt is the string literal of content from MPU-6050 sensor. From the Nginx log of the backend server, we could see the following log:
 
 <img src="http://d2h13boa5ecwll.cloudfront.net/20211003fishingpart3/server_log_check.png" style="zoom:100%;display:flex;" />
 
@@ -272,9 +312,64 @@ There is a saying in software engineering that when you try to demo to other peo
 
 I made some adjustments in the init.lua. First, when it starts, it sends a txt saying *init* to the backend, then sends every 10 seconds for the first 5 minutes, so I could know whether it is properly set up and running ok. Then it sends a heartbeat request with a collision detection result every 30 seconds. The collision poll is every 20 milliseconds, if once the collision is detected, it will call me in an interval of 0, 2, 4 minutes - three times.
 
+```lua
+-- init.lua
+dofile("sim800c_wrapped.lua")
+dofile("collison_wrapped.lua")
+pin=4 --D4 some visual clue
+gpio.mode(pin,gpio.OUTPUT)
+gpio.write(pin, gpio.LOW)
+tmr.delay(3 * 1000 * 1000) --delay 3 seconds
+sim_setup()
+gpio.write(pin, gpio.HIGH)
+data = collison_read_if_collided()
+sim_send("init colided:"..tostring(data))
+tmr.delay(1000 * 1000) -- 1 seconds
+print("all done, kick off loop");
+gpio.write(pin, gpio.LOW)
+counter = 0, called = false, shouldCall = false, callCount = 0
+
+sim_timer = tmr.create(), poll_timer = tmr.create()
+sim_timer:register(10 *1000, tmr.ALARM_AUTO, function()            
+    if called == true and shouldCall == false then
+        print("should call phone now, after 2.5 min and 5 min");        
+        if callCount == 0 or callCount == 5 or callCount == 15 then 
+            sim_call()
+        else
+            sim_hangoff()            
+            sim_send(counter..',collided='..tostring(true))    
+        end
+        if callCount == 15 then
+            shouldCall = true            
+        end 
+        callCount = callCount+1 
+        gpio.write(pin, gpio.LOW)
+    else
+        sim_send(counter..',collided='..tostring(data)) 
+        gpio.write(pin, gpio.HIGH)   
+    end 
+    gpio.write(pin, gpio.HIGH)
+    counter = counter+1
+    if counter == 30 then        
+        sim_timer:interval(30 * 1000); 
+    end
+end)
+sim_timer:start()
+
+-- 1000 millseconds 
+poll_timer:register(1000, tmr.ALARM_AUTO, function()    
+    data = collison_read_if_collided()    
+    if data and called == false then
+        called = true  
+        callCount = 0                   
+    end 
+end)
+poll_timer:start()
+```
+
 I also installed the [JuiceSSH](https://juicessh.com/)(a free SSH client for Android) on my phone so that I could check its long anytime anywhere. And the log would also give me a clue if the call is not made somehow.
 
-<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/juicesshlog.jpg" style="zoom:40%;display:flex;" />
+<img src="http://d2h13boa5ecwll.cloudfront.net/20211201autofishingpart2/juicesshlog.jpg" style="zoom:50%;display:flex;" />
 
 But with 20 milliseconds poll interval(I assume the force is applied in a very short amount of time) and heartbeat every 30 seconds, the 2500 mAh battery for powering up the MCU gets quickly dyed out, however not for the Sim800C. The polling frequency is just too high. But if we slow down the frequency and do a quick tug, the collision sensor won't even detect it. How could we do with that?
 
