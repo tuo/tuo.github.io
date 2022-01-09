@@ -436,6 +436,7 @@ Others articles and books on carp fishing:
 * [Ultimate Guide to Carp Fishing Rigs](https://anglingbuddies.com/carp-fishing-rigs/ultimate-guide-to-carp-fishing-rigs/)
 * [Spod and Spomb Tutorial with tips and techniques for carp fishing](https://www.youtube.com/watch?v=VBB_SIhIlv8&ab_channel=BrianWingard)
 * [CARPologyTV: Nash Gives Power To The People! - Once you’ve tried a £900 = 7000RMB Nash Power Barrow you’ll want one!](https://www.carpology.net/article/reviews/nash-gives-power-to-the-people/) 
+* [Cognitive aspects of food searching behavior in free-ranging wild Common Carp](https://www.researchgate.net/publication/225449274_Cognitive_aspects_of_food_searching_behavior_in_free-ranging_wild_Common_Carp)
 
 
 
