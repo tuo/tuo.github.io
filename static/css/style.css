@@ -2457,7 +2457,7 @@ blockquote p:last-of-type {
 
 
 
-.mermaid svg[id^="mermaid-"] {
+#mermaid-npm svg[id^="mermaid-"] {
   height: 1000px !important;
   display: block !important;
 }
