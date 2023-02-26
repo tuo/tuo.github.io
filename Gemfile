@@ -6,4 +6,3 @@ gem 'jekyll'
 gem 'github-pages'
 # gem 'github-pages', :git => "https://github.com/github/pages-gem.git"
 gem "webrick", "~> 1.7"
-gem 'jekyll-mermaid'
