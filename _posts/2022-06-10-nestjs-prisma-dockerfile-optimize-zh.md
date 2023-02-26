@@ -2,7 +2,7 @@
 layout: post
 title: "NestJS+Prisma Dockerfile构建优化"
 date: 2022-06-10 12:55:32 +0800
-published: true
+published: false
 tags: nestjs,prisma,docker,dockerfile
 ---
 最近接触一个项目是用[NestJS7.0](https://nestjs.com/)和[Prisma3.1.1](https://www.prisma.io/)作为技术栈来开发的后端，用这两个原因很明显：原生支持Typescript，前后端都可以用上JS的技术栈，后端相对来说更符合上云这个轻量化要求。NestJS这边的大概有三个模块: backend, frontend和frontend-emp, 大体还是根据面向的前端不同做的粗糙的划分， libs里面有一些公共的组件库，比如prisma关联一些迁移脚本和数据库表的定义。
