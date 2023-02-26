@@ -424,7 +424,7 @@ RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn ins
 {% mermaid %}
 
 flowchart TD
-    a0[["npm install"]]
+    a0[["yarn install"]]
     a1{"has internet connection?\n是否联网？"}
     a2{"matched in local cache?\n本地缓存是否命中?"}
     a3{"remote check if got expired?\n远程访问校验是否过期?"}
