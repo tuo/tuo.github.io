@@ -423,7 +423,7 @@ RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn ins
 
 时间从114.3s降到了61.7s，效果还可以 :)
 <div id="mermaid-npm">
-{% mermaid %}
+<div class="mermaid">
 
 flowchart TD
     a0[["yarn install"]]
@@ -439,7 +439,7 @@ flowchart TD
     a2-->|NO|a20
     a3-->|NO|a30
     
-{% endmermaid %}
+</div>
 </div>
 
 <br/>
@@ -456,14 +456,14 @@ flowchart TD
 2.  dist目录的生成nest build需要dev-dep环节之后（nest-cli是dev依赖），确切的说第一步之后，因为源代码有引用PrismaClient，跟随源代码发生改变
 3.  node_modules最终是第一步生成node_moduels/.prisma/client 加上 prod-dep环节下的node_modules
 
-{% mermaid %}
+<div class="mermaid">
 flowchart TD    
     A[base] -->|yarn install| B{Dev Dep}
     B --> |prisma generate|H(node_modues/.prisma/client)
     H --> |nest build|I(dist)
     I --> |yarn install --production| J{Prod Dep}    
     J -->|node_modules prod| D[Final output] 
-{% endmermaid %}
+</div>
 
 简单的梳理了分为四个阶段，而且是线性的，每个阶段的产物可以被下一个阶段使用。
 
@@ -544,13 +544,13 @@ CMD ["start:prod_frontend"]
 
 最后合起来。
 
-{% mermaid %}
+<div class="mermaid">
 flowchart TD
     A[base] --> B{yarn install\nprisma generate\nnest build}
     A[base] --> C{yarn install --production}    
     B --> |node_module/.prisma/client, dist|D{npm run start}    
     C --> |node_module|D[npm run start]
-{% endmermaid %}
+</div>
 
 Dockerfile是这样的:
 
