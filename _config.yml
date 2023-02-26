@@ -7,3 +7,6 @@ kramdown:
   input: GFM
   math_engine: mathjax
   syntax_highlighter: rouge
+gems: [jekyll-mermaid]
+mermaid:
+  src: './static/js/mermaid.min.js'
