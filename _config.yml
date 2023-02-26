@@ -9,4 +9,4 @@ kramdown:
   syntax_highlighter: rouge
 gems: [jekyll-mermaid]
 mermaid:
-  src: './static/js/mermaid.min.js'
+  src: './static/js/mermaid9.min.js'

@@ -2,7 +2,7 @@
 layout: post
 title: "NestJS+Prisma Dockerfile构建优化"
 date: 2022-06-10 12:55:32 +0800
-published: false
+published: true
 tags: nestjs,prisma,docker,dockerfile
 ---
 最近接触一个项目是用[NestJS7.0](https://nestjs.com/)和[Prisma3.1.1](https://www.prisma.io/)作为技术栈来开发的后端，用这两个原因很明显：原生支持Typescript，前后端都可以用上JS的技术栈，后端相对来说更符合上云这个轻量化要求。NestJS这边的大概有三个模块: backend, frontend和frontend-emp, 大体还是根据面向的前端不同做的粗糙的划分， libs里面有一些公共的组件库，比如prisma关联一些迁移脚本和数据库表的定义。
@@ -422,14 +422,28 @@ RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn ins
 ```
 
 时间从114.3s降到了61.7s，效果还可以 :)
+<div id="mermaid-npm">
+{% mermaid %}
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020042513384724.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RhaWhhb3hpbg==,size_16,color_FFFFFF,t_70)
+flowchart TD
+    a0[["npm install"]]
+    a1{"has internet connection?\n是否联网？"}
+    a2{"matched in local cache?\n本地缓存是否命中?"}
+    a3{"remote check if got expired?\n远程访问校验是否过期?"}
+    a4{"fetch and update cache then unzip to node_modules\n拉取更新本地缓存并解压到node_modules"}    
+    a10["use cache\n使用本地缓存"]
+    a20["fetch and update cache\n远程拉取并跟新本地缓存"]
+    a30["use cache\n使用本地缓存"]
+    a0 --> a1-->|YES|a2-->|YES|a3-->|YES|a4
+    a1-->|NO|a10
+    a2-->|NO|a20
+    a3-->|NO|a30
+    
+{% endmermaid %}
+</div>
 
-
-
-来源CSDN： 
-
-如果CI/CD构建是完全离线的，你甚至可以使用[Running Yarn offline | Yarn Blog (yarnpkg.com)](https://classic.yarnpkg.com/blog/2016/11/24/offline-mirror/)中那样，配置yarn-offline-mirror目录（这个跟yarn cache是不一样的）和yarn-offline-mirror-pruning将依赖包本地生成并提交到代码仓库了，这样在构建时候，可以直接从yarn-offline-mirror目录读取缓存的离线安装包直接安装。
+<br/>
+如果CI/CD构建是完全离线的，你甚至可以使用官方[Running Yarn offline](https://classic.yarnpkg.com/blog/2016/11/24/offline-mirror/)中那样，配置yarn-offline-mirror目录（这个跟yarn cache是不一样的）和yarn-offline-mirror-pruning将依赖包本地生成并提交到代码仓库了，这样在构建时候，可以直接从yarn-offline-mirror目录读取缓存的离线安装包直接安装。
 
 
 <br/>
