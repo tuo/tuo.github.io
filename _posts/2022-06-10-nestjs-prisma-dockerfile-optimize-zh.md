@@ -544,8 +544,8 @@ CMD ["start:prod_frontend"]
 
 {% mermaid %}
 flowchart TD
-    A[node_modules] --> B{yarn install\nprisma generate\nnest build}
-    A[node_modules] --> C{yarn install --production}    
+    A[base] --> B{yarn install\nprisma generate\nnest build}
+    A[base] --> C{yarn install --production}    
     B --> |node_module/.prisma/client, dist|D{npm run start}    
     C --> |node_module|D[npm run start]
 {% endmermaid %}
