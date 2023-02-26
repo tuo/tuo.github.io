@@ -77,7 +77,8 @@ const prisma = new PrismaClient()
 await this.prisma.user.findMany({...})
 ```
 
-![Screenshot 2023-02-25 at 16.15.26](/Users/tuo/Library/Application Support/typora-user-images/Screenshot 2023-02-25 at 16.15.26.png)
+![prismaGenerate](/Users/tuo/Desktop/blogDOcker/prismaGenerate.png)
+<cite> Prisma Concept [Generating the client](https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/generating-prisma-client)</cite>
 
 ## Prisma上Dockerfile 
 
@@ -106,8 +107,7 @@ CMD ["node", "dist/apps/frontend/main.js"]
 ​    当运行*docker build -t frontend-api  -f ./Dockerfile.frontend .*来构建这个镜像时候，会在*RUN yarn prisma generate*报如下错误：
 
  
-
-![Screenshot 2023-02-25 at 14.45.43](/Users/tuo/Desktop/Screenshot 2023-02-25 at 14.45.43.png)
+![prismaGenerateErr.png](/Users/tuo/Desktop/blogDOcker/prismaGenerateErr.png)
 
 ```terminal
 #9 3.978 Prisma schema loaded from libs/db/prisma/schema.prisma  
@@ -155,17 +155,17 @@ RUN apk add openssl1.1-compat #安装openssl 1.1
 
 查看官方文档说明[Generating the client (Concepts) (prisma.io)](https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/generating-prisma-client)，当运行*prisma generate*时候，prisma会在*node_modules/.prisma/client*下面生成PrismaClient的ts类型定义、JS代码和查询引擎二进制文件。下图是在本机MAC上的截图：
 
-![Screenshot 2023-02-25 at 16.18.36](/Users/tuo/Library/Application Support/typora-user-images/Screenshot 2023-02-25 at 16.18.36.png)
+![prismaBinaryTarget.png](/Users/tuo/Desktop/blogDOcker/prismaBinaryTarget.png)
 
 在调用*this.prisma.user.findMany*时，Prisma Client客户端将findMany发送给查询引擎（NodeJS-API Library)，查询引擎将其翻译为SQL语句，然后发送给数据库；当数据库返回结果时，查询引擎将其翻译映射为JS对象，并发送回给Prisma Client客户端。
 
-![Diagram showing the query engine and Node.js at runtime](https://www.prisma.io/docs/static/f7f69d7ae3a122fcbb8dea030d70807b/663f3/query-engine-node-js-at-runtime.png)
+![prismaQueryEngine](/Users/tuo/Desktop/blogDOcker/prismaQueryEngine.png)
+<cite> Prisma Concept [Generating the client](https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/generating-prisma-client)</cite>
 
-https://www.prisma.io/docs/static/f7f69d7ae3a122fcbb8dea030d70807b/4c573/query-engine-node-js-at-runtime.png
 
 为了保证更高的效率，这个查询引擎针对每个不同的操作系统都做了相应的优化，都有相对应的编译出来的二进制文件。它命名的格式一般是 query-engine-PLATFORM或者libquery_engine-PLATFORM，这个PLATFORM指代不同的平台。比如我的电脑是macOS Intel， 操作系统是达尔文Darwin，那么对应的查询引擎的名字是libquery_engine-darwin.dylib.node，如果上图所示。在上面的Dockerfile里，操作系统是Alpine3.15，那么其对应的名称应该是什么了？ 在[Prisma schema API (Reference)](https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference#binarytargets-options)，可以找到是，名字应该是*libquery_engine-linux-musl.so.node*:
 
-![Screenshot 2023-02-25 at 16.32.42](/Users/tuo/Library/Application Support/typora-user-images/Screenshot 2023-02-25 at 16.32.42.png)
+![prismaEngineAlpine.png](/Users/tuo/Desktop/blogDOcker/prismaEngineAlpine.png)
 
 名称是*linux-musl*, 对应的要求依赖的openssl版本是1.1.x，所以上面才需要在From node-16:alpine指定之后安装openssl 1.1版本。但是在Prisma4.8.0之后，大概是2022十二月发布的版本，都不需要另外安装OpenSSL了，因为它给Linux Alpine做了优化改进支持了OpenSSL 3.0: [Support OpenSSL 3.0 for Alpine Linu](https://github.com/prisma/prisma/issues/16553#top).
 
@@ -183,7 +183,7 @@ CMD ["start:prod_frontend"]
 #    "start:prod_frontend": "yarn prisma migrate deploy && node dist/apps/frontend/main",
 ```
 
-![Screenshot 2023-02-25 at 17.05.38](/Users/tuo/Desktop/Screenshot 2023-02-25 at 17.05.38.png)
+![prismaMigrate.png](/Users/tuo/Desktop/blogDOcker/prismaMigrate.png)
 
 
 
@@ -585,11 +585,11 @@ CMD ["start:prod_frontend"]
 
 可以看到除了基础镜像外，已经将node_modules优化到了218MB， .prisma/client到了81.7MB.
 
-![Screenshot 2023-02-25 at 23.26.32](/Users/tuo/Desktop/Screenshot 2023-02-25 at 23.26.32.png)
+![dockerHistory.png](/Users/tuo/Desktop/blogDOcker/dockerHistory.png)
 
 这是我们优化的历史：
 
-![Screenshot 2023-02-25 at 23.19.42](/Users/tuo/Desktop/Screenshot 2023-02-25 at 23.19.42.png)
+![dockerSizeDown.png](/Users/tuo/Desktop/blogDOcker/dockerSizeDown.png)
 
 
 
@@ -659,7 +659,7 @@ drwxr-sr-x    2 root     node          4096 Feb 25 15:18 download
 
 node用户对于node_modules/@prisma/engines只有读权限，自然无法写入。这个时候别急着*chmod -R g=rwx ./node_modules/@prisma/engines*，最好的办法是利用dev entrypoint+bin/bash直接登录上去在容器里模拟现实场景运行*yarn prisma migrate deploy*，可以发现是同样的错误。
 
-![Screenshot 2023-02-26 at 12.31.10](/Users/tuo/Library/Application Support/typora-user-images/Screenshot 2023-02-26 at 12.31.10.png)
+![prismaEngineMissing.png](/Users/tuo/Desktop/blogDOcker/prismaEngineMissing.png)
 
 但是问题来了，为什么需要往*node_modules/@prisma/engines*目录下面去写入了，而不是去生成的目录*node_modules/.prisma/client*写入？跟本地一对比可以看到在node_modules/@prisma/engines下面缺失了libquery_engine-linux-musl.so.node这个查询引擎二进制文件。虽然官方文档没仔细写，大概可以推测因为二进制文件是比较大，生成费时费力，而prisma generate或者prisma migrate deploy会跑的次数比较多，所以临时生成的文件夹（带有js，ts和binary target)，需要不断的生成，但是二进制文件基本上系统级别的依赖，不用每次跟着ts/js生成，所以放一份放到了@prisma/engines下面，这样假设.prisma目录删除重新生成时候，只需要从@prisma那里复制下二进制文件即可。所以当prisma检测到@prisma/engines没有二进制文件，就会主动去下载对应的查询引擎二进制文件，导致需要node_modules/@prisma/engines目录下写入。
 
