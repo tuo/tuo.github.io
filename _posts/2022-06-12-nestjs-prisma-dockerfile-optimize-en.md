@@ -2,7 +2,7 @@
 layout: post
 title: "NestJS+Prisma Dockerfile build optimization"
 date: 2022-06-12 12:55:32 +0800
-published: false
+published: true
 tags: nestjs,prisma,docker,dockerfile
 ---
 
@@ -540,14 +540,24 @@ If you want to go completely offline, you could use the methods in the blog [Run
 
 ### 5. Use multi-stage builds
 
-Multi-stage builds allow you to drastically reduce the size of your final image, without struggling to reduce the number of intermediate layers and files.
 
-实际目前打包出来的镜像还是很大，yarn install这块还是占了很多空间。这个时候需要跳出来想想最终输出的产物是什么。Nest build时候会生成dist目录，但是不像其他的语言GoLang等，安装依赖+源代码，编译之后产生一个exe等二进制文件直接丢出去运行即可， 这里还需要node_modules目录，包含第三方的依赖。所以出来的是两个目录，一个是dist，一个node_modules。这里将yarn install 需要安装devDepencies和depencies成为`dev-dep环节`，只需要安装产品发布的depencies传给成为`prod-dep环节`, 那么就有如下关系：
+Let's recall the steps we breakdown in previous step:
 
-1.  node_moduels/.prisma/client的生成来自prisma generate - 需要dev-dep环节之后, 跟随libs/db/prisma/schema.prisma发生改变
-2.  dist目录的生成nest build需要dev-dep环节之后（nest-cli是dev依赖），确切的说第一步之后，因为源代码有引用PrismaClient，跟随源代码发生改变
-3.  node_modules最终是第一步生成node_moduels/.prisma/client 加上 prod-dep环节下的node_modules
+> 1. prepare the operating system, base image - one time only
+2. install system level libraries - most of time, one time only 
+3. install project dependecies -  sometimes, you might add/remove/update your packages
+4. modify your source code in codebase - daily, most often
+5. build 
+6. run - trivail
 
+If we put all those together, we need remember the input and output. THe output could have some unexpected byproduct that probably involves some custom cleanup shell scripts. Just think about the final image, the running part, if it is golang, it only just need a binary executeable to run - it is that simple. Here in NestJS project, it requires more files - three parts: dist folder, node_modules folder and package.json file. Ideally you just need those three layers for each one - as to how it got gnereated, mind your busniess. Like Object oreiente programmming, coudl wejust encapsutlate the implemtation details and have a clear interace like high-level abstraction to express how we  breakdown the above process? Any concret implmeation details like intermidated byproduct is not my concern and hsouldn't be!
+
+> [Multi-stage builds](https://docs.docker.com/build/building/multi-stage/) allow you to drastically reduce the size of your final image, without struggling to reduce the number of intermediate layers and files.
+
+Multi-stage builds is what we want here. Now we have a naive sequence of stages:
+
+    devDependecies(yarn install) ->  .prisma/client(prisma gnerate) ->  dist (nest-build) -> prodDependecies(yarn install --production)
+    
 <div class="mermaid">
 flowchart TD    
     A[base] -->|yarn install| B{Dev Dep}
@@ -557,7 +567,6 @@ flowchart TD
     J -->|node_modules prod| D[Final output] 
 </div>
 
-简单的梳理了分为四个阶段，而且是线性的，每个阶段的产物可以被下一个阶段使用。
 
 ```docker
 FROM node:16-alpine as dev-dep
@@ -580,88 +589,6 @@ COPY --from=prisma-binary /home/node/node_modules/ ./node_modules/
 COPY . . 
 RUN yarn run build-frontend   
 
-FROM node:16-alpine  
-ENV NODE_ENV production
-WORKDIR /home/node 
-COPY  --from=prisma-binary /home/node/node_modules/.prisma ./node_modules/.prisma
-COPY  --from=nest-build /home/node/dist ./dist
-COPY package.json yarn.lock .yarnrc .
-RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --prefer-offline --production
-EXPOSE 7021         
-ENTRYPOINT [ "npm" ,"run"]    
-CMD ["start:prod_frontend"]   
-```
-
-这里利用了[Multi-stage](https://docs.docker.com/build/building/multi-stage/)根据不同的目的来划分为不同的阶段，好处在于当你操作COPY/RUN等命令时不用担心需要清楚中间产物，可能需要一些shell脚本来清除中间产物，保证镜像层不打包无用的文件。一般来说都有完整依赖的开发环境和裁剪瘦身过后的生产环境两个阶段，这里极端的用了四个阶段。得到的最终文件输出去：
-
-> frontend-api   latest    271517ddc574   42 seconds ago      656MB
-
-镜像大小不降反升！
-
-其实是可以优化下阶段组成的，一个原因是都是线性的，另外一个在不同阶段中间进行copy也是比较费时的。于是回到之前的Dockerfile，改成两个阶段：
-
-```docker
-# 1.初始基础镜像
-FROM node:16-alpine as dev-dep
-USER root           
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache openssl1.1-compat=1.1.1t-r0
-
-WORKDIR /home/node   
-COPY package.json yarn.lock .yarnrc ./
-RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --prefer-offline
-
-COPY libs/db/prisma/schema.prisma ./libs/db/prisma/schema.prisma
-RUN yarn prisma:generate 
-COPY . . 
-RUN yarn run build-frontend   
-
-FROM node:16-alpine  
-ENV NODE_ENV production
-WORKDIR /home/node 
-COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma
-COPY  --from=dev-dep /home/node/dist ./dist
-COPY  --from=dev-dep package.json yarn.lock .yarnrc ./
-RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --production --ignore-scripts --prefer-offline
-          
-# 6. 运行
-EXPOSE 7021         
-ENTRYPOINT [ "npm" ,"run"]    
-CMD ["start:prod_frontend"]   
-```
-
-镜像包大小从656MB下降到了567MB。这里有一个问题，当改了源代码之后，yarn install --production就会重新跑一遍，这个是多余的。而且有一个问题就是yarn install --production并不会删除devDependencies的那些依赖，也并没有像npm一样有npm prune来裁剪那个dev依赖，只能是借助于一些自定脚本或者别的方式，[*npm prune* equivalent behavior · Issue #696 · yarnpkg/yarn (github.com)](https://github.com/yarnpkg/yarn/issues/696) 整体而言都不简单。  但是我们可以借助于multistage来绕过这个问题。所以整理下，新的应该是这样的：
-
-* Dev-dep - yarn install , prisma generate, nest build
-* prod-dep
-
-最后合起来。
-
-<div class="mermaid">
-flowchart TD
-    A[base] --> B{yarn install\nprisma generate\nnest build}
-    A[base] --> C{yarn install --production}    
-    B --> |node_module/.prisma/client, dist|D{npm run start}    
-    C --> |node_module|D[npm run start]
-</div>
-
-Dockerfile是这样的:
-
-```docker
-FROM node:16-alpine as dev-dep
-USER root           
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache openssl1.1-compat=1.1.1t-r0
-
-WORKDIR /home/node   
-COPY package.json yarn.lock .yarnrc ./
-RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --prefer-offline
-
-COPY libs/db/prisma/schema.prisma ./libs/db/prisma/schema.prisma
-RUN yarn prisma:generate 
-COPY apps/frontend ./apps/frontend 
-COPY libs ./libs
-COPY nest-cli.json tsconfig.json libs .
-RUN yarn run build-frontend   
-
 FROM node:16-alpine as prod-dep
 WORKDIR /home/node   
 COPY package.json yarn.lock .yarnrc ./
@@ -673,27 +600,29 @@ WORKDIR /home/node
 COPY  --from=prod-dep home/node/node_modules/ ./node_modules
 COPY  --from=dev-dep /home/node/dist ./dist
 COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma
-# need migrations
-COPY libs/db/prisma/ ./libs/db/prisma/ 
-COPY package.json yarn.lock .yarnrc ./
+
+COPY libs/db/prisma/ ./libs/db/prisma/  # need prisma migrations
+COPY package.json yarn.lock .yarnrc ./  # yarn prisma:migrate
 
 EXPOSE 7021         
 ENTRYPOINT [ "npm" ,"run"]    
-CMD ["start:prod_frontend"]   
+CMD ["start:prod_frontend"]  
 ```
 
-运行一下得到的大小是419MB。
+The final stage is one where its layer will get to the final docker image. *COPY  --from=prisma-binary* to explictly copy output of from stage to current stage and the fromStage is ephermeral - all those intermidate will not bring to referring stage. That way it would create minimal layers in the final docker image hence reduce the docker image size.
+
+You may wondering why we need have separate stage for *prod-dep* to yarn install production dependencies again, why not just copy the all dependeices from *dev-dep*, then run *npm prune* to prune out any development dependecies. The reason is that [*npm prune* equivalent behavior · Issue #696 · yarnpkg/yarn (github.com)](https://github.com/yarnpkg/yarn/issues/696) there isn't any good way to do that in yarn :( 
+
+The docker image's size has drop to 420MB. node_modules folder is 218MB and .prisma/client is 81.7MB
 
 ```terminal
 7 minutes ago   COPY /home/node/node_modules/.prisma ./node_…   81.7MB    buildkit.dockerfile.v0
 7 minutes ago   COPY home/node/node_modules/ ./node_modules …   218MB     buildkit.dockerfile.v0
 ```
 
-可以看到除了基础镜像外，已经将node_modules优化到了218MB， .prisma/client到了81.7MB.
-
 ![dockerHistory.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/dockerHistory.png)
 
-这是我们优化的历史：
+History of size changes of docker image:
 
 ![dockerSizeDown.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/dockerSizeDown.png)
 
