@@ -142,9 +142,9 @@ ENV NODE_VERSION 16.13.1
 ...  
 ```
 
-Previously we know we want a 16 version of NodeJS that running on Liunx Apline, but we don't know exactly what specfic that versions are for NodeJS and Alpine. Here throught the Dockerfile, we have got the answers: NodeJS 16.13.1 and Alpine 3.15. The following part of that Dockerfile is just installing basic development dependencies, Node and yarn. There isn't any instructions to install OpenSSL library. We have pinpointed the problem.
+Previously, we knew that we wanted version 16 of NodeJS running on Linux Apline, but we didn't know the exact versions of NodeJS and Alpine. By examining the Dockerfile, we can see that it uses NodeJS version 16.13.1 and Alpine version 3.15. The next part of the Dockerfile installs basic development dependencies: Node and Yarn. However, there are no instructions to install the OpenSSL library, which is the root cause of the problem.
 
-The solution to this is easy, just install OpenSSL 1.1 version before the instruction *prisma generate*. Just use the APK intaller to install that:
+The solution to this issue is straightforward: install OpenSSL version 1.1 before the *prisma generate* instruction by using APK installer.
 
 ```docker
 FROM node:16-alpine 
@@ -160,17 +160,17 @@ Rrerun the docker build, now it works!
 
 ### Prisma Generate - How it works
 
-Even though the problem seems got solved, there remains one mistery to me: Prisma possibly need OpenSSL to support SSL connection with database, then what does *node_modules/prisma/libquery_engine-linux-musl.so.node* (some shared object with Node?) this file to do with *prisma generate* and what does it do ?
+Even though the problem seems to be solved, there remains a mistery to me: does Prisma need OpenSSL to support SSL connections with the database, and what is the role of *node_modules/prisma/libquery_engine-linux-musl.so.node* in *prisma generate*?
 
-It turns out that the prisma documentation has a section dedicated on this: [Generating the client (Concepts) (prisma.io)](https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/generating-prisma-client). Basically you run `*prisma generate*, prisma client(yarn add @prisma/client) will generate a *PrismaClient* with three components:
+It turns out that the Prisma documentation has a section dedicated to this: [Generating the client (Concepts) (prisma.io)](https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/generating-prisma-client). When you run `*prisma generate*, prisma client package ("yarn add @prisma/client") will generate a *PrismaClient* with three components:
 
-  * typescript definitions(index.d.ts)
-  * Javascripts code(index.js) 
-  * a query engine(libquery_engine-xxx.xx.node) under path *node_modules/.prisma/client*.
+  * Typescript definitions(index.d.ts) 
+  * Javascripts code(index.js) - implementaion of the Prisma Client API.
+  * Query engine(libquery_engine-xxx.xx.node) under path *node_modules/.prisma/client*.
 
 ![prismaBinaryTarget.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaBinaryTarget.png)
 
-Recall that you need first `yarn add @prisma/client` package. That @prisma/client consists of two key parts:
+Recall that you first need install the *"yarn add @prisma/client"* package. That @prisma/client consists of two key parts:
 
     * The @prisma/client module itself, which only changes when you re-install the package:  *node_modules/@prisma/client*
     * The .prisma/client folder, temporary, which is the default location for the unique Prisma Client generated from your schema: *node_modules/.prisma/client*
@@ -182,14 +182,14 @@ const prisma = new PrismaClient()
 await this.prisma.user.findMany({...})
 ```
 
-When in the source code, we include the PrismaClient and call *this.prisma.user.findMany*, the prisma client will send this command to query engine. Then the query engine will translate to the sql queries and send it forward to the database; Once database has the query result, it will send back to query engine, which translates those raw data to plain javascript objects and sends to the prisam client.
+When we include the PrismaClient in the source code and call *this.prisma.user.findMany*, the prisma client sends this command to the query engine. Then the query engine translates it to SQL queries and sends them forward to the database. Once the database has the query result, it sends it back to the query engine, which translates those raw data to plain JavaScript objects and sends them to the prisam client.
 
 ![prismaQueryEngine](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaQueryEngine.png)
 <cite> Prisma Concept [Generating the client](https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/generating-prisma-client)</cite>
 
 > Prisma Client uses a query engine to run queries against the database. This query engine is downloaded when prisma generate is invoked and stored in the output path together with the generated Client.
 
-The query engine is compiled and built on different platform to get a better performance. 
+The query engine is compiled and built on a different platform to achieve better performance. 
 
 > It is named query-engine-PLATFORM or libquery_engine-PLATFORM where PLATFORM corresponds to the name of a compile target. Query engine file extensions depend on the platform as well. As an example, if the query engine must run on a Darwin operating system such as macOS Intel, it is called libquery_engine-darwin.dylib.node or query-engine-darwin
 
