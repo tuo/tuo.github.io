@@ -2,7 +2,7 @@
 layout: post
 title: "NestJS+Prisma Dockerfile build optimization"
 date: 2022-06-12 12:55:32 +0800
-published: true
+published: false
 tags: nestjs,prisma,docker,dockerfile
 ---
 
