@@ -2,7 +2,7 @@
 layout: post
 title: "NestJS+Prisma Dockerfile build optimization"
 date: 2022-06-12 12:55:32 +0800
-published: false
+published: true
 tags: nestjs,prisma,docker,dockerfile
 ---
 
@@ -69,7 +69,7 @@ model User {
 }
 ```
 
-The connection string is got from the environment variable DATABASE_URL that got passed in. Every time your modify the schema.prisma, you need to run *prisma migrate dev* to let prisma client to check with existing database schema and generate migration sqls. After that, run *prisma generate* to generate a typescript-based prisma client for source code to use.
+The connection string is obtained from the environment variable DATABASE_URL that was passed in. Every time your modify the schema.prisma, you need to run *prisma migrate dev* to let prisma client to check existing database schema and generate migration SQLs. After that, run *prisma generate* to generate a Typescript-based prisma client for your source code to use.
 
 ```ts
 import { PrismaClient } from '@prisma/client'
@@ -83,10 +83,7 @@ await this.prisma.user.findMany({...})
 
 ## Add Prisma to Dockerfile
 
-Now we need write the Dockerfile to generate docker images, push to the dockerhub and deploy that into the kubernets cluster. The process is done on the CI/CD platform(Jenkins)to make it fully automated. The build block is the Dockerfile. Here is the starting snippets:
-
-接下来需要将该应用打包为Docker镜像，部署到Kuberntes的集群里。一开始的Dockerfie是这样的：
-
+Now we need to write the Dockerfile to generate Docker images, push them to Dockerhub, and deploy them into the Kubernets cluster. The process is done on the CI/CD platform(Jenkins) to make it fully automated. The cornerstone is the Dockerfile, and here is the initial code snippet:
 
 ```docker
 FROM node:16-alpine 
@@ -104,12 +101,12 @@ EXPOSE 7021
 CMD ["node", "dist/apps/frontend/main.js"]
 ```
 
-No fancy stuff. The first instruction is choose right base image to start with: NodeJS v16 based on lightweight Linux Apline distribution. [Dockerhub docker-node](https://hub.docker.com/_/node) shows all the versions and distributions, and it is always helpful to click those links to jump to its Dockerfine definition on the github to get an idea of how its instructions are written. The followiing instructions are just: copying the source code, yarn install to install dependencies, prisma generate to generate @prisma/client, nest build to build artifacts (dist folder here). Last not the least, the command to run this whole nodejs app: *node dist/apps/frontend/main.js*.
+No fancy stuff here. The first instruction is choose right base image to start with: NodeJS v16 based on the lightweight Linux Apline distribution. [Dockerhub docker-node](https://hub.docker.com/_/node) shows all the available versions and distributions, and it's always helpful to click on those links to jump to their Dockerfine definitions on Github to get an idea of how their instructions are written. The following instructions are simple: copy the source code, run "yarn install" to install dependencies, run "prisma generate" to generate "@prisma/client", run "nest build" to build the artifacts (which will be in the "dist" folder),  and last but not least, run the command to start the whole NodeJS app: *node dist/apps/frontend/main.js*.
  
 
 ### Prisma Generate
 
-​   when you run command *docker build -t frontend-api  -f ./Dockerfile.frontend .* to build image, you would notice an error got thrown at the line -  *RUN yarn prisma generate* : 
+​   When you run the command *docker build -t frontend-api  -f ./Dockerfile.frontend .* to build the image, you may notice an error being thrown at the line -  *RUN yarn prisma generate* : 
 
 ![prismaGenerateErr.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaGenerateErr.png)
 
@@ -118,12 +115,14 @@ No fancy stuff. The first instruction is choose right base image to start with: 
 #9 4.849 Error: Unable to require(*/home/node/node_modules/prisma/libquery_engine-linux-musl.so.node*)
 #9 4.849  Error loading shared library libssl.so.1.1: No such file or directory (needed by /home/node/node_modules/prisma/libquery_engine-linux-musl.so.node)
 ```
-From the stacktrace, it looks like there are two points worthing noting:
+From the stack trace, it looks like there are two points worth noting:
     
-    *  couldn't load this shared lib: `libssl.so.1.1` 
-    *  this lib is referenced by `node_modules/prisma/libquery_engine-linux-musl.so.node`
+    *  The shared library `libssl.so.1.1` could not be loaded.
+    *  This liblibrary is referenced by `node_modules/prisma/libquery_engine-linux-musl.so.node`
 
-The libssl.so.1.1, from its name, we could guess it is related to SSL, particulary on the linux, OpenSSL. It is dynamically linked at run time by libquery_engine-linux-musl.so.node. A quick search, some github issues on OpenSSL github repo [Openssl can't find libssl.so.1.1 and libcrypto.so.1.1 · Issue #19497 · openssl/openssl (github.com)](https://github.com/openssl/openssl/issues/19497) and Prisma github repo [Support OpenSSL 3.0 for Alpine Linux · Issue #16553 · prisma/prisma (github.com)](https://github.com/prisma/prisma/issues/16553) , we are sure it is likely that the operating system we run doesn't include OpenSSL dependency or we got the openssl but its verision doesn't satify. To double check, we could check the base image of our dockerfile - node:16-alpine - [docker-node/16/alpine3.15/Dockerfile](https://github.com/nodejs/docker-node/blob/3760675a3f78207605d579f366facbb0d9f26de5/16/alpine3.15/Dockerfile):
+The "libssl.so.1.1" library is probably related to SSL from its name, particularly on Linux, and it's dynamically linked at runtime by "libquery_engine-linux-musl.so.node". After a quick search, we found some Github issues on the OpenSSL repository [Openssl can't find libssl.so.1.1 and libcrypto.so.1.1 · Issue #19497 · openssl/openssl (github.com)](https://github.com/openssl/openssl/issues/19497) and the Prisma repository [Support OpenSSL 3.0 for Alpine Linux · Issue #16553 · prisma/prisma (github.com)](https://github.com/prisma/prisma/issues/16553) that suggest the operating system we're running on may not include the OpenSSL dependency or we may have OpenSSL, but its version doesn't satisfy the requirements.
+
+To double-check, we can examine the base image of our Dockerfile, which is "node:16-alpine" - [docker-node/16/alpine3.15/Dockerfile](https://github.com/nodejs/docker-node/blob/3760675a3f78207605d579f366facbb0d9f26de5/16/alpine3.15/Dockerfile):
 
 
 ```docker
