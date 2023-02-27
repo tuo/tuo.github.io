@@ -630,10 +630,11 @@ History of size changes of docker image:
 
 
 
-### 6. Dockerfile用户权限
+### 6. Dockerfile user and permission
 
-默认来说Docker容器是以root用户的运行的， 这个root用户跟宿主机上的root用户是一样的，UID为0。这样一来就意味着如果攻击破解了容器，就可以直接操作宿主机，安全风险很大。既然默认用户是root，那么本着Docker指令能少就少的原则，第一个阶段里的指令`USER root`就可以删掉了。[官方]([Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/))建议如果运行非必需ROOT权限，尽量保持权限最小，切换为非root的用户。添加用户群组的时候，显示的指定UID/GID，就像[node-16:apline]([docker-node/Dockerfile at cd7015f45666d2cd6e81f507ee362ca7ada1bfee · nodejs/docker-node (github.com)](https://github.com/nodejs/docker-node/blob/cd7015f45666d2cd6e81f507ee362ca7ada1bfee/18/alpine3.17/Dockerfile))的dockerfile中创建node用户一样：
+By default, Docker containers run as root. That root user is the same root user of the host machine, with UID 0. This could be leveraged by hackers to do malicious attack on host machine. Given the default user is root, we could delete this instructions: *USER root*. [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) suggest use non-root user for services that doens't need privilege. When creating user and group, consider an explicit UID/GID. We could take some inpsirations from the base image (node-16:apline) we used here: [docker-node/Dockerfile at cd7015f45666d2cd6e81f507ee362ca7ada1bfee · nodejs/docker-node (github.com)](https://github.com/nodejs/docker-node/blob/cd7015f45666d2cd6e81f507ee362ca7ada1bfee/18/alpine3.17/Dockerfile)
 
+ 
 > FROM alpine:3.17
 >
 > ENV NODE_VERSION 18.14.2
@@ -641,13 +642,11 @@ History of size changes of docker image:
 > RUN addgroup -g 1000 node \
 >  && adduser -u 1000 -G node -s /bin/sh -D node 
 
-这个时候/home/node目录的权限就是node用户下面。如果你需要切换不同权限的用户，不建议使用sudo，因为其机制问题：一个是会启动2个进程（父子），第二个是信号传递和TTY的问题, 可以考虑使用[tianon/gosu: Simple Go-based setuid+setgid+setgroups+exec (github.com)](https://github.com/tianon/gosu).
-
-要设置运行容器的时候，可以在Entrypoint和cmd之前，设置需要的用户，当然这个用户必须是声明的过的。
+The permission of /home/node directory is under node user. In order to set the running user for container, you could put instructions before entrypoint and cmd:
 
 ```docker
 EXPOSE 7021    
-USER node     
+USER node  # switch user from default root to node (created in base image)
 ENTRYPOINT [ "npm" ,"run"]    
 CMD ["start:prod_frontend"]  
 ```
@@ -825,6 +824,7 @@ CMD ["start:prod_frontend"]
   * [为什么你应该在docker 中使用gosu？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/151915585)
   * [npm install中的缓存和资源拉取机制_照物华的博客-CSDN博客](https://blog.csdn.net/daihaoxin/article/details/105749014)
   * [Permissions error - after declaring USER and WORKDIR · Issue #740 · nodejs/docker-node (github.com)](https://github.com/nodejs/docker-node/issues/740)
+  * [User privileges in Docker containers](https://medium.com/jobteaser-dev-team/docker-user-best-practices-a8d2ca5205f4)
 
    
 
