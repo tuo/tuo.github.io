@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "NestJS+Prisma Dockerfile构建优化"
-date: 2022-06-10 12:55:32 +0800
-published: true
+title: "NestJS+Prisma Dockerfile build optimization"
+date: 2022-06-12 12:55:32 +0800
+published: false
 tags: nestjs,prisma,docker,dockerfile
 ---
 
+Recently, a NodeJS project has been developed by using web framework [NestJS 7.0](https://nestjs.com/) and ORM [Prisma 3.1.1](https://www.prisma.io/) for the backend. The reason to choose those two tech as stack at that time seems quite oblivious: both support Typescript natively and allow for isomorphic development with React in the frontend. The backend has been divided into three modules roughly based on the platform to which its API is served: backend, frontend and frontend-emp. Apart from that, there are some shared libs, e.g. prisma schema defition , migration scripts and uitls. The structure of the codecase looks like following:
 
 最近接触一个项目是用[NestJS7.0](https://nestjs.com/)和[Prisma3.1.1](https://www.prisma.io/)作为技术栈来开发的后端，用这两个原因很明显：原生支持Typescript，前后端都可以用上JS的技术栈，后端相对来说更符合上云这个轻量化要求。NestJS这边的大概有三个模块: backend, frontend和frontend-emp, 大体还是根据面向的前端不同做的粗糙的划分， libs里面有一些公共的组件库，比如prisma关联一些迁移脚本和数据库表的定义。
+
 
 ```terminal
 ├── Dockerfile.backend
@@ -49,7 +51,7 @@ tags: nestjs,prisma,docker,dockerfile
 
 ```
 
-Prisma中关于表的定义是在libs/db/prisma/schema.prisma里，DSL大概写出来是这样的：
+The database schema definitions are in the libs/db/prisma/schema.prisma, and the migrations are located under libs/db/prisma/migrations. A quick look a the DSL schema syntax:
 
 ```js
 generator client {
@@ -63,14 +65,16 @@ datasource db {
 }
 
 model User {
-    id        Int       @id @default(autoincrement())
-    uid       String?   @default(uuid()) @db.Uuid // 用户UID 用来reset password
-    name      String // 名字
+    id        Int       @id @default(autoincrement()) //
+    uid       String?   @default(uuid()) @db.Uuid // uid to reset password
+    name      String // name
     ...
 }
 ```
 
-数据库的连接串是从环境变量DATABASE_URL拿到. 每次修改schema.prisma，都需要运行prisma migrate dev生成迁移脚本，同时运行prisma generate可以生成基于TS的客户端@prisma/client来直接使用。
+The connection string is got from the environment variable DATABASE_URL that got passed in. Every time your modify the schema.prisma, you need to run *prisma migrate dev* to let prisma client to check with existing database schema and generate migration sqls. After that, run *prisma generate* to generate a typescript-based prisma client for source code to use.
+
+ 数据库的连接串是从环境变量DATABASE_URL拿到. 每次修改schema.prisma，都需要运行prisma migrate dev生成迁移脚本，同时运行prisma generate可以生成基于TS的客户端@prisma/client来直接使用。
 
 ```ts
 import { PrismaClient } from '@prisma/client'
@@ -82,9 +86,12 @@ await this.prisma.user.findMany({...})
 ![prismaGenerate](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaGenerate.png)
 <cite> Prisma Concept [Generating the client](https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/generating-prisma-client)</cite>
 
-## Prisma上Dockerfile 
+## Add Prisma to Dockerfile
+
+Now we need write the Dockerfile to generate docker images, push to the dockerhub and deploy that into the kubernets cluster. The process is done on the CI/CD platform(Jenkins)to make it fully automated. The build block is the Dockerfile. Here is the starting snippets:
 
 接下来需要将该应用打包为Docker镜像，部署到Kuberntes的集群里。一开始的Dockerfie是这样的：
+
 
 ```docker
 FROM node:16-alpine 
@@ -102,11 +109,16 @@ EXPOSE 7021
 CMD ["node", "dist/apps/frontend/main.js"]
 ```
 
+No fancy stuff. The first instruction is choose right base image to start with: NodeJS v16 based on lightweight Linux Apline distribution. [Dockerhub docker-node](https://hub.docker.com/_/node) shows all the versions and distributions, and it is always helpful to click those links to jump to its Dockerfine definition on the github to get an idea of how its instructions are written. The followiing instructions are just: copying the source code, yarn install to install dependencies, prisma generate to generate @prisma/client, nest build to build artifacts (dist folder here). Last not the least, the command to run this whole nodejs app: *node dist/apps/frontend/main.js*.
+
+
 第一条指令是选定了合适的基础镜像包： 基于Alpine Linux轻量级操作系统镜像上NodeJS v16版本。这块可以看看https://hub.docker.com/_/node，几乎每个版本都有默认，bullseye和alpine等等版本，对应的每个镜像包含的功能和大小也是不一样的，可以进一步到github查看其原始的Dockfile定义. 后续的指令就是将本地源文件都复制到镜像中，并运行yarn install安装依赖，prisma generate生成@prisma/client， nest build生成dist， 最后*"node", "dist/apps/frontend/main.js*运行整个程序。
 
-### Prisma Generate报错
+### Prisma Generate
 
-​    当运行*docker build -t frontend-api  -f ./Dockerfile.frontend .*来构建这个镜像时候，会在*RUN yarn prisma generate*报如下错误：
+​   when you run command *docker build -t frontend-api  -f ./Dockerfile.frontend .* to build image, you would notice an error got thrown at the line -  *RUN yarn prisma generate* : 
+
+​   when you run command *docker build -t frontend-api  -f ./Dockerfile.frontend .*来构建这个镜像时候，会在*RUN yarn prisma generate*报如下错误：
 
  
 ![prismaGenerateErr.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaGenerateErr.png)
@@ -116,6 +128,13 @@ CMD ["node", "dist/apps/frontend/main.js"]
 #9 4.849 Error: Unable to require(*/home/node/node_modules/prisma/libquery_engine-linux-musl.so.node*)
 #9 4.849  Error loading shared library libssl.so.1.1: No such file or directory (needed by /home/node/node_modules/prisma/libquery_engine-linux-musl.so.node)
 ```
+From the stacktrace, it looks like there are two points worthing noting:
+    
+    *  couldn't load this shared lib: `libssl.so.1.1` 
+    *  this lib is referenced by `node_modules/prisma/libquery_engine-linux-musl.so.node`
+
+The libssl.so.1.1, from its name, we could guess it is related to SSL, particulary on the linux, OpenSSL. It is dynamically linked at run time by libquery_engine-linux-musl.so.node. A quick search, some github issues on OpenSSL github repo [Openssl can't find libssl.so.1.1 and libcrypto.so.1.1 · Issue #19497 · openssl/openssl (github.com)](https://github.com/openssl/openssl/issues/19497) and Prisma github repo [Support OpenSSL 3.0 for Alpine Linux · Issue #16553 · prisma/prisma (github.com)](https://github.com/prisma/prisma/issues/16553) , we are sure it is likely that the operating system we run doesn't include OpenSSL dependency or we got the openssl but its verision doesn't satify. To double check, we could check the base image of our dockerfile - node:16-alpine - [docker-node/16/alpine3.15/Dockerfile](https://github.com/nodejs/docker-node/blob/3760675a3f78207605d579f366facbb0d9f26de5/16/alpine3.15/Dockerfile):
+
 
 看起来这里有两点：第一点无法加载 `libssl.so.1.1`这个共享库，第二点这个库是被`node_modules/prisma/libquery_engine-linux-musl.so.node`所依赖。
 
@@ -135,7 +154,14 @@ ENV NODE_VERSION 16.13.1
         make \
         python3 \
   && yarn --version        
+...  
 ```
+
+Previously we know we want a 16 version of NodeJS that running on Liunx Apline, but we don't know exactly what specfic that versions are for NodeJS and Alpine. Here throught the Dockerfile, we have got the answers: NodeJS 16.13.1 and Alpine 3.15. The following part of that Dockerfile is just installing basic development dependencies, Node and yarn. There isn't any instructions to install OpenSSL library. We have pinpointed the problem.
+
+The solution to this is easy, just install OpenSSL 1.1 version before the instruction *prisma generate*. Just use the APK intaller to install that:
+
+
 
 这里可以看到具体node-16:alpine是基于哪个NodeJS的版本和哪个Linux Alpine的发布: 16.13.1和3.15，后续当docker run起来之后可以*cat /etc/os-release*进一步确认。下面接着安装NodeJS和基础的开发依赖，里面是没有openssl这个库的。这个问题就变成了如何在prisma generate之前安装这个openssl1.1这个组件， 这就很简单了，使用APK安装即可：
 
@@ -144,31 +170,30 @@ FROM node:16-alpine
 WORKDIR /home/node
 COPY . /home/node
 
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories #国内换成阿里
-RUN apk update  #更新apk来源，保证可以拉倒最新的包信息
-RUN apk add openssl1.1-compat #安装openssl 1.1
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories #change source repo to AliCloud mirror, only needed in China
+RUN apk update  # updating of the indexes from remote package repositories
+RUN apk add openssl1.1-compat # install openssl 1.1
 ```
 
+Rrerun the docker build, now it works!
 重新docker build一下，构建成功！
 
-### Prisma Generate原理
+### Prisma Generate - How it works
 
-虽然目前这个问题看起来是解决了，但是还有一个疑问这个*node_modules/prisma/libquery_engine-linux-musl.so.node*文件-引用SSL的-prisma的组件是干嘛用的，为什么需要引用，另外跟prisma generate有什么关系，这些是需要接下来搞清楚的。
+Even though the problem seems got solved, there remains one mistery to me: Prisma possibly need OpenSSL to support SSL connection with database, then what does *node_modules/prisma/libquery_engine-linux-musl.so.node* (some shared object with Node?) this file to do with *prisma generate* and what does it do ?
 
-查看官方文档说明[Generating the client (Concepts) (prisma.io)](https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/generating-prisma-client)，当运行*prisma generate*时候，prisma会在*node_modules/.prisma/client*下面生成三个组件：
+It turns out that the prisma documentation has a section dedicated on this: [Generating the client (Concepts) (prisma.io)](https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/generating-prisma-client). Basically you run `*prisma generate*, prisma client(yarn add @prisma/client) will generate a *PrismaClient* with three components:
 
-  * ts类型定义 (index.d.ts)
-  * JS代码 (index.js)
-  * 查询引擎二进制文件（libquery_engine-xxx.xx.node）
-  
-下图是在本机MAC上的截图：
+  * typescript definitions(index.d.ts)
+  * Javascripts code(index.js) 
+  * a query engine(libquery_engine-xxx.xx.node) under path *node_modules/.prisma/client*.
 
 ![prismaBinaryTarget.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaBinaryTarget.png)
 
-回忆在当初安装*yarn add @prisma/client*这个包时. @prisma/client包其实有两部分组成：
+Recall that you need first `yarn add @prisma/client` package. That @prisma/client consists of two key parts:
 
-    * The @prisma/client module itself, which only changes when you re-install the package:  *node_modules/@prisma/client* (重新安装包时才变化)
-    * The .prisma/client folder, temporary, which is the default location for the unique Prisma Client generated from your schema: *node_modules/.prisma/client* （临时只有运行prisma generate就会重新生成）
+    * The @prisma/client module itself, which only changes when you re-install the package:  *node_modules/@prisma/client*
+    * The .prisma/client folder, temporary, which is the default location for the unique Prisma Client generated from your schema: *node_modules/.prisma/client*
 
 ```ts
 import { PrismaClient } from '@prisma/client'
@@ -177,25 +202,28 @@ const prisma = new PrismaClient()
 await this.prisma.user.findMany({...})
 ```
 
-在调用*this.prisma.user.findMany*时，Prisma Client客户端将findMany发送给查询引擎（NodeJS-API Library)，查询引擎将其翻译为SQL语句，然后发送给数据库；当数据库返回结果时，查询引擎将其翻译映射为JS对象，并发送回给Prisma Client客户端。
+When in the source code, we include the PrismaClient and call *this.prisma.user.findMany*, the prisma client will send this command to query engine. Then the query engine will translate to the sql queries and send it forward to the database; Once database has the query result, it will send back to query engine, which translates those raw data to plain javascript objects and sends to the prisam client.
 
 ![prismaQueryEngine](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaQueryEngine.png)
 <cite> Prisma Concept [Generating the client](https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/generating-prisma-client)</cite>
 
+> Prisma Client uses a query engine to run queries against the database. This query engine is downloaded when prisma generate is invoked and stored in the output path together with the generated Client.
 
-为了保证更高的效率，这个查询引擎针对每个不同的操作系统都做了相应的优化，都有相对应的编译出来的二进制文件。它命名的格式一般是 query-engine-PLATFORM或者libquery_engine-PLATFORM，这个PLATFORM指代不同的平台。比如我的电脑是macOS Intel， 操作系统是达尔文Darwin，那么对应的查询引擎的名字是libquery_engine-darwin.dylib.node，如果上图所示。在上面的Dockerfile里，操作系统是Alpine3.15，那么其对应的名称应该是什么了？ 在[Prisma schema API (Reference)](https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference#binarytargets-options)，可以找到是，名字应该是*libquery_engine-linux-musl.so.node*:
+The query engine is compiled and built on different platform to get a better performance. 
+
+> It is named query-engine-PLATFORM or libquery_engine-PLATFORM where PLATFORM corresponds to the name of a compile target. Query engine file extensions depend on the platform as well. As an example, if the query engine must run on a Darwin operating system such as macOS Intel, it is called libquery_engine-darwin.dylib.node or query-engine-darwin
+
+It does match the name on my macOS Intel. But how about the name on Linux Alpine 3.15 docker image? We could find it out in [Prisma schema API (Reference)](https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference#binarytargets-options):
 
 ![prismaEngineAlpine.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaEngineAlpine.png)
 
-名称是*linux-musl*, 对应的要求依赖的openssl版本是1.1.x，所以上面才需要在From node-16:alpine指定之后安装openssl 1.1版本。但是在Prisma4.8.0之后，大概是2022十二月发布的版本，优化改进支持了OpenSSL 3.0: [Support OpenSSL 3.0 for Alpine Linu](https://github.com/prisma/prisma/issues/16553#top).
+PLATFROM name is *linux-musl*, and it requires OpenSSL 1.1.x installed, so the full name would be *libquery_engine-linux-musl.so.node* - exactly the name that shows up in the error trace. But after Primsa 4.8.0, prisma has given better support for OpenSSL 3.0:  [Support OpenSSL 3.0 for Alpine Linu](https://github.com/prisma/prisma/issues/16553#top).
 
-在CI上构建拉取*libquery_engine-linux-musl.so.node*的时候，有时候比较慢，可以加上*ENV PRISMA_BINARIES_MIRROR http://prisma-builds.s3-eu-west-1.amazonaws.com*来加速下载。
+> install OpenSSL 1.1 -> download query engine for platform specific -> prisma generate
 
-> 安装 OpenSSL 1.1 -> 下载该操作系统上的查询引擎二进制 -> prisma generate
+### How to run Prisma Migrate Deploy
 
-### 如何数据迁移Prisma Migrate Deploy
-
-接下来问题是如何跑迁移脚本： [Deploying database changes with Prisma Migrate](https://www.prisma.io/docs/guides/deployment/deploy-database-changes-with-prisma-migrate) 里提到要保证*./libs/db/prisma/migrations*文件夹存在然后在发布阶段跑*prisma migrate deploy* - 命令来自@prisma/client包， 而不建议在本地跑远程数据库的迁移。这里需要将package.json中的@prisma/client从devDependencies开发依赖挪到dependencies产品依赖，保证不会被CI或者部署平台(类似Vercel)prune修剪掉开发依赖导致无法运行命令。
+How to run migration sqls on production environment? First you need have *libs/db/prisma/migration* folder exist. [Deploying database changes with Prisma Migrate](https://www.prisma.io/docs/guides/deployment/deploy-database-changes-with-prisma-migrate) doesn't recommend you run from locally directly against production database. Instead run *prisma migrate deploy* during the release phase. And it need access @prisma/client dependence, so just move it from *devDependencies* to the production phase *dependencies* section in your package.json.
 
 ```diff
 - CMD ["node", "dist/apps/frontend/main.js"]  
@@ -203,7 +231,7 @@ await this.prisma.user.findMany({...})
 + CMD ["start:prod_frontend"]  
 ```
 
-package.json:
+in your package.json, add following:
 
 ```json
   "scripts": {
@@ -215,12 +243,12 @@ package.json:
    }
 ```
 
-
 ![prismaMigrate.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaMigrate.png)
 
 
+## Dockerfile optimization
 
-## Dockerfile优化
+In previous step, we have integrated Prisma to the Dockerfile and are able to run it. But the docker image that final build out is quite big, 1.53G and the build time is quite slow, which is not idea for CI/CD pipepline.
 
 上一步将Prisma成功的集成到了Dockfile里，并且部署之后容器成功的跑了起来，看起来流程没有问题。但是这个打包的镜像非常大，有1.3G，并且构建时间非常长，这相当不利于CI/CD的快速迭代演化。
 
@@ -228,7 +256,7 @@ package.json:
 server ➤ docker images                                                                                                                                                                                                                                              REPOSITORY     TAG       IMAGE ID       CREATED             SIZE
 frontend-api   latest    93727cf78c85   About an hour ago   1.53GB
 ```
-
+Before diving into the optimization, let's take a look at how Docker build image based on the Dockerfile.
 在怎么优化之前，可以先了解Docker如何根据Dockerfile里的指令构建镜像的。
 
 ```docker
@@ -248,24 +276,28 @@ ENTRYPOINT [ "npm" ,"run"]    #Layer n+11
 CMD ["start:prod_frontend"]   #Layer n+12
 ```
 
-这个过程每一行指令就像堆积木一样不断在前面的层上面添加新的层。比如上面的基础层是Layer n 就是*From node:16-alpine*（本身内部也是由其他层堆叠起来），运到后面的指令比如*COPY . /home/node*表示将当前本地文件夹（context)的文件复制到镜像的新的一层Layer n+3, 位于Layer n+2之后。RUN这里主要用来安装一些系统依赖或者组件。这里重点关注在COPY和RUN这两个指令，一个是文件系统操作，一个是bash或者命令操作。 最终所有Dockfiler指令跑完之后，就得到了一个由很多层堆叠起来的镜像，镜像的大小就等于这些层的总和。
+The process is like Jenga game, putting layer on top of another layer like stack. *From node:16-alpine* is layer n, *COPY . /home/node* is layer n+1， which comes after the layer n. Each instruction corresponds to a layer, and finally the docker images is just a bunch of layers stacked togher. The most common used instruction is *COPY* and *RUN*.
+COPY deals with files related operations, like copy files from current directory of the build context to the layer in docker image; RUN is used for executing shell comands or scripts.
 
-这个过程很耗时，当你需要不断的重复性的构建时，比如本地开发调试时，这就很痛苦了。所以Docker提供了构建缓存来加快构建过程。回到上文中的堆积木的这个比喻，每当有一层积木发生变化，后面的积木层都需要重新搭建。当比如构建上下文下的源文件发生变化比如./libs/db/prisma/schema.prisma发生改动，那么*COPY . /home/node*这个指令会检测到变化，通知下面所有的层都需要重新构建，也就是说Docker会令该层的缓存失效。相反，如果那一层没有变化，那么将会直接使用之前的缓存，这样构建速度就会加快。
+The whole proces takes a quite amount time when first build. But second time, it will go much faster as Docker provide a cache for repetive work to speed up build process. And how the cache works? It simply remember whether or no you made change to this current layer. If any change detected in layers, itself and following layers will get a rebuild. It is like you pull a block from Jenga, except in Docker build, all blocks will get rebuild on top of where that block got pulled.
+
+Clearly in above Dockerfile, if you modified *./libs/db/prisma/schema.prisma* file to, e.g. add a new table or table field, which says *Layer n+3* - *COPY . /home/node* has made some change since ./libs/db/prisma/schema.prisma is under current build context directory, Docker is smart enough to spot that change and trigger a rerun of that instruction and all instructions below - invalidate the build cache.
+
 
 ![buildFlow.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/buildFlow.png)
 
-分析下上面的Dockerfile的写法，可以知道它不是很有效率。 如果优化了，有几个方向可以试试：
+You may wondering that I only changed schema.prisma, it should just trigger prisma to regenerate its client and rebuild the nest project and nothing more. But it is also trigger yarn install which I didn't even touch. Yeah, that Dockerfile is not very efficient. There are a couple of ways to improve it:
 
 
+### 1.Order your layers
 
-### 1.更好的组织构建顺序
-
-*COPY . /home/node*将会将所有文件到镜像层中，后面紧接着会安装项目依赖yarn install。按照上面所说，当修改了跟依赖管理无关的代码（非package.json和yarn.lock)也会触发该yarn install重新安装所有依赖，即使上次之后依赖并没有发生变化。实际上这里COPY干了两件事情，一个是跟依赖相关的，一个是源代码。两个修改的频率频次也是各不相同，修改项目依赖的频次远远低于修改源代码的频次。所以可以拆成：
+Yeah, any change on source code, not package.json or yarn.lock will trigger Docker to reinstall all packages for project. Acutally the *COPY . /home/node* happens to do two things at one time: 1. copy project dependencies, 2. copy source code. Those two not only comes with differnet responseibility , but also comes with different change frequency.
+The time you modify your porject dependenci is significatntly less that the tiome you modify souce code. So the Dockerfile could change to :
 
 ```docker
 COPY package.json yarn.lock .yarnrc .
-RUN yarn install #先安装项目依赖     
-COPY . . #复制源代码
+RUN yarn install #install project  packages 
+COPY . . # copy source codes
 RUN apk update       
 RUN apk add openssl1.1-compat 
 RUN yarn prisma:generate      
@@ -273,139 +305,145 @@ ENV NODE_ENV production
 RUN yarn run build-frontend   
 ```
 
-这里给了一个如何做分拆的角度：频率频次。大多数项目都可以分为：
+Different modify frequences sginals that possible diffrent modules. Most project's Dockerfile could be breakdown roughly to following stages:
 
-1. 准备系统， 基础镜像 -- 一次行为
-2. 安装系统依赖 -- 一次行为 
-3. 安装项目的依赖 -- 频率略高，当你修改了项目的依赖 package.json/requirements.txt等等
-4. 修改源代码 -- 频率最高，功能开发
-5. 构建 
-6. 运行
+1. prepare the operating system, base image - one time only
+2. install system level libraries - most of time, one time only 
+3. install project dependecies -  sometimes, you might add/remove/update your packages
+4. modify your source code in codebase - daily, most often
+5. build 
+6. run - trivail
 
-按照这个顺序来的话，Dockfile可以这么调整：
+With this order in place, we could change the Dockerfile to:
 
 ```docker
-# 1.初始基础镜像
+# 1.base image OS
 FROM node:16-alpine 
 USER root           
-# 2.安装系统依赖
+# 2.install system level libs
 RUN apk update        
 RUN apk add openssl1.1-compat 
-# 3.安装项目依赖
+# 3. install packages
 WORKDIR /home/node   
 COPY package.json yarn.lock .yarnrc /home/node    
 RUN yarn install     
 
-# 4.复制源代码，生成项目Prisma
+# 4.copy source code, generate prisma client
 COPY . .
 RUN yarn prisma:generate      
 
-# 5. 构建
+# 5. build
 ENV NODE_ENV production       
 RUN yarn run build-frontend   
           
-# 6. 运行
+# 6. run
 EXPOSE 7021         
 ENTRYPOINT [ "npm" ,"run"]    
 CMD ["start:prod_frontend"]   
 ```
 
+### 2.Keep layers small
 
-
-### 2.减少复制到镜像每一层的文件大小
-
-*COPY . .*这个命令需要谨慎使用，需要思考复制这些文件是要干嘛，为什么而使用。虽然你可以在.dockerignore里声明一些复制时需要忽略的文件，但是有些时候黑名单的方式有点不方便。可以在.dockerignore里声明一些通用性的忽略规则，比如node_modules,.env和NestJS这边的dist目录。显示声明的好处在于迫使你思考你需要这些文件是用来干嘛的，从而避免一些不必要的缓存失效从而影响构建时间和效率。
-
-上面Dockerfile里面的第四步：
+Generally the instruction *COPY . .* indicates there is some bad smell there. Even though you put files you dont' want include in .dockerignore to tell Docker to skip certain files, like common files or directories *node_modules* and build artificats folder *dist*, it is recommended that you explicitly write down what files you want to include in instruction. To explicitly naming what you want to include helps you to think what you're gonna use it for, typically copy files is just first step, it is usally used as an input for following steps.
 
 ```docker
-# 4.复制源代码，生成项目Prisma
+# 4.copy source code, generate prisma client
 COPY . .
 RUN yarn prisma:generate  
 ```
+The step who takes input is *RUN yarn prisma:generate*, what does it do? it takes a package.json and look up where the *schema.prisma* is located. Once it find the path to schema.prisma, aka *libs/db/prisma/schema.prisma*, it loads that file and then use @prisma/client package to generate prisma client files. So this instructions takes two files: 
+package.json and libs/db/prisma/schema.prisma. Therefore the input of this instruction, just need copy those two files, not the whole code base.
 
-这个COPY文件的目的在于为了后面的yarn prisma generate来生成prisma的客户端。从上面关于Prisma工作机制我们知道它只需要有package.json里声明的prisma>schema的值也就是*libs/db/prisma/schema.prisma*文件就足够能完成这个prisma客户端的生成。所以这里如果修改了非*libs/db/prisma/schema.prisma*的源代码比如main.ts等等也会触发这个缓存失效，重新运行yarn prisma generate，这个就不是很有效率。
+    * command: yarn prisma generate
+    * input:   package.json and libs/db/prisma/schema.prisma
+    * output:  node_modues/.prisma/client
 
-同时我们知道构建时候我们只需要apps/frontend部分，因为apps/backend和apps/frontend-emp都跟我们此次构建的目的没有关系。同时复制nest build需要的一些配置参数文件和公共组件libs目录，COPY 可以接受多个参数。
+The same idea applies to the *RUN yarn run build-frontend* instruction, which runs *nest build frontend* to build frontend related source code to dist folder. So source codes doesn't need include apps/backend and apps/frontend-emp, just need frontend and shared libs, alone with package.json and nest-cli.json.
+
+    * command: yarn run build-frontend
+    * input:   apps/frontend, libs, package.json and nest-cli.json
+    * output:  dist
 
 ```docker
-# 4.生成项目Prisma
+# 4. prisma generate 
 COPY libs/db/prisma/schema.prisma ./libs/db/prisma/schema.prisma
 RUN yarn prisma:generate      
 
-# 5. 构建
-COPY apps/frontend ./apps/frontend #复制nestjs下面前端模块源代码
-COPY libs ./libs #公共模块libs文件夹
-COPY nest-cli.json tsconfig.json libs .  #nest build相关需要的配置
+# 5. build
+COPY apps/frontend ./apps/frontend 
+COPY libs ./libs 
+COPY nest-cli.json tsconfig.json libs . 
 ENV NODE_ENV production       
-RUN yarn run build-frontend             
+RUN yarn run build-frontend 
 ```
 
+### 3. RUN: Combine commands together wherever possible
 
-
-### 3. RUN合并命令
-
-在计算是否命中缓存时候， 官方文档[Best practices for writing Dockerfiles: Leverage build cache](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)中提到，Docker对于COPY命令式会读取文件内容做一个checksum校验和，跟镜像层理的文件校验和checksum做对比。但是对于命令行类型的指令RUN而言，它不看命令产生的变化是否相同，而是简单的对比字面上两个命令字符串是否一样。
-
-就RUN指令常见的应用apt-get和apk命令
+When Docker build try to decide whether layer need rebuild or not, it will check with cache. If cache was hit, then no need to rebuild this layer, if not hit, it will run the instructions and rebuild the current layer and following layers. How does the cache work? How does this calculate process work ? [Best practices for writing Dockerfiles: Leverage build cache](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) mentioned that Docker will do a file read and calculate its content checksum and compare with the one the exsting image for the COPY insturction, and a command string literal equal check for the RUN instruction. Let's take a look the common command apk/apt-get for RUN instructions:
 
 ```docker
-# 2.安装系统依赖
 RUN apk update        
 RUN apk add openssl1.1-compat 
 ```
 
-这个看起来没什么问题。apk update获取最新的安装源信息，然后apk add安装到最新的版本。当它第一次build的时候，apk update拉取最新的信息，然后安装了openssl1.1-compat的最新版本假设是1.1.0，假设第二次build的时候，夸张点，是十年之后，RUN后面的apk update命令跟之前是一样的，所以Docker不会去拉取最新的安装源，apk add openssl1.1-compat 跟之前也一样，所以不会重新安装，还是沿用之前的1.1.0。 
+Initially the instructions seems okay. *apk update* will fetch initially indexs(e.g name, versions, etag) of packages in remote repositories. *apk add openssl1.1-compat* then will get installed with latest version from indexes. 
 
-APK repo:
+Suppose at this time, libs versions in apk repos are:
 
-> openssl1.1-compat=1.1.0
+> openssl1.1-compat=1.0
 > wget=1.0
 > curl=1.0
 
-十年之后需要安装另外一个系统依赖库，比如wget，于是这么写：
+The current latest versions of* openssl1.1-compat* is *1.0* and it will get installed. Then the whole thing got forgotten for ten years and it need add another library: *wget*.
 
 ```docker
-# 2.安装系统依赖
 RUN apk update        
 RUN apk add openssl1.1-compat wget
 ```
 
-十年之后的APK repo:
+Ten years after, the apk repos is like: 
 
-> openssl1.1-compat=1.1.9
+> openssl1.1-compat=1.9
 > wget=1.9
 > curl=1.9
 
 
-这个时候就有意思了： apk update 这一层不会重新构建，还是因为命令字面上没有变化，*apk add openssl1.1-compat wget*却跟已有镜像层里的*apk add openssl1.1-compat*字符串不一样，于是重新执行安装了最新的版本的wget, 但是openssl1.1-compat的版本是1.1.0, 而wget的版本却是十年前的老版本 :)
+To your surpise, the versions in final docker image got built is: openssl1.1-compat (1.0 old) and wget (1.0 old too). What happens here is that docker saw `("RUN apk update") in dockerfile == ("RUN apk update") in docker image` - two command strings equals! Then it will pick up the cache and skip actually rebuild this layer , etc run apk update to actuall y update local indexes from remote repo. It ends up with old packages info in the local. The next insturction `("RUN apk add openssl1.1-compat wget") in dockerfiler != ("RUN apk add openssl1.1-compat") in docker image`, then cache is invlidated and this layer need rebuild hence run apk install with wget version 1.0.
 
-所以一般来说会将RUN的指令合并：
+So if it is just command string literal compare, we could just merge those into one command:
 
 ```diff
 - RUN apk update && apk add openssl1.1-compat
 + RUN apk update && apk add openssl1.1-compat wget
 ```
 
-这样一来重新构建的时候，Docker知道RUN这个命令有变化，会重新跑一遍，拉取最新的安装源信息，并安装最新版本，这个叫cache busting. 但是紧接着还有一个问题，wget是拉取安装了最新版本了，但是此时openssl1.1-compat如果安装源有更新比如版本到了1.1.9，也会重新安装，此时可能就不是当时的1.1.0, 而这样可能会带来意想不到的问题。
+Now docker sees *apk update && apk add openssl1.1-compat* != *apk update && apk add openssl1.1-compat wget*, it will invlaidate the cache and rebuild the layer , which is ccalled *cache busting*. Now apk update will fetch latest indexes and apk install will install the latest version. The version of wget will be  1.9, however the version of openssl1.1-compat is 1.9 too. This bump from 1.0 -> 1.9 might accidently break our code and cause some surpises.
 
-所以最好是在安装时候确定依赖的具体版本version pinning，用`xxx=1.x.x`指定特定的具体的版本，而不是一个大小版本号区间。APK这里可以去[Alpine Linux packages](https://pkgs.alpinelinux.org/packages?name=openssl1.1-compat&branch=edge&repo=&arch=&maintainer=)查询对应的库的版本有哪些，比如 openssl1.1-compat的在构架下版本是**[1.1.1t-r0](https://pkgs.alpinelinux.org/flag/community/openssl1.1-compat/1.1.1t-r0)**，那么Dockfiler可以更新为：
+Rule of thumb is to lock down the version info for packages. This is called version pinning, you could search what versions that packages has for that archetcture. FOr example, for apk, you could go to [Alpine Linux packages](https://pkgs.alpinelinux.org/packages?name=openssl1.1-compat&branch=edge&repo=&arch=&maintainer=) or *apk search* to look up version informations. For openssl1.1-compat, its version we picked is *[1.1.1t-r0](https://pkgs.alpinelinux.org/flag/community/openssl1.1-compat/1.1.1t-r0)*.  
 
 ```docker
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add openssl1.1-compat=1.1.1t-r0
+RUN apk update && apk add openssl1.1-compat=1.1.1t-r0 wget=1.9
 ```
 
-正如Docker在构建时会使用缓存来提高重复构建的效率一样，系统级别的包管理工具apk/yum/apt-get和后面要提到的NodeJS的包管理工具npm/yarn，也是类似的缓存来提高包安装效率。简单的说，在这里APK在安装时候会将安装包在 /var/cache/apk/目录下进行缓存，当你下一次需要安装某个包的某个版本时候，它会检查缓存中是否已经有了，如果有，那么直接使用，这样就加快了包安装的速度。
+That's better. let's examine this command:
 
-在安装过程中，产生了中间产物，也就是缓存，这个需要在结束之后清理的掉：
+    * command: apk update && apk add openssl1.1-compat=1.1.1t-r0 wget=1.9
+    * input:   none
+    * output:  openssl1.1-compat lib and wget lib, plus cache under /var/cache/apk/
+
+It has some byproducts from the typical package management tools - the cache. We also need cleanup that as it is not necessary.
 
 ```docker
 RUN  apk update && apk add openssl1.1-compat=1.1.1t-r0 && rm -rf /var/cache/apk/*
 ```
 
-或者使用*apk add --no-cache  openssl1.1-compat=1.1.1t-r0*来禁止安装过程中使用缓存，这样就不会产生额外的中间产物。
+or add *--no-cache* flag to apk install:
 
-鉴于系统依赖的更新频率不高的特点，对于在不同构建过程中的缓存的使用，甚至是多个不同项目的构建，上面这个其实足够了。但是如果你经常需要改动，类似于下面要提到的项目依赖那么高的频次，那么可以考虑使用BuildKit特性中*RUN --mount type=cache*:
+```docker
+RUN  apk update && apk add --no-cache openssl1.1-compat=1.1.1t-r0 
+```
+
+Given the installion of systme libraraires are pretty much one-off, you rarelly borther to use cache between build to reuse it. However if you really want to cache between builds to speed up installtion proces, you could try leverage docker builder's new build feature *BuildKit*:
 
 ```docker
 RUN \
@@ -413,50 +451,57 @@ RUN \
     apk update && apk add openssl1.1-compat=1.1.1t-r0
 ```
 
-这样的话/var/cache/apk/目录下内容会在不同的构建之间得到保存，而不是随着构建完成而结束，就好比外挂载了一个专门的数据卷Volume. 当apk需要重装时候，就可以利用apk的缓存/var/cache/apk，减少无谓的网络请求和消耗，提高构建速度。这块也会在后面的yarn/npm里讲到。
+It is like mounting a dedicated volume for that, so the cache will be preserverd bewteen builds. This will be elaborated in following yarn/npm section.
 
 
+### 4. NPM/Yarn install packages  
 
-**Note： 对于每个Dockerfile指令，需要什么输入，产生什么输出，有什么中间产物， 做什么事情，就跟面向对象里面向接口编程一样，合同contract是什么，必要时需要了解它是怎么工作的**
+when Docker build layer on *RUN yarn install*, it is quite slow and takes quite big size *1.19G* out of *1.53G* total final docker image size. Just like apk add system level packages, yarn install also will leverage cache.
 
+    * command: yarn install
+    * input:   package.json yarn.lock .yarnrc
+    * output:  node_modules, plus cache 
 
-
-### 4. npm/yarn安装依赖  
-
-在构建的时候*RUN yarn install*非常慢，而且在整个1.53G的镜像中，它这一层占了1.19G这么大，所以这个肯定是优化的一个大头。Yarn安装时候会将所需的包从npm registry下载下来，缓存到`YARN_CACHE_FOLDER`指定的目录下，比如mac上是*yarn cache dir* = /Users/tuo/Library/Caches/Yarn/v6，这里缓存的信息包括压缩包和元数据（时间戳版本Etag等等）, 然后将压缩包解压到项目下面的node_modules对应的目录下面。
-
-可以想象每次构建都会重复这个流程，解析package.json和yarn.lock, 然后去远程下载包和元数据[Package Metadata](https://github.com/npm/registry/blob/9e368cf6aaca608da5b2c378c0d53f475298b916/docs/responses/package-metadata.md#abbreviated-metadata-format)到缓存目录（在镜像层里），然后安装到node_modules目录下。每次构建都是一次性的，如果有改动，比如新加了一个包，那么这个流程需要重新再来一次，可以想象这个速度肯定是很慢的，这个缓存甚至有点多余，简直是个累赘。还产生了多余中间产物，就是/usr/local/share/.cache/yarn/v6目录下。
+Put it simply, when *yarn install* happens, it will fetch package's compressed file and a [metadata](https://github.com/npm/registry/blob/9e368cf6aaca608da5b2c378c0d53f475298b916/docs/responses/package-metadata.md#abbreviated-metadata-format)(name,version,modified time etc) file from *npm registry*, then save those to local directory that environment variable `YARN_CACHE_FOLDER` points to, finally decompress it to node_modules folder.
 
 ```docker
 RUN yarn cache dir && yarn install && yarn cache clean
 ```
+The output is clean now but there is problem with this. If you need add/update/delete package in package.json and update its yarn.lock file, everytime you build the docker image, it will fetch from remote, save to cache folder and move to node_modules folder for all packages even if you just add one new package for exmaple. With the help of proper ordering the layer and relatively low frequency of changing project dependencies, this alredy got mitigated a lot.
 
-虽然改动项目依赖的频次可能没有改源代码的频次那么高，但是实践来看也不小，每次都得这么来一遍就比较折磨人的了。如果可以将这个缓存中间产物从构建镜像的流程中单独拎出来，达到类似数据卷的一样的目的，用的时候挂载上去，用完了卸载下来，这样一来便可以加快构建流程。当新增一个包，其他的包都可以从缓存里读取出来，只需要从远程拉取新增的这个包到缓存并放到对应的node_modules下面即可。官方应该看到了这个常见的需要，提供了新的构建器[BuildKit (docker.com)](https://docs.docker.com/build/buildkit/)，相对老版本的构建器，增加了很多性能方面的优化，不仅仅是我们这里提到的*RUN --mount type=cache*. 
+But there are possible chances that you need update packages, to make it even worse, like moments for some critical bug fixes for live running applications,  this would put lots of congnitive load on you. It is helpful that we could dig more into ti and figure out why and how it could be improved.
+
+* ##### BuildKit
+
+First you could lverage the [BuildKit](https://docs.docker.com/build/buildkit/),the new docker builder, to act like a mounted volume for caches between builds. Buildkit not only tracks content mounted for specific operations, but also it could do like parellelize builiding indepdent build stages in [Multi-stage builds](https://docs.docker.com/build/building/multi-stage/). Here we're gonna use *RUN --mount type=cache* to mount to yarn install operation:
+
 
 ```docker
 RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install 
 ```
 
-这里指定了target是/cache/yarn目录，同时设置YARN_CACHE_FOLDER为此目录来设置yarn安装时候缓存的路径。默认新版的Mac版本的Docker Desktop是支持并启用Buildkit的，无需配置；如果是其他系统，需要检查下docker的版本。
+Set mount type to cache and target to some directory, then overwrite yarn cache folder with that directory by setting *YARN_CACHE_FOLDER* enviroment evariable for yarn install.My Docker Desktop on mac is 4.16.2 (95914), which has built-in support for Buildkit and default it is on. You better check which docker version you install and maybe need explicit configure it to enable Buildkit.
 
 ```terminal
 <missing>      2 minutes ago    RUN /bin/sh -c YARN_CACHE_FOLDER=/cache/yarn…   628MB     buildkit.dockerfile.v0
 ```
+This way the cache - yarn install byproduct - will not be included in output thus get to layer in docker image. We dont' need to clean the cache after yarn install. The result is the a hugh drop in terms of docker image size: from 1.19G to 628M. Not bad at all!
 
-这一步之后，这一层的体积从之前1.19G下降到了628M，还不错。
+* ##### yarn install --perfer-offline
 
-接下来模拟新加一个包，*yarn add underscore@1.13.6* 然后构建一下：
+
+Le't try add brand new package, *yarn add underscore@1.13.6*, then build:
 
 ```terminal
 => [stage-0 5/9] RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install                                                                                                                                                                   114.3s
 ```
 
-大概是114s 两分钟，这个时长也太长了点吧，不是缓存了所有其他的包，就只需要安装这个understore包么？需要接近2分钟？
+roughly 114 seconds, like 2 minutes. Only add this new package *understore*, the time is kinda too long for this.
 
-这个时候我们需要简单了解下yarn install的原理，默认来说每次安装会根据version,name和integrity去缓存查找是否对应的版本.yarn-metadata.json和.yarn-tarball.tgz;  
+It is time to take a look at how *yarn install* works. By default, everytime it run yarn install, it will use the version,name and integrity to check any matched one in local cache. 
 
-* 如果存在，还会发送一个304检查的请求，查看该本地缓存中版本的信息是否过期；如果过期，那么使用新的数据刷新缓存，否则直接使用缓存中的数据；
-* 如果不存在，直接从远端拉取数据到缓存
+* if match, it will send 304 request to check if the one in local cache is stale or not; if stale, then download new package info, otherwise just use the one in local cache
+* if no match, fetch latest data from remote to local cache
 
 <div id="mermaid-npm">
 <div class="mermaid">
@@ -465,7 +510,7 @@ flowchart TD
     a0[["yarn install"]]
     a1{"has internet connection?\n是否联网？"}
     a2{"matched in local cache?\n本地缓存是否命中?"}
-    a3{"remote check if got expired?\n远程访问校验是否过期?"}
+    a3{"remote check if stale?\n远程访问校验是否过期?"}
     a4{"fetch \nand update cache \nthen unzip to node_modules\n拉取更新本地缓存\n并解压到node_modules"}    
     a10["use cache\n使用本地缓存"]
     a20["fetch and update cache\n远程拉取并跟新本地缓存"]
@@ -479,23 +524,23 @@ flowchart TD
 </div>
 
 <br/>
+Those extra 304 requests should be the culprits. The more packages you have, the longer it would take. Is there any way to adjust the fetch behavior? 
 
-所以这个额外的304检查开销应该就是导致缓慢的原因，特别是你的包越多，那么请求的次数和总的时间就多。但是因为用来yarn.lock来精确锁定版本号，是不是可以跳过这个304请求了？ 
-
-从这两篇文章[NPM v5.0.0 prefer-offline](https://blog.npmjs.org/post/161081169345/v500)和 [PNPM prefer-offline](https://pnpm.io/cli/install#--prefer-offline)的说明来看，`--prefer-offline`可以来设置缓存策略为离线优先，直接匹配缓存中的数据，如果有直接使用，而不用发额外的过期检查请求。这样只有当包在缓存中没有时，才会发生网络请求，这样理论上应该会快很多。尝试安装另外一个版本*yarn add underscore@1.13.2*
+From this npm blog [NPM v5.0.0](https://blog.npmjs.org/post/161081169345/v500) and [PNPM](https://pnpm.io/cli/install#--prefer-offline), there is one option there for yarn install - `--prefer-offline` - which will make npm skip any conditional requests (304 checks) for stale cache data, and only hit the network if something is missing from the cache.
 
 ```terminal
 => [stage-0 5/9] RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install --prefer-offline                                                                                                                                                   61.7s
 ```
 
-时间从114.3s降到了61.7s，效果还可以 :)
+The time has been shrinked from 114.3s to 61.7s :) 
 
-如果CI/CD构建是完全离线的，你甚至可以使用官方[Running Yarn offline](https://classic.yarnpkg.com/blog/2016/11/24/offline-mirror/)中那样，配置yarn-offline-mirror目录（这个跟yarn cache是不一样的）和yarn-offline-mirror-pruning将依赖包本地生成并提交到代码仓库了，这样在构建时候，可以直接从yarn-offline-mirror目录读取缓存的离线安装包直接安装。
-
+If you want to go completely offline, you could use the methods in the blog [Running Yarn offline](https://classic.yarnpkg.com/blog/2016/11/24/offline-mirror/) to configure *yarn-offline-mirror* and *yarn-offline-mirror-pruning* to pack the dependecies to zip/tarball and upload to souce control. When you build docker image, yarn could directly load packages from offline mirror folder and move to node_modules folder.
 
 <br/>
 
-### 5. 使用MultiStage多阶段
+### 5. Use multi-stage builds
+
+Multi-stage builds allow you to drastically reduce the size of your final image, without struggling to reduce the number of intermediate layers and files.
 
 实际目前打包出来的镜像还是很大，yarn install这块还是占了很多空间。这个时候需要跳出来想想最终输出的产物是什么。Nest build时候会生成dist目录，但是不像其他的语言GoLang等，安装依赖+源代码，编译之后产生一个exe等二进制文件直接丢出去运行即可， 这里还需要node_modules目录，包含第三方的依赖。所以出来的是两个目录，一个是dist，一个node_modules。这里将yarn install 需要安装devDepencies和depencies成为`dev-dep环节`，只需要安装产品发布的depencies传给成为`prod-dep环节`, 那么就有如下关系：
 
@@ -841,7 +886,6 @@ CMD ["start:prod_frontend"]
 
 ## 引用
 
-  * [Best practices for writing Dockerfiles: Leverage build cache](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
   * [Optimizing builds with cache management (docker.com)](https://docs.docker.com/build/cache/)
   * [Multi-stage builds (docker.com)](https://docs.docker.com/build/building/multi-stage/)
   * [BuildKit (docker.com)](https://docs.docker.com/build/buildkit/)
