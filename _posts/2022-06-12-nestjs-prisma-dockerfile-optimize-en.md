@@ -2,14 +2,11 @@
 layout: post
 title: "NestJS+Prisma Dockerfile build optimization"
 date: 2022-06-12 12:55:32 +0800
-published: true
+published: false
 tags: nestjs,prisma,docker,dockerfile
 ---
 
 Recently, a NodeJS project has been developed by using web framework [NestJS 7.0](https://nestjs.com/) and ORM [Prisma 3.1.1](https://www.prisma.io/) for the backend. The reason to choose those two tech as stack at that time seems quite oblivious: both support Typescript natively and allow for isomorphic development with React in the frontend. The backend has been divided into three modules roughly based on the platform to which its API is served: backend, frontend and frontend-emp. Apart from that, there are some shared libs, e.g. prisma schema defition , migration scripts and uitls. The structure of the codecase looks like following:
-
-最近接触一个项目是用[NestJS7.0](https://nestjs.com/)和[Prisma3.1.1](https://www.prisma.io/)作为技术栈来开发的后端，用这两个原因很明显：原生支持Typescript，前后端都可以用上JS的技术栈，后端相对来说更符合上云这个轻量化要求。NestJS这边的大概有三个模块: backend, frontend和frontend-emp, 大体还是根据面向的前端不同做的粗糙的划分， libs里面有一些公共的组件库，比如prisma关联一些迁移脚本和数据库表的定义。
-
 
 ```terminal
 ├── Dockerfile.backend
@@ -74,8 +71,6 @@ model User {
 
 The connection string is got from the environment variable DATABASE_URL that got passed in. Every time your modify the schema.prisma, you need to run *prisma migrate dev* to let prisma client to check with existing database schema and generate migration sqls. After that, run *prisma generate* to generate a typescript-based prisma client for source code to use.
 
- 数据库的连接串是从环境变量DATABASE_URL拿到. 每次修改schema.prisma，都需要运行prisma migrate dev生成迁移脚本，同时运行prisma generate可以生成基于TS的客户端@prisma/client来直接使用。
-
 ```ts
 import { PrismaClient } from '@prisma/client'
 const prisma = new PrismaClient()
@@ -110,17 +105,12 @@ CMD ["node", "dist/apps/frontend/main.js"]
 ```
 
 No fancy stuff. The first instruction is choose right base image to start with: NodeJS v16 based on lightweight Linux Apline distribution. [Dockerhub docker-node](https://hub.docker.com/_/node) shows all the versions and distributions, and it is always helpful to click those links to jump to its Dockerfine definition on the github to get an idea of how its instructions are written. The followiing instructions are just: copying the source code, yarn install to install dependencies, prisma generate to generate @prisma/client, nest build to build artifacts (dist folder here). Last not the least, the command to run this whole nodejs app: *node dist/apps/frontend/main.js*.
-
-
-第一条指令是选定了合适的基础镜像包： 基于Alpine Linux轻量级操作系统镜像上NodeJS v16版本。这块可以看看https://hub.docker.com/_/node，几乎每个版本都有默认，bullseye和alpine等等版本，对应的每个镜像包含的功能和大小也是不一样的，可以进一步到github查看其原始的Dockfile定义. 后续的指令就是将本地源文件都复制到镜像中，并运行yarn install安装依赖，prisma generate生成@prisma/client， nest build生成dist， 最后*"node", "dist/apps/frontend/main.js*运行整个程序。
+ 
 
 ### Prisma Generate
 
 ​   when you run command *docker build -t frontend-api  -f ./Dockerfile.frontend .* to build image, you would notice an error got thrown at the line -  *RUN yarn prisma generate* : 
 
-​   when you run command *docker build -t frontend-api  -f ./Dockerfile.frontend .*来构建这个镜像时候，会在*RUN yarn prisma generate*报如下错误：
-
- 
 ![prismaGenerateErr.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaGenerateErr.png)
 
 ```terminal
@@ -135,10 +125,6 @@ From the stacktrace, it looks like there are two points worthing noting:
 
 The libssl.so.1.1, from its name, we could guess it is related to SSL, particulary on the linux, OpenSSL. It is dynamically linked at run time by libquery_engine-linux-musl.so.node. A quick search, some github issues on OpenSSL github repo [Openssl can't find libssl.so.1.1 and libcrypto.so.1.1 · Issue #19497 · openssl/openssl (github.com)](https://github.com/openssl/openssl/issues/19497) and Prisma github repo [Support OpenSSL 3.0 for Alpine Linux · Issue #16553 · prisma/prisma (github.com)](https://github.com/prisma/prisma/issues/16553) , we are sure it is likely that the operating system we run doesn't include OpenSSL dependency or we got the openssl but its verision doesn't satify. To double check, we could check the base image of our dockerfile - node:16-alpine - [docker-node/16/alpine3.15/Dockerfile](https://github.com/nodejs/docker-node/blob/3760675a3f78207605d579f366facbb0d9f26de5/16/alpine3.15/Dockerfile):
 
-
-看起来这里有两点：第一点无法加载 `libssl.so.1.1`这个共享库，第二点这个库是被`node_modules/prisma/libquery_engine-linux-musl.so.node`所依赖。
-
-简单的从名字可以推测出来是关于SSL的，有可能是OpenSSL 1.1这个库没有安装，所以无法引用到。 进一步搜索libssl.so.1.1可发现[Openssl can't find libssl.so.1.1 and libcrypto.so.1.1 · Issue #19497 · openssl/openssl (github.com)](https://github.com/openssl/openssl/issues/19497)和Prisma官方的github issues [Support OpenSSL 3.0 for Alpine Linux · Issue #16553 · prisma/prisma (github.com)](https://github.com/prisma/prisma/issues/16553) 中其他人类似的问题反馈可以验证之前的猜想。沿着这个基础镜像往上推导，可以找出到底这个基础镜像包含哪些基础的依赖或者组件库，是否有OpenSSL还是说OpenSSL有但是版本不对等等，从dockerhub的Node镜像地址直接进入到Github对应的Dockfile定义[docker-node/16/alpine3.15/Dockerfile](ps://github.com/nodejs/docker-node/blob/3760675a3f78207605d579f366facbb0d9f26de5/16/alpine3.15/Dockerfile):
 
 ```docker
 FROM alpine:3.15
@@ -161,10 +147,6 @@ Previously we know we want a 16 version of NodeJS that running on Liunx Apline, 
 
 The solution to this is easy, just install OpenSSL 1.1 version before the instruction *prisma generate*. Just use the APK intaller to install that:
 
-
-
-这里可以看到具体node-16:alpine是基于哪个NodeJS的版本和哪个Linux Alpine的发布: 16.13.1和3.15，后续当docker run起来之后可以*cat /etc/os-release*进一步确认。下面接着安装NodeJS和基础的开发依赖，里面是没有openssl这个库的。这个问题就变成了如何在prisma generate之前安装这个openssl1.1这个组件， 这就很简单了，使用APK安装即可：
-
 ```docker
 FROM node:16-alpine 
 WORKDIR /home/node
@@ -176,7 +158,6 @@ RUN apk add openssl1.1-compat # install openssl 1.1
 ```
 
 Rrerun the docker build, now it works!
-重新docker build一下，构建成功！
 
 ### Prisma Generate - How it works
 
@@ -250,7 +231,6 @@ in your package.json, add following:
 
 In previous step, we have integrated Prisma to the Dockerfile and are able to run it. But the docker image that final build out is quite big, 1.53G and the build time is quite slow, which is not idea for CI/CD pipepline.
 
-上一步将Prisma成功的集成到了Dockfile里，并且部署之后容器成功的跑了起来，看起来流程没有问题。但是这个打包的镜像非常大，有1.3G，并且构建时间非常长，这相当不利于CI/CD的快速迭代演化。
 
 ```terminal
 server ➤ docker images                                                                                                                                                                                                                                              REPOSITORY     TAG       IMAGE ID       CREATED             SIZE
