@@ -642,7 +642,7 @@ By default, Docker containers run as root. That root user is the same root user 
 > RUN addgroup -g 1000 node \
 >  && adduser -u 1000 -G node -s /bin/sh -D node 
 
-The permission of /home/node directory is under node user. In order to set the running user for container, you could put instructions before entrypoint and cmd:
+The permission of /home/node directory is under node user. In order to set the running user for container, you could put that *USER* instruction before entrypoint and cmd:
 
 ```docker
 EXPOSE 7021    
@@ -651,7 +651,7 @@ ENTRYPOINT [ "npm" ,"run"]
 CMD ["start:prod_frontend"]  
 ```
 
-然后docker build 并运行出现如下报错：
+Run *docker build* again, it throws the following error:
 
 ```terminal
 @tuo.local ➜ server rvm:(system) git:(uatFt) ✗ docker run 09ba84abb858
@@ -661,21 +661,22 @@ error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
 
-貌似是写入node_modules权限不够，因为yarn install是root，但是当运行prisma migrate deploy的用户是node，没有足够的权限写入。
+It looks like we don't have sufficient permission to write to node_modules directory. *yarn install* is running under root user, but the user who runs *prisma migrate deploy* when container is up is node. User node doesn't have enough permission to write to directory owned by user root.
 
-为了验证想法，我们最好可以直接进入容器内部的shell(docker exec -it xxx  /bin/sh)，直接ls查看文件夹的权限，但是此时容器刚启动就因为权限问题退出了。这里可以在最后一步安装bash的库，同时将Entrypoint和CMD改成tail -f让容器一直保持运行。
+To verify our thought, we'd better to connect to shell of the container(*docker exec -it xxx  /bin/sh*) and run *ls -al* to check node_modules folder's permission. But the container is down when it is just starting, we didn't even have a chance to connect to its shell. What we could do here is in development debug process, we change the CMD/Entrypoint to some script could hang the container forever to prevent it quit too early - something like *tail -f*. Also we need install *bash* system library through apk so we could connect to the bash program and run commands.
+
 
 ```docker
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache bash
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache bash  #install bash
 EXPOSE 7021    
 USER node
 #ENTRYPOINT [ "npm" ,"run"]    
 #CMD ["start:prod_frontend"]  
 #dev purpose
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+ENTRYPOINT ["tail", "-f", "/dev/null"]  #this will keep container quit too early
 ```
 
-运行docker exec -it 916c42e68c3b /bin/bash，可以进入shell：
+Now run *docker exec -it 916c42e68c3b /bin/bash* and list the folders:
 
 ```terminal
 916c42e68c3b:~$ ls -al
@@ -692,6 +693,18 @@ drwxr-sr-x    2 root     node          4096 Feb 25 15:18 dist
 drwxr-sr-x    2 root     node          4096 Feb 25 15:18 download
 -rw-r--r--    1 root     node          1384 Feb 25 12:40 package.json
 ```
+
+As we could see, the group node only has permission to read for *node_modules/@prisma/engines*, but no write permission. Here is a trap: instead of just recklessly add *chmod -R g=rwx ./node_modules/@prisma/engines* to Dockerfile to "fix" it,  you need think what the heck does it need to write to this *node_modules/@prisma/engines* folder? Isn't from the official documents (as we list in above section) saying that it only changes when you re-install the package ? Is *node_modules/.prisma/client* suppose to be change even though we did run a different command *prisma migrate deploy*?
+
+> * The @prisma/client module itself, which only changes when you re-install the package:  *node_modules/@prisma/client*
+> * The .prisma/client folder, temporary, which is the default location for the unique Prisma Client generated from your schema: *node_modules/.prisma/client*
+
+Hmmmm, here is the good part about our dev debug trick to get our container running to debug our startup script or command. We could just run exact same command in the bash to see what's going on there. So we run *yarn prsiam migrate deploy* in the bash directly inside the container:
+
+![prismaEngineMissing.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaEngineMissing.png)
+
+Got same error, good.
+
 
 node用户对于node_modules/@prisma/engines只有读权限，自然无法写入。这个时候别急着*chmod -R g=rwx ./node_modules/@prisma/engines*，最好的办法是利用dev entrypoint+bin/bash直接登录上去在容器里模拟现实场景运行*yarn prisma migrate deploy*，可以发现是同样的错误。
 
