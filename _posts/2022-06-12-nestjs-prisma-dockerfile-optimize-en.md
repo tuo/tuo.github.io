@@ -2,7 +2,7 @@
 layout: post
 title: "NestJS+Prisma Dockerfile build optimization"
 date: 2022-06-12 12:55:32 +0800
-published: false
+published: true
 tags: nestjs,prisma,docker,dockerfile
 ---
 
@@ -189,7 +189,7 @@ When we include the PrismaClient in the source code and call *this.prisma.user.f
 
 > Prisma Client uses a query engine to run queries against the database. This query engine is downloaded when prisma generate is invoked and stored in the output path together with the generated Client.
 
-The query engine is compiled and built on a different platform to achieve better performance. 
+The query engine is tailed to be compiled and built on that platform to achieve better performance. 
 
 > It is named query-engine-PLATFORM or libquery_engine-PLATFORM where PLATFORM corresponds to the name of a compile target. Query engine file extensions depend on the platform as well. As an example, if the query engine must run on a Darwin operating system such as macOS Intel, it is called libquery_engine-darwin.dylib.node or query-engine-darwin
 
