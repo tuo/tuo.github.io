@@ -2,7 +2,7 @@
 layout: post
 title: "NestJS+Prisma Dockerfile build optimization"
 date: 2022-06-12 12:55:32 +0800
-published: false
+published: true
 tags: nestjs,prisma,docker,dockerfile
 ---
 
@@ -703,32 +703,24 @@ Hmmmm, here is the good part about our dev debug trick to get our container runn
 
 ![prismaEngineMissing.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaEngineMissing.png)
 
-Got same error, good.
+Got same error, good. It looks like the folder *node_modules/@prisma/engines* is missing the query engine file *libquery_engine-linux-musl.so.node* after comparing to my local node_modules folder. I guess it is because query engine binary file is kinda heavyweight, which need fetch over internet and it is like one-off thing. Well, the .prisma/client folder got updated very often as user might change schema.prisma a lots during development phase. They could even delete whole folder and regerneante the client, then the slow fetching big binary file would bring the dev experience down. So they made a copy inside @prisma/client to just incase .prisma/client need it.
 
-
-node用户对于node_modules/@prisma/engines只有读权限，自然无法写入。这个时候别急着*chmod -R g=rwx ./node_modules/@prisma/engines*，最好的办法是利用dev entrypoint+bin/bash直接登录上去在容器里模拟现实场景运行*yarn prisma migrate deploy*，可以发现是同样的错误。
-
-![prismaEngineMissing.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaEngineMissing.png)
-
-但是问题来了，为什么需要往*node_modules/@prisma/engines*目录下面去写入了，而不是去生成的目录*node_modules/.prisma/client*写入？跟本地一对比可以看到在node_modules/@prisma/engines下面缺失了libquery_engine-linux-musl.so.node这个查询引擎二进制文件。虽然官方文档没仔细写，大概可以推测因为二进制文件是比较大，生成费时费力，而prisma generate或者prisma migrate deploy会跑的次数比较多，所以临时生成的文件夹（带有js，ts和binary target)，需要不断的生成，但是二进制文件基本上系统级别的依赖，不用每次跟着ts/js生成，所以放一份放到了@prisma/engines下面，这样假设.prisma目录删除重新生成时候，只需要从@prisma那里复制下二进制文件即可。所以当prisma检测到@prisma/engines没有二进制文件，就会主动去下载对应的查询引擎二进制文件，导致需要node_modules/@prisma/engines目录下写入。
-
-所以解决办法就是在从devDep构建阶段那边复制.prisma依赖的同时复制@prisma，再一个因为openssl1.1并没有在Alpine里原生支持，所以还需要安装openssl1.1.
+A quick workaround would be copy @prisma from devDep stage and remember to install OpenSSL 1.1.
 
 ```docker
 COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma
-COPY  --from=dev-dep /home/node/node_modules/@prisma ./node_modules/@prisma  #同时复制
-# need migrations
+COPY  --from=dev-dep /home/node/node_modules/@prisma ./node_modules/@prisma 
 COPY libs/db/prisma ./libs/db/prisma 
 COPY package.json yarn.lock .yarnrc ./  
 
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache openssl1.1-compat=1.1.1t-r0
+RUN apk update && apk add  --no-cache openssl1.1-compat=1.1.1t-r0
 EXPOSE 7021    
 USER node     
 ENTRYPOINT [ "npm" ,"run"]    
 CMD ["start:prod_frontend"]  
 ```
 
-构建之后发现运行没有问题：
+Run again, no problem.
 
 ```terminal
 docker run d61f5e95f91754a3ad8d71cf232a6f09a5a81025aa767b6a8170158bc132165b
@@ -745,10 +737,9 @@ Done in 1.88s.
 [Nest] 17   - 02/26/2023, 4:49:59 AM   [NestFactory] Starting Nest application...
 ```
 
+We pregenerate all the ts,js and binary file for the prisma client to use. The advantage is that when container start, *yarn prisma migrate deploy* doesn't need to fetch over internet and generate clients, so the startup time is fast. THe disadvatange is that the size of docker image would be bigger as we include two copies of binary target. 
 
-这个方法是提前将二进制文件下载生成好打包到镜像中，好处是启动时候yarn prisma migrate deploy无法网络请求查询引擎二进制文件，坏处是生成的镜像包体积会变大640MB（相比之前420MB）。也就说明这个二进制文件其实还是挺大的，特别是两个地方@prisma和.prisma都有独立的文件，不是软链接。这个其实也有办法可以优化二进制文件的大小（后面会谈到），因为有两处使用，优化好应该可以节省不少空间。
-
-还有一种是不复制@prisma和.prisma到镜像中，利用yarn prisma migrate deploy会自动检查拉取二进制文件带@prisma/engine并生成对应的.prisma/client目录.
+Another way to not copy those two folders to docker image. When starting up, the script *yarn prisma migrate deploy* will automatically check NodeJS-API and download the binary target file, then generate clients.
 
 ```diff
 - COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma #没有必要 
@@ -756,22 +747,20 @@ Done in 1.88s.
 + RUN chmod -R g=rwx ./node_modules/@prisma/engines #开放此文件夹权限，因为yarn install是root,node用户只能读
 + ENV PRISMA_BINARIES_MIRROR http://prisma-builds.s3-eu-west-1.amazonaws.com #国内这个速度还行，不然有的你等
 ```
+The pros are the size of final docker image is smaller. The cons are it need download binary file and generate clients - both are time consuming. 
 
-这样的好处是打包镜像体积很小，440MB左右。但是缺点是容器启动时候需要： 1.下载二进制文件，2：运行prisma generate生成客户端。这两件事会影响容器启动的时间，可以的话可以考虑自己架个内部镜像。
+### Other improvement tips
 
 
+* Keep base images up to date - from performance and security perspective
+* Minimize size of each layer as much as you can. For example, node_modules, aka the black hole, you could consider use tools like [depcheck - npm (npmjs.com)](https://www.npmjs.com/package/depcheck) to scan the dependencies and remove those unused ones; also be careful with whether new dependecy should go to dev env or prod env.
+* Keep packages or dependencies up to date. [npm-check-updates - npm (npmjs.com)](https://www.npmjs.com/package/npm-check-updates) could help to detect any version updates in npm registry. Here it shows we got a version update for prisma: 
 
-### 其他改善
+> prisma                              ^3.1.1  →    ^4.10.1
 
-还有一些其他的改进的建议：
+That actually solved the OpenSSL issues, it also comes with better query efficiency and smaller the binary target.
 
-* 尽量使用最新的基础镜像 - 不管从性能还是安全性角度来看
-
-* 缩减每一层的打包的大小；比如yarn install这里，可以考虑使用包管理辅助工具比如[depcheck - npm (npmjs.com)](https://www.npmjs.com/package/depcheck)来扫描代码中没有使用到的包，从而将其剔除出去来减少node_modules的大小
-
-* 尽可能的将项目依赖的版本保持最新。可以使用一些工具[npm-check-updates - npm (npmjs.com)](https://www.npmjs.com/package/npm-check-updates)来检查是否有版本的更新，比如这里就有提示 *prisma                              ^3.1.1  →    ^4.10.1*。实际上在prisma后来发布的[版本](https://github.com/prisma/prisma/releases)里，他们已经优化了OpenSSL的支持，同时大幅度缩小了二进制文件的大小。
-
-  [Release 4.10.0 · prisma/prisma (github.com)](https://github.com/prisma/prisma/releases/tag/4.10.0)
+[Release 4.10.0 · prisma/prisma (github.com)](https://github.com/prisma/prisma/releases/tag/4.10.0)
 
   > Smaller engine size used in Prisma CLI
   >
@@ -779,10 +768,9 @@ Done in 1.88s.
   >
   > In this release, we've reduced the size of Prisma CLI by removing the Introspection and Formatter engines. The introspection functionality is now served by the Migration Engine. A cross-platform Wasm module has entirely replaced the Formatter Engine. This reduces the overall installation size for Prisma CLI.
 
-  在4.8.0版本里将查询引擎的大小缩小了50%，更符合了轻量化上云的要求。
-
+  The size of query engine has dropped 50%. That is impressive!
   
-## 最终Dockerfile
+## Final Dockerfile
 
 
 ```docker
@@ -827,7 +815,7 @@ CMD ["start:prod_frontend"]
 # ENTRYPOINT ["tail", "-f", "/dev/null"]
 ```
 
-## 引用
+## References
 
   * [Optimizing builds with cache management (docker.com)](https://docs.docker.com/build/cache/)
   * [Multi-stage builds (docker.com)](https://docs.docker.com/build/building/multi-stage/)
