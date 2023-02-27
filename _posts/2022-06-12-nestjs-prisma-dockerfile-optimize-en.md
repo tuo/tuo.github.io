@@ -586,7 +586,9 @@ RUN yarn prisma:generate
 FROM node:16-alpine as nest-build
 WORKDIR /home/node 
 COPY --from=prisma-binary /home/node/node_modules/ ./node_modules/
-COPY . . 
+COPY apps/frontend ./apps/frontend 
+COPY libs ./libs
+COPY nest-cli.json tsconfig.json libs .
 RUN yarn run build-frontend   
 
 FROM node:16-alpine as prod-dep
