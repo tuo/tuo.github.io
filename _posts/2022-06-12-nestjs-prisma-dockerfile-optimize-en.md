@@ -2,7 +2,7 @@
 layout: post
 title: "NestJS+Prisma Dockerfile build optimization"
 date: 2022-06-12 12:55:32 +0800
-published: true
+published: false
 tags: nestjs,prisma,docker,dockerfile
 ---
 
@@ -236,7 +236,6 @@ server ➤ docker images                                                        
 frontend-api   latest    93727cf78c85   About an hour ago   1.53GB
 ```
 Before diving into the optimization, let's take a look at how Docker build image based on the Dockerfile.
-在怎么优化之前，可以先了解Docker如何根据Dockerfile里的指令构建镜像的。
 
 ```docker
 FROM node:16-alpine  #Layer n
@@ -729,7 +728,6 @@ Another way to not copy those two folders to docker image. When starting up, the
 The pros are the size of final docker image is smaller. The cons are it need download binary file and generate clients - both are time consuming. 
 
 ### Other improvement tips
-
 
 * Keep base images up to date - from performance and security perspective
 * Minimize size of each layer as much as you can. For example, node_modules, aka the black hole, you could consider use tools like [depcheck - npm (npmjs.com)](https://www.npmjs.com/package/depcheck) to scan the dependencies and remove those unused ones; also be careful with whether new dependecy should go to dev env or prod env.
