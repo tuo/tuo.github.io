@@ -255,23 +255,23 @@ ENTRYPOINT [ "npm" ,"run"]    #Layer n+11
 CMD ["start:prod_frontend"]   #Layer n+12
 ```
 
-The process is like Jenga game, putting layer on top of another layer like stack. *From node:16-alpine* is layer n, *COPY . /home/node* is layer n+1， which comes after the layer n. Each instruction corresponds to a layer, and finally the docker images is just a bunch of layers stacked togher. The most common used instruction is *COPY* and *RUN*.
-COPY deals with files related operations, like copy files from current directory of the build context to the layer in docker image; RUN is used for executing shell comands or scripts.
+The process is like a game of Jenga, where each layer is placed on top of another layer like a stack. *From node:16-alpine* is layer n, *COPY . /home/node* is layer n+1， which comes after the layer n. Each instruction corresponds to a layer, and finally, the docker images is just a bunch of layers stacked togher. The most commonly used instructions are *COPY* and *RUN*.
+COPY deals with file-related operations, such as copying files from current directory of the build context to the layer in docker image, while RUN is used for executing shell commands or scripts.
 
-The whole proces takes a quite amount time when first build. But second time, it will go much faster as Docker provide a cache for repetive work to speed up build process. And how the cache works? It simply remember whether or no you made change to this current layer. If any change detected in layers, itself and following layers will get a rebuild. It is like you pull a block from Jenga, except in Docker build, all blocks will get rebuild on top of where that block got pulled.
+The whole process takes a considerable amount of time when built for the first time. However, the second time, it will go much faster as Docker provides a cache for repetive work to speed up the build process. How does the cache work? It simply remembers whether you made changes to the current layer. If any changes are detected in the layers, itself and following layers will get a rebuild. Like the Jenga game, all blocks will get rebuild on top of where that block got pulled.
 
-Clearly in above Dockerfile, if you modified *./libs/db/prisma/schema.prisma* file to, e.g. add a new table or table field, which says *Layer n+3* - *COPY . /home/node* has made some change since ./libs/db/prisma/schema.prisma is under current build context directory, Docker is smart enough to spot that change and trigger a rerun of that instruction and all instructions below - invalidate the build cache.
+Clearly, in the above Dockerfile, if you modified *./libs/db/prisma/schema.prisma* file to, e.g, add a new table or table field, it will trigger a rebuild starting from Layer n+3 - COPY . /home/node since ./libs/db/prisma/schema.prisma is under the current build context directory. Docker is smart enough to spot that change and trigger a rerun of that instruction and all instructions below - invalidating the build cache.
 
 
 ![buildFlow.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/buildFlow.png)
 
-You may wondering that I only changed schema.prisma, it should just trigger prisma to regenerate its client and rebuild the nest project and nothing more. But it is also trigger yarn install which I didn't even touch. Yeah, that Dockerfile is not very efficient. There are a couple of ways to improve it:
+You may be wondering that if you only changed schema.prisma, it should just trigger prisma to regenerate its client and rebuild the nest project and nothing more. However, it also triggers "yarn install", which you didn't even touch. Yeah, that Dockerfile is not very efficient. There are a couple of ways to improve it:
 
 
 ### 1.Order your layers
 
-Yeah, any change on source code, not package.json or yarn.lock will trigger Docker to reinstall all packages for project. Acutally the *COPY . /home/node* happens to do two things at one time: 1. copy project dependencies, 2. copy source code. Those two not only comes with differnet responseibility , but also comes with different change frequency.
-The time you modify your porject dependenci is significatntly less that the tiome you modify souce code. So the Dockerfile could change to :
+Any change in the source code, not just package.json or yarn.lock, will trigger Docker to reinstall all packages for the project. Acutally, the *COPY . /home/node* happens to do two things at one time: 1. copy project dependencies, 2. copy source code. Those two not only comes with differnet responsibilities but also comes with different modify frequencies. The time you modify your project dependencies is significantly less than the time you modify the source code. So the Dockerfile could be changed to:
+
 
 ```docker
 COPY package.json yarn.lock .yarnrc .
@@ -284,7 +284,7 @@ ENV NODE_ENV production
 RUN yarn run build-frontend   
 ```
 
-Different modify frequences sginals that possible diffrent modules. Most project's Dockerfile could be breakdown roughly to following stages:
+Different modify frequencies sginal possible different modules of reponsibilities. Most project Dockerfiles could be broken down into the following stages:
 
 1. prepare the operating system, base image - one time only
 2. install system level libraries - most of time, one time only 
@@ -323,21 +323,21 @@ CMD ["start:prod_frontend"]
 
 ### 2.Keep layers small
 
-Generally the instruction *COPY . .* indicates there is some bad smell there. Even though you put files you dont' want include in .dockerignore to tell Docker to skip certain files, like common files or directories *node_modules* and build artificats folder *dist*, it is recommended that you explicitly write down what files you want to include in instruction. To explicitly naming what you want to include helps you to think what you're gonna use it for, typically copy files is just first step, it is usally used as an input for following steps.
+Generally, the instruction *COPY . .* indicates there is some bad smell in the Dockerfile. Even if you use a .dockerinogre file to tell Docker to skip certain files, like common files or directories such as *node_modules* and *dist*, it is recommended that you explicitly write down what files you want to include in the instruction. Explicitly naming what you want to include helps you think about what you're gonna use it for. Typically, coping files is just the first step, and it is usally used as an input for following steps.
 
 ```docker
 # 4.copy source code, generate prisma client
 COPY . .
 RUN yarn prisma:generate  
 ```
-The step who takes input is *RUN yarn prisma:generate*, what does it do? it takes a package.json and look up where the *schema.prisma* is located. Once it find the path to schema.prisma, aka *libs/db/prisma/schema.prisma*, it loads that file and then use @prisma/client package to generate prisma client files. So this instructions takes two files: 
-package.json and libs/db/prisma/schema.prisma. Therefore the input of this instruction, just need copy those two files, not the whole code base.
+The step that takes input is *RUN yarn prisma:generate*. What does it do? it takes a package.json file and looks up where the *schema.prisma* is located. Once it finds the path to schema.prisma, aka *libs/db/prisma/schema.prisma*, it loads that file and then uses @prisma/client package to generate prisma client files. So this instruction takes two files: 
+package.json and libs/db/prisma/schema.prisma. Therefore, the input of this instruction just needs to copy those two files, not the all files in codebase.
 
     * command: yarn prisma generate
     * input:   package.json and libs/db/prisma/schema.prisma
     * output:  node_modues/.prisma/client
 
-The same idea applies to the *RUN yarn run build-frontend* instruction, which runs *nest build frontend* to build frontend related source code to dist folder. So source codes doesn't need include apps/backend and apps/frontend-emp, just need frontend and shared libs, alone with package.json and nest-cli.json.
+The same idea applies to the *RUN yarn run build-frontend* instruction, which runs *nest build frontend* to build frontend-related source code to the dist folder. So source code doesn't need include apps/backend and apps/frontend-emp, it just needs frontend and shared libs, alone with package.json and nest-cli.json.
 
     * command: yarn run build-frontend
     * input:   apps/frontend, libs, package.json and nest-cli.json
@@ -358,22 +358,22 @@ RUN yarn run build-frontend
 
 ### 3. RUN: Combine commands together wherever possible
 
-When Docker build try to decide whether layer need rebuild or not, it will check with cache. If cache was hit, then no need to rebuild this layer, if not hit, it will run the instructions and rebuild the current layer and following layers. How does the cache work? How does this calculate process work ? [Best practices for writing Dockerfiles: Leverage build cache](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) mentioned that Docker will do a file read and calculate its content checksum and compare with the one the exsting image for the COPY insturction, and a command string literal equal check for the RUN instruction. Let's take a look the common command apk/apt-get for RUN instructions:
+When Docker build tries to decide whether a layer needs to be rebuilt or not, it checks with the cache. If the cache was hit, then there is no need to rebuild this layer. If not, it will run the instructions and rebuild the current layer and following layers. How does the cache work? How does this calculation process work ? [Best practices for writing Dockerfiles: Leverage build cache](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) mentions that Docker will do a file read and calculate its content checksum and compare it with the one the exsting image for the COPY insturction, and do a command string literal equal check for the RUN instruction. Let's take a look at the common command apk/apt-get for RUN instructions:
 
 ```docker
 RUN apk update        
 RUN apk add openssl1.1-compat 
 ```
 
-Initially the instructions seems okay. *apk update* will fetch initially indexs(e.g name, versions, etag) of packages in remote repositories. *apk add openssl1.1-compat* then will get installed with latest version from indexes. 
+Initially the instructions seems okay. *apk update* will fetch indexs(e.g name, versions, etag) of packages from remote repositories. *apk add openssl1.1-compat* will then get installed with the latest version from the indexes. 
 
-Suppose at this time, libs versions in apk repos are:
+Suppose at this time, the latest versions of libraries in apk repos are:
 
 > openssl1.1-compat=1.0
 > wget=1.0
 > curl=1.0
 
-The current latest versions of* openssl1.1-compat* is *1.0* and it will get installed. Then the whole thing got forgotten for ten years and it need add another library: *wget*.
+The current latest versions of *openssl1.1-compat* is *1.0*, and it will get installed. Then the whole thing gets forgotten for ten years, and it needs to add another library: *wget*.
 
 ```docker
 RUN apk update        
@@ -387,18 +387,18 @@ Ten years after, the apk repos is like:
 > curl=1.9
 
 
-To your surpise, the versions in final docker image got built is: openssl1.1-compat (1.0 old) and wget (1.0 old too). What happens here is that docker saw `("RUN apk update") in dockerfile == ("RUN apk update") in docker image` - two command strings equals! Then it will pick up the cache and skip actually rebuild this layer , etc run apk update to actuall y update local indexes from remote repo. It ends up with old packages info in the local. The next insturction `("RUN apk add openssl1.1-compat wget") in dockerfiler != ("RUN apk add openssl1.1-compat") in docker image`, then cache is invlidated and this layer need rebuild hence run apk install with wget version 1.0.
+To your surpise, the versions in the final docker image that got built are openssl1.1-compat (1.0 old) and wget (1.0 old too). What happened here is that Docker saw `("RUN apk update") in dockerfile == ("RUN apk update") in docker image` - two command strings equals! Then it picked up the cache and skipped actually rebuilding this layer. As a result, it didn't run "apk update" to actuall y update local indexes from remote repo. It ended up with old and stale packages info in the local. The next insturction `("RUN apk add openssl1.1-compat wget") in dockerfiler != ("RUN apk add openssl1.1-compat") in docker image`, then the cache was invalidated, and this layer needed to be rebuilt, hence running apk install with wget version 1.0.
 
-So if it is just command string literal compare, we could just merge those into one command:
+So if it is just a command string literal compare, we could just merge those two into one command:
 
 ```diff
 - RUN apk update && apk add openssl1.1-compat
 + RUN apk update && apk add openssl1.1-compat wget
 ```
 
-Now docker sees *apk update && apk add openssl1.1-compat* != *apk update && apk add openssl1.1-compat wget*, it will invlaidate the cache and rebuild the layer , which is ccalled *cache busting*. Now apk update will fetch latest indexes and apk install will install the latest version. The version of wget will be  1.9, however the version of openssl1.1-compat is 1.9 too. This bump from 1.0 -> 1.9 might accidently break our code and cause some surpises.
+Now, Docker sees *apk update && apk add openssl1.1-compat* != *apk update && apk add openssl1.1-compat wget*, it will invalidate the cache and rebuild the layer, which is called *cache busting*. Now apk update will fetch the latest indexes, and apk install will install the latest version. The version of wget will be  1.9. However, the version of openssl1.1-compat is 1.9 too. This bump from 1.0 to 1.9 might accidentally break our code and cause some troubles.
 
-Rule of thumb is to lock down the version info for packages. This is called version pinning, you could search what versions that packages has for that archetcture. FOr example, for apk, you could go to [Alpine Linux packages](https://pkgs.alpinelinux.org/packages?name=openssl1.1-compat&branch=edge&repo=&arch=&maintainer=) or *apk search* to look up version informations. For openssl1.1-compat, its version we picked is *[1.1.1t-r0](https://pkgs.alpinelinux.org/flag/community/openssl1.1-compat/1.1.1t-r0)*.  
+The rule of thumb is to lock down the version info for packages. This is called version pinning, you could search for what versions those packages have for that architecture. For example, for apk, you could go  [Alpine Linux packages](https://pkgs.alpinelinux.org/packages?name=openssl1.1-compat&branch=edge&repo=&arch=&maintainer=) or *apk search* to look up version informations. For openssl1.1-compat, its version we picked is *[1.1.1t-r0](https://pkgs.alpinelinux.org/flag/community/openssl1.1-compat/1.1.1t-r0)*.  
 
 ```docker
 RUN apk update && apk add openssl1.1-compat=1.1.1t-r0 wget=1.9
@@ -410,7 +410,7 @@ That's better. let's examine this command:
     * input:   none
     * output:  openssl1.1-compat lib and wget lib, plus cache under /var/cache/apk/
 
-It has some byproducts from the typical package management tools - the cache. We also need cleanup that as it is not necessary.
+It has some byproducts from the typical package management tools - the cache. We also need clean that up as it is not necessary.
 
 ```docker
 RUN  apk update && apk add openssl1.1-compat=1.1.1t-r0 && rm -rf /var/cache/apk/*
@@ -422,7 +422,7 @@ or add *--no-cache* flag to apk install:
 RUN  apk update && apk add --no-cache openssl1.1-compat=1.1.1t-r0 
 ```
 
-Given the installion of systme libraraires are pretty much one-off, you rarelly borther to use cache between build to reuse it. However if you really want to cache between builds to speed up installtion proces, you could try leverage docker builder's new build feature *BuildKit*:
+Given the installion of system libraries are pretty much one-off, you rarelly need to bother to use cache between build to reuse it. However, if you really want to cache between builds to speed up installation proces, you could try leveraging Docker builder's new build tech *BuildKit*:
 
 ```docker
 RUN \
@@ -435,36 +435,35 @@ It is like mounting a dedicated volume for that, so the cache will be preserverd
 
 ### 4. NPM/Yarn install packages  
 
-when Docker build layer on *RUN yarn install*, it is quite slow and takes quite big size *1.19G* out of *1.53G* total final docker image size. Just like apk add system level packages, yarn install also will leverage cache.
+when Docker build a layer on *RUN yarn install*, it is quite slow and takes quite a big size *1.19G* out of *1.53G* total final docker image size. Just like adding system-level packages with apk add, yarn install also leverages cache.
 
     * command: yarn install
     * input:   package.json yarn.lock .yarnrc
     * output:  node_modules, plus cache 
 
-Put it simply, when *yarn install* happens, it will fetch package's compressed file and a [metadata](https://github.com/npm/registry/blob/9e368cf6aaca608da5b2c378c0d53f475298b916/docs/responses/package-metadata.md#abbreviated-metadata-format)(name,version,modified time etc) file from *npm registry*, then save those to local directory that environment variable `YARN_CACHE_FOLDER` points to, finally decompress it to node_modules folder.
+Put it simply, when *yarn install* happens, it fetches the package's compressed file and a [metadata](https://github.com/npm/registry/blob/9e368cf6aaca608da5b2c378c0d53f475298b916/docs/responses/package-metadata.md#abbreviated-metadata-format)(name,version,modified time etc) file from *npm registry*, then saves those to the local directory that environment variable `YARN_CACHE_FOLDER` points to, finally decompressing it to the node_modules folder.
 
 ```docker
 RUN yarn cache dir && yarn install && yarn cache clean
 ```
-The output is clean now but there is problem with this. If you need add/update/delete package in package.json and update its yarn.lock file, everytime you build the docker image, it will fetch from remote, save to cache folder and move to node_modules folder for all packages even if you just add one new package for exmaple. With the help of proper ordering the layer and relatively low frequency of changing project dependencies, this alredy got mitigated a lot.
+The output is clean now, but there is problem with this approache. If you need to add/update/delete a package in the package.json and updates its yarn.lock file, every time you build the docker image, it will fetch from remote repository, save to the cache folder, and move to the node_modules folder for all packages, even if you just want to add one new package. With the help of proper ordering of the layers and relatively low frequency of changing project dependencies, this problem has alredy been mitigated to a great extent.
 
-But there are possible chances that you need update packages, to make it even worse, like moments for some critical bug fixes for live running applications,  this would put lots of congnitive load on you. It is helpful that we could dig more into ti and figure out why and how it could be improved.
+However, there are possible chances that you need update packages, and to make it even worse, like moments for some critical bug-fixing for live running environment, this would put a lot of congnitive load on you. Therefore, it is helpful to dig more into it and figure out why and how it could be improved.
 
 * ##### BuildKit
 
-First you could lverage the [BuildKit](https://docs.docker.com/build/buildkit/),the new docker builder, to act like a mounted volume for caches between builds. Buildkit not only tracks content mounted for specific operations, but also it could do like parellelize builiding indepdent build stages in [Multi-stage builds](https://docs.docker.com/build/building/multi-stage/). Here we're gonna use *RUN --mount type=cache* to mount to yarn install operation:
-
+One way to address this is to leverage the [BuildKit](https://docs.docker.com/build/buildkit/), the new Docker builder, to act like a mounted volume for caches between builds. BuildKit not only tracks content mounted for specific operations but also can parallelize building independent build stages in [Multi-stage builds](https://docs.docker.com/build/building/multi-stage/). Here, we're going to use RUN --mount type=cache to mount the yarn install operation:
 
 ```docker
 RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install 
 ```
 
-Set mount type to cache and target to some directory, then overwrite yarn cache folder with that directory by setting *YARN_CACHE_FOLDER* enviroment evariable for yarn install.My Docker Desktop on mac is 4.16.2 (95914), which has built-in support for Buildkit and default it is on. You better check which docker version you install and maybe need explicit configure it to enable Buildkit.
+To do this, set the mount type to cache and target to some directory, then overwrite yarn cache folder with that directory by setting the *YARN_CACHE_FOLDER* enviroment variable for yarn install. My Docker Desktop on Mac is 4.16.2 (95914), which has built-in support for Buildkit and is on by default. You should check which docker version you have installed and may need to explicitly configure it to enable Buildkit.
 
 ```terminal
 <missing>      2 minutes ago    RUN /bin/sh -c YARN_CACHE_FOLDER=/cache/yarn…   628MB     buildkit.dockerfile.v0
 ```
-This way the cache - yarn install byproduct - will not be included in output thus get to layer in docker image. We dont' need to clean the cache after yarn install. The result is the a hugh drop in terms of docker image size: from 1.19G to 628M. Not bad at all!
+This way, the cache - yarn install byproduct - will not be included in the output thus will not go to a layer in docker image. We dont' need to clean the cache after yarn install. The result is a huge drop in terms of docker image size: from 1.19G to 628M. Not bad at all!
 
 * ##### yarn install --perfer-offline
 
@@ -475,12 +474,12 @@ Le't try add brand new package, *yarn add underscore@1.13.6*, then build:
 => [stage-0 5/9] RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install                                                                                                                                                                   114.3s
 ```
 
-roughly 114 seconds, like 2 minutes. Only add this new package *understore*, the time is kinda too long for this.
+roughly 114 seconds, like 2 minutes. Only add this new package *understore*, the time is kinda too long for this simple task.
 
-It is time to take a look at how *yarn install* works. By default, everytime it run yarn install, it will use the version,name and integrity to check any matched one in local cache. 
+It is time to take a closer look at how *yarn install* works. By default, everytime it runs yarn install, it will use the version,name and integrity to check if there is a matche in the local cache. 
 
-* if match, it will send 304 request to check if the one in local cache is stale or not; if stale, then download new package info, otherwise just use the one in local cache
-* if no match, fetch latest data from remote to local cache
+* if there is a match, it will send a 304 request to check if the one in local cache is stale or not; if stale, it will download new package info. Otherwise, it will just use the one in local cache
+* if there is no match, it will fetch latest data from remote repository to the local cache
 
 <div id="mermaid-npm">
 <div class="mermaid">
