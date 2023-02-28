@@ -720,10 +720,10 @@ We pre-generate all the TS, JS and binary files for the prisma client to use. Th
 Another way to avoid copying those two folders into the Docker image is to have the script yarn prisma migrate deploy check the NodeJS-API and download the binary target file when starting up, and then generate clients.
 
 ```diff
-- COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma #没有必要 
-- COPY  --from=dev-dep /home/node/node_modules/@prisma ./node_modules/@prisma #没有必要
-+ RUN chmod -R g=rwx ./node_modules/@prisma/engines #开放此文件夹权限，因为yarn install是root,node用户只能读
-+ ENV PRISMA_BINARIES_MIRROR http://prisma-builds.s3-eu-west-1.amazonaws.com #国内这个速度还行，不然有的你等
+- COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma 
+- COPY  --from=dev-dep /home/node/node_modules/@prisma ./node_modules/@prisma 
++ RUN chmod -R g=rwx ./node_modules/@prisma/engines #permission
++ ENV PRISMA_BINARIES_MIRROR http://prisma-builds.s3-eu-west-1.amazonaws.com #speed up in China
 ```
 The pros are the size of final docker image is smaller. The cons are it need download binary file and generate clients - both are time consuming. 
 
