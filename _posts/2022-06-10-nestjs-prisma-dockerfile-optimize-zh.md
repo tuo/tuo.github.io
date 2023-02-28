@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NestJS+Prisma Dockerfile构建优化"
+title: "NestJS+Prisma Dockerfile 构建优化"
 date: 2022-06-10 12:55:32 +0800
 published: true
 tags: nestjs,prisma,docker,dockerfile

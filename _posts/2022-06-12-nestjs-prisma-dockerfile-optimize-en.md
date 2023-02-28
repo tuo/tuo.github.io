@@ -2,11 +2,11 @@
 layout: post
 title: "NestJS+Prisma Dockerfile build optimization"
 date: 2022-06-12 12:55:32 +0800
-published: false
+published: true
 tags: nestjs,prisma,docker,dockerfile
 ---
 
-Recently, a NodeJS project has been developed by using web framework [NestJS 7.0](https://nestjs.com/) and ORM [Prisma 3.1.1](https://www.prisma.io/) for the backend. The reason to choose those two tech as stack at that time seems quite oblivious: both support Typescript natively and allow for isomorphic development with React in the frontend. The backend has been divided into three modules roughly based on the platform to which its API is served: backend, frontend and frontend-emp. Apart from that, there are some shared libs, e.g. prisma schema defition , migration scripts and uitls. The structure of the codecase looks like following:
+Recently, There was a NodeJS project developed by using web framework [NestJS 7.0](https://nestjs.com/) and ORM [Prisma 3.1.1](https://www.prisma.io/) for the backend. The reason to choose those two tech as stack at that time seems quite oblivious: both support Typescript natively and allow for isomorphic development with React in the frontend. The backend has been divided into three modules roughly based on the platform to which its API is served: backend, frontend and frontend-emp. Apart from that, there are some shared libs, e.g. prisma schema defition , migration scripts and uitls. The structure of the codecase looks like following:
 
 ```terminal
 ├── Dockerfile.backend
@@ -286,12 +286,12 @@ RUN yarn run build-frontend
 
 Different modify frequencies sginal possible different modules of reponsibilities. Most project Dockerfiles could be broken down into the following stages:
 
-1. prepare the operating system, base image - one time only
-2. install system level libraries - most of time, one time only 
-3. install project dependecies -  sometimes, you might add/remove/update your packages
-4. modify your source code in codebase - daily, most often
-5. build 
-6. run - trivail
+1. Prepare the operating system and base image - this step is required only once.
+2. Install system-level libraries - this step is also usually required only once.
+3. Install project-level dependecies -  this step may need to be repeated if packages are added, removed, or updated
+4. Modify your source code in codebase - this step is typically done on a daily basis.
+5. Build your project
+6. Run it
 
 With this order in place, we could change the Dockerfile to:
 
@@ -502,17 +502,17 @@ flowchart TD
 </div>
 
 <br/>
-Those extra 304 requests should be the culprits. The more packages you have, the longer it would take. Is there any way to adjust the fetch behavior? 
+Those extra 304 requests may be the culpritsm as the more packages you have, the longer it takes. Is there any way to adjust the fetch behavior? 
 
-From this npm blog [NPM v5.0.0](https://blog.npmjs.org/post/161081169345/v500) and [PNPM](https://pnpm.io/cli/install#--prefer-offline), there is one option there for yarn install - `--prefer-offline` - which will make npm skip any conditional requests (304 checks) for stale cache data, and only hit the network if something is missing from the cache.
+According to the npm blog [NPM v5.0.0](https://blog.npmjs.org/post/161081169345/v500) and [PNPM](https://pnpm.io/cli/install#--prefer-offline), there's an option for yarn install - `--prefer-offline` - that makes npm skip any conditional requests (304 checks) for stale cache data and only hit the network if something is missing from the cache.
 
 ```terminal
 => [stage-0 5/9] RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install --prefer-offline                                                                                                                                                   61.7s
 ```
 
-The time has been shrinked from 114.3s to 61.7s :) 
+By using this option, we managed to reduce the installation time from 114.3s to 61.7s :) 
 
-If you want to go completely offline, you could use the methods in the blog [Running Yarn offline](https://classic.yarnpkg.com/blog/2016/11/24/offline-mirror/) to configure *yarn-offline-mirror* and *yarn-offline-mirror-pruning* to pack the dependecies to zip/tarball and upload to souce control. When you build docker image, yarn could directly load packages from offline mirror folder and move to node_modules folder.
+If you want to go completely offline, you could use the methods outlined in the blog [Running Yarn offline](https://classic.yarnpkg.com/blog/2016/11/24/offline-mirror/) to configure *yarn-offline-mirror* and *yarn-offline-mirror-pruning* to pack the dependecies to zip/tarball and upload to souce control. When you build docker image, yarn could directly load packages from the offline mirror folder and move them to the node_modules folder.
 
 <br/>
 
@@ -521,18 +521,18 @@ If you want to go completely offline, you could use the methods in the blog [Run
 
 Let's recall the steps we breakdown in previous step:
 
-> 1. prepare the operating system, base image - one time only
-2. install system level libraries - most of time, one time only 
-3. install project dependecies -  sometimes, you might add/remove/update your packages
-4. modify your source code in codebase - daily, most often
-5. build 
-6. run - trivail
+> 1. Prepare the operating system and base image - this step is required only once.
+2. Install system-level libraries - this step is also usually required only once.
+3. Install project-level dependecies -  this step may need to be repeated if packages are added, removed, or updated
+4. Modify your source code in codebase - this step is typically done on a daily basis.
+5. Build your project
+6. Run it
 
-If we put all those together, we need remember the input and output. THe output could have some unexpected byproduct that probably involves some custom cleanup shell scripts. Just think about the final image, the running part, if it is golang, it only just need a binary executeable to run - it is that simple. Here in NestJS project, it requires more files - three parts: dist folder, node_modules folder and package.json file. Ideally you just need those three layers for each one - as to how it got gnereated, mind your busniess. Like Object oreiente programmming, coudl wejust encapsutlate the implemtation details and have a clear interace like high-level abstraction to express how we  breakdown the above process? Any concret implmeation details like intermidated byproduct is not my concern and hsouldn't be!
+When putting all these steps together, we need to keep in mind the input and output. THe output could have some unexpected byproduct that probably involves some custom cleanup shell scripts. Just think about the final image and the running part - if it's in Golang, it only needs a binary executeable to run. It is that simple. However, in NestJS project, it requires more files - three parts: dist folder, node_modules folder, and package.json file. Ideally, we only need those three layers for each one. We should encapsulate the implementation details and have a clear interface or high-level abstraction just like Object-oriented programming (OOP). Any concret implementation details like intermediate or byproducts are not my concerns and shouldn't be!
 
 > [Multi-stage builds](https://docs.docker.com/build/building/multi-stage/) allow you to drastically reduce the size of your final image, without struggling to reduce the number of intermediate layers and files.
 
-Multi-stage builds is what we want here. Now we have a naive sequence of stages:
+Multi-stage builds is what we want here. Currently, we have a naive sequence of stages:
 
     devDependecies(yarn install) ->  .prisma/client(prisma gnerate) ->  dist (nest-build) -> prodDependecies(yarn install --production)
     
@@ -589,11 +589,11 @@ ENTRYPOINT [ "npm" ,"run"]
 CMD ["start:prod_frontend"]  
 ```
 
-The final stage is one where its layer will get to the final docker image. *COPY  --from=prisma-binary* to explictly copy output of from stage to current stage and the fromStage is ephermeral - all those intermidate will not bring to referring stage. That way it would create minimal layers in the final docker image hence reduce the docker image size.
+The final stage is one where its layer will get to the final docker image. We can use *COPY  --from=prisma-binary* to explictly copy the output from previous stage to the current stage, and the fromStage is ephermeral - all those intermediate stages will not brought to the referring stage. That way, it would create minimal layers in the final docker image , hence reducing the docker image size.
 
-You may wondering why we need have separate stage for *prod-dep* to yarn install production dependencies again, why not just copy the all dependeices from *dev-dep*, then run *npm prune* to prune out any development dependecies. The reason is that [*npm prune* equivalent behavior · Issue #696 · yarnpkg/yarn (github.com)](https://github.com/yarnpkg/yarn/issues/696) there isn't any good way to do that in yarn :( 
+You may wonder why we need to have a separate stage for *prod-dep* to yarn install production dependencies again, why not just copy all dependeices from *dev-dep*, then run *npm prune* to prune out any development dependecies. The reason is that there isn't any good way to do that in yarn, as noted in this issue  [*npm prune* equivalent behavior · Issue #696 · yarnpkg/yarn (github.com)](https://github.com/yarnpkg/yarn/issues/696) :( 
 
-The docker image's size has drop to 420MB. node_modules folder is 218MB and .prisma/client is 81.7MB
+The docker image's size has dropped to 420MB. The node_modules folder is 218MB and .prisma/client is 81.7MB
 
 ```terminal
 7 minutes ago   COPY /home/node/node_modules/.prisma ./node_…   81.7MB    buildkit.dockerfile.v0
@@ -610,7 +610,7 @@ History of size changes of docker image:
 
 ### 6. Dockerfile user and permission
 
-By default, Docker containers run as root. That root user is the same root user of the host machine, with UID 0. This could be leveraged by hackers to do malicious attack on host machine. Given the default user is root, we could delete this instructions: *USER root*. [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) suggest use non-root user for services that doens't need privilege. When creating user and group, consider an explicit UID/GID. We could take some inpsirations from the base image (node-16:apline) we used here: [docker-node/Dockerfile at cd7015f45666d2cd6e81f507ee362ca7ada1bfee · nodejs/docker-node (github.com)](https://github.com/nodejs/docker-node/blob/cd7015f45666d2cd6e81f507ee362ca7ada1bfee/18/alpine3.17/Dockerfile)
+By default, Docker containers run as root. That root user is the same root user of the host machine, with UID 0. This could be leveraged by hackers to do malicious attack on host machine. Given the default user is root, we could delete this instructions: *USER root*. [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) suggest using a non-root user for services that don't need privilege. When creating user and group, consider an explicit UID/GID. We can take some inspiration from the base image (node-16:apline) we used here: [docker-node/Dockerfile at cd7015f45666d2cd6e81f507ee362ca7ada1bfee · nodejs/docker-node (github.com)](https://github.com/nodejs/docker-node/blob/cd7015f45666d2cd6e81f507ee362ca7ada1bfee/18/alpine3.17/Dockerfile)
 
  
 > FROM alpine:3.17
@@ -620,7 +620,7 @@ By default, Docker containers run as root. That root user is the same root user 
 > RUN addgroup -g 1000 node \
 >  && adduser -u 1000 -G node -s /bin/sh -D node 
 
-The permission of /home/node directory is under node user. In order to set the running user for container, you could put that *USER* instruction before entrypoint and cmd:
+The permission of /home/node directory is under the node user. In order to set the running user for the container, you could put that *USER* instruction before the entrypoint and cmd:
 
 ```docker
 EXPOSE 7021    
@@ -639,9 +639,9 @@ error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
 
-It looks like we don't have sufficient permission to write to node_modules directory. *yarn install* is running under root user, but the user who runs *prisma migrate deploy* when container is up is node. User node doesn't have enough permission to write to directory owned by user root.
+It looks like we don't have sufficient permission to write to the node_modules directory. *yarn install* is running under the root user, but the user who runs *prisma migrate deploy* when container is up is node. User node doesn't have enough permission to write to a directory owned by user root.
 
-To verify our thought, we'd better to connect to shell of the container(*docker exec -it xxx  /bin/sh*) and run *ls -al* to check node_modules folder's permission. But the container is down when it is just starting, we didn't even have a chance to connect to its shell. What we could do here is in development debug process, we change the CMD/Entrypoint to some script could hang the container forever to prevent it quit too early - something like *tail -f*. Also we need install *bash* system library through apk so we could connect to the bash program and run commands.
+To verify our thought, we'd better to connect to shell of the container(*docker exec -it xxx  /bin/sh*) and run *ls -al* to check node_modules folder's permission. But the container is down when it is just starting, so we didn't even have a chance to connect to its shell. What we could do here is, in development debug process, we change the CMD/Entrypoint to some script could hang the container forever to prevent it from quitting too early - something like *tail -f*. Also we need install the *bash* system library through apk so we could connect to the bash program and run commands.
 
 
 ```docker
@@ -672,7 +672,7 @@ drwxr-sr-x    2 root     node          4096 Feb 25 15:18 download
 -rw-r--r--    1 root     node          1384 Feb 25 12:40 package.json
 ```
 
-As we could see, the group node only has permission to read for *node_modules/@prisma/engines*, but no write permission. Here is a trap: instead of just recklessly add *chmod -R g=rwx ./node_modules/@prisma/engines* to Dockerfile to "fix" it,  you need think what the heck does it need to write to this *node_modules/@prisma/engines* folder? Isn't from the official documents (as we list in above section) saying that it only changes when you re-install the package ? Is *node_modules/.prisma/client* suppose to be change even though we did run a different command *prisma migrate deploy*?
+As we could see, the group node only has permission to read for *node_modules/@prisma/engines*, but no write permission. Here is a trap: instead of just recklessly adding *chmod -R g=rwx ./node_modules/@prisma/engines* to Dockerfile to "fix" it,  you need think about what it needs to write to this *node_modules/@prisma/engines* folder? Isn't from the official documents (as we list in above section) saying that it only changes when you re-install the package ? Is *node_modules/.prisma/client* supposed to be changed even though we did run a different command *prisma migrate deploy*?
 
 > * The @prisma/client module itself, which only changes when you re-install the package:  *node_modules/@prisma/client*
 > * The .prisma/client folder, temporary, which is the default location for the unique Prisma Client generated from your schema: *node_modules/.prisma/client*
@@ -681,7 +681,7 @@ Hmmmm, here is the good part about our dev debug trick to get our container runn
 
 ![prismaEngineMissing.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaEngineMissing.png)
 
-Got same error, good. It looks like the folder *node_modules/@prisma/engines* is missing the query engine file *libquery_engine-linux-musl.so.node* after comparing to my local node_modules folder. I guess it is because query engine binary file is kinda heavyweight, which need fetch over internet and it is like one-off thing. Well, the .prisma/client folder got updated very often as user might change schema.prisma a lots during development phase. They could even delete whole folder and regerneante the client, then the slow fetching big binary file would bring the dev experience down. So they made a copy inside @prisma/client to just incase .prisma/client need it.
+We encountered the same error, which is good, as it appears that the folder *node_modules/@prisma/engines* is missing the query engine file *libquery_engine-linux-musl.so.node* when compared to my local node_modules folder. I guess this is because the query engine binary file is quite large and needs to be fetched over the internet, which is a one-off event. However, the .prisma/client folder is frequently updated as users may modify the schema.prisma file many times during development phase. They may even delete the entire folder and regenerate the client, causing the slow fetching of the large binary file which negatively impacts the development experience and added unnecessary cognitive load on developer. Therefore they made a copy inside @prisma/client to just in case .prisma/client needs it.
 
 A quick workaround would be copy @prisma from devDep stage and remember to install OpenSSL 1.1.
 
@@ -715,9 +715,9 @@ Done in 1.88s.
 [Nest] 17   - 02/26/2023, 4:49:59 AM   [NestFactory] Starting Nest application...
 ```
 
-We pregenerate all the ts,js and binary file for the prisma client to use. The advantage is that when container start, *yarn prisma migrate deploy* doesn't need to fetch over internet and generate clients, so the startup time is fast. THe disadvatange is that the size of docker image would be bigger as we include two copies of binary target. 
+We pre-generate all the TS, JS and binary files for the prisma client to use. The advantage is that when container starts, *yarn prisma migrate deploy* doesn't need to fetch over internet and generate clients, so the startup time is fast. The disadvantage is that the size of docker image would be bigger as we include two copies of binary target. 
 
-Another way to not copy those two folders to docker image. When starting up, the script *yarn prisma migrate deploy* will automatically check NodeJS-API and download the binary target file, then generate clients.
+Another way to avoid copying those two folders into the Docker image is to have the script yarn prisma migrate deploy check the NodeJS-API and download the binary target file when starting up, and then generate clients.
 
 ```diff
 - COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma #没有必要 
@@ -729,13 +729,13 @@ The pros are the size of final docker image is smaller. The cons are it need dow
 
 ### Other improvement tips
 
-* Keep base images up to date - from performance and security perspective
-* Minimize size of each layer as much as you can. For example, node_modules, aka the black hole, you could consider use tools like [depcheck - npm (npmjs.com)](https://www.npmjs.com/package/depcheck) to scan the dependencies and remove those unused ones; also be careful with whether new dependecy should go to dev env or prod env.
-* Keep packages or dependencies up to date. [npm-check-updates - npm (npmjs.com)](https://www.npmjs.com/package/npm-check-updates) could help to detect any version updates in npm registry. Here it shows we got a version update for prisma: 
+* Keep base images up-to-date for better performance and security.
+* Minimize the size of each layer as much as you can. For instance, considering using tools like [depcheck - npm (npmjs.com)](https://www.npmjs.com/package/depcheck) to scan the dependencies and remove any unused ones. Also, be careful when deciding whether a new dependecy should be added to the development phase or production phase.
+* Keep packages or dependencies up-to-date. [npm-check-updates - npm (npmjs.com)](https://www.npmjs.com/package/npm-check-updates) can help detect any version updates in npm registry. For example, it can show that we have a version update for Prisma: 
 
 > prisma                              ^3.1.1  →    ^4.10.1
 
-That actually solved the OpenSSL issues, it also comes with better query efficiency and smaller the binary target.
+This update can resolve OpenSSL issues and also improve query efficiency while reducing the binary target size.
 
 [Release 4.10.0 · prisma/prisma (github.com)](https://github.com/prisma/prisma/releases/tag/4.10.0)
 
