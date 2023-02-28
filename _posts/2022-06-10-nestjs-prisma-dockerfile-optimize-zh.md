@@ -804,7 +804,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 FROM base as dev-dep
 WORKDIR /home/node   
 COPY package.json yarn.lock .yarnrc ./
-RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --prefer-offline
+RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --frozen-lockfile  --prefer-offline
 
 COPY libs/db/prisma/schema.prisma ./libs/db/prisma/schema.prisma
 RUN yarn prisma:generate 
@@ -816,7 +816,7 @@ RUN yarn run build-frontend
 FROM node:16-alpine as prod-dep
 WORKDIR /home/node   
 COPY package.json yarn.lock .yarnrc ./
-RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --production --ignore-scripts --prefer-offline
+RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --frozen-lockfile  --production --ignore-scripts --prefer-offline
 
 FROM base
 ENV NODE_ENV production
