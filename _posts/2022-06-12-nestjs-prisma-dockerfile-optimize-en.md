@@ -197,13 +197,14 @@ It does match the name on my macOS Intel. But how about the name on Linux Alpine
 
 ![prismaEngineAlpine.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaEngineAlpine.png)
 
-PLATFROM name is *linux-musl*, and it requires OpenSSL 1.1.x installed, so the full name would be *libquery_engine-linux-musl.so.node* - exactly the name that shows up in the error trace. But after Primsa 4.8.0, prisma has given better support for OpenSSL 3.0:  [Support OpenSSL 3.0 for Alpine Linu](https://github.com/prisma/prisma/issues/16553#top).
+PLATFROM name is *linux-musl*, and it requires OpenSSL 1.1.x to be installed. The full name would be *libquery_engine-linux-musl.so.node* - exactly the name that shows up in the error trace. However, after Primsa 4.8.0, prisma has given better support for OpenSSL 3.0:  [Support OpenSSL 3.0 for Alpine Linu](https://github.com/prisma/prisma/issues/16553#top).
 
 > install OpenSSL 1.1 -> download query engine for platform specific -> prisma generate
 
 ### How to run Prisma Migrate Deploy
 
-How to run migration sqls on production environment? First you need have *libs/db/prisma/migration* folder exist. [Deploying database changes with Prisma Migrate](https://www.prisma.io/docs/guides/deployment/deploy-database-changes-with-prisma-migrate) doesn't recommend you run from locally directly against production database. Instead run *prisma migrate deploy* during the release phase. And it need access @prisma/client dependence, so just move it from *devDependencies* to the production phase *dependencies* section in your package.json.
+How do you run migration sqls on a production environment? First you need have the *libs/db/prisma/migration* folder. [Deploying database changes with Prisma Migrate](https://www.prisma.io/docs/guides/deployment/deploy-database-changes-with-prisma-migrate) 
+recommends that you do not run it locally againist the production database. Instead, run *prisma migrate deploy* during the release phase. It requires access @prisma/client dependence, so just move it from *devDependencies* to the production *dependencies* section in your package.json.
 
 ```diff
 - CMD ["node", "dist/apps/frontend/main.js"]  
@@ -228,14 +229,14 @@ in your package.json, add following:
 
 ## Dockerfile optimization
 
-In previous step, we have integrated Prisma to the Dockerfile and are able to run it. But the docker image that final build out is quite big, 1.53G and the build time is quite slow, which is not idea for CI/CD pipepline.
+In the previous step, we integrated Prisma into the Dockerfile and are now able to run it. However, the Docker image that final build produces is quite large, 1.53G, and the build time is slow. This is not ideal for a CI/CD pipepline.
 
 
 ```terminal
 server ➤ docker images                                                                                                                                                                                                                                              REPOSITORY     TAG       IMAGE ID       CREATED             SIZE
 frontend-api   latest    93727cf78c85   About an hour ago   1.53GB
 ```
-Before diving into the optimization, let's take a look at how Docker build image based on the Dockerfile.
+Before diving into optimization, let's take a look at how Docker builds images based on the Dockerfile.
 
 ```docker
 FROM node:16-alpine  #Layer n
