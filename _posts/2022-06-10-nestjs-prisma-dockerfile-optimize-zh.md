@@ -799,7 +799,7 @@ Done in 1.88s.
 
 ```docker
 FROM node:16-alpine as base
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache openssl1.1-compat=1.1.1t-r0
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache openssl=1.1.1t-r1 
 
 FROM base as dev-dep
 WORKDIR /home/node   
