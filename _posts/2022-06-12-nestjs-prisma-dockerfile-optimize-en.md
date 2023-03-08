@@ -746,6 +746,16 @@ This update can resolve OpenSSL issues and also improve query efficiency while r
   > In this release, we've reduced the size of Prisma CLI by removing the Introspection and Formatter engines. The introspection functionality is now served by the Migration Engine. A cross-platform Wasm module has entirely replaced the Formatter Engine. This reduces the overall installation size for Prisma CLI.
 
   The size of query engine has dropped 50%. That is impressive!
+
+
+After applied with above optimization methods, the docker image's size has reduced to 360M!
+
+![finalDockerSize.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/finalDockerSize.png)
+
+The sizes of node_modules and prisa layer has been shrinked a lot:
+
+![finalDockerLayersSize.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/finalDockerLayersSize.png)  
+
   
 ## Final Dockerfile
 

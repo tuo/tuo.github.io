@@ -793,6 +793,14 @@ Done in 1.88s.
 
   在4.8.0版本里将查询引擎的大小缩小了50%，更符合了轻量化上云的要求。
 
+经过这些优化，将最终镜像的大小缩小到了360M!
+
+![finalDockerSize.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/finalDockerSize.png)
+
+看看每一层的大小，主要是看prisma和node_modules:
+
+![finalDockerLayersSize.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/finalDockerLayersSize.png)
+
   
 ## 最终Dockerfile
 
