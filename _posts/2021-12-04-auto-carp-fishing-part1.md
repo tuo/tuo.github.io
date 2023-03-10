@@ -412,7 +412,7 @@ Some good ones and recommended:
 * Compared to commercial tackle makers, I enjoy a lot more from an individual's full angling journey. Catfish and Carp from the US is just such a good yet down-to-earth one. [Youtube Channel: Catfish and Carp](https://www.youtube.com/channel/UCzWn_gTaXyH5Idyo8Raf7_A)
 * [Outside with Tom](https://www.youtube.com/c/OutsidewithTom/videos) is another angler from US. Fun to watch.
 * [Amateur Angling](https://www.youtube.com/@AmateurAngling)
-* Those UK fishing commercials are eye-opening and mind-blowing. Well, even though I am not a big fan of the styles of the UK's branded videos, I have to say that I learned quite a lot from them. Just give them some credits though. [Adam Penning](https://www.youtube.com/watch?v=-Gc0FWdMFCA&ab_channel=CARPologyTVCarpFishing) from CARPologyTV and [Carl and Alex & Fishing Tutorials](https://www.youtube.com/user/CarlandAlexFishing) are fun to watch.
+* Those UK fishing commercials are eye-opening and mind-blowing. Well, even though I am not a big fan of the styles of the UK's branded videos. [Carl and Alex & Fishing Tutorials](https://www.youtube.com/user/CarlandAlexFishing) is practical and fun to watch for beginners. I like the old school fishing, just plain knowdege, a little bit curiosity and common sense. You dont need too much expensive and fancy tackle to catch fish! Graeme's [TA Fishing](https://www.youtube.com/@TAFishing) is a must watch!
 
 
 Others articles and books on carp fishing:
