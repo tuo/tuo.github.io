@@ -82,18 +82,18 @@ await this.prisma.user.findMany({...})
 ![prismaGenerate](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaGenerate.png)
 <cite> Prisma Concept [Generating the client](https://www.prisma.io/docs/concepts/components/prisma-client/working-with-prismaclient/generating-prisma-client)</cite>
 
-## Prisma上Dockerfile 
+## Prisma上Dockerfile
 
 接下来需要将该应用打包为Docker镜像，部署到Kuberntes的集群里。一开始的Dockerfie是这样的：
 
 ```docker
-FROM node:16-alpine 
+FROM node:16-alpine
 
 WORKDIR /home/node
 COPY . /home/node
 
-RUN yarn install 
-RUN yarn prisma generate   
+RUN yarn install
+RUN yarn prisma generate
 
 ENV NODE_ENV production
 RUN yarn run build-frontend
@@ -108,11 +108,11 @@ CMD ["node", "dist/apps/frontend/main.js"]
 
 ​    当运行*docker build -t frontend-api  -f ./Dockerfile.frontend .*来构建这个镜像时候，会在*RUN yarn prisma generate*报如下错误：
 
- 
+
 ![prismaGenerateErr.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaGenerateErr.png)
 
 ```terminal
-#9 3.978 Prisma schema loaded from libs/db/prisma/schema.prisma  
+#9 3.978 Prisma schema loaded from libs/db/prisma/schema.prisma
 #9 4.849 Error: Unable to require(*/home/node/node_modules/prisma/libquery_engine-linux-musl.so.node*)
 #9 4.849  Error loading shared library libssl.so.1.1: No such file or directory (needed by /home/node/node_modules/prisma/libquery_engine-linux-musl.so.node)
 ```
@@ -134,13 +134,13 @@ ENV NODE_VERSION 16.13.1
         linux-headers \
         make \
         python3 \
-  && yarn --version        
+  && yarn --version
 ```
 
 这里可以看到具体node-16:alpine是基于哪个NodeJS的版本和哪个Linux Alpine的发布: 16.13.1和3.15，后续当docker run起来之后可以*cat /etc/os-release*进一步确认。下面接着安装NodeJS和基础的开发依赖，里面是没有openssl这个库的。这个问题就变成了如何在prisma generate之前安装这个openssl1.1这个组件， 这就很简单了，使用APK安装即可：
 
 ```docker
-FROM node:16-alpine 
+FROM node:16-alpine
 WORKDIR /home/node
 COPY . /home/node
 
@@ -160,7 +160,7 @@ RUN apk add openssl1.1-compat #安装openssl 1.1
   * ts类型定义 (index.d.ts)
   * JS代码 (index.js)
   * 查询引擎二进制文件（libquery_engine-xxx.xx.node）
-  
+
 下图是在本机MAC上的截图：
 
 ![prismaBinaryTarget.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/prismaBinaryTarget.png)
@@ -198,9 +198,9 @@ await this.prisma.user.findMany({...})
 接下来问题是如何跑迁移脚本： [Deploying database changes with Prisma Migrate](https://www.prisma.io/docs/guides/deployment/deploy-database-changes-with-prisma-migrate) 里提到要保证*./libs/db/prisma/migrations*文件夹存在然后在发布阶段跑*prisma migrate deploy* - 命令来自@prisma/client包， 而不建议在本地跑远程数据库的迁移。这里需要将package.json中的@prisma/client从devDependencies开发依赖挪到dependencies产品依赖，保证不会被CI或者部署平台(类似Vercel)prune修剪掉开发依赖导致无法运行命令。
 
 ```diff
-- CMD ["node", "dist/apps/frontend/main.js"]  
+- CMD ["node", "dist/apps/frontend/main.js"]
 + ENTRYPOINT [ "npm" ,"run"]
-+ CMD ["start:prod_frontend"]  
++ CMD ["start:prod_frontend"]
 ```
 
 package.json:
@@ -233,18 +233,18 @@ frontend-api   latest    93727cf78c85   About an hour ago   1.53GB
 
 ```docker
 FROM node:16-alpine  #Layer n
-USER root            #Layer n+1   
+USER root            #Layer n+1
 WORKDIR /home/node   #Layer n+2
-COPY . /home/node    #Layer n+3 
+COPY . /home/node    #Layer n+3
 RUN yarn install     #Layer n+4
-RUN apk update       #Layer n+5 
+RUN apk update       #Layer n+5
 RUN apk add openssl1.1-compat #Layer n+6
-RUN yarn prisma:generate      #Layer n+7 
+RUN yarn prisma:generate      #Layer n+7
 ENV NODE_ENV production       #Layer n+8
 RUN yarn run build-frontend   #Layer n+9
 EXPOSE 7021                   #Layer n+10
-  
-ENTRYPOINT [ "npm" ,"run"]    #Layer n+11   
+
+ENTRYPOINT [ "npm" ,"run"]    #Layer n+11
 CMD ["start:prod_frontend"]   #Layer n+12
 ```
 
@@ -264,50 +264,50 @@ CMD ["start:prod_frontend"]   #Layer n+12
 
 ```docker
 COPY package.json yarn.lock .yarnrc .
-RUN yarn install #先安装项目依赖     
+RUN yarn install #先安装项目依赖
 COPY . . #复制源代码
-RUN apk update       
-RUN apk add openssl1.1-compat 
-RUN yarn prisma:generate      
-ENV NODE_ENV production       
-RUN yarn run build-frontend   
+RUN apk update
+RUN apk add openssl1.1-compat
+RUN yarn prisma:generate
+ENV NODE_ENV production
+RUN yarn run build-frontend
 ```
 
 这里给了一个如何做分拆的角度：频率频次。大多数项目都可以分为：
 
 1. 准备系统， 基础镜像 -- 一次行为
-2. 安装系统依赖 -- 一次行为 
+2. 安装系统依赖 -- 一次行为
 3. 安装项目的依赖 -- 频率略高，当你修改了项目的依赖 package.json/requirements.txt等等
 4. 修改源代码 -- 频率最高，功能开发
-5. 构建 
+5. 构建
 6. 运行
 
 按照这个顺序来的话，Dockfile可以这么调整：
 
 ```docker
 # 1.初始基础镜像
-FROM node:16-alpine 
-USER root           
+FROM node:16-alpine
+USER root
 # 2.安装系统依赖
-RUN apk update        
-RUN apk add openssl1.1-compat 
+RUN apk update
+RUN apk add openssl1.1-compat
 # 3.安装项目依赖
-WORKDIR /home/node   
-COPY package.json yarn.lock .yarnrc /home/node    
-RUN yarn install     
+WORKDIR /home/node
+COPY package.json yarn.lock .yarnrc /home/node
+RUN yarn install
 
 # 4.复制源代码，生成项目Prisma
 COPY . .
-RUN yarn prisma:generate      
+RUN yarn prisma:generate
 
 # 5. 构建
-ENV NODE_ENV production       
-RUN yarn run build-frontend   
-          
+ENV NODE_ENV production
+RUN yarn run build-frontend
+
 # 6. 运行
-EXPOSE 7021         
-ENTRYPOINT [ "npm" ,"run"]    
-CMD ["start:prod_frontend"]   
+EXPOSE 7021
+ENTRYPOINT [ "npm" ,"run"]
+CMD ["start:prod_frontend"]
 ```
 
 
@@ -321,7 +321,7 @@ CMD ["start:prod_frontend"]
 ```docker
 # 4.复制源代码，生成项目Prisma
 COPY . .
-RUN yarn prisma:generate  
+RUN yarn prisma:generate
 ```
 
 这个COPY文件的目的在于为了后面的yarn prisma generate来生成prisma的客户端。从上面关于Prisma工作机制我们知道它只需要有package.json里声明的prisma>schema的值也就是*libs/db/prisma/schema.prisma*文件就足够能完成这个prisma客户端的生成。所以这里如果修改了非*libs/db/prisma/schema.prisma*的源代码比如main.ts等等也会触发这个缓存失效，重新运行yarn prisma generate，这个就不是很有效率。
@@ -331,14 +331,14 @@ RUN yarn prisma:generate
 ```docker
 # 4.生成项目Prisma
 COPY libs/db/prisma/schema.prisma ./libs/db/prisma/schema.prisma
-RUN yarn prisma:generate      
+RUN yarn prisma:generate
 
 # 5. 构建
 COPY apps/frontend ./apps/frontend #复制nestjs下面前端模块源代码
 COPY libs ./libs #公共模块libs文件夹
 COPY nest-cli.json tsconfig.json libs .  #nest build相关需要的配置
-ENV NODE_ENV production       
-RUN yarn run build-frontend             
+ENV NODE_ENV production
+RUN yarn run build-frontend
 ```
 
 
@@ -351,11 +351,11 @@ RUN yarn run build-frontend
 
 ```docker
 # 2.安装系统依赖
-RUN apk update        
-RUN apk add openssl1.1-compat 
+RUN apk update
+RUN apk add openssl1.1-compat
 ```
 
-这个看起来没什么问题。apk update获取最新的安装源信息，然后apk add安装到最新的版本。当它第一次build的时候，apk update拉取最新的信息，然后安装了openssl1.1-compat的最新版本假设是1.1.0，假设第二次build的时候，夸张点，是十年之后，RUN后面的apk update命令跟之前是一样的，所以Docker不会去拉取最新的安装源，apk add openssl1.1-compat 跟之前也一样，所以不会重新安装，还是沿用之前的1.1.0。 
+这个看起来没什么问题。apk update获取最新的安装源信息，然后apk add安装到最新的版本。当它第一次build的时候，apk update拉取最新的信息，然后安装了openssl1.1-compat的最新版本假设是1.1.0，假设第二次build的时候，夸张点，是十年之后，RUN后面的apk update命令跟之前是一样的，所以Docker不会去拉取最新的安装源，apk add openssl1.1-compat 跟之前也一样，所以不会重新安装，还是沿用之前的1.1.0。
 
 APK repo:
 
@@ -367,7 +367,7 @@ APK repo:
 
 ```docker
 # 2.安装系统依赖
-RUN apk update        
+RUN apk update
 RUN apk add openssl1.1-compat wget
 ```
 
@@ -421,7 +421,7 @@ RUN \
 
 
 
-### 4. npm/yarn安装依赖  
+### 4. npm/yarn安装依赖
 
 在构建的时候*RUN yarn install*非常慢，而且在整个1.53G的镜像中，它这一层占了1.19G这么大，所以这个肯定是优化的一个大头。Yarn安装时候会将所需的包从npm registry下载下来，缓存到`YARN_CACHE_FOLDER`指定的目录下，比如mac上是*yarn cache dir* = /Users/tuo/Library/Caches/Yarn/v6，这里缓存的信息包括压缩包和元数据（时间戳版本Etag等等）, 然后将压缩包解压到项目下面的node_modules对应的目录下面。
 
@@ -431,10 +431,10 @@ RUN \
 RUN yarn cache dir && yarn install && yarn cache clean
 ```
 
-虽然改动项目依赖的频次可能没有改源代码的频次那么高，但是实践来看也不小，每次都得这么来一遍就比较折磨人的了。如果可以将这个缓存中间产物从构建镜像的流程中单独拎出来，达到类似数据卷的一样的目的，用的时候挂载上去，用完了卸载下来，这样一来便可以加快构建流程。当新增一个包，其他的包都可以从缓存里读取出来，只需要从远程拉取新增的这个包到缓存并放到对应的node_modules下面即可。官方应该看到了这个常见的需要，提供了新的构建器[BuildKit (docker.com)](https://docs.docker.com/build/buildkit/)，相对老版本的构建器，增加了很多性能方面的优化，不仅仅是我们这里提到的*RUN --mount type=cache*. 
+虽然改动项目依赖的频次可能没有改源代码的频次那么高，但是实践来看也不小，每次都得这么来一遍就比较折磨人的了。如果可以将这个缓存中间产物从构建镜像的流程中单独拎出来，达到类似数据卷的一样的目的，用的时候挂载上去，用完了卸载下来，这样一来便可以加快构建流程。当新增一个包，其他的包都可以从缓存里读取出来，只需要从远程拉取新增的这个包到缓存并放到对应的node_modules下面即可。官方应该看到了这个常见的需要，提供了新的构建器[BuildKit (docker.com)](https://docs.docker.com/build/buildkit/)，相对老版本的构建器，增加了很多性能方面的优化，不仅仅是我们这里提到的*RUN --mount type=cache*.
 
 ```docker
-RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install 
+RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install
 ```
 
 这里指定了target是/cache/yarn目录，同时设置YARN_CACHE_FOLDER为此目录来设置yarn安装时候缓存的路径。默认新版的Mac版本的Docker Desktop是支持并启用Buildkit的，无需配置；如果是其他系统，需要检查下docker的版本。
@@ -453,7 +453,7 @@ RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn ins
 
 大概是114s 两分钟，这个时长也太长了点吧，不是缓存了所有其他的包，就只需要安装这个understore包么？需要接近2分钟？
 
-这个时候我们需要简单了解下yarn install的原理，默认来说每次安装会根据version,name和integrity去缓存查找是否对应的版本.yarn-metadata.json和.yarn-tarball.tgz;  
+这个时候我们需要简单了解下yarn install的原理，默认来说每次安装会根据version,name和integrity去缓存查找是否对应的版本.yarn-metadata.json和.yarn-tarball.tgz;
 
 * 如果存在，还会发送一个304检查的请求，查看该本地缓存中版本的信息是否过期；如果过期，那么使用新的数据刷新缓存，否则直接使用缓存中的数据；
 * 如果不存在，直接从远端拉取数据到缓存
@@ -466,7 +466,7 @@ flowchart TD
     a1{"has internet connection?\n是否联网？"}
     a2{"matched in local cache?\n本地缓存是否命中?"}
     a3{"remote check if got expired?\n远程访问校验是否过期?"}
-    a4{"fetch \nand update cache \nthen unzip to node_modules\n拉取更新本地缓存\n并解压到node_modules"}    
+    a4{"fetch \nand update cache \nthen unzip to node_modules\n拉取更新本地缓存\n并解压到node_modules"}
     a10["use cache\n使用本地缓存"]
     a20["fetch and update cache\n远程拉取并跟新本地缓存"]
     a30["use cache\n使用本地缓存"]
@@ -474,13 +474,13 @@ flowchart TD
     a1-->|NO|a10
     a2-->|NO|a20
     a3-->|NO|a30
-    
+
 </div>
 </div>
 
 <br/>
 
-所以这个额外的304检查开销应该就是导致缓慢的原因，特别是你的包越多，那么请求的次数和总的时间就多。但是因为用来yarn.lock来精确锁定版本号，是不是可以跳过这个304请求了？ 
+所以这个额外的304检查开销应该就是导致缓慢的原因，特别是你的包越多，那么请求的次数和总的时间就多。但是因为用来yarn.lock来精确锁定版本号，是不是可以跳过这个304请求了？
 
 从这两篇文章[NPM v5.0.0 prefer-offline](https://blog.npmjs.org/post/161081169345/v500)和 [PNPM prefer-offline](https://pnpm.io/cli/install#--prefer-offline)的说明来看，`--prefer-offline`可以来设置缓存策略为离线优先，直接匹配缓存中的数据，如果有直接使用，而不用发额外的过期检查请求。这样只有当包在缓存中没有时，才会发生网络请求，这样理论上应该会快很多。尝试安装另外一个版本*yarn add underscore@1.13.2*
 
@@ -504,47 +504,47 @@ flowchart TD
 3.  node_modules最终是第一步生成node_moduels/.prisma/client 加上 prod-dep环节下的node_modules
 
 <div class="mermaid">
-flowchart TD    
+flowchart TD
     A[base] -->|yarn install| B{Dev Dep}
     B --> |prisma generate|H(node_modues/.prisma/client)
     H --> |nest build|I(dist)
-    I --> |yarn install --production| J{Prod Dep}    
-    J -->|node_modules prod| D[Final output] 
+    I --> |yarn install --production| J{Prod Dep}
+    J -->|node_modules prod| D[Final output]
 </div>
 
 简单的梳理了分为四个阶段，而且是线性的，每个阶段的产物可以被下一个阶段使用。
 
 ```docker
 FROM node:16-alpine as dev-dep
-USER root           
-WORKDIR /home/node   
+USER root
+WORKDIR /home/node
 COPY package.json yarn.lock .yarnrc .
 RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --prefer-offline
 
 FROM node:16-alpine as prisma-binary
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache openssl1.1-compat=1.1.1t-r0
-WORKDIR /home/node 
+WORKDIR /home/node
 COPY --from=dev-dep /home/node/node_modules/ ./node_modules/
 COPY package.json yarn.lock .yarnrc .
 COPY libs/db/prisma/schema.prisma ./libs/db/prisma/schema.prisma
-RUN yarn prisma:generate 
+RUN yarn prisma:generate
 
 FROM node:16-alpine as nest-build
-WORKDIR /home/node 
+WORKDIR /home/node
 COPY --from=prisma-binary /home/node/node_modules/ ./node_modules/
-COPY . . 
-RUN yarn run build-frontend   
+COPY . .
+RUN yarn run build-frontend
 
-FROM node:16-alpine  
+FROM node:16-alpine
 ENV NODE_ENV production
-WORKDIR /home/node 
+WORKDIR /home/node
 COPY  --from=prisma-binary /home/node/node_modules/.prisma ./node_modules/.prisma
 COPY  --from=nest-build /home/node/dist ./dist
 COPY package.json yarn.lock .yarnrc .
 RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --prefer-offline --production
-EXPOSE 7021         
-ENTRYPOINT [ "npm" ,"run"]    
-CMD ["start:prod_frontend"]   
+EXPOSE 7021
+ENTRYPOINT [ "npm" ,"run"]
+CMD ["start:prod_frontend"]
 ```
 
 这里利用了[Multi-stage](https://docs.docker.com/build/building/multi-stage/)根据不同的目的来划分为不同的阶段，好处在于当你操作COPY/RUN等命令时不用担心需要清楚中间产物，可能需要一些shell脚本来清除中间产物，保证镜像层不打包无用的文件。一般来说都有完整依赖的开发环境和裁剪瘦身过后的生产环境两个阶段，这里极端的用了四个阶段。得到的最终文件输出去：
@@ -558,30 +558,30 @@ CMD ["start:prod_frontend"]
 ```docker
 # 1.初始基础镜像
 FROM node:16-alpine as dev-dep
-USER root           
+USER root
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache openssl1.1-compat=1.1.1t-r0
 
-WORKDIR /home/node   
+WORKDIR /home/node
 COPY package.json yarn.lock .yarnrc ./
 RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --prefer-offline
 
 COPY libs/db/prisma/schema.prisma ./libs/db/prisma/schema.prisma
-RUN yarn prisma:generate 
-COPY . . 
-RUN yarn run build-frontend   
+RUN yarn prisma:generate
+COPY . .
+RUN yarn run build-frontend
 
-FROM node:16-alpine  
+FROM node:16-alpine
 ENV NODE_ENV production
-WORKDIR /home/node 
+WORKDIR /home/node
 COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma
 COPY  --from=dev-dep /home/node/dist ./dist
 COPY  --from=dev-dep package.json yarn.lock .yarnrc ./
 RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --production --ignore-scripts --prefer-offline
-          
+
 # 6. 运行
-EXPOSE 7021         
-ENTRYPOINT [ "npm" ,"run"]    
-CMD ["start:prod_frontend"]   
+EXPOSE 7021
+ENTRYPOINT [ "npm" ,"run"]
+CMD ["start:prod_frontend"]
 ```
 
 镜像包大小从656MB下降到了567MB。这里有一个问题，当改了源代码之后，yarn install --production就会重新跑一遍，这个是多余的。而且有一个问题就是yarn install --production并不会删除devDependencies的那些依赖，也并没有像npm一样有npm prune来裁剪那个dev依赖，只能是借助于一些自定脚本或者别的方式，[*npm prune* equivalent behavior · Issue #696 · yarnpkg/yarn (github.com)](https://github.com/yarnpkg/yarn/issues/696) 整体而言都不简单。  但是我们可以借助于multistage来绕过这个问题。所以整理下，新的应该是这样的：
@@ -594,8 +594,8 @@ CMD ["start:prod_frontend"]
 <div class="mermaid">
 flowchart TD
     A[base] --> B{yarn install\nprisma generate\nnest build}
-    A[base] --> C{yarn install --production}    
-    B --> |node_module/.prisma/client, dist|D{npm run start}    
+    A[base] --> C{yarn install --production}
+    B --> |node_module/.prisma/client, dist|D{npm run start}
     C --> |node_module|D[npm run start]
 </div>
 
@@ -603,38 +603,38 @@ Dockerfile是这样的:
 
 ```docker
 FROM node:16-alpine as dev-dep
-USER root           
+USER root
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache openssl1.1-compat=1.1.1t-r0
 
-WORKDIR /home/node   
+WORKDIR /home/node
 COPY package.json yarn.lock .yarnrc ./
 RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --prefer-offline
 
 COPY libs/db/prisma/schema.prisma ./libs/db/prisma/schema.prisma
-RUN yarn prisma:generate 
-COPY apps/frontend ./apps/frontend 
+RUN yarn prisma:generate
+COPY apps/frontend ./apps/frontend
 COPY libs ./libs
 COPY nest-cli.json tsconfig.json libs .
-RUN yarn run build-frontend   
+RUN yarn run build-frontend
 
 FROM node:16-alpine as prod-dep
-WORKDIR /home/node   
+WORKDIR /home/node
 COPY package.json yarn.lock .yarnrc ./
 RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --production --ignore-scripts --prefer-offline
 
-FROM node:16-alpine  
+FROM node:16-alpine
 ENV NODE_ENV production
-WORKDIR /home/node 
+WORKDIR /home/node
 COPY  --from=prod-dep home/node/node_modules/ ./node_modules
 COPY  --from=dev-dep /home/node/dist ./dist
 COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma
 # need migrations
-COPY libs/db/prisma/ ./libs/db/prisma/ 
+COPY libs/db/prisma/ ./libs/db/prisma/
 COPY package.json yarn.lock .yarnrc ./
 
-EXPOSE 7021         
-ENTRYPOINT [ "npm" ,"run"]    
-CMD ["start:prod_frontend"]   
+EXPOSE 7021
+ENTRYPOINT [ "npm" ,"run"]
+CMD ["start:prod_frontend"]
 ```
 
 运行一下得到的大小是419MB。
@@ -663,17 +663,17 @@ CMD ["start:prod_frontend"]
 > ENV NODE_VERSION 18.14.2
 >
 > RUN addgroup -g 1000 node \
->  && adduser -u 1000 -G node -s /bin/sh -D node 
+>  && adduser -u 1000 -G node -s /bin/sh -D node
 
 这个时候/home/node目录的权限就是node用户下面。如果你需要切换不同权限的用户，不建议使用sudo，因为其机制问题：一个是会启动2个进程（父子），第二个是信号传递和TTY的问题, 可以考虑使用[tianon/gosu: Simple Go-based setuid+setgid+setgroups+exec (github.com)](https://github.com/tianon/gosu).
 
 要设置运行容器的时候，可以在Entrypoint和cmd之前，设置需要的用户，当然这个用户必须是声明的过的。
 
 ```docker
-EXPOSE 7021    
-USER node     
-ENTRYPOINT [ "npm" ,"run"]    
-CMD ["start:prod_frontend"]  
+EXPOSE 7021
+USER node
+ENTRYPOINT [ "npm" ,"run"]
+CMD ["start:prod_frontend"]
 ```
 
 然后docker build 并运行出现如下报错：
@@ -692,10 +692,10 @@ info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this comm
 
 ```docker
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache bash
-EXPOSE 7021    
+EXPOSE 7021
 USER node
-#ENTRYPOINT [ "npm" ,"run"]    
-#CMD ["start:prod_frontend"]  
+#ENTRYPOINT [ "npm" ,"run"]
+#CMD ["start:prod_frontend"]
 #dev purpose
 ENTRYPOINT ["tail", "-f", "/dev/null"]
 ```
@@ -730,14 +730,14 @@ node用户对于node_modules/@prisma/engines只有读权限，自然无法写入
 COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma
 COPY  --from=dev-dep /home/node/node_modules/@prisma ./node_modules/@prisma  #同时复制
 # need migrations
-COPY libs/db/prisma ./libs/db/prisma 
-COPY package.json yarn.lock .yarnrc ./  
+COPY libs/db/prisma ./libs/db/prisma
+COPY package.json yarn.lock .yarnrc ./
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache openssl1.1-compat=1.1.1t-r0
-EXPOSE 7021    
-USER node     
-ENTRYPOINT [ "npm" ,"run"]    
-CMD ["start:prod_frontend"]  
+EXPOSE 7021
+USER node
+ENTRYPOINT [ "npm" ,"run"]
+CMD ["start:prod_frontend"]
 ```
 
 构建之后发现运行没有问题：
@@ -763,7 +763,7 @@ Done in 1.88s.
 还有一种是不复制@prisma和.prisma到镜像中，利用yarn prisma migrate deploy会自动检查拉取二进制文件带@prisma/engine并生成对应的.prisma/client目录.
 
 ```diff
-- COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma #没有必要 
+- COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma #没有必要
 - COPY  --from=dev-dep /home/node/node_modules/@prisma ./node_modules/@prisma #没有必要
 + RUN chmod -R g=rwx ./node_modules/@prisma/engines #开放此文件夹权限，因为yarn install是root,node用户只能读
 + ENV PRISMA_BINARIES_MIRROR http://prisma-builds.s3-eu-west-1.amazonaws.com #国内这个速度还行，不然有的你等
@@ -801,46 +801,46 @@ Done in 1.88s.
 
 ![finalDockerLayersSize.png](http://d2h13boa5ecwll.cloudfront.net/20220610dockerfile/finalDockerLayersSize.png)
 
-  
+
 ## 最终Dockerfile
 
 
 ```docker
 FROM node:16-alpine as base
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache openssl=1.1.1t-r1 
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache openssl=1.1.1t-r1
 
 FROM base as dev-dep
-WORKDIR /home/node   
+WORKDIR /home/node
 COPY package.json yarn.lock .yarnrc ./
 RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --frozen-lockfile  --prefer-offline
 
 COPY libs/db/prisma/schema.prisma ./libs/db/prisma/schema.prisma
-RUN yarn prisma:generate 
-COPY apps/frontend ./apps/frontend 
+RUN yarn prisma:generate
+COPY apps/frontend ./apps/frontend
 COPY libs ./libs
 COPY nest-cli.json tsconfig.json libs .
-RUN yarn run build-frontend   
+RUN yarn run build-frontend
 
 FROM node:16-alpine as prod-dep
-WORKDIR /home/node   
+WORKDIR /home/node
 COPY package.json yarn.lock .yarnrc ./
 RUN --mount=type=cache,target=/cache/yarn YARN_CACHE_FOLDER=/cache/yarn yarn install  --frozen-lockfile  --production --ignore-scripts --prefer-offline
 
 FROM base
 ENV NODE_ENV production
-WORKDIR /home/node 
+WORKDIR /home/node
 COPY  --from=prod-dep home/node/node_modules/ ./node_modules
 COPY  --from=dev-dep /home/node/dist ./dist
 COPY  --from=dev-dep /home/node/node_modules/.prisma ./node_modules/.prisma
 COPY  --from=dev-dep /home/node/node_modules/@prisma ./node_modules/@prisma
 # need migrations
-COPY libs/db/prisma ./libs/db/prisma 
-COPY package.json yarn.lock .yarnrc ./  
+COPY libs/db/prisma ./libs/db/prisma
+COPY package.json yarn.lock .yarnrc ./
 
-EXPOSE 7021    
-USER node     
-ENTRYPOINT [ "npm" ,"run"]    
-CMD ["start:prod_frontend"]  
+EXPOSE 7021
+USER node
+ENTRYPOINT [ "npm" ,"run"]
+CMD ["start:prod_frontend"]
 
 #dev purpose
 # RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && apk update && apk add  --no-cache bash
@@ -849,6 +849,8 @@ CMD ["start:prod_frontend"]
 
 ## 引用
 
+  * [Docker con 2019: Dockerfile Best Practices
+](https://www.youtube.com/watch?v=JofsaZ3H1qM&ab_channel=Docker)
   * [Best practices for writing Dockerfiles: Leverage build cache](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
   * [Optimizing builds with cache management (docker.com)](https://docs.docker.com/build/cache/)
   * [Multi-stage builds (docker.com)](https://docs.docker.com/build/building/multi-stage/)
@@ -858,7 +860,3 @@ CMD ["start:prod_frontend"]
   * [为什么你应该在docker 中使用gosu？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/151915585)
   * [npm install中的缓存和资源拉取机制_照物华的博客-CSDN博客](https://blog.csdn.net/daihaoxin/article/details/105749014)
   * [Permissions error - after declaring USER and WORKDIR · Issue #740 · nodejs/docker-node (github.com)](https://github.com/nodejs/docker-node/issues/740)
-
-   
-
-  
