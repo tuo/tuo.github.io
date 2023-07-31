@@ -262,7 +262,7 @@ tags: habit,coffee,dopamine
 
 > 当1970年李小龙背部受伤躺在家一年，有可能从事不了武术之后， Later when writing to a friend about his back injury: **“But with every adversity comes a blessing because a shock acts as a reminder to oneself that we must not get stale in routine.” It’s not the situation that’s the problem. It’s how you react to it.“**
 
-<cite>(Bruce Lee #11 Walk On)[https://brucelee.com/podcast-blog/2016/9/21/11-walk-on]</cite>
+<cite>[Bruce Lee #11 Walk On](https://brucelee.com/podcast-blog/2016/9/21/11-walk-on)</cite>
 
 可能是因为我足够变态，我能感受和观察那些快感或者痛苦或者无聊（除了生理疾病之外的），我不抗拒，当然不想着抓住它们留下来，但是也不会去驱赶它们，我就体验感受它们 ，专注的。当我放弃了思考和分析，卸下一切对抗阻力，带着好奇和真诚去感受着当下身体上的变化和思绪情绪上的激荡，感觉一种从未有过的鲜活的自我存在。真诚是永远的必杀技，沉默安静永远是真。
 
