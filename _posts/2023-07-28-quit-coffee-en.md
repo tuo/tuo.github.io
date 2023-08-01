@@ -12,17 +12,36 @@ tags: habit,coffee,dopamine
 
 目前：早上一杯挂耳，中午一杯咖啡，得有16-18元每天。几乎每天都喝，这个习惯已经有很长时间了，至少5-6年起步了。
 
-其次：每次喝咖啡感觉并没有当初新鲜感觉，对于我而言，咖啡失去了其初心，甚至跟喝水没什么区别，更别提能够提神 于是你不的想何必在喝了？
+其次：每次喝咖啡感觉并没有当初新鲜感觉，**对于我而言**，咖啡失去了其初心，甚至跟喝水没什么区别，更别提能够提神 于是你不的想何必在喝了？
 
 于是我给自己设定了一个目标：改变喝咖啡的习惯，戒掉咖啡。显然一开始要求彻底不喝咖啡很难，我觉得可以设置一个短期目标： 从一天一次改为一周一次。
+
+Why do I want to quit coffee?
+
+Well, for one, I've noticed that my sleep quality hasn't been great lately. I feel like coffee might be contributing to that.
+
+I drink pretty much every day, one cup of instant coffee in the morning and another one at noon for maybe 10-12 years. Even though money is not that much, it adds up, it's not a small amount.
+
+But lately, I've realized that every time I drink coffee, it doesn't give me the same feeling of freshness it used to. It's like I've lost that initial excitement about it. Sometimes, it feels no different than drinking water, and it's not even making me more alert or focused anymore. So, what's the point of continuing to drink it?
+
+I decided to set a goal for myself: to change my coffee-drinking habit and eventually quit it altogether. I know it might be tough to completely stop right away, so I thought of starting with a short-term goal: going from having it every day to just once a week. That way, it doesn't feel too overwhelming, and I can gradually reduce my coffee intake.
+
 
 ### 戒断历程
 
 一开始喝咖啡确实也是为了提神，因为咖啡因可以加快心率并带来一种愉悦感，让大脑变得清醒。然而，当我开始戒断咖啡的第一天时，我感受到了与初次接触时截然相反的感觉：并不是痛苦和烦躁易怒，而是无聊、空虚，提不起精神，头脑昏昏沉沉，感觉自己像个行尸走肉，完全无法集中注意力。在网上查了一些信息，发现这是典型的戒断初期症状，有建议尝试转移注意力等方法，但我觉得效果一般。
 
+### Quitting Journey
+
+At the beginning, I started drinking coffee for the purpose of staying alert, as caffeine can accelerate heart rate and bring a sense of pleasure, making the brain more awake. However, when I began the first day of quitting coffee, I experienced feelings completely opposite to my initial encounter: it wasn't pain, anxiety and depression, but rather boredom and emptiness. I couldn't lift my spirits, and my brain was kinda foggy. I felt like a lifeless body, completely unable to concentrate. I looked up some information online and found out that these were typical addiction withdrawal symptoms during the early stages of quitting. 
+
 经过第二天和第三天，难受的感觉稍微减轻了一些，注意力也稍微能够集中。但我仍然忍不住想喝咖啡，于是我选择了喝了一杯茶，这样就没有那么心痒难耐了。终于等到了周末，我迫不及待地喝了一杯咖啡，那杯咖啡让我感觉它找回了它的初心。味道确实让我回忆起第一次喝咖啡的感觉，并且喝完之后能感受到心跳的加快，身体和精神也振奋起来，思维变得更加活跃。
 
+After the second and third day, the discomfort had slightly eased, and the concentration got improved a bit. However, I almost couldn't resist the urge to drink coffee, so I opted for a cup of tea instead, which helped to alleviate the itchiness. Finally, the weekend arrived, and I couldn't wait any longer; I had a cup of coffee.That taste indeed brought back that freshness of the first time I drank coffee, and after finishing it, I could feel my heartbeat accelerate, my body and mind become invigorated.
+
 随后的第二和第三周里，戒断过程变得相对顺利。对于咖啡的渴望也不再那么强烈，注意力也逐渐恢复到戒断之前的水平，整体感觉变得越来越舒适和自在。
+
+In the following second and third weeks, the quitting process became relatively smooth. The craving for coffee was no longer as strong, and my attention gradually returned to the level before quitting. Overall, I started feeling more comfortable and at ease.
 
 ![dailyplanner](/Users/tuo/戒断咖啡的经历-照片/dailyplanner.jpg)
 
@@ -30,8 +49,12 @@ tags: habit,coffee,dopamine
 
 准备戒咖啡任务开始时，按照网上的推荐，我买了一个日历纸。如果我当天成功戒断没有喝咖啡，我会用笔郑重其事地在上面打一个勾。这个简单的仪式让我感到满足，因为每次打勾都代表着完成了一个小目标。
 
+When I began my coffee quitting journey, following online recommendations, I bought a calendar paper of habit tracker. If I successfully abstained from drinking coffee on a given day, I would solemnly mark a check on it with a pen. This simple ritual made me feel satisfied because each check represented accomplishing a small goal. (one step closer)
+
 随着时间的推移，大约过了一两个月，我基本上不会因为咖啡因的刺激效果而去喝咖啡了。不过，我还是保持每周喝一次的习惯，毕竟完全放弃也是让生活失去一些乐趣。但现在我选择不固定某个特定的时间，而是随机地在一周中的某天喝一次。而且我尝试着选择不同口味的咖啡，如拿铁、美式、卡布奇诺等，冷的热的，这样能带来新鲜感。基本上每次喝咖啡的时候的感受基本还有像第一次喝那样那样的强度，但是了，自己也不会想着为了提神而需要喝更多的咖啡。
 
+
+As time went by, about one or two months later, I no longer felt the need to drink coffee purely for its stimulating effects. However, I still maintained the habit of drinking it once a week, as completely giving it up would take away some pleasures. But now, I don't stick to a specific time for drinking; instead, I randomly choose a day within the week to drink. Additionally, I've been trying different styles of coffee such as latte, Americano, cappuccino, hot, and iced, to bring some novelty.  Well, I could still enjoy the freshness of coffee without indulging.
 
 
 ### 戒断的思考
@@ -42,21 +65,34 @@ tags: habit,coffee,dopamine
 
 这种上瘾跟我学生时代的游戏瘾、旁边亲戚朋友烟草和酒精的瘾感觉是相似的，我很好奇其咖啡如何影响大脑和身体的，于是查了下上瘾机制，其中离不开一个词： 多巴胺。
 
+### Reflections on Quitting
+
+During this process, I noticed the addictive aspect of coffee. It started with just having it occasionally, but slowly, I found myself needing it every day. As I continued with the same amount, the stimulating effects and pleasure gradually diminished. Drinking coffee just turned into a habitual behavior, and I felt subconsciously compelled to drink it. Not having it made me feel like something was missing, but drinking it didn't provide the same effect as before, and I even felt less alert. To keep up that effect as before, I need add up the amount of coffe intake. If I skipped one day, I would feel extremely low, bored, and a sense of emptiness, which would drive me to seek more coffee to alleviate those negative feelings.
+
+This addiction felt similar to the gaming addiction I experienced during my student days, as well as the addictions some relatives and friends had to somking and alcohol. I became curious about how coffee affects the brain and body, so I looked into the mechanisms of addiction, and one word stood out: dopamine.
+
+> Dopamine is known as the feel-good neurotransmitter—a chemical that ferries information between neurons. The brain releases it when we eat food that we crave or while we have sex - all those behaviors would lead to a higher chance of survior(complete to get more resources and higher chance to reproduce etc ), contributing to feelings of pleasure and satisfaction as part of the reward system. This important neurochemical boosts mood, motivation, and attention, and helps regulate movement, learning, and emotional responses.
+
+<cite>https://www.psychologytoday.com/us/basics/dopamine</cite>
+
 多巴胺是一种能带来能量和动力的神经传导物质，是愉悦的操控者，让你做事的动力和积极性（奖励、愉悦或满足），也是让你产生抑郁。，多巴胺对我们的身心健康有着至关重要的作用，同时还跟愉悦和满足感有关，当我们经历新鲜、刺激或具有挑战性的事情时，大脑中就会分泌多巴胺。它与人的情欲、感觉有关，它传递兴奋及开心的信息，也各种上瘾行为有关。如果人缺少多巴胺的受体，就会抑制兴奋。增加多巴胺，就能让人兴奋，心情愉悦，但是它会令人上瘾。
 
 
 
 > 多巴胺是带来能量和动力神经递质，大脑中的多巴胺经过突触将信号传送到其它神经细胞，其中有一条涉及“奖赏系统（reward system）”的路径被认为与多巴胺传递快乐信息密切相关。所谓奖赏系统，实际是一组神经结构，旨在维护动机显著性（动机、需求、喜好等）、联想学习和正面情感（尤其是以愉悦感为核心的情感）。换言之，动物和人的中枢神经系统具有奖赏机制来加强和激励对机体有益的行为，以利个体生存和种族繁衍。更深入的研究表明，当大脑发现获得奖励的机会时，它就会释放出多巴胺，大量的多巴胺并不能直接产生快乐感，它更像是一种激励，让我们发现如何才能得到快乐，而且愿意为了获得这种感觉付出努力。**简言之，多巴胺的效用是期待奖赏，而不是获得奖赏。**
 
-就像你看到食物的照片或者网上某个裸露的女人照片，你的大脑中那个原始的不受控制的奖励系统就会开启，多巴胺神经元会被激活，从而产生强烈的多巴胺信号，这会引起愉悦的感觉，去做出这种行为，哪怕这个甚至不是实际吃得到摸得着的实物，这种期待奖赏的快感会促进我们对这种行为的重复。在原始人类时代，在危险遍布的环境里，你是需要足够的动力和奖赏（释放多巴胺）去捕猎来获取食物或者交配到更多的异性来获取个体和种族的延续，这时候快乐愉悦是驱使人类发展和更好适应环境的渴望和动力。当多巴胺水平下降时候，你就会失去对于奖赏的期待，情绪低落，也就没啥动力，奖赏没啥诱惑了，直接躺平开摆，进入贤者时间。
 
-ps： 正选图片 玄 有一个图
+Dopamine plays a crucial role in the reward system of our brain. As humans, our brains are hard-wired to seek out behaviors that release dopamine in our reward system. Dopamine is released when the brain is expecting a reward.
 
-![dotdash_Final_Sine_Wave_Feb_2020-01-b1a62c4514c34f578c5875f4d65c15af](/Users/tuo/戒断咖啡的经历-照片/dotdash_Final_Sine_Wave_Feb_2020-01-b1a62c4514c34f578c5875f4d65c15af.jpg)
+Just imagine the first time you eat some delicious food at a restaurant or experience other pleasurable stimuli like video games or intimacy. The moment you taste the food or engage in the activity, a flood of dopamine is released in your brain. It makes you feel high and possibly euphoric, which reinforces the desire to repeat that experience with the same stimulus - a cycle of motivation, reward, and reinforcement. So, while dopamine itself doesn't directly produce pleasure, it does strengthen the feelings of pleasure and reward associated with specific behaviors or substances.
+
+Next time, when you think of the food you ate last time, you already start to feel high because of dopamine release, even with just mere anticipation.
 
 
 
-（ps: https://www.modernmindmasters.com/how-to-increase-dopamine-naturally/, 简单的一个描述多巴胺围绕基准水平在上下在顶峰和谷底值之间波动，类似正弦波）
+![dopamine_sine.jpg](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/dopamine_sine.jpg)
+
+<cite>(A simple description is that dopamine fluctuates around its baseline level, oscillating between peak and valley values, much like a sine wave.)</cite>
 
 多巴胺作为神经递质或激素，需要作用于多巴胺受体才能产生兴奋效应，也就是与突触后膜上的受体结合。如果受体已经被其他物质绑定，那么更多的多巴胺分泌和浓度也不会产生对应的效果和作用。受体的数量和处理能力在生理上有一个最大值和最小值的限制，就像人耳对声音的感知范围有限一样。
 
@@ -64,47 +100,46 @@ ps： 正选图片 玄 有一个图
 
 身体本身拥有一套多巴胺的自我调节动态平衡系统，以维持适宜的多巴胺水平，也就是基准线。
 
- ![dopamine_working_raw](/Users/tuo/戒断咖啡的经历-照片/dopamine_working_raw.jpg)
+![dopamine_working_raw](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/dopamine_working_raw.jpg)
 
-(Ps: 一个是受体敏感度，一个是释放的速度，一个是回收的速度)
+<cite>一个是受体敏感度，一个是释放的速度，一个是回收的速度</cite>
 
-下面是一个图表显示的是多巴胺感受度的变化：
+下面是不同活动对应的多巴胺释放的量的对比：
 
-![activity_dopamine](/Users/tuo/戒断咖啡的经历-照片/activity_dopamine.png)
+![activity_dopamine](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/activity_dopamine.jpg)
 
-（ps: 从上图看出来哪怕是毒品带来的快感的持续时间也是短暂的。快乐是短暂的，极大的快乐有极大的痛苦）
+<cite>从上图看出来哪怕是毒品带来的快感的持续时间也是短暂的。快乐是短暂的，极大的快乐有极大的痛苦。</cite>
 
 在没有外源性的多巴胺输入或者引起多巴胺系统规则的改变，食物和性等先天性的天然奖赏带来的多巴胺浓度是适量的，身体是可以花一定时间可以慢慢回收准备再次利用而恢复平衡，快乐和痛苦某种程度上说是一定天花板的。要提高快感和效果，那么需要从外部引入一些因素来欺骗大脑来获得药物奖赏：
 
-* 增加浓度- 诱导多巴胺神经元释放更多多巴胺神经递质 ， 一些物质如吸烟尼古丁和冰毒可以实现这个效果。
+  * 增加浓度- 诱导多巴胺神经元释放更多多巴胺神经递质 ， 一些物质如吸烟尼古丁和冰毒可以实现这个效果。
 
-* 增加敏感度 - 通过比多巴胺更亲和多巴胺受体，提高受体的敏感度，某些毒品可以实现这个目标。
+  * 增加敏感度 - 通过比多巴胺更亲和多巴胺受体，提高受体的敏感度，某些毒品可以实现这个目标。
 
-* 延缓回收 - 通过延缓多巴胺的回收，抑制转运酶DAT，使体内多巴胺水平能维持短期的高位，咖啡因就具有这样的作用。
+  * 延缓回收 - 通过延缓多巴胺的回收，抑制转运酶DAT，使体内多巴胺水平能维持短期的高位，咖啡因就具有这样的作用。
 
-  
+![dopamine_addiction](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/dopamine_addiction.jpg)
 
-  是不是多巴胺可以无限上升从而达到一致持续无限的快感了？为什么我每天喝一杯咖啡，但是体验到愉悦觉却是越来越弱？因为短期的大量的多巴胺释放会让持续刺激大脑突触结构上的受体，引起持续性的兴奋，这个异常的水平会让大脑做出适应性的动态调整和改变来尝试平衡。它会试图少突触后膜上多巴胺受体的数量来降低兴奋的作用，或者增加多巴胺转体的数量，加快多巴胺的回收。这些都会使得大脑对于刺激物不那么敏感，也就是感受到的愉悦度是下降的，当然同时也会降低对于天然奖赏的反应。这意味着必须加大使用剂量，才能维持和获得先前一样的快感，这个阶段叫耐受，跟胰岛素抵抗，抗生素耐药性有这相似的道理，经济学上管叫边际效用递减。
+<cite>来源:[Yale Medicine: How an Addicted Brain Works](https://www.youtube.com/watch?v=RZ5LH634W8s)</cite>
 
-  
+是不是多巴胺可以无限上升从而达到一致持续无限的快感了？为什么我每天喝一杯咖啡，但是体验到愉悦觉却是越来越弱？因为短期的大量的多巴胺释放会让持续刺激大脑突触结构上的受体，引起持续性的兴奋，这个异常的水平会让大脑做出适应性的动态调整和改变来尝试平衡。它会试图少突触后膜上多巴胺受体的数量来降低兴奋的作用，或者增加多巴胺转体的数量，加快多巴胺的回收。这些都会使得大脑对于刺激物不那么敏感，也就是感受到的愉悦度是下降的，当然同时也会降低对于天然奖赏的反应。这意味着必须加大使用剂量，才能维持和获得先前一样的快感，这个阶段叫耐受，跟胰岛素抵抗，抗生素耐药性有这相似的道理，经济学上管叫边际效用递减。
 
-  
 
-  ![drug_dopamine](/Users/tuo/戒断咖啡的经历-照片/drug_dopamine.jpeg)
+![drug_dopamine](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/drug_dopamine.jpeg)
 
-  （ps: 来源[杜新忠戒毒网--戒毒门户 权威媒体 (jhak.com)](http://jhak.com/index.php?m=content&c=index&a=show&catid=86&id=2898637))
+<cite>来源:[杜新忠戒毒网](http://jhak.com/index.php?m=content&c=index&a=show&catid=86&id=2898637)</cite>
 
-  
 
-  同样的也可以来解释为什么戒断时会有那么难受。上瘾之后，脑回路会形成了这块刺激-行动-奖赏链路时， 大脑会记住那份快乐，在下一次继续寻求同样的刺激， 但是此时如果已经没有外源物补充，没有进行高多巴胺活动，大脑就会产生戒断一些反应，比如焦虑，无聊，低落，无法集中注意力等等表现，有些甚至是痛苦的，低多巴胺那些自然奖赏已经是没啥动力了去做，为了减轻这些情绪带来的生理不适，不得不再次投入高多巴胺的活动，周而复始。
 
-  
+同样的也可以来解释为什么戒断时会有那么难受。上瘾之后，脑回路会形成了这块刺激-行动-奖赏链路时， 大脑会记住那份快乐，在下一次继续寻求同样的刺激， 但是此时如果已经没有外源物补充，没有进行高多巴胺活动，大脑就会产生戒断一些反应，比如焦虑，无聊，低落，无法集中注意力等等表现，有些甚至是痛苦的，低多巴胺那些自然奖赏已经是没啥动力了去做，为了减轻这些情绪带来的生理不适，不得不再次投入高多巴胺的活动，周而复始。
 
-  ![drugeffetcst](/Users/tuo/戒断咖啡的经历-照片/drug_brain_damage.png)
 
-  （ps来源：[How do drugs affect the brain? – Families for Addiction Recovery (farcanada.org)](https://www.farcanada.org/understanding-addiction/how-do-drugs-affect-the-brain/)）
 
-  这个戒断过程，对于像我只是解除咖啡因的而言，难受还是可以忍受的（身体反应不大），但是对于毒品上瘾者而言，大脑结构甚至已经发生不可逆的损害，那这个反应就是非常严重的了，在身体和心理都是双重的折磨，甚至是痛苦。痛苦这么大，以至于除了复吸，就只剩下死亡。极大的快乐意味着极大的痛苦，貌似从一个极端从钟摆一样到另一个极端，跟金融周期的繁荣和萧条周期一样。此刻快乐看起来是短暂的，而痛苦却要显得那么长久： 快乐的时光总是那么短暂，痛苦、抑郁、焦虑、苦闷的时光总是停滞了一般，度日如年，牛短熊长。
+![drug_brain_damage](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/drug_brain_damage.png)
+
+<cite>来源: [How do drugs affect the brain?](https://www.farcanada.org/understanding-addiction/how-do-drugs-affect-the-brain/)</cite>
+
+这个戒断过程，对于像我只是解除咖啡因的而言，难受还是可以忍受的（身体反应不大），但是对于毒品上瘾者而言，大脑结构甚至已经发生不可逆的损害，那这个反应就是非常严重的了，在身体和心理都是双重的折磨，甚至是痛苦。痛苦这么大，以至于除了复吸，就只剩下死亡。极大的快乐意味着极大的痛苦，貌似从一个极端从钟摆一样到另一个极端，跟金融周期的繁荣和萧条周期一样。此刻心理时间上来说，快乐看起来是短暂的，而痛苦却要显得那么长久： 快乐的时光总是那么短暂，痛苦、抑郁、焦虑、苦闷的时光总是停滞了一般，度日如年，牛短熊长。
 
   
 
