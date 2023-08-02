@@ -89,8 +89,7 @@ Just imagine the first time you eat some delicious food at a restaurant or exper
 Next time, when you think of the food you ate last time, you already start to feel high because of dopamine release, even with just mere anticipation.
 
 
-
-![dopamine_sine.jpg](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/dopamine_sine.jpg)
+![dopamine_sine_curve.jpg](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/dopamine_sine_curve.jpg)
 
 <cite>(A simple description is that dopamine fluctuates around its baseline level, oscillating between peak and valley values, much like a sine wave.)</cite>
 
