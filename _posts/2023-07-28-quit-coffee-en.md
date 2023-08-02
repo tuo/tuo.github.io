@@ -152,52 +152,33 @@ Andrew Huberman nailed it:
 <cite>[(226) DOPAMINE DETOX: Take Back CONTROL Of Your Life & STOP LAZINESS! | Dr. Andrew Huberman - YouTube](https://www.youtube.com/watch?v=xLORsLlcT48&ab_channel=TomBilyeu)</cite>
 
 Comparing to learn or work, immeidate-gratification types activity could easily get us hooked. That's why it is so hard for me to get into working state. The beforhead immeidicat-grations types activity get my dopamine base level higher and at the same time, it exhaust me mentally and physically. Once the stimulus get pull out, the dopaline level drops, the sympton of dopamline depletion kicks in.
-The focus is hard to gain and feel bored in front of the low-and-long-dopamin-reward tasks. So it is better to arrange tasks in a dopamine-scientific way.
+The focus is hard to gain and feel bored in front of the low-and-long-dopamin-reward tasks. So it is better to arrange tasks in a dopamine-scientific way. (BTW, anyone really do serioues learning on tiktok ? I did try to learn carp fishing but after a while it starts recommending videos of girls shaking their asses ? WTF, I neither do that type of search nor accidently click on one)
 
-Another thing is that just don't stack dopmaine atcitivties. Don't multitask on high dopamine activities. Do it one by one as much as you can or mutiple but as natural as you can. When you eat, just eat, you dont' eat with playing your phone at the same time. You might think you can kill two birds with one stone, but actually you might kill 2 stones with one bird. You basically ruined two pleasure things at the same time.
+Another thing is that just don't stack dopmaine atcitivties. Don't multitask on high dopamine activities. Do it one by one as much as you can or mutiple but as natural as you can. When you eat, just eat, you dont' eat with playing your phone at the same time. You might think you can kill two birds with one stone, but actually you might kill 2 stones with one bird. You basically ruined two pleasure things at the same time. When Tired, Sleep. When Hungry, Eat.
+
+> Someone asked a Zen Master, "How do you practice Zen?"
+> The master said, "When you are hungry, eat; when you are tired, sleep."
+> "Isn't that what everyone does anyway?"
+> The master replied, "No, No. Most people entertains a thousand desires when they eat and scheme over a thousand plans when they sleep."
+
+I'm so fed of this rat race. Sometime later, after I back from work, I try to put everything down and empty my mind, and play with my son. Well this time, on the commute of back from office, I don't play with phone. Instead I observe, look around people and what they're doing, close my eyes for minutes just to listen to the sounds of the train, that's it. When I play with him, I notice his expressions, reactions and we work togehter to build sth with some Lego blocks. Sometimes he is not paitent and will tear the building down immeidately. Sometimes he had some actions that out of box of adult's thinking in my opinon. It is so fun to watch. And maybe minutes later, he would play on his own and seems not very intersting on you.
+
+It is definitely freshing experince and I feel deep connection between us. I wasn't eager for gain high dopamine release, but I do feel the peace and joyment in that moment of fully present.
+
+
+What I decide to try in the following weeks: 
+
+* When you eat, just eat.
+* When you defecate, just defecate.
+* Just drink water for a random day of the week, no tea, no coffee
+* delete tiktok 
+* half of time in the week dont' listen to anyting on commute 
+* half of time on the metro, take off glasses, just observe.
+
+### Feel
 
 
 
-
-
-
-
-
-
-  
-
-  而工作或者跟小孩玩耍是可预测的按部就班的，这些不确定性相对比较低的活动带来的多巴胺的释放相对来说是少的。如果你像我一样， 在工作之前和下班之后玩短视频得到了大量的多巴胺奖励，拔高了峰值，那么当你从事低多巴胺释放量的事情的时候，刚开始时你会感觉有点无聊空虚专注力下降，情绪等沟通的效率下降，直到过一会才恢复适应。
-
-  
-
-  因此，在从事低多巴胺释放量的事情之前，可以尝试减少高多巴胺释放量的刺激，以减少对专注力、情绪等各方面的扰乱。
-
-  
-  
-  其次可以间歇性地试试吃饭时候吃饭，睡觉时睡觉。为什么吃饭时玩手机，睡前打游戏？可能是为了弥补工作太忙而缺少休息放松的时间。但是当吃饭时候玩手机，同时做两件事情太多太频繁，不仅影响吃饭的消化，忘记了品尝食物的本来味道（虽然很细微），而且其实耍手机并没有让我们更轻松，反而只是让我更疲惫，叠加的多巴胺刺激，更难以进入下午那些无趣工作琐事的状态。让大脑有一定的休息时间，而不是一直处于吸收状态。这个跟上厕所看手机也是一样的，我如果没有手机，我觉得无聊，于是我每次上厕所都带着，拿出来看是自然而然的。虽然没有像下面这哥们一样，玩游戏这么高多巴胺的“放松”活动：
-  
-  
-  
-  ![play_when_shit](/Users/tuo/戒断咖啡的经历-照片/play_when_shit.jpg)
-  
-  （ps 来源： [谁家这么狠？员工厕所“蹲坑”居然也有监控？！真相来了 ]([谁家这么狠？员工厕所“蹲坑”居然也有监控？！真相来了_一公司_调查_谢经理 (sohu.com)](https://www.sohu.com/a/704512861_100202083)))
-  
-  有意思后来的是当我尝试专心跟我两岁半的小孩玩耍时候，我心想我确实感觉疲惫，但是刷手机只能让我得到虚假的放松和快乐，实质让我在现实中更加疲惫，为什么不试试放下手机书本电脑，一心一意跟他玩一会了？我开始观察他的每个动作，回应他的每个反.我们一起玩玩具，有时候他会让你帮忙一起搭一个东西，然后会有一阵子没有耐心了，又全部推倒，中间时不时有一些意想不到的妙语或鬼点子抑或是人类迷惑行为。有时候他会缠着我，有时候又会自己一个人玩得不亦乐乎。让我惊讶的是，我并没有感到特别疲惫（尽管身体可能仍有些许疲劳），内心却仿佛进入了某种状态。我不再思考其他事情或渴望其他东西，只是专注于当下与他一起玩耍，感受一种天然的人与人沟通的美妙体验。而且这个过程实际上并不会花费很长时间，你不要高估自己，他根本不会一直粘着你。也许只需要10分钟，他对你的热情就像刚刚搭的积木一样，过一会就可能要推倒重新来过了。
-  
-  
-  
-  最后睡前微信读书其实问题不大，但是需要减少阅读这类《地下室手记》这种烧脑的书。
-  
-  
-  
-  ###### 在某一周尝试调整一些行为来体验一下：
-  
-  * 吃饭不看手机,就吃饭
-  * 拉屎就是拉屎
-  * 一周里有一天喝白开水，不喝茶，凉茶，浓茶 奶茶
-  * 删掉抖音等短视频
-  * 一周一天里是不带耳机听书
-  * 在地铁上不戴眼镜，观察人和物
 
   
 
