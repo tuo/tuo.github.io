@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quit Coffee"
+title: "Quitting Coffee"
 date: 2023-07-28 12:55:32 +0800
 published: false
 tags: habit,coffee,dopamine
@@ -75,6 +75,14 @@ This addiction felt similar to the gaming addiction I experienced during my stud
 
 <cite>https://www.psychologytoday.com/us/basics/dopamine</cite>
 
+High dopamine levels in the brain are associated with feelings of excitement, motivation, and even euphoria. On the other hand, low dopamine levels can lead to feelings of low mood, depressed.
+
+
+![dopamidopamine_sine_curvene_sine.jpg](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/dopamine_sine_curve.jpg)
+
+<cite>(A simple description is that dopamine fluctuates around its baseline level, oscillating between peak and valley values, much like a sine wave.)</cite>
+
+
 多巴胺是一种能带来能量和动力的神经传导物质，是愉悦的操控者，让你做事的动力和积极性（奖励、愉悦或满足），也是让你产生抑郁。，多巴胺对我们的身心健康有着至关重要的作用，同时还跟愉悦和满足感有关，当我们经历新鲜、刺激或具有挑战性的事情时，大脑中就会分泌多巴胺。它与人的情欲、感觉有关，它传递兴奋及开心的信息，也各种上瘾行为有关。如果人缺少多巴胺的受体，就会抑制兴奋。增加多巴胺，就能让人兴奋，心情愉悦，但是它会令人上瘾。
 
 
@@ -88,85 +96,73 @@ Just imagine the first time you eat some delicious food at a restaurant or exper
 
 Next time, when you think of the food you ate last time, you already start to feel high because of dopamine release, even with just mere anticipation.
 
+![dopamine_activity_reward_expectation](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/dopamine_activity_reward_expectation.jpg)
 
-![dopamine_sine_curve.jpg](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/dopamine_sine_curve.jpg)
+<cite>Unexpected rewards increase the activity of dopamine neurons, acting as positive feedback signals for the brain regions associated with the preceding behavior. As learning takes place, the timing of activity will shift until it occurs upon the cue alone, with the expected reward having no additional effect. And should the expected reward not be received, dopamine activity drops, sending a negative feedback signal to the relevant parts of the brain, weakening the positive association. Source： [Dopamine, Smartphones & You: A battle for your time](https://sitn.hms.harvard.edu/flash/2018/dopamine-smartphones-battle-time/)</cite>
 
-<cite>(A simple description is that dopamine fluctuates around its baseline level, oscillating between peak and valley values, much like a sine wave.)</cite>
+When Dopamine got released, it need activate on  dopamine receptor to genate excitatory response in the brain. And once the receoptor got activiated, the dopamine well got recycled back to our body with the help of transporter. The dopaminergic systems keeps a delicate and subtley dyanmic balance. It is a seesaw, when one end(pleasure) goes up, the other(pain) goes down. But it would slowly come back to normal, just take some times. The body will rebalance and the baseline level was back to normal. But that's natural state of dopaminergic systems - the dopmaine is generated from the body and recyced by the body. 
 
-多巴胺作为神经递质或激素，需要作用于多巴胺受体才能产生兴奋效应，也就是与突触后膜上的受体结合。如果受体已经被其他物质绑定，那么更多的多巴胺分泌和浓度也不会产生对应的效果和作用。受体的数量和处理能力在生理上有一个最大值和最小值的限制，就像人耳对声音的感知范围有限一样。
-
-过高的多巴胺浓度就像刺耳的声音，会让人不适甚至造成危害。它可能导致血压升高、情绪失控，并在长时间高强度刺激下对细胞产生不可逆的损伤。相反，过低的多巴胺浓度则容易导致情绪低落、记忆力降低，甚至陷入抑郁。
-
-身体本身拥有一套多巴胺的自我调节动态平衡系统，以维持适宜的多巴胺水平，也就是基准线。
-
-![dopamine_working_raw](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/dopamine_working_raw.jpg)
-
-<cite>一个是受体敏感度，一个是释放的速度，一个是回收的速度</cite>
-
-下面是不同活动对应的多巴胺释放的量的对比：
+However, in this digital era, the situmulus is mangatiude folder more than what our ancensor or not that far like 100 years ago. We have TV, computer then phones, the internet is reigning the world. So are the drugs or high denseed chemicals like sugars that you can't get from nature by chewing the coca plant leaves like Andean peoples. All those are highly purified chemical, isolated from plant. Those chemicals cheat and fool the dopaminergic system to either delay the recycle , or lure the body to release more dopamine or increase the level of the activiation on dopamine receptors. 
 
 ![activity_dopamine](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/activity_dopamine.jpg)
 
-<cite>从上图看出来哪怕是毒品带来的快感的持续时间也是短暂的。快乐是短暂的，极大的快乐有极大的痛苦。</cite>
+Those are totaly unseen before. Like nische says "The god is dead", pretty since that, those nature limit forced upon us to keep us in a wellbeing is gone. The dopaine system was welcomed to a Brave New World. Now you have some many choices and of course we'd like to give a try to Amusing Ourselves to Death. But why?
 
-在没有外源性的多巴胺输入或者引起多巴胺系统规则的改变，食物和性等先天性的天然奖赏带来的多巴胺浓度是适量的，身体是可以花一定时间可以慢慢回收准备再次利用而恢复平衡，快乐和痛苦某种程度上说是一定天花板的。要提高快感和效果，那么需要从外部引入一些因素来欺骗大脑来获得药物奖赏：
+Those chemical stimulus leads to a very high dose of dopmaine realse(the peak is higher) comparing to the natural stimulus, so much so that anyone who tried those stimulus would immediately lose the interest on those natural simtiumlus which our ancestor had. However, you won't stay that happy forever, even though external chemicals can easily overpower the native "inferior" and "inefficient" primitive dopamine system, much like an elephant stamping on ants. The balance was broken, the primitive dopamine system would fight back by reducing the nubmer of receptors or to some extreme to sacriface some cells or organs to protect itself and try retake the balance. And those protection could cause a unreversable damange the body.  So your dopamine baseline level got also lifted up along with your peak dapinme leave. 
 
-  * 增加浓度- 诱导多巴胺神经元释放更多多巴胺神经递质 ， 一些物质如吸烟尼古丁和冰毒可以实现这个效果。
-
-  * 增加敏感度 - 通过比多巴胺更亲和多巴胺受体，提高受体的敏感度，某些毒品可以实现这个目标。
-
-  * 延缓回收 - 通过延缓多巴胺的回收，抑制转运酶DAT，使体内多巴胺水平能维持短期的高位，咖啡因就具有这样的作用。
-
-![dopamine_addiction](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/dopamine_addiction.jpg)
-
-<cite>来源:[Yale Medicine: How an Addicted Brain Works](https://www.youtube.com/watch?v=RZ5LH634W8s)</cite>
-
-是不是多巴胺可以无限上升从而达到一致持续无限的快感了？为什么我每天喝一杯咖啡，但是体验到愉悦觉却是越来越弱？因为短期的大量的多巴胺释放会让持续刺激大脑突触结构上的受体，引起持续性的兴奋，这个异常的水平会让大脑做出适应性的动态调整和改变来尝试平衡。它会试图少突触后膜上多巴胺受体的数量来降低兴奋的作用，或者增加多巴胺转体的数量，加快多巴胺的回收。这些都会使得大脑对于刺激物不那么敏感，也就是感受到的愉悦度是下降的，当然同时也会降低对于天然奖赏的反应。这意味着必须加大使用剂量，才能维持和获得先前一样的快感，这个阶段叫耐受，跟胰岛素抵抗，抗生素耐药性有这相似的道理，经济学上管叫边际效用递减。
-
-
-![drug_dopamine](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/drug_dopamine.jpeg)
-
-<cite>来源:[杜新忠戒毒网](http://jhak.com/index.php?m=content&c=index&a=show&catid=86&id=2898637)</cite>
-
-
-
-同样的也可以来解释为什么戒断时会有那么难受。上瘾之后，脑回路会形成了这块刺激-行动-奖赏链路时， 大脑会记住那份快乐，在下一次继续寻求同样的刺激， 但是此时如果已经没有外源物补充，没有进行高多巴胺活动，大脑就会产生戒断一些反应，比如焦虑，无聊，低落，无法集中注意力等等表现，有些甚至是痛苦的，低多巴胺那些自然奖赏已经是没啥动力了去做，为了减轻这些情绪带来的生理不适，不得不再次投入高多巴胺的活动，周而复始。
-
+Again, remember the pleasure you feel is equal to **peak - baseline level**. It make sense now that I take same amount of coffee everyday,but the pleasure I got is weaker and weaker, just like the law of diminishing returns in economics.
 
 
 ![drug_brain_damage](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/drug_brain_damage.png)
 
-<cite>来源: [How do drugs affect the brain?](https://www.farcanada.org/understanding-addiction/how-do-drugs-affect-the-brain/)</cite>
+<cite>source: [How do drugs affect the brain?](https://www.farcanada.org/understanding-addiction/how-do-drugs-affect-the-brain/)</cite>
 
-这个戒断过程，对于像我只是解除咖啡因的而言，难受还是可以忍受的（身体反应不大），但是对于毒品上瘾者而言，大脑结构甚至已经发生不可逆的损害，那这个反应就是非常严重的了，在身体和心理都是双重的折磨，甚至是痛苦。痛苦这么大，以至于除了复吸，就只剩下死亡。极大的快乐意味着极大的痛苦，貌似从一个极端从钟摆一样到另一个极端，跟金融周期的繁荣和萧条周期一样。此刻心理时间上来说，快乐看起来是短暂的，而痛苦却要显得那么长久： 快乐的时光总是那么短暂，痛苦、抑郁、焦虑、苦闷的时光总是停滞了一般，度日如年，牛短熊长。
 
-  
+So they need get more chemical stimulus to keep same level of pleasure they feel. Quite ironically when dopmaine peak got higher for sometime, the dopamine baseline also adjusted itself to a higher level.
 
-  ### 短视频
+And just think about what if you pull out the stimulus inbetween? **peak - baseline level** will give you a negative number, aka, the pain, boredom and depression along with pyshical susfferings. Since previously the baseline level get so high, and so used to high dopmaine stimulus, they just can't stay satified with natural stimulus. Eating a delicius food would have zero interest on them, the little joyment from that is not even recogolizable for them. It is easy to understand why they could fall back to relapse as it is most convenitnly way to get rid of that uncomfonrtablen feeling.
 
-  
 
-  我有病，我是一个病人......我是一个陷入短视频病症的34岁的中年人（尽管承认自己有病可能让人感到难堪，但对于一个主张坦然认识和跟随本性、本色表达的人来说，这是事实。不必担心脸面，确实我患有这样的病症）。什么病症了？
 
-  
+![drug_dopamine](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/drug_dopamine.jpeg)
 
-  症状大致上如下：早上醒来先看看手机，然后上班路上骑自行车去地铁站时会打开B站或油管后台播放视频听。在地铁上做多邻国（5分钟一单元的西班牙语），然后就是看看短视频（西瓜、抖音、B站、Youtube Shorts），或者去虎扑看看球迷为球星之间撕逼（A: 你怎么又黑xxx球星? B: 怎么黑的？A: 贴xxxx球星说过的话或者比赛的视频。 B: 我擦，这也算黑？讲事实也是黑？A: 就算是这样，你也不能公开发出来）。等到到了公司，我打开电脑，开始工作预热（先看看人民日报、v2ex和油管），然后才进入工作状态。工作期间也会时不时刷下手机，上厕所拉屎也是，跟同事吃饭时候有时候也是。
+<cite>source:[杜新忠戒毒网](http://jhak.com/index.php?m=content&c=index&a=show&catid=86&id=2898637)</cite>
+TODO： 需要换成英文
 
-  
 
-  下午3-4点时候锻炼五分钟，然后继续工作直到下班时，上了地铁，感觉累了，越是掏出手机打开短视频学习钓鱼的知识。然后出了地铁站，再次打开B站后台听听。直到到家了，跟老婆小孩吃饭。吃完饭，跟小孩玩一会，还是会忍不住看手机，总觉得有点累了，放松下。晚上倒垃圾时再锻炼五分钟。直到睡前，还会打开微信读书看会书，总是感觉有些累，但是又无法直接休息，这样重复第二天。
 
-  
+### Smart Phone 
 
-  我发现当我感到越疲惫的时候，就越想刷短视频，特别是那种竖屏模式可以不断往下翻的视频。而且刷短视频很容易让我一下子就刷了很长时间，一旦停下来不刷的话，没有外力的影响，单靠自己的意志力感觉挺难的。最重要的是，我发现这样对于我的工作专注力和对孩子的耐心也没有那么好。特别是有一次带着孩子去游乐场，我发现大部分家长也都在刷短视频。
+My commute routine: In the morning, after waking up, I first check my phone. Then, while riding my bike to the subway station on my way to work, I play videos in the background from platforms like Bilibili or YouTube to listen to.
 
-  
+During the subway ride, I use the time to learn Duolingo (Spanish in 5-minute units). After that, I watch short videos on various platforms like Tiktok, Bilibili, and YouTube Shorts. When I arrive at the office, I turn on my latop and do some warm-up activities (first checking V2ex, and YouTube) before getting into work mode. During work, I also occasionally check my phone, including when I go to the restroom. Sometimes, I do the same during lunch with my colleagues. On the subway ride home, feeling tired, I take out my phone and open short videos to learn about carp fishing.
 
-  仔细想了想，上面提到的多巴胺成瘾要么是天然的那么是药物的，手机成瘾应该是一个比较特别的成瘾物了。就短视频而言，一方面它带有社交属性，通过通讯录容易加到朋友家人，这个本身带有愉悦感；另一方面它精心设计算法可以适配你的口味，而不断推同一个口味下面不同的视频。简单的说慢慢的缩小了给你带来愉悦感的事情，同时因为背后创造者的人是千差万别，导致虽然范围缩小到了一个区域，但是区域里的内容是不可预测的，随机的。比如我看的是钓鱼，当我搜索了几个之后，短视频算法立马知道我想看的是钓鱼，于是推了很多钓鱼的视频，但是你却不知道下一个是邓刚钓鲢鳙还是刘志强钓白条，台钓还是传统钓，正门钓法还是邪门钓法等等，是随机的，意料不到的。这种间歇性的随机不确定性正好可以刺激大脑不断释放多巴胺。
+Yeah, pretty much stick my face on the phone.
 
-  
+The problem is that I start feel I got into a negative cycle. Feel less enngezied and couldn't fcous and sth less patience on 2 year and half kids when he ask me to paly with him. One weekend when I take him out to kids area of a mall, I look around and relaize most of parents are just playing their phones - mjority of then are short videos apps.
 
-  上瘾就像一个逐渐缩小能带给你快乐的事情范围的过程。
+This is alike blackhold just sucking in most parts of my life. I was lost and got trapped. 
+
+It turns out for instnce, tiktok, those super-short clips are like heroin for our dopain systme just like above chemicals stimulus. Its algorithm is specifcally tailed to keep our dopaime level at a concerning high. Those random intermmited unexpected rewarding path got our brain tricked pretty much like hitting a jackpot , causing brain to release dopamine. We are lost in  endless, mindless scrolling because the brain are craving a new random video to get a new shot of dopamine.
+
+Andrew Huberman nailed it:
+
+> Addiction is a progressive narrowing of the things that bring you pleasure. A good life is the progressive expansion of the things that bring you pleasure".
+
+<cite>[(226) DOPAMINE DETOX: Take Back CONTROL Of Your Life & STOP LAZINESS! | Dr. Andrew Huberman - YouTube](https://www.youtube.com/watch?v=xLORsLlcT48&ab_channel=TomBilyeu)</cite>
+
+Comparing to learn or work, immeidate-gratification types activity could easily get us hooked. That's why it is so hard for me to get into working state. The beforhead immeidicat-grations types activity get my dopamine base level higher and at the same time, it exhaust me mentally and physically. Once the stimulus get pull out, the dopaline level drops, the sympton of dopamline depletion kicks in.
+The focus is hard to gain and feel bored in front of the low-and-long-dopamin-reward tasks. So it is better to arrange tasks in a dopamine-scientific way.
+
+Another thing is that just don't stack dopmaine atcitivties. Don't multitask on high dopamine activities. Do it one by one as much as you can or mutiple but as natural as you can. When you eat, just eat, you dont' eat with playing your phone at the same time. You might think you can kill two birds with one stone, but actually you might kill 2 stones with one bird. You basically ruined two pleasure things at the same time.
+
+
+
+
+
+
+
+
 
   
 
@@ -313,6 +309,15 @@ Next time, when you think of the food you ate last time, you already start to fe
   
   
   可能是因为我足够变态，我能感受和观察那些快感或者痛苦或者无聊（除了生理疾病之外的），我不抗拒，当然不想着抓住它们留下来，但是也不会去驱赶它们，我就体验感受它们 ，专注的。当我放弃了思考和分析，卸下一切对抗阻力，带着好奇感受着当下身体上的变化和思绪情绪上的激荡，感觉一种从未有过的鲜活的自我存在。在快乐和痛苦中间，其实我更喜欢无聊，体验无聊。
+
+
+  Miester Echart:
+  Truly, it is in darkness that one finds the light, so when we are in sorrow, then this light is nearest of all to us.
+
+  只不过这个light 不是外在的sitmulus， 而是inner light 你自己的。 God is nt dead, god is always within you,but you just wans' aware of it and always look outwards. 
+
+https://www.goodreads.com/author/quotes/73092.Meister_Eckhart
+
   
   
   
@@ -957,3 +962,13 @@ These unnaturally large rewards are not filtered in the brain – they go direct
 
 [(23 封私信 / 80 条消息) 多巴胺对人类的奖赏和动机系统有何看法？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/595942208)
 
+
+
+https://www.newthinking.com/health/is-tiktok-ruining-our-ability-to-be-happy#:~:text=According%20to%20an%20article%20from,more%20and%20more%20of%20this.
+
+
+https://medium.com/dataseries/how-tiktok-is-addictive-1e53dec10867
+
+This makes the platform immediately stimulating. TikTok’s mission, as it claims, aims to “.. capture and present the world’s creativity, knowledge, and precious life moments, directly from the mobile phone. TikTok enables everyone to be a creator, and encourages users to share their passion and creative expression through their videos.”
+
+About. TikTok is the destination for short-form mobile videos. Our mission is to capture and present the world's creativity, knowledge, and precious life moments, directly from the mobile phone.
