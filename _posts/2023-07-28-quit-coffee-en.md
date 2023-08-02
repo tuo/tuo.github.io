@@ -173,7 +173,7 @@ What I decide to try in the following weeks:
 * Just drink water for a random day of the week, no tea, no coffee
 * delete tiktok 
 * half of time in the week dont' listen to anyting on commute 
-* half of time on the metro, take off glasses, just observe.
+* Half of the time on the metro, try take off my glasses (I'm nearsighted) and simply observe the surroundings with everything blurred.
 
 ### Feel
 
