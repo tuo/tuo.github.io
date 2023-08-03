@@ -237,6 +237,11 @@ German mystical Meister Eckhart once said:
 
 There also reminds me of one time when my son and I were walking in the countryside. He looked at something strange and seemed pretty scared. When I inched closer, I realized it was a long piece of snake skin! My son said it was a snake. I reassured him, "It is not a snake, don't worry. It's just the skin that the snake shed." He looked puzzled, and a question popped into my head: "Why do snakes shed their skins?" It turns out snakes shed their skin to allow for further growth and to remove parasites that may have attached to their old skin. At this time, it is probably the vulnerable time for the snake. They shed their skins every two or four times a year. That just gives me an aha moment – we need to constantly peel off our old skin and grow the new skin. The process of rubbing against a rough, hard object to peel off is kind of similar to our situation of setbacks and low moments. Maybe we can use those moments as a chance to shed our old selves and be reborn anew.
 
+
+![fishing](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/fishing2.jpg)
+
+<cite>I did learn fishing from Chinese Tiktok and that skills were pretty good. Those are some beautfiy little fishes with nice colors and scales textures. My son got really interested on those fishes.</cite>
+
 A losing streak could server as a reminder for us to examine our actions to have self-reflection and improvement: Have we deviated from the essence? What efforts should I focus on? Should I consider making slight changes in direction? It helps us to reassess our goals, strategies, and priorities, making adjustments if necessary. Embracing the lessons from losing streaks can lead to growth and progress on our journey.
 
 There is another question merged from this: Doing is imporant, and you need take action, but is it sufficient? I vaguely recall Martin Luther when in The Reformation, in this book <Treaites on good work> , he explains that salvation and faith are not earned by good works, but that good works flow from salvation and faith. You dont' do the good work just for the sake of the reward from God. And in this <Preface to Romans> he saids:
