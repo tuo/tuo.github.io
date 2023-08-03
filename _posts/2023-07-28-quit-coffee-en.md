@@ -248,7 +248,7 @@ Let's say a person is trying to build a habit to lose 10kg in 2 months. They may
 
 Instead, one should confront their anxieties, accept them, and come up with actionable steps to address the root cause, such as moving out of the stressful environment or finding other coping mechanisms. By addressing the root issues, they might naturally avoid overeating to handle stress and, in turn, adopt healthier eating and exercise habits. That leads a natural way of losing weight as result.
 
-Building habits is a great way to gain a better understanding into oneself. Knowing oneself is a constant process, and it is undoubtedly challenging. Doing a deep dive into your inner world that nobody else could do is tough and even daunting. In a world where "God is dead," you become the light to yourself. You may feel alone at times, but you shouldn't feel lonely—the deep connection across time and space between human beings bonds us together. Walk On!
+Building habits is a great way to gain a better understanding into oneself. Knowing oneself is a constant process, and it is undoubtedly challenging. Doing a deep dive into your inner world that nobody else could do is tough and even daunting. In a world where "God is dead," you become the light to yourself. You may feel alone at times, but you shouldn't feel lonely — There are so many comcomrades and the deep connection across time and space between human beings bonds us together. Walk On!
 
 Know the principle, follow the principle, dissolve the principle, and forget the principle.
 
