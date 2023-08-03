@@ -120,8 +120,7 @@ Again, remember the pleasure you feel is equal to **peak - baseline level**. It 
 
 So they need get more chemical stimulus to keep same level of pleasure they feel. Quite ironically when dopmaine peak got higher for sometime, the dopamine baseline also adjusted itself to a higher level.
 
-And just think about what if you pull out the stimulus inbetween? **peak - baseline level** will give you a negative number, aka, the pain, boredom and depression along with pyshical susfferings. Since previously the baseline level get so high, and so used to high dopmaine stimulus, they just can't stay satified with natural stimulus. Eating a delicius food would have zero interest on them, the little joyment from that is not even recogolizable for them. It is easy to understand why they could fall back to relapse as it is most convenitnly way to get rid of that uncomfonrtablen feeling.
-
+And just think about what if you pull out the stimulus inbetween? **peak - baseline level** will give you a negative number, aka, the pain, boredom and depression along with pyshical susfferings. Since previously the baseline level get so high, and so used to high dopmaine stimulus, they just can't stay satified with natural stimulus. Eating a delicius food would have zero interest on them, the little joyment from that is not even recogolizable for them. At this low dopmain level, the speed of the time passed by in psyhology feels slower, hene more painful you would feel, leading a negative reinforcement(Davis double-killing effect, ps anyone remember [the death spiral of stable coin Luna](https://www.forbes.com/sites/alexknapp/2023/08/02/this-startup-wants-to-fight-bladder-cancer-with-a-genetically-engineered-virus/?sh=2cdf924933b0) ?). It is easy to understand why they could fall back to relapse as it is most convenitnly way to get rid of that uncomfonrtablen feeling.
 
 
 ![drug_dopamine](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/drug_dopamine.jpeg)
@@ -151,6 +150,10 @@ Andrew Huberman nailed it:
 
 <cite>[(226) DOPAMINE DETOX: Take Back CONTROL Of Your Life & STOP LAZINESS! | Dr. Andrew Huberman - YouTube](https://www.youtube.com/watch?v=xLORsLlcT48&ab_channel=TomBilyeu)</cite>
 
+Bertrand Russell once said well: “The secret of happiness is this: let your interests be as wide as possible, and let your reactions to the things and persons that interest you be as far as possible friendly rather than hostile.” 
+
+<cite>I dont' think I'm friendly to those stimulus that interest me. Certainly I won' ask them for permission, I just take it commandly :) Well Russell probably didn't know that things and persons that interest you is the devil who is playing a nice card. （打友情牌咋说？ 人畜无害牌？）</cite>
+
 Comparing to learn or work, immeidate-gratification types activity could easily get us hooked. That's why it is so hard for me to get into working state. The beforhead immeidicat-grations types activity get my dopamine base level higher and at the same time, it exhaust me mentally and physically. Once the stimulus get pull out, the dopaline level drops, the sympton of dopamline depletion kicks in.
 The focus is hard to gain and feel bored in front of the low-and-long-dopamin-reward tasks. So it is better to arrange tasks in a dopamine-scientific way. (BTW, anyone really do serioues learning on tiktok ? I did try to learn carp fishing but after a while it starts recommending videos of girls shaking their asses ? WTF, I neither do that type of search nor accidently click on one)
 
@@ -175,37 +178,46 @@ What I decide to try in the following weeks:
 * half of time in the week dont' listen to anyting on commute 
 * Half of the time on the metro, try take off my glasses (I'm nearsighted) and simply observe the surroundings with everything blurred.
 
-### Feel
+### dipamine traps in buildin habit
+
+
+###### 1. visutalzie too much in the starting time of new habit
+
+When we start building a new habit, we tend to think or vsiualize how greate we would be after the habit. Maybe you losing weight,quit somoking or do running, you cn't help to start visualize and project the better self after certain period of time. Oh I will drop my weight like 20Kg in 3 mohnths, run 10KM in 2 months etc. Just think it , as above menteioned, anticipation would cause oru brain to release high dose of dopamine to drive us to pursure it. This high dose of dopamine could boot risky-decision making, causing compulsive gambling etc to get max rewards as soon as it can. So in this case, it would lead us to set inappropriate goals for each step, overestimating in the short term. High dopamine level creates high motivation, but it won'
+t last long if it can't be realized in real world. Maybe goal of first step is easy to get done, but how about the second one, thirid one? The actual reward often is less strong then the antifipation. That just give us a hard time to keep doing.
+
+You need lower the expection upfront. Or after one week, start to do haibt planing. For instance, when I start learning Spanish in Duolingo, I set the goal to 5 minutes, the minimum in 10, 20,30 minutes. Even though the first time I finished with a breeze and I noticed that I have strong desire to do more units, but I keep one for the first day. Cause if you do more, it would burnt out your movitiation upfront in long term.
+
+High expection would lures you to think you're on top of the world, but it is better to stick to yourlself being humble like a fool.
+
+###### 2. perfectionism in pursing streaks
+
+In Duolingo, every day you finished a goal, you have this nice and attracting animiation to signal that you win. It just gives you a pleasing effect. Plus you could see the streaks on your calender. Look the line that cross all days on your calendar, that smooth line. That just let you feels good and you're likely to do it tmr.
+
+Take a look a the check animation:
+
+<img src="http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/duolingo_checkmark.gif" style="zoom:50%;display:flex;"/>
+
+And habit track calendar:
+
+![duolingo_progress](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/duolingo_progress.jpg)
+
+<cite>I have a streak of 998 days pretty like 1000 days at this time of writing. I can't imagine what would be it if I set my goal to 10 minutes or 30 minutes a day(I'm not sure they have so many units then).</cite>
+
+I had a perfect streak, but there are few times that I almost miss one or two days. One day I thought I have finsihed a unit, but around 11:35 PM near the midnight, it sends notification that youre' gonna miss the streak. Then I came to notice I atuacally didn't do it.  So I rush to open the app and finish one unit.
+
+The problem , along the time , that I have noticed with this beautify streak and cehck animiation - those things are supposed to and did provide one dip of movitation and pleasure to keep you in , now it puts some coginive burden on me. I'm more concerend to not break this perfect streak and nice anmiation rather than actually learn from each unit. In other words, I have became addicted to the form of haibt building auxiliary tools in this process. The real purpose, the origin vision is gradually fading out in those daily autopilot routine in pursuit of perfect formalities for sake of formalities.
+
+The more creatvie and more dopamine-hit the animation etc those tools could provide, the more likely you would put yourself in those shackles. The pleasure and dopmaine you get from actual doing is probably less than the one you get from that goal-check and streak. This whole thing just total againist its own purpose, isn't it ? It will backfire!
+
+##### Uncertainty 
 
 
 
 
-  
+Dopmaine is driving us to pursure outside/external goals/achivement/resources/reputation etc to meet its primiitive survivor instinct.
 
-  ### 习惯中的陷阱
-
-  当养成一个新习惯的时候，比如学习新语言或者学习双节棍，一开始容易幻想(visualize)自己成功后的样子，肯定对现在的语言水平和笨拙的手脚是嫌弃的。幻想成功后的样子会释放多巴胺，让人感觉快乐，即使此时还没达到目标。然而，过多这样的幻想可能会导致在进行了一两天后遭遇现实落差的打击，因为实际进展未达到幻想中的程度，容易引发情绪低落和放弃的想法。而此时，大脑渴望通过继续努力将失去的本钱赢回来，进而营造一个更大预期的渴望来释放多巴胺获得愉悦感。
-
-  
-
-  不用沉浸在太多的思绪中，而是应该沉浸在体验中!
-
-  
-
-  幻想太多太大容易造成不恰当的阶段目标设置，导致无法长期持续，因此尽量避免一开始就追求大量多巴胺释放的行为。在多邻国中的西班牙语学习环节中，可以设置每个单元的时长，例如5分钟、10分钟、30分钟和1小时。虽然从愉悦感来说，1小时肯定是最令人满足的，最贴近期待的奖励，但是现实中是非常难得，因为开始时刻因为预期的高多巴胺让你的理智能力有一定抑制，做出的评估极有可能是偏高的。在第一天，你可能会有很高的多巴胺释放，但到了第二天或第三天，你久会发现这个行为难，因为多巴胺释放没有一开始那么高，动力和情绪上都会下降，慢慢地会觉得这个坚持一小时是一种折磨。因此，我设置了最低的5分钟的学习时长。
-
-  同样的学习双节棍也是一样的原理，我先搜索了学习路线，然后从最基础的动作开始逐一学习。在学习的过程中，我专注于每个动作是否做到位，身体的协调性等方面。虽然我可能没有得到短期大量的多巴胺刺激，但我得到了最大化的沉浸体验。这种体验可能不是高多巴胺下的极致愉悦感，但小小的平静满足感从长期来看更容易坚持下去。 
-
-  
-
-  ![dopamine_should](/Users/tuo/戒断咖啡的经历-照片/dopamine_should.jpg)
-
-  （ps:  基准线天然的慢慢提高，可以自然的提高多巴胺水平，更容易长期提供动力）
-  
-  
-  
-  当一开始能感受到那种强烈预期而带来的兴奋，那种按耐不住跃跃越试的冲动时，心跳和肾上腺素加速时，可以试着不去行动，冷却一下（虽然很难，需要不断摸索实践），过一阵子等平静下来了（你可以观察身体和心率的变化），再去分析合理的预期和目标设置。（实际上，某些时候，做多巴胺奖励系统相反的事情，比如高多巴胺时，本能应该很爽，但是去做当时不那么爽的事情，相对适量巴胺释放的事情，比如发呆或者试着盯着远程某个物体观察它的每一个细节，同样的， 在情绪低落或者某些低多巴胺时，也做这些，我个人感觉自己都会有一种奇妙无法用言语的感觉 - 类似传播学里冷新闻热处理 热新闻冷处理）。
-  
+   
   
   
   在多邻国学习中，当你每一天完成了一个单元时，你会得到一个动画效果，提醒你成功坚持了一天，动效是那么流畅丝滑，让你感觉要完成了一个阶段目标，因此感觉很好。同时在日历上，你可以看到连续打卡学习的记录， 看到这么多天也会让你觉得视觉上很享受那根把日历上每个日子都连起来的线。这些都刺激着你让每天打卡，因为每个人或多或少都有点完美主义情节，带着点强迫症。
@@ -218,7 +230,24 @@ What I decide to try in the following weeks:
   
   ![duolingo_calendar](/Users/tuo/戒断咖啡的经历-照片/duolingo_checkmark.gif)
   
-  
+  虽然我虽然没有中断过学习，但是最接近中断的一次是在上午以为我已经完成了这个单元，但实际上没有，直到晚上11点40分我才发现并赶紧完成了它。这是我最接近中断学习的一次体验。
+
+后来我发现这种打卡形式能带来的满足感越多，那么反过来也可以说无形中它给设的套越紧， 你不自觉的会担心中断了日历上那根完美的串联了所有日子的线要中断了，有一节缺失了，不完美了。这种情况下，越是坚持连续打卡的次数越多，那么实际心理的负担越重，你害怕的不是这个过程跳过了对于我长期目标有什么影响，而是这个形式上的瑕疵（我都坚持999天，就在第1000天的时候断了啊），这就像心理的一根刺，有些情况下会暗示自己的这个习惯的坚持已经失败，有的甚至上升到了对于自我的攻击。（摆烂了各位（地下室手记），习惯中断了，又回到了坏习惯的惯性中，完成心理还的加一句：你看我就是那么废，我都说了，你看，证明了吧，以后别瞎折腾）。这就有点像破窗效应, all or nothing，那么为了避免看到形式上的瑕疵，干脆放弃了整个后续习惯的坚持。（哪怕某些APP给你补救连续打卡的办法，其实心理上也会有上面类似的感受，你是没有办法欺骗你自己，无法fake it， 这个也会潜意识的增加给心理一个负担）
+
+
+就像上面我提到的接近中断体验，哪怕是五分钟，就是你拉屎或者坐地铁或者等饭菜快递好或者端上来的时间，就可以轻易做到。实际上中间有很多次，要么因为我头天赶飞机或者做卧铺失眠第二天状态不行，要么是有其他更重要的事情完全占据了这些日常打卡的时间点，要么是以为做了实际没做，要么放开后感染了两波新冠身体难受等等吧而差点点当天没有完成任务而没打卡成功。
+
+
+
+看似形式上设计的精妙，打卡的体验和目标完成度的展示，越是吸引人，越是让人有成就感，那么反过来，你就越依赖它在形式上提供给你的快感，转变为另一种的多巴胺依赖了。而真正完成这个习惯坚持行为的过程中的实际的感受和体验反倒极有可能并没有带来形式上那样多的多巴胺刺激，因为任何习惯的坚持都是一个天然奖赏逐渐提高多巴胺基准水平的过程，这个多巴胺的释放量是一个甚至人都没有明显感觉的提高过程。这样一来，人对于习惯坚持的内在本质的追求，变成了对于习惯坚持的形式的追求，异化了。这就随着形式的坚持时间越久，那么每次打卡时多巴胺释放量会越来越大，达到了上瘾的地步，以至于某一天的跳过，人会觉得失落沮丧，不是因为没有能坚持习惯，而是因为感受到了就像突然没有烟可以吸了的那种多巴胺浓度下降带来的不适。
+
+
+
+这就是有时候可以尝试下逆向多巴胺系统的思路，当感受到多巴胺系统给你带来不适，你要做高多巴胺释放的事情，用魔法击败魔法。这种情况是什么是高多巴胺的事情了？那就是它提醒了也许可以停下来重新审视自己的这个习惯，可能是它一直在自动化运行，变成了以原始的本能反射，你甚至都没怎么意识到了，而不是一个你认为你可以做的一个选择。你刚好可以停下来看看这阵子习惯坚持的效果怎么样，有什么需要修正调整的，方向没有走歪了，有没有走向形式化，自己的感受如何，总结一下，更好的服务于下一个阶段。这个刚好也是短期提高多巴胺的事情，突然打断它的可预测和确定性，增加了随机性，这样短期你就可以有足够动力客服破窗效应，而可以honestly express yourself， 真实面对自己，不欺骗自己，进而可以更加自然进行一下习惯坚持的任务，你也可以给上述留出一定时间，让多巴胺回到正常基准，然后重新出发。
+
+
+
+大脑是一套本能的原始的系统，大部分情况是都是自动化运行的，有时候很明显是会出bug，我们无法完全相信它，而类似的习惯日常化了，也会慢慢变成了自动化运行，所以我们需要时不时停下来检视它才能更好的发挥出它作用，科学是动态的，真理是不断发展的，所以需要保持敬畏的同时保持一定的怀疑。
   
   虽然我虽然没有中断过学习，但是最接近中断的一次是在上午以为我已经完成了这个单元，但实际上没有，直到晚上11点40分我才发现并赶紧完成了它。这是我最接近中断学习的一次体验。
   
@@ -597,6 +626,7 @@ https://pic1.zhimg.com/80/v2-044b30b7b4919c49ff725f9ab61dd703_1440w.webp?source=
 Huberman : Addiction is a progressive narrowing of the things that bring you pleasure. A good life is the progressive expansion of the things that bring you pleasure"
 
 [(226) DOPAMINE DETOX: Take Back CONTROL Of Your Life & STOP LAZINESS! | Dr. Andrew Huberman - YouTube](https://www.youtube.com/watch?v=xLORsLlcT48&ab_channel=TomBilyeu)
+
 
 
 
