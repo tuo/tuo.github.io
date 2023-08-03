@@ -2,13 +2,13 @@
 layout: post
 title: "Quitting Coffee"
 date: 2023-07-28 12:55:32 +0800
-published: false
+published: true
 tags: habit,coffee,dopamine
 ---
  
 Why do I want to quit coffee?
 
-Well, for one, I've noticed that my sleep quality hasn't been great lately. I feel like coffee might be contributing to that.
+I've noticed that my sleep quality hasn't been great lately. I feel like coffee might be contributing to that.
 
 I drink pretty much every day, one cup of instant coffee in the morning and another one at noon for maybe 10-12 years. Even though money is not that much, it adds up, it's not a small amount.
 
@@ -31,7 +31,7 @@ In the following second and third weeks, the quitting process became relatively 
 <cite> habit tracking calendar</cite>
 
  
-When I began my coffee quitting journey, following online recommendations, I bought a calendar paper of habit tracker. If I successfully abstained from drinking coffee on a given day, I would solemnly mark a check on it with a pen. This simple ritual made me feel satisfied because each check represented accomplishing a small goal. (one step closer)
+When I began my coffee quitting journey, following online recommendations, I bought a calendar paper of habit tracker. If I successfully abstained from drinking coffee on a given day, I would mark a check on it with a pen. This simple ritual made me feel satisfied because each check represented accomplishing a small goal. (one step closer)
  
 
 As time went by, about one or two months later, I no longer felt the need to drink coffee purely for its stimulating effects. However, I still maintained the habit of drinking it once a week, as completely giving it up would take away some pleasures. But now, I don't stick to a specific time for drinking; instead, I randomly choose a day within the week to drink. Additionally, I've been trying different styles of coffee such as latte, Americano, cappuccino, hot, and iced, to bring some novelty.  Well, I could still enjoy the freshness of coffee without indulging.
@@ -74,9 +74,9 @@ However, in this digital era, the stimuli have increased exponentially compared 
 
 Those are totally unseen before. Like Nietzsche says, 'God is dead.' Ever since then, those natural limits forced upon us to keep us in well-being are gone. The dopamine system was welcomed to a Brave New World. Now, you have so many choices, and of course, we'd like to give a try to Amusing Ourselves to Death. But why?
 
-Those chemical stimuli lead to a very high dose of dopamine release (the peak is higher) compared to natural stimuli, so much so that anyone who tries those stimuli would immediately lose interest in the natural ones our ancestors had. However, you won't stay that happy forever; even though external chemicals can easily overpower the native 'inferior' and 'inefficient' primitive dopamine system, much like an elephant stamping on ants. The balance is broken, and the primitive dopamine system fights back by reducing the number of receptors or, in extreme cases, sacrificing some cells or organs to protect itself and try to regain balance. These protections could cause irreversible damage to the body. So, your dopamine baseline level also gets lifted up along with your peak dopamine levels.
+Those chemical stimuli lead to a very high dose of dopamine release (the peak is higher) compared to natural stimuli, so much so that anyone who tries those stimuli would immediately lose interest in the natural ones our ancestors had. However, you won't stay that happy forever; even though external chemicals can easily overpower the native 'inferior' and 'inefficient' primitive dopamine system, much like an elephant stamping on ants. The balance is broken, and the primitive dopamine system fights back by reducing the number of receptors or, in extreme cases, sacrificing some cells or organs to protect itself and try to regain balance. These protections could possibly cause irreversible damage to the body. So, your dopamine baseline level also gets lifted up along with your peak dopamine levels.
 
-Again, remember that the pleasure you feel is equal to the peak - baseline level. It makes sense now that I take the same amount of coffee every day, but the pleasure I get is weaker and weaker, just like the law of diminishing returns in economics.
+Again, remember that the pleasure you feel is equal to the **Peak - Baseline level**. It makes sense now that I take the same amount of coffee every day, but the pleasure I get is weaker and weaker, just like the law of diminishing returns in economics.
 
 
 ![drug_brain_damage](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/drug_brain_damage.png)
@@ -85,12 +85,11 @@ Again, remember that the pleasure you feel is equal to the peak - baseline level
 
 So, they need to get more chemical stimulus to maintain the same level of pleasure they feel. Quite ironically, when dopamine peaks for some time, the dopamine baseline also adjusts itself to a higher level.
 
-Now, think about what happens if you suddenly remove the stimulus in between? peak - baseline level will give you a negative number, leading to pain, boredom, and depression, along with physical suffering. Since the baseline level has become so high and they are used to high dopamine stimuli, they just can't stay satisfied with natural stimuli. Even eating delicious food would hold zero interest for them; the little enjoyment from that is barely recognizable. At this low dopamine level, time passes more slowly in psychology, making the pain even more pronounced, leading to negative reinforcement (Davis double-killing effect – does anyone remember the death spiral of the stable coin Luna?). It is easy to understand why they could fall back and relapse as it is the most convenient way to get rid of that uncomfortable feeling."
+Now, think about what happens if you suddenly remove the stimulus? **peak - baseline level** will give you a negative number, leading to pain, boredom, and depression, along with physical suffering. Since the baseline level has become so high and they are used to high dopamine stimuli, they just can't stay satisfied with natural stimuli. Even eating delicious food would hold zero interest for them; the little enjoyment from that is barely recognizable. At this low dopamine level, time passes more slowly in psychology, making the pain even more pronounced, leading to negative reinforcement (Davis double-killing effect – does anyone remember the death spiral of the stable coin Luna?). It is easy to understand why they could fall back and relapse as it is the most convenient way to get rid of that uncomfortable feeling."
 
-![drug_dopamine](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/drug_dopamine.jpeg)
+![drug_dopamine](http://d2h13boa5ecwll.cloudfront.net/20230728quitcoffee/drug_dopamine_en.jpg)
 
 <cite>source:[杜新忠戒毒网](http://jhak.com/index.php?m=content&c=index&a=show&catid=86&id=2898637)</cite>
-TODO： 需要换成英文
 
 
 ## Smartphone Addiction 
@@ -107,13 +106,16 @@ This feels like a black hole just sucking in most parts of my life. I feel lost 
 
 It turns out, for instance, TikTok and those super-short clips are like heroin for our dopamine system, just like the above-mentioned chemical stimuli. TikTok's algorithm is specifically tailored to keep our dopamine levels at a concerning high. The random, intermittent, unexpected rewarding path tricks our brain, much like hitting a jackpot, causing it to release dopamine. We become lost in endless, mindless scrolling because our brains crave new, random videos to get a new shot of dopamine.
 
+
 Andrew Huberman nailed it:
 
 > Addiction is a progressive narrowing of the things that bring you pleasure. A good life is the progressive expansion of the things that bring you pleasure".
 
 <cite>[DOPAMINE DETOX: Take Back CONTROL Of Your Life & STOP LAZINESS! | Dr. Andrew Huberman - YouTube](https://www.youtube.com/watch?v=xLORsLlcT48&ab_channel=TomBilyeu)</cite>
 
-Bertrand Russell once said well: “The secret of happiness is this: let your interests be as wide as possible, and let your reactions to the things and persons that interest you be as far as possible friendly rather than hostile.” 
+Bertrand Russell once said well: 
+
+> “The secret of happiness is this: let your interests be as wide as possible, and let your reactions to the things and persons that interest you be as far as possible friendly rather than hostile.” 
 
 <cite> don't think I'm friendly to those stimuli that interest me. Certainly, I won't ask them for permission; I just take them commandingly :) Well, Russell probably didn't know that things and persons that interest you are probably the devil pretending like a nice guy.</cite>
 
@@ -156,9 +158,9 @@ When we start building a new habit, we tend to think or visualize how great we w
 The consequence of this high dopamine level can be setting inappropriate goals for each step, overestimating what can be achieved in the short term. While the initial motivation might be high, it won't last long if those goals cannot be realized in the real world. The actual rewards often turn out to be not that good than our anticipations, making it challenging to maintain our momentum and enthusiasm for the new habit.
 
 
-You need to lower your expectations upfront. After cooling for one week, then start habit planning. For instance, when I started learning Spanish on Duolingo, I set the goal for 5 minutes, with a minimum of 10, 20, or 30 minutes. Even though the first time I finished with ease and felt a strong desire to do more units, I kept it to just one for the first day. This is because doing more upfront can burn out my motivation in the long run.
+You need to lower your expectations upfront. After cooling for one week, then start habit planning. For instance, when I started learning Spanish on Duolingo, I set the goal for 5 minutes, the minimum of 10, 20, or 30 minutes options. Even though the first time I finished with ease and felt a strong desire to do more units, I kept it to just one for the first day. This is because doing more upfront can burn out my motivation in the long run.
 
-High expectations can lead you to believe you're on top of the world, but it's better to remain humble and stick to yourself, like a fool.
+High expectations can lead you to believe you're on top of the world, but it's better to remain humble and stick to yourself. Better stay humble like a fool.
 
 ### 2. Perfectionism in pursuing streaks.
 
@@ -217,7 +219,7 @@ This may look easy, but it is actually very hard to do. Knowing in a dopamine ba
 
 Building awareness requires openness, where one must fully acknowledge their ignorance and empty their cup. This will naturally lead to curiosity about oneself, its authentic existing in this cosmos. Become aware of your body, emotions, thoughts, and surroundings.
 
-Number two: How can we deal with that state and those feelings? Awareness is kind of like letting it go, observing from a distance. Feel the body, the emotions, and all those wandering thoughts before instinctively reacting to them. Experience the moment, be fully present. Those boredom and pain are interesting to watch, aren't they? It's just like when we go outside to a park, sometimes my son stops on the trail and watches the ants moving here and there with focus, curiosity, and patience evident on his face.
+Number two: How can we deal with that state and those feelings? Awareness is kind of like letting it go, observing from a distance. Feel the body, the emotions, and all those wandering thoughts before instinctively reacting to them. Experience the moment, be fully present. Those boredom and pain are interesting to watch, aren't they? It's just like when we go outside to a park, sometimes my son stops on the trail and watches the ants moving here and there with focus, curiosity, and patience showing in his face.
 
 We have lost that subtle sensitivity for quite a long time: sensitivity of our bodies, sensitivity to our surroundings. The illusive feelings of "secure" and "comfortable" that we build over years of habitual activities lead us to believe we hold ultimate authority, until life throws another curveball. We are becoming rigid, more like rats in a race, losing all those colorful, dynamic abd glowing individual temperaments that every authentic, honest, and unique human being possesses from birth. The light inside is off, leaving us in complete darkness.
 
@@ -233,7 +235,7 @@ German mystical Meister Eckhart once said:
 
 > Truly, it is in darkness that one finds the light, so when we are in sorrow, then this light is nearest of all to us.
 
-There also reminds me of one time when my son and I were walking in the countryside. He looked at something strange and seemed pretty scared. When I inched closer, I realized it was a long piece of snake skin! My son said it was a snake. I reassured him, "It is not a snake, don't worry. It's just the skin that the snake shed." He looked puzzled, and a question popped into my head: "Why do snakes shed their skins?" It turns out snakes shed their skin to allow for further growth and to remove parasites that may have attached to their old skin. At this time, it is probably the vulnerable time for the snake. They shed their skins every two or four times a year. That just gives me an aha moment – we need to constantly peel off our old skin and grow the new skin. The process of rubbing against a rough, hard object to peel off is kind of similar to our setbacks and low moments. Maybe we can use those moments as a chance to shed our old selves and be reborn anew.
+There also reminds me of one time when my son and I were walking in the countryside. He looked at something strange and seemed pretty scared. When I inched closer, I realized it was a long piece of snake skin! My son said it was a snake. I reassured him, "It is not a snake, don't worry. It's just the skin that the snake shed." He looked puzzled, and a question popped into my head: "Why do snakes shed their skins?" It turns out snakes shed their skin to allow for further growth and to remove parasites that may have attached to their old skin. At this time, it is probably the vulnerable time for the snake. They shed their skins every two or four times a year. That just gives me an aha moment – we need to constantly peel off our old skin and grow the new skin. The process of rubbing against a rough, hard object to peel off is kind of similar to our situation of setbacks and low moments. Maybe we can use those moments as a chance to shed our old selves and be reborn anew.
 
 A losing streak could server as a reminder for us to examine our actions to have self-reflection and improvement: Have we deviated from the essence? What efforts should I focus on? Should I consider making slight changes in direction? It helps us to reassess our goals, strategies, and priorities, making adjustments if necessary. Embracing the lessons from losing streaks can lead to growth and progress on our journey.
 
@@ -241,7 +243,7 @@ There is another question merged from this: Doing is imporant, and you need take
 
 > The person with a true faith will perform the works of the law because the works of the law will be what they desire to do; the works are thus an outworking and a result of the faith, in the same way that heat is an outworking and a result of the fire.
 
-That's actually quite inspiring for life's thought. Instead of obsessing over what you need to be, focus on what you should be. Doing becomes a natural extension of being; it overflows and radiates from your authentic self, akin to the concept of "The One" in Plotinus' philosophy (reminding me of Trickle-down economics).
+That's actually quite inspiring for life's thought. Instead of obsessing over what you need to be, focus on what you are and will be. Doing becomes a natural extension of being; it overflows and radiates from your authentic self, akin to the concept of "The One" in Plotinus' philosophy (reminding me of Trickle-down economics).
 
 
 Let's say a person is trying to build a habit to lose 10kg in 2 months. They may initially think they need to lose weight by exercising more and eating less, attributing their overweight condition to these reasons. However, this could just be the tip of the iceberg. There might be deeper underlying reasons behind their weight issue. Perhaps they have a stressful family or toxic working environment, leaving them with no outlet for those negative emotions, leading them to choose overeating as a way to release the pressure.
