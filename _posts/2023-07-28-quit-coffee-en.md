@@ -182,7 +182,9 @@ The problem I have noticed over time is that this beautiful streak and the check
 
 The more creative and dopamine-inducing the animations and other tools become, the more likely you are to put yourself in these shackles. The pleasure and dopamine you get from actually doing the task are probably less than what you experience from the goal-check and streak. This whole thing goes completely against its own purpose, doesn't it? It will backfire!
 
-##### Uncertainty 
+#### Uncertainty 
+
+<br/>
 
 As I grow older, I realize that uncertainty is probably the submerged part of the iceberg, and I understand the need to shift from a certainty mindset to an uncertainty mindset. Life throws you curveballs, and you don't really have as much control over your life as you may think. Things don't work in a linear way; there are ups and downs, and that's what makes it fascinating. You have limited control over how low the downs can be.
 
@@ -227,7 +229,7 @@ Be open to discomfort, resist the immediate urge to place judgments, and feel an
 
 Then discomfort (pain/boredom, just like dopamine depletion) can be a great hint and clue to break free from our rigid thinking developed through our daily routines. We are no longer on autopilot; it's time to step back and check, which is actually a good thing. As Bruce Lee nicely put it in 1970 when he hurt his back very badly, which could have possibly led to paralysis, in his letter to his friend:
 
-> “But with every adversity comes a blessing because a shock acts as a reminder to oneself that we must not get stale in routine.” It’s not the situation that’s the problem. It’s how you react to it.
+> “I mean who has the most insecure job than I have? What do I live on? My faith in my ability that I’ll make it. Sure my back injury screwed me up good for a year but with every adversity comes a blessing because a shock acts as a reminder to oneself that we must not get stale in routine.” It’s not the situation that’s the problem. It’s how you react to it.
 
 <cite>source: [Bruce Lee Podcst: #11 Walk On](https://brucelee.com/podcast-blog/2016/9/21/11-walk-on)</cite>
 
@@ -256,6 +258,7 @@ Let's say a person is trying to build a habit to lose 10kg in 2 months. They may
 Instead, one should confront their anxieties, accept them, and come up with actionable steps to address the root cause, such as moving out of the stressful environment or finding other coping mechanisms. By addressing the root issues, they might naturally avoid overeating to handle stress and, in turn, adopt healthier eating and exercise habits. That leads a natural way of losing weight as result.
 
 Building habits is a great way to gain a better understanding into oneself. Knowing oneself is a constant process, and it is undoubtedly challenging. Doing a deep dive into your inner world that nobody else could do is tough and even daunting. In a world where "God is dead," you become the light to yourself. You may feel alone at times, but you shouldn't feel lonely — There are so many comcomrades and the deep connection across time and space between human beings bonds us together. Walk On!
+
 
 Know the principle, follow the principle, dissolve the principle, and forget the principle.
 
