@@ -225,7 +225,12 @@ Number two: How can we deal with that state and those feelings? Awareness is kin
 
 We have lost that subtle sensitivity for quite a long time: sensitivity of our bodies, sensitivity to our surroundings. The illusive feelings of "secure" and "comfortable" that we build over years of habitual activities lead us to believe we hold ultimate authority, until life throws another curveball. We are becoming rigid, more like rats in a race, losing all those colorful, dynamic abd glowing individual temperaments that every authentic, honest, and unique human being possesses from birth. The light inside is off, leaving us in complete darkness.
 
-Be open to discomfort, resist the immediate urge to place judgments, and feel and experience it as if it were a precious gift.
+Be open to discomfort, be curious, resist the immediate urge to place judgments, and feel and experience it as if it were a precious gift.
+
+Carl Jung:
+
+> Psychological or spiritual development always requires a greater capacity for anxiety and ambiguity.
+
 
 Then discomfort (pain/boredom, just like dopamine depletion) can be a great hint and clue to break free from our rigid thinking developed through our daily routines. We are no longer on autopilot; it's time to step back and check, which is actually a good thing. As Bruce Lee nicely put it in 1970 when he hurt his back very badly, which could have possibly led to paralysis, in his letter to his friend:
 
