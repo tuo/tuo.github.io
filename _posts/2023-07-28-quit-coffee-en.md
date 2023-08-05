@@ -238,6 +238,8 @@ Then discomfort (pain/boredom, just like dopamine depletion) can be a great hint
 
 <cite>source: [Bruce Lee Podcst: #11 Walk On](https://brucelee.com/podcast-blog/2016/9/21/11-walk-on)</cite>
 
+Experience the pain and pleasure as it is, but not to attach to it or try with any thoughts to blockade or avoid it. It is in this full totality, wholeness of immersive experience, we could given up all those impluses to control it, impose our will on it, in a natural and Wu-wei way. If my son is 2 years and half old, then I'm the new born baby to him, not as an adult.
+
 German mystical Meister Eckhart once said:
 
 > Truly, it is in darkness that one finds the light, so when we are in sorrow, then this light is nearest of all to us.
@@ -257,19 +259,15 @@ There is another question merged from this: Doing is imporant, and you need take
 
 > The person with a true faith will perform the works of the law because the works of the law will be what they desire to do; the works are thus an outworking and a result of the faith, in the same way that heat is an outworking and a result of the fire.
 
-That's actually quite inspiring for life's thought. Instead of obsessing over what you need to be, focus on what you are and will be. Doing becomes a natural extension of being; it overflows and radiates from your authentic self, akin to the concept of "The One" in Plotinus' philosophy (reminding me of Trickle-down economics).
+Instead of obsessing over what you need to be, focus on what you are and will be. Doing becomes a natural extension of being; it overflows and radiates from your authentic self, akin to the concept of "The One" in Plotinus' philosophy (reminding me of Trickle-down economics).
 
+Take a step to reflect, contemplate, as I'm growing older, is to constantly search the true self and acheive the self-actualization through the process. What you are is something only you could dig it out, no one else could do it for you. Once you get some glimpse of it, you know who you are. And building habit or taking action is just natural extension of your being. It takes no effort, put other way, those actions or habit building is in reality effortless. Being present in those actions is a way to experincing with inner oneself. No external or extra drive or movitation is really needed or placed to let you "make effort" conciously. Shifting the focus from outcome to process then is a spontaneous thing which the inner force will empower us in a tender, sustatainable, healthy manner in long term.
 
-Let's say a person is trying to build a habit to lose 10kg in 2 months. They may initially think they need to lose weight by exercising more and eating less, attributing their overweight condition to these reasons. However, this could just be the tip of the iceberg. There might be deeper underlying reasons behind their weight issue. Perhaps they have a stressful family or toxic working environment, leaving them with no outlet for those negative emotions, leading them to choose overeating as a way to release the pressure.
-
-Instead, one should confront their anxieties, accept them, and come up with actionable steps to address the root cause, such as moving out of the stressful environment or finding other coping mechanisms. By addressing the root issues, they might naturally avoid overeating to handle stress and, in turn, adopt healthier eating and exercise habits. That leads a natural way of losing weight as result.
-
-Building habits is a great way to gain a better understanding into oneself. Knowing oneself is a constant process, and it is undoubtedly challenging. Doing a deep dive into your inner world that nobody else could do is tough and even daunting. In a world where "God is dead," you become the light to yourself. You may feel alone at times, but you shouldn't feel lonely — There are so many comcomrades and the deep connection across time and space between human beings bonds us together. Walk On!
-
+Yeah, building habits is a great way to gain a better understanding into oneself. Knowing oneself is a dynamic process, and it is undoubtedly challenging. Doing a deep dive into oneself's inner world is tough and even daunting. In a world where "God is dead," you become the light to yourself. You may feel alone at times, but you shouldn't feel lonely — There are so many comrades and the deep connection across time and space between human beings bonds us together. Walk On!
 
 Know the principle, follow the principle, dissolve the principle, and forget the principle.
 
 Chop Wood, Carry Water!
 
-
+Dont' think, Feeeeeeeeeeeeeeeeel, my friend! 
 
