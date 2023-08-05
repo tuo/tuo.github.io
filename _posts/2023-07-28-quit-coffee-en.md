@@ -242,7 +242,7 @@ Experience the pain and pleasure as it is, but not to attach to it or try with a
 
 Sympathy and compassion must be granted by a total self-rupture to break those rigid patterns, layers, armours and so called "I think it is good for you" kinda authority, so we could get close to our soul in order to fully feel other's soul in a equally way and be able to listen and echo back.
 
-Therefore I must prepare myself in a fully peaceful state to embrace those discomforts and uncertainities. Not only it is always me, as a father, who takes the responsibility readily anf full-heartly to protect and give my kid some room of purity to let his nature blossom, but also it let me to have chance to know myself better. How about expericing together in this life journey? I'm voluntarily and effortlessly putting on those shackles by seeming to give up some freedom I have, but I know I'm getting a total and full freedom from the soul. To some extent, I'm, from now on, a Free Man.
+Therefore I must prepare myself in a fully peaceful state to embrace those discomforts and uncertainities. Not only it is always me, as a father, who takes the responsibility readily anf full-heartly to protect and give my kid some room of purity to let his nature blossom, but also it let me to have chance to know myself better. How about expericing together in this life journey? I'm voluntarily and effortlessly putting on those shackles which seems to give up some freedom I have, but I know I'm getting a total and full freedom from the soul. To some extent, I'm, from now on, a Free Man.
 
 German mystical Meister Eckhart once said:
 
