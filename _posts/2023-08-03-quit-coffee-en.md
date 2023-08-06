@@ -234,7 +234,9 @@ Carl Jung:
 
 Then discomfort (pain/boredom, just like dopamine depletion) can be a great hint and clue to break free from our rigid thinking developed through our daily routines. We are no longer on autopilot; it's time to step back and check, which is actually a good thing. As Bruce Lee nicely put it in 1970 when he hurt his back very badly, which could have possibly led to paralysis, in his letter to his friend:
 
-> “I mean who has the most insecure job than I have? What do I live on? My faith in my ability that I’ll make it. Sure my back injury screwed me up good for a year but with every adversity comes a blessing because a shock acts as a reminder to oneself that we must not get stale in routine.” It’s not the situation that’s the problem. It’s how you react to it.
+> “I mean who has the most insecure job than I have? What do I live on? My faith in my ability that I’ll make it. Sure my back injury screwed me up good for a year but with every adversity comes a blessing because a shock acts as a reminder to oneself that we must not get stale in routine.” 
+
+> ”Remember,my friend,it's not what happens that counts;it is how you react.Your mental attitude determines what you make of it,either a stepping stone or a stumbling block.“
 
 <cite>source: [Bruce Lee Podcst: #11 Walk On](https://brucelee.com/podcast-blog/2016/9/21/11-walk-on)</cite>
 
