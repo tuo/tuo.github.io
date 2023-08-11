@@ -209,7 +209,7 @@ Perfectionism is the number one enemy in building long-term habits. There is not
 
 > It's like a finger pointing away to the moon. Don't concentrate on the finger or you will miss all that heavenly glory.
 
-Perfectionism is a fragile thing in the face of the force of uncertainty.
+Perfectionism is a fragile and ephemeral thing in the face of the force of uncertainty. In Taoism, the concepts of perfect and imperfect do not exist in isolation; much like yin  yang, they are indivisible. One cannot selectively choose perfection and expect it to remain in a perpetual flawless state. It is futile to become attached and cling to it.
 
 
 ## Feel and Being
@@ -223,7 +223,7 @@ Building awareness requires openness, where one must fully acknowledge their ign
 
 Number two: How can we deal with that state and those feelings? Awareness is kind of like letting it go, observing from a distance. Feel the body, the emotions, and all those wandering thoughts before instinctively reacting to them. Experience the moment, be fully present. Those boredom and pain are interesting to watch, aren't they? It's just like when we go outside to a park, sometimes my son stops on the trail and watches the ants moving here and there with focus, curiosity, and patience showing in his face.
 
-We have lost that subtle sensitivity for quite a long time: sensitivity of our bodies, sensitivity to our surroundings. The illusive feelings of "secure" and "comfortable" that we build over years of habitual activities lead us to believe we hold ultimate authority, until life throws another curveball. We are becoming rigid, more like rats in a race, losing all those colorful, dynamic abd glowing individual temperaments that every authentic, honest, and unique human being possesses from birth. The light inside is off, leaving us in complete darkness.
+We have lost that subtle sensitivity for quite a long time: sensitivity of our bodies, sensitivity to our surroundings. The illusive feelings of "secure" and "comfortable" that we build over years of habitual activities lead us to believe we hold ultimate authority, until life throws another curveball. We are becoming rigid, more like rats in a race, losing all those colorful, dynamic, vibraint and  glowing individual temperaments that every authentic, honest, and unique human being possesses from birth. The light inside is off, leaving us in complete darkness.
 
 Be open to discomfort, be curious, resist the immediate urge to place judgments, and feel and experience it as if it were a precious gift.
 
@@ -234,7 +234,7 @@ Carl Jung:
 
 Then discomfort (pain/boredom, just like dopamine depletion) can be a great hint and clue to break free from our rigid thinking developed through our daily routines. We are no longer on autopilot; it's time to step back and check, which is actually a good thing. As Bruce Lee nicely put it in 1970 when he hurt his back very badly, which could have possibly led to paralysis, in his letter to his friend:
 
-> “I mean who has the most insecure job than I have? What do I live on? My faith in my ability that I’ll make it. Sure my back injury screwed me up good for a year but with every adversity comes a blessing because a shock acts as a reminder to oneself that we must not get stale in routine.” 
+> “I mean who has the most insecure job than I have? What do I live on? My faith in my ability that I’ll make it. Sure my back injury screwed me up good for a year but with every adversity comes a blessing because a shock acts as a reminder to oneself that we must not get stale in routine. With adversity you are shocked to higher levels if you allow yourself to go beyond your current circumstances.” 
 
 > ”Remember,my friend,it's not what happens that counts;it is how you react.Your mental attitude determines what you make of it,either a stepping stone or a stumbling block.“
 
@@ -244,7 +244,9 @@ He goes on to say:
 
 > ... to understand your fear is the beginning of really seeing. Fear compels us to cling to tranditions and gurus. There can be no intiative if one has fear. The enemy of development is pain phobia - the unwillingness to do a tiny bit of suffering. As you feel unpleasant, you interrupt the continuum of awareness and you become phobic.
 
-Experience the pain and pleasure as it is, but not to attach to it or try with any thoughts to blockade or avoid it. It is in this full totality, wholeness of immersive experience, we could given up all those impluses to control it, impose our will on it, hence in a natural and Wu-wei way. If my son is 2 years and half old, then I'm the new born baby to him, not as an adult. I'm learning to search myself as he is learning to grow. Maybe there are some teachings I could provide for on how this external world is running, hey, other than that, all I could do is just provide some guidences for him in his unfolding journey. Clearly it will expose me to those anexity and uncertainity of refusing to impose some social norms or conventions or dogmas from outside on my son just for sake of my comfortness and sense of security and certainty. As Carl Jung said: “Knowing your own darkness is the best method for dealing with the darknesses of other people.” , and Confucius said: “You should treat others the way you like to be treated.“, and as I slightly modified saying: “Don't do unto others what you don't want done unto you PLUS what you want done unto you too.” ,  I don't want to possess that easily-and-quickly-gained relief and temporary good feeling by follow those social norms or conventions without doing my homework to examine what those really are, without feeling my son's feelings in his shoes. Of course, I dont' want my son to conform to my authority and not be happy.
+
+
+Experience the pain and pleasure as it is, but not to attach to it or try with any thoughts to blockade or avoid it. It is in this full totality, wholeness of immersive experience, we could given up all those impluses to control it, impose our will on it, hence in a natural and Wu-wei(The Art of Not Forcing) way. If my son is 2 years and half old, then I'm the new born baby to him, not as an adult. I'm learning to search myself as he is learning to grow. Maybe there are some teachings I could provide for on how this external world is running, hey, other than that, all I could do is just provide some guidences for him in his unfolding journey. Clearly it will expose me to those anexity and uncertainity of refusing to impose some social norms or conventions or dogmas from outside on my son just for sake of my comfortness and sense of security and certainty. As Carl Jung said: “Knowing your own darkness is the best method for dealing with the darknesses of other people.” , and Confucius said: “You should treat others the way you like to be treated.“, and as I slightly modified saying: “Don't do unto others what you don't want done unto you PLUS what you want done unto you too.” ,  I don't want to possess that easily-and-quickly-gained relief and temporary good feeling by follow those social norms or conventions without doing my homework to examine what those really are, without feeling my son's feelings in his shoes. Of course, I dont' want my son to conform to my authority and not be happy.
 
 Sympathy and compassion must be granted by a total self-rupture to break those rigid patterns, layers, armours and so called "I think it is good for you" kinda authority, so we could get close to our soul in order to fully feel other's soul in a equally way and be able to listen and echo back.
 
