@@ -8,7 +8,9 @@
 
 ## Jekyll
 
-    rvm use 2.7.6 --default
+    rvm use 3.0.0 --default
+    # resolve openssl https://talk.jekyllrb.com/t/jekyll-install-fatal-error-openssl-ssl-h-file-not-found-macos/7660
+    #gem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include
 
 	sudo gem install -n /usr/local/bin  rouge
 	rougify help style
