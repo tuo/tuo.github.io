@@ -58,6 +58,30 @@ sth that we could all related, but that's who we were in child time.  Kid knows 
 
 maybwe think they haven't devleop high level consicuosu , hence only with subsoncious and aninmal spritit,  but man concious have gone too far and burden me so much as I grows, it just overwhlem all others. I forgot that play is just simply for sake of play.
 
+There are three takeways from this observation:
+
+* blank paper or empty cup mindset: to play is to leave behind the impressiosions or preconceived idealogities, to engage to play to disover to explore.
+* switch play smoothly:  when the play doesn't seems fun to him, he git-stashes it and switch to new play naturally. No baggage or burden of previous play are carried to next play. Single tasking, not multi-tasking.
+* Playing is a nature state of being:  not to please or ask for benefits or escape from the punishments. Pure and unfiltered state of being.
+
+
+
+### Connect Inner 
+
+In the beginning, I really want to get rid of that anaxity and self-dbouting but soon I found myself in apostion of choinceless. I can't do anytihng about it. That has made me to slow down involuntarily. Anyone could feel that slow motion of time when involeved in negative emotions. With above playing experince from my son, I start to build the awareness - that is trying to apply that in the differnt aspects of my life through experiments. Quite to the oppose of scentific side, I check my critic, logic analysis and discursive thinking at the door, try to connect again with once-swpet-under-thecarpet 's child innocence, hence to explore and discover like a child. I'm not meant to be an anti-intellectual. When driving and wating at the crossroad for green light, you can't say, " hey , red is not red, green is not green so let's go", then it would not only hurt you but also hurt others.  However it would be perfect and suitable for me to walk in the park and look at the green leafs and red flowers,  and do an experiement of dropping that "red is red, green is green" judgetment or concept or categorization, just  see the things behind its names and labels, feel its essences in a direct way.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
