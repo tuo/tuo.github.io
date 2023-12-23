@@ -84,11 +84,23 @@ Those drawings by any academic standards or socaliy standards, wouldn't be consi
 
 As I build up those expeirements, one thing starts to emerge and keep hitting on me.  That's when I do one activity, e.g Active A, and I bump into a wall, sth like writer's block, where you feel you have nothing to say about and feel how to move on.  You're kinda in a mess and feel no insiprations. 
 
-Instead of forcing it with my will the hard way, to keep banging at the wall, I notice life leads you to next thing with smooth transition.  It is when you got stuck, maybe the sun is good outside, so you go out take a walk; maybe it is raining, weird enough that you want to feel how subtle the rain dropped on your face like what every child would do at the first time;  maybe it is lunch time, you go out to grab some food; maybe your kids just invite you to play and you play; maybe your friend ask you out; maybe you are sitting to long and your body remind you to get some exercise like fishing or play basketball or jogging.  I know it sounds conry、cliche and very subjective like a faith healer. Yep, I feel It always offers something or activities of different parts of life  for you to go next. 
+Instead of forcing it with my will the hard way, to keep banging at the wall, I notice life leads you to next thing with smooth transition.  It is when you got stuck, maybe the sun is good outside, so you go out take a walk; maybe it is raining, weird enough that you want to feel how subtle the rain dropped on your face like what every child would do at the first time;  maybe it is lunch time, you go out to grab some food; maybe your kids just invite you to play and you play; maybe your friend ask you out; maybe you are sitting to long and your body remind you to get some exercise like fishing or play basketball or jogging.  I know it sounds conry、cliche and very subjective like a faith healer. Yep, I feel It always offers something or activities of different parts of life  for you to move on to.
 
 I stash those things about ActivityA, and go fully blankslately into what comes next. Later when I came back to ActivittyA,  to my surprise, most of time, I just have some different perspectives or views. It wont' directly solve my problem at hand, or guareetend to bring inspirations, but I found it is interesting to play with differents ideas, and usally it brings new dimensions that I never got into before and just free to explore.
 
-It seems the nature is sorting through those raw unfiltered gathered informations without our knowing. It merged those new with our existings one like an alchemist. 
+It seems the nature is sorting through those raw unfiltered gathered informations in the background without our knowing. It merged those new with our existings one like an alchemist. 
+
+"Trust the Process" - what I feel. I'm giving it all and just aligning and flowing with it, no expectations or attachments，accepting whatever it sends  to me.
+
+
+
+
+
+
+
+
+
+
 
 
 
