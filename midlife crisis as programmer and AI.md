@@ -88,9 +88,13 @@ Instead of forcing it with my will the hard way, to keep banging at the wall, I 
 
 I stash those things about ActivityA, and go fully blankslately into what comes next. Later when I came back to ActivittyA,  to my surprise, most of time, I just have some different perspectives or views. It wont' directly solve my problem at hand, or guareetend to bring inspirations, but I found it is interesting to play with differents ideas, and usally it brings new dimensions that I never got into before and just free to explore.
 
-It seems the nature is sorting through those raw unfiltered gathered informations in the background without our knowing. It merged those new with our existings one like an alchemist. 
+It seems the nature is sorting through those raw unfiltered gathered informations in the background without our knowing. It merged those new with our existings one like an alchemist.  It just connect with different dots, different aspect of life, just a childis drawing and exploring, no limit, no spefic form. All I need to do is : "Trust the Process" .
 
-"Trust the Process" - what I feel. I'm giving it all and just aligning and flowing with it, no expectations or attachments，accepting whatever it sends  to me.
+But wait I know you might think:  "How you do know it? How sure you are? What's your proof" ?
+
+I just feel it. For me, it is some beyond the conviction, faith, beilife. I'm giving it all and just aligning and flowing with it, no expectations or attachments. 
+
+I do my part of keep my window open like settting up an antenna to pick any sginals that nature is sending to me, combined with my expeirence, I collect those unfilter informations and send it back. Nature is doing his part of orgnatizing and comes up with sth new.  It feels it is kinda of comradeship.
 
 
 
