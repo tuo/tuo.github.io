@@ -76,9 +76,17 @@ One of that expieemnt is also about trying to distract my sons' attenion from my
 
 It is a intersting expeirence - two human being are playing and sharing and connecting. There is an echo back and forth. 
 
-Those drawings by any academic standards or socaliy standards, wouldn't be considered art. But I feel it is the art, as for me art is about epxressing oneself honstly and be authetical showing what he sees and feels with his heart. Art is not fxied or limted to some labels or titles, or even jobs, it is limitless and it is everywhere in everybody.
+Those drawings by any academic standards or socaliy standards, wouldn't be considered art. But I feel it is the art, as for me art is about epxressing oneself honstly and be authetical showing what he sees and feels with his heart. Art is not fxied or limted to some labels or titles or jobs， it is limitless and it is everywhere in everybody.
 
 
+
+## creativtiy
+
+As I build up those expeirements, one thing starts to emerge and keep hitting on me.  That's when I do one activity, e.g Active A, and I bump into a wall, sth like writer's block, where you feel you have nothing to say about and feel how to move on.  You're kinda in a mess and feel no insiprations. 
+
+Instead of forcing it with my will the hard way, to keep banging at the wall, I notice life has just a next thing  for you with smooth transition.  It is when you got stuck, maybe the sun is good outside, so you go out take a walk; maybe it is raining, weird enough that you want to feel how subtle the rain dropped on your face like what every child would do at the first time;  maybe it is lunch time, you go out to grab some food; maybe your kids just invite you to play and you play; maybe your friend ask you out; maybe you are sitting to long and your body remind you to get some exercise like fishing or play basketball or jogging. It always offers something or activities of different parts of life  for you to go next. 
+
+I stash those things about ActivityA, and go fully blankslately into what comes next. Later when I came back to ActivittyA,  to my surprise, most of time, I just have some different perspectives or views. It wont' actually solve my problem at hand, or guareetend to bring inspirations, but I found it is interesting to play with differents ideas, and usally it brings new dimensions that I never got into before and free to explore.
 
 
 
