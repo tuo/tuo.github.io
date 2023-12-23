@@ -66,9 +66,23 @@ There are three takeways from this observation:
 
 
 
-### Connect Inner 
+### Expierement
 
-In the beginning, I really want to get rid of that anaxity and self-dbouting but soon I found myself in apostion of choinceless. I can't do anytihng about it. That has made me to slow down involuntarily. Anyone could feel that slow motion of time when involeved in negative emotions. With above playing experince from my son, I start to build the awareness - that is trying to apply that in the differnt aspects of my life through experiments. Quite to the oppose of scentific side, I check my critic, logic analysis and discursive thinking at the door, try to connect again with once-swpet-under-thecarpet 's child innocence, hence to explore and discover like a child. I'm not meant to be an anti-intellectual. When driving and wating at the crossroad for green light, you can't say, " hey , red is not red, green is not green so let's go", then it would not only hurt you but also hurt others.  However it would be perfect and suitable for me to walk in the park and look at the green leafs and red flowers,  and do an experiement of dropping that "red is red, green is green" judgetment or concept or categorization, just  see the things behind its names and labels, feel its essences in a direct way.
+In the beginning, I really want to get rid of that anaxity and self-dbouting but soon I found myself in apostion of choinceless. I can't do anytihng about it. That has made me to slow down involuntarily. Anyone could feel that slow motion of time when involeved in negative emotions. With above playing experince from my son, I start to build the awareness - that is trying to apply that in the differnt aspects of my life through experiments. Quite to the oppose of scentific side, I check my critic, logic analysis and discursive thinking at the door, try to connect again with once-swpet-under-thecarpet 's child innocence, hence to explore and discover like a child. I'm not meant to be an anti-intellectual. When driving and wating at the crossroad for green light, you can't say, " hey , red is not red, green is not green so let's go", then it would not only hurt you but also hurt others.  However it would be perfect and suitable for me to walk in the park and look at the green leafs and red flowers,  and do an experiement of dropping that "red is red, green is green" judgetment or concept or categorization, just  see the things behind its names and labels, feel its essences in a direct way. It is at your disposal, at anytime you could stop and revert.
+
+One of that expieemnt is also about trying to distract my sons' attenion from my wife. I saw a couple of times when he had a pen and he just freely draw himself. I thought why not doing basic idiotproof hand pencil drawing togather.  Well quickly I could hear a voice inside my head, whisperring "Screw you, just recall, through you life, you have no aesthetic cells at all, no taste. Come on,you're a programmer, not a designer, you are just good at playing 01. You dont' that have crazy hairstyle or unique lookings. No artistic temperament. Don't be childish".  Yeah, but this time I thought "Fuck you", whatsoever, I hang those in my clothing stand  and I give a shot. We start drawing with his favorite animales. Sometimes, he would collect different leaves of trees to show to his mom, later we would sit togher and just oberve the texture and the lines and sahpes of those leaves and draw it on the paper. 
+
+图片 gif 和 拿一张有树叶
+
+It is a intersting expeirence - two human being are playing and sharing and connecting. There is an echo back and forth. 
+
+Those drawings by any academic standards or socaliy standards, wouldn't be considered art. But I feel it is the art, as for me art is about epxressing oneself honstly and be authetical showing what he sees and feels with his heart. Art is not fxied or limted to some labels or titles, or even jobs, it is limitless and it is everywhere in everybody.
+
+
+
+
+
+
 
 
 
