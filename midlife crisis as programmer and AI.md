@@ -176,7 +176,7 @@ There are some worries that if it could do some junior developer coding, then la
 
 That reminds of the Luddite Movement in early 19th-century England when the textile workers sabotage the emgering machinery who textile workers would think it would steal their jobs and perceived as  threats to their livelihoods. They have a strong concern and fear that he introduction of those automated and mechanized technologies would lead displacement of traditional skilled workers, declinning wages and worse working conditions.
 
-As Industry revolutions move forwards, and introduction of pipeline, the workers has turned into "screws" in the machinery of product line.  In the movie  "Modern Times" of Charlie Chaplin in 1936，the portray of of small indivuiuals in the face of gaint machines shows the repetitive and dehumanizing nature of work. Man has descended into being perceived merely as tools and instruments for end-products, rather than being recognized for his right and value as a human being.
+As Industry revolutions move forwards, and introduction of pipeline, the workers has turned into "screws" in the machinery of product line.  In the movie  "Modern Times" of Charlie Chaplin in 1936，the portray of of small indivuiuals in the face of gaint machines shows the repetitive and dehumanizing nature of work. Man has percieved as  merely a tool and an instrument for the end, rather than its value as a human being.
 
 Man is a slave to  the machinery, just as it was a slave to the God before the Humanism Movement of the 15th century.
 
@@ -184,7 +184,11 @@ Prior to Humanism Movement , the nature of fallen sinful, from Middle Ages that 
 
 > We have made you a creature neither of heaven nor of earth, neither mortal nor immortal, in order that you may, as the free and proud shaper of your own being, fashion yourself in the form you may prefer. It will be in your power to descend to the lower, brutish forms of life; you will be able, through your own decision, to rise again to the superior orders whose life is divine (Mirandola, 8)
 
- 
+ How strikingly similar it is.  Human being is above machines, is above tools, of course it is above the AI.
+
+
+
+
 
 
 
