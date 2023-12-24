@@ -144,15 +144,15 @@ The middle life crisis, if I don't identify myself with it, If I just leave the 
 
 Life awalys providers you something new. And those are great times  to challenge some long-hold ideas or assumptions or impressions. To peel off the ego, artificallity and prentence, to go on a drect face-to-face conversaction with the naked self. It is just a play in a different form.
 
-Anyone who try and pratice basic punch, would understand that instead of just focusing on use fist or hand and being rigid,   it is actually a flow and sequnce of invovelment of pretty much whole body.  The power starts with legs from the groud, then the hips and core, back and shoulder then to your arm and fist. That different msucles engates and do its own work, they know when to be flexible and when to be focus, and as a result, it provice maximam pwoer with efficient body mechanic. The body seems to know how to corrdinate and express it in tis nature way as one whole of indispensable and indivisible. This is same for shooting basketball. The power to throw the ball is not mainly from hands, rather it is from legs ,hip and core.
+Anyone who try and pratice basic punch, would understand that instead of just focusing on use fist or hand and being rigid,   it is actually a flow and sequnce of invovelment of pretty much whole body.  The power starts with legs from the groud, then the hips and core, back and shoulder then to your arm and fist. That different msucles engates and do its own work, they know when to be flexible and when to be focus, and as a result, it provice maximam pwoer with efficient body mechanic. The body seems to know how to corrdinate and express it in tis nature way as one whole of indispensable and indivisible. This is same for shooting basketball. The power to throw the ball is not mainly from arms and hands, rather it is from legs ,hip and core.
 
-In sports, I start to expierements that I commit myself to let mind go somwhere recess to take a break, and let the body to reveal itself , to be the protagonist. Let him works his own way. That also starts to apply to my mind in other areas. With more awareness and pratices, I foudn that I'm able to get into that flow state and have that kind laze focus more often.
+In sports, I start to expierements that I commit myself to let mind go somwhere recess to take a break, and let the body to reveal itself , to be the protagonist. Let him works in his own way. That also starts to apply to my mind in other areas. With more awareness and pratices, I foudn that I'm able to get into that flow state and have that kind laze focus more often.
+
+That's a hell lot of fun.
+
+Dont' get me wrong.  'm not suay ing you shouldn't do planingk but thatplain tis requipresiuite is to living fully present moment,that is lived living not lived dying.  ANd not be attached to the outcome of the planning, not to idneityf oneself with it. Anytime, anywhere, you could just play, experience , flowing and being. At any moment, you are already self-sufficient.
 
 
-
-
-
-I'm not suay ing you shouldn't do planingk but thatplain tis requipresiuite is to living fully present moment,that is lived living not lived dying.  ANd not be attached to the outcome of the planning, not to idneityf oneself with it. As it is so easdier for us to get into tunner vission therefore lost the grande vision full.
 
 
 
