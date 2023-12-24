@@ -154,11 +154,15 @@ Don't get me wrong. I'm not saying we shouldn't do planning, but that planning i
 
 The midlife crisis is not a big deal.  There are some bigger crisis happening in human-bening level. In this digital world, the Brave New World, where the tranditional values were wrecked,  there is a  huge void there. Some products developed with sophisticated algorithrim and  designed with attracting interactive ui/ux are built to only exploit the dopmaine of its users and get them hooked. Those are the most intellectual people with a very deep understanding on the sceicne of  psychology, dopamine system, and how human braiwns works. Those activities keep someone busy so that they dont' have time to face or think of that void. Another would be to create an image of idea self on the internet and get other people adirming or envying, all shiny, bling bling,  facny life,   it make them feels good and hooked , and it seems to be a successful sign of indicating someone has foudn that his/her value. 
 
-To deal with easiy-acdessible stumuls or additaciotn, to fil lthat void, one can't just use with will or depend on some materia outter thing.  It is a sprign, the more you press it, the higher it would bounce back hence hurt yourself. 
+To deal with easiy-acdessible stumuls or additaciotn, to fil lthat void, one can't just use with will or depend on some materia outter thing.  It is a sprign, the more you press it, the higher it would bounce back hence hurt yourself. I guess the universe would shed some light on us. By tapping into that flowing stream of universe, we possible would find ourself in a senrenity/preace and clam state, so much so to be able to see beyhond the ego and identy, to poke throught those sneaky artificiality tricks.
 
- The more nosiy it is , the more obvious the quietude would be.That huge low moments and even depressive feeling after the dopamine hit, the dopmaine rehabilitation , could bring up some of the most harsh questions for oneself: "What the fuck am I doing? I can't belive i did it again."  Then one have a relapse. That just completely crushed all ther feeling or expeiernces of enggaging other activies of life.
+// The more nosiy it is , the more obvious the quietude would be.That huge low moments and even depressive feeling after the //dopamine hit, the dopmaine rehabilitation , could bring up some of the most harsh questions for oneself: "What the fuck am I //doing? I can't belive i did it again."  Then one have a relapse. That just completely crushed all ther feeling or expeiernces of //enggaging other activies of life.
 
-But that sheer amount of inner judgement and self doubting acculated over this vicious circle could be a clue from universe  to show where the cure is. To 
+//But that sheer amount of inner judgement and self doubting acculated over this vicious circle could be a clue from universe  to //show where the cure is. To 
+
+//I'm ok. that much senreity , peace and calmnity , and confidence all and all.
+
+## AI
 
 
 
