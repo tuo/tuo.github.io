@@ -180,11 +180,9 @@ As Industry revolutions move forwards, and introduction of pipeline, the workers
 
 Man is a slave to  the machinery, just as it was a slave to the God before the Humanism Movement of the 15th century.
 
-In "The Oration on the Dignity of Man" of Pico Mirandola declare the freemdom of human being. Prior to that, the nature of fallen sinful, from Middle Ages that human should awalsy remember to be humble and consious of his  mierseral and despicable  being watched by this patriarchal and angry God father. He should live in the fear of the Law and at the mercy of the God's grace.  Now Pico says human being has its freemdom,  is marviersous and splendid as a creature,  hence as a human being, as a person,  he should focus on value and free will.
+Prior to Humanism Movement , the nature of fallen sinful, from Middle Ages that human should awalsy remember to be humble and consious of his  mierseral and despicable  being watched by this patriarchal and angry God father. He deservers it and should live in the fear of the Law and at the mercy of the God's grace.  Now Pico Mirandola in his "The Oration on the Dignity of Man"  boldly and loudly says,  like a lighting in the dark night,   that human being has its freemdom,  is marviersous and splendid as a creature on its own,  hence as a human being, as an individual  he should focus on value and free will. 
 
 > We have made you a creature neither of heaven nor of earth, neither mortal nor immortal, in order that you may, as the free and proud shaper of your own being, fashion yourself in the form you may prefer. It will be in your power to descend to the lower, brutish forms of life; you will be able, through your own decision, to rise again to the superior orders whose life is divine (Mirandola, 8)
-
-
 
  
 
