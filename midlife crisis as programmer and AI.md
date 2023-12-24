@@ -90,29 +90,31 @@ I stash those things about ActivityA, and go fully blankslately into what comes 
 
 It seems the nature is sorting through those raw unfiltered gathered informations in the background without our knowing. It merged those new with our existings one like an alchemist.  It just connect with different dots, different aspect of life, just a childis drawing and exploring, no limit, no spefic form. All I need to do is : "Trust the Process" .
 
-But wait I know you might think:  "How you do know it? How sure you are? What's your proof" ?
+But sometimes I think:  "How you do know it? How sure you are? What's your proof" ?
 
 I just feel it. For me, it is some beyond the conviction, faith, beilife. I'm giving it all and just aligning and flowing with it, no expectations or attachments. 
 
-I do my part of keep my window open like settting up an antenna to pick any sginals that nature is sending to me, combined with my expeirence, I collect those unfilter informations and send it back. Nature is doing his part of orgnatizing and comes up with sth new.  It feels it is kinda of comradeship.
+I do my part of keep my window open like settting up my antenna to pick any sginals that nature is sending to me, combined with my expeirence, I collect those unfilter informations and send it back. Nature is doing his part of orgnatizing and comes up with sth new.  It is a tacit agreement. It is a comaradeship.
 
-
-
-
-
-
-
-
-
-
+The abliity to connect different parts, sth seemingly unrelated on the surface. it is the nature who has greatest and most primordial source of creativity .
 
 
 
 图片Life and idfefent aspect of life
 
+You could get in touch with in in the lens of  expericence of those diverse aspect of the life. The gems are scattered  in the most mundane of our daily life. 
+
+Many artistists claimed that they have or had experice using drugs as a source of inspriations and creacitivyt, even the biggest one. Well, here is I thought: when you are in state of  craving:  "it feels good, I need more; I have a compact timestable, I need get it done i beforexxx, so just give it to more; I need sold 2 millions copys; I need it to get into top 100 of billboard; this one is good, I need make next one more impressive" and try force upon your will on that,  it literally just closed all windows for themeselves and pushed the that connection away. They will take shortcut, esp in easily accessabile enviroment, to use drugs to desperately throw themself into that delusion, hoping to get what they fancy about.  Eventually the cheat has to pay its toll. Not only losing the sobriety , also damamgint their body and brain in inreversible way, most importantly,it breaks the tacit agreements,  they could have lost the connection via other ordinaly life experices. The relap is boudn to happen, the dead end is front of them.
 
 
-it is the nature has greatest source of creativity . Every thing flows from it.
+
+
+
+ 
+
+
+
+
 
 
 
