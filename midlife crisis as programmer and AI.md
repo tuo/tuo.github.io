@@ -186,6 +186,30 @@ Prior to Humanism Movement , the nature of fallen sinful, from Middle Ages that 
 
  How strikingly similar it is.  Human being is above machines, is above tools, of course it is above the AI.
 
+Trace up to the root, the most fundamentail part is just , as a human being, who has free will , how could he explore and find something unqiue about himself, something with emoitional content, stomething with authenticity and genniune, something with creativeity and orignality. That's what we have talked in above section.
+
+To more concrete and relatable as a pragrammer,  from my 13 years expericen, by observing myself and other devlopers in the trench, I notice some commonly mistakes. 
+
+Some are getting used the languages or tech stack they're using for long time, it is true they gained more insight, but at the same time, some are getting over-idnetify with it.  To some extent, when learn something new like new langage, they wouldn't even able to finish the "Getting Started" part because there is a inner chat constantly whispering in their head "This is bullshit, the syntax is wierd,  the last page is full of right parenthesis?  see, my lanugage is the best".  Basically they setup a cage for themself, as if it provides a sense of secruity and safety, and says "it is the best cage in the world". They could't dump out the water in their filled cup, and be a child to just play with new techniques. Therefore becoming stagnant and fixed techquniuelly.
+
+There are some steretypes about programmer that they're better work with matchines with binary bytes. They are introverts and nerd. The playing video games is their only recreational hobby. Well it speaks some part of the truth, but not all. For any lanuages we use in dialy coding, they are pretty much high level ones and they provide a human readable syntax to translate code  into low-elvel machine execution. It requires to think ogoiclly as human more. 
+
+
+
+If a programmer was given a task or feature to develop, he is thinking from high-level to low-level, just like when I draw a tree - it starts with root, then trunk , then branch, and lastly the leafs.  That's how human ingest information.
+
+
+
+we're not slave to any specif form , we're unlimited.
+
+
+
+if we sort outhe humannity part, the content part of, then nex tis about ai , ehcuiq e and ootls
+
+AI 的好处 降低门槛 带来非常多的可能
+
+kid pull the cryon bo and try every color and comination play with it. to see how it epress his feeling.
+
 
 
 
