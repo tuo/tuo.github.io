@@ -32,7 +32,7 @@ That really hurts.
 
 ## The cure
 
-There is a ruler from socialtiy and us that could measure our outside masterial success. Those metric are visible and we're used to measure ourself by it since we grow up.  We want to go higher in that rank(You know the rat race?), so we could feel safer and better. That's subcconusoly becomaes part of ego and we dientify ourself with it. 
+There is a ruler from socialtiy and us that could measure our outside masterial success. Those metric are visible and we're used to measure ourself by it since we grow up.  We want to go higher in that rank, so we could feel safer and better. That's subcconusoly becomaes part of ego and we dientify ourself with it. 
 
 (图片Ruler)
 
@@ -148,9 +148,19 @@ Anyone who try and pratice basic punch, would understand that instead of just fo
 
 In sports, I start to expierements that I commit myself to let mind go somwhere recess to take a break, and let the body to reveal itself , to be the protagonist. Let him works in his own way. That also starts to apply to my mind in other areas. With more awareness and pratices, I foudn that I'm able to get into that flow state and have that kind laze focus more often.
 
-That's a hell lot of fun.
+That's a hell lot of fun. 
 
-Dont' get me wrong.  'm not suay ing you shouldn't do planingk but thatplain tis requipresiuite is to living fully present moment,that is lived living not lived dying.  ANd not be attached to the outcome of the planning, not to idneityf oneself with it. Anytime, anywhere, we could just play, experience , flowing and being. At any moment, we are already self-sufficient.
+Don't get me wrong. I'm not saying we shouldn't do planning, but that planning itself requires a prerequisite to living fully in the present moment. Therefore not being attached to the outcome of the planning, not identifying oneself with it. Anytime, anywhere, we are playing, experiencing, flowing, and being. At any moment, we are already self-sufficient.
+
+The midlife crisis is not a big deal.  There are some bigger crisis happening in human-bening level. In this digital world, the Brave New World, where the tranditional values were wrecked,  there is a  huge void there. Some products developed with sophisticated algorithrim and  designed with attracting interactive ui/ux are built to only exploit the dopmaine of its users and get them hooked. Those are the most intellectual people with a very deep understanding on the sceicne of  psychology, dopamine system, and how human braiwns works. Those activities keep someone busy so that they dont' have time to face or think of that void. Another would be to create an image of idea self on the internet and get other people adirming or envying, all shiny, bling bling,  facny life,   it make them feels good and hooked , and it seems to be a successful sign of indicating someone has foudn that his/her value. 
+
+To deal with easiy-acdessible stumuls or additaciotn, to fil lthat void, one can't just use with will or depend on some materia outter thing.  It is a sprign, the more you press it, the higher it would bounce back hence hurt yourself. 
+
+ The more nosiy it is , the more obvious the quietude would be.That huge low moments and even depressive feeling after the dopamine hit, the dopmaine rehabilitation , could bring up some of the most harsh questions for oneself: "What the fuck am I doing? I can't belive i did it again."  Then one have a relapse. That just completely crushed all ther feeling or expeiernces of enggaging other activies of life.
+
+But that sheer amount of inner judgement and self doubting acculated over this vicious circle could be a clue from universe  to show where the cure is. To 
+
+
 
 
 
