@@ -122,6 +122,16 @@ The things behind is something coudn't put into words. You can intepret it as an
 
 
 
+THere is an ineresting story from Chuanz tz庄子, 530BC in China。庄子·逍遥游
+
+> 而独不闻之寥寥乎？山林之畏隹，大木百围之窍穴，似鼻、似口、似耳、似枅、似圈、似臼，似窪者，似污者；激者、謞者、叱者、吸者、叫者、譹者、宎者、咬者；前者唱于，而随者唱喁；泠风则小和，飘风则大和；厉风济则众窍为虚；
+
+It says: There are thousands of thousands of holes in the mountains with different shapes. Some look like a nose, some look like a mouth, some look like an ear, with different internal structures. When the wind is blowing on the earth, either small or strong, those holes generate different sounds, each with a unique pitch and tone. In whole, it is as if nature is conducting a symphony or orchestra. How harmonious it is!
+
+
+
+
+
 
 
 
