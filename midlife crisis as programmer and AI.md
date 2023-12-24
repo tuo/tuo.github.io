@@ -118,7 +118,19 @@ To clarify: the things we refer to above like the essential truth or fundamental
 
 图片 
 
-The things behind is something coudn't put into words. You can intepret it as an intuition of  "Oneness", "Void", "Emptyness", "Unity" . But those would limit it, as if it is only related to religion.  It is above human language yet not isolated from our daily life. No complicted jargons or fancy spritual words need put here. As long as you're a human being,  you're born able to get in contact with it. So the word "universe" is more common and relatable for anyone regardless of its background/ethitiy/color/nationlitiy, and will be used in following part of this article as reference to that inexpressable、indecrible, incomprehnsible, infitely thing.
+The things behind is something coudn't put into words. You can intepret it as an intuition of  "Oneness", "Void", "Emptyness", "Unity" . But those would limit it, as if it is only related to religion.  It is above human language yet not isolated from our daily life. No complicted jargons or fancy spritual words need put here. As long as you're a human being,  you're born able to get in contact with it. So the word "universe" is more common and relatable for anyone regardless of its background/ethitiy/color/nationlitiy, and will be used in following part of this article as reference to that inexpressable、indecrible, incomprehnsible, infitely thing not by its literal meaning scientifically.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
