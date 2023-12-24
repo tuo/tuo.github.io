@@ -156,7 +156,11 @@ The midlife crisis is not a big deal.  There are some bigger crisis happening in
 
 To deal with easiy-acdessible stumuls or additaciotn, to fil lthat void, one can't just soly use one's will and seeking some silver bullet from outiside.  It is  like spring, the more you press it, the higher it would bounce back hence hurt yourself. We need connect to something bigger than us. That is  by tapping into that flowing stream of universe in our unique way, we possible would find ourself in a senrenity/preace and clam state, no matter how short time it is, it would be able to allow us to see beyhond the ego and identy, to poke throught those sneaky artificiality tricks to connect us with life in reality  again in  a brave way.
 
-The more nosiy it is , the more obvious the quietude would be. Maybe this big crisis could be a great oppountiy to reveal more about ourselves.
+The more nosiy it is , the more obvious the quietude would be. Maybe this big crisis could be a great oppountiy to reveal more about ourselves. 
+
+贺拉斯 暴风雨。
+
+We are always the humble of students of the universe. My kid is alway my greatest teacher. As he is learning to grow, I'm learning to de-grow; As he is learning to do plus, I'm learning to do minus.
 
 //That huge low moments and even depressive feeling after the //dopamine hit, the dopmaine rehabilitation , could bring up //some of the most harsh questions for oneself: "What the fuck am I //doing? I can't belive i did it again."  Then one have a //relapse. That just completely crushed all ther feeling or expeiernces of //enggaging other activies of life.
 
@@ -165,6 +169,26 @@ The more nosiy it is , the more obvious the quietude would be. Maybe this big cr
 //I'm ok. that much senreity , peace and calmnity , and confidence all and all.
 
 ## AI
+
+2023 would be the year of AI.  With the ermge of ChatGPT, that are some code interpreter also like the LLM based code interpretors like Microsoft's Coilpot.  I basically use those two a lot in my daily codings, it helps remove some tedious boring trivias codings, no need for stackoverflow or google, reduce the cognitive load. Something like fine.dev and sweep.dev, even allow product manager to be able do some junior developer level changes in a chat way. It basically read the codebase, plan the changes and write issue and generate pull requests.  For example, there are times when product manager needs to change some text or colors displayed on website, he could directly tell the AI and generate code changes, even auto trigger deployment process.  This could be done without developer. Even thought it is still quite limited and only could do very simple and basics, and the demo looks fancy but not good  in real world battleground codebase,  it still shows some potentials.
+
+There are some worries that if it could do some junior developer coding, then later it would be able to senior developer coding, and programmer would face  a crisis of being replaced by AI.
+
+That reminds of the Luddite Movement in early 19th-century England when the textile workers sabotage the emgering machinery who textile workers would think it would steal their jobs and perceived as  threats to their livelihoods. They have a strong concern and fear that he introduction of those automated and mechanized technologies would lead displacement of traditional skilled workers, declinning wages and worse working conditions.
+
+As Industry revolutions move forwards, and introduction of pipeline, the workers has turned into "screws" in the machinery of product line.  In the movie  "Modern Times" of Charlie Chaplin in 1936，the portray of of small indivuiuals in the face of gaint machines shows the repetitive and dehumanizing nature of work. Man has descended into being perceived merely as tools and instruments for end-products, rather than being recognized for his right and value as a human being.
+
+Man is a slave to  the machinery, just as it was a slave to the God before the Humanism Movement of the 15th century.
+
+In "The Oration on the Dignity of Man" of Pico Mirandola declare the freemdom of human being. Prior to that, the nature of fallen sinful, from Middle Ages that human should awalsy remember to be humble and consious of his  mierseral and despicable  being watched by this patriarchal and angry God father. He should live in the fear of the Law and at the mercy of the God's grace.  Now Pico says human being has its freemdom,  is marviersous and splendid as a creature,  hence as a human being, as a person,  he should focus on value and free will.
+
+> We have made you a creature neither of heaven nor of earth, neither mortal nor immortal, in order that you may, as the free and proud shaper of your own being, fashion yourself in the form you may prefer. It will be in your power to descend to the lower, brutish forms of life; you will be able, through your own decision, to rise again to the superior orders whose life is divine (Mirandola, 8)
+
+
+
+ 
+
+
 
 
 
