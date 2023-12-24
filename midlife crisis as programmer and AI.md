@@ -150,7 +150,7 @@ In sports, I start to expierements that I commit myself to let mind go somwhere 
 
 That's a hell lot of fun.
 
-Dont' get me wrong.  'm not suay ing you shouldn't do planingk but thatplain tis requipresiuite is to living fully present moment,that is lived living not lived dying.  ANd not be attached to the outcome of the planning, not to idneityf oneself with it. Anytime, anywhere, you could just play, experience , flowing and being. At any moment, you are already self-sufficient.
+Dont' get me wrong.  'm not suay ing you shouldn't do planingk but thatplain tis requipresiuite is to living fully present moment,that is lived living not lived dying.  ANd not be attached to the outcome of the planning, not to idneityf oneself with it. Anytime, anywhere, we could just play, experience , flowing and being. At any moment, we are already self-sufficient.
 
 
 
