@@ -108,7 +108,7 @@ Many artistists claimed that they have or had experice using drugs as a source o
 
 
 
-The inner boundary and inner compass is sth I have been handled over by nature, after delve into my inner world and aligin with that nature and reality.  yeah, it give you freedom but also there is boundary setup for you. However the boundary is setup voluterenyly and spontainteyly, not out of my personal desire or wills, nor out of society rules. I'm not saying to explore the flaws of laws, like what Wall Streets does, but the laws and the moral code of public may get stale, rigid and out of date, the one's inner one is always up to date.
+The inner boundary and inner compass is sth I have been handled over by nature, after delve into my inner world and aligin with that nature and reality.  It gives me freedom but also there is a boundary. However the boundary is setup voluterenyly and spontainteyly, not out of my personal desire or wills, nor out of society rules. I'm not saying to explore the flaws of laws, like what Wall Streets does, but the laws and the moral code of public may get stale, rigid and out of date, the one's inner one is always flowing and up to date.
 
  
 
