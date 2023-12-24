@@ -134,7 +134,7 @@ Each hole has different internal structure, some may looks messy, some may looks
 
 Suprisingly, when one is express his seeing and feeling about universe in his unfilterd lens in his own way, the universe seems could better connect to the deeply side of others. To awake the true authentica side of someone, to let him could make his own sounds,  no-pretenius, no-duplicating. Hence connect as whole and feel that flowing of the harmony.
 
-Dont seek to copy what someoens does, seek what they're seeking, what they are after.  Don't concentrate on the finger, instead on what it is pointing to - the moon, the universe, the harmony,the one posses greatest source of creativy, beauty and companssion.
+Dont seek to copy what someoens does, seek what they're seeking, what they are after.  Don't concentrate on the finger, instead on what it is pointing to - the moon, the universe, the harmony,the one posses greatest source of creativy, inspriation, beauty and compassion.
 
 
 
