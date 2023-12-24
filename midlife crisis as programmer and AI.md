@@ -138,6 +138,22 @@ Dont seek to copy what someoens does, seek what they're seeking, what they are a
 
 
 
+## Back on crisis
+
+The middle life crisis, if I don't identify myself with it, If I just leave the ego part aside, could be an oppuninty. That the overwall evironemnt is not friendly in tech market, you need provide steady bread on the table, your energy and body condition is decliiing, those are the reality with no denial. There are some implications : what if career is not about some fixed path, waht if the finanace is not about linear progression, what if body conditionling is decline but is getting more efficeint at the same time?
+
+Life awalys providers you something new. And those are great times  to challenge some long-hold ideas or assumptions or impressions. To peel off the ego, artificallity and prentence, to go on a drect face-to-face conversaction with the naked self. It is just a play in a different form.
+
+Anyone who try and pratice basic punch, would understand that instead of just focusing on use fist or hand and being rigid,   it is actually a flow and sequnce of invovelment of pretty much whole body.  The power starts with legs from the groud, then the hips and core, back and shoulder then to your arm and fist. That different msucles engates and do its own work, they know when to be flexible and when to be focus, and as a result, it provice maximam pwoer with efficient body mechanic. The body seems to know how to corrdinate and express it in tis nature way as one whole of indispensable and indivisible.
+
+
+
+
+
+I'm not suay ing you shouldn't do planingk but thatplain tis requipresiuite is to living fully present moment,that is lived living not lived dying.  ANd not be attached to the outcome of the planning, not to idneityf oneself with it. As it is so easdier for us to get into tunner vission therefore lost the grande vision full.
+
+
+
 
 
 
