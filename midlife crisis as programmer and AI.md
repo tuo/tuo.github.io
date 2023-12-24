@@ -128,7 +128,11 @@ THere is an ineresting story from Chuanz tz庄子, 530BC in China。庄子·逍�
 
 It says: There are thousands of thousands of holes in the mountains with different shapes. Some look like a nose, some look like a mouth, some look like an ear, with different internal structures. When the wind is blowing on the earth, either small or strong, those holes generate different sounds, each with a unique pitch and tone. In whole, it is as if nature is conducting a symphony or orchestra. How harmonious it is!
 
+图片 
 
+Each hole has different internal structure, some may looks messy, some may looks perfect, but when each hole is self-asserting itself, each is contributing its one into that grand melody. Thought different and diverse, each has its root in that shared harmony from universe. Those individuals are somehow connected in their deepest level. When each is expressing, they dont' have specfic aim for harmony, that's never part of their initial drives, it is all about themseves. 
+
+Suprisingly, when one is express his seeing and feeling about universe in his unfilterd lens in his own way, the universe seems could better connect to the deeply side of others. To awake the true authentica side of someone, to let him could make his own sounds,  no-pretenius, no-duplicating. Hence connect as whole and feel that flowing of the harmony.
 
 
 
