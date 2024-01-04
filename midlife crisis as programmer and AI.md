@@ -214,6 +214,10 @@ That that said, If I have my mindset prepared, and content I want to express, th
 
 There is a delicate balance between humanity and tools. Tools won't steal the thunder of the content; instead, they assist in delivering and expressing it in a natural way where care and empathy are best presented. The uniqueness of content will be embedded in the uniqueness of the form provided by the tools.
 
+In the digital era, and AI, 对比， 人文主义是将人身上被GOD套的锁链中解脱出来，人得到解放；而现在是传统瓦解value崩溃，个性得到极大的解放，人与人通信变得轻而易举，但是社会撕裂和人们之间相互隔离缺加重了，却都掉进虚无主义陷阱，只能用多巴胺娱乐来麻痹自己，同时将自己困在了rat race中，人某种程度是解放，却要套上另外的枷锁。而
+
+The humantrism revivement is the one how could we aawake the inen self , to reconnect as one in his informationoverload digital era. Human are end-in-itself, not means.  人要从工具化中解脱出来，找回人的本身，找回人的生活体验，找到孩提时代那种探索，回归那种物我归一。（张孝祥过洞庭）
+
 
 
 ## Summary
