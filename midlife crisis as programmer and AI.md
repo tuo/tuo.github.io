@@ -170,7 +170,7 @@ We are always the humble of students of the universe. My kid is alway my greates
 
 ## AI
 
-2023 would be the year of AI.  With the ermge of ChatGPT, that are some code interpreter also like the LLM based code interpretors like Microsoft's Coilpot.  I basically use those two a lot in my daily codings, it helps remove some tedious boring trivias codings, no need for stackoverflow or google, reduce the cognitive load. Something like fine.dev and sweep.dev, even allow product manager to be able do some junior developer level changes in a chat way. It basically read the codebase, plan the changes and write issue and generate pull requests.  For example, there are times when product manager needs to change some text or colors displayed on website, he could directly tell the AI and generate code changes, even auto trigger deployment process.  This could be done without developer. Even thought it is still quite limited and only could do very simple and basics, and the demo looks fancy but not good  in real world battleground codebase,  it still shows some potentials.
+2023 would be the year of AI.  With the ermge of ChatGPT, that are some code interpreter also like the LLM based code interpretors like Microsoft's Coilpot.  I basically use those two a lot in my daily codings, it helps remove some tedious boring trivias codings, no need for stackoverflow or google, reduce the cognitive workload. Something like fine.dev and sweep.dev, even allow product manager to be able do some junior developer level changes in a chat way. It basically read the codebase, plan the changes and write issue and generate pull requests.  For example, there are times when product manager needs to change some text or colors displayed on website, he could directly tell the AI and generate code changes, even auto trigger deployment process.  This could be done without developer. Even thought it is still quite limited and only could do very simple and basics, and the demo looks fancy but not good  in real world battleground codebase,  it still shows some potentials.
 
 There are some worries that if it could do some junior developer coding, then later it would be able to senior developer coding, and programmer would face  a crisis of being replaced by AI.
 
@@ -180,19 +180,39 @@ As Industry revolutions move forwards, and introduction of pipeline, the workers
 
 Man is a slave to  the machinery, just as it was a slave to the God before the Humanism Movement of the 15th century.
 
+//agustine - curoisty and three vices of lusts
+
 Prior to Humanism Movement , the nature of fallen sinful, from Middle Ages that human should awalsy remember to be humble and consious of his  mierseral and despicable  being watched by this patriarchal and angry God father. He deservers it and should live in the fear of the Law and at the mercy of the God's grace.  Now Pico Mirandola in his "The Oration on the Dignity of Man"  boldly and loudly says,  like a lighting in the dark night,   that human being has its freemdom,  is marviersous and splendid as a creature on its own,  hence as a human being, as an individual  he should focus on value and free will. 
 
 > We have made you a creature neither of heaven nor of earth, neither mortal nor immortal, in order that you may, as the free and proud shaper of your own being, fashion yourself in the form you may prefer. It will be in your power to descend to the lower, brutish forms of life; you will be able, through your own decision, to rise again to the superior orders whose life is divine (Mirandola, 8)
 
- How strikingly similar it is.  Human being is above machines, is above tools, of course it is above the AI.
+ How strikingly similar it is.  Human being is above machiliary, is above tools, of course it is above the AI.
 
-Trace up to the root, the most fundamentail part is just , as a human being, who has free will , how could he explore and find something unqiue about himself, something with emoitional content, stomething with authenticity and genniune, something with creativeity and orignality. That's what we have talked in above section.
+The fundamentail part is just , as a human being, who has free will , how could he explore and find something unqiue about himself, something with emoitional content, stomething with authenticity and genniune, something with creativeity and orignality. 
+
+Certaily as devleoper,  from my 13 years expericen, by observing myself and other devlopers in the trench, I found that some devleopers could easn't fall into the trap of being identify too much with one specif language and techstack. It is like someone could'nt finish the listening when somebody speaks,  as there are so many inner chat and judgements in their head. The mind has been jammed up and not be able to be flexiable to learn something new. Therefore becoming stagnant and fixed techquniuelly.
+
+Coding is  not just being alone with comupters. It epxands more human and life expieer.ce. The code should work best to take full power of machline in a logic way, at tsamt time the idea behind should be  simple and straightford for people to grasp. It is also about balance, about art rathern soly being logic. To be agile is to embracing the changes, knows when to rely on verteran expierces, and when to think out of the box. there are some good p[races:  to pull oneself from the that little screen, 1 to explain to colleages ro someone , as it faoce you to jump out whatever cntext are you in and think from high level and starts basics  2; go out take a talk, have cupe of tea or ocffee, do some stretch etc and do it fullheartedly with any bordering of the previosu problem.  
+
+It opossible you got some different ideas or perfecive when return to the desk. It might pull you out of the details and trust the big whole life (aka universe) would shed some light on you. Rule of thumb: when you feel stuck,  try pause and jump out of that space and try something different.
+
+Maybe programmer is not all about programming or coding,  is some part of life as a broader scope. The line between work or coding and other parts of life is not that clear, and there is some connection between them.  In order to get most out of our ratinliaity and reasoning, one seemingly ridiculous way is to suspend those desires and thoughts for a while. To play and engage without being a salve to any specifc form or conventiosn or best practices, to flow like water and be free and unlimited.
+
+
+
+That that said, If I have my mindset prepared, and content I want to express, then with the help of emerging technology like AI, it could open up a lot of possibilities.  Prompt engineering to tweak input to get detailed and sepcific request as if it is assgiend with some role,  to AI hence get optimial result；Assistants to fine tunning and let it become your personal agent; AutoGen and LangChain to extend LLM with extenal copmonents and make creating LLM-driven applications easier. If I'm a designer and doesn't know any code, I could quickly get my MVP up and runing with the help of AI; If I come into something new, I could ask AI to get a quick summary and key breakdown to get an overview. Both are very good starting points to begin with. The entry barriare is lowered and more accessrisable to people.
+
+It would extremly amazing to see combinnation of humanity and tools. That tools could be help the content to deliveer and express in a natural way where the careness and the empathy is best presented.
+
+
+
+=========
 
 To more concrete and relatable as a pragrammer,  from my 13 years expericen, by observing myself and other devlopers in the trench, I notice some commonly mistakes. 
 
 Some are getting used the languages or tech stack they're using for long time, it is true they gained more insight, but at the same time, some are getting over-idnetify with it.  To some extent, when learn something new like new langage, they wouldn't even able to finish the "Getting Started" part because there is a inner chat constantly whispering in their head "This is bullshit, the syntax is wierd,  the last page is full of right parenthesis?  see, my lanugage is the best".  Basically they setup a cage for themself, as if it provides a sense of secruity and safety, and says "it is the best cage in the world". They could't dump out the water in their filled cup, and be a child to just play with new techniques. Therefore becoming stagnant and fixed techquniuelly.
 
-There are some steretypes about programmer that they're better work with matchines with binary bytes. They are introverts and nerd. The playing video games is their only recreational hobby. Well it speaks some part of the truth, but not all. For any lanuages we use in dialy coding, they are pretty much high level ones and they provide a human readable syntax to translate code  into low-elvel machine execution. It requires to think ogoiclly as human more. 
+There are some steretypes about programmer that they're better work with matchines with binary bytes. They are introverts and nerd. The playing video games is their only recreational hobby. Well it speaks some part of the truth, but not all. Coding is not isolated from other part of life, and requires communications between people.  We write in code with high-level human reable language and the code itself needs to fit how human cogitive process works. Like draing a tree, from root to trunk, branch to leaves, thinking also in terms as if someone is gonna read and maintain your code. plus hit writer block , go out or explain to someheres. to boserver what teousa part about other opeopel , not jstu ddevleo, but ctest, developer, . amyabe not limited to that, could be extend to fishing or wather soever.
 
 
 
@@ -200,13 +220,13 @@ If a programmer was given a task or feature to develop, he is thinking from high
 
 
 
-we're not slave to any specif form , we're unlimited.
+I hate to say I have mentioned a lot of times about "play" and "kids". but yeah inside ourself, w're walayw skids, an know to play, we're not slave to any specif form , we're unlimited.
 
 
 
 if we sort outhe humannity part, the content part of, then nex tis about ai , ehcuiq e and ootls
 
-AI 的好处 降低门槛 带来非常多的可能
+AI 的好处 降低门槛 带来非常多的可能 比如语言
 
 kid pull the cryon bo and try every color and comination play with it. to see how it epress his feeling.
 
