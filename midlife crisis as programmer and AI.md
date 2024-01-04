@@ -202,7 +202,17 @@ Maybe programmer is not all about programming or coding,  is some part of life a
 
 That that said, If I have my mindset prepared, and content I want to express, then with the help of emerging technology like AI, it could open up a lot of possibilities.  Prompt engineering to tweak input to get detailed and sepcific request as if it is assgiend with some role,  to AI hence get optimial result；Assistants to fine tunning and let it become your personal agent; AutoGen and LangChain to extend LLM with extenal copmonents and make creating LLM-driven applications easier. If I'm a designer and doesn't know any code, I could quickly get my MVP up and runing with the help of AI; If I come into something new, I could ask AI to get a quick summary and key breakdown to get an overview. Both are very good starting points to begin with. The entry barriare is lowered and more accessrisable to people.
 
-It would extremly amazing to see combinnation of humanity and tools. That tools could be help the content to deliveer and express in a natural way where the careness and the empathy is best presented.
+There is a delicate balance between humanity and tools. Tools won't steal the thunder of the content; instead, they assist in delivering and expressing it in a natural way where care and empathy are best presented. The uniqueness of content will be embedded in the uniqueness of the form provided by the tools.
+
+
+
+## Summary
+
+A crisis could be an opportunity. It leads me to have doubts, therefore, ask myself questions.  I found that if I dont' reject negative feelings nor try to grasp positive feelings, I'm in a better position to recieve the subtle messages universe channels. It is always there, and it is just that I rejected the inner child and closed off the inner light, either voluntarily or involuntarily, for a long time. Life is more about art and the subconscious than just being a logical/rational calculator and conscious. Still, it doesn't need to be mystic, abstract, regional, and spiritual; just something I could access in my ordinary daily routines, nothing special.
+
+
+
+It is a f*** play.
 
 
 
