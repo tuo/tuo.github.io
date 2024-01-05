@@ -160,7 +160,7 @@ Just think about: the midlife crisis is actually not that big crisis comparing t
 
 [Thanks to the Internet, I have probably seen more naked ladies than all of my ancestors combined. : Showerthoughts (reddit.com)](https://www.reddit.com/r/Showerthoughts/comments/2cjnmc/thanks_to_the_internet_i_have_probably_seen_more/)
 
-To deal with easiy-acdessible stumuls or additaciotn, to fil lthat void, one can't just soly rely on one's will and seeking some silver bullet from outiside.  It is  like spring, the more you press it, the higher it would bounce back hence hurt yourself. We need connect to something bigger than us. That is  by tapping into that flowing stream of universe in our unique way, we possible would find ourself in a senrenity/preace and clam state, no matter how short time it is, it would be able to allow us to see beyhond the ego and identy, to poke throught those sneaky artificiality tricks to connect us with life in reality  again in  a brave way.
+To deal with easiy-acdessible stumuls or additaciotn, to fil lthat void, to find ones' real vocation,  one can't just soly rely on one's will and seeking some silver bullet from outiside.  It is  like spring, the more you press it, the higher it would bounce back hence hurt yourself. We need connect to something bigger than us. That is  by tapping into that flowing stream of universe in our unique way, we possible would find ourself in a senrenity/preace and clam state, no matter how short time it is, it would be able to allow us to see beyhond the ego and identy, to poke throught those sneaky artificiality tricks to connect us with life in reality  again in  a brave way.
 
 The more nosiy it is , the more obvious the quietude would be. Maybe this big crisis could also offer us a great time to reveal more about ourselves. 
 
@@ -170,7 +170,7 @@ Let that crisis just be another play.
 
 ## AI
 
-2023 would be the year of AI.  With the ermge of ChatGPT, that are some code interpreter also like the LLM based code interpretors like Microsoft's Coilpot.  I basically use those two a lot in my daily codings, it helps remove some tedious boring trivias codings, no need for stackoverflow or google, reduce the cognitive workload. Something like fine.dev and sweep.dev, even allow product manager to be able do some junior developer level changes in a chat way. It basically read the codebase, plan the changes and write issue and generate pull requests.  For example, there are times when product manager needs to change some text or colors displayed on website, he could directly tell the AI and generate code changes, even auto trigger deployment process.  This could be done without developer. Even thought it is still quite limited and only could do very simple and basics, and the demo looks fancy but not good  in real world battleground codebase,  it still shows some potentials.
+2023 would be the year of AI.  With the ermge of ChatGPT, that are some code interpreter also like the LLM based code interpretors like Microsoft's Coilpot.  I basically use those two a lot in my daily codings, it helps remove some tedious boring trivias codings, no need for stackoverflow or google, reduce the cognitive workload. Something like fine.dev and sweep.dev, even allow product manager to be able do some junior developer level changes in a chat way. It basically read the codebase, plan the changes and write issue and generate pull requests.  For example, there are times when product manager needs to change some text or colors displayed on website, he could directly tell the AI and generate code changes, even auto trigger deployment process on CI.  This could be done without developer. Even thought it is still quite limited and only could do very simple and basics, and the demo looks fancy but not good  in real world battleground codebase,  it shows some potentials.
 
 There are some worries that if it could do some junior developer coding, then later it would be able to senior developer coding, and programmer would face  a crisis of being replaced by AI.
 
@@ -196,19 +196,29 @@ Certaily as devleoper,  from my 13 years expericen, by observing myself and othe
 
 
 
-Coding is  not just being alone with comupters. It epxands more human and life expieer.ce. The code should work best to take full power of machline in a logic way, at tsamt time the idea behind should be  simple and straightford for people to grasp. It is also about balance, about art rathern soly being logic. To be agile is to embracing the changes, knows when to rely on verteran expierces, and when to think out of the box. there are some good p[races:  to pull oneself from the that little screen, 1 to explain to colleages ro someone , as it faoce you to jump out whatever cntext are you in and think from high level and starts basics  2; go out take a talk, have cupe of tea or ocffee, do some stretch etc and do it fullheartedly with any bordering of the previosu problem.  
+Also coding is not just being alone with comupters. It epxands more human and life expieer.ce. The code should work best to take full power of machline in a logic way, at tsamt time the idea behind should be  simple and straightford for people to grasp. It is also about balance, about art rathern soly being logic. To be agile is to embracing the changes, knows when to rely on verteran expierces, and when to think out of the box. there are some good p[races:  to pull oneself from the that little screen, 1 to explain to colleages ro someone , as it faoce you to jump out whatever cntext are you in and think from high level and starts basics  2; go out take a talk, have cupe of tea or ocffee, do some stretch etc and do it fullheartedly with any bordering of the previosu problem.  
 
-It opossible you got some different ideas or perfecive when return to the desk. It might pull you out of the details and trust the big whole life (aka universe) would shed some light on you. Rule of thumb: when you feel stuck,  try pause and jump out of that space and try something different.
+It opossible you got some different ideas or perfecive when return to the desk. It might pull you out of the details and trust the big whole life (aka universe) would shed some light on you. Rule of thumb: when you feel stuck,  try pause and jump out of that tiny space and try something different.
 
-Maybe programmer is not all about programming or coding,  is some part of life as a broader scope. The line between work or coding and other parts of life is not that clear, and there is some connection between them.  In order to get most out of our ratinliaity and reasoning, one seemingly ridiculous way is to suspend those desires and thoughts for a while. To play and engage without being a salve to any specifc form or conventiosn or best practices, to flow like water and be free and unlimited.
+Maybe programmer is not all about programming or coding,  is some part of life as a broader scope. The line between work or coding and other parts of life is not that clear, and there is some connection between them.  In order to get most out of our ratinliaity and reasoning, one seemingly ridiculous way is to suspend those desires and thoughts for a while. To play and engage without being a salve to any specifc form or style or convention, just to flow like water and be free and unlimited.
 
-That that said, If I have my mindset prepared, and content I want to express, then with the help of emerging technology like AI, it could open up a lot of possibilities.  Prompt engineering to tweak input to get detailed and sepcific request as if it is assgiend with some role,  to AI hence get optimial result；Assistants to fine tunning and let it become your personal agent; AutoGen and LangChain to extend LLM with extenal copmonents and make creating LLM-driven applications easier. If I'm a designer and doesn't know any code, I could quickly get my MVP up and runing with the help of AI; If I come into something new, I could ask AI to get a quick summary and key breakdown to get an overview. Both are very good starting points to begin with. The entry barriare is lowered and more accessrisable to people. However, on the contray , we shouldn't  mistake the tool for the content or the purpose itself.
+With that said, If I have my mindset prepared, and content I want to express, then with the help of emerging technology like AI, it could open up a lot of possibilities.  Prompt engineering to tweak input to get detailed and sepcific request as if it is assgiend with some role,  to AI hence get optimial result；Assistants to fine tunning and let it become your personal agent; AutoGen and LangChain to extend LLM with extenal copmonents and make creating LLM-driven applications easier.
+
+If I'm a designer and doesn't know any code, I could quickly get my MVP up and running with the help of AI; If I come into something new, I could ask AI to get a quick summary and key breakdown to get an overview. Both are very good starting points to begin with. The entry barriare is lowered and more accessrisable to people. However, on the contray , we shouldn't  mistake the tool for the content or the purpose itself.
 
 【图片】
 
 (Ps: 草稿GIF ：每次都是先写content,然后打字到电脑，一点点修正，这样可以专注在内容之上，不用管是markdown还是字体是多大)
 
-There is a delicate balance between humanity and tools. Tools won't steal the thunder of the content; instead, they assist in delivering and expressing it in a natural way where care and empathy are best presented. The uniqueness of content will be embedded in the uniqueness of the form provided by the tools.
+There is a delicate balance between humanity and tools. Tools won't steal the thunder of the content; instead, they assist in delivering and expressing it in a natural way where care and empathy of human being are best presented. The uniqueness of content is embedded in the uniqueness of the form that facliicatedy by the new tools like AI.
+
+There is one side - that is human , another is the tools. If the tools like AI could remove the barrier for knowlege sharing, then i means the status of human is acutally riased up just like what happened in Humantrism movement.
+
+图片 跷跷板
+
+Human are end-in-itself, not means.
+
+
 
 In the digital era, and AI, 对比， 人文主义是将人身上被GOD套的锁链中解脱出来，人得到解放；而现在是传统瓦解value崩溃，个性得到极大的解放，人与人通信变得轻而易举，但是社会撕裂和人们之间相互隔离缺加重了，却都掉进虚无主义陷阱，只能用多巴胺娱乐来麻痹自己，同时将自己困在了rat race中，人某种程度是解放，却要套上另外的枷锁。而
 
@@ -218,7 +228,7 @@ The humantrism revivement is the one how could we aawake the inen self , to reco
 
 ## Summary
 
-A crisis, on the other hand, could leads me to have doubts, and evokes a multitude of  questions about myself and be a great guide. I found that if I dont' reject negative feelings nor try to hold on to positive feelings, I'm in a better position to recieve the subtle messages universe channels.  as 贺拉斯 暴风雨, not only I rest well instorm, but also I'm not cling to  the sunshine in sunny days. To let it go is not to reject but embrace. I mean tt is always there, and it is just that I rejected the inner child and closed off the inner light, either voluntarily or involuntarily, for a long time. Life is more about art and the subconscious than just being a logical/rational calculator and conscious. Still, it doesn't need to be mystic, abstract, regional, and spiritual; just something I could access in my ordinary daily routines, nothing special.
+A crisis, on the other hand, could leads me to have doubts, and evokes a multitude of  questions about myself and be a great guide. I found that if I dont' reject negative feelings nor try to hold on to positive feelings, I'm in a better position to recieve the subtle messages universe whispers.  as 贺拉斯 暴风雨, not only I rest well instorm, but also I'm not cling to  the sunshine in sunny days.  I mean it is always there, and it is just that I rejected the inner child and closed off the inner light, either voluntarily or involuntarily, and turn to seek from outside, for a long time. Now I feel that life is more about art and the subconscious than just being a logical/rational calculator and conscious. Still, it doesn't need to be mystic, abstract, regional, and spiritual; just something I could access in my ordinary daily routines, nothing special.
 
 We are all still children inside our hearts, aren't we?  Life is a play.
 
