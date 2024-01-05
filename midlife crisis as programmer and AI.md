@@ -34,31 +34,29 @@ Yep, that's what I'm facing. I might lose my current job in a short time and not
 
 Damn, that really hurts. 
 
-## The cure
+## observation from kid playing
 
 There is a ruler from socialtiy and us that could measure our outward material success. Those metric are visible and we're used to measure ourself by it since we grow up.  We want to go higher in that rank, so we could feel safer and better. That's subcconusoly becomaes part of ego and we dientify ourself with it. 
 
 (图片Ruler)什么图片来着？忘了
 
-Now by this ruler, I'm sliding to bottom part of, fearing of being elimited by KPI。That part of ego and identitiy starts working aginst me it triggers a chain of negativity, connected with deeply some worst memories and emotions in my life, leads to a serisouly self-doubiting as it desperately try to get out this bottom part as soon as possible.
+Now by this ruler, I'm sliding to bottom part of, fearing of being elimited by KPI。That part of ego and identitiy starts working aganist me it triggers a chain of negativity, connected with deeply some worst memories and emotions from the past, leads to a serisouly self-doubiting.  I could feel that urge to  desperately try to get out this bottom part as soon as possible.
 
 That self doubt has put me to review my whole life. 
 
-I start to ask "Who am I? Did I really love what I do ?"  Along recents years, i have some of best and deeply connected fmaily relatives passed away,  they passed away suddenly and fastly, that I thought or expected  they are gonna be there forever, and now suddenly gone. 人生无常， that leavs your in pondering "how fragile is life and how small/tingy human is". Hence I want to see through that outside ruler, material, scoails nuns, strip out those superficials, in the raw form, "who am I " and "What I really love to do".  That love is not to meet other people's expection, not for vanity, not for fame, not for money, not for fame, not to compare. None of it, but I have a intuituion/hunch that the answer must lies, not in the outward, but in the question itself.
+I start to ask "Who am I? Did I really love what I do ?"  Along recents years, i have some of best and deeply connected fmaily relatives passed away,  they passed away abruptly,  that I thought or expected  they are gonna be there forever, and now suddenly gone. 人生无常， that leavs your in pondering "how fragile is life and how small/tingy human is". Hence I want to see through that outside ruler, material, scoails nuns, strip out those superficials, put aside those labels like "practicality",  in the raw form, "who am I " and "What I really love to do".  Obvisoully that is not about meet other people's expection, not for vanity, not for fame, not for money, not for fame, not to compare. None of it, but I have a intuituion/hunch that the answer must lies, not in the outward, but in the question itself - aka inward.
 
 //orign of life, 这样引出我对小孩的玩的观察。
 
-I'm bothered. Life goes on. I have a almost three-years-old kid. My wife and I live away from our hometown of both, and rent some house here and we, as what we called in china, has another role  " teammates"  to take care of our kid. My kid just like to stick to his mom always.  When my teamate need do some her own things, like taking shower or go out shopping, I need ensure I could look after the kid without crying out for mom :)  That's a hell challenge, I need to distract him but watching this favoirte Pepper Pig, Bamboo Club or dinosaurs wont' last long, I have to actively engate with him through activities.Sometimes I take him to kids park（儿童游乐场） or park, sometimes just play with toys and do sth handle pencild drawings at home. 
+I'm bothered. Life goes on. I have a almost three-years-old kid. My wife and I live away from our hometown of both, and rent some house here and we, as what we called in china, has another role  " teammates/commrades"   in terms of taking care of our kid. My kid just like to stick to his mom all the time.  When my teamate need do some her own space, like taking shower or go out shopping, I need ensure I could look after the kid without leave him crying out for mom :)  That's a hell challenge, I need to distract him but watching this favoirte Pepper Pig, Bamboo Club or dinosaurs wont' last long, I have to actively engate with him through activities.Sometimes I take him to kids park（儿童游乐场） or park, sometimes just play with toys and do sth handle pencild drawings at home. 
 
-It is one oridinary playing, my son sitting there to  playing with his 积木, and I'm lying aside and just wathcing him play. I could see he is fully engaged in the playing, his genius and dedicate expression in his face as if time has freezed and the world around him vanished. I feel sth (affections) just draws me and resonate sth once familliar and deeply inside me -  the serenitigy and joyment.  That heals and in that space and timepirod, I was free from all kinds anxiies, fear nor  happniess, any desires.  I dont' want to sounds  conry like revelations like any religon's mystistics like MatinLuther's thunder nor Pascal's near death on one ride, but it just like there is a glowing at his background. That glowing just wakes up my inner child and empowered me.
+It is one of the oridinary playing, my son sitting there to  playing with his 积木, and I'm lying aside and just wathcing him play. I could see he is fully engaged in the playing, his genius and dedicate expression in his face as if time has freezed and the world around him vanished. I feel sth (affections) just draws me and resonate sth once familliar and deeply inside me -  the serenitiy and joyment.  That heals and in that space and timepirod, I was free from all kinds anxiies, fear nor  happniess, any desires.  I dont' want to sounds  conry like revelations like any religon's mystistics like MatinLuther's thunder nor Pascal's near death on one ride, but it just like there is a glowing at his background.  That Aha moment awakes something inside me , seomthing I already possessed but keep looking for from outside.
 
 //basket or fishing
 
-It reminds me of those similar sparks I had during playing basketball and fishing. In some intensive situations, I found that I was able to dropped out my preconceoinved my best moves to attack my opponent. In a blink of eye, my mind looks like hasn't got a chance to spin up and plot some plans,  it is a natual and instinct moves just coming out me. That move is totaly unexpected yet smooth. The oppnonet is like a dancer copmanision. we dont' figiht agianst each other, isntead we dance togother. There is not “me”  in this picutre, the hook, and oponent and my body  are just harmousoly blend as one. That is a amazing, wonderful, indescribable experience.
+It reminds me of those similar sparks I had during playing basketball and fishing. In some intensive situations, I found that if I was able to dropped out my preplans of my best moves to attack my opponents,  in a blink of eye, my mind looks like hasn't got a chance to spin up and plot some plans,  it is a natual and instinct moves just coming out me. That move is totaly unexpected yet smooth. The oppnonet is like a dancer companion. we dont' figiht aganist each other, instead we dance togother. There is not a “me”  in this picutre, the hook, and oponent and myself  are just harmousoly blend as one.  I'm so concentrated like my kid is playing, somehow the line that dividing and differenicating people and objects seems to dissolve. I could remember I keep recalling that indescribable experience all the time.
 
-I notice that my son is playing without fear of being judged by what final result should be, without instilled with how it should be played, not to meet somenoes' expxectation or approval,  not to follow social  nuns, above those dulity of good/bad and past and future. 
-
-sth that we could all related, but that's who we were in child time.  Kid knows how to play, they're born with gift to just play, to explore, to discover.  
+I also notice that when my son is playing, he is free from the fear of being judged by what final result should be, the rules  instilled with how it should be played, not to meet somenoes' expxectation or approval,  not to follow social  nuns, above those dulity of good/bad and past and future.  That 's sth that we could all related, but that's who we were in child time.  Kid knows how to play, they're born with gift to just play, to explore, to discover.  
 
 maybwe think they haven't devleop high level consicuosu , hence only with subsoncious and aninmal spritit,  but man concious have gone too far and burden me so much as I grows, it just overwhlem all others. I forgot that play is just simply for sake of play.
 
@@ -70,49 +68,51 @@ There are three takeways from this observation:
 
 
 
-### Expierement
+### My Experiement
 
-In the beginning, I really want to get rid of that anaxity and self-dbouting but soon I found myself in apostion of choinceless. I can't do anytihng about it. That has made me to slow down involuntarily. Anyone could feel that slow motion of time when involeved in negative emotions. With above playing experince from my son, I start to build the awareness - that is trying to apply that in the differnt aspects of my life through experiments. Quite to the oppose of scentific side, I check my critic, logic analysis and discursive thinking at the door, try to connect again with once-swpet-under-thecarpet 's child innocence, hence to explore and discover like a child. I'm not meant to be an anti-intellectual. When driving and wating at the crossroad for green light, you can't say, " hey , red is not red, green is not green so let's go", then it would not only hurt you but also hurt others.  However it would be perfect and suitable for me to walk in the park and look at the green leafs and red flowers,  and do an experiement of dropping that "red is red, green is green" judgetment or concept or categorization, just  see the things behind its names and labels, feel its essences in a direct way. It is at your disposal, at anytime you could stop and revert.
+In the beginning, I really want to get rid of that anaxity and self-dbouting but soon I found myself in apostion of choinceless. I can't do anytihng about it. That has made me to slow down involuntarily. Anyone could feel that slow motion of time when involeved in negative emotions. With above playing experince from my son, I start to play with the awareness - that is trying to apply that in the differnt aspects of my life through experiments. Quite to the oppose of scentific side, I check my critic, logic analysis and discursive thinking at the door, try to connect again with once-swpet-under-thecarpet 's child innocence, hence to explore and discover like a child. I'm not meant to be an anti-intellectual. When driving and wating at the crossroad for green light, you can't say, " hey , red is not red, green is not green so let's go", then it would not only hurt you but also hurt others.  However it would be perfect and suitable for me to walk in the park and look at the green leafs and red flowers,  and do an experiement of dropping that "red is red, green is green" judgetment or concept or categorization, just  see the things behind its names and labels, feel its essences in a direct way. It is at my disposal, at anytime I could stop and revert.
 
-One of that expieemnt is also about trying to distract my sons' attenion from my wife. I saw a couple of times when he had a pen and he just freely draw himself. I thought why not doing basic idiotproof hand pencil drawing togather.  Well quickly I could hear a voice inside my head, whisperring "Screw you, just recall, through you life, you have no aesthetic cells at all, no taste. Come on,you're a programmer, not a designer, you are just good at playing 01. You dont' that have crazy hairstyle or unique lookings. No artistic temperament. Don't be childish".  Yeah, but this time I thought "Fuck you", whatsoever, I hang those in my clothing stand  and I give a shot. We start drawing with his favorite animales. Sometimes, he would collect different leaves of trees to show to his mom, later we would sit togher and just oberve the texture and the lines and sahpes of those leaves and draw it on the paper. 
+One of that expieemnt is also about trying to distract my sons' attenion from his mom. I saw a couple of times when he had a pen and he just freely draw himself. I thought why not doing basic idiotproof hand pencil drawing togather.  Well quickly I could hear a voice inside my head, whisperring "Screw you, just recall, through you life, you have no aesthetic cells at all, no taste. Come on,you're a programmer, not a designer, you are just good at playing 01. You dont' that have crazy hairstyle or unique lookings. No artistic temperament. Don't be childish".  Yeah, but this time I thought " whatsoever, I give a shot". We start drawing with his favorite animales. Sometimes, he would collect different leaves of trees to show to his mom, later we would sit togher and just oberve the texture and the lines and sahpes of those leaves and draw it on the paper. 
 
 图片 gif 和 拿一张有树叶
 
-It is a intersting expeirence - two human being are playing and sharing and connecting. There is an echo back and forth. 
+It is a intersting expeirence - two human being are playing and sharing and connecting. There is sopme vibrations.
 
-Those drawings by any academic standards or socaliy standards, wouldn't be considered art. But I feel it is the art, as for me art is about epxressing oneself honstly and be authetical showing what he sees and feels with his heart. Art is not fxied or limted to some labels or titles or jobs， it is limitless and it is everywhere in everybody.
+Those drawings by any academic standards or socaliy standards, wouldn't be considered art. But I feel it is the art, as for me art is about epxressing oneself honstly and be authetical showing what he sees and feels with his heart in life. Art is not fxied or limted to some labels or titles or jobs, it is limitless and it is everywhere in everybody.
 
 
 
-## creativtiy
+## Creativtiy 
 
-As I build up those expeirements, one thing starts to emerge and keep hitting on me.  That's when I do one activity, e.g Active A, and I bump into a wall, sth like writer's block, where you feel you have nothing to say about and feel how to move on.  You're kinda in a mess and feel no insiprations. 
+As I build up those expeirements, one thing starts to emerge and keep hitting on me.  That's when I do one activity, e.g Active A, and I bump into a wall, sth like writer's block, where you feel you have nothing to say about and feel no clue how to move on.  You're kinda in a mess and have no insiprations, like a stream gets drained.
 
-Instead of forcing it with my will the hard way, to keep banging at the wall, I notice life leads you to next thing with smooth transition.  It is when you got stuck, maybe the sun is good outside, so you go out take a walk; maybe it is raining, weird enough that you want to feel how subtle the rain dropped on your face like what every child would do at the first time;  maybe it is lunch time, you go out to grab some food; maybe your kids just invite you to play and you play; maybe your friend ask you out; maybe you are sitting to long and your body remind you to get some exercise like fishing or play basketball or jogging.  I know it sounds conry、cliche and very subjective like a faith healer. Yep, I feel It always offers something or activities of different parts of life  for you to move on to.
+Instead of forcing it with my will the hard way, to keep banging at the wall, I notice life leads you to next thing with smooth transition.  It is when you got stuck, maybe the sun is good outside, so you go out take a walk; maybe it is raining, weird enough that you want to feel how subtle the rain dropped on your face like what every child would do at the first time;  maybe it is lunch time, you go out to grab some food; maybe your kids just invite you to play and you play; maybe your friend ask you out; maybe you are sitting to long and your body remind you to get some exercise like fishing or play basketball or jogging.  I know it sounds conry、cliche and very subjective like a faith healer. Yep, I do feel It always offers something or activities of different parts of life  to move next.
 
-I stash those things about ActivityA, and go fully blankslately into what comes next. Later when I came back to ActivittyA,  to my surprise, most of time, I just have some different perspectives or views. It wont' directly solve my problem at hand, or guareetend to bring inspirations, but I found it is interesting to play with differents ideas, and usally it brings new dimensions that I never got into before and just free to explore.
+I stash those things about ActivityA, and go fully blankslately into what comes next. Later when I came back to ActivittyA,  to my surprise, most of time, I just have some different views spontaneously. It wont' directly solve my problem at hand, or guareetend to bring inspirations, but I found it is interesting to play with differents views, and usally it brings new dimensions that I never got into before and just free to explore.
 
-It seems the nature is sorting through those raw unfiltered gathered informations in the background without our knowing. It merged those new with our existings one like an alchemist.  It just connect with different dots, different aspect of life, just a childis drawing and exploring, no limit, no spefic form. All I need to do is : "Trust the Process" .
+It seems the nature is sorting through those raw unfiltered gathered informations in the background without our knowing. It merged those new with our existings one like an alchemist.  It just connect with different dots, different aspect of life, just a childis drawing and exploring, in a mind-blowing form.  Then all I need to do is  just: "Trust the Process" .
 
 But sometimes I think:  "How you do know it? How sure you are? What's your proof" ?
 
-I just feel it. For me, it is some beyond the conviction, faith, beilife. I'm giving it all and just aligning and flowing with it, no expectations or attachments. 
+Well, it is just my gut feeling. It is some beyond the conviction, faith, beilife. I'm giving it all and just aligning and flowing with it, no expectations or attachments. 
 
-I do my part of keep my window open like settting up my antenna to pick any sginals that nature is sending to me, combined with my expeirence, I collect those unfilter informations and send it back. Nature is doing his part of orgnatizing and comes up with sth new.  It is a tacit agreement. It is a comaradeship.
+But I will do my part of trying to keep my window open, to set up my antenna high on the roof,  to pick up any signals that  nature is sending to me.  Along with that, I collect unfilter informations from expericences in my life and send it back. Nature is doing his part of orgnatizing and comes up with sth new - originality. I dont' borther about my originality, or try to preconcevied or by any effect to try to control it, because any form that would destroy it. I will do my part, and origianlity will take care of itself , thereby me. It is like a tacit agreement. 
 
 The abliity to connect different parts, sth seemingly unrelated on the surface. it is the nature who has greatest and most primordial source of creativity .
 
 
 
-图片Life and idfefent aspect of life
+图片Life and idfefent aspect of life  
+
+
 
 I could get in touch with in in the lens of  expericence of those diverse aspect of the life. The gems are scattered  in the most mundane of our daily life. 
 
-Many artistists claimed that they have or had experice using drugs as a source of inspriations and creacitivyt, even the biggest one. Well, here is I thought: when you are in state of  craving:  "it feels good, I need more; I have a compact timestable, I need get it done i beforexxx, so just give it to more; I need sold 2 millions copys; I need it to get into top 100 of billboard; this one is good, I need make next one more impressive" and try force upon your will on that,  it literally just closed all windows for themeselves and pushed the that connection away. They will take shortcut, esp in easily accessabile enviroment, to use drugs to desperately throw themself into that delusion, hoping to get what they fancy about.  Eventually the cheat has to pay its toll. Not only losing the sobriety , also damamgint their body and brain in inreversible way, most importantly,it breaks the tacit agreements,  they could have lost the connection via other ordinaly life experices. The relap is boudn to happen, the dead end is front of them.
+Many artistists claimed that they have or had experice using drugs as a source of inspriations and creacitivyt, even the biggest one. Well, here is I thought: when you are in state of  craving:  "it feels good, I need more; I have a tight schedule, I need get it done i beforexxx, so just give it to more; I need sold 2 millions copys; I need it to get into top 100 of billboard; this one is good, I need make next one more impressive" and try force upon your will on that,  it literally just closed all windows for themeselves and pushed the that connection away. They will take shortcut, esp in easily accessabile enviroment, to use drugs to desperately throw themself into that delusion, hoping to get what they fancy about.  Eventually the cheat has to pay its toll. Not only losing the sobriety , also damamgint their body and brain in inreversible way, most importantly,it breaks the tacit agreements,  they could have lost the connection via other ordinaly life experices. The relap is boudn to happen, that is a dead end.
 
-The inner boundary and inner compass is sth I have been handled over by nature, after delve into my inner world and aligin with that nature and reality.  It gives me freedom but also there is a boundary. However the boundary is setup voluterenyly and spontainteyly, not out of my personal desire or wills, nor out of society rules. I'm not saying to explore the flaws of laws, like what Wall Streets and Crypto world (only exception - Bitcoin) does, but the laws and the moral code of public may get stale, rigid and out of date, the one's inner one is always flowing and up to date.
+The inner boundary and inner compass is sth, we , as human being,  have been gifted by nature. But we gradually lose it during the growing up. It bring peace, tranquility and freedom.  The boundary is setup voluterenyly and spontainteyly, not out of one's desire or wills, nor out of society rules. I'm not saying to explore the flaws of laws, like what Wall Streets and Crypto world (except Bitcoin) does, but the laws and the moral code of public may get stale, rigid and out of date, the one's inner one is always flowing and up to date.
 
-It is clear to me, that based on who I am, drugs i sth that I would never take.
+
 
 ## To connect others via connecting yourself
 
@@ -138,7 +138,7 @@ Each hole has different internal structure, some may looks messy, some may looks
 
 Suprisingly, when one is express his seeing and feeling about universe in his unfilterd lens in his own way, the universe seems could better connect to the deeply side of others. To awake the true authentica side of someone, to let him could make his own sounds,  no-pretenius, no-duplicating. Hence connect as whole and feel that flowing of the harmony.
 
-Dont seek to copy what someoens does, seek what they're seeking, what they are after.  Don't concentrate on the finger, instead on what it is pointing to - the moon, the universe, the harmony,the one posses greatest source of creativy, inspriation, beauty and compassion.
+Dont seek to copy what someoens does, dont seek them, seek what they're seeking, what they are after.  Don't concentrate on the finger, instead on what it is pointing to - the moon, the universe, the harmony,the one posses greatest source of creativy, inspriation, beauty and compassion.
 
 
 
@@ -222,11 +222,9 @@ The humantrism revivement is the one how could we aawake the inen self , to reco
 
 ## Summary
 
-A crisis could be an opportunity. It leads me to have doubts, therefore, ask myself questions.  I found that if I dont' reject negative feelings nor try to grasp positive feelings, I'm in a better position to recieve the subtle messages universe channels. It is always there, and it is just that I rejected the inner child and closed off the inner light, either voluntarily or involuntarily, for a long time. Life is more about art and the subconscious than just being a logical/rational calculator and conscious. Still, it doesn't need to be mystic, abstract, regional, and spiritual; just something I could access in my ordinary daily routines, nothing special.
+A crisis could be an opportunity. It leads me to have doubts, and evokes a multitude of  questions about myself. Those questsions are self-contained, answer is hidden in the question itself.  I found that if I dont' reject negative feelings nor try to hold on to positive feelings, I'm in a better position to recieve the subtle messages universe channels. It is always there, and it is just that I rejected the inner child and closed off the inner light, either voluntarily or involuntarily, for a long time. Life is more about art and the subconscious than just being a logical/rational calculator and conscious. Still, it doesn't need to be mystic, abstract, regional, and spiritual; just something I could access in my ordinary daily routines, nothing special.
 
-
-
-It is a f*** play.
+We are all still children inside our hearts, aren't we?  Life is a play.
 
 
 
