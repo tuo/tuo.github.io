@@ -114,19 +114,17 @@ The inner boundary and inner compass is sth, we , as human being,  have been gif
 
 
 
-## To connect others via connecting yourself
+## What connects with people is you connecting yourself
 
-To clarify: the things we refer to above like the essential truth or fundamental principles  or objective realtity or natural or alchemist, whatever you name it and label it, all points to something behind it.
+I have to clarify a little bit here: the things I refer to above like the essential truth or fundamental principles or objective realtity or natural or universe or alchemist, whatever you name it and label it, all points to something behind it.
 
 
 
 图片  Deus sive Natura, nature, universe, the tao, god, first principle of zen, Flying Spaghetti Monster (将手稿草图，用尝试用chatgpt4 or other AI生成简单的示意图)
 
-The things behind is something coudn't put into words. You can intepret it as an intuition of  "Oneness", "Void", "Emptyness", "Unity" or "Substance". But those would limit it, as if it is only related to religion.  It is above human language yet not isolated from our daily life. No complicted jargons or fancy spritual words need put here. Anyone or anythign could look up to the sky right above them could get it. So the word "universe" is more common and relatable for anyone regardless of its background/ethitiy/color/nationlitiy, and will be used in following part of this article as reference to that inexpressable、indecrible, incomprehnsible, infitely thing not by its literal meaning in science.
+The thing behind is something coudn't put into words. It might be interpreted as an intuition of  "Oneness", "Void", "Emptyness", "Unity" or "Substance". But those would limit it, as if it is only related to religion.  It is above human language yet not isolated from our daily life. No complicted jargons or fancy spritual words need put here. Anyone or anythign could look up to the sky right above them could get it. Therefore, the word "universe" is more common and relatable for anyone regardless of its background/ethitiy/color/nationlitiy, and will be used in following part of this article as reference to that inexpressable、indescrible, incomprehnsible, infitely thing not by its literal meaning in science.
 
-
-
-THere is an ineresting story from Chuanz tz庄子, 530BC in China。庄子·逍遥游
+THere is an ineresting story from Chuang-tzu 庄子, 530BC in China。庄子·逍遥游 whom is the philosopher of Taoism.
 
 > 而独不闻之寥寥乎？山林之畏隹，大木百围之窍穴，似鼻、似口、似耳、似枅、似圈、似臼，似窪者，似污者；激者、謞者、叱者、吸者、叫者、譹者、宎者、咬者；前者唱于，而随者唱喁；泠风则小和，飘风则大和；厉风济则众窍为虚；
 
@@ -134,25 +132,27 @@ It says: There are thousands of thousands of holes in the mountains with differe
 
 图片 
 
-Each hole has different internal structure, some may looks messy, some may looks perfect, but when each hole is self-asserting itself, each is contributing its one into that grand melody. Thought different and diverse, each has its root in that shared harmony from universe. Those individuals are somehow connected in their deepest level. When each is expressing, they dont' have specfic aim for harmony, that's never part of their initial drives, it is all about themseves. 
+Each hole has different internal structure, some may looks messy, some may looks perfect, but when each hole is self-asserting itself, each is contributing its one into that grand melody. Though different and diverse, each has its root in that shared harmony from universe. Those individuals are somehow connected in their deepest level. When each is expressing themselfves, quite counterintuiltily they dont' have specfic aim for that harmony, or not exist in their head, that's never part of their initial drives, it is all about themseves. 
 
 Suprisingly, when one is express his seeing and feeling about universe in his unfilterd lens in his own way, the universe seems could better connect to the deeply side of others. To awake the true authentica side of someone, to let him could make his own sounds,  no-pretenius, no-duplicating. Hence connect as whole and feel that flowing of the harmony.
 
 Dont seek to copy what someoens does, dont seek them, seek what they're seeking, what they are after.  Don't concentrate on the finger, instead on what it is pointing to - the moon, the universe, the harmony,the one posses greatest source of creativy, inspriation, beauty and compassion.
 
+John Mayer put it beautifully in one of his speech: What connects with people is you connecting yourself.
 
 
-## Back on crisis
 
-The middle life crisis, if I don't identify myself with it, If I just leave the ego part aside, could be an oppuninty. That the overwall evironemnt is not friendly in tech market, you need provide steady bread on the table, your energy and body condition is decliiing, those are the reality with no denial. There are some implications : what if career is not about some fixed path, waht if the finanace is not about linear progression, what if body conditionling is decline but is getting more efficeint at the same time?
+## Midlife Crisis
+
+The middle life crisis, if I don't identify myself with it, If I just leave the ego part aside, could be an interesting thing to look at. That the overwall evironemnt is not friendly in tech market, you need provide steady bread on the table, your energy and body condition is decliiing, those are the reality with no denial. There are some implications : what if career is not about some fixed path, waht if the finanace is not about linear progression, what if body conditionling is decline but is getting more efficeint at the same time?
 
 Life awalys providers you something new. And those are great times  to challenge some long-hold ideas or assumptions or impressions. To peel off the ego, artificallity and prentence, to go on a drect face-to-face conversaction with the naked self. It is just a play in a different form.
 
-Anyone who try and pratice basic punch, would understand that instead of just focusing on use fist or hand and being rigid,   it is actually a flow and sequnce of invovelment of pretty much whole body.  The power starts with legs from the groud, then the hips and core, back and shoulder then to your arm and fist. That different msucles engates and do its own work, they know when to be flexible and when to be focus, and as a result, it provice maximam pwoer with efficient body mechanic. The body seems to know how to corrdinate and express it in tis nature way as one whole of indispensable and indivisible. This is same for shooting basketball. The power to throw the ball is not mainly from arms and hands, rather it is from legs ,hip and core.
+Anyone who try and pratice basic punch, would understand that instead of just focusing on use fist or hand and being rigid,   it is actually a flow and sequnce of invovelment of pretty much whole body.  The power starts with legs from the groud, then the hips and core, back and shoulder then to your arm and fist. That different msucles engates and do its own work, they know when to be flexible and when to be focus, and as a result, it provice maximam pwoer with efficient body mechanic. The body seems to know how to corrdinate and express it in tis nature way as one whole of indispensable and indivisible. This is same for shooting basketball. The most of power to throw the ball is not mainly from arms and hands, rather it is from legs ,hip and core.
 
-In sports, I start to expierements that I commit myself to let mind go somwhere recess to take a break, and let the body to reveal itself , to be the protagonist. Let him works in his own way. That also starts to apply to my mind in other areas. With more awareness and pratices, I foudn that I'm able to get into that flow state and have that kind laze focus more often.
+In sports, I start to do expierements in which I commit myself to let mind go somwhere recess to take a break, and let the body to reveal itself , to be the protagonist. Let him works in his own way. That also starts to apply to my mind in other areas. With more awareness and pratices, I foudn that I'm able to get into that flow/zone state and have that kind lazer focus more often.
 
-That's a hell lot of fun. 
+That's a hell lot of fun in this process.
 
 Don't get me wrong. I'm not saying we shouldn't do planning, but that planning itself requires a prerequisite to living fully in the present moment. Therefore not being attached to the outcome of the planning, not identifying oneself with it. Anytime, anywhere, we are playing, experiencing, flowing, and being. At any moment, we are already self-sufficient.
 
