@@ -156,21 +156,17 @@ That's a hell lot of fun in this process.
 
 Don't get me wrong. I'm not saying we shouldn't do planning, but that planning itself requires a prerequisite to living fully in the present moment. Therefore not being attached to the outcome of the planning, not identifying oneself with it. Anytime, anywhere, we are playing, experiencing, flowing, and being. At any moment, we are already self-sufficient.
 
-The midlife crisis is not a big deal.  There are some bigger crisis happening in human-bening level. In this digital world, the Brave New World, where the tranditional values were wrecked,  there is a  huge void there. Some products developed with sophisticated algorithrim and  designed with attracting interactive ui/ux are built to only exploit the dopmaine of its users and get them hooked. Those are the most intellectual people with a very deep understanding on the sceicne of  psychology, dopamine system, and how human braiwns works. Those activities keep someone busy so that they dont' have time to face or think of that void. Another would be to create an image of idea self on the internet and get other people adirming or envying, all shiny, bling bling,  facny life,   it make them feels good and hooked , and it seems to be a successful sign of indicating someone has foudn that his/her value. 
+Just think about: the midlife crisis is actually not that big crisis comparing to following one.  In this digital world, the Brave New World, where the tranditional values were wrecked,  there is a  huge void there. Some products developed with sophisticated algorithrim and  designed with attracting interactive ui/ux are built to only exploit the dopmaine of its users and get them hooked. Those are the most intellectual people with a very deep understanding on the sceicne of  psychology, dopamine system, and how human braiwns works. Those activities keep someone busy so that they dont' have time to face or think of that void and lonelness. Another would be to create an image of idea self on the internet and get other people adirming or envying, all shiny, bling bling,  facny life,   it make them feels good and hooked , and it seems to be a sign of indicating someone has foudn that his/her success. 
 
-To deal with easiy-acdessible stumuls or additaciotn, to fil lthat void, one can't just soly use one's will and seeking some silver bullet from outiside.  It is  like spring, the more you press it, the higher it would bounce back hence hurt yourself. We need connect to something bigger than us. That is  by tapping into that flowing stream of universe in our unique way, we possible would find ourself in a senrenity/preace and clam state, no matter how short time it is, it would be able to allow us to see beyhond the ego and identy, to poke throught those sneaky artificiality tricks to connect us with life in reality  again in  a brave way.
+[Thanks to the Internet, I have probably seen more naked ladies than all of my ancestors combined. : Showerthoughts (reddit.com)](https://www.reddit.com/r/Showerthoughts/comments/2cjnmc/thanks_to_the_internet_i_have_probably_seen_more/)
 
-The more nosiy it is , the more obvious the quietude would be. Maybe this big crisis could be a great oppountiy to reveal more about ourselves. 
+To deal with easiy-acdessible stumuls or additaciotn, to fil lthat void, one can't just soly rely on one's will and seeking some silver bullet from outiside.  It is  like spring, the more you press it, the higher it would bounce back hence hurt yourself. We need connect to something bigger than us. That is  by tapping into that flowing stream of universe in our unique way, we possible would find ourself in a senrenity/preace and clam state, no matter how short time it is, it would be able to allow us to see beyhond the ego and identy, to poke throught those sneaky artificiality tricks to connect us with life in reality  again in  a brave way.
 
-贺拉斯 暴风雨。
+The more nosiy it is , the more obvious the quietude would be. Maybe this big crisis could also offer us a great time to reveal more about ourselves. 
 
-We are always the humble of students of the universe. My kid is alway my greatest teacher. As he is learning to grow, I'm learning to de-grow; As he is learning to do plus, I'm learning to do minus.
+We are always the humble of students of the universe. Kid are maybe the most cloest metaphorical symbol to the universe. In one way, kid is alway greatest teacher. As he is learning to learn, I'm learing to unlearn;  As he is learning to do plus, I'm learning to do minus.
 
-//That huge low moments and even depressive feeling after the //dopamine hit, the dopmaine rehabilitation , could bring up //some of the most harsh questions for oneself: "What the fuck am I //doing? I can't belive i did it again."  Then one have a //relapse. That just completely crushed all ther feeling or expeiernces of //enggaging other activies of life.
-
-//But that sheer amount of inner judgement and self doubting acculated over this vicious circle could be a clue from universe  to //show where the cure is. To 
-
-//I'm ok. that much senreity , peace and calmnity , and confidence all and all.
+Let that crisis just be another play.
 
 ## AI
 
@@ -222,7 +218,7 @@ The humantrism revivement is the one how could we aawake the inen self , to reco
 
 ## Summary
 
-A crisis could be an opportunity. It leads me to have doubts, and evokes a multitude of  questions about myself. Those questsions are self-contained, answer is hidden in the question itself.  I found that if I dont' reject negative feelings nor try to hold on to positive feelings, I'm in a better position to recieve the subtle messages universe channels. It is always there, and it is just that I rejected the inner child and closed off the inner light, either voluntarily or involuntarily, for a long time. Life is more about art and the subconscious than just being a logical/rational calculator and conscious. Still, it doesn't need to be mystic, abstract, regional, and spiritual; just something I could access in my ordinary daily routines, nothing special.
+A crisis, on the other hand, could leads me to have doubts, and evokes a multitude of  questions about myself and be a great guide. I found that if I dont' reject negative feelings nor try to hold on to positive feelings, I'm in a better position to recieve the subtle messages universe channels.  as 贺拉斯 暴风雨, not only I rest well instorm, but also I'm not cling to  the sunshine in sunny days. To let it go is not to reject but embrace. I mean tt is always there, and it is just that I rejected the inner child and closed off the inner light, either voluntarily or involuntarily, for a long time. Life is more about art and the subconscious than just being a logical/rational calculator and conscious. Still, it doesn't need to be mystic, abstract, regional, and spiritual; just something I could access in my ordinary daily routines, nothing special.
 
 We are all still children inside our hearts, aren't we?  Life is a play.
 
@@ -256,19 +252,13 @@ kid pull the cryon bo and try every color and comination play with it. to see ho
 
 
 
+//That huge low moments and even depressive feeling after the //dopamine hit, the dopmaine rehabilitation , could bring up //some of the most harsh questions for oneself: "What the fuck am I //doing? I can't belive i did it again."  Then one have a //relapse. That just completely crushed all ther feeling or expeiernces of //enggaging other activies of life.
 
+//But that sheer amount of inner judgement and self doubting acculated over this vicious circle could be a clue from universe  to //show where the cure is. To 
 
+//I'm ok. that much senreity , peace and calmnity , and confidence all and all.
 
-
-
-
-
-
-
-
-
-
-
+## 
 
 
 
