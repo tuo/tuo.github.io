@@ -50,9 +50,11 @@ I start to ask "Who am I? Did I really love what I do ?"  Along recents years, i
 
 I'm bothered. Life goes on. I have a almost three-years-old kid. My wife and I live away from our hometown of both, and rent some house here and we, as what we called in china, has another role  " teammates/commrades"   in terms of taking care of our kid. My kid just like to stick to his mom all the time.  When my teamate need do some her own space, like taking shower or go out shopping, I need ensure I could look after the kid without leave him crying out for mom :)  That's a hell challenge, I need to distract him but watching this favoirte Pepper Pig, Bamboo Club or dinosaurs wont' last long, I have to actively engate with him through activities.Sometimes I take him to kids park（儿童游乐场） or park, sometimes just play with toys and do sth handle pencild drawings at home. 
 
+图片 瑾 河边风筝 还有玩 做饺子 和 游乐场
+
 It is one of the oridinary playing, my son sitting there to  playing with his 积木, and I'm lying aside and just wathcing him play. I could see he is fully engaged in the playing, his genius and dedicate expression in his face as if time has freezed and the world around him vanished. I feel sth (affections) just draws me and resonate sth once familliar and deeply inside me -  the serenitiy and joyment.  That heals and in that space and timepirod, I was free from all kinds anxiies, fear nor  happniess, any desires.  I dont' want to sounds  conry like revelations like any religon's mystistics like MatinLuther's thunder nor Pascal's near death on one ride, but it just like there is a glowing at his background.  That Aha moment awakes something inside me , seomthing I already possessed but keep looking for from outside.
 
-//basket or fishing
+//basket or fishing 图片
 
 It reminds me of those similar sparks I had during playing basketball and fishing. In some intensive situations, I found that if I was able to dropped out my preplans of my best moves to attack my opponents,  in a blink of eye, my mind looks like hasn't got a chance to spin up and plot some plans,  it is a natual and instinct moves just coming out me. That move is totaly unexpected yet smooth. The oppnonet is like a dancer companion. we dont' figiht aganist each other, instead we dance togother. There is not a “me”  in this picutre, the hook, and oponent and myself  are just harmousoly blend as one.  I'm so concentrated like my kid is playing, somehow the line that dividing and differenicating people and objects seems to dissolve. I could remember I keep recalling that indescribable experience all the time.
 
@@ -74,7 +76,7 @@ In the beginning, I really want to get rid of that anaxity and self-dbouting but
 
 One of that expieemnt is also about trying to distract my sons' attenion from his mom. I saw a couple of times when he had a pen and he just freely draw himself. I thought why not doing basic idiotproof hand pencil drawing togather.  Well quickly I could hear a voice inside my head, whisperring "Screw you, just recall, through you life, you have no aesthetic cells at all, no taste. Come on,you're a programmer, not a designer, you are just good at playing 01. You dont' that have crazy hairstyle or unique lookings. No artistic temperament. Don't be childish".  Yeah, but this time I thought " whatsoever, I give a shot". We start drawing with his favorite animales. Sometimes, he would collect different leaves of trees to show to his mom, later we would sit togher and just oberve the texture and the lines and sahpes of those leaves and draw it on the paper. 
 
-图片 gif 和 拿一张有树叶
+图片 gif 和 拿一张有树叶6
 
 It is a intersting expeirence - two human being are playing and sharing and connecting. There is sopme vibrations.
 
@@ -98,13 +100,7 @@ Well, it is just my gut feeling. It is some beyond the conviction, faith, beilif
 
 But I will do my part of trying to keep my window open, to set up my antenna high on the roof,  to pick up any signals that  nature is sending to me.  Along with that, I collect unfilter informations from expericences in my life and send it back. Nature is doing his part of orgnatizing and comes up with sth new - originality. I dont' borther about my originality, or try to preconcevied or by any effect to try to control it, because any form that would destroy it. I will do my part, and origianlity will take care of itself , thereby me. It is like a tacit agreement. 
 
-The abliity to connect different parts, sth seemingly unrelated on the surface. it is the nature who has greatest and most primordial source of creativity .
-
-
-
-图片Life and idfefent aspect of life  
-
-
+The abliity to connect different parts, sth seemingly unrelated on the surface. it is the nature who has greatest and most primordial source of creativity.
 
 I could get in touch with in in the lens of  expericence of those diverse aspect of the life. The gems are scattered  in the most mundane of our daily life. 
 
@@ -122,6 +118,8 @@ I have to clarify a little bit here: the things I refer to above like the essent
 
 图片  Deus sive Natura, nature, universe, the tao, god, first principle of zen, Flying Spaghetti Monster (将手稿草图，用尝试用chatgpt4 or other AI生成简单的示意图)
 
+
+
 The thing behind is something coudn't put into words. It might be interpreted as an intuition of  "Oneness", "Void", "Emptyness", "Unity" or "Substance". But those would limit it, as if it is only related to religion.  It is above human language yet not isolated from our daily life. No complicted jargons or fancy spritual words need put here. Anyone or anythign could look up to the sky right above them could get it. Therefore, the word "universe" is more common and relatable for anyone regardless of its background/ethitiy/color/nationlitiy, and will be used in following part of this article as reference to that inexpressable、indescrible, incomprehnsible, infitely thing not by its literal meaning in science.
 
 THere is an ineresting story from Chuang-tzu 庄子, 530BC in China。庄子·逍遥游 whom is the philosopher of Taoism.
@@ -130,7 +128,7 @@ THere is an ineresting story from Chuang-tzu 庄子, 530BC in China。庄子·�
 
 It says: There are thousands of thousands of holes in the mountains with different shapes. Some look like a nose, some look like a mouth, some look like an ear, with different internal structures. When the wind is blowing on the earth, either small or strong, those holes generate different sounds, each with a unique pitch and tone. In whole, it is as if nature is conducting a symphony or orchestra. How harmonious it is!
 
-图片 
+图片 风吹百翘
 
 Each hole has different internal structure, some may looks messy, some may looks perfect, but when each hole is self-asserting itself, each is contributing its one into that grand melody. Though different and diverse, each has its root in that shared harmony from universe. Those individuals are somehow connected in their deepest level. When each is expressing themselfves, quite counterintuiltily they dont' have specfic aim for that harmony, or not exist in their head, that's never part of their initial drives, it is all about themseves. 
 
