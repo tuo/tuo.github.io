@@ -32,15 +32,19 @@ Damn, that really hurts.
 
 ## Observations from Kid Playing
 
-There is a ruler from socialtiy and us that could measure our outward material success. Those metric are visible and we're used to measure ourself by it since we grow up.  We want to go higher in that rank, so we could feel safer and better. That's subcconusoly becomaes part of ego and we dientify ourself with it. 
+There is a ruler from society that measures our outward material success. These metrics are visible, and we're accustomed to measuring ourselves by them since we grow up. We aspire to climb higher in that ranking by that ruler, believing it will make us feel safer and better. Subconsciously, it becames a part of our ego, and even we identify ourselves with it.
 
-(图片Ruler)什么图片来着？忘了
+Now, by this ruler, I'm sliding to the bottom part, fearing being eliminated by KPIs. That ego and identity starts working against me, triggering a chain of negativity, connected with some of the worst memories and emotions from the past. This leads to a serious self-doubt. I can feel the urge to desperately try to get out this bottom as soon as possible.
 
-Now by this ruler, I'm sliding to bottom part of, fearing of being elimited by KPI。That part of ego and identitiy starts working aganist me it triggers a chain of negativity, connected with deeply some worst memories and emotions from the past, leads to a serisouly self-doubiting.  I could feel that urge to  desperately try to get out this bottom part as soon as possible.
+That self-doubt has prompted me to review my whole life. 
 
-That self doubt has put me to review my whole life. 
+I start to ask "Who am I? Did I really love what I do ?"  What if that ruler is gone, "who am I really?" To what I should measure myself aganist? 
 
-I start to ask "Who am I? Did I really love what I do ?"  Along recents years, i have some of best and deeply connected fmaily relatives passed away,  they passed away abruptly,  that I thought or expected  they are gonna be there forever, and now suddenly gone. 人生无常， that leavs your in pondering "how fragile is life and how small/tingy human is". Hence I want to see through that outside ruler, material, scoails nuns, strip out those superficials, put aside those labels like "practicality",  in the raw form, "who am I " and "What I really love to do".  Obvisoully that is not about meet other people's expection, not for vanity, not for fame, not for money, not for fame, not to compare. None of it, but I have a intuituion/hunch that the answer must lies, not in the outward, but in the question itself - aka inward.
+In recents years,  some of my best family relatives who see me grow up passed away abruptly. They passed away in a way I never thought or expected. I 'm so used to thhat they are gonna be there forever, and now suddenly gone. Life is uncertain; It leaves you pondering on how fragile life is and how small humans are. Hence, I want to see through that external ruler, e.g. material possessions, social norms, and strip away those superficial layers, and put aside labels like "practicality and maturity", just to get a glimpse of that in its raw form. One thing clear to me is that  is not about meeting other people's expectations, not for vanity, not for fame, not for money, not for comparison. None of that. I have an intuition, a hunch that the answer lies not in the outward, but in the question itself - inward - me.
+
+
+
+ leavs your in pondering "how fragile is life and how small/tingy human is". Hence I want to see through that outside ruler, material, scoails nuns, strip out those superficials, put aside those labels like "practicality",  in the raw form, "who am I " and "What I really love to do".  Obvisoully that is not about meet other people's expection, not for vanity, not for fame, not for money, not for fame, not to compare. None of it, but I have a intuituion/hunch that the answer must lies, not in the outward, but in the question itself - aka inward.
 
 I'm bothered. Life goes on. I have a almost three-years-old kid. My wife and I live away from our hometown of both, and rent some house here and we, as what we called in china, has another role  " teammates/commrades"   in terms of taking care of our kid. My kid just like to stick to his mom all the time.  When my teamate need do some her own space, like taking shower or go out shopping, I need ensure I could look after the kid without leave him crying out for mom :)  That's a hell challenge, I need to distract him but watching this favoirte Pepper Pig, Bamboo Club or dinosaurs wont' last long, I have to actively engate with him through activities.Sometimes I take him to kids park（儿童游乐场） or park, sometimes just play with toys and do sth handle pencild drawings at home. 
 
