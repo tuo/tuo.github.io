@@ -223,9 +223,10 @@ The humantrism revivement is the one how could we aawake the inen self , to reco
 
 ## Summary
 
-A crisis, on the other hand, could lead me to have doubts and evoke a multitude of questions about myself, serving as a great guide. I've found that if I don't reject negative feelings or try to hold on to positive feelings, I'm in a better position to receive the subtle messages the universe. Like what Horace's Epistle to his teacher Maecenas where he clamins not to be devoted to any particular sect but is rather an eclectic by nature. 
+A crisis, on the other hand, could lead me to have doubts and evoke a multitude of questions about myself, serving as a great guide. I've found that if I don't reject negative feelings or try to hold on to positive feelings, I'm in a better position to receive the subtle messages the universe. Like what Horace's Epistle to his teacher Maecenas where he clamins not to be devoted to any particular sect but is rather an eclectic by nature ([source: Nullius in verba wikipedia](https://en.wikipedia.org/wiki/Nullius_in_verba)). 
 
 > Nullius addictus iurare in verba magistri, – quo me cumque rapit tempestas, deferor hospes. 
+>
 > ("No one is addicted to swearing by the words of the teacher, – to which whenever the storm takes me, I am carried away as a guest.")
 
 I mean it's always there, and it's just that I rejected the inner child and closed off the inner light, either voluntarily or involuntarily, turning to seek validation from outside for a long time. I put up an invisible chain a shackle on myself. Time to put down.
