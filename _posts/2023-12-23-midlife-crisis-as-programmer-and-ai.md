@@ -96,7 +96,7 @@ But sometimes I think:  "How you do know it? How sure you are? What's your proof
 
 Well, it is just my gut feeling. It goes beyond conviction, faith, belief. I'm giving it all and just aligning and flowing with it, with no expectations or attachments. 
 
-I will do my part by trying to keep my window open, setting up my antenna high on the roof, just to pick up any signals that  nature is sending to me. At the same time, I collect unfiltered informations from expericences in my life in fullest potential. Nature is doing its part by organizing and coming up with magic formula - originality. I dont' borther about my originality, nor try to preconcevie it or to control it by any efforts and means, as any form of interference would do nothing but destroy it. I will do my part, and origianlity will take care of itself , thereby taking care of me. It is like a tacit agreement. 
+I will do my part by trying to keep my window open, setting up my antenna high on the roof, just to pick up any signals that  nature is sending to me. At the same time, I collect unfiltered informations from expericences in my life in fullest potential. Nature is doing its part by organizing and coming up with magic formula - originality. I dont' borther about my originality, nor try to preconcevie it or to control it by any efforts and means, as any form of interference would do nothing but destroy it. I will do my part, and origianlity will take care of itself , thereby taking care of me. It is like a tacit agreement. It is like showerthoughts, you couldn't figure out how it just pops up in your head, but it just happens.
 
 The abliity to connect different parts, things seemingly unrelated on the surface, is the nature that has greatest and most primordial source of creativity.
 
@@ -112,31 +112,27 @@ No drugs, no alcohol.
 
 ## What connects with people is you connecting yourself
 
-I have to clarify a little bit here: the things I refer to above like the essential truth or fundamental principles or objective realtity or natural or universe or alchemist, whatever you name it and label it, all points to something behind it.
+I need to clarify a little bit here: the things I referred to above, such as the essential truth, fundamental principles, objective realtit, natural, universe, or the alchemist -whatever you name or label - all points to something beyond.
 
 
 
 图片  Deus sive Natura, nature, universe, the tao, god, first principle of zen, Flying Spaghetti Monster (将手稿草图，用尝试用chatgpt4 or other AI生成简单的示意图)
 
+The thing behind is something couldn't be put into words. It might be interpreted as an intuition of  "Oneness", "Void", "Emptyness", "Unity" or "Substance". But those would limit it, as if it is only related to religion. It is beyond human language yet not isolated from our daily life. No complicted jargons or fancy spritual words need to be put here. Anyone or anything that looks up to the sky right above them could get it. Therefore, the word "universe" is more common and relatable for everyone, regardless of their background, ethitiy, color or nationlitiy, and will be used in following part of this article as reference to that inexpressible, indescribable, incomprehensible, infinitely elusive thing, not by its literal meaning in science.
 
-
-The thing behind is something coudn't put into words. It might be interpreted as an intuition of  "Oneness", "Void", "Emptyness", "Unity" or "Substance". But those would limit it, as if it is only related to religion.  It is above human language yet not isolated from our daily life. No complicted jargons or fancy spritual words need put here. Anyone or anythign could look up to the sky right above them could get it. Therefore, the word "universe" is more common and relatable for anyone regardless of its background/ethitiy/color/nationlitiy, and will be used in following part of this article as reference to that inexpressable、indescrible, incomprehnsible, infitely thing not by its literal meaning in science.
-
-THere is an ineresting story from Chuang-tzu 庄子, 530BC in China。庄子·逍遥游 whom is the philosopher of Taoism.
+There is an ineresting story from Chuang-tzu, who is a classic and famous Taoism philosopher, dating back to 530BC in China. The story can be found in his work : <*A Happy Excursion*> .
 
 > 而独不闻之寥寥乎？山林之畏隹，大木百围之窍穴，似鼻、似口、似耳、似枅、似圈、似臼，似窪者，似污者；激者、謞者、叱者、吸者、叫者、譹者、宎者、咬者；前者唱于，而随者唱喁；泠风则小和，飘风则大和；厉风济则众窍为虚；
 
-It says: There are thousands of thousands of holes in the mountains with different shapes. Some look like a nose, some look like a mouth, some look like an ear, with different internal structures. When the wind is blowing on the earth, either small or strong, those holes generate different sounds, each with a unique pitch and tone. In whole, it is as if nature is conducting a symphony or orchestra. How harmonious it is!
+It literally says: There are thousands of thousands of holes in the mountains with different shapes. Some look like a nose, some look like a mouth, some look like an ear, with different internal structures. When the wind is blowing on the earth, either small or strong, those holes generate different sounds, each with a unique pitch and tone. In whole, it is as if nature is conducting a symphony or orchestra. How harmonious it is!
 
 图片 风吹百翘
 
-Each hole has different internal structure, some may looks messy, some may looks perfect, but when each hole is self-asserting itself, each is contributing its one into that grand melody. Though different and diverse, each has its root in that shared harmony from universe. Those individuals are somehow connected in their deepest level. When each is expressing themselfves, quite counterintuiltily they dont' have specfic aim for that harmony, or not exist in their head, that's never part of their initial drives, it is all about themseves. 
+Each hole has a different internal structure—some may look messy, and some may looks perfect. However, when each hole is self-asserting, each contributes its own unique tone to that grand melody. Despite their differences and diversity, each has its root in the shared harmony of universe. These individuals are somehow connected at their deepest level. When each is expressing themselfves, quite counterintuitively, they don't have a specfic aim for that harmony, or it doesn't exist in their heads; it is never part of their initial drives—it is all about themseves. 
 
-Suprisingly, when one is express his seeing and feeling about universe in his unfilterd lens in his own way, the universe seems could better connect to the deeply side of others. To awake the true authentica side of someone, to let him could make his own sounds,  no-pretenius, no-duplicating. Hence connect as whole and feel that flowing of the harmony.
+Suprisingly, when one expresses their seeing and feeling about the universe through his unfilterd lens in their own way, the universe seems to better connect to others. It awakens the true authentic side of someone, inviting them to make their own sounds—no pretentiousness, no imitation. Hence connecting as a whole and feeling the flow of harmony.
 
-Dont seek to copy what someoens does, dont seek them, seek what they're seeking, what they are after.  Don't concentrate on the finger, instead on what it is pointing to - the moon, the universe, the harmony,the one posses greatest source of creativy, inspriation, beauty and compassion.
-
-John Mayer put it beautifully in one of his speech: What connects with people is you connecting yourself.
+Don't seek to copy what someoens does; dont seek them—seek what they're seeking, what they are after. Don't concentrate on the finger; instead, focus on what it is pointing to—the moon, the universe, the harmony—the one possessing the greatest source of creativy, beauty and compassion.
 
 
 
