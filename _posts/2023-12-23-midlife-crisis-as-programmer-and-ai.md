@@ -2,7 +2,7 @@
 layout: post
 title: "Midlife Crisis as Programmer and AI"
 date: 2023-12-23 19:55:32 +0800
-published: true
+published: false
 tags: midlife,crisis,programmer,ai
 ---
 
