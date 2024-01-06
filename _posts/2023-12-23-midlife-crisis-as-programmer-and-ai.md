@@ -2,7 +2,7 @@
 layout: post
 title: "Midlife Crisis as Programmer and AI"
 date: 2023-12-23 19:55:32 +0800
-published: false
+published: true
 tags: midlife,crisis,programmer,ai
 ---
 
@@ -44,11 +44,11 @@ In recents years,  some of my best family relatives who see me grow up passed aw
 
 I'm bothered. Life goes on. I have an almost three-year-old kid. My wife and I live away from our hometown, renting a house here. We play the roles of "teammates/comrades", as we call it in China here, with the same goal of  taking care of our child. My kids tends to stick to his mom all the time. When my teammate needs her own space, like taking a shower or going out shopping, I have to ensure I can took after the kid without leaving him crying for mom. It's a challenging task; I need to distract him. Well watching his favorite shows like Pepper Pig, Bamboo Club, Pleasant Goat and Big Big Wolf or dinosaurs won't last long, so I have to actively engate with him via soem activities. Sometimes, I take him to children's playground indoor/outdoor, some park,  and sometimes we just play with toys at home.
 
-图片 瑾 河边风筝 还有玩 做饺子 和 游乐场
+![kidsplay](/Users/tuo/Desktop/crissis_images/kidsplay.jpg)
 
 It was one of those ordinary moments; my son sat there playing with his building blocks, and I lay beside him, just watching him play. I could see he was fully engrossed in the game, his genius and dedicated expression on his face, as if time had frozen, and the world around him had blurred out. I felt something drawing me in, resonating with something once familiar and deep - the serenity and joy. It just healed, and in that space and time, I was free from all kinds of anxieties, fears, and desires. I don't want to sound corny, for example, religious revelations - like Martin Luther's caught in a thunderstorm and Blaise Pascal's two accidents of riding in a carriage - I did feel at that time I saw some light glowing from his background. That Aha and transformative moment awakes me in a way of non-logic/non-rational even inexpressable, and my initution was right.
 
-//basket or fishing 图片
+![fishingbasketball](/Users/tuo/Desktop/crissis_images/fishingbasketball.jpg)
 
 It reminds me of those similar sparks I had during playing basketball and fishing. In some intense situations, I found that if I was able to drop out my pre-plans of my "best" moves to attack my opponents,  suddenly my mind looks like it hasn't got a chance to spin up and plot some plans. It is a natural and instinctive move just coming out of me. That move is totaly unexpected yet smooth. The oppnonet is like a dance companion. We dont' figiht against each other; instead we dance togother. There is not a “me”  in this picutre; the hoop, the oponent, and myself are just harmoniously blended as one.  I'm so concentrated, like my kid is playing; somehow, the line that divides and differentiates people and objects seems to be gone. I remember I keep recalling that indescribable experience all the time.
 
@@ -74,7 +74,11 @@ One of those experiments is about trying to distract my sons' attenion from his 
 
 图片 gif 和 拿一张有树叶6
 
-It is an intersting experience3 - two human beings are playing, sharing and connecting. There are some vibrations.
+![treesdrawing2](/Users/tuo/Desktop/crissis_images/treesdrawing2.jpg)
+
+![pencildrawing](/Users/tuo/Desktop/crissis_images/pencildrawing.gif)
+
+It is an intersting experience - two human beings are playing, sharing and connecting. There are some vibrations.
 
 Those drawings, by any academic standards or social standards, wouldn't be considered art. But I feel it is the art, as for me , art is about epxressing oneself honstly and being authentic, showing what one sees and feels in life with their heart. Art is not fixed or limted to some labels, titles or jobs; it is limitless and  is everywhere in everybody.
 
@@ -114,7 +118,7 @@ No drugs, no alcohol.
 
 I need to clarify a little bit here: the things I referred to above, such as the essential truth, fundamental principles, objective realtit, natural, universe, or the alchemist -whatever you name or label - all points to something beyond.
 
-
+![universe_deeper](/Users/tuo/Desktop/crissis_images/universe_deeper.jpg)
 
 图片  Deus sive Natura, nature, universe, the tao, god, first principle of zen, Flying Spaghetti Monster (将手稿草图，用尝试用chatgpt4 or other AI生成简单的示意图)
 
@@ -126,7 +130,7 @@ There is an ineresting story from Chuang-tzu, who is a classic and famous Taoism
 
 It literally says: There are thousands of thousands of holes in the mountains with different shapes. Some look like a nose, some look like a mouth, some look like an ear, with different internal structures. When the wind is blowing on the earth, either small or strong, those holes generate different sounds, each with a unique pitch and tone. In whole, it is as if nature is conducting a symphony or orchestra. How harmonious it is!
 
-图片 风吹百翘
+图片 风吹百翘![wind_holes](/Users/tuo/Desktop/crissis_images/wind_holes.jpg)
 
 Each hole has a different internal structure—some may look messy, and some may looks perfect. However, when each hole is self-asserting, each contributes its own unique tone to that grand melody. Despite their differences and diversity, each has its root in the shared harmony of universe. These individuals are somehow connected at their deepest level. When each is expressing themselfves, quite counterintuitively, they don't have a specfic aim for that harmony, or it doesn't exist in their heads; it is never part of their initial drives—it is all about themseves. 
 
@@ -200,26 +204,13 @@ I believe that programming and life is intricately intertwined. In order to get 
 
 With that said, If someone have one's mindset prepared and got some content someone want to express, the cutting-edge technology like AI can open up numerous possibilities. Prompt engineering allows tweaking input for detailed and sepcific request, treating it as if assigned a particular role to get the optimal results. Asisstants finne-tune and transform into your personal agents, while tools like AutoGen and LangChain extends LLM with external components, making creation of LLM-driven applications more conveniently.
 
-//注释If I'm a designer and doesn't know any code, I could quickly get my MVP up and running with the help of AI; If I come into something new, I could ask AI to get a quick summary and key breakdown to get an overview. Both are very good starting points to begin with. The entry barriare is lowered and more accessrisable to people. However, on the contray , we shouldn't  mistake the tool for the content or the purpose itself.
+![drafts](/Users/tuo/Desktop/crissis_images/drafts.gif)
 
-【图片】
-
-(Ps: 草稿GIF ：每次都是先写content,然后打字到电脑，一点点修正，这样可以专注在内容之上，不用管是markdown还是字体是多大)
+(ps: Every time,  I try to write my first shitty drafts on paper, so that I can revisit and make adjustments. When I type them into computer, I can omit some details in the process and just keep only  the essentials. This forces me to concentrate on the content, without worrying about style, such as deciding on the font size from the begining.)
 
 There is a delicate balance between humanity and tools. Tools won't steal the thunder of the content; instead, they assist in delivering and expressing it in a natural way, where the care and empathy of a human being are best presented. The uniqueness of content is embedded in the form, facilitated by new tools like AI. With those tools, the content could reach out to more people, maybe that is one message from universe so that harmony could be echoed and vibrated in a bigger scale.
 
 On one side, there is the human; on the other, there are the tools. If tools like AI can lower barriers for knowledge sharing, it means the status of humans is actually elevated and levelled up, much like what happened in the Humanism movement.
-
-图片 跷跷板
-
-Humans are an end-in-itself, not a means.
-
-
-In the digital era, and AI, 对比， 人文主义是将人身上被GOD套的锁链中解脱出来，人得到解放；而现在是传统瓦解value崩溃，个性得到极大的解放，人与人通信变得轻而易举，但是社会撕裂和人们之间相互隔离缺加重了，却都掉进虚无主义陷阱，只能用多巴胺娱乐来麻痹自己，同时将自己困在了rat race中，人某种程度是解放，却要套上另外的枷锁。而
-
-The humantrism revivement is the one how could we aawake the inen self , to reconnect as one in his informationoverload digital era. Human are end-in-itself, not means.  人要从工具化中解脱出来，找回人的本身，找回人的生活体验，找到孩提时代那种探索，回归那种物我归一。（张孝祥过洞庭）
-
-
 
 ## Summary
 
@@ -234,44 +225,6 @@ I mean it's always there, and it's just that I rejected the inner child and clos
 In this stage, I feel that life is more about art and the subconscious than just being a logical/rational calculator and conscious. Still, it doesn't need to be mystic, abstract, or spiritual; just something we can access in our ordinary daily routines. It is inside us. We're all empowed to play, create, connect and heal.
 
 Aren't we all still children inside our hearts? Life is just a state of play.
-
-
-
-=========
-
-To more concrete and relatable as a pragrammer,  from my 13 years expericen, by observing myself and other devlopers in the trench, I notice some commonly mistakes. 
-
-Some are getting used the languages or tech stack they're using for long time, it is true they gained more insight, but at the same time, some are getting over-idnetify with it.  To some extent, when learn something new like new langage, they wouldn't even able to finish the "Getting Started" part because there is a inner chat constantly whispering in their head "This is bullshit, the syntax is wierd,  the last page is full of right parenthesis?  see, my lanugage is the best".  Basically they setup a cage for themself, as if it provides a sense of secruity and safety, and says "it is the best cage in the world". They could't dump out the water in their filled cup, and be a child to just play with new techniques. Therefore becoming stagnant and fixed techquniuelly.
-
-There are some steretypes about programmer that they're better work with matchines with binary bytes. They are introverts and nerd. The playing video games is their only recreational hobby. Well it speaks some part of the truth, but not all. Coding is not isolated from other part of life, and requires communications between people.  We write in code with high-level human reable language and the code itself needs to fit how human cogitive process works. Like draing a tree, from root to trunk, branch to leaves, thinking also in terms as if someone is gonna read and maintain your code. plus hit writer block , go out or explain to someheres. to boserver what teousa part about other opeopel , not jstu ddevleo, but ctest, developer, . amyabe not limited to that, could be extend to fishing or wather soever.
-
-
-
-If a programmer was given a task or feature to develop, he is thinking from high-level to low-level, just like when I draw a tree - it starts with root, then trunk , then branch, and lastly the leafs.  That's how human ingest information.
-
-
-
-I hate to say I have mentioned a lot of times about "play" and "kids". but yeah inside ourself, w're walayw skids, an know to play, we're not slave to any specif form , we're unlimited.
-
-
-
-if we sort outhe humannity part, the content part of, then nex tis about ai , ehcuiq e and ootls
-
-AI 的好处 降低门槛 带来非常多的可能 比如语言
-
-kid pull the cryon bo and try every color and comination play with it. to see how it epress his feeling.
-
-
-
-
-
-//That huge low moments and even depressive feeling after the //dopamine hit, the dopmaine rehabilitation , could bring up //some of the most harsh questions for oneself: "What the fuck am I //doing? I can't belive i did it again."  Then one have a //relapse. That just completely crushed all ther feeling or expeiernces of //enggaging other activies of life.
-
-//But that sheer amount of inner judgement and self doubting acculated over this vicious circle could be a clue from universe  to //show where the cure is. To 
-
-//I'm ok. that much senreity , peace and calmnity , and confidence all and all.
-
-## 
 
 
 
