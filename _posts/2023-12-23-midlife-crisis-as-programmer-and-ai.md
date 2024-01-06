@@ -2,7 +2,7 @@
 layout: post
 title: "Midlife Crisis as Programmer and AI"
 date: 2023-12-23 19:55:32 +0800
-published: false
+published: true
 tags: midlife,crisis,programmer,ai
 ---
 
@@ -44,11 +44,12 @@ In recents years,  some of my best family relatives who see me grow up passed aw
 
 I'm bothered. Life goes on. I have an almost three-year-old kid. My wife and I live away from our hometown, renting a house here. We play the roles of "teammates/comrades", as we call it in China here, with the same goal of  taking care of our child. My kids tends to stick to his mom all the time. When my teammate needs her own space, like taking a shower or going out shopping, I have to ensure I can took after the kid without leaving him crying for mom. It's a challenging task; I need to distract him. Well watching his favorite shows like Pepper Pig, Bamboo Club, Pleasant Goat and Big Big Wolf or dinosaurs won't last long, so I have to actively engate with him via soem activities. Sometimes, I take him to children's playground indoor/outdoor, some park,  and sometimes we just play with toys at home.
 
-![kidsplay](/Users/tuo/Desktop/crissis_images/kidsplay.jpg)
+<img src="https://d2h13boa5ecwll.cloudfront.net/20231223midlifecrisis/kidsplay.jpg" style="zoom:40%;display:flex;" />
+
 
 It was one of those ordinary moments; my son sat there playing with his building blocks, and I lay beside him, just watching him play. I could see he was fully engrossed in the game, his genius and dedicated expression on his face, as if time had frozen, and the world around him had blurred out. I felt something drawing me in, resonating with something once familiar and deep - the serenity and joy. It just healed, and in that space and time, I was free from all kinds of anxieties, fears, and desires. I don't want to sound corny, for example, religious revelations - like Martin Luther's caught in a thunderstorm and Blaise Pascal's two accidents of riding in a carriage - I did feel at that time I saw some light glowing from his background. That Aha and transformative moment awakes me in a way of non-logic/non-rational even inexpressable, and my initution was right.
 
-![fishingbasketball](/Users/tuo/Desktop/crissis_images/fishingbasketball.jpg)
+<img src="https://d2h13boa5ecwll.cloudfront.net/20231223midlifecrisis/fishingbasketball.jpg" style="zoom:35%;display:flex;" />
 
 It reminds me of those similar sparks I had during playing basketball and fishing. In some intense situations, I found that if I was able to drop out my pre-plans of my "best" moves to attack my opponents,  suddenly my mind looks like it hasn't got a chance to spin up and plot some plans. It is a natural and instinctive move just coming out of me. That move is totaly unexpected yet smooth. The oppnonet is like a dance companion. We dont' figiht against each other; instead we dance togother. There is not a “me”  in this picutre; the hoop, the oponent, and myself are just harmoniously blended as one.  I'm so concentrated, like my kid is playing; somehow, the line that divides and differentiates people and objects seems to be gone. I remember I keep recalling that indescribable experience all the time.
 
@@ -72,11 +73,14 @@ Quite the oppose of the scentific side, I checked my criticism, logical analysis
 
 One of those experiments is about trying to distract my sons' attenion from his mom. I saw a couple of times when he had a pen, and he just freely drew by himself. I thought,  why not do some basic idiot-proof hand pencil drawing together?  Well quickly I could hear a voice inside my head, whispering, "Screw you, just recall, throughout your life, you have no aesthetic cells at all, no taste. Come on,you're a programmer, not a designer; you are just good at playing 0011s. You dont' that have crazy hairstyle or unique looks. No artistic temperament. Don't be childish".  Yeah, but this time I thought " Whatsoever, I'll give a shot". We started drawing first with his favorite animals. Sometimes, he would collect different leaves from trees to show to his mom, adn later, we would sit together and just oberve the texture, lines and sahpes of those leaves, and draw them on the paper. 
 
-图片 gif 和 拿一张有树叶6
 
-![treesdrawing2](/Users/tuo/Desktop/crissis_images/treesdrawing2.jpg)
+<div style="display:inline-flex">
+<img src="https://d2h13boa5ecwll.cloudfront.net/20231223midlifecrisis/treesdrawing.jpg" style="zoom:80%;display:inline-flex;width:40%;" />
 
-![pencildrawing](/Users/tuo/Desktop/crissis_images/pencildrawing.gif)
+<img src="https://d2h13boa5ecwll.cloudfront.net/20231223midlifecrisis/pencildrawing2.gif" style="zoom:80%;display:inline-flex;margin-left:20%;width:40%;" />
+</div>
+
+<cite> </cite>
 
 It is an intersting experience - two human beings are playing, sharing and connecting. There are some vibrations.
 
@@ -118,9 +122,8 @@ No drugs, no alcohol.
 
 I need to clarify a little bit here: the things I referred to above, such as the essential truth, fundamental principles, objective realtit, natural, universe, or the alchemist -whatever you name or label - all points to something beyond.
 
-![universe_deeper](/Users/tuo/Desktop/crissis_images/universe_deeper.jpg)
+<img src="https://d2h13boa5ecwll.cloudfront.net/20231223midlifecrisis/universe_deeper.jpg" style="zoom:60%;display:flex;" />
 
-图片  Deus sive Natura, nature, universe, the tao, god, first principle of zen, Flying Spaghetti Monster (将手稿草图，用尝试用chatgpt4 or other AI生成简单的示意图)
 
 The thing behind is something couldn't be put into words. It might be interpreted as an intuition of  "Oneness", "Void", "Emptyness", "Unity" or "Substance". But those would limit it, as if it is only related to religion. It is beyond human language yet not isolated from our daily life. No complicted jargons or fancy spritual words need to be put here. Anyone or anything that looks up to the sky right above them could get it. Therefore, the word "universe" is more common and relatable for everyone, regardless of their background, ethitiy, color or nationlitiy, and will be used in following part of this article as reference to that inexpressible, indescribable, incomprehensible, infinitely elusive thing, not by its literal meaning in science.
 
@@ -130,7 +133,8 @@ There is an ineresting story from Chuang-tzu, who is a classic and famous Taoism
 
 It literally says: There are thousands of thousands of holes in the mountains with different shapes. Some look like a nose, some look like a mouth, some look like an ear, with different internal structures. When the wind is blowing on the earth, either small or strong, those holes generate different sounds, each with a unique pitch and tone. In whole, it is as if nature is conducting a symphony or orchestra. How harmonious it is!
 
-图片 风吹百翘![wind_holes](/Users/tuo/Desktop/crissis_images/wind_holes.jpg)
+<img src="https://d2h13boa5ecwll.cloudfront.net/20231223midlifecrisis/wind_holes.jpg" style="zoom:60%;display:flex;" />
+
 
 Each hole has a different internal structure—some may look messy, and some may looks perfect. However, when each hole is self-asserting, each contributes its own unique tone to that grand melody. Despite their differences and diversity, each has its root in the shared harmony of universe. These individuals are somehow connected at their deepest level. When each is expressing themselfves, quite counterintuitively, they don't have a specfic aim for that harmony, or it doesn't exist in their heads; it is never part of their initial drives—it is all about themseves. 
 
@@ -204,9 +208,11 @@ I believe that programming and life is intricately intertwined. In order to get 
 
 With that said, If someone have one's mindset prepared and got some content someone want to express, the cutting-edge technology like AI can open up numerous possibilities. Prompt engineering allows tweaking input for detailed and sepcific request, treating it as if assigned a particular role to get the optimal results. Asisstants finne-tune and transform into your personal agents, while tools like AutoGen and LangChain extends LLM with external components, making creation of LLM-driven applications more conveniently.
 
-![drafts](/Users/tuo/Desktop/crissis_images/drafts.gif)
+<img src="https://d2h13boa5ecwll.cloudfront.net/20231223midlifecrisis/drafts.gif" style="zoom:100%;display:flex;" />
 
-(ps: Every time,  I try to write my first shitty drafts on paper, so that I can revisit and make adjustments. When I type them into computer, I can omit some details in the process and just keep only  the essentials. This forces me to concentrate on the content, without worrying about style, such as deciding on the font size from the begining.)
+<cite>(ps: Every time,  I try to write my first shitty drafts on paper, so that I can revisit and make adjustments. When I type them into computer, I can omit details I found trivial in the process and just keep only  the essentials. This forces me to concentrate on the content, without worrying about style, such as deciding on the font size from the begining.)
+</cite>
+
 
 There is a delicate balance between humanity and tools. Tools won't steal the thunder of the content; instead, they assist in delivering and expressing it in a natural way, where the care and empathy of a human being are best presented. The uniqueness of content is embedded in the form, facilitated by new tools like AI. With those tools, the content could reach out to more people, maybe that is one message from universe so that harmony could be echoed and vibrated in a bigger scale.
 
