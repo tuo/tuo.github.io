@@ -200,20 +200,19 @@ I believe that programming and life is intricately intertwined. In order to get 
 
 With that said, If someone have one's mindset prepared and got some content someone want to express, the cutting-edge technology like AI can open up numerous possibilities. Prompt engineering allows tweaking input for detailed and sepcific request, treating it as if assigned a particular role to get the optimal results. Asisstants finne-tune and transform into your personal agents, while tools like AutoGen and LangChain extends LLM with external components, making creation of LLM-driven applications more conveniently.
 
-If I'm a designer and doesn't know any code, I could quickly get my MVP up and running with the help of AI; If I come into something new, I could ask AI to get a quick summary and key breakdown to get an overview. Both are very good starting points to begin with. The entry barriare is lowered and more accessrisable to people. However, on the contray , we shouldn't  mistake the tool for the content or the purpose itself.
+//注释If I'm a designer and doesn't know any code, I could quickly get my MVP up and running with the help of AI; If I come into something new, I could ask AI to get a quick summary and key breakdown to get an overview. Both are very good starting points to begin with. The entry barriare is lowered and more accessrisable to people. However, on the contray , we shouldn't  mistake the tool for the content or the purpose itself.
 
 【图片】
 
 (Ps: 草稿GIF ：每次都是先写content,然后打字到电脑，一点点修正，这样可以专注在内容之上，不用管是markdown还是字体是多大)
 
-There is a delicate balance between humanity and tools. Tools won't steal the thunder of the content; instead, they assist in delivering and expressing it in a natural way where care and empathy of human being are best presented. The uniqueness of content is embedded in the uniqueness of the form that facliicatedy by the new tools like AI.
+There is a delicate balance between humanity and tools. Tools won't steal the thunder of the content; instead, they assist in delivering and expressing it in a natural way, where the care and empathy of a human being are best presented. The uniqueness of content is embedded in the form, facilitated by new tools like AI. With those tools, the content could reach out to more people, maybe that is one message from universe so that harmony could be echoed and vibrated in a bigger scale.
 
-There is one side - that is human , another is the tools. If the tools like AI could remove the barrier for knowlege sharing, then i means the status of human is acutally riased up just like what happened in Humantrism movement.
+On one side, there is the human; on the other, there are the tools. If tools like AI can lower barriers for knowledge sharing, it means the status of humans is actually elevated and levelled up, much like what happened in the Humanism movement.
 
 图片 跷跷板
 
-Human are end-in-itself, not means.
-
+Humans are an end-in-itself, not a means.
 
 
 In the digital era, and AI, 对比， 人文主义是将人身上被GOD套的锁链中解脱出来，人得到解放；而现在是传统瓦解value崩溃，个性得到极大的解放，人与人通信变得轻而易举，但是社会撕裂和人们之间相互隔离缺加重了，却都掉进虚无主义陷阱，只能用多巴胺娱乐来麻痹自己，同时将自己困在了rat race中，人某种程度是解放，却要套上另外的枷锁。而
@@ -224,9 +223,16 @@ The humantrism revivement is the one how could we aawake the inen self , to reco
 
 ## Summary
 
-A crisis, on the other hand, could leads me to have doubts, and evokes a multitude of  questions about myself and be a great guide. I found that if I dont' reject negative feelings nor try to hold on to positive feelings, I'm in a better position to recieve the subtle messages universe whispers.  as 贺拉斯 暴风雨, not only I rest well instorm, but also I'm not cling to  the sunshine in sunny days.  I mean it is always there, and it is just that I rejected the inner child and closed off the inner light, either voluntarily or involuntarily, and turn to seek from outside, for a long time. Now I feel that life is more about art and the subconscious than just being a logical/rational calculator and conscious. Still, it doesn't need to be mystic, abstract, regional, and spiritual; just something I could access in my ordinary daily routines, nothing special.
+A crisis, on the other hand, could lead me to have doubts and evoke a multitude of questions about myself, serving as a great guide. I've found that if I don't reject negative feelings or try to hold on to positive feelings, I'm in a better position to receive the subtle messages the universe. Like what Horace's Epistle to his teacher Maecenas where he clamins not to be devoted to any particular sect but is rather an eclectic by nature. 
 
-We are all still children inside our hearts, aren't we?  Life is a play.
+> Nullius addictus iurare in verba magistri, – quo me cumque rapit tempestas, deferor hospes. 
+> ("No one is addicted to swearing by the words of the teacher, – to which whenever the storm takes me, I am carried away as a guest.")
+
+I mean it's always there, and it's just that I rejected the inner child and closed off the inner light, either voluntarily or involuntarily, turning to seek validation from outside for a long time. I put up an invisible chain a shackle on myself. Time to put down.
+
+In this stage, I feel that life is more about art and the subconscious than just being a logical/rational calculator and conscious. Still, it doesn't need to be mystic, abstract, or spiritual; just something we can access in our ordinary daily routines. It is inside us. We're all empowed to play, create, connect and heal.
+
+Aren't we all still children inside our hearts? Life is just a state of play.
 
 
 
