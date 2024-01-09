@@ -166,11 +166,9 @@ Just think about it: the midlife crisis is actually not that big crisis comparin
 
 In a world where flooded with so many stimulis and easy-pleasures-gainings products(source: [*Thanks to the Internet, I have probably seen more naked ladies than all of my ancestors combined. : Showerthoughts (reddit.com)*](https://www.reddit.com/r/Showerthoughts/comments/2cjnmc/thanks_to_the_internet_i_have_probably_seen_more/)),  to find ones' real vocation, one can't rely on one's will and seek some magic silver bullet from the outside. Because that outside relief is like spring, the more you press it, the higher it would bounce back, hence hurting more. We need connect to something bigger than us—the universe. We're universe inside a human, not a human inside universe. From the attainment of that state of being and high-functioning, universe would support us by all the powers and potentialities inherent in its diversity and vitality, hence one's strength would go far beyond what ones's will and ego-form self could offer. That force and empowerment could help one gain clarity through the foggy smoky cloud haunting us, and find themselves a serenity, peace and clam state. That source of strength starts from the center of one's being.
 
-The nosier it is, the more obvious the quietude would be. Maybe this big crisis offers us a great time to reveal more about ourselves and give us just enough light in the darkness to know the direction.
+The nosier it is, the more obvious the quietude would be. Those strong negative feelings and emotions from the so-called "crisis",maybe—I feel—is the desperate awakening call to some part of my rigid/fixed way of living. In that moment, I have never felt so aliving before, as I realized I had been dismissing and rejecting it.
 
-We are always the humble of students of the universe. Kid are maybe the perhaps closest metaphorical symbol to the virtues of the universe. In one way, kid is alway the greatest teacher. As he is learning to learn, I'm learing to unlearn;  as he is learning to do plus, I'm learning to do minus.
-
-Let that crisis just be another play.
+Not too bad, fun to play.
 
 ## AI
 
