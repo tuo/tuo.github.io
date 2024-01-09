@@ -217,12 +217,11 @@ With that said, If someone have one's mindset prepared and got some content some
 <cite>(ps: Every time,  I try to write my first shitty drafts on paper, so that I can revisit and make adjustments. When I type them into computer, I can omit details I found trivial in the process and just keep only  the essentials. This forces me to concentrate on the content, without worrying about style, such as deciding on the font size from the begining.)
 </cite>
 
-
 There is a delicate balance between humanity and tools. Tools won't steal the thunder of the content; instead, they assist in delivering and expressing it in a natural way, where the care and empathy of a human being are best presented. The uniqueness of content is embedded in the form, facilitated by new tools like AI. With those tools, the content could reach out to more people, maybe that is one message from universe so that harmony could be echoed and vibrated in a bigger scale.
 
 On one side, there is the human; on the other, there are the tools. If tools like AI can lower barriers for knowledge sharing, it means the status of humans is actually elevated and levelled up, much like what happened in the Humanism movement.
 
-It is the human, in the midst of a constant influx of information, who takes time to be willing to be bored, alone with his thoughts and feelings, and digs himself out on his own, that can truly make the best use of the tools and information without being drowned by them in our time. 
+It is the human, in the midst of a constant influx of information, who takes time to be willing to be bored, alone with his thoughts and feelings, and digs himself out on his own, that can truly make the best use of the tools and information without being drowned by them in our time. As what substance imparts infinite attributes to Spinoza, to get into that deep primordial state helps us to not be blinded by the diversities of forms on the surface, as it is the source and origin of all forms, hence to express it in the most natural way without being limited or overwhelmed by the tools and styles.
 
 There is a statement from Chinese art critics,  Chang Huai’s *Treatise on Chinese Painting* :
 
