@@ -82,7 +82,7 @@ One of those experiments is about trying to distract my sons' attenion from his 
 
 <cite> </cite>
 
-It is an intersting experience - two human beings are playing, sharing and connecting. There are some vibrations.
+It is a clicking experience - two human beings are playing, sharing and connecting. There are some vibrations.
 
 Those drawings, by any academic standards or social standards, wouldn't be considered art. But I feel it is the art, as for me , art is about epxressing oneself honstly and being authentic, showing what one sees and feels in life with their heart. Art is not fixed or limted to some labels, titles or jobs; it is limitless and  is everywhere in everybody.
 
@@ -238,9 +238,9 @@ A crisis, on the other hand, could lead me to have doubts and evoke a multitude 
 
 I mean it's always there, and it's just that I rejected the inner child and closed off the inner light, either voluntarily or involuntarily, turning to seek validation from outside for a long time. I put up an invisible chain a shackle on myself. Time to put down.
 
-In this stage, I feel that life is more about art and the subconscious than just being a logical/rational calculator and conscious. That spontaneous reflection, that harmony, that fusion of subjective and objective reality maybe mostly does not take place in the conscious realm through a logical process or any artificial effort. Still, it doesn't need to be mystic, abstract, or spiritual; just something we can access in our ordinary daily routines. It is inside us. We're all empowed to play, create, connect and heal.
+In this stage, I feel that life is more about art and the subconscious than just being a logical/rational calculator and conscious(The Matrix). That spontaneous reflection, that harmony, that fusion of subjective and objective reality maybe mostly does not take place in the conscious realm through a logical process or any artificial effort. Still, it doesn't need to be mystic, abstract, or spiritual; just something we can access in our ordinary daily routines. It is inside us. We're all empowed to play, create, connect and heal.
 
-Aren't we all still children inside our hearts? To make living itself an art, as artist of life.
+Aren't we all still children inside our hearts? To play, and make living itself an art, as artist of life.
 
 I want to end with quotes from Ernest Becker's <<The Denial of Death>>：
 
