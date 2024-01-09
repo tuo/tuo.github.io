@@ -101,7 +101,7 @@ article ul li li li {
 }
 
 #avatar {
-  background-image: url('/static/images/avatar2.jpg');
+  background-image: url('/static/images/avatar.jpg');
   background-size: cover;
   height: 200px;
   width: 200px;
@@ -116,7 +116,7 @@ article ul li li li {
 }
 
 .avatar1 {
-  background-image: url('/static/images/avatar2.jpg');
+  background-image: url('/static/images/avatar.jpg');
   background-size: cover;
   height: 100px;
   width: 100px;
