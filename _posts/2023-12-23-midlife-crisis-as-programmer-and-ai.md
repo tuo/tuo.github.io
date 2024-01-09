@@ -51,6 +51,7 @@ It was one of those ordinary moments; my son sat there playing with his building
 
 <img src="https://d2h13boa5ecwll.cloudfront.net/20231223midlifecrisis/fishingbasketball.jpg" style="zoom:35%;display:flex;" />
 
+
 It reminds me of those similar sparks I had during playing basketball and fishing. In some intense situations, I found that if I was able to drop out my pre-plans of my "best" moves to attack my opponents,  suddenly my mind looks like it hasn't got a chance to spin up and plot some plans. It is a natural and instinctive move just coming out of me. That move is totaly unexpected yet smooth. The oppnonet is like a dance companion. We dont' figiht against each other; instead we dance togother. There is not a “me”  in this picutre; the hoop, the oponent, and myself are just harmoniously blended as one.  I'm so concentrated, like my kid is playing; somehow, the line that divides and differentiates people and objects seems to be gone. I remember I keep recalling that unfathomable experience all the time.
 
 I also notice that when my son is playing, he is free from the fear of being judged by what the final result should be, the rules instilled with how it should be played, not to meet somenoes' expxectation or approval, above the duality of good/bad and past/future.  That 's something that we can all relate to,  that's who we were in childhood. Kids know how to play, they're born with the gift to just play, to explore, to discover.  
@@ -88,7 +89,7 @@ Those drawings, by any academic standards or social standards, wouldn't be consi
 
 
 
-## Creativtiy 
+## Creativity 
 
 As I build up those expeirements, one thing starts to emerge and keeps hitting on me.  That's when I do one activity, for example,  Active A, and I bump into a wall, something like writer's block, where you feel you have nothing to say about and no clue how to move on.  You're kinda in a mess and have no inspirations, like a stream that gets drained.
 
