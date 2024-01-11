@@ -222,7 +222,13 @@ On one side, there is the human; on the other, there are the tools. If tools lik
 
 It is the human, in the midst of a constant influx of information, who takes time to be willing to be bored, alone with his thoughts and feelings, and digs himself out on his own, that can truly make the best use of the tools and information without being drowned by them in our time. As what substance imparts infinite attributes to Spinoza, to get into that deep primordial state helps us to not be blinded by the diversities of forms on the surface, as it is the source and origin of all forms, hence to express it in the most natural way without being limited or overwhelmed by the tools and styles.
 
-There is a statement from Chinese art critics,  Chang Huai’s *Treatise on Chinese Painting* :
+One name just popped into my head as I'm writing this part. That is Jimi Hendrix - a combination of creativity and application of technology. The guy who pioneered the use of all the possibilities of the electric guitar as an instrument, an all-encompassing genius, shows us how to use technology to explore, broaden, and expand one's creative potentials and take expression(guitar) of one's life(music) into uncharted territories.
+
+> “I  want my music to go inside the soul of a person. You know, for me it's colours. I want people to feel the music the same way I see it. It's just colours. That's it. The rest is just painted with a little science fiction here and there”. (Jimi: All Is By My Side)
+
+I wonder what Jimi Hendrix would say in this AI era. But I guess I know his answer. That unique and human in quality, the intuition, the raw imagination and direct feeling from life, to express one's inner voice/serenity, where that limitless goes beyond limitation, is really what matters utmost. Protect that inner world, that purity.
+
+Interestingly, there is a statement from an ancient Chinese art critics, Chang Huai’s *Treatise on Chinese Painting* :
 
 > Only he who reaches Reality can follow Nature’s spontaneity and be aware of the subtlety of things, and his mind will be absorbed by them. His brush will secretly be in harmony with movement and quiescence and all forms will issue forth. Appearances and substance are caught in one motion as the life breath reverberates through them. He who is ignorant of Reality becomes a slave of passion and his nature will be distorted by externalities. He sinks into confusion and is disturbed by thoughts of gain and loss. He is nothing more than a prisoner of brush and ink. How can he speak of genuine works of Heaven and Earth?
 
