@@ -145,7 +145,7 @@ Each hole has a different internal structure—some may look messy, and some may
 
 Suprisingly, when one expresses their seeing and feeling about the universe through his unfilterd lens in their own way, the universe seems to better connect to others. It awakens the true authentic side of someone, inviting them to make their own sounds—no pretentiousness, no imitation. Hence connecting as a whole and feeling the flow of harmony.
 
-Don't seek to copy what someoens does; dont seek them—seek what they're seeking, what they are after. Don't concentrate on the finger; instead, focus on what it is pointing to—the moon, the universe, the harmony—the one possessing the greatest source of creativy, beauty and compassion.
+Don't seek to copy what someone does; dont seek them—seek what they're seeking, what they are after. Don't concentrate on the finger; instead, focus on what it is pointing to—the moon, the universe, the harmony—the one possessing the greatest source of creativy, beauty and compassion.
 
 
 
@@ -156,6 +156,8 @@ The midlife life crisis, if I don't identify myself with it, If I just leave the
 Life awalys providers you something new. And those are great times to challenge some long-held ideas, assumptions, or impressions. To peel off the ego, artificallity, and prentence, to engate in a direct, face-to-face conversation with the naked self. Then it is just a play in a different form.
 
 Anyone who tries and pratices basic punches would understand that, instead of just focusing on using fist or hand alone, it is actaully a flow and sequence involving pretty much the whole body.  The power starts with legs from the groud, then the hips and core, back and shoulders, and finally to your arms and fists. Different msucles engage and do their own work; they know when to be flexible and when to be focused. As a result, they provide maximum power with efficient body mechanics. The body seems to know how to corrdinate and express itself in its nature and spontaneous way as one whole, indispensab, and indivisible. This is the same for shooting a basketball. The majority of power to throw the ball comes not mainly from the arms and hands, but rather from legs ,hip and core.
+
+The world is your oyster.
 
 In sports, I started to do experiment, committing myself to let my mind recess and letting the body reveal itself, to be the protagonist. Trusting it and letting it work in its own way. With more awareness and pratice, I found that I'm able to get into that flow/zone state and have that lazer focus more often.
 
@@ -205,9 +207,10 @@ Coding is not just about being alone with computers; it overlaps with one's othe
 
 It's also about balance, more than just logic—it's an art. To be agile is to embrace changes, cultiviate a hunch knowing when to rely on veteran experiences and when to think outside the box.  One common scenario is that when we write code, to some point, we got stuck.Much like creative progress, I found one could try following tips: First, pull yourself away from that little screen to explain to colleagues or someone else. This forces you to step out of whatever context you're in, think from a high level, and start with the basics. Second, go out, take a walk, have a cup of tea or coffee, do some stretching, etc., and do it wholeheartedly, without the worries or tanglings of the previous problem.
 
-It's possible that someone could gain different perspectives when returning to the desk. Many times, when I try to articulate my problem and what's my stragtegy, suddenly I understand why.  Give a try to trust that the universe and life could shed some light somehow. So, when you feel stuck, try pausing and stepping out of that space to try something different.
+It's possible that someone could gain different perspectives when returning to the desk. Many times, when I try to articulate my problem and what's my stragtegy, suddenly I understand why. Give a try to trust that the universe and life could shed some light somehow. So, when you feel stuck, try pausing and stepping out of that space to try something different.
 
 I believe that programming and life is intricately intertwined. No one could just keep consuming, and leave no time for digestion; No one could just keep multitasking, and leave no time for singetasking. In order to get most out of our reasoning, logic analysis and decision-making, one seemingly unconventional approach is to suspend those desires and thoughts temporarily at times. I mean, to create a gap, a space for it to let the analytic mind rest and let raw ability of connection to reflect itself. It is in that space, for instance, times of doing nothing, where by social standards our behavior it might look childish, non-productive, weird and meaningless, the mind won't be kept bombarded, and brain has time to cleanup the working memory, and universe has a chance for its magic to happen, therefore keep a high-level of efficiency and quality of our congnitive function and be a state of inviting the peace and creativity. 
+
 
 With that said, If someone have one's mindset prepared and got some content someone want to express, the cutting-edge technology like AI can open up numerous possibilities. Prompt engineering allows tweaking input for detailed and sepcific request, treating it as if assigned a particular role to get the optimal results. Asisstants finne-tune and transform into your personal agents, while tools like AutoGen and LangChain extends LLM with external components, making creation of LLM-driven applications more conveniently.
 
@@ -246,7 +249,7 @@ In this stage, I feel that life is more about art and the subconscious than just
 
 Aren't we all still children inside our hearts? Maybe the kid/child is our greatest teacher from universe. Wow, my friend, let us be reminded: we already have this greatest teacher inside us. 
 
-To play, and make living itself an art, as artist of life.
+To play, and make living itself an art, as artist of life. 
 
 I want to end with quotes from Ernest Becker's <<The Denial of Death>>：
 
