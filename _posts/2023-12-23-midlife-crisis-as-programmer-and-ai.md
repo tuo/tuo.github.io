@@ -32,6 +32,8 @@ Damn, that really hurts.
 
 ## Observations from Kid Playing
 
+> We think we understand the rules when we become adults but what we really experience is a narrowing of the imagination. (David Lynch)
+
 There is a ruler from society that measures our outward material success. These metrics are visible, and we're accustomed to measuring ourselves by them since we grow up. We aspire to climb higher in that ranking by that ruler, believing it will make us feel safer and better. Subconsciously, it becames a part of our ego, and even we identify ourselves with it.
 
 Now, by this ruler, I'm sliding to the bottom part, fearing being eliminated by KPIs. That ego and identity starts working against me, triggering a chain of negativity, connected with some of the worst memories and emotions from the past. This leads to a serious self-doubt. I can feel the urge to desperately try to get out this bottom as soon as possible.
