@@ -215,6 +215,8 @@ It's also about balance, more than just logic—it's an art. To be agile is to e
 
 It's possible that someone could gain different perspectives when returning to the desk. Many times, when I try to articulate my problem and what's my stragtegy, suddenly I understand why. Give a try to trust that the universe and life could shed some light somehow. So, when you feel stuck, try pausing and stepping out of that space to try something different.
 
+Programming is art in certain way.
+
 I believe that programming and life is intricately intertwined. No one could just keep consuming, and leave no time for digestion; No one could just keep multitasking, and leave no time for singetasking. In order to get most out of our reasoning, logic analysis and decision-making, one seemingly unconventional approach is to suspend those desires and thoughts temporarily at times. I mean, to create a gap, a space for it to let the analytic mind rest and let raw ability of connection to reflect itself. It is in that space, for instance, times of doing nothing, where by social standards our behavior it might look childish, non-productive, weird and meaningless, the mind won't be kept bombarded, and brain has time to cleanup the working memory, and universe has a chance for its magic to happen, therefore keep a high-level of efficiency and quality of our congnitive function and be a state of inviting the peace and creativity. 
 
 
