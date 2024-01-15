@@ -203,7 +203,7 @@ The fundamental aspect is this: as a human being with free will, how can we expl
 
 As a developer drawing from my 13 years of experiences, by observing both myself and other devlopers from the trenches, I've noticed that some developer(include me)  can't avoid falling into the trap of identifing too much with a specific language/techstack. To learn something new, even totally contrary to what someone knew, it would be a process like someone can't fully listen when somebody speaks, because their mind is cluttered with inner chatter and jugements. It is like a cup full of water, you can't fill in more water. Similary, the mind has become jammed and is not able to be flexiable and fluid to in taking in new stuff, slowingly becomes dead water, resulting in stagnation and fixation on technical approaches.
 
-A programming language is worth learning if it is different enough from all you already know to change your mind, exposing you to new abstractions. That reminds me of Closure programming language when learning Java back in early days.
+A programming language is worth learning if it is different enough from all you already know to challenge your mind, exposing you to new abstractions. That reminds me of Closure programming language when learning Java back in early days.
 
 > To a man with a hammer, everything looks like a nail.
 
